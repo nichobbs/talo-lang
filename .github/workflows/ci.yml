@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+# Least privilege by default; the auto-merge job needs write to merge.
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  # The build gate: the phonotactic linter is the validator for every lexicon
+  # entry, so its test suite must stay green. Zero dependencies — Node's
+  # built-in type-stripping + test runner, no install step.
+  test:
+    name: Phonotactic linter tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run tests
+        working-directory: tools/phonotactic-linter
+        run: npm test
+
+  # Auto-merge a PR only when (a) the build above passed AND (b) every changed
+  # file is documentation. Code changes (anything outside docs / *.md / LICENSE)
+  # are never auto-merged — they fall through to human review.
+  auto-merge-docs:
+    name: Auto-merge docs-only PRs
+    needs: test
+    if: >-
+      github.event_name == 'pull_request' &&
+      github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Classify changed files
+        id: classify
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          files="$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")"
+          echo "Changed files:"
+          echo "$files"
+          docs_only=true
+          if [ -z "$files" ]; then
+            # No file changes -> nothing to merge automatically.
+            docs_only=false
+          fi
+          while IFS= read -r f; do
+            [ -z "$f" ] && continue
+            case "$f" in
+              docs/*|*.md|LICENSE|LICENSE.*) ;;          # documentation -> ok
+              *) docs_only=false ;;                       # any code -> needs review
+            esac
+          done <<< "$files"
+          echo "docs_only=$docs_only" >> "$GITHUB_OUTPUT"
+          echo "Result: docs_only=$docs_only"
+
+      - name: Merge
+        if: steps.classify.outputs.docs_only == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          echo "All changed files are documentation and the build passed — merging PR #$PR."
+          gh pr merge "$PR" --squash --delete-branch
