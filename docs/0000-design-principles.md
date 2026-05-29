@@ -93,9 +93,11 @@ derivation so the *system* is learnable even when individual roots are not
   OCR / learning-material ubiquity, **not** because it is neutral. Diacritics
   are an adoption tax (cf. Esperanto’s circumflexes).
 
-> **TODO (Phase 1):** fix the exact phoneme inventory, the phonotactic grammar,
-> the grapheme set, and the fixed-stress rule. Build a phonotactic linter from
-> this spec — it becomes the validator for every lexicon entry (Phase 3).
+> **DONE (Phase 1):** the exact phoneme inventory, phonotactic grammar, grapheme
+> set, fixed-stress rule, and allophonic tolerance contract are specified in
+> `docs/0001-phonology.md`. The phonotactic linter
+> (`tools/phonotactic-linter/`) implements that spec and is the validator for
+> every lexicon entry (Phase 3).
 
 -----
 
@@ -292,7 +294,7 @@ the least under our control.
 
 |#  |Decision                                           |Notes                                                                           |
 |---|---------------------------------------------------|--------------------------------------------------------------------------------|
-|O-1|Exact phoneme inventory & phonotactic grammar      |Phase 1. Drives the linter.                                                     |
+|O-1|Exact phoneme inventory & phonotactic grammar      |✅ **Resolved** in `docs/0001-phonology.md`. Drives the linter.                  |
 |O-2|The specific POS suffix forms (noun/verb/adj/adv/…)|Phase 2. Placeholders only so far.                                              |
 |O-3|Derivation/affix system                            |Phase 2. The high-leverage feature.                                             |
 |O-4|Role-marker inventory (ditransitives, obliques)    |Phase 2.                                                                        |

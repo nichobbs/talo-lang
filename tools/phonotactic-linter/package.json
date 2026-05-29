@@ -1,0 +1,20 @@
+{
+  "name": "talo-phonotactic-linter",
+  "version": "0.1.0",
+  "description": "Phonotactic linter for Talo — validates whether a candidate word is legal Talo per docs/0001-phonology.md. The gate for every lexicon entry.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-lint": "./src/cli.ts"
+  },
+  "scripts": {
+    "lint": "node --experimental-strip-types src/cli.ts",
+    "test": "node --experimental-strip-types --test test/linter.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
