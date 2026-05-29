@@ -50,7 +50,7 @@ Freeze bottom-up (phonology → morphology → core lexicon); test top-down (sta
 |0    |Design principles & decision log ✅ (`docs/0000-design-principles.md`)        |
 |1    |Phonology & orthography spec + phonotactic linter ✅ (`docs/0001-phonology.md`)|
 |2    |Morphology & grammar core ✅ (`docs/0002-morphology-grammar.md`)              |
-|3    |Frequency-weighted core lexicon (~1,000–1,500 roots) as a dataset            |
+|3    |Frequency-weighted core lexicon (~1,000–1,500 roots) as a dataset 🚧 (`docs/0003-lexicon.md`, `data/concepts.tsv`)|
 |4    |“Hello world” vertical slice — real use, ~300 words                          |
 |5    |Tooling: linter, parser/validator, derivation explorer, SRS materials        |
 |6    |Governance model & freeze boundary                                           |
@@ -69,8 +69,8 @@ talo/
     0002-morphology-grammar.md  # Phase 2
     ...                         # one ADR per significant decision
   data/
-    lexicon.<csv|json>          # concept -> form -> rationale -> source
-    concepts.<csv|json>         # frequency-weighted concept list
+    concepts.tsv                # frequency-weighted concept list (meanings) — Stage 1 ✅ core
+    lexicon.tsv                 # concept -> form -> rationale -> source — Stage 2 (next)
   tools/
     phonotactic-linter/
     parser/

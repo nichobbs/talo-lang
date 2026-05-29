@@ -1,0 +1,373 @@
+id	gloss	domain	tier	pos_hint	is_root	derivation	source	notes
+FUN-001	who	FUN	1	fun	yes		SW,FUN	question word, in-situ (0002 §6.4)
+FUN-002	what	FUN	1	fun	yes		SW,FUN	question word
+FUN-003	where	FUN	1	fun	yes		FUN	question word
+FUN-004	when (Q)	FUN	1	fun	yes		FUN	question word
+FUN-005	why	FUN	1	fun	yes		FUN	question word
+FUN-006	how	FUN	1	fun	yes		FUN	question word
+FUN-007	which	FUN	2	fun	yes		FUN	question word
+FUN-008	how many / how much	FUN	1	fun	yes		FUN	question word, quantity
+FUN-009	or	FUN	1	fun	yes		FUN	disjunction (cf. closed-class 'and'=i, 0002 §6.5)
+FUN-010	but	FUN	1	fun	yes		FUN	adversative
+FUN-011	if	FUN	1	fun	yes		FUN	conditional
+FUN-012	because	FUN	1	fun	yes		FUN	causal
+FUN-013	so / therefore	FUN	2	fun	yes		FUN	consequence
+FUN-014	although	FUN	2	fun	yes		FUN	concessive
+FUN-015	yes	FUN	1	fun	yes		FUN	affirmation
+FUN-016	no (answer)	FUN	1	fun	yes		FUN	negative answer; distinct from clausal negator ne (0002 §6.2)
+FUN-017	very	FUN	1	fun	yes		FUN	intensifier
+FUN-018	also / too	FUN	1	fun	yes		FUN	additive
+FUN-019	only / just	FUN	1	fun	yes		FUN	restrictive
+FUN-020	again	FUN	2	fun	yes		FUN	repetition
+FUN-021	maybe / perhaps	FUN	2	fun	yes		FUN	epistemic
+QTY-001	zero	QTY	1	num	yes		MOD	numeral root (0003 §5)
+QTY-002	one	QTY	1	num	yes		SW,LJ	numeral root
+QTY-003	two	QTY	1	num	yes		SW,LJ	numeral root
+QTY-004	three	QTY	1	num	yes		SW	numeral root
+QTY-005	four	QTY	1	num	yes		SW	numeral root
+QTY-006	five	QTY	1	num	yes		SW	numeral root
+QTY-007	six	QTY	2	num	yes		IDS	numeral root
+QTY-008	seven	QTY	2	num	yes		IDS	numeral root
+QTY-009	eight	QTY	2	num	yes		IDS	numeral root
+QTY-010	nine	QTY	2	num	yes		IDS	numeral root
+QTY-011	ten	QTY	1	num	yes		SW	numeral root; powers of ten are roots
+QTY-012	hundred	QTY	1	num	yes		SW	numeral root
+QTY-013	thousand	QTY	2	num	yes		IDS	numeral root
+QTY-014	million	QTY	3	num	yes		MOD	numeral root
+QTY-015	eleven	QTY	2	num	no	ten + one	IDS	compositional numeral (0003 §5) — not a root
+QTY-016	twenty	QTY	2	num	no	two + ten	IDS	compositional numeral
+QTY-017	first	QTY	2	mod	no	one + ordinal(modifier reading)	IDS	ordinals are derived
+QTY-018	all	QTY	1	fun	yes		SW	quantifier
+QTY-019	many / much	QTY	1	fun	yes		SW	quantifier
+QTY-020	few / little	QTY	1	fun	yes		SW	quantifier; core pair with many, kept (rule 1)
+QTY-021	some	QTY	1	fun	yes		IDS	quantifier
+QTY-022	none	QTY	2	fun	no	ne + some / ne + all	IDS	derivable via clausal negator (0002 §6.2)
+QTY-023	every / each	QTY	2	fun	yes		IDS	quantifier
+QTY-024	more	QTY	1	fun	yes		IDS	core pair with less, both kept (rule 1)
+QTY-025	less	QTY	2	fun	yes		IDS	core pair with more, kept (rule 1)
+QTY-026	enough	QTY	2	fun	yes		IDS	
+QTY-027	half	QTY	2	num	yes		IDS	
+QTY-028	number	QTY	2	n	yes		IDS	
+QTY-029	part / piece	QTY	2	n	yes		IDS	
+QTY-030	count	QTY	2	v	yes		IDS	
+TIM-001	time	TIM	1	n	yes		IDS	
+TIM-002	day	TIM	1	n	yes		SW	
+TIM-003	night	TIM	1	n	yes		SW,LJ	
+TIM-004	morning	TIM	2	n	yes		IDS	
+TIM-005	evening	TIM	2	n	yes		IDS	
+TIM-006	today	TIM	1	fun	yes		IDS	time-word (0002 §5.1)
+TIM-007	tomorrow	TIM	1	n	yes		IDS	time-word
+TIM-008	yesterday	TIM	1	n	yes		IDS	time-word
+TIM-009	now	TIM	1	fun	yes		IDS	time-word
+TIM-010	then (at that time)	TIM	2	fun	yes		IDS	time-word
+TIM-011	year	TIM	1	n	yes		SW	
+TIM-012	month	TIM	2	n	yes		IDS	
+TIM-013	week	TIM	2	n	yes		MOD	
+TIM-014	hour	TIM	2	n	yes		MOD	
+TIM-015	before (earlier than)	TIM	1	fun	yes		IDS	temporal/spatial relation
+TIM-016	after (later than)	TIM	1	fun	yes		IDS	temporal/spatial relation
+TIM-017	always	TIM	1	fun	yes		IDS	
+TIM-018	never	TIM	2	fun	no	ne + always	IDS	derivable via negator
+TIM-019	often	TIM	2	fun	yes		IDS	
+TIM-020	sometimes	TIM	2	fun	yes		IDS	
+TIM-021	early	TIM	2	mod	yes		IDS	core pair with late, kept
+TIM-022	late	TIM	2	mod	yes		IDS	core pair with early, kept
+PHY-001	sun	PHY	1	n	yes		SW,LJ	
+PHY-002	moon	PHY	1	n	yes		SW	
+PHY-003	star	PHY	1	n	yes		SW	
+PHY-004	sky	PHY	2	n	yes		IDS	
+PHY-005	ground / earth	PHY	1	n	yes		SW	
+PHY-006	world	PHY	2	n	yes		IDS	
+PHY-007	land	PHY	2	n	yes		IDS	
+PHY-008	water	PHY	1	n	yes		SW,LJ	
+PHY-009	sea	PHY	1	n	yes		SW	
+PHY-010	river	PHY	2	n	yes		IDS	
+PHY-011	lake	PHY	2	n	yes		IDS	
+PHY-012	mountain	PHY	1	n	yes		SW	
+PHY-013	stone / rock	PHY	1	n	yes		SW,LJ	
+PHY-014	sand	PHY	1	n	yes		SW	
+PHY-015	soil	PHY	2	n	yes		IDS	
+PHY-016	dust	PHY	2	n	yes		LJ	
+PHY-017	fire	PHY	1	n	yes		SW,LJ	
+PHY-018	smoke	PHY	1	n	yes		SW,LJ	
+PHY-019	ash	PHY	2	n	yes		SW	
+PHY-020	wind	PHY	1	n	yes		SW	
+PHY-021	air	PHY	2	n	yes		IDS	
+PHY-022	rain	PHY	1	n	yes		SW,LJ	
+PHY-023	cloud	PHY	1	n	yes		SW	
+PHY-024	snow	PHY	2	n	yes		SW	
+PHY-025	ice	PHY	2	n	yes		SW	
+PHY-026	light (illumination)	PHY	2	n	yes		IDS	
+PHY-027	shadow / shade	PHY	2	n	yes		LJ	
+PHY-028	metal	PHY	3	n	yes		IDS	
+PROP-001	big	PROP	1	mod	yes		SW	core antonym pair with small, both kept (rule 1)
+PROP-002	small	PROP	1	mod	yes		SW	core pair, kept (un-big would lose a basic word)
+PROP-003	long	PROP	1	mod	yes		SW	
+PROP-004	short	PROP	2	mod	yes		IDS	
+PROP-005	wide	PROP	2	mod	yes		IDS	
+PROP-006	narrow	PROP	2	mod	yes		IDS	core pair, kept (drifted/frequent)
+PROP-007	thick	PROP	2	mod	yes		IDS	
+PROP-008	thin	PROP	2	mod	yes		SW	
+PROP-009	heavy	PROP	2	mod	yes		SW	
+PROP-010	light (in weight)	PROP	2	mod	yes		IDS	
+PROP-011	hot	PROP	1	mod	yes		SW	core pair with cold, kept
+PROP-012	cold	PROP	1	mod	yes		SW	core pair, kept
+PROP-013	warm	PROP	2	mod	yes		IDS	
+PROP-014	new	PROP	1	mod	yes		SW,LJ	
+PROP-015	old (of things)	PROP	1	mod	yes		SW	
+PROP-016	young	PROP	2	mod	yes		IDS	
+PROP-017	good	PROP	1	mod	yes		SW,LJ	core pair with bad
+PROP-018	bad	PROP	1	mod	yes		SW	kept though = good+opposite; basic & high-transfer (rule 1)
+PROP-019	full	PROP	1	mod	yes		SW	
+PROP-020	empty	PROP	2	mod	no	full + -ku(opposite)	IDS	derivable — pruned (policy demo)
+PROP-021	dirty	PROP	2	mod	yes		SW	
+PROP-022	clean	PROP	2	mod	yes		IDS	kept (frequent, not merely 'un-dirty')
+PROP-023	wet	PROP	2	mod	yes		SW	
+PROP-024	dry	PROP	1	mod	yes		SW	
+PROP-025	hard / firm	PROP	2	mod	yes		IDS	
+PROP-026	soft	PROP	2	mod	yes		IDS	
+PROP-027	sharp	PROP	2	mod	yes		SW	core pair with dull
+PROP-028	dull / blunt	PROP	2	mod	no	sharp + -ku(opposite)	SW	derivable — pruned (policy demo)
+PROP-029	straight	PROP	2	mod	yes		SW	
+PROP-030	round	PROP	2	mod	yes		SW	
+PROP-031	flat	PROP	2	mod	yes		SW	
+PROP-032	smooth	PROP	2	mod	yes		SW	
+PROP-033	deep	PROP	2	mod	yes		IDS	
+PROP-034	high	PROP	2	mod	yes		IDS	core pair with low
+PROP-035	low	PROP	2	mod	yes		IDS	core pair, kept
+PROP-036	far	PROP	1	mod	yes		SW	core pair with near
+PROP-037	near	PROP	1	mod	yes		SW	core pair, kept
+PROP-038	fast / quick	PROP	2	mod	yes		IDS	core pair with slow
+PROP-039	slow	PROP	2	mod	yes		IDS	core pair, kept
+PROP-040	strong	PROP	2	mod	yes		IDS	core pair with weak
+PROP-041	weak	PROP	2	mod	no	strong + -ku(opposite)	IDS	derivable — pruned (policy demo)
+PROP-042	correct / right	PROP	2	mod	yes		IDS	core pair with wrong
+PROP-043	wrong	PROP	2	mod	no	correct + -ku(opposite)	IDS	derivable — pruned (policy demo)
+PROP-044	true	PROP	2	mod	yes		IDS	
+PROP-045	same	PROP	1	mod	yes		IDS	core pair with different
+PROP-046	different	PROP	2	mod	no	same + -ku(opposite)	IDS	derivable — pruned (policy demo)
+PROP-047	black	PROP	1	mod	yes		SW,LJ	color
+PROP-048	white	PROP	1	mod	yes		SW	color
+PROP-049	red	PROP	1	mod	yes		SW,LJ	color
+PROP-050	green	PROP	2	mod	yes		SW	color
+PROP-051	yellow	PROP	2	mod	yes		SW	color
+PROP-052	blue	PROP	2	mod	yes		IDS	color
+PROP-053	alive	PROP	2	mod	yes		SW	core pair with dead
+PROP-054	dead	PROP	2	mod	no	alive + -ku(opposite)	SW	derivable; cf. verb 'die' BOD-030
+BOD-001	head	BOD	1	n	yes		LJ	
+BOD-002	hair	BOD	1	n	yes		SW	
+BOD-003	eye	BOD	1	n	yes		SW,LJ	
+BOD-004	ear	BOD	1	n	yes		SW,LJ	
+BOD-005	nose	BOD	1	n	yes		SW	
+BOD-006	mouth	BOD	1	n	yes		SW	
+BOD-007	tooth	BOD	1	n	yes		SW,LJ	
+BOD-008	tongue	BOD	1	n	yes		SW	
+BOD-009	face	BOD	2	n	yes		IDS	
+BOD-010	neck	BOD	2	n	yes		SW	
+BOD-011	hand	BOD	1	n	yes		SW	
+BOD-012	arm	BOD	2	n	yes		IDS	
+BOD-013	finger	BOD	2	n	yes		IDS	
+BOD-014	foot	BOD	1	n	yes		SW	
+BOD-015	leg	BOD	2	n	yes		SW	
+BOD-016	knee	BOD	2	n	yes		SW	
+BOD-017	belly / stomach	BOD	2	n	yes		SW	
+BOD-018	back (body)	BOD	2	n	yes		SW	
+BOD-019	chest / breast	BOD	2	n	yes		SW	
+BOD-020	heart	BOD	2	n	yes		SW	
+BOD-021	blood	BOD	1	n	yes		SW,LJ	
+BOD-022	bone	BOD	1	n	yes		SW	
+BOD-023	skin	BOD	1	n	yes		SW,LJ	
+BOD-024	flesh / meat	BOD	1	n	yes		SW	
+BOD-025	body	BOD	2	n	yes		IDS	
+BOD-026	breathe	BOD	2	v	yes		SW	
+BOD-027	sleep	BOD	1	v	yes		SW,LJ	
+BOD-028	eat	BOD	1	v	yes		SW,LJ	
+BOD-029	drink	BOD	1	v	yes		SW	
+BOD-030	die	BOD	1	v	yes		SW,LJ	cf. 'kill' = die+causative (ACT-041)
+BOD-031	live	BOD	2	v	yes		SW	
+BOD-032	heal / cure	BOD	3	v	yes		IDS	base for doctor = heal+agent (MOD-016)
+KIN-001	person / human	KIN	1	n	yes		SW,LJ	
+KIN-002	man / male person	KIN	1	n	yes		SW	
+KIN-003	woman	KIN	1	n	yes		SW	
+KIN-004	child	KIN	1	n	yes		SW	
+KIN-005	mother	KIN	1	n	yes		LJ	
+KIN-006	father	KIN	1	n	yes		IDS	
+KIN-007	parent	KIN	2	n	yes		IDS	
+KIN-008	male	KIN	2	mod	yes		IDS	enables son/husband by compounding
+KIN-009	female	KIN	2	mod	yes		IDS	enables daughter by compounding
+KIN-010	son	KIN	2	n	no	male + child	IDS	derivable — pruned (policy demo)
+KIN-011	daughter	KIN	2	n	no	female + child	IDS	derivable — pruned
+KIN-012	sibling	KIN	2	n	yes		IDS	brother/sister = male/female + sibling
+KIN-013	spouse	KIN	2	n	yes		IDS	husband/wife = male/female + spouse
+KIN-014	friend	KIN	2	n	yes		IDS	
+KIN-015	people	KIN	1	n	no	person + pu(plural)	SW	derivable via plural particle (0002 §5.2)
+ANI-001	animal	ANI	2	n	yes		IDS	
+ANI-002	dog	ANI	1	n	yes		SW,LJ	
+ANI-003	fish	ANI	1	n	yes		SW,LJ	
+ANI-004	bird	ANI	1	n	yes		SW,LJ	
+ANI-005	cat	ANI	2	n	yes		IDS	
+ANI-006	horse	ANI	2	n	yes		IDS	
+ANI-007	cow	ANI	2	n	yes		IDS	
+ANI-008	egg	ANI	1	n	yes		SW	
+ANI-009	tail	ANI	2	n	yes		SW	
+ANI-010	wing	ANI	2	n	yes		IDS	
+ANI-011	feather	ANI	2	n	yes		SW	
+ANI-012	horn	ANI	2	n	yes		SW	
+AGR-001	tree	AGR	1	n	yes		SW,LJ	
+AGR-002	plant	AGR	2	n	yes		IDS	
+AGR-003	wood	AGR	2	n	yes		LJ	
+AGR-004	leaf	AGR	1	n	yes		SW,LJ	
+AGR-005	root (of plant)	AGR	1	n	yes		SW	
+AGR-006	seed	AGR	1	n	yes		SW	
+AGR-007	flower	AGR	2	n	yes		IDS	
+AGR-008	grass	AGR	2	n	yes		SW	
+AGR-009	fruit	AGR	2	n	yes		LJ	
+FOO-001	food	FOO	1	n	no	eat + -bo(patient)	IDS	derivable — pruned (policy demo)
+FOO-002	milk	FOO	2	n	yes		IDS	
+FOO-003	salt	FOO	2	n	yes		SW	
+FOO-004	oil / fat	FOO	2	n	yes		SW	
+FOO-005	cook	FOO	2	v	yes		IDS	
+FOO-006	sweet	FOO	2	mod	yes		IDS	taste
+FOO-007	bread	FOO	3	n	yes		MOD	internationalism candidate (Stage 2)
+FOO-008	rice	FOO	3	n	yes		MOD	internationalism candidate
+CLO-001	clothing	CLO	2	n	yes		IDS	
+CLO-002	shoe	CLO	2	n	yes		IDS	
+CLO-003	wear	CLO	2	v	yes		IDS	
+DWE-001	house	DWE	1	n	yes		SW,LJ	
+DWE-002	door	DWE	2	n	yes		IDS	
+DWE-003	roof	DWE	2	n	yes		IDS	
+DWE-004	bed	DWE	2	n	yes		IDS	
+DWE-005	table	DWE	2	n	yes		MOD	internationalism candidate
+DWE-006	knife	DWE	1	n	yes		SW	
+DWE-007	rope	DWE	2	n	yes		SW	
+DWE-008	thing / object	DWE	1	n	yes		IDS	high-frequency generic
+DWE-009	tool	DWE	2	n	yes		IDS	
+ACT-001	do / make	ACT	1	v	yes		SW	
+ACT-002	go	ACT	1	v	yes		SW,LJ	
+ACT-003	come	ACT	1	v	yes		SW,LJ	
+ACT-004	walk	ACT	1	v	yes		SW	
+ACT-005	run	ACT	2	v	yes		IDS	
+ACT-006	stand	ACT	1	v	yes		SW	
+ACT-007	sit	ACT	1	v	yes		SW	
+ACT-008	lie down	ACT	2	v	yes		SW	
+ACT-009	give	ACT	1	v	yes		SW,LJ	
+ACT-010	take	ACT	1	v	yes		SW	
+ACT-011	hold	ACT	2	v	yes		SW	
+ACT-012	bring	ACT	2	v	no	come + -ta(causative)	IDS	derivable — pruned (policy demo)
+ACT-013	carry	ACT	2	v	yes		IDS	
+ACT-014	put	ACT	2	v	yes		SW	
+ACT-015	throw	ACT	2	v	yes		SW	
+ACT-016	fall	ACT	1	v	yes		SW,LJ	
+ACT-017	turn	ACT	2	v	yes		SW	
+ACT-018	move	ACT	2	v	yes		IDS	
+ACT-019	open	ACT	2	v	yes		IDS	core pair with shut
+ACT-020	shut / close	ACT	2	v	no	open + -ku(opposite)	IDS	derivable (reverse action) — pruned (policy demo)
+ACT-021	break	ACT	1	v	yes		SW,LJ	
+ACT-022	cut	ACT	1	v	yes		SW,LJ	
+ACT-023	hit / strike	ACT	2	v	yes		SW	
+ACT-024	push	ACT	2	v	yes		SW	
+ACT-025	pull	ACT	2	v	yes		SW	
+ACT-026	tie / bind	ACT	2	v	yes		SW	
+ACT-027	wash	ACT	2	v	yes		SW	
+ACT-028	rub	ACT	2	v	yes		SW	
+ACT-029	dig	ACT	2	v	yes		SW	
+ACT-030	burn	ACT	1	v	yes		SW,LJ	
+ACT-031	flow	ACT	2	v	yes		SW	
+ACT-032	swim	ACT	2	v	yes		SW	
+ACT-033	fly	ACT	2	v	yes		SW	
+ACT-034	work	ACT	1	v	yes		IDS	
+ACT-035	play	ACT	2	v	yes		IDS	
+ACT-036	use	ACT	2	v	yes		IDS	
+ACT-037	help	ACT	2	v	yes		IDS	
+ACT-038	begin / start	ACT	2	v	yes		IDS	core pair with stop
+ACT-039	stop	ACT	2	v	yes		IDS	
+ACT-040	finish / end	ACT	2	v	yes		IDS	
+ACT-041	kill	ACT	1	v	no	die + -ta(causative)	SW,LJ	derivable — pruned (classic policy demo)
+ACT-042	grow	ACT	2	v	yes		SW	
+MOT-001	enter	MOT	2	v	yes		IDS	
+MOT-002	leave / exit	MOT	2	v	yes		IDS	
+MOT-003	arrive	MOT	2	v	yes		IDS	
+MOT-004	follow	MOT	2	v	yes		IDS	
+MOT-005	rise / climb	MOT	2	v	yes		IDS	
+MOT-006	send	MOT	2	v	yes		IDS	
+SPA-001	this	SPA	1	fun	yes		SW	demonstrative (proximal)
+SPA-002	that	SPA	1	fun	yes		SW	demonstrative (distal)
+SPA-003	here	SPA	1	fun	yes		SW	
+SPA-004	there	SPA	1	fun	yes		SW	
+SPA-005	place	SPA	1	n	yes		IDS	
+SPA-006	up / above	SPA	1	fun	yes		IDS	
+SPA-007	down / below	SPA	1	fun	yes		IDS	
+SPA-008	inside / in	SPA	2	fun	yes		IDS	cf. locative role marker lo (0002 §4)
+SPA-009	outside / out	SPA	2	fun	yes		IDS	
+SPA-010	front	SPA	2	n	yes		IDS	
+SPA-011	back / behind	SPA	2	n	yes		IDS	
+SPA-012	left	SPA	2	mod	yes		IDS	
+SPA-013	right (side)	SPA	2	mod	yes		IDS	distinct from 'correct' PROP-042
+SPA-014	side	SPA	2	n	yes		IDS	
+SPA-015	middle / center	SPA	2	n	yes		IDS	
+PER-001	see	PER	1	v	yes		SW,LJ	
+PER-002	hear	PER	1	v	yes		SW	
+PER-003	smell	PER	2	v	yes		SW	
+PER-004	taste	PER	2	v	yes		IDS	
+PER-005	touch	PER	2	v	yes		IDS	
+PER-006	look at / watch	PER	2	v	yes		IDS	kept (active vs passive 'see')
+PER-007	listen	PER	2	v	yes		IDS	kept (active vs passive 'hear')
+PER-008	color	PER	2	n	yes		IDS	
+PER-009	sound	PER	2	n	yes		IDS	
+EMO-001	love	EMO	2	v	yes		IDS	
+EMO-002	like	EMO	2	v	yes		IDS	
+EMO-003	want	EMO	1	v	yes		IDS	
+EMO-004	fear	EMO	1	v	yes		SW	
+EMO-005	happy	EMO	2	mod	yes		IDS	core pair with sad
+EMO-006	sad	EMO	2	mod	no	happy + -ku(opposite)	IDS	derivable — pruned (policy demo)
+EMO-007	angry	EMO	2	mod	yes		IDS	
+EMO-008	laugh	EMO	2	v	yes		SW	
+EMO-009	cry	EMO	2	v	yes		SW	
+COG-001	know	COG	1	v	yes		SW,LJ	
+COG-002	think	COG	1	v	yes		SW	
+COG-003	understand	COG	2	v	yes		IDS	
+COG-004	learn	COG	2	v	yes		IDS	teach = learn+causative (see COG-005)
+COG-005	teach	COG	2	v	no	learn + -ta(causative)	IDS	derivable; FLAGGED for review — many L1s lexicalise (rule 1), candidate to promote to root
+COG-006	remember	COG	2	v	yes		IDS	core pair with forget
+COG-007	forget	COG	2	v	no	remember + -ku(opposite)	IDS	derivable — pruned (policy demo)
+COG-008	believe	COG	2	v	yes		IDS	
+COG-009	mind / idea	COG	2	n	yes		IDS	
+SPE-001	say / speak	SPE	1	v	yes		SW	
+SPE-002	word	SPE	1	n	yes		SW	
+SPE-003	name	SPE	1	n	yes		SW,LJ	
+SPE-004	language	SPE	2	n	yes		IDS	
+SPE-005	ask	SPE	2	v	yes		IDS	
+SPE-006	answer	SPE	2	v	yes		IDS	
+SPE-007	read	SPE	2	v	yes		MOD	
+SPE-008	write	SPE	2	v	yes		IDS	
+SPE-009	mean / meaning	SPE	2	n	yes		IDS	
+POS-001	have	POS	1	v	yes		IDS	possession
+POS-002	get / receive	POS	2	v	yes		IDS	
+POS-003	buy	POS	2	v	yes		IDS	core pair with sell
+POS-004	sell	POS	2	v	no	buy + -ku(opposite)	IDS	derivable (reverse transaction) — pruned (policy demo)
+POS-005	pay	POS	2	v	yes		IDS	
+SOC-001	group	SOC	2	n	yes		IDS	
+SOC-002	leader	SOC	2	n	no	lead + -ki(agent)	IDS	derivable — pruned
+SOC-003	war	SOC	2	n	yes		IDS	
+SOC-004	fight	SOC	2	v	yes		IDS	
+SOC-005	city / town	SOC	2	n	yes		IDS	
+SOC-006	country	SOC	2	n	yes		IDS	
+SOC-007	lead	SOC	2	v	yes		IDS	base for leader = lead+agent (SOC-002)
+MOD-001	money	MOD	2	n	yes		MOD	internationalism candidate
+MOD-002	book	MOD	2	n	yes		MOD	
+MOD-003	paper	MOD	2	n	yes		MOD	internationalism candidate
+MOD-004	school	MOD	2	n	no	learn + -de(place)	MOD	derivable — pruned (policy demo)
+MOD-005	car	MOD	2	n	yes		MOD	internationalism candidate (auto-)
+MOD-006	road / street	MOD	2	n	yes		IDS	
+MOD-007	bus	MOD	3	n	yes		MOD	internationalism candidate
+MOD-008	train	MOD	3	n	yes		MOD	internationalism candidate
+MOD-009	phone	MOD	3	n	yes		MOD	internationalism candidate (telephone)
+MOD-010	computer	MOD	3	n	yes		MOD	internationalism candidate
+MOD-011	internet	MOD	3	n	yes		MOD	internationalism candidate
+MOD-012	electricity	MOD	3	n	yes		MOD	internationalism candidate
+MOD-013	machine	MOD	3	n	yes		MOD	internationalism candidate
+MOD-014	hospital	MOD	3	n	yes		MOD	internationalism candidate
+MOD-015	medicine	MOD	3	n	yes		MOD	internationalism candidate
+MOD-016	doctor	MOD	3	n	no	heal + -ki(agent)	MOD	derivable — pruned (policy demo)
+MOD-017	market	MOD	2	n	no	buy + -de(place)	IDS	derivable — pruned (policy demo)
+MOD-018	government	MOD	3	n	yes		MOD	institution; full SOC/MOD set in the full sweep	
