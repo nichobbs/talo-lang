@@ -164,7 +164,9 @@ affixation. This is the **highest-leverage feature** for perceived vocabulary
 size and for sustaining novice motivation (early effort visibly pays off). All
 derivation is additive (rule 5).
 
-> **TODO (Phase 2):** specify the derivation/affix system in full.
+> **DONE (Phase 2):** the derivation/affix system — acategorial roots (one root →
+> three badged words), the morphotactic template, the ten-affix productive core,
+> and the compounding rule — is specified in `docs/0002-morphology-grammar.md` §§2–3.
 
 ### 3.5 Syntax — the one invariant: SUBJECT-FIRST; verb placement fluid
 
@@ -203,7 +205,9 @@ role markers (adpositions/particles)** — position alone cannot carry them once
 the verb floats. This is true of fixed-order designs too, so it is not a new
 cost.
 
-> **TODO (Phase 2):** specify the role-marker inventory.
+> **DONE (Phase 2):** the role-marker inventory — a minimal core of six free
+> **postpositions** (dative, locative, goal, source, instrument, genitive) — is
+> specified in `docs/0002-morphology-grammar.md` §4.
 
 -----
 
@@ -295,10 +299,10 @@ the least under our control.
 |#  |Decision                                           |Notes                                                                           |
 |---|---------------------------------------------------|--------------------------------------------------------------------------------|
 |O-1|Exact phoneme inventory & phonotactic grammar      |✅ **Resolved** in `docs/0001-phonology.md`. Drives the linter.                  |
-|O-2|The specific POS suffix forms (noun/verb/adj/adv/…)|Phase 2. Placeholders only so far.                                              |
-|O-3|Derivation/affix system                            |Phase 2. The high-leverage feature.                                             |
-|O-4|Role-marker inventory (ditransitives, obliques)    |Phase 2.                                                                        |
-|O-5|Tense/aspect/number particle set & defaults        |Phase 2.                                                                        |
+|O-2|The specific POS suffix forms (noun/verb/adj/adv/…)|✅ **Resolved** in `docs/0002-morphology-grammar.md` §1: three classes — noun `-ka`, verb `-to`, modifier `-pe`.|
+|O-3|Derivation/affix system                            |✅ **Resolved** in `docs/0002-morphology-grammar.md` §§2–3: acategorial roots, ten-affix core, compounding.|
+|O-4|Role-marker inventory (ditransitives, obliques)    |✅ **Resolved** in `docs/0002-morphology-grammar.md` §4: six free postpositions.|
+|O-5|Tense/aspect/number particle set & defaults        |✅ **Resolved** in `docs/0002-morphology-grammar.md` §5: no tense; aspect `li`/`wi` + time-words; plural `pu`; clusivity `sa`/`fo`.|
 |O-6|Governance model & freeze boundary                 |§6. Before community scales.                                                    |
 |O-7|Per-speaker verb-order consistency norm            |Resolved *pedagogically* (§3.5): teach one, unlock fluidity. Not a grammar rule.|
 
@@ -323,3 +327,26 @@ the least under our control.
    favouritism), fully phonotactic in its own system. Chosen over recognisable
    options (e.g. *Lina*) to honour the fairness principle at the one point in
    the lexicon where neutrality is cheap.
+1. **Phase 1 (phonology/orthography) frozen** in `docs/0001-phonology.md`:
+   5 vowels, 15 consonants, 20-letter ASCII alphabet, coda `n` only, single
+   cluster `n`+stop/affricate, fixed initial stress, allophonic-tolerance
+   contract; the phonotactic linter implements R1–R6.
+1. **Phase 2 (morphology/grammar core) frozen** in
+   `docs/0002-morphology-grammar.md`, resolving O-2…O-5:
+   - Three content classes with mandatory badges: noun `-ka`, verb `-to`,
+     modifier `-pe` (stop onsets, place-distinct, so never a voicing-only clash).
+   - **Acategorial roots:** category is the badge; one root yields N/V/modifier
+     by badge-swap (additive, rule 5). Word template `ROOT (+DERIV)* +BADGE`.
+   - **Reserved-onset rule:** bound suffixes are CV with stop/affricate onsets so
+     they attach legally even after `n`-final roots; free particles unrestricted.
+   - **Derivation:** ten-affix productive core (agent/instrument/patient/place/
+     quality/diminutive/augmentative/opposite/causative/inchoative) + compounding
+     (modifier-root(s) + head-root + one badge, buffer `a` at illegal seams).
+   - **Role markers:** six free postpositions (`na lo su fe wa we`); plain
+     transitive object stays bare (subject-first carries S/O).
+   - **TAM/number (optional, zero default):** no tense; post-verb aspect
+     `li`(completive)/`wi`(progressive) + time-words; post-noun plural `pu`;
+     optional clusivity `sa`(incl)/`fo`(excl).
+   - **Function words (no badge):** pronouns `mi/yu/te` (genderless 3rd, no
+     formality); negator `ne` before its target; explicit copula `ya→yato`;
+     yes/no `ke` clause-final with content questions **in-situ**; conjunction `i`.
