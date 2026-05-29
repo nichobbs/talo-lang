@@ -31,6 +31,13 @@ recorded there, not made silently.**
 - Syntax: **subject-first enforced, verb placement fluid** (neutralises SVO/SOV).
 - Morphology: **POS-marking mandatory and explicit on all content words,
   including nouns**; derivation is additive and generative.
+- Phonology (Phase 1 ✅): 5 vowels, 15 consonants, 20-letter ASCII alphabet,
+  coda `n` only, fixed initial stress; enforced by the phonotactic linter.
+- Grammar core (Phase 2 ✅): three badged classes (noun `-ka`, verb `-to`,
+  modifier `-pe`); **acategorial roots** (badge assigns category); ten-affix
+  derivation + compounding; six free postpositional role markers; optional aspect
+  (`li`/`wi`) + plural (`pu`), **no tense**; explicit copula `yato`; in-situ
+  questions with clause-final `ke`.
 - Name: **Talo** (deliberately neutral coinage).
 
 ## Build sequencing
@@ -41,8 +48,8 @@ Freeze bottom-up (phonology → morphology → core lexicon); test top-down (sta
 |Phase|Output                                                                       |
 |-----|-----------------------------------------------------------------------------|
 |0    |Design principles & decision log ✅ (`docs/0000-design-principles.md`)        |
-|1    |Phonology & orthography spec + phonotactic linter                            |
-|2    |Morphology & grammar core (POS suffixes, derivation, role markers, particles)|
+|1    |Phonology & orthography spec + phonotactic linter ✅ (`docs/0001-phonology.md`)|
+|2    |Morphology & grammar core ✅ (`docs/0002-morphology-grammar.md`)              |
 |3    |Frequency-weighted core lexicon (~1,000–1,500 roots) as a dataset            |
 |4    |“Hello world” vertical slice — real use, ~300 words                          |
 |5    |Tooling: linter, parser/validator, derivation explorer, SRS materials        |
@@ -59,7 +66,7 @@ talo/
   docs/
     0000-design-principles.md   # the constitution (this is here now)
     0001-phonology.md           # Phase 1
-    0002-grammar.md             # Phase 2
+    0002-morphology-grammar.md  # Phase 2
     ...                         # one ADR per significant decision
   data/
     lexicon.<csv|json>          # concept -> form -> rationale -> source
