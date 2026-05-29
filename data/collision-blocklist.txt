@@ -1,0 +1,25 @@
+# Talo collision checker — cross-language obscenity blocklist
+#
+# Purpose (docs/0000 §4, docs/0001 §8): screen candidate Talo forms against
+# strings that are obscene/offensive in major languages, so the lexicon does not
+# accidentally mint one. This is a real, frequently-skipped localisation step.
+#
+# Matching (see tools/collision-checker): a candidate is FLAGGED (for human
+# review, not silently banned) if its lowercase form
+#   - exactly equals an entry, or
+#   - contains an entry of length >= 4 as a substring.
+# Short entries (< 4 chars) match only as whole words, to avoid false positives
+# (e.g. 'kut' must not flag the legitimate root 'kuto' = knife).
+#
+# This seed list is ILLUSTRATIVE and NON-EXHAUSTIVE. Before Talo's lexicon is
+# frozen it MUST be expanded using proper profanity/slur resources across the
+# largest L1s (a curation task, not a code task). One entry per line; '#' = comment.
+#
+# --- seed entries (lowercased Talo-orthography strings to avoid) ---
+kaka
+puta
+puto
+pedo
+fitta
+merda
+kont

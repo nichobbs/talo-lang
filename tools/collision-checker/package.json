@@ -1,0 +1,20 @@
+{
+  "name": "talo-collision-checker",
+  "version": "0.1.0",
+  "description": "Collision checker for Talo — the second lexicon gate (after the phonotactic linter). Rejects homophones, near-homophones under the weak stop contrast (b/p, d/t, g/k), clashes with reserved grammatical words, and cross-language obscenities. See docs/0000 §4 and docs/0001 §2.1/§8.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-collision": "./src/cli.ts"
+  },
+  "scripts": {
+    "check": "node --experimental-strip-types src/cli.ts",
+    "test": "node --experimental-strip-types --test test/checker.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}

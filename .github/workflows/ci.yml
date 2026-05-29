@@ -31,12 +31,26 @@ jobs:
         working-directory: tools/phonotactic-linter
         run: npm test
 
-  # Auto-merge a PR only when (a) the build above passed AND (b) every changed
+  # The collision checker is the SECOND lexicon gate (docs/0000 §4); its suite
+  # must stay green too. Zero dependencies, same as the linter.
+  collision-tests:
+    name: Collision checker tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run tests
+        working-directory: tools/collision-checker
+        run: npm test
+
+  # Auto-merge a PR only when (a) the builds above passed AND (b) every changed
   # file is documentation. Code changes (anything outside docs / *.md / LICENSE)
   # are never auto-merged — they fall through to human review.
   auto-merge-docs:
     name: Auto-merge docs-only PRs
-    needs: test
+    needs: [test, collision-tests]
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.draft == false
