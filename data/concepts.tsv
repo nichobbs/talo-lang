@@ -41,7 +41,7 @@ QTY-018	all	QTY	1	fun	yes		SW	quantifier
 QTY-019	many / much	QTY	1	fun	yes		SW	quantifier
 QTY-020	few / little	QTY	1	fun	yes		SW	quantifier; core pair with many, kept (rule 1)
 QTY-021	some	QTY	1	fun	yes		IDS	quantifier
-QTY-022	none	QTY	2	fun	no	ne + some / ne + all	IDS	derivable via clausal negator (0002 §6.2)
+QTY-022	none	QTY	1	fun	yes		IDS	kept as root — very high frequency (rule 3); not merely ne+some
 QTY-023	every / each	QTY	2	fun	yes		IDS	quantifier
 QTY-024	more	QTY	1	fun	yes		IDS	core pair with less, both kept (rule 1)
 QTY-025	less	QTY	2	fun	yes		IDS	core pair with more, kept (rule 1)
@@ -67,7 +67,7 @@ TIM-014	hour	TIM	2	n	yes		MOD
 TIM-015	before (earlier than)	TIM	1	fun	yes		IDS	temporal/spatial relation
 TIM-016	after (later than)	TIM	1	fun	yes		IDS	temporal/spatial relation
 TIM-017	always	TIM	1	fun	yes		IDS	
-TIM-018	never	TIM	2	fun	no	ne + always	IDS	derivable via negator
+TIM-018	never	TIM	1	fun	yes		IDS	kept as root — very high frequency (rule 3); not merely ne+always
 TIM-019	often	TIM	2	fun	yes		IDS	
 TIM-020	sometimes	TIM	2	fun	yes		IDS	
 TIM-021	early	TIM	2	mod	yes		IDS	core pair with late, kept
