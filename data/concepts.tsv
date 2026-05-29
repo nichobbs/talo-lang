@@ -140,12 +140,12 @@ PROP-037	near	PROP	1	mod	yes		SW	core pair, kept
 PROP-038	fast / quick	PROP	2	mod	yes		IDS	core pair with slow
 PROP-039	slow	PROP	2	mod	yes		IDS	core pair, kept
 PROP-040	strong	PROP	2	mod	yes		IDS	core pair with weak
-PROP-041	weak	PROP	2	mod	no	strong + -ku(opposite)	IDS	derivable — pruned (policy demo)
+PROP-041	weak	PROP	2	mod	yes		IDS	promoted to root — basic, high-transfer antonym (rule 1)
 PROP-042	correct / right	PROP	2	mod	yes		IDS	core pair with wrong
-PROP-043	wrong	PROP	2	mod	no	correct + -ku(opposite)	IDS	derivable — pruned (policy demo)
+PROP-043	wrong	PROP	2	mod	yes		IDS	promoted to root — basic, high-transfer antonym (rule 1)
 PROP-044	true	PROP	2	mod	yes		IDS	
 PROP-045	same	PROP	1	mod	yes		IDS	core pair with different
-PROP-046	different	PROP	2	mod	no	same + -ku(opposite)	IDS	derivable — pruned (policy demo)
+PROP-046	different	PROP	1	mod	yes		IDS	promoted to root — extremely frequent, high-transfer (rule 1)
 PROP-047	black	PROP	1	mod	yes		SW,LJ	color
 PROP-048	white	PROP	1	mod	yes		SW	color
 PROP-049	red	PROP	1	mod	yes		SW,LJ	color
@@ -153,7 +153,7 @@ PROP-050	green	PROP	2	mod	yes		SW	color
 PROP-051	yellow	PROP	2	mod	yes		SW	color
 PROP-052	blue	PROP	2	mod	yes		IDS	color
 PROP-053	alive	PROP	2	mod	yes		SW	core pair with dead
-PROP-054	dead	PROP	2	mod	no	alive + -ku(opposite)	SW	derivable; cf. verb 'die' BOD-030
+PROP-054	dead	PROP	2	mod	yes		SW	promoted to root — basic, high-transfer (rule 1); cf. verb 'die' BOD-030
 BOD-001	head	BOD	1	n	yes		LJ	
 BOD-002	hair	BOD	1	n	yes		SW	
 BOD-003	eye	BOD	1	n	yes		SW,LJ	
@@ -222,7 +222,7 @@ AGR-006	seed	AGR	1	n	yes		SW
 AGR-007	flower	AGR	2	n	yes		IDS	
 AGR-008	grass	AGR	2	n	yes		SW	
 AGR-009	fruit	AGR	2	n	yes		LJ	
-FOO-001	food	FOO	1	n	no	eat + -bo(patient)	IDS	derivable — pruned (policy demo)
+FOO-001	food	FOO	1	n	yes		IDS	promoted to root — ultra-basic, high-transfer (rule 1)
 FOO-002	milk	FOO	2	n	yes		IDS	
 FOO-003	salt	FOO	2	n	yes		SW	
 FOO-004	oil / fat	FOO	2	n	yes		SW	
@@ -319,7 +319,7 @@ EMO-002	like	EMO	2	v	yes		IDS
 EMO-003	want	EMO	1	v	yes		IDS	
 EMO-004	fear	EMO	1	v	yes		SW	
 EMO-005	happy	EMO	2	mod	yes		IDS	core pair with sad
-EMO-006	sad	EMO	2	mod	no	happy + -ku(opposite)	IDS	derivable — pruned (policy demo)
+EMO-006	sad	EMO	2	mod	yes		IDS	promoted to root — basic emotion, high-transfer (rule 1)
 EMO-007	angry	EMO	2	mod	yes		IDS	
 EMO-008	laugh	EMO	2	v	yes		SW	
 EMO-009	cry	EMO	2	v	yes		SW	
@@ -327,7 +327,7 @@ COG-001	know	COG	1	v	yes		SW,LJ
 COG-002	think	COG	1	v	yes		SW	
 COG-003	understand	COG	2	v	yes		IDS	
 COG-004	learn	COG	2	v	yes		IDS	teach = learn+causative (see COG-005)
-COG-005	teach	COG	2	v	no	learn + -ta(causative)	IDS	derivable; FLAGGED for review — many L1s lexicalise (rule 1), candidate to promote to root
+COG-005	teach	COG	2	v	yes		IDS	promoted to root — many L1s lexicalise (rule 1)
 COG-006	remember	COG	2	v	yes		IDS	core pair with forget
 COG-007	forget	COG	2	v	no	remember + -ku(opposite)	IDS	derivable — pruned (policy demo)
 COG-008	believe	COG	2	v	yes		IDS	
@@ -368,6 +368,6 @@ MOD-012	electricity	MOD	3	n	yes		MOD	internationalism candidate
 MOD-013	machine	MOD	3	n	yes		MOD	internationalism candidate
 MOD-014	hospital	MOD	3	n	yes		MOD	internationalism candidate
 MOD-015	medicine	MOD	3	n	yes		MOD	internationalism candidate
-MOD-016	doctor	MOD	3	n	no	heal + -ki(agent)	MOD	derivable — pruned (policy demo)
+MOD-016	doctor	MOD	3	n	yes		MOD	promoted to root — specific profession, meaning drifts from 'healer' (rule 1)
 MOD-017	market	MOD	2	n	no	buy + -de(place)	IDS	derivable — pruned (policy demo)
 MOD-018	government	MOD	3	n	yes		MOD	institution; full SOC/MOD set in the full sweep	
