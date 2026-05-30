@@ -7,22 +7,22 @@ FUN-005	why	sefu	COIN	question-word series (se-)	function (kept)
 FUN-006	how	sewa	COIN	question-word series (se-)	function (kept)
 FUN-008	how many / how much	semu	COIN	question-word series (se-)	function (kept)
 FUN-009	or	o	INTL	Spanish/Italian 'o'	function (kept)
-FUN-010	but	tapi	INTL	Indonesian tapi	Austronesian (was Latin ma)
+FUN-010	but	ma	INTL	Italian ma	Romance (kept for brevity; high-frequency)
 FUN-011	if	fi	COIN	short function word	function (kept)
 FUN-012	because	sababu	INTL	Swahili/Arabic sababu	Bantu/Semitic (was Latin causa)
-FUN-015	yes	hai	INTL	Japanese hai	Japonic (was Romance si)
+FUN-015	yes	hai	INTL	Japanese hai	Romance si rejected (clashes with es/fr si=if)
 FUN-016	no (answer)	no	INTL	English/Spanish 'no'	function (kept)
 FUN-017	very	sana	INTL	Swahili sana	Bantu (was Spanish muy)
 FUN-018	also / too	ti	COIN	short function word	function (kept)
 FUN-019	only / just	dake	INTL	Japanese dake	Japonic (was Spanish solo)
-QTY-001	zero	nuli	COIN	neutral coinage	numeral
-QTY-002	one	wan	INTL	English/creole one	numeral
-QTY-003	two	tu	INTL	English two / cf dua	numeral
-QTY-004	three	san	INTL	Japanese/Mandarin san	numeral (pan-East-Asian)
-QTY-005	four	yon	INTL	Japanese yon	numeral
-QTY-006	five	lima	INTL	Austronesian lima	numeral
-QTY-011	ten	dasa	INTL	Sanskrit dasa/Hindi das	numeral
-QTY-012	hundred	sata	INTL	Sanskrit sata (hundred)	numeral
+QTY-001	zero	so	COIN	systematic coined numeral	coined numeral set
+QTY-002	one	ta	COIN	systematic coined numeral	coined numeral set
+QTY-003	two	ki	COIN	systematic coined numeral	coined numeral set
+QTY-004	three	mo	COIN	systematic coined numeral	coined numeral set
+QTY-005	four	fu	COIN	systematic coined numeral	coined numeral set
+QTY-006	five	le	COIN	systematic coined numeral	coined numeral set
+QTY-011	ten	diko	COIN	systematic coined power-of-ten	coined numeral set
+QTY-012	hundred	samu	COIN	systematic coined power-of-ten	coined numeral set
 QTY-018	all	ote	INTL	Swahili -ote	Bantu (was Latin tota)
 QTY-019	many / much	ingi	INTL	Swahili -ingi	Bantu (was Romance)
 QTY-020	few / little	kidogo	INTL	Swahili kidogo	Bantu (was Romance poco)
