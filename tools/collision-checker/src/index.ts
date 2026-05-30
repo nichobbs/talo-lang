@@ -7,6 +7,7 @@ export {
   checkForm,
   checkBatch,
   RESERVED_FORMS,
+  DEFAULT_FF_BLOCK,
 } from "./checker.ts";
 export type {
   Conflict,
@@ -14,4 +15,5 @@ export type {
   Occupied,
   Candidate,
   BatchOptions,
+  FalseFriend,
 } from "./checker.ts";

@@ -1,0 +1,27 @@
+# Talo false-friend screen — forms to AVOID minting because they are a common,
+# different-meaning word in a major language (docs/0003 §7b; the mirror of the
+# obscenity blocklist). The collision checker BLOCKS forms listed at SEVERE/HIGH
+# by default; MEDIUM/LOW are documentation (surfaced only with a tightened
+# --ff-block). Seeded from data/false-friend-audit.tsv; expand with native review.
+# Columns: form<TAB>lang<TAB>meaning<TAB>severity   ('#' = comment)
+form	lang	meaning	severity
+ano	Spanish/Portuguese	anus (año without ñ)	SEVERE
+loko	Spanish	crazy (loco)	HIGH
+tela	Spanish/Italian	cloth / canvas	HIGH
+male	Italian	evil / pain	HIGH
+dia	Indonesian/Malay	he / she	HIGH
+pesa	Swahili	money	HIGH
+kane	Japanese	money	HIGH
+nila	Hindi/Indonesian	blue / indigo	HIGH
+bila	Arabic/Swahili	without	HIGH
+go	Japanese	five	HIGH
+du	German	you (informal)	MEDIUM
+oso	Spanish	bear	MEDIUM
+kalo	Greek	good	MEDIUM
+nu	Romanian	no	MEDIUM
+masa	Spanish/Tagalog	dough / mass	MEDIUM
+pena	Spanish/Portuguese	sorrow / feather	MEDIUM
+mata	Spanish	he/she kills	MEDIUM
+kaki	Japanese	persimmon	MEDIUM
+semi	Japanese	cicada	LOW
+piwa	Polish	beers	LOW

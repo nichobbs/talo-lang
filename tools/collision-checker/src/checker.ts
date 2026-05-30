@@ -51,9 +51,20 @@ export const RESERVED_FORMS: ReadonlySet<string> = new Set([
   "mi", "yu", "te", "ne", "ya", "ke", "i",
 ]);
 
+/** A false-friend entry: `form` is a common word meaning something else in `lang`. */
+export interface FalseFriend {
+  lang: string;
+  meaning: string;
+  severity: string;
+}
+
+/** Severities at which a false friend is treated as a hard conflict (default: worst two). */
+export const DEFAULT_FF_BLOCK: ReadonlySet<string> = new Set(["SEVERE", "HIGH"]);
+
 export type Conflict =
   | { kind: "PHONOTACTIC"; message: string }
   | { kind: "OBSCENITY"; match: string; message: string }
+  | { kind: "FALSE_FRIEND"; lang: string; meaning: string; severity: string; message: string }
   | { kind: "RESERVED"; with: string; message: string }
   | { kind: "HOMOPHONE"; with: string; label?: string; message: string }
   | { kind: "NEAR_HOMOPHONE"; with: string; label?: string; skeleton: string; message: string };
@@ -95,6 +106,8 @@ export function checkForm(
   form: string,
   occupied: Iterable<Occupied>,
   blocklist: readonly string[] = [],
+  falseFriends?: ReadonlyMap<string, FalseFriend[]>,
+  ffBlock: ReadonlySet<string> = DEFAULT_FF_BLOCK,
 ): CheckResult {
   // 1. Phonotactic legality (R1–R6), delegated.
   const lintRes = lint(form);
@@ -114,6 +127,26 @@ export function checkForm(
         message: `flagged by the cross-language obscenity screen (matches '${hit}') — needs human review`,
       },
     };
+  }
+
+  // 2b. False-friend screen: the form is a common, different-meaning word in a
+  // major language at a blocking severity (docs/0003; data/false-friends.tsv).
+  if (falseFriends) {
+    const entries = falseFriends.get(form.toLowerCase());
+    const hit = entries?.find((e) => ffBlock.has(e.severity.toUpperCase()));
+    if (hit) {
+      return {
+        form,
+        ok: false,
+        conflict: {
+          kind: "FALSE_FRIEND",
+          lang: hit.lang,
+          meaning: hit.meaning,
+          severity: hit.severity,
+          message: `${hit.severity} false friend: '${form}' is '${hit.meaning}' in ${hit.lang} — needs human review`,
+        },
+      };
+    }
   }
 
   const occ = [...occupied];
@@ -152,6 +185,8 @@ export function checkForm(
 export interface BatchOptions {
   reserved?: ReadonlySet<string>;
   blocklist?: readonly string[];
+  falseFriends?: ReadonlyMap<string, FalseFriend[]>;
+  ffBlock?: ReadonlySet<string>;
 }
 
 /** A candidate to validate, optionally labelled (e.g. by concept id). */
@@ -167,14 +202,14 @@ export interface Candidate {
  */
 export function checkBatch(
   candidates: ReadonlyArray<string | Candidate>,
-  { reserved = RESERVED_FORMS, blocklist = [] }: BatchOptions = {},
+  { reserved = RESERVED_FORMS, blocklist = [], falseFriends, ffBlock = DEFAULT_FF_BLOCK }: BatchOptions = {},
 ): CheckResult[] {
   const occupied: Occupied[] = [...reserved].map((form) => ({ form, label: "reserved" }));
   const results: CheckResult[] = [];
   for (const c of candidates) {
     const form = typeof c === "string" ? c : c.form;
     const label = typeof c === "string" ? form : c.label ?? form;
-    const res = checkForm(form, occupied, blocklist);
+    const res = checkForm(form, occupied, blocklist, falseFriends, ffBlock);
     results.push(res);
     if (res.ok) occupied.push({ form, label });
   }

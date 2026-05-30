@@ -73,3 +73,16 @@ test("checkBatch with an all-clear set returns all ok", () => {
   const res = checkBatch(["kanu", "solu", "miko", "tefa"]);
   assert.ok(res.every((r) => r.ok));
 });
+
+test("false-friend screen blocks SEVERE/HIGH by default", () => {
+  const ff = new Map([["ano", [{ lang: "Spanish", meaning: "anus", severity: "SEVERE" }]]]);
+  const r = checkForm("ano", [], [], ff);
+  assert.equal(r.ok, false);
+  assert.equal(r.ok === false && r.conflict.kind, "FALSE_FRIEND");
+});
+
+test("false-friend screen ignores MEDIUM/LOW by default, but can be tightened", () => {
+  const ff = new Map([["du", [{ lang: "German", meaning: "you", severity: "MEDIUM" }]]]);
+  assert.equal(checkForm("du", [], [], ff).ok, true); // MEDIUM not blocked by default
+  assert.equal(checkForm("du", [], [], ff, new Set(["MEDIUM"])).ok, false); // tightened
+});

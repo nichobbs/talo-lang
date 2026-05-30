@@ -24,9 +24,11 @@ import {
   RESERVED_FORMS,
   type CheckResult,
   type Occupied,
+  type FalseFriend,
 } from "./checker.ts";
 
 const DEFAULT_BLOCKLIST = "data/collision-blocklist.txt";
+const DEFAULT_FALSE_FRIENDS = "data/false-friends.tsv";
 
 function loadBlocklist(path: string): string[] {
   if (!existsSync(path)) return [];
@@ -34,6 +36,23 @@ function loadBlocklist(path: string): string[] {
     .split(/\r?\n/)
     .map((l) => l.trim())
     .filter((l) => l.length > 0 && !l.startsWith("#"));
+}
+
+/** Parse the false-friend TSV (form / lang / meaning / severity) into a map. */
+function loadFalseFriends(path: string): Map<string, FalseFriend[]> {
+  const map = new Map<string, FalseFriend[]>();
+  if (!existsSync(path)) return map;
+  for (const raw of readFileSync(path, "utf8").split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line || line.startsWith("#") || line.startsWith("form\t")) continue;
+    const [form, lang, meaning, severity] = line.split("\t");
+    if (!form || !severity) continue;
+    const key = form.trim().toLowerCase();
+    const arr = map.get(key) ?? [];
+    arr.push({ lang: (lang ?? "").trim(), meaning: (meaning ?? "").trim(), severity: severity.trim() });
+    map.set(key, arr);
+  }
+  return map;
 }
 
 /** Parse a lexicon TSV; returns {form,label} rows from the `form`/`id` columns. */
@@ -61,6 +80,7 @@ function main(): void {
   const argv = process.argv.slice(2);
   const jsonMode = argv.includes("--json");
   let blocklistPath = DEFAULT_BLOCKLIST;
+  let ffPath = DEFAULT_FALSE_FRIENDS;
   let againstPath: string | null = null;
   let lexiconPath: string | null = null;
   const forms: string[] = [];
@@ -69,18 +89,20 @@ function main(): void {
     const a = argv[i];
     if (a === "--json") continue;
     else if (a === "--blocklist") blocklistPath = argv[++i];
+    else if (a === "--false-friends") ffPath = argv[++i];
     else if (a === "--against") againstPath = argv[++i];
     else if (a === "--lexicon") lexiconPath = argv[++i];
     else forms.push(a);
   }
 
   const blocklist = loadBlocklist(blocklistPath);
+  const falseFriends = loadFalseFriends(ffPath);
   let results: CheckResult[];
 
   if (lexiconPath) {
     // Validate an entire lexicon file for internal consistency.
     const rows = loadLexicon(lexiconPath);
-    results = checkBatch(rows.map((r) => ({ form: r.form, label: r.label })), { blocklist });
+    results = checkBatch(rows.map((r) => ({ form: r.form, label: r.label })), { blocklist, falseFriends });
   } else {
     if (forms.length === 0) {
       process.stderr.write("usage: talo-collision <form> [...]   (or --lexicon <file>)\n");
@@ -94,7 +116,7 @@ function main(): void {
     }
     results = [];
     for (const form of forms) {
-      const res = checkForm(form, occupied, blocklist);
+      const res = checkForm(form, occupied, blocklist, falseFriends);
       results.push(res);
       if (res.ok) occupied.push({ form, label: form });
     }
