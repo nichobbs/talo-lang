@@ -102,7 +102,7 @@ ANI-003	fish	ikan	INTL	Indonesian ikan	Austronesian
 ANI-004	bird	toli	INTL	Japanese tori (r→l)	Japonic
 ANI-008	egg	telu	INTL	Indonesian telur	Austronesian
 AGR-001	tree	pedu	INTL	Hindi peṛ	Indo-Aryan
-AGR-004	leaf	daun	INTL	Indonesian daun	Austronesian
+AGR-004	leaf	pata	INTL	Hindi pattā	Indo-Aryan; (Indonesian 'daun' clashed with taun)
 AGR-005	root (of plant)	aka	INTL	Indonesian akar	Austronesian
 AGR-006	seed	tane	INTL	Japanese tane	Japonic
 FOO-001	food	cakula	INTL	Swahili chakula	Bantu
@@ -116,7 +116,7 @@ ACT-004	walk	cala	INTL	Hindi chalnā	Indo-Aryan
 ACT-006	stand	simama	INTL	Swahili simama	Bantu
 ACT-007	sit	dudu	INTL	Indonesian duduk	Austronesian
 ACT-009	give	dona	INTL	Latin donare; used in 0002	Romance (capped)
-ACT-010	take	ambi	INTL	Indonesian ambil	Austronesian
+ACT-010	take	cukua	INTL	Swahili chukua	Bantu; (Indonesian 'ambil' had illegal mb)
 ACT-016	fall	anguka	INTL	Swahili anguka	Bantu
 ACT-021	break	peca	INTL	Indonesian pecah	Austronesian
 ACT-022	cut	kata	INTL	Swahili kata	Bantu
