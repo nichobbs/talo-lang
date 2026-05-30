@@ -35,12 +35,12 @@ TIM-003	night	usiku	INTL	Swahili usiku	Bantu
 TIM-006	today	leo	INTL	Swahili leo	Bantu (was Latin hodie)
 TIM-007	tomorrow	keso	INTL	Swahili kesho	Bantu (was Italian domani)
 TIM-008	yesterday	yana	INTL	Swahili jana	Bantu (was Italian ieri)
-TIM-009	now	nu	COIN	short; used in 0002	temporal (kept)
+TIM-009	now	inino	DERIV	correlative this+time	now = ini-no
 TIM-011	year	taun	INTL	Indonesian tahun	Austronesian; replaces 'ano' (taboo false friend es/pt)
 TIM-015	before (earlier than)	mae	INTL	Japanese mae	Japonic (was Latin ante)
 TIM-016	after (later than)	ato	INTL	Japanese ato	Japonic (was Latin post)
-TIM-017	always	daima	INTL	Swahili/Arabic daima	Bantu/Semitic (was coin)
-TIM-018	never	numa	COIN	neutral coinage	temporal (kept)
+TIM-017	always	ono	DERIV	correlative every+time	always = o-no
+TIM-018	never	hano	DERIV	correlative no+time	never = ha-no
 PHY-001	sun	taio	INTL	Japanese taiyō	Japonic
 PHY-002	moon	bulan	INTL	Indonesian bulan	Austronesian
 PHY-003	star	hosi	INTL	Japanese hoshi	Japonic
@@ -124,11 +124,11 @@ ACT-030	burn	yaku	INTL	Japanese yaku	Japonic
 ACT-034	work	kasi	INTL	Swahili kazi	Bantu
 SPA-001	this	ini	INTL	Indonesian ini	Austronesian deictic paradigm
 SPA-002	that	itu	INTL	Indonesian itu	Austronesian deictic paradigm
-SPA-003	here	sini	INTL	Indonesian sini	Austronesian deictic paradigm
-SPA-004	there	situ	INTL	Indonesian situ	Austronesian deictic paradigm
+SPA-003	here	inilo	DERIV	correlative this+place	here = ini-lo (0002 §6.7)
+SPA-004	there	itulo	DERIV	correlative that+place	there = itu-lo
 SPA-005	place	loka	INTL	Sanskrit/Indonesian loka (place/realm)	replaces mahali
 SPA-006	up / above	ata	INTL	Indonesian atas	Austronesian (was coin supa)
-SPA-007	down / below	bawa	INTL	Indonesian bawah	Austronesian (was coin basa)
+SPA-007	down / below	sita	INTL	Japanese shita (below)	re-mint: bawa now = correlative some-way
 PER-001	see	kan	INTL	Mandarin kàn	Sinitic
 PER-002	hear	kiku	INTL	Japanese kiku	Japonic
 EMO-003	want	mau	INTL	Indonesian mau	Austronesian
@@ -139,3 +139,33 @@ SPE-001	say / speak	sema	INTL	Swahili sema	Bantu
 SPE-002	word	neno	INTL	Swahili neno	Bantu
 SPE-003	name	nama	INTL	Indonesian/Hindi nāma	Indo-Aryan
 POS-001	have	motu	INTL	Japanese motsu	Japonic
+COR-001	this-person	inila	DERIV	correlative this+person (0002 §6.7)	grid stem ini- + cat -la
+COR-002	this-thing	iniko	DERIV	correlative this+thing (0002 §6.7)	grid stem ini- + cat -ko
+COR-003	this-reason	inifu	DERIV	correlative this+reason (0002 §6.7)	grid stem ini- + cat -fu
+COR-004	this-way	iniwa	DERIV	correlative this+way (0002 §6.7)	grid stem ini- + cat -wa
+COR-005	this-amount	inimu	DERIV	correlative this+amount (0002 §6.7)	grid stem ini- + cat -mu
+COR-006	that-person	itula	DERIV	correlative that+person (0002 §6.7)	grid stem itu- + cat -la
+COR-007	that-thing	ituko	DERIV	correlative that+thing (0002 §6.7)	grid stem itu- + cat -ko
+COR-008	that-time	ituno	DERIV	correlative that+time (0002 §6.7)	grid stem itu- + cat -no
+COR-009	that-reason	itufu	DERIV	correlative that+reason (0002 §6.7)	grid stem itu- + cat -fu
+COR-010	that-way	ituwa	DERIV	correlative that+way (0002 §6.7)	grid stem itu- + cat -wa
+COR-011	that-amount	itumu	DERIV	correlative that+amount (0002 §6.7)	grid stem itu- + cat -mu
+COR-012	some-person	bala	DERIV	correlative some+person (0002 §6.7)	grid stem ba- + cat -la
+COR-013	some-thing	bako	DERIV	correlative some+thing (0002 §6.7)	grid stem ba- + cat -ko
+COR-014	some-place	balo	DERIV	correlative some+place (0002 §6.7)	grid stem ba- + cat -lo
+COR-015	some-time	bano	DERIV	correlative some+time (0002 §6.7)	grid stem ba- + cat -no
+COR-016	some-reason	bafu	DERIV	correlative some+reason (0002 §6.7)	grid stem ba- + cat -fu
+COR-017	some-way	bawa	DERIV	correlative some+way (0002 §6.7)	grid stem ba- + cat -wa
+COR-018	some-amount	bamu	DERIV	correlative some+amount (0002 §6.7)	grid stem ba- + cat -mu
+COR-019	no-person	hala	DERIV	correlative no+person (0002 §6.7)	grid stem ha- + cat -la
+COR-020	no-thing	hako	DERIV	correlative no+thing (0002 §6.7)	grid stem ha- + cat -ko
+COR-021	no-place	halo	DERIV	correlative no+place (0002 §6.7)	grid stem ha- + cat -lo
+COR-022	no-reason	hafu	DERIV	correlative no+reason (0002 §6.7)	grid stem ha- + cat -fu
+COR-023	no-way	hawa	DERIV	correlative no+way (0002 §6.7)	grid stem ha- + cat -wa
+COR-024	no-amount	hamu	DERIV	correlative no+amount (0002 §6.7)	grid stem ha- + cat -mu
+COR-025	every-person	ola	DERIV	correlative every+person (0002 §6.7)	grid stem o- + cat -la
+COR-026	every-thing	oko	DERIV	correlative every+thing (0002 §6.7)	grid stem o- + cat -ko
+COR-027	every-place	olo	DERIV	correlative every+place (0002 §6.7)	grid stem o- + cat -lo
+COR-028	every-reason	ofu	DERIV	correlative every+reason (0002 §6.7)	grid stem o- + cat -fu
+COR-029	every-way	owa	DERIV	correlative every+way (0002 §6.7)	grid stem o- + cat -wa
+COR-030	every-amount	omu	DERIV	correlative every+amount (0002 §6.7)	grid stem o- + cat -mu
