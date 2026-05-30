@@ -258,13 +258,23 @@ the SEVERE/HIGH clashes were designed out — e.g. `ano`(year, =anus es/pt)→`t
 `loko`(place, =crazy)→`mahali`, and the capped picks avoid `nila/dia/go/pesa/
 kane/bila/tela/male`. MEDIUM/LOW clashes are accepted as the unavoidable tax.
 
-> **Still pending (recorded, not done):** function words, numerals and the pure
-> deictics (FUN, QTY, this/that/here/there/up/down) were **kept** from the earlier
-> neutral/coined set this pass (they are short, low fairness-stakes, and form
-> coherent paradigms); several are still Latin-derived and are flagged `revisit`
-> in `notes`. A dedicated pass should neutralise/blend them and build a coherent
-> numeral set. A future false-friend *screen in tooling* (seeded by the audit)
-> should also be added alongside the obscenity blocklist.
+> **Function/numeral/deictic blend (done — supersedes the earlier "kept" set).**
+> The function words, numerals and pure deictics have now been blended/neutralised:
+> - **Numerals** — a coherent cross-family set, maximally distinct:
+>   0 `nuli` · 1 `wan` · 2 `tu` · 3 `san` · 4 `yon` · 5 `lima` · 6 `sita` ·
+>   7 `saba` · 8 `nane` · 9 `kiu` · 10 `dasa` · 100 `sata`
+>   (English 1/2, Japanese 3/4/9, Austronesian 5, Swahili/Arabic 6/7/8,
+>   Sanskrit 10/100; 6–9 land in tier-2 but the system is fixed now).
+> - **Deictics** — a single coherent Austronesian paradigm for learnability:
+>   this `ini` · that `itu` · here `sini` · there `situ` · up `ata` · down `bawa`.
+> - **Connectives/quantifiers/etc.** de-Latinised where clean (e.g. but `tapi`,
+>   because `sababu`, yes `hai`, very `sana`, only `dake`, all `ote`, none
+>   `hakuna`, more `lebi`, today `leo`, before `mae`, after `ato`). The neutral
+>   coined items kept where already fine (the `se-` question series, `o`, `fi`,
+>   `no`, `ti`, `nu`, `numa`).
+>
+> **Still pending:** a false-friend *screen in the tooling* (seeded by
+> `data/false-friend-audit.tsv`), to sit alongside the obscenity blocklist.
 
 ## 8. Interfaces to later phases & tools
 

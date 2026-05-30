@@ -7,39 +7,39 @@ FUN-005	why	sefu	COIN	question-word series (se-)	function (kept)
 FUN-006	how	sewa	COIN	question-word series (se-)	function (kept)
 FUN-008	how many / how much	semu	COIN	question-word series (se-)	function (kept)
 FUN-009	or	o	INTL	Spanish/Italian 'o'	function (kept)
-FUN-010	but	ma	INTL	Italian 'ma'	function (kept)
+FUN-010	but	tapi	INTL	Indonesian tapi	Austronesian (was Latin ma)
 FUN-011	if	fi	COIN	short function word	function (kept)
-FUN-012	because	kausa	INTL	Latin 'causa'	function (kept); revisit
-FUN-015	yes	si	INTL	Spanish/Italian 'sí'	function (kept)
+FUN-012	because	sababu	INTL	Swahili/Arabic sababu	Bantu/Semitic (was Latin causa)
+FUN-015	yes	hai	INTL	Japanese hai	Japonic (was Romance si)
 FUN-016	no (answer)	no	INTL	English/Spanish 'no'	function (kept)
-FUN-017	very	mu	INTL	Spanish 'muy'	function (kept)
+FUN-017	very	sana	INTL	Swahili sana	Bantu (was Spanish muy)
 FUN-018	also / too	ti	COIN	short function word	function (kept)
-FUN-019	only / just	sola	INTL	Spanish 'solo'	function (kept)
-QTY-001	zero	nula	INTL	Latin 'nullus'	numeral (kept); revisit
-QTY-002	one	una	INTL	Romance 'uno/una'	numeral (kept); revisit
-QTY-003	two	du	INTL	Romance 'due/dos'	numeral (kept); revisit
-QTY-004	three	tilo	COIN	short numeral	numeral (kept)
-QTY-005	four	kuse	COIN	short numeral	numeral (kept)
-QTY-006	five	pena	COIN	short numeral	numeral (kept)
-QTY-011	ten	deka	INTL	Greek 'deka'	numeral (kept); revisit
-QTY-012	hundred	sento	INTL	Latin 'centum'	numeral (kept); revisit
-QTY-018	all	tota	INTL	Latin 'tota'	quantifier (kept); revisit
-QTY-019	many / much	muta	INTL	Romance 'mucho/molto'	quantifier (kept); revisit
-QTY-020	few / little	poke	INTL	Romance 'poco'	quantifier (kept); revisit
-QTY-021	some	aliku	INTL	Latin 'aliquis'	quantifier (kept); revisit
-QTY-022	none	nilo	INTL	Latin 'nihil'	quantifier (kept); revisit
-QTY-024	more	masa	INTL	Spanish 'más'	quantifier (kept); revisit
-TIM-001	time	tepa	COIN	neutral coinage	temporal (kept)
+FUN-019	only / just	dake	INTL	Japanese dake	Japonic (was Spanish solo)
+QTY-001	zero	nuli	COIN	neutral coinage	numeral
+QTY-002	one	wan	INTL	English/creole one	numeral
+QTY-003	two	tu	INTL	English two / cf dua	numeral
+QTY-004	three	san	INTL	Japanese/Mandarin san	numeral (pan-East-Asian)
+QTY-005	four	yon	INTL	Japanese yon	numeral
+QTY-006	five	lima	INTL	Austronesian lima	numeral
+QTY-011	ten	dasa	INTL	Sanskrit dasa/Hindi das	numeral
+QTY-012	hundred	sata	INTL	Sanskrit sata (hundred)	numeral
+QTY-018	all	ote	INTL	Swahili -ote	Bantu (was Latin tota)
+QTY-019	many / much	ingi	INTL	Swahili -ingi	Bantu (was Romance)
+QTY-020	few / little	kidogo	INTL	Swahili kidogo	Bantu (was Romance poco)
+QTY-021	some	badi	COIN	cf Arabic baad	quantifier (was Latin aliquis)
+QTY-022	none	hakuna	INTL	Swahili hakuna	Bantu (was Latin nihil)
+QTY-024	more	lebi	INTL	Indonesian lebih	Austronesian (was Spanish mas)
+TIM-001	time	wakati	INTL	Swahili wakati	Bantu (was coin tepa)
 TIM-002	day	din	INTL	Hindi din	Indo-Aryan
 TIM-003	night	usiku	INTL	Swahili usiku	Bantu
-TIM-006	today	hodi	INTL	Latin 'hodie'	temporal (kept); revisit
-TIM-007	tomorrow	domani	INTL	Italian 'domani'	temporal (kept); revisit
-TIM-008	yesterday	ieli	INTL	Italian 'ieri'	temporal (kept); revisit
+TIM-006	today	leo	INTL	Swahili leo	Bantu (was Latin hodie)
+TIM-007	tomorrow	keso	INTL	Swahili kesho	Bantu (was Italian domani)
+TIM-008	yesterday	yana	INTL	Swahili jana	Bantu (was Italian ieri)
 TIM-009	now	nu	COIN	short; used in 0002	temporal (kept)
 TIM-011	year	taun	INTL	Indonesian tahun	Austronesian; replaces 'ano' (taboo false friend es/pt)
-TIM-015	before (earlier than)	ante	INTL	Latin 'ante'	temporal (kept); revisit
-TIM-016	after (later than)	posa	INTL	Latin 'post'	temporal (kept); revisit
-TIM-017	always	sepe	COIN	neutral coinage	temporal (kept)
+TIM-015	before (earlier than)	mae	INTL	Japanese mae	Japonic (was Latin ante)
+TIM-016	after (later than)	ato	INTL	Japanese ato	Japonic (was Latin post)
+TIM-017	always	daima	INTL	Swahili/Arabic daima	Bantu/Semitic (was coin)
 TIM-018	never	numa	COIN	neutral coinage	temporal (kept)
 PHY-001	sun	taio	INTL	Japanese taiyō	Japonic
 PHY-002	moon	bulan	INTL	Indonesian bulan	Austronesian
@@ -122,13 +122,13 @@ ACT-021	break	peca	INTL	Indonesian pecah	Austronesian
 ACT-022	cut	kata	INTL	Swahili kata	Bantu
 ACT-030	burn	yaku	INTL	Japanese yaku	Japonic
 ACT-034	work	kasi	INTL	Swahili kazi	Bantu
-SPA-001	this	eta	INTL	Spanish 'esta'	deictic (kept); revisit
-SPA-002	that	ola	INTL	Latin 'illa'	deictic (kept); revisit
-SPA-003	here	aki	INTL	Spanish 'aquí'	deictic (kept); revisit
-SPA-004	there	ala	INTL	Spanish 'allá'	deictic (kept); revisit
+SPA-001	this	ini	INTL	Indonesian ini	Austronesian deictic paradigm
+SPA-002	that	itu	INTL	Indonesian itu	Austronesian deictic paradigm
+SPA-003	here	sini	INTL	Indonesian sini	Austronesian deictic paradigm
+SPA-004	there	situ	INTL	Indonesian situ	Austronesian deictic paradigm
 SPA-005	place	mahali	INTL	Swahili mahali	Bantu; replaces 'loko' (false friend 'crazy')
-SPA-006	up / above	supa	COIN	neutral	deictic (kept)
-SPA-007	down / below	basa	COIN	neutral	deictic (kept)
+SPA-006	up / above	ata	INTL	Indonesian atas	Austronesian (was coin supa)
+SPA-007	down / below	bawa	INTL	Indonesian bawah	Austronesian (was coin basa)
 PER-001	see	kan	INTL	Mandarin kàn	Sinitic
 PER-002	hear	kiku	INTL	Japanese kiku	Japonic
 EMO-003	want	mau	INTL	Indonesian mau	Austronesian
