@@ -62,11 +62,11 @@ const rough = {
   // MOT
   "MOT-001":"masuk","MOT-002":"keluar","MOT-003":"sampai","MOT-004":"ikuti","MOT-005":"naiki","MOT-006":"kirim",
   // SPA
-  "SPA-010":"depan","SPA-011":"belakang","SPA-012":"kiri","SPA-013":"kanan","SPA-014":"samping","SPA-015":"tenga",
+  "SPA-008":"dalam","SPA-009":"luar","SPA-010":"depan","SPA-011":"belakang","SPA-012":"kiri","SPA-013":"kanan","SPA-014":"samping","SPA-015":"tenga",
   // PER
   "PER-003":"nioi","PER-004":"rasa","PER-005":"sentuh","PER-006":"miru","PER-007":"dengar","PER-008":"iro","PER-009":"oto",
   // EMO
-  "EMO-001":"suki","EMO-002":"suka","EMO-005":"senang","EMO-007":"marah","EMO-008":"tawa","EMO-009":"naku",
+  "EMO-001":"suki","EMO-002":"suka","EMO-005":"senang","EMO-006":"sedih","EMO-007":"marah","EMO-008":"tawa","EMO-009":"naku",
   // COG
   "COG-003":"paham","COG-004":"belajar","COG-005":"ajaru","COG-006":"ingat","COG-008":"percaya","COG-009":"akaru",
   // SPE
