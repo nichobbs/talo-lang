@@ -1,0 +1,41 @@
+id	gloss	current_form	current_src	alt_form	alt_lang	alt_family
+PHY-008	water	akua	Latin aqua	pani	Hindi/Urdu pānī	Indo-Aryan
+PHY-017	fire	foko	Latin focus	moto	Swahili moto	Bantu
+PHY-001	sun	soli	Latin sol	taio	Japanese taiyō	Japonic
+PHY-002	moon	luna	Latin luna	canda	Hindi chānd	Indo-Aryan
+PHY-003	star	telo	(coin)	hosi	Japanese hoshi	Japonic
+PHY-013	stone	peta	(coin/petra)	batu	Indonesian batu	Austronesian
+BOD-003	eye	oko	Latin oculus	mata	Indonesian mata	Austronesian
+BOD-004	ear	oto	Greek oto-	udun	Arabic ʾudhun	Semitic
+BOD-005	nose	naso	Latin nasus	naka	Hindi nāk	Indo-Aryan
+BOD-006	mouth	boka	Spanish boca	kuci	Japanese kuchi	Japonic
+BOD-007	tooth	dento	Latin dent-	danta	Hindi dānt	Indo-Aryan
+BOD-001	head	kapa	Latin caput	kepala	Indonesian kepala	Austronesian
+BOD-011	hand	mana	Latin manus	yadi	Arabic yad	Semitic
+BOD-014	foot	pede	Latin ped-	kaki	Indonesian kaki	Austronesian
+BOD-021	blood	sanga	Latin sanguis	damu	Swahili damu / Arabic dam	Bantu/Semitic
+KIN-001	person	homi	Latin homo	olan	Indonesian orang	Austronesian
+KIN-003	woman	mina	(coin)	ona	Japanese onna	Japonic
+KIN-002	man	masu	(coin)	adami	Arabic/Hindi ādmī (Adam)	Semitic
+KIN-004	child	kila	(coin)	baca	Hindi bacchā	Indo-Aryan
+ANI-002	dog	kanu	(coin)	gou	Mandarin gǒu	Sinitic
+ANI-003	fish	pesa	Latin pisces	ikan	Indonesian ikan	Austronesian
+ANI-004	bird	awe	Latin avis	niao	Mandarin niǎo	Sinitic
+AGR-001	tree	lubo	(coin)	pedu	Hindi peṛ	Indo-Aryan
+PROP-001	big	bola	(coin)	da	Mandarin dà	Sinitic
+PROP-002	small	piko	Italian piccolo	siao	Mandarin xiǎo	Sinitic
+PROP-017	good	bona	Latin bonus	hao	Mandarin hǎo	Sinitic
+PROP-011	hot	kalo	Latin calor	pana	Indonesian panas	Austronesian
+PROP-012	cold	hima	Sanskrit hima	holo	Russian kholod	Slavic
+BOD-028	eat	kome	Spanish comer	makan	Indonesian makan	Austronesian
+BOD-029	drink	bibe	Latin bibere	pina	Hindi pīnā	Indo-Aryan
+BOD-027	sleep	domi	Latin dormire	sona	Hindi sonā	Indo-Aryan
+ACT-002	go	go	English go	iku	Japanese iku	Japonic
+PER-001	see	wide	Latin videre	kan	Mandarin kàn	Sinitic
+ACT-009	give	dona	Latin donare	gei	Mandarin gěi	Sinitic
+DWE-001	house	kasa	Latin casa	luma	Indonesian rumah	Austronesian
+SPE-003	name	nomi	Latin nomen	nama	Indonesian/Hindi nāma	Indo-Aryan
+TIM-002	day	dia	Spanish día	din	Hindi din	Indo-Aryan
+TIM-003	night	note	Italian notte	leli	Arabic layl	Semitic
+KIN-005	mother	mama	universal	mama	universal nursery	universal
+KIN-006	father	papa	universal	baba	Mandarin/Slavic baba	Sinitic/Slavic
