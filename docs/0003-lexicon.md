@@ -193,6 +193,37 @@ defaults.
 
 -----
 
+## 7a. Stage 2 — form-assignment policy (forms live in `data/lexicon.tsv`)
+
+Stage 2 mints a Talo **form** per root concept. Schema:
+`id · gloss · form · source · rationale · notes`; `source` ∈ {`INTL`, `COIN`}.
+
+**Policy (decided in dialogue):**
+1. **Internationalism-first where it genuinely helps.** If a form is already
+   globally diffused and would be more familiar, adopt it (adapted to Talo
+   phonotactics) — *even if longer* than a coinage would be (rules 1, 4).
+2. **Otherwise neutral coinage, Zipfian-sized:** the most frequent roots get the
+   shortest legal shapes (CV → CVCV), rarer roots may run longer.
+3. **Every form passes both gates** — the phonotactic linter (R1–R6) and the
+   collision checker (no homophone / near-homophone / reserved-word / obscenity).
+   Adaptation to phonotactics most often means **`r→l`** (no `r`, `0001` §2.4),
+   **`v→w`** (no `v`, §2.3), and breaking illegal clusters/codas.
+
+**Delivered now:** the **tier-1 stable core (140 roots)** in `data/lexicon.tsv`,
+all 140 passing both gates (validated via
+`talo-collision --lexicon data/lexicon.tsv`). A handful intentionally reuse the
+forms used illustratively in `0002` (`bola`, `piko`, `kanu`, `kasa`, `kuto`,
+`mina`, `kila`, `dona`, `seka`, `nu`).
+
+> **Cost accepted, recorded explicitly — and flagged for review.** Where an
+> internationalism was used, this first batch leans heavily on **Latin/Romance**
+> roots (the most globally *diffused* family via scientific/loanword vocabulary),
+> which favours Romance/English-Latinate L1s. This is consistent with `0000` §1
+> (root-level neutrality is unreachable; prefer already-diffused forms) but the
+> *degree* of the lean is a genuine, reviewable decision: the alternative is more
+> arbitrary neutral coinage (fairer, but zero transfer for anyone). Question-word
+> forms (`se-` series) are coined as a learnable paradigm rather than borrowed.
+
 ## 8. Interfaces to later phases & tools
 
 - **Collision checker (Stage 2 gate, `0000` §4 / `0001` §2.1, §8).** Must be
