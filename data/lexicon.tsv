@@ -169,3 +169,57 @@ COR-027	every-place	olo	DERIV	correlative every+place (0002 §6.7)	grid stem o- 
 COR-028	every-reason	ofu	DERIV	correlative every+reason (0002 §6.7)	grid stem o- + cat -fu
 COR-029	every-way	owa	DERIV	correlative every+way (0002 §6.7)	grid stem o- + cat -wa
 COR-030	every-amount	omu	DERIV	correlative every+amount (0002 §6.7)	grid stem o- + cat -mu
+PHY-004	sky	sola	INTL	Japanese sora (r→l)	Japonic
+PHY-006	world	dunia	INTL	Indonesian/Arabic dunia	Austronesian
+PHY-007	land	toci	INTL	Japanese tochi	Japonic
+PHY-010	river	kawa	INTL	Japanese kawa	Japonic
+PHY-011	lake	tasi	INTL	Indonesian tasik	Austronesian
+PHY-015	soil	dobe	INTL	cf soil/earth	Indo-Aryan
+PHY-016	dust	dabu	INTL	cf dust	Indo-Aryan
+PHY-019	ash	abu	INTL	Indonesian abu	Austronesian
+PHY-021	air	udala	INTL	Indonesian udara (r→l)	Austronesian
+PHY-024	snow	yuki	INTL	Japanese yuki	Japonic
+PHY-025	ice	koli	INTL	Japanese kōri (r→l)	Japonic
+PHY-026	light	hikali	INTL	Japanese hikari (r→l)	Japonic
+PHY-027	shadow	kage	INTL	Japanese kage	Japonic
+PHY-028	metal	loha	INTL	Hindi lohā	Indo-Aryan
+BOD-009	face	kao	INTL	Japanese kao	Japonic
+BOD-010	neck	leha	INTL	Indonesian leher	Austronesian
+BOD-012	arm	ude	INTL	Japanese ude	Japonic
+BOD-013	finger	yali	INTL	Indonesian jari (j→y,r→l)	Austronesian
+BOD-015	leg	migu	INTL	Swahili mguu (simplified)	Bantu
+BOD-016	knee	lutu	INTL	Indonesian lutut	Austronesian
+BOD-017	belly	peti	INTL	Indonesian perut	Austronesian
+BOD-018	back	senaka	INTL	Japanese senaka	Japonic
+BOD-019	chest	dada	INTL	Indonesian/Swahili dada	Austronesian
+BOD-020	heart	moyo	INTL	Swahili moyo	Bantu
+BOD-025	body	kalada	INTL	Japanese karada (r→l)	Japonic
+BOD-026	breathe	napu	INTL	Indonesian napas	Austronesian
+BOD-031	live	hidu	INTL	Indonesian hidup	Austronesian
+BOD-032	heal	ponia	INTL	Swahili ponya (ny→ni)	Bantu
+KIN-007	parent	oya	INTL	Japanese oya	Japonic
+KIN-008	male	laki	INTL	Indonesian laki	Austronesian
+KIN-009	female	mesu	INTL	Japanese mesu	Japonic
+KIN-012	sibling	kodai	INTL	Japanese kyōdai (simplified)	Japonic
+KIN-013	spouse	suami	INTL	Indonesian suami	Austronesian
+KIN-014	friend	tomo	INTL	Japanese tomo	Japonic
+ANI-001	animal	dobu	INTL	Japanese dōbutsu	Japonic
+ANI-005	cat	neko	INTL	Japanese neko	Japonic
+ANI-006	horse	uma	INTL	Japanese uma	Japonic
+ANI-007	cow	usi	INTL	Japanese ushi	Japonic
+ANI-009	tail	sipo	INTL	Japanese shippo (simplified)	Japonic
+ANI-010	wing	saya	INTL	Indonesian sayap	Austronesian
+ANI-011	feather	hane	INTL	Japanese hane	Japonic
+ANI-012	horn	tanu	INTL	Indonesian tanduk	Austronesian
+AGR-002	plant	tubu	INTL	Indonesian tumbuh (simplified)	Austronesian
+AGR-003	wood	kayu	INTL	Indonesian kayu	Austronesian
+AGR-007	flower	hana	INTL	Japanese hana	Japonic
+AGR-008	grass	kusa	INTL	Japanese kusa	Japonic
+AGR-009	fruit	buwa	INTL	Indonesian buah	Austronesian
+FOO-002	milk	susu	INTL	Indonesian/Swahili susu	Austronesian
+FOO-003	salt	gala	INTL	Indonesian garam (r→l)	Austronesian
+FOO-004	oil	mafu	INTL	Swahili mafuta	Bantu
+FOO-005	cook	pika	INTL	Swahili pika	Bantu
+FOO-006	sweet	mani	INTL	Indonesian manis	Austronesian
+FOO-007	bread	loti	INTL	Hindi/Indonesian roti (r→l)	Indo-Aryan
+FOO-008	rice	gohan	INTL	Japanese gohan	Japonic
