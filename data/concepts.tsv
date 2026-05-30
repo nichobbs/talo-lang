@@ -371,3 +371,33 @@ MOD-015	medicine	MOD	3	n	yes		MOD	internationalism candidate
 MOD-016	doctor	MOD	3	n	yes		MOD	promoted to root — specific profession, meaning drifts from 'healer' (rule 1)
 MOD-017	market	MOD	2	n	no	buy + -de(place)	IDS	derivable — pruned (policy demo)
 MOD-018	government	MOD	3	n	yes		MOD	institution; full SOC/MOD set in the full sweep	
+COR-001	this-person	COR	1	fun	no	ini- + -la (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-002	this-thing	COR	1	fun	no	ini- + -ko (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-003	this-reason	COR	1	fun	no	ini- + -fu (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-004	this-way	COR	1	fun	no	ini- + -wa (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-005	this-amount	COR	1	fun	no	ini- + -mu (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-006	that-person	COR	1	fun	no	itu- + -la (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-007	that-thing	COR	1	fun	no	itu- + -ko (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-008	that-time	COR	1	fun	no	itu- + -no (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-009	that-reason	COR	1	fun	no	itu- + -fu (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-010	that-way	COR	1	fun	no	itu- + -wa (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-011	that-amount	COR	1	fun	no	itu- + -mu (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-012	some-person	COR	1	fun	no	ba- + -la (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-013	some-thing	COR	1	fun	no	ba- + -ko (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-014	some-place	COR	1	fun	no	ba- + -lo (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-015	some-time	COR	1	fun	no	ba- + -no (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-016	some-reason	COR	1	fun	no	ba- + -fu (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-017	some-way	COR	1	fun	no	ba- + -wa (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-018	some-amount	COR	1	fun	no	ba- + -mu (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-019	no-person	COR	1	fun	no	ha- + -la (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-020	no-thing	COR	1	fun	no	ha- + -ko (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-021	no-place	COR	1	fun	no	ha- + -lo (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-022	no-reason	COR	1	fun	no	ha- + -fu (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-023	no-way	COR	1	fun	no	ha- + -wa (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-024	no-amount	COR	1	fun	no	ha- + -mu (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-025	every-person	COR	1	fun	no	o- + -la (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-026	every-thing	COR	1	fun	no	o- + -ko (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-027	every-place	COR	1	fun	no	o- + -lo (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-028	every-reason	COR	1	fun	no	o- + -fu (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-029	every-way	COR	1	fun	no	o- + -wa (correlative grid)	FUN	0002 §6.7 correlatives table
+COR-030	every-amount	COR	1	fun	no	o- + -mu (correlative grid)	FUN	0002 §6.7 correlatives table

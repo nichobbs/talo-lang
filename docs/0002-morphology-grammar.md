@@ -474,6 +474,41 @@ block. Omitting obligatory articles fits zero-default (§3.2) and
 no-mandatory-grammar (§3.1) and removes a judgement the primary persona cannot
 yet make. (Tie-break rules 1, 3; rule 2 — an over-/under-specified noun still parses.)
 
+### 6.7 Correlatives — a regular stem × category grid
+**Decision.** The pro-forms (question / demonstrative / indefinite / negative /
+universal words) are a **fully regular table**: a **stem** prefix combines with a
+**category** suffix. Learn 6 stems + 7 categories (13 pieces) → **42 words**, all
+predictable — the additive-derivation principle (rule 5) applied to the closed
+deictic system, maximally transparent for the novice (rule 4).
+
+**Stems:** `se-` question · `ini-` this/near · `itu-` that/far · `ba-` some ·
+`ha-` no/none · `o-` every/all.
+**Categories:** `-la` person · `-ko` thing · `-lo` place · `-no` time ·
+`-fu` reason · `-wa` way/manner · `-mu` amount.
+
+| | Q `se-` | this `ini-` | that `itu-` | some `ba-` | no `ha-` | every `o-` |
+|---|---|---|---|---|---|---|
+| **person** -la | sela who | inila | itula | bala someone | hala no one | ola everyone |
+| **thing** -ko | seko what | iniko this(thing) | ituko that(thing) | bako something | hako nothing | oko everything |
+| **place** -lo | selo where | inilo here | itulo there | balo somewhere | halo nowhere | olo everywhere |
+| **time** -no | seno when | inino now | ituno then | bano sometime | hano never | ono always |
+| **reason** -fu | sefu why | inifu | itufu | bafu | hafu | ofu |
+| **way** -wa | sewa how | iniwa thus | ituwa | bawa somehow | hawa noway | owa anyhow |
+| **amount** -mu | semu how-much | inimu this-much | itumu that-much | bamu some | hamu none | omu all |
+
+The pre-existing `se-` question series (§6.4) was designed to fit this grid, so
+no question word changes. The grid **supersedes** the earlier independent forms
+for *here/there/now/never/always* (now `inilo/itulo/inino/hano/ono`), and
+`down/below` was re-minted `sita` (Japanese *shita*) to free `bawa` for
+*some-way*. Bare demonstratives "this/that" (§6.6) are `ini`/`itu` — the stems
+themselves; the `-ko` thing-forms `iniko/ituko` are the explicit "this thing".
+
+> **Cost accepted:** five high-frequency words become two syllables longer than a
+> bespoke short form would be (e.g. `inino` "now" vs the old `nu`). Bought for a
+> zero-exception, self-generating deictic system — the learner never memorises
+> these as separate vocabulary. (Rule 3: predictability over economy.)
+
+
 -----
 
 ## 7. Putting it together — worked clauses
