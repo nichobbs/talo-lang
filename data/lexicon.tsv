@@ -1,141 +1,141 @@
 id	gloss	form	source	rationale	notes
-FUN-001	who	sela	COIN	question-word series (se-)	wh-style paradigm: question words share se-
-FUN-002	what	seko	COIN	question-word series (se-)
-FUN-003	where	selo	COIN	question-word series (se-)
-FUN-004	when (Q)	seno	COIN	question-word series (se-)
-FUN-005	why	sefu	COIN	question-word series (se-)
-FUN-006	how	sewa	COIN	question-word series (se-)
-FUN-008	how many / how much	semu	COIN	question-word series (se-)
-FUN-009	or	o	INTL	Spanish/Italian 'o'
-FUN-010	but	ma	INTL	Italian 'ma'
-FUN-011	if	fi	COIN	short function word
-FUN-012	because	kausa	INTL	Latin 'causa'
-FUN-015	yes	si	INTL	Spanish/Italian 'sí'
-FUN-016	no (answer)	no	INTL	English/Spanish 'no'	distinct from negator ne (0002)
-FUN-017	very	mu	INTL	Spanish 'muy'
-FUN-018	also / too	ti	COIN	short function word
-FUN-019	only / just	sola	INTL	Spanish 'solo'
-QTY-001	zero	nula	INTL	Latin 'nullus'
-QTY-002	one	una	INTL	Romance 'uno/una'
-QTY-003	two	du	INTL	Romance 'due/dos'
-QTY-004	three	tilo	COIN	short numeral
-QTY-005	four	kuse	COIN	short numeral
-QTY-006	five	pena	COIN	short numeral
-QTY-011	ten	deka	INTL	Greek 'deka'
-QTY-012	hundred	sento	INTL	Latin 'centum'
-QTY-018	all	tota	INTL	Latin/Romance 'tota/todo'
-QTY-019	many / much	muta	INTL	Romance 'mucho/molto'
-QTY-020	few / little	poke	INTL	Romance 'poco'
-QTY-021	some	aliku	INTL	Latin 'aliquis'
-QTY-022	none	nilo	INTL	Latin 'nihil'
-QTY-024	more	masa	INTL	Spanish 'más'
-TIM-001	time	tepa	COIN	(tempo has illegal m-coda)
-TIM-002	day	dia	INTL	Spanish 'día'
-TIM-003	night	note	INTL	Italian 'notte'
-TIM-006	today	hodi	INTL	Latin 'hodie'
-TIM-007	tomorrow	domani	INTL	Italian 'domani'
-TIM-008	yesterday	ieli	INTL	Italian 'ieri'
-TIM-009	now	nu	COIN	short; used illustratively in 0002
-TIM-011	year	ano	INTL	Spanish 'año'
-TIM-015	before (earlier than)	ante	INTL	Latin 'ante'
-TIM-016	after (later than)	posa	INTL	Latin 'post'
-TIM-017	always	sepe	COIN	(semper has illegal m-coda)
-TIM-018	never	numa	INTL	Latin 'numquam'
-PHY-001	sun	soli	INTL	Latin 'sol'
-PHY-002	moon	luna	INTL	Latin 'luna'
-PHY-003	star	telo	COIN	(stella has illegal cluster)
-PHY-005	ground / earth	tela	INTL	Latin 'terra' (r→l)
-PHY-008	water	akua	INTL	Latin 'aqua'
-PHY-009	sea	male	INTL	Latin 'mare' (r→l)
-PHY-012	mountain	monta	INTL	Romance 'monte'
-PHY-013	stone / rock	peta	COIN	cf. 'piedra/petra' (no r)
-PHY-014	sand	sani	COIN	neutral coinage
-PHY-017	fire	foko	INTL	Latin 'focus'
-PHY-018	smoke	fumo	INTL	Latin 'fumus'
-PHY-020	wind	wento	INTL	Latin 'ventus' (v→w)
-PHY-022	rain	piwa	COIN	neutral coinage
-PHY-023	cloud	nuba	INTL	Latin 'nubes'
-PROP-001	big	bola	COIN	used illustratively in 0002
-PROP-002	small	piko	INTL	Italian 'piccolo'; used in 0002
-PROP-003	long	longa	INTL	Romance 'lungo/long'
-PROP-011	hot	kalo	INTL	Latin 'calor'
-PROP-012	cold	hima	INTL	Sanskrit 'hima' (cold/winter)
-PROP-014	new	nowa	INTL	Latin 'nova' (v→w)
-PROP-015	old (of things)	tawa	COIN	neutral coinage
-PROP-017	good	bona	INTL	Latin 'bonus'; cf. 0002 'bone'
-PROP-018	bad	mala	INTL	Latin 'malus'
-PROP-019	full	foli	COIN	(pleno has illegal cluster)
-PROP-024	dry	sika	INTL	Latin 'siccus'
-PROP-036	far	lefa	COIN	neutral coinage
-PROP-037	near	kelo	INTL	Spanish 'cerca' (no r)
-PROP-045	same	sama	INTL	'same/sama'
-PROP-046	different	dipa	COIN	neutral coinage
-PROP-047	black	nila	COIN	cf. 'negro' (no r)
-PROP-048	white	bila	COIN	cf. 'blanco' (no cluster)
-PROP-049	red	puna	COIN	cf. Quechua 'puka'
-BOD-001	head	kapa	INTL	Latin 'caput'
-BOD-002	hair	pelo	INTL	Spanish 'pelo'
-BOD-003	eye	oko	INTL	Latin 'oculus'/Slavic 'oko'
-BOD-004	ear	oto	INTL	Greek 'oto-'
-BOD-005	nose	naso	INTL	Latin 'nasus'
-BOD-006	mouth	boka	INTL	Spanish 'boca'
-BOD-007	tooth	dento	INTL	Latin 'dens/dent'
-BOD-008	tongue	lina	INTL	Latin 'lingua' (simplified)
-BOD-011	hand	mana	INTL	Latin 'manus'
-BOD-014	foot	pede	INTL	Latin 'pes/ped'
-BOD-021	blood	sanga	INTL	Latin 'sanguis'
-BOD-022	bone	oso	INTL	Spanish 'hueso'
-BOD-023	skin	kuta	INTL	Latin 'cutis'
-BOD-024	flesh / meat	kane	INTL	Latin 'carnis' (no r)
-BOD-027	sleep	domi	INTL	Latin 'dormire' (no r)
-BOD-028	eat	kome	INTL	Spanish 'comer'
-BOD-029	drink	bibe	INTL	Latin 'bibere'
-BOD-030	die	moli	INTL	Latin 'mori' (r→l)
-KIN-001	person / human	homi	INTL	Latin 'homo'
-KIN-002	man / male person	masu	COIN	cf. 'masculine'
-KIN-003	woman	mina	COIN	used illustratively in 0002
-KIN-004	child	kila	COIN	used illustratively in 0002
-KIN-005	mother	mama	INTL	near-universal nursery form
-KIN-006	father	papa	INTL	near-universal nursery form
-ANI-002	dog	kanu	COIN	used illustratively in 0002
-ANI-003	fish	pesa	INTL	Latin 'pisces'/Romance 'pesce'
-ANI-004	bird	awe	INTL	Latin 'avis' (v→w)
-ANI-008	egg	owo	INTL	Latin 'ovum' (v→w)
-AGR-001	tree	lubo	COIN	neutral coinage
-AGR-004	leaf	folia	INTL	Latin 'folium'
-AGR-005	root (of plant)	ladi	INTL	Latin 'radix' (r→l)
-AGR-006	seed	semi	INTL	Latin 'semen'
-FOO-001	food	kiba	INTL	Italian 'cibo'
-DWE-001	house	kasa	INTL	Latin 'casa'; used in 0002
-DWE-006	knife	kuto	COIN	used illustratively in 0002
-DWE-008	thing / object	kosa	INTL	Spanish 'cosa'
-ACT-001	do / make	fa	INTL	Italian 'fare'
-ACT-002	go	go	INTL	English 'go'
-ACT-003	come	weni	INTL	Latin 'venire' (v→w)
-ACT-004	walk	pasi	INTL	Romance 'paso/pace'
-ACT-006	stand	tesa	COIN	neutral coinage
-ACT-007	sit	sede	INTL	Latin 'sedere'
-ACT-009	give	dona	INTL	Latin 'donare'; used in 0002
-ACT-010	take	kapi	INTL	Latin 'capere'
-ACT-016	fall	kade	INTL	Latin 'cadere'
-ACT-021	break	fanga	INTL	Latin 'frangere' (no cluster)
-ACT-022	cut	seka	INTL	Latin 'secare'; used in 0002
-ACT-030	burn	buni	COIN	neutral coinage
-ACT-034	work	labo	INTL	Latin 'labor' (no r)
-SPA-001	this	eta	INTL	Spanish 'esta'
-SPA-002	that	ola	INTL	Latin 'illa'
-SPA-003	here	aki	INTL	Spanish 'aquí'
-SPA-004	there	ala	INTL	Spanish 'allá'
-SPA-005	place	loko	INTL	Latin 'locus'
-SPA-006	up / above	supa	INTL	Latin 'supra'
-SPA-007	down / below	basa	INTL	Romance 'basso/abajo'
-PER-001	see	wide	INTL	Latin 'videre' (v→w)
-PER-002	hear	odi	INTL	Latin 'audire'
-EMO-003	want	wole	INTL	Latin 'volere' (v→w)
-EMO-004	fear	timo	INTL	Latin 'timor' (no r)
-COG-001	know	sabe	INTL	Romance 'saber/sapere'
-COG-002	think	kogi	INTL	Latin 'cogito'
-SPE-001	say / speak	dice	INTL	Latin 'dicere'
-SPE-002	word	pala	INTL	Spanish 'palabra' (no r)
-SPE-003	name	nomi	INTL	Latin 'nomen'
-POS-001	have	abe	INTL	Latin 'habere'
+FUN-001	who	sela	COIN	question-word series (se-)	function (kept)
+FUN-002	what	seko	COIN	question-word series (se-)	function (kept)
+FUN-003	where	selo	COIN	question-word series (se-)	function (kept)
+FUN-004	when (Q)	seno	COIN	question-word series (se-)	function (kept)
+FUN-005	why	sefu	COIN	question-word series (se-)	function (kept)
+FUN-006	how	sewa	COIN	question-word series (se-)	function (kept)
+FUN-008	how many / how much	semu	COIN	question-word series (se-)	function (kept)
+FUN-009	or	o	INTL	Spanish/Italian 'o'	function (kept)
+FUN-010	but	ma	INTL	Italian 'ma'	function (kept)
+FUN-011	if	fi	COIN	short function word	function (kept)
+FUN-012	because	kausa	INTL	Latin 'causa'	function (kept); revisit
+FUN-015	yes	si	INTL	Spanish/Italian 'sí'	function (kept)
+FUN-016	no (answer)	no	INTL	English/Spanish 'no'	function (kept)
+FUN-017	very	mu	INTL	Spanish 'muy'	function (kept)
+FUN-018	also / too	ti	COIN	short function word	function (kept)
+FUN-019	only / just	sola	INTL	Spanish 'solo'	function (kept)
+QTY-001	zero	nula	INTL	Latin 'nullus'	numeral (kept); revisit
+QTY-002	one	una	INTL	Romance 'uno/una'	numeral (kept); revisit
+QTY-003	two	du	INTL	Romance 'due/dos'	numeral (kept); revisit
+QTY-004	three	tilo	COIN	short numeral	numeral (kept)
+QTY-005	four	kuse	COIN	short numeral	numeral (kept)
+QTY-006	five	pena	COIN	short numeral	numeral (kept)
+QTY-011	ten	deka	INTL	Greek 'deka'	numeral (kept); revisit
+QTY-012	hundred	sento	INTL	Latin 'centum'	numeral (kept); revisit
+QTY-018	all	tota	INTL	Latin 'tota'	quantifier (kept); revisit
+QTY-019	many / much	muta	INTL	Romance 'mucho/molto'	quantifier (kept); revisit
+QTY-020	few / little	poke	INTL	Romance 'poco'	quantifier (kept); revisit
+QTY-021	some	aliku	INTL	Latin 'aliquis'	quantifier (kept); revisit
+QTY-022	none	nilo	INTL	Latin 'nihil'	quantifier (kept); revisit
+QTY-024	more	masa	INTL	Spanish 'más'	quantifier (kept); revisit
+TIM-001	time	tepa	COIN	neutral coinage	temporal (kept)
+TIM-002	day	din	INTL	Hindi din	Indo-Aryan
+TIM-003	night	usiku	INTL	Swahili usiku	Bantu
+TIM-006	today	hodi	INTL	Latin 'hodie'	temporal (kept); revisit
+TIM-007	tomorrow	domani	INTL	Italian 'domani'	temporal (kept); revisit
+TIM-008	yesterday	ieli	INTL	Italian 'ieri'	temporal (kept); revisit
+TIM-009	now	nu	COIN	short; used in 0002	temporal (kept)
+TIM-011	year	taun	INTL	Indonesian tahun	Austronesian; replaces 'ano' (taboo false friend es/pt)
+TIM-015	before (earlier than)	ante	INTL	Latin 'ante'	temporal (kept); revisit
+TIM-016	after (later than)	posa	INTL	Latin 'post'	temporal (kept); revisit
+TIM-017	always	sepe	COIN	neutral coinage	temporal (kept)
+TIM-018	never	numa	COIN	neutral coinage	temporal (kept)
+PHY-001	sun	taio	INTL	Japanese taiyō	Japonic
+PHY-002	moon	bulan	INTL	Indonesian bulan	Austronesian
+PHY-003	star	hosi	INTL	Japanese hoshi	Japonic
+PHY-005	ground / earth	tana	INTL	Indonesian tanah	Austronesian
+PHY-008	water	pani	INTL	Hindi/Urdu pānī	Indo-Aryan
+PHY-009	sea	umi	INTL	Japanese umi	Japonic
+PHY-012	mountain	yama	INTL	Japanese yama	Japonic
+PHY-013	stone / rock	batu	INTL	Indonesian batu	Austronesian
+PHY-014	sand	suna	INTL	Japanese suna	Japonic
+PHY-017	fire	moto	INTL	Swahili moto	Bantu
+PHY-018	smoke	mosi	INTL	Swahili moshi	Bantu
+PHY-020	wind	angin	INTL	Indonesian angin	Austronesian
+PHY-022	rain	ame	INTL	Japanese ame	Japonic
+PHY-023	cloud	awan	INTL	Indonesian awan	Austronesian
+PROP-001	big	gande	INTL	Italian grande	Romance (capped)
+PROP-002	small	piko	INTL	Italian piccolo	Romance (capped)
+PROP-003	long	nagai	INTL	Japanese nagai	Japonic
+PROP-011	hot	pana	INTL	Indonesian panas	Austronesian
+PROP-012	cold	holo	INTL	Russian kholod	Slavic
+PROP-014	new	naya	INTL	Hindi nayā	Indo-Aryan
+PROP-015	old (of things)	tua	INTL	Indonesian tua	Austronesian
+PROP-017	good	hao	INTL	Mandarin hǎo	Sinitic
+PROP-018	bad	baya	INTL	Swahili -baya	Bantu
+PROP-019	full	penu	INTL	Indonesian penuh	Austronesian
+PROP-024	dry	kawu	INTL	Swahili kavu	Bantu
+PROP-036	far	toi	INTL	Japanese tōi	Japonic
+PROP-037	near	cikai	INTL	Japanese chikai	Japonic
+PROP-045	same	sama	INTL	Indonesian/Malay sama	Austronesian
+PROP-046	different	beda	INTL	Indonesian beda	Austronesian
+PROP-047	black	hita	INTL	Indonesian hitam	Austronesian
+PROP-048	white	puti	INTL	Indonesian putih	Austronesian
+PROP-049	red	akai	INTL	Japanese akai	Japonic
+BOD-001	head	kepala	INTL	Indonesian kepala	Austronesian
+BOD-002	hair	kami	INTL	Japanese kami	Japonic
+BOD-003	eye	mata	INTL	Indonesian mata	Austronesian
+BOD-004	ear	sikio	INTL	Swahili sikio	Bantu
+BOD-005	nose	pua	INTL	Swahili pua	Bantu
+BOD-006	mouth	kuci	INTL	Japanese kuchi	Japonic
+BOD-007	tooth	gigi	INTL	Indonesian gigi	Austronesian
+BOD-008	tongue	ulimi	INTL	Swahili ulimi	Bantu
+BOD-011	hand	yadi	INTL	Arabic yad	Semitic
+BOD-014	foot	kaki	INTL	Indonesian kaki	Austronesian
+BOD-021	blood	damu	INTL	Swahili damu	Bantu
+BOD-022	bone	hone	INTL	Japanese hone	Japonic
+BOD-023	skin	kuli	INTL	Indonesian kulit	Austronesian
+BOD-024	flesh / meat	niku	INTL	Japanese niku	Japonic
+BOD-027	sleep	tidu	INTL	Indonesian tidur	Austronesian
+BOD-028	eat	makan	INTL	Indonesian makan	Austronesian
+BOD-029	drink	pina	INTL	Hindi pīnā	Indo-Aryan
+BOD-030	die	mati	INTL	Indonesian mati	Austronesian
+KIN-001	person / human	hito	INTL	Japanese hito	Japonic
+KIN-002	man / male person	adami	INTL	Arabic/Hindi ādmī	Semitic
+KIN-003	woman	wanita	INTL	Indonesian wanita	Austronesian
+KIN-004	child	toto	INTL	Swahili (m)toto	Bantu
+KIN-005	mother	mama	INTL	universal nursery	universal
+KIN-006	father	baba	INTL	Swahili/universal baba	universal
+ANI-002	dog	gou	INTL	Mandarin gǒu	Sinitic
+ANI-003	fish	ikan	INTL	Indonesian ikan	Austronesian
+ANI-004	bird	toli	INTL	Japanese tori (r→l)	Japonic
+ANI-008	egg	telu	INTL	Indonesian telur	Austronesian
+AGR-001	tree	pedu	INTL	Hindi peṛ	Indo-Aryan
+AGR-004	leaf	pata	INTL	Hindi pattā	Indo-Aryan; (Indonesian 'daun' clashed with taun)
+AGR-005	root (of plant)	aka	INTL	Indonesian akar	Austronesian
+AGR-006	seed	tane	INTL	Japanese tane	Japonic
+FOO-001	food	cakula	INTL	Swahili chakula	Bantu
+DWE-001	house	baiti	INTL	Arabic bayt	Semitic
+DWE-006	knife	kisu	INTL	Swahili kisu	Bantu
+DWE-008	thing / object	mono	INTL	Japanese mono	Japonic
+ACT-001	do / make	tenda	INTL	Swahili -tenda	Bantu
+ACT-002	go	iku	INTL	Japanese iku	Japonic
+ACT-003	come	datan	INTL	Indonesian datang	Austronesian
+ACT-004	walk	cala	INTL	Hindi chalnā	Indo-Aryan
+ACT-006	stand	simama	INTL	Swahili simama	Bantu
+ACT-007	sit	dudu	INTL	Indonesian duduk	Austronesian
+ACT-009	give	dona	INTL	Latin donare; used in 0002	Romance (capped)
+ACT-010	take	cukua	INTL	Swahili chukua	Bantu; (Indonesian 'ambil' had illegal mb)
+ACT-016	fall	anguka	INTL	Swahili anguka	Bantu
+ACT-021	break	peca	INTL	Indonesian pecah	Austronesian
+ACT-022	cut	kata	INTL	Swahili kata	Bantu
+ACT-030	burn	yaku	INTL	Japanese yaku	Japonic
+ACT-034	work	kasi	INTL	Swahili kazi	Bantu
+SPA-001	this	eta	INTL	Spanish 'esta'	deictic (kept); revisit
+SPA-002	that	ola	INTL	Latin 'illa'	deictic (kept); revisit
+SPA-003	here	aki	INTL	Spanish 'aquí'	deictic (kept); revisit
+SPA-004	there	ala	INTL	Spanish 'allá'	deictic (kept); revisit
+SPA-005	place	mahali	INTL	Swahili mahali	Bantu; replaces 'loko' (false friend 'crazy')
+SPA-006	up / above	supa	COIN	neutral	deictic (kept)
+SPA-007	down / below	basa	COIN	neutral	deictic (kept)
+PER-001	see	kan	INTL	Mandarin kàn	Sinitic
+PER-002	hear	kiku	INTL	Japanese kiku	Japonic
+EMO-003	want	mau	INTL	Indonesian mau	Austronesian
+EMO-004	fear	taku	INTL	Indonesian takut	Austronesian
+COG-001	know	tau	INTL	Indonesian tahu	Austronesian
+COG-002	think	omou	INTL	Japanese omou	Japonic
+SPE-001	say / speak	sema	INTL	Swahili sema	Bantu
+SPE-002	word	neno	INTL	Swahili neno	Bantu
+SPE-003	name	nama	INTL	Indonesian/Hindi nāma	Indo-Aryan
+POS-001	have	motu	INTL	Japanese motsu	Japonic
