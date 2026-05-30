@@ -458,6 +458,22 @@ A free conjunction `i` joins like constituents (`mi i yu` "you and I";
 `kanuka i homika` "the dog and the person"). It underpins the compositional route
 to clusivity (§5.3).
 
+### 6.6 Definiteness — no obligatory articles
+**Decision.** Talo has **no obligatory articles**. A bare noun is unmarked for
+definiteness, exactly as number is unmarked (§5.2). Specificity is available when
+wanted, but only through words Talo **already has** — so it costs **no new
+grammatical machinery and no new judgement** (the resolution of "optional
+precision vs. extra choice"):
+- "the / that one" → demonstratives `ini` (this) / `itu` (that): `kanuka itu`.
+- "a / a certain" → numeral `ta` (one) or `badi` (some): `kanuka ta`; bare
+  `kanuka` already covers "a dog".
+
+**Rationale.** Articles are absent from most of the largest L1s (Mandarin,
+Hindi, Russian, Japanese, Indonesian, Bengali) and are a notorious L2 stumbling
+block. Omitting obligatory articles fits zero-default (§3.2) and
+no-mandatory-grammar (§3.1) and removes a judgement the primary persona cannot
+yet make. (Tie-break rules 1, 3; rule 2 — an over-/under-specified noun still parses.)
+
 -----
 
 ## 7. Putting it together — worked clauses
