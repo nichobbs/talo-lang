@@ -10,7 +10,7 @@ FUN-009	or	o	INTL	Spanish/Italian 'o'	function (kept)
 FUN-010	but	ma	INTL	Italian ma	Romance (kept for brevity; high-frequency)
 FUN-011	if	fi	COIN	short function word	function (kept)
 FUN-012	because	sababu	INTL	Swahili/Arabic sababu	Bantu/Semitic (was Latin causa)
-FUN-015	yes	hai	INTL	Japanese hai	Romance si rejected (clashes with es/fr si=if)
+FUN-015	yes	hi	COIN	neutral short (ha=7; hai too overtly Japanese)	Romance si rejected (es/fr si=if)
 FUN-016	no (answer)	no	INTL	English/Spanish 'no'	function (kept)
 FUN-017	very	sana	INTL	Swahili sana	Bantu (was Spanish muy)
 FUN-018	also / too	ti	COIN	short function word	function (kept)
@@ -126,7 +126,7 @@ SPA-001	this	ini	INTL	Indonesian ini	Austronesian deictic paradigm
 SPA-002	that	itu	INTL	Indonesian itu	Austronesian deictic paradigm
 SPA-003	here	sini	INTL	Indonesian sini	Austronesian deictic paradigm
 SPA-004	there	situ	INTL	Indonesian situ	Austronesian deictic paradigm
-SPA-005	place	mahali	INTL	Swahili mahali	Bantu; replaces 'loko' (false friend 'crazy')
+SPA-005	place	loka	INTL	Sanskrit/Indonesian loka (place/realm)	replaces mahali
 SPA-006	up / above	ata	INTL	Indonesian atas	Austronesian (was coin supa)
 SPA-007	down / below	bawa	INTL	Indonesian bawah	Austronesian (was coin basa)
 PER-001	see	kan	INTL	Mandarin kàn	Sinitic

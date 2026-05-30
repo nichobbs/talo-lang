@@ -458,9 +458,13 @@ A free conjunction `i` joins like constituents (`mi i yu` "you and I";
 `kanuka i homika` "the dog and the person"). It underpins the compositional route
 to clusivity (§5.3).
 
-### 6.6 Definiteness — no articles
-**Decision.** Talo has **no articles** (no obligatory *a*/*the*). A bare noun is
-unmarked for definiteness, exactly as number is unmarked (§5.2).
+### 6.6 Definiteness — no obligatory articles
+**Decision.** Talo has **no obligatory articles**. A bare noun is unmarked for
+definiteness, exactly as number is unmarked (§5.2). Specificity *is* available
+when wanted — but through words Talo **already has**, so the expressivity is
+gained with **no new grammatical machinery** and **no new judgement** forced on
+the speaker (this is the resolution of "optional precision vs. extra choice":
+the option costs nothing extra because it reuses the demonstratives/numeral).
 
 **Rationale.** Articles are absent from most of the largest L1s — Mandarin,
 Hindi, Russian, Japanese, Indonesian, Bengali — and are a notorious L2
@@ -472,8 +476,8 @@ stance (§3.1), and removes a judgement the primary persona cannot yet make.
 **When definiteness matters, it is expressed lexically and optionally:**
 - "the" / that-specific-one → the demonstratives `ini` (this) / `itu` (that):
   `kanuka itu` = "that/the dog".
-- "a / a certain" → the numeral `wan`-class "one" or `badi` "some":
-  `kanuka [one]` = "a (single) dog"; default bare `kanuka` already covers "a dog".
+- "a / a certain" → the numeral `ta` "one" or `badi` "some":
+  `kanuka ta` = "a (single) dog"; default bare `kanuka` already covers "a dog".
 
 > **Cost accepted:** speakers of article languages (English, Romance, German,
 > Arabic) lose a familiar cue and must learn that definiteness is contextual.
