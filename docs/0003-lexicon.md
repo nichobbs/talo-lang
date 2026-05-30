@@ -224,6 +224,48 @@ forms used illustratively in `0002` (`bola`, `piko`, `kanu`, `kasa`, `kuto`,
 > arbitrary neutral coinage (fairer, but zero transfer for anyone). Question-word
 > forms (`se-` series) are coined as a learnable paradigm rather than borrowed.
 
+## 7b. Sourcing decision — blend / worldlang (supersedes the Latin baseline)
+
+After comparing three sourcing bases on a 40-concept sample
+(`data/lexicon-compare.tsv`: ① Latin baseline, ② total-speaker capped,
+③ blend/worldlang), **③ blend was adopted** and `data/lexicon.tsv` was rebuilt
+for all 140 tier-1 roots on that basis.
+
+**Rubric.** Source content roots from the **CV-phonotactically-friendly large
+donors** — Indonesian/Malay (Austronesian), Swahili (Bantu), Japanese (Japonic),
+with Indo-Aryan/Semitic/Sinitic/Slavic where a toneless CV form stays
+recognisable — and **cap any one family at ≤25%**. Romance is *allowed but
+capped* (~3 roots) so it harmonises with the inevitably Greco-Latin modern layer
+(tiers 2–3), rather than dominating. Mandarin/Hindi are used sparingly because
+stripping tone/retroflex to fit Talo phonotactics destroys their recognisability
+for their own speakers (see the considerations recorded with this decision).
+
+**Why blend over the others.** The source base mainly serves the *secondary*
+(transferer) persona; the primary novice gains little from any etymology, so the
+choice is really fairness + phonaesthetic fit. Blend spreads transfer across the
+largest number of people, fits our CV system, avoids the colonial-Eurocentric
+optics of a Latin base (§7 of `0000`), and has live precedent (Globasa, Pandunia,
+Lidepla). Pure-population sourcing (②) was rejected because it either re-imposes
+Latin (total-speaker weighting inflates English+Romance) or yields tone-stripped
+Mandarin/Hindi forms unrecognisable to their own speakers.
+
+**Result.** Content roots now spread ~Austronesian 24% · Japonic ~16% · Bantu
+~13% · Indo-Aryan ~5% · Semitic/Sinitic/Romance ~2% each · Slavic ~1%, vs the
+baseline's ~71% Latin/Romance. All 140 pass both gates.
+
+**False-friend screen applied** (per the audit, `data/false-friend-audit.tsv`):
+the SEVERE/HIGH clashes were designed out — e.g. `ano`(year, =anus es/pt)→`taun`,
+`loko`(place, =crazy)→`mahali`, and the capped picks avoid `nila/dia/go/pesa/
+kane/bila/tela/male`. MEDIUM/LOW clashes are accepted as the unavoidable tax.
+
+> **Still pending (recorded, not done):** function words, numerals and the pure
+> deictics (FUN, QTY, this/that/here/there/up/down) were **kept** from the earlier
+> neutral/coined set this pass (they are short, low fairness-stakes, and form
+> coherent paradigms); several are still Latin-derived and are flagged `revisit`
+> in `notes`. A dedicated pass should neutralise/blend them and build a coherent
+> numeral set. A future false-friend *screen in tooling* (seeded by the audit)
+> should also be added alongside the obscenity blocklist.
+
 ## 8. Interfaces to later phases & tools
 
 - **Collision checker (Stage 2 gate, `0000` §4 / `0001` §2.1, §8).** Must be
