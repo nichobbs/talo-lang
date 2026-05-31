@@ -7,12 +7,13 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 
 | | |
 |---|---|
-| Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar) |
-| Phase in progress | 3 (lexicon) |
+| Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice) |
+| Phase in progress | — (next: Phase 5 lexicon scaling + the gaps `0004` §8 surfaced) |
 | Concepts catalogued | 402 (`data/concepts.tsv`); 356 are roots |
 | Lexicon forms minted | 386 (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
 | Both gates | green (linter R1–R6 + collision checker); 386/386 clear, exit 0 |
 | CI | both tool test suites passing |
+| Hello-world corpus | `docs/0004` — 2 annotated dialogues + ~30 feature sentences, all on the 386 words |
 
 ## What exists today
 
@@ -30,6 +31,13 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 - `0003` — lexicon: meanings-first methodology, Balanced derivation-pruning,
   tier system, 22 semantic domains, base-10 numerals, and the **blend/worldlang
   sourcing** decision (§7b).
+- `0004` — hello-world slice: the first *test-top-down* phase (`0000` §8). Two
+  annotated everyday dialogues + a feature-by-feature sentence sweep + worked
+  derivation/compounding, all built only from the 386 forms and the `0002`
+  grammar. Confirms the layers compose and that the existing core already holds a
+  real conversation; records the gaps it exposed (no locative/existential
+  predication; no phatic layer for greetings/please/thanks; determiner-order
+  clarification; proper-noun policy) as inputs to Phase 5.
 
 **Data:** `concepts.tsv` (meanings), `lexicon.tsv` (forms), plus the
 `collision-blocklist.txt` (obscenity) and `false-friends.tsv` (false-friend)
@@ -60,11 +68,17 @@ forms minted → buffer-vowel polish pass.
 
 ## Next steps (recommended order)
 
-1. **Phase 4 — the "hello world" slice** _(recommended next)._ Per `0000` §8,
-   start *using* Talo before scaling vocabulary: build an annotated everyday
-   dialogue / example set from the existing 386 words + the grammar, write it up
-   as `docs/0004`. This validates that the pieces compose and reveals which of
-   the next ~1,100 concepts actually matter.
+1. ✅ **Phase 4 — the "hello world" slice** _(done — `docs/0004`)._ Built the
+   annotated everyday dialogues + example set from the existing 386 words + the
+   grammar. Validated that the pieces compose, and found the real gaps are
+   grammatical/phatic, not vocabulary (see `0004` §8). **Follow-ups it generated**
+   (small, additive — do alongside Phase 5):
+   - decide **locative/existential predication** ("I am here / there is X") — the
+     copula currently covers noun/modifier predicates only;
+   - mint a **phatic set** (hello/bye, please, thank you, sorry, okay) — absent;
+   - confirm **demonstratives/numerals are postposed determiners**, distinct from
+     `-pe` modifiers (`0002` §6.6 already assumes this);
+   - add a **proper-noun policy** (badging, parsing, gate treatment).
 2. **Expand the concept list** toward the ~1,500 target (currently 402), then
    mint forms for the additions through both gates (reuse `scripts/` patterns).
    _(currently 402 concepts catalogued.)_
