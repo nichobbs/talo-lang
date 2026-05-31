@@ -401,3 +401,11 @@ COR-027	every-place	COR	1	fun	no	o- + -lo (correlative grid)	FUN	0002 §6.7 corr
 COR-028	every-reason	COR	1	fun	no	o- + -fu (correlative grid)	FUN	0002 §6.7 correlatives table
 COR-029	every-way	COR	1	fun	no	o- + -wa (correlative grid)	FUN	0002 §6.7 correlatives table
 COR-030	every-amount	COR	1	fun	no	o- + -mu (correlative grid)	FUN	0002 §6.7 correlatives table
+POS-006	exist / be (located)	POS	1	v	yes		IDS	existential/locative verb (0005 §2); cf hakuna = ha+kuna
+FUN-022	hello	FUN	1	fun	yes		FUN	phatic interjection (0005 §5)
+FUN-023	goodbye	FUN	1	fun	yes		FUN	phatic interjection (0005 §5)
+FUN-024	please	FUN	1	fun	yes		FUN	phatic interjection (0005 §5)
+FUN-025	thank you	FUN	1	fun	yes		FUN	phatic interjection (0005 §5)
+FUN-026	sorry	FUN	1	fun	yes		FUN	phatic interjection (0005 §5)
+FUN-027	okay	FUN	1	fun	yes		FUN	phatic interjection (0005 §5)
+FUN-028	welcome	FUN	1	fun	yes		FUN	phatic interjection (0005 §5)

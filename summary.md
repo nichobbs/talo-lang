@@ -7,13 +7,14 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 
 | | |
 |---|---|
-| Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice) |
-| Phase in progress | — (next: Phase 5 lexicon scaling + the gaps `0004` §8 surfaced) |
-| Concepts catalogued | 402 (`data/concepts.tsv`); 356 are roots |
-| Lexicon forms minted | 386 (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
-| Both gates | green (linter R1–R6 + collision checker); 386/386 clear, exit 0 |
-| CI | both tool test suites passing |
+| Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass) |
+| Phase in progress | 5b — lexicon scaling toward ~1,500 (grammar gaps now closed) |
+| Concepts catalogued | 409 (`data/concepts.tsv`) |
+| Lexicon forms minted | 393 (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
+| Both gates | green (linter R1–R6 + collision checker); 393/393 clear, exit 0 |
+| CI | both tool test suites passing (linter; checker 12/12) |
 | Hello-world corpus | `docs/0004` — 2 annotated dialogues + ~30 feature sentences, all on the 386 words |
+| Grammar completeness | `docs/0005` — conditionals, existential verb `kuna`, determiner order, proper nouns, phatic set (7 new forms) |
 
 ## What exists today
 
@@ -31,6 +32,13 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 - `0003` — lexicon: meanings-first methodology, Balanced derivation-pruning,
   tier system, 22 semantic domains, base-10 numerals, and the **blend/worldlang
   sourcing** decision (§7b).
+- `0005` — grammar pass (Phase 5a): closes the `0004` §8 gaps + conditionals.
+  Conditional `fi` clause-initial (result clause bare, optional `toki`);
+  existential/locative verb `kuna` (POS-006; the copula keeps noun/modifier
+  predicates only); determiners (demonstratives/numerals/quantifiers) postposed
+  as a class distinct from `-pe` modifiers (cross-ref added to `0002` §6.6);
+  proper nouns take `-ka` like any noun; a six-word phatic set
+  (`aloha/cao/doso/makasi/pole/oke`). 7 new forms, both gates exit 0.
 - `0004` — hello-world slice: the first *test-top-down* phase (`0000` §8). Two
   annotated everyday dialogues + a feature-by-feature sentence sweep + worked
   derivation/compounding, all built only from the 386 forms and the `0002`
