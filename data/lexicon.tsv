@@ -393,3 +393,173 @@ FUN-025	thank you	tanku	INTL	English thank(-you) / German danke	phatic (0005 §5
 FUN-026	sorry	pole	INTL	Swahili pole	phatic (0005 §5); Bantu
 FUN-027	okay	oke	INTL	international okay/oke	phatic (0005 §5)
 FUN-028	welcome	kalibu	INTL	Swahili karibu (r->l)	phatic (0005 §5); Bantu
+KIN-016	grandmother	bibia	INTL	blend rubric; src 'bibi'	blend (legalised); Bantu
+KIN-017	grandfather	babu	INTL	blend rubric; src 'babu'	blend; Bantu
+KIN-018	baby / infant	bayi	INTL	blend rubric; src 'bayi'	blend; Austronesian
+KIN-019	adult	dewasa	INTL	blend rubric; src 'dewasa'	blend; Austronesian
+KIN-020	family	famili	INTL	blend rubric; src 'famili'	blend; Austronesian
+KIN-021	ancestor	nasaba	INTL	blend rubric; src 'nasaba'	blend; Bantu
+KIN-022	neighbour	tetanga	INTL	blend rubric; src 'tetangga'	blend; Austronesian
+KIN-023	guest	tamua	INTL	blend rubric; src 'tamu'	blend (legalised); Austronesian
+KIN-024	enemy	adui	INTL	blend rubric; src 'adui'	blend; Bantu
+KIN-025	self / oneself	dili	INTL	blend rubric; src 'diri'	blend; Austronesian
+KIN-026	tribe / clan	kabila	INTL	blend rubric; src 'kabila'	blend; Bantu
+KIN-027	member	angota	INTL	blend rubric; src 'anggota'	blend; Austronesian
+SOC-008	society	sakai	INTL	blend rubric; src 'shakai'	blend; Japonic
+SOC-009	king / ruler	fale	INTL	blend rubric; src 'falme'	blend; Bantu
+SOC-010	citizen	wala	INTL	blend rubric; src 'warga'	blend; Austronesian
+SOC-011	law	selia	INTL	blend rubric; src 'sheria'	blend; Bantu
+SOC-012	rule	atulan	INTL	blend rubric; src 'aturan'	blend; Austronesian
+SOC-013	right / entitlement	haki	INTL	blend rubric; src 'haki'	blend; Bantu
+SOC-014	freedom	meleka	INTL	blend rubric; src 'merdeka'	blend; Austronesian
+SOC-015	peace	amani	INTL	blend rubric; src 'amani'	blend; Bantu
+SOC-016	crime	sumi	INTL	blend rubric; src 'tsumi'	blend; Japonic
+SOC-017	police	polisi	INTL	blend rubric; src 'polisi'	blend; international
+SOC-018	soldier	tentala	INTL	blend rubric; src 'tentara'	blend; Austronesian
+SOC-019	army	guntai	INTL	blend rubric; src 'guntai'	blend; Japonic
+SOC-020	religion	agama	INTL	blend rubric; src 'agama'	blend; Austronesian
+SOC-021	god / deity	tuhan	INTL	blend rubric; src 'tuhan'	blend; Austronesian
+SOC-022	spirit / soul	yiwa	INTL	blend rubric; src 'jiwa'	blend; Austronesian
+SOC-023	history	talihi	INTL	blend rubric; src 'tarihi'	blend; Bantu
+SOC-024	culture	budaya	INTL	blend rubric; src 'budaya'	blend; Austronesian
+SOC-025	power / authority	kuasa	INTL	blend rubric; src 'kuasa'	blend; Austronesian
+SOC-026	tax	kodi	INTL	blend rubric; src 'kodi'	blend; Bantu
+SOC-027	trade / commerce	dagan	INTL	blend rubric; src 'dagang'	blend; Austronesian
+SOC-028	village	kiyiyi	INTL	blend rubric; src 'kijiji'	blend; Bantu
+EMO-010	hope	tumaini	INTL	blend rubric; src 'tumaini'	blend; Bantu
+EMO-011	worry / anxiety	kawati	INTL	blend rubric; src 'kawatir'	blend; Austronesian
+EMO-012	surprise	odoloku	INTL	blend rubric; src 'odoroku'	blend; Japonic
+EMO-013	shame	hayi	INTL	blend rubric; src 'haji'	blend; Japonic
+EMO-014	proud / pride	banga	INTL	blend rubric; src 'bangga'	blend; Austronesian
+EMO-015	hate	nikumu	INTL	blend rubric; src 'nikumu'	blend; Japonic
+EMO-016	calm	sisuka	INTL	blend rubric; src 'shizuka'	blend; Japonic
+EMO-017	tired	lela	INTL	blend rubric; src 'lelah'	blend; Austronesian
+EMO-018	pain / hurt	saki	INTL	blend rubric; src 'sakit'	blend; Austronesian
+EMO-019	brave	belani	INTL	blend rubric; src 'berani'	blend; Austronesian
+EMO-020	patience	subila	INTL	blend rubric; src 'subira'	blend; Bantu
+EMO-021	lonely	sabisi	INTL	blend rubric; src 'sabishii'	blend; Japonic
+EMO-022	jealousy / envy	wiwu	INTL	blend rubric; src 'wivu'	blend; Bantu
+EMO-023	feeling / emotion	hisia	INTL	blend rubric; src 'hisia'	blend; Bantu
+COG-010	wise / wisdom	hekima	INTL	blend rubric; src 'hekima'	blend; Bantu
+COG-011	doubt	lagu	INTL	blend rubric; src 'ragu'	blend; Austronesian
+COG-012	decide	kimelu	INTL	blend rubric; src 'kimeru'	blend; Japonic
+COG-013	choose	pili	INTL	blend rubric; src 'pilih'	blend; Austronesian
+COG-014	dream	yume	INTL	blend rubric; src 'yume'	blend; Japonic
+COG-015	notice / realise	kisuku	INTL	blend rubric; src 'kizuku'	blend; Japonic
+COG-016	mistake / error	macigai	INTL	blend rubric; src 'machigai'	blend; Japonic
+COG-017	problem	masala	INTL	blend rubric; src 'masalah'	blend; Austronesian
+COG-018	ability / skill	uweso	INTL	blend rubric; src 'uwezo'	blend; Bantu
+COG-019	can / be able	bisa	INTL	blend rubric; src 'bisa'	blend; Austronesian
+COG-020	must / have to	lasima	INTL	blend rubric; src 'lazima'	blend; Bantu
+COG-021	try / attempt	coba	INTL	blend rubric; src 'coba'	blend; Austronesian
+SPE-010	story	celita	INTL	blend rubric; src 'cerita'	blend; Austronesian
+SPE-011	news	belita	INTL	blend rubric; src 'berita'	blend; Austronesian
+SPE-012	voice	koe	INTL	blend rubric; src 'koe'	blend; Japonic
+SPE-013	letter / mail	tegami	INTL	blend rubric; src 'tegami'	blend; Japonic
+SPE-014	promise	yakusoku	INTL	blend rubric; src 'yakusoku'	blend; Japonic
+SPE-015	lie / falsehood	uso	INTL	blend rubric; src 'uso'	blend; Japonic
+SPE-016	call / shout	yobu	INTL	blend rubric; src 'yobu'	blend; Japonic
+SPE-017	sing	utau	INTL	blend rubric; src 'utau'	blend; Japonic
+SPE-018	song	wimo	INTL	blend rubric; src 'wimbo'	blend; Bantu
+SPE-019	sentence	kalima	INTL	blend rubric; src 'kalimat'	blend; Austronesian
+SPE-020	sign / mark	tanda	INTL	blend rubric; src 'tanda'	blend; Austronesian
+SPE-021	letter / character	moyi	INTL	blend rubric; src 'moji'	blend; Japonic
+SPE-022	agree	setuyu	INTL	blend rubric; src 'setuju'	blend; Austronesian
+SPE-023	refuse / reject	tola	INTL	blend rubric; src 'tolak'	blend; Austronesian
+FOO-009	meal	sokuyi	INTL	blend rubric; src 'shokuji'	blend; Japonic
+FOO-010	tea	ca	INTL	blend rubric; src 'cha'	blend; Sinitic
+FOO-011	coffee	kopi	INTL	blend rubric; src 'kopi'	blend; Austronesian
+FOO-012	alcohol / liquor	sake	INTL	blend rubric; src 'sake'	blend; Japonic
+FOO-013	sugar	gula	INTL	blend rubric; src 'gula'	blend; Austronesian
+FOO-014	flour	kona	INTL	blend rubric; src 'kona'	blend; Japonic
+FOO-015	vegetable	sayu	INTL	blend rubric; src 'sayur'	blend; Austronesian
+FOO-016	cheese	keyu	INTL	blend rubric; src 'keju'	blend; Austronesian
+FOO-017	soup	supu	INTL	blend rubric; src 'supu'	blend; Bantu
+FOO-018	pepper / chili	pilipili	INTL	blend rubric; src 'pilipili'	blend; Bantu
+FOO-019	honey	asali	INTL	blend rubric; src 'asali'	blend; Bantu
+FOO-020	plate / dish	pilin	INTL	blend rubric; src 'piring'	blend; Austronesian
+FOO-021	cup	kikome	INTL	blend rubric; src 'kikombe'	blend; Bantu
+FOO-022	bottle	cupa	INTL	blend rubric; src 'chupa'	blend; Bantu
+FOO-023	spoon	kiyiko	INTL	blend rubric; src 'kijiko'	blend; Bantu
+FOO-024	hungry	lapa	INTL	blend rubric; src 'lapar'	blend; Austronesian
+FOO-025	thirsty	hau	INTL	blend rubric; src 'haus'	blend; Austronesian
+FOO-026	delicious / tasty	oisi	INTL	blend rubric; src 'oisii'	blend; Japonic
+FOO-027	bitter	nigai	INTL	blend rubric; src 'nigai'	blend; Japonic
+FOO-028	sour	supai	INTL	blend rubric; src 'suppai'	blend; Japonic
+FOO-029	fresh	sega	INTL	blend rubric; src 'segar'	blend; Austronesian
+ANI-013	chicken	niwatoli	INTL	blend rubric; src 'niwatoli'	blend; Japonic
+ANI-014	pig	buta	INTL	blend rubric; src 'buta'	blend; Japonic
+ANI-015	goat	busi	INTL	blend rubric; src 'buzi'	blend; Bantu
+ANI-016	snake	ula	INTL	blend rubric; src 'ular'	blend; Austronesian
+ANI-017	insect / bug	musi	INTL	blend rubric; src 'mushi'	blend; Japonic
+ANI-018	lion	singa	INTL	blend rubric; src 'singa'	blend; Austronesian
+ANI-019	elephant	gaya	INTL	blend rubric; src 'gajah'	blend; Austronesian
+ANI-020	monkey	salu	INTL	blend rubric; src 'saru'	blend; Japonic
+CLO-004	shirt	kemeya	INTL	blend rubric; src 'kemeja'	blend; Austronesian
+CLO-005	trousers / pants	celana	INTL	blend rubric; src 'celana'	blend; Austronesian
+CLO-006	hat	topi	INTL	blend rubric; src 'topi'	blend; Austronesian
+CLO-007	jacket / coat	yake	INTL	blend rubric; src 'jaket'	blend; international
+CLO-008	button	botan	INTL	blend rubric; src 'botan'	blend; Japonic
+CLO-009	pocket	saku	INTL	blend rubric; src 'saku'	blend; Austronesian
+CLO-010	cloth / fabric	kitama	INTL	blend rubric; src 'kitambaa'	blend; Bantu
+CLO-011	thread	ito	INTL	blend rubric; src 'ito'	blend; Japonic
+CLO-012	needle	hali	INTL	blend rubric; src 'hari'	blend; Japonic
+CLO-013	sew	sona	INTL	blend rubric; src 'shona'	blend; Bantu
+CLO-014	ring	yubiwa	INTL	blend rubric; src 'yubiwa'	blend; Japonic
+CLO-015	bag	muko	INTL	blend rubric; src 'mfuko'	blend; Bantu
+DWE-010	room	kama	INTL	blend rubric; src 'kamar'	blend; Austronesian
+DWE-011	wall	dindin	INTL	blend rubric; src 'dinding'	blend; Austronesian
+DWE-012	window	yendela	INTL	blend rubric; src 'jendela'	blend; Austronesian
+DWE-013	floor	yuka	INTL	blend rubric; src 'yuka'	blend; Japonic
+DWE-014	stairs	kaidan	INTL	blend rubric; src 'kaidan'	blend; Japonic
+DWE-015	chair	isu	INTL	blend rubric; src 'isu'	blend; Japonic
+DWE-016	lamp	lamu	INTL	blend rubric; src 'lampu'	blend; Austronesian
+DWE-017	key	kagia	INTL	blend rubric; src 'kagi'	blend (legalised); Japonic
+DWE-018	mirror	kagami	INTL	blend rubric; src 'kagami'	blend; Japonic
+DWE-019	box	sanduku	INTL	blend rubric; src 'sanduku'	blend; Bantu
+DWE-020	basket	kikapu	INTL	blend rubric; src 'kikapu'	blend; Bantu
+DWE-021	pillow	makula	INTL	blend rubric; src 'makura'	blend; Japonic
+DWE-022	soap	sabuni	INTL	blend rubric; src 'sabuni'	blend; Bantu
+DWE-023	candle	suma	INTL	blend rubric; src 'shumaa'	blend; Bantu
+DWE-024	clock / watch	tokei	INTL	blend rubric; src 'tokei'	blend; Japonic
+DWE-025	garden / yard	kebun	INTL	blend rubric; src 'kebun'	blend; Austronesian
+DWE-026	building	tatemono	INTL	blend rubric; src 'tatemono'	blend; Japonic
+DWE-027	mat	meka	INTL	blend rubric; src 'mkeka'	blend; Bantu
+AGR-010	farm / field	noen	INTL	blend rubric; src 'noen'	blend; Japonic
+AGR-011	forest	hutan	INTL	blend rubric; src 'hutan'	blend; Austronesian
+AGR-012	harvest	panen	INTL	blend rubric; src 'panen'	blend; Austronesian
+AGR-013	branch	eda	INTL	blend rubric; src 'eda'	blend; Japonic
+AGR-014	bean	mame	INTL	blend rubric; src 'mame'	blend; Japonic
+AGR-015	maize / corn	mahindi	INTL	blend rubric; src 'mahindi'	blend; Bantu
+AGR-016	mushroom	kinoko	INTL	blend rubric; src 'kinoko'	blend; Japonic
+AGR-017	sow / plant (v)	panda	INTL	blend rubric; src 'panda'	blend; Bantu
+MOD-019	bridge	hasi	INTL	blend rubric; src 'hashi'	blend; Japonic
+MOD-020	station	eki	INTL	blend rubric; src 'eki'	blend; Japonic
+MOD-021	factory	koyo	INTL	blend rubric; src 'kojo'	blend; Japonic
+MOD-022	shop / store	mise	INTL	blend rubric; src 'mise'	blend; Japonic
+MOD-023	hotel	hotelu	INTL	blend rubric; src 'hoteru'	blend; international
+MOD-024	bank	ban	INTL	blend rubric; src 'bank'	blend; international
+MOD-025	office	kanto	INTL	blend rubric; src 'kantor'	blend; Austronesian
+MOD-026	ticket	kipu	INTL	blend rubric; src 'kippu'	blend; Japonic
+MOD-027	map	cisu	INTL	blend rubric; src 'chizu'	blend; Japonic
+MOD-028	picture / image	pica	INTL	blend rubric; src 'pica'	blend; Bantu
+MOD-029	music	musia	INTL	blend rubric; src 'musik'	blend (legalised); international
+MOD-030	art	seni	INTL	blend rubric; src 'seni'	blend; Austronesian
+MOD-031	film / movie	eiga	INTL	blend rubric; src 'eiga'	blend; Japonic
+MOD-032	camera	kamela	INTL	blend rubric; src 'kamera'	blend; international
+MOD-033	television	telebi	INTL	blend rubric; src 'terebi'	blend; international
+MOD-034	radio	ladio	INTL	blend rubric; src 'radio'	blend; international
+MOD-035	newspaper	sinbun	INTL	blend rubric; src 'shinbun'	blend; Japonic
+MOD-036	science	kagaku	INTL	blend rubric; src 'kagaku'	blend; Japonic
+MOD-037	energy	tenaga	INTL	blend rubric; src 'tenaga'	blend; Austronesian
+MOD-038	engine / motor	enin	INTL	blend rubric; src 'enjin'	blend; international
+MOD-039	wheel	loda	INTL	blend rubric; src 'roda'	blend; Austronesian
+MOD-040	price / cost	nedan	INTL	blend rubric; src 'nedan'	blend; Japonic
+MOD-041	company / firm	kaisa	INTL	blend rubric; src 'kaisha'	blend; Japonic
+MOD-042	plan / project	lencana	INTL	blend rubric; src 'rencana'	blend; Austronesian
+MOD-043	result / outcome	hasia	INTL	blend rubric; src 'hasil'	blend (legalised); Austronesian
+MOD-044	aeroplane	hikoki	INTL	blend rubric; src 'hikoki'	blend; Japonic
+MOD-045	ship / boat	fune	INTL	blend rubric; src 'fune'	blend; Japonic
+MOD-046	bicycle	baisikeli	INTL	blend rubric; src 'baisikeli'	blend; Bantu
+TIM-023	minute	meni	INTL	blend rubric; src 'menit'	blend; Austronesian
+TIM-024	season	kisesu	INTL	blend rubric; src 'kisetsu'	blend; Japonic

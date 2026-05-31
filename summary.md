@@ -8,13 +8,14 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 | | |
 |---|---|
 | Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass) |
-| Phase in progress | 5b — lexicon scaling toward ~1,500 (grammar gaps now closed) |
-| Concepts catalogued | 409 (`data/concepts.tsv`) |
-| Lexicon forms minted | 393 (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
-| Both gates | green (linter R1–R6 + collision checker); 393/393 clear, exit 0 |
+| Phase in progress | 5b — lexicon scaling toward ~1,500 (batch 1 done: 580 concepts / 564 forms, ~39%) |
+| Concepts catalogued | 580 (`data/concepts.tsv`) |
+| Lexicon forms minted | 564 (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
+| Both gates | green (linter R1–R6 + collision checker); 564/564 clear, exit 0 |
 | CI | both tool test suites passing (linter; checker 12/12) |
 | Hello-world corpus | `docs/0004` — 2 annotated dialogues + ~30 feature sentences, all on the 386 words |
 | Grammar completeness | `docs/0005` — conditionals, existential verb `kuna`, determiner order, proper nouns, phatic set (7 new forms) |
+| Lexicon scaling | `docs/0006` — batch log; batch 1 = +170 forms across 12 domains (people/social/mind, everyday/material, modern/civic) |
 
 ## What exists today
 
