@@ -224,64 +224,64 @@ FOO-006	sweet	mani	INTL	Indonesian manis	Austronesian
 FOO-007	bread	loti	INTL	Hindi/Indonesian roti (r→l)	Indo-Aryan
 FOO-008	rice	gohan	INTL	Japanese gohan	Japonic
 FUN-007	which	dole	INTL	blend rubric; src 'dore'	blend (legalised)
-FUN-013	so / therefore	sehingaga	INTL	blend rubric; src 'sehingga'	blend (legalised)
+FUN-013	so / therefore	sehinga	INTL	blend rubric; src 'sehingga' (simplified)	blend (simplified)
 FUN-014	although	walau	INTL	blend rubric; src 'walau'	blend
-FUN-020	again	lagia	INTL	blend rubric; src 'lagi'	blend (legalised)
-FUN-021	maybe / perhaps	mungakin	INTL	blend rubric; src 'mungkin'	blend (legalised)
-QTY-007	six	pikae	INTL	blend rubric; src 'pika'	blend (legalised)
+FUN-020	again	lagia	INTL	blend rubric; src 'lagi' (simplified)	blend (simplified)
+FUN-021	maybe / perhaps	mungi	INTL	blend rubric; src 'mungkin' (simplified)	blend (simplified)
+QTY-007	six	pikae	INTL	blend rubric; src 'pika' (simplified)	blend (simplified)
 QTY-008	seven	haba	INTL	blend rubric; src 'haba'	blend
 QTY-009	eight	cewa	INTL	blend rubric; src 'cewa'	blend
 QTY-010	nine	huba	INTL	blend rubric; src 'huba'	blend
 QTY-013	thousand	sebu	INTL	blend rubric; src 'sebu'	blend
-QTY-014	million	milionga	INTL	blend rubric; src 'miliong'	blend (legalised)
+QTY-014	million	milion	INTL	blend rubric; src 'miliong' (simplified)	blend (simplified)
 QTY-023	every / each	kila	INTL	blend rubric; src 'kila'	blend
 QTY-025	less	sukuna	INTL	blend rubric; src 'sukuna'	blend
-QTY-026	enough	cukupa	INTL	blend rubric; src 'cukup'	blend (legalised)
+QTY-026	enough	cuku	INTL	blend rubric; src 'cukup' (simplified)	blend (simplified)
 QTY-027	half	setenga	INTL	blend rubric; src 'setenga'	blend
 QTY-028	number	kasu	INTL	blend rubric; src 'kazu'	blend (legalised)
 QTY-029	part / piece	bagian	INTL	blend rubric; src 'bagian'	blend
-QTY-030	count	hitunga	INTL	blend rubric; src 'hitung'	blend (legalised)
+QTY-030	count	hitun	INTL	blend rubric; src 'hitung' (simplified)	blend (simplified)
 TIM-004	morning	asagohan	INTL	blend rubric; src 'asagohan'	blend
 TIM-005	evening	yugata	INTL	blend rubric; src 'yugata'	blend
 TIM-010	then (at that time)	toki	INTL	blend rubric; src 'toki'	blend
-TIM-012	month	tasuki	INTL	blend rubric; src 'tsuki'	blend (legalised)
-TIM-013	week	mingagu	INTL	blend rubric; src 'minggu'	blend (legalised)
+TIM-012	month	sukia	INTL	blend rubric; src 'tsuki' (simplified)	blend (simplified)
+TIM-013	week	mingu	INTL	blend rubric; src 'minggu' (simplified)	blend (simplified)
 TIM-014	hour	yamu	INTL	blend rubric; src 'jamu'	blend (legalised)
-TIM-019	often	selinga	INTL	blend rubric; src 'sering'	blend (legalised)
-TIM-020	sometimes	kadanga	INTL	blend rubric; src 'kadang'	blend (legalised)
+TIM-019	often	selin	INTL	blend rubric; src 'sering' (simplified)	blend (simplified)
+TIM-020	sometimes	kadan	INTL	blend rubric; src 'kadang' (simplified)	blend (simplified)
 TIM-021	early	hayaku	INTL	blend rubric; src 'hayaku'	blend
 TIM-022	late	osoku	INTL	blend rubric; src 'osoku'	blend
 PROP-004	short	misika	INTL	blend rubric; src 'mizika'	blend (legalised)
 PROP-005	wide	hiloi	INTL	blend rubric; src 'hiroi'	blend (legalised)
-PROP-006	narrow	semapita	INTL	blend rubric; src 'sempit'	blend (legalised)
-PROP-007	thick	atasui	INTL	blend rubric; src 'atsui'	blend (legalised)
-PROP-008	thin	tipisa	INTL	blend rubric; src 'tipis'	blend (legalised)
-PROP-009	heavy	belata	INTL	blend rubric; src 'berat'	blend (legalised)
+PROP-006	narrow	sepi	INTL	blend rubric; src 'sempit' (simplified)	blend (simplified)
+PROP-007	thick	asui	INTL	blend rubric; src 'atsui' (simplified)	blend (simplified)
+PROP-008	thin	tipi	INTL	blend rubric; src 'tipis' (simplified)	blend (simplified)
+PROP-009	heavy	bela	INTL	blend rubric; src 'berat' (simplified)	blend (simplified)
 PROP-010	light (in weight)	lingan	INTL	blend rubric; src 'ringan'	blend (legalised)
 PROP-013	warm	atataka	INTL	blend rubric; src 'atataka'	blend
 PROP-016	young	muda	INTL	blend rubric; src 'muda'	blend
 PROP-021	dirty	kotoli	INTL	blend rubric; src 'kotori'	blend (legalised)
 PROP-022	clean	safi	INTL	blend rubric; src 'safi'	blend
-PROP-023	wet	nayewu	INTL	blend rubric; src 'nyevu'	blend (legalised)
+PROP-023	wet	yewu	INTL	blend rubric; src 'nyevu' (simplified)	blend (simplified)
 PROP-025	hard / firm	katai	INTL	blend rubric; src 'katai'	blend
-PROP-026	soft	lemabuta	INTL	blend rubric; src 'lembut'	blend (legalised)
-PROP-027	sharp	tayama	INTL	blend rubric; src 'tajam'	blend (legalised)
+PROP-026	soft	lebu	INTL	blend rubric; src 'lembut' (simplified)	blend (simplified)
+PROP-027	sharp	taya	INTL	blend rubric; src 'tajam' (simplified)	blend (simplified)
 PROP-029	straight	sugu	INTL	blend rubric; src 'sugu'	blend
-PROP-030	round	bulata	INTL	blend rubric; src 'bulat'	blend (legalised)
+PROP-030	round	bula	INTL	blend rubric; src 'bulat' (simplified)	blend (simplified)
 PROP-031	flat	lata	INTL	blend rubric; src 'rata'	blend (legalised)
-PROP-032	smooth	halusa	INTL	blend rubric; src 'halus'	blend (legalised)
-PROP-033	deep	dalama	INTL	blend rubric; src 'dalam'	blend (legalised)
+PROP-032	smooth	halu	INTL	blend rubric; src 'halus' (simplified)	blend (simplified)
+PROP-033	deep	fuka	INTL	blend rubric; Japanese fukai (deep) (hand-fixed dup)	blend (hand-fixed)
 PROP-034	high	takai	INTL	blend rubric; src 'takai'	blend
 PROP-035	low	hikui	INTL	blend rubric; src 'hikui'	blend
 PROP-038	fast / quick	hayai	INTL	blend rubric; src 'hayai'	blend
 PROP-039	slow	osoi	INTL	blend rubric; src 'osoi'	blend
 PROP-040	strong	tuyoi	INTL	blend rubric; src 'tuyoi'	blend
-PROP-041	weak	lemaha	INTL	blend rubric; src 'lemah'	blend (legalised)
+PROP-041	weak	lema	INTL	blend rubric; src 'lemah' (simplified)	blend (simplified)
 PROP-042	correct / right	tadasi	INTL	blend rubric; src 'tadasi'	blend
-PROP-043	wrong	salaha	INTL	blend rubric; src 'salah'	blend (legalised)
-PROP-044	true	benala	INTL	blend rubric; src 'benar'	blend (legalised)
+PROP-043	wrong	sala	INTL	blend rubric; src 'salah' (simplified)	blend (simplified)
+PROP-044	true	bena	INTL	blend rubric; src 'benar' (simplified)	blend (simplified)
 PROP-050	green	hiyau	INTL	blend rubric; src 'hijau'	blend (legalised)
-PROP-051	yellow	kuninga	INTL	blend rubric; src 'kuning'	blend (legalised)
+PROP-051	yellow	kunin	INTL	blend rubric; src 'kuning' (simplified)	blend (simplified)
 PROP-052	blue	awoi	INTL	blend rubric; src 'awoi'	blend
 PROP-053	alive	ikilu	INTL	blend rubric; src 'ikiru'	blend (legalised)
 PROP-054	dead	sinu	INTL	blend rubric; src 'sinu'	blend
@@ -289,99 +289,99 @@ CLO-001	clothing	bayu	INTL	blend rubric; src 'baju'	blend (legalised)
 CLO-002	shoe	sepatu	INTL	blend rubric; src 'sepatu'	blend
 CLO-003	wear	pakalu	INTL	blend rubric; src 'pakaru'	blend (legalised)
 DWE-002	door	pintu	INTL	blend rubric; src 'pintu'	blend
-DWE-003	roof	atapa	INTL	blend rubric; src 'atap'	blend (legalised)
-DWE-004	bed	temapata	INTL	blend rubric; src 'tempat'	blend (legalised)
+DWE-003	roof	atae	INTL	blend rubric; src 'atap' (simplified)	blend (simplified)
+DWE-004	bed	tepa	INTL	blend rubric; src 'tempat' (simplified)	blend (simplified)
 DWE-005	table	meya	INTL	blend rubric; src 'meja'	blend (legalised)
 DWE-007	rope	talia	INTL	blend rubric; src 'talia'	blend
 DWE-009	tool	dogu	INTL	blend rubric; src 'dogu'	blend
 ACT-005	run	hasilu	INTL	blend rubric; src 'hasiru'	blend (legalised)
-ACT-008	lie down	lebaha	INTL	blend rubric; src 'rebah'	blend (legalised)
-ACT-011	hold	peganga	INTL	blend rubric; src 'pegang'	blend (legalised)
+ACT-008	lie down	leba	INTL	blend rubric; src 'rebah' (simplified)	blend (simplified)
+ACT-011	hold	pegan	INTL	blend rubric; src 'pegang' (simplified)	blend (simplified)
 ACT-013	carry	beba	INTL	blend rubric; src 'beba'	blend
-ACT-014	put	letaka	INTL	blend rubric; src 'letak'	blend (legalised)
+ACT-014	put	leta	INTL	blend rubric; src 'letak' (simplified)	blend (simplified)
 ACT-015	throw	nagelu	INTL	blend rubric; src 'nageru'	blend (legalised)
 ACT-017	turn	mawalu	INTL	blend rubric; src 'mawaru'	blend (legalised)
-ACT-018	move	gelaka	INTL	blend rubric; src 'gerak'	blend (legalised)
+ACT-018	move	gela	INTL	blend rubric; src 'gerak' (simplified)	blend (simplified)
 ACT-019	open	buka	INTL	blend rubric; src 'buka'	blend
 ACT-023	hit / strike	tataku	INTL	blend rubric; src 'tataku'	blend
-ACT-024	push	dolonga	INTL	blend rubric; src 'dorong'	blend (legalised)
-ACT-025	pull	talika	INTL	blend rubric; src 'tarik'	blend (legalised)
+ACT-024	push	dolon	INTL	blend rubric; src 'dorong' (simplified)	blend (simplified)
+ACT-025	pull	tali	INTL	blend rubric; src 'tarik' (simplified)	blend (simplified)
 ACT-026	tie / bind	funga	INTL	blend rubric; src 'funga'	blend
-ACT-027	wash	osaha	INTL	blend rubric; src 'osha'	blend (legalised)
-ACT-028	rub	gosoka	INTL	blend rubric; src 'gosok'	blend (legalised)
+ACT-027	wash	oha	INTL	blend rubric; src 'osha' (simplified)	blend (simplified)
+ACT-028	rub	goso	INTL	blend rubric; src 'gosok' (simplified)	blend (simplified)
 ACT-029	dig	holu	INTL	blend rubric; src 'horu'	blend (legalised)
 ACT-031	flow	nagale	INTL	blend rubric; src 'nagare'	blend (legalised)
 ACT-032	swim	ogelea	INTL	blend rubric; src 'ogelea'	blend
-ACT-033	fly	telabanga	INTL	blend rubric; src 'terbang'	blend (legalised)
+ACT-033	fly	tebana	INTL	blend rubric; src 'terbang' (simplified)	blend (simplified)
 ACT-035	play	asobu	INTL	blend rubric; src 'asobu'	blend
 ACT-036	use	pakai	INTL	blend rubric; src 'pakai'	blend
-ACT-037	help	tolongae	INTL	blend rubric; src 'tolong'	blend (legalised)
+ACT-037	help	tolona	INTL	blend rubric; src 'tolong' (simplified)	blend (simplified)
 ACT-038	begin / start	mulai	INTL	blend rubric; src 'mulai'	blend
 ACT-039	stop	henti	INTL	blend rubric; src 'henti'	blend
 ACT-040	finish / end	selesai	INTL	blend rubric; src 'selesai'	blend
 ACT-042	grow	sodatu	INTL	blend rubric; src 'sodatu'	blend
-MOT-001	enter	masuka	INTL	blend rubric; src 'masuk'	blend (legalised)
-MOT-002	leave / exit	keluala	INTL	blend rubric; src 'keluar'	blend (legalised)
-MOT-003	arrive	samapai	INTL	blend rubric; src 'sampai'	blend (legalised)
+MOT-001	enter	masu	INTL	blend rubric; src 'masuk' (simplified)	blend (simplified)
+MOT-002	leave / exit	kelua	INTL	blend rubric; src 'keluar' (simplified)	blend (simplified)
+MOT-003	arrive	sapai	INTL	blend rubric; src 'sampai' (simplified)	blend (simplified)
 MOT-004	follow	ikuti	INTL	blend rubric; src 'ikuti'	blend
 MOT-005	rise / climb	naiki	INTL	blend rubric; src 'naiki'	blend
-MOT-006	send	kilima	INTL	blend rubric; src 'kirim'	blend (legalised)
-SPA-008	inside / in	dalamae	INTL	blend rubric; src 'dalam'	blend (legalised)
-SPA-009	outside / out	luala	INTL	blend rubric; src 'luar'	blend (legalised)
+MOT-006	send	kilia	INTL	blend rubric; src 'kirim' (simplified)	blend (simplified)
+SPA-008	inside / in	naka	INTL	blend rubric; Japanese naka (inside) (hand-fixed dup)	blend (hand-fixed)
+SPA-009	outside / out	lua	INTL	blend rubric; src 'luar' (simplified)	blend (simplified)
 SPA-010	front	depan	INTL	blend rubric; src 'depan'	blend
-SPA-011	back / behind	belakanga	INTL	blend rubric; src 'belakang'	blend (legalised)
+SPA-011	back / behind	belakan	INTL	blend rubric; src 'belakang' (simplified)	blend (simplified)
 SPA-012	left	kili	INTL	blend rubric; src 'kiri'	blend (legalised)
 SPA-013	right (side)	kanan	INTL	blend rubric; src 'kanan'	blend
-SPA-014	side	samapinga	INTL	blend rubric; src 'samping'	blend (legalised)
+SPA-014	side	sapin	INTL	blend rubric; src 'samping' (simplified)	blend (simplified)
 SPA-015	middle / center	tenga	INTL	blend rubric; src 'tenga'	blend
 PER-003	smell	nioi	INTL	blend rubric; src 'nioi'	blend
 PER-004	taste	lasa	INTL	blend rubric; src 'rasa'	blend (legalised)
-PER-005	touch	sentuha	INTL	blend rubric; src 'sentuh'	blend (legalised)
+PER-005	touch	sentu	INTL	blend rubric; src 'sentuh' (simplified)	blend (simplified)
 PER-006	look at / watch	milu	INTL	blend rubric; src 'miru'	blend (legalised)
-PER-007	listen	dengala	INTL	blend rubric; src 'dengar'	blend (legalised)
+PER-007	listen	dengae	INTL	blend rubric; src 'dengar' (simplified)	blend (simplified)
 PER-008	color	ilo	INTL	blend rubric; src 'iro'	blend (legalised)
 PER-009	sound	oto	INTL	blend rubric; src 'oto'	blend
 EMO-001	love	suki	INTL	blend rubric; src 'suki'	blend
 EMO-002	like	suka	INTL	blend rubric; src 'suka'	blend
-EMO-005	happy	senanga	INTL	blend rubric; src 'senang'	blend (legalised)
-EMO-006	sad	sediha	INTL	blend rubric; src 'sedih'	blend (legalised)
-EMO-007	angry	malaha	INTL	blend rubric; src 'marah'	blend (legalised)
+EMO-005	happy	senan	INTL	blend rubric; src 'senang' (simplified)	blend (simplified)
+EMO-006	sad	sedi	INTL	blend rubric; src 'sedih' (simplified)	blend (simplified)
+EMO-007	angry	mala	INTL	blend rubric; src 'marah' (simplified)	blend (simplified)
 EMO-008	laugh	tawa	INTL	blend rubric; src 'tawa'	blend
 EMO-009	cry	naku	INTL	blend rubric; src 'naku'	blend
-COG-003	understand	pahama	INTL	blend rubric; src 'paham'	blend (legalised)
-COG-004	learn	belayala	INTL	blend rubric; src 'belajar'	blend (legalised)
-COG-005	teach	ayalu	INTL	blend rubric; src 'ajaru'	blend (legalised)
-COG-006	remember	ingata	INTL	blend rubric; src 'ingat'	blend (legalised)
-COG-008	believe	pelacaya	INTL	blend rubric; src 'percaya'	blend (legalised)
-COG-009	mind / idea	akalu	INTL	blend rubric; src 'akaru'	blend (legalised)
-SPE-004	language	basaha	INTL	blend rubric; src 'basha'	blend (legalised)
-SPE-005	ask	tanaya	INTL	blend rubric; src 'tanya'	blend (legalised)
-SPE-006	answer	yawaba	INTL	blend rubric; src 'jawab'	blend (legalised)
+COG-003	understand	paha	INTL	blend rubric; src 'paham' (simplified)	blend (simplified)
+COG-004	learn	belaya	INTL	blend rubric; src 'belajar' (simplified)	blend (simplified)
+COG-005	teach	ayali	INTL	blend rubric; Indonesian ajar (teach, j->y) (hand-fixed dup)	blend (hand-fixed)
+COG-006	remember	inga	INTL	blend rubric; src 'ingat' (simplified)	blend (simplified)
+COG-008	believe	pecaya	INTL	blend rubric; src 'percaya' (simplified)	blend (simplified)
+COG-009	mind / idea	akali	INTL	blend rubric; Indonesian/Arabic akal (mind) (hand-fixed dup)	blend (hand-fixed)
+SPE-004	language	bahae	INTL	blend rubric; src 'basha' (simplified)	blend (simplified)
+SPE-005	ask	tayae	INTL	blend rubric; src 'tanya' (simplified)	blend (simplified)
+SPE-006	answer	yawa	INTL	blend rubric; src 'jawab' (simplified)	blend (simplified)
 SPE-007	read	baca	INTL	blend rubric; src 'baca'	blend
-SPE-008	write	tulisa	INTL	blend rubric; src 'tulis'	blend (legalised)
-SPE-009	mean / meaning	alati	INTL	blend rubric; src 'arti'	blend (legalised)
-POS-002	get / receive	dapata	INTL	blend rubric; src 'dapat'	blend (legalised)
+SPE-008	write	tuli	INTL	blend rubric; src 'tulis' (simplified)	blend (simplified)
+SPE-009	mean / meaning	ati	INTL	blend rubric; src 'arti' (simplified)	blend (simplified)
+POS-002	get / receive	dapa	INTL	blend rubric; src 'dapat' (simplified)	blend (simplified)
 POS-003	buy	beli	INTL	blend rubric; src 'beli'	blend
-POS-005	pay	bayala	INTL	blend rubric; src 'bayar'	blend (legalised)
-SOC-001	group	kelomapo	INTL	blend rubric; src 'kelompo'	blend (legalised)
-SOC-003	war	pelanga	INTL	blend rubric; src 'perang'	blend (legalised)
+POS-005	pay	bayae	INTL	blend rubric; src 'bayar' (simplified)	blend (simplified)
+SOC-001	group	kelopo	INTL	blend rubric; src 'kelompo' (simplified)	blend (simplified)
+SOC-003	war	pelan	INTL	blend rubric; src 'perang' (simplified)	blend (simplified)
 SOC-004	fight	laga	INTL	blend rubric; src 'laga'	blend
 SOC-005	city / town	kota	INTL	blend rubric; src 'kota'	blend
 SOC-006	country	negala	INTL	blend rubric; src 'negara'	blend (legalised)
-SOC-007	lead	pimapin	INTL	blend rubric; src 'pimpin'	blend (legalised)
-MOD-001	money	uanga	INTL	blend rubric; src 'uang'	blend (legalised)
+SOC-007	lead	pipi	INTL	blend rubric; src 'pimpin' (simplified)	blend (simplified)
+MOD-001	money	uan	INTL	blend rubric; src 'uang' (simplified)	blend (simplified)
 MOD-002	book	hon	INTL	blend rubric; src 'hon'	blend
-MOD-003	paper	kelatasa	INTL	blend rubric; src 'kertas'	blend (legalised)
+MOD-003	paper	keta	INTL	blend rubric; src 'kertas' (simplified)	blend (simplified)
 MOD-005	car	kuluma	INTL	blend rubric; src 'kuruma'	blend (legalised)
 MOD-006	road / street	yalan	INTL	blend rubric; src 'jalan'	blend (legalised)
 MOD-007	bus	basu	INTL	blend rubric; src 'basu'	blend
-MOD-008	train	kicaha	INTL	blend rubric; src 'kicha'	blend (legalised)
-MOD-009	phone	denawa	INTL	blend rubric; src 'denwa'	blend (legalised)
-MOD-010	computer	konpayuta	INTL	blend rubric; src 'konpyuta'	blend (legalised)
+MOD-008	train	kiha	INTL	blend rubric; src 'kicha' (simplified)	blend (simplified)
+MOD-009	phone	dewa	INTL	blend rubric; src 'denwa' (simplified)	blend (simplified)
+MOD-010	computer	konputa	INTL	blend rubric; src 'konpyuta' (simplified)	blend (simplified)
 MOD-011	internet	intaneto	INTL	blend rubric; src 'intaneto'	blend
 MOD-012	electricity	denki	INTL	blend rubric; src 'denki'	blend
 MOD-013	machine	kikai	INTL	blend rubric; src 'kikai'	blend
-MOD-014	hospital	bayoin	INTL	blend rubric; src 'byoin'	blend (legalised)
+MOD-014	hospital	yoi	INTL	blend rubric; src 'byoin' (simplified)	blend (simplified)
 MOD-015	medicine	kusuli	INTL	blend rubric; src 'kusuri'	blend (legalised)
-MOD-016	doctor	isaha	INTL	blend rubric; src 'isha'	blend (legalised)
+MOD-016	doctor	iha	INTL	blend rubric; src 'isha' (simplified)	blend (simplified)
 MOD-018	government	seifu	INTL	blend rubric; src 'seifu'	blend
