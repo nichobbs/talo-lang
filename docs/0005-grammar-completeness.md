@@ -225,7 +225,7 @@ All six pass both gates and are spread across donor families per the blend rubri
 | FUN-025 | thank you | `makasi` | Indonesian *(terima) kasih* | Austronesian |
 | FUN-026 | sorry | `pole` | Swahili *pole* | Bantu |
 | FUN-027 | okay | `oke` | international *okay/oké* | international |
-| FUN-028 | welcome | `karibu` | Swahili *karibu* | Bantu |
+| FUN-028 | welcome | `kalibu` | Swahili *karibu* (`r→l`) | Bantu |
 
 ```
 Ahoi! Yu yato sela?           'Hello! Who are you?'
@@ -250,7 +250,7 @@ deliberately small launch set; the inventory is extensible by governance (`0000`
 
 **Added to `data/concepts.tsv` and `data/lexicon.tsv` (8 forms):**
 `kuna` (POS-006), `ahoi` (FUN-022), `cao` (FUN-023), `doso` (FUN-024), `makasi`
-(FUN-025), `pole` (FUN-026), `oke` (FUN-027), `karibu` (FUN-028). Lexicon now
+(FUN-025), `pole` (FUN-026), `oke` (FUN-027), `kalibu` (FUN-028). Lexicon now
 **394 forms**.
 
 **Gate discipline (`CLAUDE.md`).** Each new form was checked `--against` the live
