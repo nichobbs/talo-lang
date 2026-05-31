@@ -386,9 +386,10 @@ MOD-015	medicine	kusuli	INTL	blend rubric; src 'kusuri'	blend (legalised)
 MOD-016	doctor	iha	INTL	blend rubric; src 'isha' (simplified)	blend (simplified)
 MOD-018	government	seifu	INTL	blend rubric; src 'seifu'	blend
 POS-006	exist / be (located)	kuna	INTL	Swahili kuna 'there is'; cf hakuna (QTY-022)	existential/locative (0005 §2)
-FUN-022	hello	aloha	INTL	Hawaiian aloha	phatic (0005 §5); Polynesian
+FUN-022	hello	ahoi	INTL	Czech ahoj / nautical ahoy / Malay-Indo oi-hoi	phatic (0005 §5); multi-donor hail
 FUN-023	goodbye	cao	INTL	Italian ciao	phatic (0005 §5); Romance (capped)
 FUN-024	please	doso	INTL	Japanese dozo	phatic (0005 §5); Japonic
 FUN-025	thank you	makasi	INTL	Indonesian (terima) kasih	phatic (0005 §5); Austronesian
 FUN-026	sorry	pole	INTL	Swahili pole	phatic (0005 §5); Bantu
 FUN-027	okay	oke	INTL	international okay/oke	phatic (0005 §5)
+FUN-028	welcome	karibu	INTL	Swahili karibu	phatic (0005 §5); Bantu

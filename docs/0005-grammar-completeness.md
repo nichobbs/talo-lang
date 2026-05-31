@@ -32,7 +32,7 @@ forms obey), and `docs/0004` §8 (the gap list this closes).
 | 2 | No locative/existential predication ("I am here / there is X") | §2 |
 | 3 | Determiner order vs. modifier-before-head (a real `0004` slip) | §3 |
 | 4 | No proper-noun policy | §4 |
-| 5 | No phatic layer (hello/bye/please/thanks/sorry/okay) | §5 |
+| 5 | No phatic layer (hello/welcome/bye/please/thanks/sorry/okay) | §5 |
 
 -----
 
@@ -210,24 +210,25 @@ badging reuses a rule already known.
 
 -----
 
-## 5. The phatic layer — six everyday interjections (+ greeting)
+## 5. The phatic layer — seven everyday interjections
 
-**Decision.** Six new closed-class **interjections** (no badge, like `hi`
+**Decision.** Seven new closed-class **interjections** (no badge, like `hi`
 yes / `no` no — `0002` §6): they stand alone or frame a clause but never inflect.
 All six pass both gates and are spread across donor families per the blend rubric
 (`0003` §7b), with no single family added more than twice:
 
 | id | gloss | form | source | family |
 |---|---|---|---|---|
-| FUN-022 | hello | `aloha` | Hawaiian *aloha* | Polynesian |
+| FUN-022 | hello | `ahoi` | Czech *ahoj* / nautical *ahoy* / Malay-Indo *oi/hoi* | multi-donor hail |
 | FUN-023 | goodbye | `cao` | Italian *ciao* | Romance (capped) |
 | FUN-024 | please | `doso` | Japanese *dōzo* | Japonic |
 | FUN-025 | thank you | `makasi` | Indonesian *(terima) kasih* | Austronesian |
 | FUN-026 | sorry | `pole` | Swahili *pole* | Bantu |
 | FUN-027 | okay | `oke` | international *okay/oké* | international |
+| FUN-028 | welcome | `karibu` | Swahili *karibu* | Bantu |
 
 ```
-Aloha! Yu yato sela?          'Hello! Who are you?'
+Ahoi! Yu yato sela?           'Hello! Who are you?'
 Doso, yu tolonato mi.         please, you help.V me     'Please help me.'
 Makasi sana!                  thank-you very            'Thank you very much!'
 Pole. Cao!                    'Sorry. Goodbye!'
@@ -247,9 +248,10 @@ deliberately small launch set; the inventory is extensible by governance (`0000`
 
 ## 6. Data changes & gate verification
 
-**Added to `data/concepts.tsv` and `data/lexicon.tsv` (7 forms):**
-`kuna` (POS-006), `aloha` (FUN-022), `cao` (FUN-023), `doso` (FUN-024), `makasi`
-(FUN-025), `pole` (FUN-026), `oke` (FUN-027). Lexicon now **393 forms**.
+**Added to `data/concepts.tsv` and `data/lexicon.tsv` (8 forms):**
+`kuna` (POS-006), `ahoi` (FUN-022), `cao` (FUN-023), `doso` (FUN-024), `makasi`
+(FUN-025), `pole` (FUN-026), `oke` (FUN-027), `karibu` (FUN-028). Lexicon now
+**394 forms**.
 
 **Gate discipline (`CLAUDE.md`).** Each new form was checked `--against` the live
 lexicon, then the **whole lexicon** was re-run through the collision checker and
