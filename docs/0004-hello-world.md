@@ -171,8 +171,8 @@ A:  Yu yato belayakika ke?
     you COP learn.AGT.N Q
     'Are you a student?'
 
-B:  Hi. Mi belayato bahaeka. Ma mi ne tauto ingi nenoka.
-    yes | I learn.V language.N | but I NEG know.V many word.N
+B:  Hi. Mi belayato bahaeka. Ma mi ne tauto nenoka ingi.
+    yes | I learn.V language.N | but I NEG know.V word.N many
     'Yes. I am learning the language. But I don't know many words.'
 
 A:  Sana hao! Yu belayato wi, i keso yu tauto lebi.
@@ -394,7 +394,7 @@ Itula yato ayalikika.
 Te ayalito wi belayadeka lo.
 Yu yato belayakika ke.
 Mi belayato bahaeka.
-Ma mi ne tauto ingi nenoka.
+Ma mi ne tauto nenoka ingi.
 Sana hao.
 Yu belayato wi, i keso yu tauto lebi.
 Gouka kanto nekoka.

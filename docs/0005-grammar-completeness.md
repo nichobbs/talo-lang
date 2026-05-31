@@ -163,11 +163,12 @@ Keeping determiners off the `-pe` badge is correct — they don't inflect or tak
 POS badge (they're closed-class, `0002` §6), so calling them "modifiers" would
 mis-imply they could be `-pe`-marked.
 
-> **Correction of `0004`.** The slice wrote `ingi nenoka` "many words" with the
-> quantifier **pre**-posed — an inconsistency with its own `gouka ki` (numeral
-> postposed). This was exactly the kind of latent ambiguity the *use-it-early*
-> phase exists to catch (`0000` §8). Under this rule the correct form is
-> **`nenoka ingi`**. (`0004` is descriptive; this ADR is the norm.)
+> **Correction of `0004`.** The slice's first draft wrote `ingi nenoka` "many
+> words" with the quantifier **pre**-posed — an inconsistency with its own
+> `gouka ki` (numeral postposed). This was exactly the kind of latent ambiguity
+> the *use-it-early* phase exists to catch (`0000` §8). The correct form under
+> this rule is **`nenoka ingi`**, and `0004` has since been aligned to it. (`0004`
+> is descriptive; this ADR is the norm.)
 
 This rule is cross-referenced from `0002` §6.6.
 
