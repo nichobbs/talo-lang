@@ -563,3 +563,125 @@ MOD-045	ship / boat	fune	INTL	blend rubric; src 'fune'	blend; Japonic
 MOD-046	bicycle	baisikeli	INTL	blend rubric; src 'baisikeli'	blend; Bantu
 TIM-023	minute	meni	INTL	blend rubric; src 'menit'	blend; Austronesian
 TIM-024	season	kisesu	INTL	blend rubric; src 'kisetsu'	blend; Japonic
+BOD-033	lung	pafua	INTL	blend rubric; src 'pafu'	blend (legalised); Bantu
+BOD-034	liver	inia	INTL	blend rubric; src 'ini'	blend (legalised); Bantu
+BOD-035	throat	umio	INTL	blend rubric; src 'umio'	blend; Bantu
+BOD-036	brain	ubongo	INTL	blend rubric; src 'ubongo'	blend; Bantu
+BOD-037	cheek	sawu	INTL	blend rubric; src 'shavu'	blend; Bantu
+BOD-038	lip	midomo	INTL	blend rubric; src 'midomo'	blend; Bantu
+BOD-039	shoulder	bega	INTL	blend rubric; src 'bega'	blend; Bantu
+BOD-040	elbow	kiko	INTL	blend rubric; src 'kiko'	blend; Bantu
+BOD-041	hip	nonga	INTL	blend rubric; src 'nyonga'	blend; Bantu
+BOD-042	heel	kisigino	INTL	blend rubric; src 'kisigino'	blend; Bantu
+BOD-043	kidney	figo	INTL	blend rubric; src 'figo'	blend; Bantu
+BOD-044	muscle	mana	INTL	blend rubric; src 'mansa'	blend; Indo-Aryan
+BOD-045	vein	nasa	INTL	blend rubric; src 'nasa'	blend; Indo-Aryan
+BOD-046	nerve	nadi	INTL	blend rubric; src 'nadi'	blend; Indo-Aryan
+BOD-047	womb	kohi	INTL	blend rubric; src 'kokhi'	blend; Indo-Aryan
+BOD-048	fist	muti	INTL	blend rubric; src 'mutthi'	blend; Indo-Aryan
+BOD-049	navel	nabi	INTL	blend rubric; src 'nabhi'	blend; Indo-Aryan
+BOD-050	ankle	gita	INTL	blend rubric; src 'gitta'	blend; Indo-Aryan
+BOD-051	eyebrow	bami	INTL	blend rubric; src 'bhamri'	blend; Indo-Aryan
+BOD-052	chin	todi	INTL	blend rubric; src 'thodi'	blend; Indo-Aryan
+BOD-053	jaw	tani	INTL	blend rubric; src 'tani'	blend; Bantu
+BOD-054	skull	fuwu	INTL	blend rubric; src 'fuvu'	blend; Bantu
+BOD-055	limb	sisi	INTL	blend rubric; src 'sizhi'	blend; Sinitic
+BOD-056	gland	gandula	INTL	blend rubric; src 'glandula'	blend; Romance
+BOD-057	artery	alelia	INTL	blend rubric; src 'arteria'	blend; Romance
+BOD-058	skeleton	seleto	INTL	blend rubric; src 'skeleto'	blend; Romance
+BOD-059	beard	liha	INTL	blend rubric; src 'lihya'	blend; Semitic
+BOD-060	waist	pingan	INTL	blend rubric; src 'pinggang'	blend; Austronesian
+BOD-061	calf (of leg)	betia	INTL	blend rubric; src 'betis'	blend (legalised); Austronesian
+BOD-062	pregnant	galini	INTL	blend rubric; src 'garbhini'	blend; Indo-Aryan
+BOD-063	breath	pumi	INTL	blend rubric; src 'pumzi'	blend; Bantu
+BOD-064	bald	gana	INTL	blend rubric; src 'ganja'	blend; Indo-Aryan
+BOD-065	sweat	yaso	INTL	blend rubric; src 'jasho'	blend; Bantu
+BOD-066	cough	kohoa	INTL	blend rubric; src 'kohoa'	blend; Bantu
+BOD-067	sneeze	cemua	INTL	blend rubric; src 'chemua'	blend; Bantu
+BOD-068	yawn	piasa	INTL	blend rubric; src 'piasa'	blend; Bantu
+BOD-069	saliva	mate	INTL	blend rubric; src 'mate'	blend; Bantu
+BOD-070	scar	kowu	INTL	blend rubric; src 'kovu'	blend; Bantu
+BOD-071	bleed	liukie	INTL	blend rubric; src 'liuxie'	blend; Sinitic
+BOD-072	swallow	tunan	INTL	blend rubric; src 'tunyan'	blend; Sinitic
+BOD-073	chew	yueyu	INTL	blend rubric; src 'jueju'	blend; Sinitic
+BOD-074	itch	huyi	INTL	blend rubric; src 'khujli'	blend; Indo-Aryan
+BOD-075	spit	tafala	INTL	blend rubric; src 'tafala'	blend; Semitic
+BOD-076	digest	digeli	INTL	blend rubric; src 'digeri'	blend; Romance
+BOD-077	blink	kedi	INTL	blend rubric; src 'kedip'	blend; Austronesian
+BOD-078	urine	pesaba	INTL	blend rubric; src 'peshaba'	blend; Indo-Aryan
+PER-010	glance	nawa	INTL	blend rubric; src 'nawa'	blend; Bantu
+PER-011	stare / gaze	kasia	INTL	blend rubric; src 'kazia'	blend; Bantu
+PER-012	odour / scent	halufu	INTL	blend rubric; src 'harufu'	blend; Bantu
+PER-013	flavour	saika	INTL	blend rubric; src 'zaika'	blend; Indo-Aryan
+PER-014	brightness	manga	INTL	blend rubric; src 'mwanga'	blend; Bantu
+PER-015	darkness	gisa	INTL	blend rubric; src 'giza'	blend; Bantu
+PER-016	loud / noisy	kelele	INTL	blend rubric; src 'kelele'	blend; Bantu
+PER-017	silent / quiet	kima	INTL	blend rubric; src 'kimya'	blend; Bantu
+PER-018	fragrance	suganda	INTL	blend rubric; src 'sugandha'	blend; Indo-Aryan
+PER-019	stench	badua	INTL	blend rubric; src 'badbu'	blend (legalised); Indo-Aryan
+PER-020	perceive / sense	anubawa	INTL	blend rubric; src 'anubhava'	blend; Indo-Aryan
+PER-021	observe	guanca	INTL	blend rubric; src 'guancha'	blend; Sinitic
+PER-022	sensation	senasio	INTL	blend rubric; src 'sensasio'	blend; Romance
+PER-023	echo	sada	INTL	blend rubric; src 'sada'	blend; Semitic
+PER-024	aroma	alifa	INTL	blend rubric; src 'arifa'	blend; Semitic
+PER-025	sticky	lenge	INTL	blend rubric; src 'lengket'	blend; Austronesian
+PER-026	slippery	licin	INTL	blend rubric; src 'licin'	blend; Austronesian
+MOT-007	return / go back	ludia	INTL	blend rubric; src 'rudia'	blend; Bantu
+MOT-008	jump / leap	luka	INTL	blend rubric; src 'ruka'	blend; Bantu
+MOT-009	flee / escape	kimia	INTL	blend rubric; src 'kimbia'	blend; Bantu
+MOT-010	chase / pursue	fukusa	INTL	blend rubric; src 'fukuza'	blend; Bantu
+MOT-011	crawl	tama	INTL	blend rubric; src 'tambaa'	blend; Bantu
+MOT-012	approach / draw near	kalibia	INTL	blend rubric; src 'karibia'	blend; Bantu
+MOT-013	pass by	pita	INTL	blend rubric; src 'pita'	blend; Bantu
+MOT-014	slide / slip	telesa	INTL	blend rubric; src 'teleza'	blend; Bantu
+MOT-015	wander / roam	tangatanga	INTL	blend rubric; src 'tangatanga'	blend; Bantu
+MOT-016	tremble / shake	tetemeka	INTL	blend rubric; src 'tetemeka'	blend; Bantu
+MOT-017	spin / rotate	sunguluka	INTL	blend rubric; src 'zunguluka'	blend; Bantu
+MOT-018	collide / crash	gonga	INTL	blend rubric; src 'gonga'	blend; Bantu
+MOT-019	cross / traverse	yata	INTL	blend rubric; src 'yatra'	blend; Indo-Aryan
+MOT-020	retreat / withdraw	piceha	INTL	blend rubric; src 'pichehat'	blend; Indo-Aryan
+MOT-021	gather / assemble	ikata	INTL	blend rubric; src 'ikattha'	blend; Indo-Aryan
+MOT-022	drag / haul	gasita	INTL	blend rubric; src 'ghasitna'	blend; Indo-Aryan
+MOT-023	float / drift	tala	INTL	blend rubric; src 'talna'	blend; Indo-Aryan
+MOT-024	stumble / trip	ladada	INTL	blend rubric; src 'ladkhada'	blend; Indo-Aryan
+MOT-025	step / pace	hatua	INTL	blend rubric; src 'hatua'	blend; Bantu
+MOT-026	advance / go forward	kianin	INTL	blend rubric; src 'qianjin'	blend; Sinitic
+MOT-027	fall over / topple	daota	INTL	blend rubric; src 'daota'	blend; Sinitic
+MOT-028	roll	gundun	INTL	blend rubric; src 'gundun'	blend; Sinitic
+MOT-029	ascend / climb up	monta	INTL	blend rubric; src 'montar'	blend; Romance
+MOT-030	circulate	silula	INTL	blend rubric; src 'sirkula'	blend; Romance
+MOT-031	navigate / steer	nawiga	INTL	blend rubric; src 'naviga'	blend; Romance
+MOT-032	accelerate / speed up	akelela	INTL	blend rubric; src 'akselera'	blend; Romance
+MOT-033	depart / set off	safala	INTL	blend rubric; src 'safara'	blend; Semitic
+MOT-034	hurry / rush	salia	INTL	blend rubric; src 'saria'	blend; Semitic
+MOT-035	creep / sneak	menusu	INTL	blend rubric; src 'menyusup'	blend; Austronesian
+MOD-047	sick / ill	ugona	INTL	blend rubric; src 'ugonjwa'	blend; Bantu
+MOD-048	fever	homa	INTL	blend rubric; src 'homa'	blend; Bantu
+MOD-049	wound / injury	yelaha	INTL	blend rubric; src 'jeraha'	blend; Bantu
+MOD-050	disease / illness	maladi	INTL	blend rubric; src 'maradhi'	blend; Bantu
+MOD-051	swell / swelling	wima	INTL	blend rubric; src 'vimba'	blend; Bantu
+MOD-052	poison / venom	sumu	INTL	blend rubric; src 'sumu'	blend; Bantu
+MOD-053	health	afiya	INTL	blend rubric; src 'afiya'	blend; Bantu
+MOD-054	blind	kipofu	INTL	blend rubric; src 'kipofu'	blend; Bantu
+MOD-055	deaf	kisiwi	INTL	blend rubric; src 'kiziwi'	blend; Bantu
+MOD-056	sore / ulcer	kidonda	INTL	blend rubric; src 'kidonda'	blend; Bantu
+MOD-057	cure / remedy	upaca	INTL	blend rubric; src 'upachar'	blend; Indo-Aryan
+MOD-058	drug / medication	dawai	INTL	blend rubric; src 'dawai'	blend; Indo-Aryan
+MOD-059	cold / flu	ganao	INTL	blend rubric; src 'ganmao'	blend; Sinitic
+MOD-060	vitality / strength (health)	guwu	INTL	blend rubric; src 'nguvu'	blend; Bantu
+MOD-061	lame / crippled	langa	INTL	blend rubric; src 'langda'	blend; Indo-Aryan
+MOD-062	virus	bingu	INTL	blend rubric; src 'bingdu'	blend; Sinitic
+MOD-063	infect / infection	ganana	INTL	blend rubric; src 'ganran'	blend (legalised); Sinitic
+MOD-064	tumor / lump	songiu	INTL	blend rubric; src 'zhongliu'	blend; Sinitic
+MOD-065	vaccine	yamiao	INTL	blend rubric; src 'yamiao'	blend; Sinitic
+MOD-066	diarrhea	fukie	INTL	blend rubric; src 'fuxie'	blend; Sinitic
+MOD-067	surgery / operation	kilulia	INTL	blend rubric; src 'kirurgia'	blend; Romance
+MOD-068	nurse	mugusi	INTL	blend rubric; src 'muuguzi'	blend; Bantu
+MOD-069	clinic	kinika	INTL	blend rubric; src 'klinika'	blend; Romance
+MOD-070	antibiotic	antibiotika	INTL	blend rubric; src 'antibiotika'	blend; Romance
+MOD-071	epidemic / plague	epidemia	INTL	blend rubric; src 'epidemia'	blend; Romance
+MOD-072	pill / tablet	pasila	INTL	blend rubric; src 'pastilla'	blend; Romance
+MOD-073	ointment / balm	salaba	INTL	blend rubric; src 'salaba'	blend; Semitic
+MOD-074	contagion / catch (illness)	kanen	INTL	blend rubric; src 'kansen'	blend; Japonic
+MOD-075	dizzy / faint	kisungusungu	INTL	blend rubric; src 'kizunguzungu'	blend; Bantu
+MOD-076	recover / heal up	pona	INTL	blend rubric; src 'pona'	blend; Bantu
