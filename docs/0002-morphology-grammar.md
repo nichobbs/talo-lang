@@ -474,6 +474,13 @@ block. Omitting obligatory articles fits zero-default (§3.2) and
 no-mandatory-grammar (§3.1) and removes a judgement the primary persona cannot
 yet make. (Tie-break rules 1, 3; rule 2 — an over-/under-specified noun still parses.)
 
+> **Determiner placement (see `docs/0005` §3).** The demonstratives, numerals and
+> quantifiers here form a closed **determiner** class that **follows** the head
+> noun (`kanuka itu`, `kanuka ta`), distinct from the descriptive `-pe` modifiers
+> that **precede** it (§6.3). The rule is *describe before, determine after*;
+> stacked order is Noun – demonstrative – quantity, with `pu` outermost. Fixed and
+> exemplified in `0005` §3.
+
 ### 6.7 Correlatives — a regular stem × category grid
 **Decision.** The pro-forms (question / demonstrative / indefinite / negative /
 universal words) are a **fully regular table**: a **stem** prefix combines with a
