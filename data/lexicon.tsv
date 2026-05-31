@@ -377,7 +377,7 @@ MOD-006	road / street	yalan	INTL	blend rubric; src 'jalan'	blend (legalised)
 MOD-007	bus	basu	INTL	blend rubric; src 'basu'	blend
 MOD-008	train	kiha	INTL	blend rubric; src 'kicha' (simplified)	blend (simplified)
 MOD-009	phone	dewa	INTL	blend rubric; src 'denwa' (simplified)	blend (simplified)
-MOD-010	computer	konputa	INTL	blend rubric; src 'konpyuta' (simplified)	blend (simplified)
+MOD-010	computer	konpu	INTL	blend rubric; src 'konpyuta' (simplified, avoid puta)	blend (simplified)
 MOD-011	internet	intaneto	INTL	blend rubric; src 'intaneto'	blend
 MOD-012	electricity	denki	INTL	blend rubric; src 'denki'	blend
 MOD-013	machine	kikai	INTL	blend rubric; src 'kikai'	blend
