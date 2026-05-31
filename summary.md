@@ -9,7 +9,7 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 |---|---|
 | Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar) |
 | Phase in progress | 3 (lexicon) |
-| Concepts catalogued | 401 (`data/concepts.tsv`); 356 are roots |
+| Concepts catalogued | 402 (`data/concepts.tsv`); 356 are roots |
 | Lexicon forms minted | 386 (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
 | Both gates | green (linter R1–R6 + collision checker); 386/386 clear, exit 0 |
 | CI | both tool test suites passing |
@@ -65,8 +65,9 @@ forms minted → buffer-vowel polish pass.
    dialogue / example set from the existing 386 words + the grammar, write it up
    as `docs/0004`. This validates that the pieces compose and reveals which of
    the next ~1,100 concepts actually matter.
-2. **Expand the concept list** toward the ~1,500 target (currently 401), then
+2. **Expand the concept list** toward the ~1,500 target (currently 402), then
    mint forms for the additions through both gates (reuse `scripts/` patterns).
+   _(currently 402 concepts catalogued.)_
 3. **Parser/validator tool** — checks sentence well-formedness (subject-first,
    badge-final, role markers); doubles as a teaching aid and regression harness.
 4. **Governance & freeze boundary** (open decision O-6 in `0000` §9) — decide
