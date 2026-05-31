@@ -389,7 +389,7 @@ POS-006	exist / be (located)	kuna	INTL	Swahili kuna 'there is'; cf hakuna (QTY-0
 FUN-022	hello	ahoi	INTL	Czech ahoj / nautical ahoy / Malay-Indo oi-hoi	phatic (0005 §5); multi-donor hail
 FUN-023	goodbye	cao	INTL	Italian ciao	phatic (0005 §5); Romance (capped)
 FUN-024	please	doso	INTL	Japanese dozo	phatic (0005 §5); Japonic
-FUN-025	thank you	makasi	INTL	Indonesian (terima) kasih	phatic (0005 §5); Austronesian
+FUN-025	thank you	tanku	INTL	English thank(-you) / German danke	phatic (0005 §5); avoids kasi=work collision
 FUN-026	sorry	pole	INTL	Swahili pole	phatic (0005 §5); Bantu
 FUN-027	okay	oke	INTL	international okay/oke	phatic (0005 §5)
 FUN-028	welcome	kalibu	INTL	Swahili karibu (r->l)	phatic (0005 §5); Bantu

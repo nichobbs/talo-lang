@@ -222,7 +222,7 @@ All six pass both gates and are spread across donor families per the blend rubri
 | FUN-022 | hello | `ahoi` | Czech *ahoj* / nautical *ahoy* / Malay-Indo *oi/hoi* | multi-donor hail |
 | FUN-023 | goodbye | `cao` | Italian *ciao* | Romance (capped) |
 | FUN-024 | please | `doso` | Japanese *dōzo* | Japonic |
-| FUN-025 | thank you | `makasi` | Indonesian *(terima) kasih* | Austronesian |
+| FUN-025 | thank you | `tanku` | English *thank(-you)* / German *danke* | international |
 | FUN-026 | sorry | `pole` | Swahili *pole* | Bantu |
 | FUN-027 | okay | `oke` | international *okay/oké* | international |
 | FUN-028 | welcome | `kalibu` | Swahili *karibu* (`r→l`) | Bantu |
@@ -238,18 +238,26 @@ Pole. Cao!                    'Sorry. Goodbye!'
 highest-frequency utterances in any language and were the most glaring absence the
 slice hit (`0004` §8.2 — Dialogue 1 had to *calque* a greeting as `Haope dinka`).
 They are interjections, not content words, so no badge applies (`0002` §6). The
-forms are chosen for **wide recognisability** (`aloha`, `cao`, `oke` are near-global;
-`doso`, `makasi`, `pole` are large-donor) rather than internal derivation — phatic
-words resist composition and benefit most from raw transfer (rule 1). Six is a
-deliberately small launch set; the inventory is extensible by governance (`0000`
-§6).
+forms are chosen for **wide recognisability** (`ahoi`, `cao`, `tanku`, `oke` are
+near-global; `doso`, `pole`, `kalibu` are large-donor) rather than internal
+derivation — phatic words resist composition and benefit most from raw transfer
+(rule 1). Seven is a deliberately small launch set; the inventory is extensible by
+governance (`0000` §6).
+
+> **`tanku`, not `makasi`/`kasi`.** "Thank you" cannot be bare `kasi`: that is
+> already `kasi` "work" (ACT-034), and the near-homophone screen also blocks
+> `gasi` (g/k collapse, `0001` §2.1). `tanku` (English *thank-you* / German
+> *danke*) is gate-clear and unambiguous. It looks like `tan`+`-ku`(opposite) but
+> never parses that way — a derived word must end in a badge (`-ka/-to/-pe`),
+> whereas interjections are badge-less closed-class (like `hi`, `oke`), so the
+> morphological reading is structurally unavailable.
 
 -----
 
 ## 6. Data changes & gate verification
 
 **Added to `data/concepts.tsv` and `data/lexicon.tsv` (8 forms):**
-`kuna` (POS-006), `ahoi` (FUN-022), `cao` (FUN-023), `doso` (FUN-024), `makasi`
+`kuna` (POS-006), `ahoi` (FUN-022), `cao` (FUN-023), `doso` (FUN-024), `tanku`
 (FUN-025), `pole` (FUN-026), `oke` (FUN-027), `kalibu` (FUN-028). Lexicon now
 **394 forms**.
 
