@@ -1087,3 +1087,170 @@ CLO-022	collar	ukosi	INTL	blend rubric; src 'ukosi'	blend; Bantu
 CLO-023	sleeve	monoa	INTL	blend rubric; src 'monoa'	blend; Bantu
 CLO-024	cloth-wrap / robe	kangai	INTL	blend rubric; src 'kangai'	blend; Bantu
 CLO-025	jewellery / ornament	palata	INTL	blend rubric; src 'palata'	blend; Indo-Aryan
+EMO-024	grief / sorrow	luto	INTL	blend rubric; src 'luto'	blend; Romance
+EMO-025	pity / compassion	pieda	INTL	blend rubric; src 'pieda'	blend; Romance
+EMO-026	relief	aliwio	INTL	blend rubric; src 'aliwio'	blend; Romance
+EMO-027	disgust	asako	INTL	blend rubric; src 'asako'	blend; Japonic
+EMO-028	trust	tikai	INTL	blend rubric; src 'tikai'	blend; Semitic
+EMO-029	comfort / solace	conolo	INTL	blend rubric; src 'conolo'	blend; Romance
+EMO-030	longing / yearning	saudade	INTL	blend rubric; src 'saudade'	blend; Romance
+EMO-031	gratitude	gacia	INTL	blend rubric; src 'gacia'	blend; Romance
+EMO-032	regret / remorse	nadama	INTL	blend rubric; src 'nadama'	blend; Semitic
+EMO-033	courage	sayai	INTL	blend rubric; src 'sayai'	blend; Semitic
+EMO-034	despair	yaisu	INTL	blend rubric; src 'yaisu'	blend; Semitic
+EMO-035	joy / delight	gioia	INTL	blend rubric; src 'gioia'	blend; Romance
+EMO-036	anger / wrath	ganabu	INTL	blend rubric; src 'ganabu'	blend; Semitic
+EMO-037	calmness / serenity	sukunai	INTL	blend rubric; src 'sukunai'	blend; Semitic
+EMO-038	loneliness	soledade	INTL	blend rubric; src 'soledade'	blend; Romance
+EMO-039	boredom	noia	INTL	blend rubric; src 'noia'	blend; Romance
+EMO-040	excitement	emosione	INTL	blend rubric; src 'emosione'	blend; Romance
+EMO-041	contentment	manoku	INTL	blend rubric; src 'manoku'	blend; Japonic
+EMO-042	affection / fondness	aiyo	INTL	blend rubric; src 'aiyo'	blend; Japonic
+EMO-043	desire / craving	deseo	INTL	blend rubric; src 'deseo'	blend; Romance
+EMO-044	disappointment	desilusione	INTL	blend rubric; src 'desilusione'	blend; Romance
+EMO-045	frustration	ihatu	INTL	blend rubric; src 'ihatu'	blend; Semitic
+EMO-046	sympathy	kokan	INTL	blend rubric; src 'kokan'	blend; Japonic
+EMO-047	amazement / awe	ihan	INTL	blend rubric; src 'ihan'	blend; Semitic
+EMO-048	confidence / self-assurance	fiducia	INTL	blend rubric; src 'fiducia'	blend; Romance
+EMO-049	resentment / grudge	ulami	INTL	blend rubric; src 'ulami'	blend; Japonic
+EMO-050	tenderness	telula	INTL	blend rubric; src 'telula'	blend; Romance
+EMO-051	enthusiasm / zeal	hamasa	INTL	blend rubric; src 'hamasa'	blend; Semitic
+EMO-052	comfort / console	conolale	INTL	blend rubric; src 'conolale'	blend; Romance
+EMO-053	enjoy	godele	INTL	blend rubric; src 'godele'	blend; Romance
+EMO-054	suffer	sufile	INTL	blend rubric; src 'sufile'	blend; Romance
+EMO-055	cheerful	alege	INTL	blend rubric; src 'alege'	blend; Romance
+EMO-056	gloomy / glum	cupo	INTL	blend rubric; src 'cupo'	blend; Romance
+EMO-057	anxious / nervous	anioso	INTL	blend rubric; src 'anioso'	blend; Romance
+EMO-058	eager / keen	neso	INTL	blend rubric; src 'neso'	blend; Semitic
+COG-056	reason / intellect	akilu	INTL	blend rubric; src 'akilu'	blend; Semitic
+COG-057	intelligence	inteliyena	INTL	blend rubric; src 'inteliyena'	blend; Romance
+COG-058	judgment	handan	INTL	blend rubric; src 'handan'	blend; Sinitic
+COG-059	intuition / hunch	cokan	INTL	blend rubric; src 'cokan'	blend; Japonic
+COG-060	assumption	suposisione	INTL	blend rubric; src 'suposisione'	blend; Romance
+COG-061	conclusion	concusione	INTL	blend rubric; src 'concusione'	blend; Romance
+COG-062	belief / conviction	cena	INTL	blend rubric; src 'cena'	blend; Romance
+COG-063	conscience	damilu	INTL	blend rubric; src 'damilu'	blend; Semitic
+COG-064	imagination	imayinasione	INTL	blend rubric; src 'imayinasione'	blend; Romance
+COG-065	understand-grasp	capile	INTL	blend rubric; src 'capile'	blend; Romance
+COG-066	comprehend / fathom	likai	INTL	blend rubric; src 'likai'	blend; Japonic
+COG-067	ponder / reflect	kangae	INTL	blend rubric; src 'kangae'	blend; Japonic
+COG-068	recall / recollect	omoidasu	INTL	blend rubric; src 'omoidasu'	blend; Japonic
+COG-069	perceive / discern	pelipi	INTL	blend rubric; src 'pelipi'	blend; Romance
+COG-070	recognize	leconose	INTL	blend rubric; src 'leconose'	blend; Romance
+COG-071	suspect	soseta	INTL	blend rubric; src 'soseta'	blend; Romance
+COG-072	analyze / break-down	buneki	INTL	blend rubric; src 'buneki'	blend; Japonic
+COG-073	distinguish / tell apart	kubesu	INTL	blend rubric; src 'kubesu'	blend; Japonic
+COG-074	aware / conscious	conapewole	INTL	blend rubric; src 'conapewole'	blend; Romance
+COG-075	rational / logical	lasionale	INTL	blend rubric; src 'lasionale'	blend; Romance
+SPE-024	greeting	salutu	INTL	blend rubric; src 'salutu'	blend; Romance
+SPE-025	conversation / talk	cosa	INTL	blend rubric; src 'cosa'	blend; Sinitic
+SPE-026	argument / quarrel	litiyo	INTL	blend rubric; src 'litiyo'	blend; Romance
+SPE-027	announcement	anunio	INTL	blend rubric; src 'anunio'	blend; Romance
+SPE-028	declaration	sengen	INTL	blend rubric; src 'sengen'	blend; Japonic
+SPE-029	report / account	lapolu	INTL	blend rubric; src 'lapolu'	blend; Austronesian
+SPE-030	explanation	setumei	INTL	blend rubric; src 'setumei'	blend; Japonic
+SPE-031	reply / response	heni	INTL	blend rubric; src 'heni'	blend; Japonic
+SPE-032	rumor / gossip	uwasa	INTL	blend rubric; src 'uwasa'	blend; Japonic
+SPE-033	dialect / accent	fanen	INTL	blend rubric; src 'fanen'	blend; Sinitic
+SPE-034	translation	honaku	INTL	blend rubric; src 'honaku'	blend; Japonic
+SPE-035	summary	yoyaku	INTL	blend rubric; src 'yoyaku'	blend; Japonic
+SPE-036	greet	saluta	INTL	blend rubric; src 'saluta'	blend; Romance
+SPE-037	invite	inita	INTL	blend rubric; src 'inita'	blend; Romance
+SPE-038	thank-someone	lingasia	INTL	blend rubric; src 'lingasia'	blend; Romance
+SPE-039	apologize	ayamalu	INTL	blend rubric; src 'ayamalu'	blend; Japonic
+SPE-040	praise / commend	lodai	INTL	blend rubric; src 'lodai'	blend; Romance
+SPE-041	blame / accuse	inola	INTL	blend rubric; src 'inola'	blend; Romance
+SPE-042	forgive / pardon	yulusu	INTL	blend rubric; src 'yulusu'	blend; Japonic
+SPE-043	advise	conilia	INTL	blend rubric; src 'conilia'	blend; Romance
+SPE-044	warn	keikoku	INTL	blend rubric; src 'keikoku'	blend; Japonic
+SPE-045	complain	kucu	INTL	blend rubric; src 'kucu'	blend; Japonic
+SPE-046	joke	yodan	INTL	blend rubric; src 'yodan'	blend; Japonic
+SPE-047	discuss	gilon	INTL	blend rubric; src 'gilon'	blend; Sinitic
+SPE-048	describe	desibe	INTL	blend rubric; src 'desibe'	blend; Romance
+SPE-049	whisper	sasayaku	INTL	blend rubric; src 'sasayaku'	blend; Japonic
+SPE-050	spell / spell out	silaba	INTL	blend rubric; src 'silaba'	blend; Romance
+SPE-051	insult / offend	busula	INTL	blend rubric; src 'busula'	blend; Romance
+SPE-052	boast / brag	yiman	INTL	blend rubric; src 'yiman'	blend; Japonic
+SPE-053	negotiate	kosoa	INTL	blend rubric; src 'kosoa'	blend; Japonic
+SPE-054	fluent / eloquent	fasaha	INTL	blend rubric; src 'fasaha'	blend; Semitic
+SPE-055	polite / courteous	colese	INTL	blend rubric; src 'colese'	blend; Romance
+POS-007	ownership / property	poseso	INTL	blend rubric; src 'poseso'	blend; Romance
+POS-008	debt	deuda	INTL	blend rubric; src 'deuda'	blend; Romance
+POS-009	profit / gain	libun	INTL	blend rubric; src 'libun'	blend; Semitic
+POS-010	loss	pelitai	INTL	blend rubric; src 'pelitai'	blend; Romance
+POS-011	budget	yosan	INTL	blend rubric; src 'yosan'	blend; Japonic
+POS-012	value / worth	walole	INTL	blend rubric; src 'walole'	blend; Romance
+POS-013	exchange / swap	kokana	INTL	blend rubric; src 'kokana'	blend; Japonic
+POS-014	rent / lease	yacin	INTL	blend rubric; src 'yacin'	blend; Japonic
+POS-015	fee / charge	tasa	INTL	blend rubric; src 'tasa'	blend; Romance
+POS-016	fortune / asset	saisan	INTL	blend rubric; src 'saisan'	blend; Japonic
+POS-017	coin	moneda	INTL	blend rubric; src 'moneda'	blend; Romance
+POS-018	wage / salary	kulo	INTL	blend rubric; src 'kulo'	blend; Japonic
+POS-019	own / possess	poside	INTL	blend rubric; src 'poside'	blend; Romance
+POS-020	lend	kasua	INTL	blend rubric; src 'kasua'	blend; Japonic
+POS-021	borrow	kalile	INTL	blend rubric; src 'kalile'	blend; Romance
+POS-022	owe	debe	INTL	blend rubric; src 'debe'	blend; Romance
+POS-023	spend	gasa	INTL	blend rubric; src 'gasa'	blend; Romance
+POS-024	waste / squander	sekai	INTL	blend rubric; src 'sekai'	blend; Romance
+POS-025	earn	kasegu	INTL	blend rubric; src 'kasegu'	blend; Japonic
+POS-026	cost / be priced	kosa	INTL	blend rubric; src 'kosa'	blend; Romance
+POS-027	invest	tosi	INTL	blend rubric; src 'tosi'	blend; Japonic
+POS-028	cheap / inexpensive	balato	INTL	blend rubric; src 'balato'	blend; Romance
+POS-029	expensive / costly	takaia	INTL	blend rubric; src 'takaia'	blend; Japonic
+POS-030	free / no-cost	mulo	INTL	blend rubric; src 'mulo'	blend; Japonic
+POS-031	valuable / worthy	balioso	INTL	blend rubric; src 'balioso'	blend; Romance
+KIN-028	stranger	sukonosino	INTL	blend rubric; src 'sukonosino'	blend; Romance
+KIN-029	partner / companion	comano	INTL	blend rubric; src 'comano'	blend; Romance
+KIN-030	colleague / coworker	dolo	INTL	blend rubric; src 'dolo'	blend; Japonic
+KIN-031	rival / competitor	laibalu	INTL	blend rubric; src 'laibalu'	blend; Japonic
+KIN-032	follower / disciple	tabai	INTL	blend rubric; src 'tabai'	blend; Austronesian
+KIN-033	expert / specialist	senonka	INTL	blend rubric; src 'senonka'	blend; Japonic
+KIN-034	beginner / novice	sosina	INTL	blend rubric; src 'sosina'	blend; Japonic
+KIN-035	witness	sahidu	INTL	blend rubric; src 'sahidu'	blend; Semitic
+KIN-036	owner / proprietor	dueno	INTL	blend rubric; src 'dueno'	blend; Romance
+KIN-037	employee / staff	yugoin	INTL	blend rubric; src 'yugoin'	blend; Japonic
+KIN-038	crowd / throng	gunu	INTL	blend rubric; src 'gunu'	blend; Sinitic
+KIN-039	individual	koyin	INTL	blend rubric; src 'koyin'	blend; Japonic
+KIN-040	generation	sedai	INTL	blend rubric; src 'sedai'	blend; Japonic
+KIN-041	youth / young person	sababua	INTL	blend rubric; src 'sababua'	blend; Semitic
+KIN-042	elder / senior	sinin	INTL	blend rubric; src 'sinin'	blend; Sinitic
+KIN-043	hero	eiyusi	INTL	blend rubric; src 'eiyusi'	blend; Japonic
+KIN-044	fool / idiot	bakao	INTL	blend rubric; src 'bakao'	blend; Japonic
+KIN-045	liar	busiadolo	INTL	blend rubric; src 'busiadolo'	blend; Romance
+KIN-046	ally	domei	INTL	blend rubric; src 'domei'	blend; Japonic
+KIN-047	opponent / adversary	aite	INTL	blend rubric; src 'aite'	blend; Japonic
+KIN-048	apprentice / trainee	desi	INTL	blend rubric; src 'desi'	blend; Japonic
+KIN-049	customer / client	kaku	INTL	blend rubric; src 'kaku'	blend; Japonic
+KIN-050	twin	futago	INTL	blend rubric; src 'futago'	blend; Japonic
+KIN-051	orphan	yatima	INTL	blend rubric; src 'yatima'	blend; Semitic
+KIN-052	widow	wiuda	INTL	blend rubric; src 'wiuda'	blend; Romance
+SOC-059	honour / dignity	onole	INTL	blend rubric; src 'onole'	blend; Romance
+SOC-060	respect / esteem	ihila	INTL	blend rubric; src 'ihila'	blend; Semitic
+SOC-061	fame / renown	meisei	INTL	blend rubric; src 'meisei'	blend; Japonic
+SOC-062	reputation	hoban	INTL	blend rubric; src 'hoban'	blend; Japonic
+SOC-063	status / standing	cihi	INTL	blend rubric; src 'cihi'	blend; Sinitic
+SOC-064	role / function	yakuwali	INTL	blend rubric; src 'yakuwali'	blend; Japonic
+SOC-065	mercy / clemency	laha	INTL	blend rubric; src 'laha'	blend; Semitic
+SOC-066	justice	yutisia	INTL	blend rubric; src 'yutisia'	blend; Romance
+SOC-067	loyalty / fidelity	cunei	INTL	blend rubric; src 'cunei'	blend; Sinitic
+SOC-068	cooperation	koloku	INTL	blend rubric; src 'koloku'	blend; Japonic
+SOC-069	conflict / strife	funo	INTL	blend rubric; src 'funo'	blend; Japonic
+SOC-070	agreement / accord	gapi	INTL	blend rubric; src 'gappi'	blend; Japonic
+SOC-071	norm / rule-social	kihan	INTL	blend rubric; src 'kihan'	blend; Japonic
+SOC-072	habit / routine	sukan	INTL	blend rubric; src 'sukan'	blend; Japonic
+SOC-073	manner / conduct	taido	INTL	blend rubric; src 'taido'	blend; Japonic
+SOC-074	ceremony	gisiki	INTL	blend rubric; src 'gisiki'	blend; Japonic
+SOC-075	ritual / rite	gile	INTL	blend rubric; src 'gile'	blend; Romance
+SOC-076	privilege	token	INTL	blend rubric; src 'token'	blend; Japonic
+SOC-077	equality	bodo	INTL	blend rubric; src 'bodo'	blend; Japonic
+SOC-078	cruelty	yanin	INTL	blend rubric; src 'yanin'	blend; Sinitic
+SOC-079	kindness / benevolence	sinetu	INTL	blend rubric; src 'sinetu'	blend; Japonic
+SOC-080	generosity	kalamua	INTL	blend rubric; src 'kalamua'	blend; Semitic
+SOC-081	prejudice / bias	henken	INTL	blend rubric; src 'henken'	blend; Japonic
+SOC-082	reward / recompense	hosu	INTL	blend rubric; src 'hosu'	blend; Japonic
+SOC-083	cooperate	kolo	INTL	blend rubric; src 'kolo'	blend; Japonic
+SOC-084	compete / contend	kosoi	INTL	blend rubric; src 'kosoi'	blend; Japonic
+SOC-085	obey / comply	sitagau	INTL	blend rubric; src 'sitagau'	blend; Japonic
+SOC-086	rebel / resist	hanko	INTL	blend rubric; src 'hanko'	blend; Japonic
+SOC-087	celebrate	iwau	INTL	blend rubric; src 'iwau'	blend; Japonic
+SOC-088	participate / take part	sanka	INTL	blend rubric; src 'sanka'	blend; Japonic
