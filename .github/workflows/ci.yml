@@ -73,12 +73,27 @@ jobs:
         working-directory: book
         run: npm run check
 
+  # The dictionary generator is the cross-file integrity gate for data/ (every
+  # form legal, unique, badges consistent) and produces the published JSON the
+  # web tool loads. Its suite must stay green. Zero deps.
+  dictionary-tests:
+    name: Dictionary integrity tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Run tests
+        working-directory: dictionary
+        run: npm test
+
   # Auto-merge a PR only when (a) the builds above passed AND (b) every changed
   # file is documentation. Code changes (anything outside docs / *.md / LICENSE)
   # are never auto-merged — they fall through to human review.
   auto-merge-docs:
     name: Auto-merge docs-only PRs
-    needs: [test, collision-tests, parser-tests, book-check]
+    needs: [test, collision-tests, parser-tests, book-check, dictionary-tests]
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.draft == false
