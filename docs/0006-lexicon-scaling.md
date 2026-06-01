@@ -85,13 +85,66 @@ recognisable adaptations of their donors (e.g. `sakai` shakai, `tetanga` tetangg
 
 -----
 
+## Batches 2–7 — the sweep to ~1,500
+
+Batches 2–7 carried the lexicon from 564 to **1468 forms / 1484 concepts** — the
+`0003` ~1,500 frequency-cutoff target. Each used the same gated pipeline; two new
+helpers made the volume tractable: a **probe** (legalise a donor + check it against
+the live lexicon before minting) and an **autofix resolver** (when a donor's
+legalised form collides, try recognisable extensions until one clears, instead of
+emitting buffer-vowel junk). Every batch was confirmed **exit 0** on the full
+lexicon and append-only before commit.
+
+| batch | areas (domains) | added | cumulative |
+|---|---|---|---|
+| 2 | body / health / perception / motion (BOD PER MOT MOD) | +122 | 686 |
+| 3 | abstract / cognition / quantity / time / spatial (PROP COG QTY TIM SPA) | +148 | 834 |
+| 4 | nature / plants / animals (PHY AGR ANI) | +136 | 970 |
+| 5 | actions / society / material life (ACT SOC DWE FOO CLO) | +118 | 1088 |
+| 6 | emotion / cognition / speech / trade / people / social (EMO COG SPE POS KIN SOC) | +167 | 1255 |
+| 7 | modern·tech / built-environment / transport / cooking (MOD DWE MOT ACT FOO …) | +213 | 1468 |
+
+**Donor-balance management.** Batch 1 left Austronesian (~21%) and Japonic (~19%)
+near the cap, so batches 3–5 leaned **Indo-Aryan / Sinitic / Romance / Semitic**
+(then <6% each), and batches 6–7 leaned **Romance / Japonic / Semitic** for the
+abstract-social and tech registers. The nature/animal batch (4) unavoidably leaned
+Indo-Aryan/Bantu (cleanest CV donors for flora/fauna) and was spread back by
+re-sourcing ~28 rows. **Final blend, all under the ≤25% cap (`0003` §7b):**
+
+| family | forms | % |
+|---|---|---|
+| Japonic | 273 | 18.6% |
+| Bantu | 258 | 17.6% |
+| (pre-5b, family-in-prose) | 225 | 15.3% |
+| Indo-Aryan | 209 | 14.2% |
+| Romance | 194 | 13.2% |
+| Austronesian | 149 | 10.1% |
+| Semitic | 86 | 5.9% |
+| Sinitic | 38 | 2.6% |
+| international | 35 | 2.4% |
+| Slavic | 1 | 0.1% |
+
+**Gates earned their keep.** Across the sweep the screens caught — and forced fixes
+for — multiple **obscenity-substring** hits (`kaaka` "crow", `kakadi` "cucumber",
+`kontasena` "password" all contain blocked substrings), a **false-friend**
+(`pesa` = Swahili "money"), and hundreds of homophone / near-homophone collisions
+under the b/p·d/t·g/k merger — none of which reached `data/`.
+
+-----
+
 ## Running totals
 
 | after | concepts | lexicon forms | toward ~1,500 |
 |---|---|---|---|
 | Phase 3 | 402 | 386 | ~26% |
 | Phase 5a | 410 | 394 | ~27% |
-| **Phase 5b batch 1** | **580** | **564** | **~39%** |
+| Phase 5b batch 1 | 580 | 564 | ~39% |
+| Phase 5b batch 2 | 702 | 686 | ~47% |
+| Phase 5b batch 3 | 850 | 834 | ~56% |
+| Phase 5b batch 4 | 986 | 970 | ~65% |
+| Phase 5b batch 5 | 1104 | 1088 | ~73% |
+| Phase 5b batch 6 | 1271 | 1255 | ~84% |
+| **Phase 5b batch 7** | **1484** | **1468** | **~98% (target met)** |
 
 -----
 
