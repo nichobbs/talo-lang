@@ -7,15 +7,16 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 
 | | |
 |---|---|
-| Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass) |
-| Phase in progress | 5b — lexicon scaling toward ~1,500 (batch 1 done: 580 concepts / 564 forms, ~39%) |
-| Concepts catalogued | 580 (`data/concepts.tsv`) |
-| Lexicon forms minted | 564 (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
-| Both gates | green (linter R1–R6 + collision checker); 564/564 clear, exit 0 |
+| Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass), 5b (lexicon scaling to ~1,500) |
+| Phase in progress | — (next: parser/validator, or governance/freeze O-6) |
+| Concepts catalogued | 1484 (`data/concepts.tsv`) |
+| Lexicon forms minted | 1468 (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
+| Both gates | green (linter R1–R6 + collision checker); 1468/1468 clear, exit 0 |
 | CI | both tool test suites passing (linter; checker 12/12) |
+| Donor blend | all families ≤25% cap — Japonic 18.6%, Bantu 17.6%, Indo-Aryan 14.2%, Romance 13.2%, Austronesian 10.1%, Semitic 5.9%, Sinitic 2.6% |
 | Hello-world corpus | `docs/0004` — 2 annotated dialogues + ~30 feature sentences, all on the 386 words |
 | Grammar completeness | `docs/0005` — conditionals, existential verb `kuna`, determiner order, proper nouns, phatic set (7 new forms) |
-| Lexicon scaling | `docs/0006` — batch log; batch 1 = +170 forms across 12 domains (people/social/mind, everyday/material, modern/civic) |
+| Lexicon scaling | `docs/0006` — batch log; 7 batches, +1082 forms across all domains (386 → 1468), donor-balanced |
 
 ## What exists today
 
@@ -88,9 +89,10 @@ forms minted → buffer-vowel polish pass.
    - confirm **demonstratives/numerals are postposed determiners**, distinct from
      `-pe` modifiers (`0002` §6.6 already assumes this);
    - add a **proper-noun policy** (badging, parsing, gate treatment).
-2. **Expand the concept list** toward the ~1,500 target (currently 402), then
-   mint forms for the additions through both gates (reuse `scripts/` patterns).
-   _(currently 402 concepts catalogued.)_
+2. ✅ **Expand the concept list to ~1,500** _(done — Phase 5b, `docs/0006`)._
+   1484 concepts / 1468 forms, 7 gated batches, donor-balanced under the 25% cap.
+   _Possible follow-up: a euphony polish pass over the auto-resolved forms, and
+   widening the phatic set._
 3. **Parser/validator tool** — checks sentence well-formedness (subject-first,
    badge-final, role markers); doubles as a teaching aid and regression harness.
 4. **Governance & freeze boundary** (open decision O-6 in `0000` §9) — decide

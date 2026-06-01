@@ -563,3 +563,907 @@ MOD-045	ship / boat	fune	INTL	blend rubric; src 'fune'	blend; Japonic
 MOD-046	bicycle	baisikeli	INTL	blend rubric; src 'baisikeli'	blend; Bantu
 TIM-023	minute	meni	INTL	blend rubric; src 'menit'	blend; Austronesian
 TIM-024	season	kisesu	INTL	blend rubric; src 'kisetsu'	blend; Japonic
+BOD-033	lung	pafua	INTL	blend rubric; src 'pafu'	blend (legalised); Bantu
+BOD-034	liver	inia	INTL	blend rubric; src 'ini'	blend (legalised); Bantu
+BOD-035	throat	umio	INTL	blend rubric; src 'umio'	blend; Bantu
+BOD-036	brain	ubongo	INTL	blend rubric; src 'ubongo'	blend; Bantu
+BOD-037	cheek	sawu	INTL	blend rubric; src 'shavu'	blend; Bantu
+BOD-038	lip	midomo	INTL	blend rubric; src 'midomo'	blend; Bantu
+BOD-039	shoulder	bega	INTL	blend rubric; src 'bega'	blend; Bantu
+BOD-040	elbow	kiko	INTL	blend rubric; src 'kiko'	blend; Bantu
+BOD-041	hip	nonga	INTL	blend rubric; src 'nyonga'	blend; Bantu
+BOD-042	heel	kisigino	INTL	blend rubric; src 'kisigino'	blend; Bantu
+BOD-043	kidney	figo	INTL	blend rubric; src 'figo'	blend; Bantu
+BOD-044	muscle	mana	INTL	blend rubric; src 'mansa'	blend; Indo-Aryan
+BOD-045	vein	nasa	INTL	blend rubric; src 'nasa'	blend; Indo-Aryan
+BOD-046	nerve	nadi	INTL	blend rubric; src 'nadi'	blend; Indo-Aryan
+BOD-047	womb	kohi	INTL	blend rubric; src 'kokhi'	blend; Indo-Aryan
+BOD-048	fist	muti	INTL	blend rubric; src 'mutthi'	blend; Indo-Aryan
+BOD-049	navel	nabi	INTL	blend rubric; src 'nabhi'	blend; Indo-Aryan
+BOD-050	ankle	gita	INTL	blend rubric; src 'gitta'	blend; Indo-Aryan
+BOD-051	eyebrow	bami	INTL	blend rubric; src 'bhamri'	blend; Indo-Aryan
+BOD-052	chin	todi	INTL	blend rubric; src 'thodi'	blend; Indo-Aryan
+BOD-053	jaw	tani	INTL	blend rubric; src 'tani'	blend; Bantu
+BOD-054	skull	fuwu	INTL	blend rubric; src 'fuvu'	blend; Bantu
+BOD-055	limb	sisi	INTL	blend rubric; src 'sizhi'	blend; Sinitic
+BOD-056	gland	gandula	INTL	blend rubric; src 'glandula'	blend; Romance
+BOD-057	artery	alelia	INTL	blend rubric; src 'arteria'	blend; Romance
+BOD-058	skeleton	seleto	INTL	blend rubric; src 'skeleto'	blend; Romance
+BOD-059	beard	liha	INTL	blend rubric; src 'lihya'	blend; Semitic
+BOD-060	waist	pingan	INTL	blend rubric; src 'pinggang'	blend; Austronesian
+BOD-061	calf (of leg)	betia	INTL	blend rubric; src 'betis'	blend (legalised); Austronesian
+BOD-062	pregnant	galini	INTL	blend rubric; src 'garbhini'	blend; Indo-Aryan
+BOD-063	breath	pumi	INTL	blend rubric; src 'pumzi'	blend; Bantu
+BOD-064	bald	gana	INTL	blend rubric; src 'ganja'	blend; Indo-Aryan
+BOD-065	sweat	yaso	INTL	blend rubric; src 'jasho'	blend; Bantu
+BOD-066	cough	kohoa	INTL	blend rubric; src 'kohoa'	blend; Bantu
+BOD-067	sneeze	cemua	INTL	blend rubric; src 'chemua'	blend; Bantu
+BOD-068	yawn	piasa	INTL	blend rubric; src 'piasa'	blend; Bantu
+BOD-069	saliva	mate	INTL	blend rubric; src 'mate'	blend; Bantu
+BOD-070	scar	kowu	INTL	blend rubric; src 'kovu'	blend; Bantu
+BOD-071	bleed	liukie	INTL	blend rubric; src 'liuxie'	blend; Sinitic
+BOD-072	swallow	tunan	INTL	blend rubric; src 'tunyan'	blend; Sinitic
+BOD-073	chew	yueyu	INTL	blend rubric; src 'jueju'	blend; Sinitic
+BOD-074	itch	huyi	INTL	blend rubric; src 'khujli'	blend; Indo-Aryan
+BOD-075	spit	tafala	INTL	blend rubric; src 'tafala'	blend; Semitic
+BOD-076	digest	digeli	INTL	blend rubric; src 'digeri'	blend; Romance
+BOD-077	blink	kedi	INTL	blend rubric; src 'kedip'	blend; Austronesian
+BOD-078	urine	pesaba	INTL	blend rubric; src 'peshaba'	blend; Indo-Aryan
+PER-010	glance	nawa	INTL	blend rubric; src 'nawa'	blend; Bantu
+PER-011	stare / gaze	kasia	INTL	blend rubric; src 'kazia'	blend; Bantu
+PER-012	odour / scent	halufu	INTL	blend rubric; src 'harufu'	blend; Bantu
+PER-013	flavour	saika	INTL	blend rubric; src 'zaika'	blend; Indo-Aryan
+PER-014	brightness	manga	INTL	blend rubric; src 'mwanga'	blend; Bantu
+PER-015	darkness	gisa	INTL	blend rubric; src 'giza'	blend; Bantu
+PER-016	loud / noisy	kelele	INTL	blend rubric; src 'kelele'	blend; Bantu
+PER-017	silent / quiet	kima	INTL	blend rubric; src 'kimya'	blend; Bantu
+PER-018	fragrance	suganda	INTL	blend rubric; src 'sugandha'	blend; Indo-Aryan
+PER-019	stench	badua	INTL	blend rubric; src 'badbu'	blend (legalised); Indo-Aryan
+PER-020	perceive / sense	anubawa	INTL	blend rubric; src 'anubhava'	blend; Indo-Aryan
+PER-021	observe	guanca	INTL	blend rubric; src 'guancha'	blend; Sinitic
+PER-022	sensation	senasio	INTL	blend rubric; src 'sensasio'	blend; Romance
+PER-023	echo	sada	INTL	blend rubric; src 'sada'	blend; Semitic
+PER-024	aroma	alifa	INTL	blend rubric; src 'arifa'	blend; Semitic
+PER-025	sticky	lenge	INTL	blend rubric; src 'lengket'	blend; Austronesian
+PER-026	slippery	licin	INTL	blend rubric; src 'licin'	blend; Austronesian
+MOT-007	return / go back	ludia	INTL	blend rubric; src 'rudia'	blend; Bantu
+MOT-008	jump / leap	luka	INTL	blend rubric; src 'ruka'	blend; Bantu
+MOT-009	flee / escape	kimia	INTL	blend rubric; src 'kimbia'	blend; Bantu
+MOT-010	chase / pursue	fukusa	INTL	blend rubric; src 'fukuza'	blend; Bantu
+MOT-011	crawl	tama	INTL	blend rubric; src 'tambaa'	blend; Bantu
+MOT-012	approach / draw near	kalibia	INTL	blend rubric; src 'karibia'	blend; Bantu
+MOT-013	pass by	pita	INTL	blend rubric; src 'pita'	blend; Bantu
+MOT-014	slide / slip	telesa	INTL	blend rubric; src 'teleza'	blend; Bantu
+MOT-015	wander / roam	tangatanga	INTL	blend rubric; src 'tangatanga'	blend; Bantu
+MOT-016	tremble / shake	tetemeka	INTL	blend rubric; src 'tetemeka'	blend; Bantu
+MOT-017	spin / rotate	sunguluka	INTL	blend rubric; src 'zunguluka'	blend; Bantu
+MOT-018	collide / crash	gonga	INTL	blend rubric; src 'gonga'	blend; Bantu
+MOT-019	cross / traverse	yata	INTL	blend rubric; src 'yatra'	blend; Indo-Aryan
+MOT-020	retreat / withdraw	piceha	INTL	blend rubric; src 'pichehat'	blend; Indo-Aryan
+MOT-021	gather / assemble	ikata	INTL	blend rubric; src 'ikattha'	blend; Indo-Aryan
+MOT-022	drag / haul	gasita	INTL	blend rubric; src 'ghasitna'	blend; Indo-Aryan
+MOT-023	float / drift	tala	INTL	blend rubric; src 'talna'	blend; Indo-Aryan
+MOT-024	stumble / trip	ladada	INTL	blend rubric; src 'ladkhada'	blend; Indo-Aryan
+MOT-025	step / pace	hatua	INTL	blend rubric; src 'hatua'	blend; Bantu
+MOT-026	advance / go forward	kianin	INTL	blend rubric; src 'qianjin'	blend; Sinitic
+MOT-027	fall over / topple	daota	INTL	blend rubric; src 'daota'	blend; Sinitic
+MOT-028	roll	gundun	INTL	blend rubric; src 'gundun'	blend; Sinitic
+MOT-029	ascend / climb up	monta	INTL	blend rubric; src 'montar'	blend; Romance
+MOT-030	circulate	silula	INTL	blend rubric; src 'sirkula'	blend; Romance
+MOT-031	navigate / steer	nawiga	INTL	blend rubric; src 'naviga'	blend; Romance
+MOT-032	accelerate / speed up	akelela	INTL	blend rubric; src 'akselera'	blend; Romance
+MOT-033	depart / set off	safala	INTL	blend rubric; src 'safara'	blend; Semitic
+MOT-034	hurry / rush	salia	INTL	blend rubric; src 'saria'	blend; Semitic
+MOT-035	creep / sneak	menusu	INTL	blend rubric; src 'menyusup'	blend; Austronesian
+MOD-047	sick / ill	ugona	INTL	blend rubric; src 'ugonjwa'	blend; Bantu
+MOD-048	fever	homa	INTL	blend rubric; src 'homa'	blend; Bantu
+MOD-049	wound / injury	yelaha	INTL	blend rubric; src 'jeraha'	blend; Bantu
+MOD-050	disease / illness	maladi	INTL	blend rubric; src 'maradhi'	blend; Bantu
+MOD-051	swell / swelling	wima	INTL	blend rubric; src 'vimba'	blend; Bantu
+MOD-052	poison / venom	sumu	INTL	blend rubric; src 'sumu'	blend; Bantu
+MOD-053	health	afiya	INTL	blend rubric; src 'afiya'	blend; Bantu
+MOD-054	blind	kipofu	INTL	blend rubric; src 'kipofu'	blend; Bantu
+MOD-055	deaf	kisiwi	INTL	blend rubric; src 'kiziwi'	blend; Bantu
+MOD-056	sore / ulcer	kidonda	INTL	blend rubric; src 'kidonda'	blend; Bantu
+MOD-057	cure / remedy	upaca	INTL	blend rubric; src 'upachar'	blend; Indo-Aryan
+MOD-058	drug / medication	dawai	INTL	blend rubric; src 'dawai'	blend; Indo-Aryan
+MOD-059	cold / flu	ganao	INTL	blend rubric; src 'ganmao'	blend; Sinitic
+MOD-060	vitality / strength (health)	guwu	INTL	blend rubric; src 'nguvu'	blend; Bantu
+MOD-061	lame / crippled	langa	INTL	blend rubric; src 'langda'	blend; Indo-Aryan
+MOD-062	virus	bingu	INTL	blend rubric; src 'bingdu'	blend; Sinitic
+MOD-063	infect / infection	ganana	INTL	blend rubric; src 'ganran'	blend (legalised); Sinitic
+MOD-064	tumor / lump	songiu	INTL	blend rubric; src 'zhongliu'	blend; Sinitic
+MOD-065	vaccine	yamiao	INTL	blend rubric; src 'yamiao'	blend; Sinitic
+MOD-066	diarrhea	fukie	INTL	blend rubric; src 'fuxie'	blend; Sinitic
+MOD-067	surgery / operation	kilulia	INTL	blend rubric; src 'kirurgia'	blend; Romance
+MOD-068	nurse	mugusi	INTL	blend rubric; src 'muuguzi'	blend; Bantu
+MOD-069	clinic	kinika	INTL	blend rubric; src 'klinika'	blend; Romance
+MOD-070	antibiotic	antibiotika	INTL	blend rubric; src 'antibiotika'	blend; Romance
+MOD-071	epidemic / plague	epidemia	INTL	blend rubric; src 'epidemia'	blend; Romance
+MOD-072	pill / tablet	pasila	INTL	blend rubric; src 'pastilla'	blend; Romance
+MOD-073	ointment / balm	salaba	INTL	blend rubric; src 'salaba'	blend; Semitic
+MOD-074	contagion / catch (illness)	kanen	INTL	blend rubric; src 'kansen'	blend; Japonic
+MOD-075	dizzy / faint	kisungusungu	INTL	blend rubric; src 'kizunguzungu'	blend; Bantu
+MOD-076	recover / heal up	pona	INTL	blend rubric; src 'pona'	blend; Bantu
+PROP-055	important	muhimu	INTL	blend rubric; src 'muhimu'	blend; Bantu
+PROP-056	necessary	necesa	INTL	blend rubric; src 'necesa'	blend; Romance
+PROP-057	possible	posibe	INTL	blend rubric; src 'posible'	blend; Romance
+PROP-058	useful	utile	INTL	blend rubric; src 'utile'	blend; Romance
+PROP-059	difficult	katina	INTL	blend rubric; src 'katina'	blend; Indo-Aryan
+PROP-060	simple / easy	sahala	INTL	blend rubric; src 'sahala'	blend; Bantu
+PROP-061	dangerous	hatali	INTL	blend rubric; src 'hatari'	blend; Bantu
+PROP-062	safe	salama	INTL	blend rubric; src 'salama'	blend; Bantu
+PROP-063	strange / odd	ayabu	INTL	blend rubric; src 'ajabu'	blend; Semitic
+PROP-064	common / usual	kawaida	INTL	blend rubric; src 'kawaida'	blend; Semitic
+PROP-065	normal	nolale	INTL	blend rubric; src 'normale'	blend; Romance
+PROP-066	real / actual	keli	INTL	blend rubric; src 'kweli'	blend; Bantu
+PROP-067	certain / sure	yakini	INTL	blend rubric; src 'yakini'	blend; Semitic
+PROP-068	main / chief	muha	INTL	blend rubric; src 'mukhya'	blend; Indo-Aryan
+PROP-069	whole / entire	samula	INTL	blend rubric; src 'sampulna'	blend; Indo-Aryan
+PROP-070	double	duba	INTL	blend rubric; src 'dubla'	blend; Romance
+PROP-071	busy	masulo	INTL	blend rubric; src 'masulo'	blend; Indo-Aryan
+PROP-072	ready	tayali	INTL	blend rubric; src 'tayari'	blend; Bantu
+PROP-073	serious	gamila	INTL	blend rubric; src 'gambhila'	blend; Indo-Aryan
+PROP-074	clear / obvious	sasa	INTL	blend rubric; src 'spasta'	blend; Indo-Aryan
+PROP-075	secret / hidden	sili	INTL	blend rubric; src 'siri'	blend; Bantu
+PROP-076	public	pubiko	INTL	blend rubric; src 'publiko'	blend; Romance
+PROP-077	general	henela	INTL	blend rubric; src 'henela'	blend; Romance
+PROP-078	special	haso	INTL	blend rubric; src 'khaso'	blend; Indo-Aryan
+PROP-079	basic / fundamental	mula	INTL	blend rubric; src 'mula'	blend; Indo-Aryan
+PROP-080	total / entire	kabisa	INTL	blend rubric; src 'kabisa'	blend; Bantu
+PROP-081	extra / spare	siyada	INTL	blend rubric; src 'ziyada'	blend; Semitic
+PROP-082	ordinary	samana	INTL	blend rubric; src 'samanya'	blend; Indo-Aryan
+PROP-083	similar / alike	sadisa	INTL	blend rubric; src 'sadrisa'	blend; Indo-Aryan
+PROP-084	opposite / reverse	kinume	INTL	blend rubric; src 'kinyume'	blend; Bantu
+PROP-085	equal	sawa	INTL	blend rubric; src 'sawa'	blend; Bantu
+PROP-086	fair / just	adili	INTL	blend rubric; src 'adili'	blend; Semitic
+PROP-087	honest	maminifu	INTL	blend rubric; src 'mwaminifu'	blend; Bantu
+PROP-088	rare	nadila	INTL	blend rubric; src 'nadira'	blend; Semitic
+PROP-089	modern	modelo	INTL	blend rubric; src 'moderno'	blend; Romance
+PROP-090	ancient / old	kadimu	INTL	blend rubric; src 'kadimu'	blend; Semitic
+PROP-091	natural	natulale	INTL	blend rubric; src 'naturale'	blend; Romance
+PROP-092	useless / vain	bekala	INTL	blend rubric; src 'bekala'	blend; Indo-Aryan
+PROP-093	precious / valuable	tamani	INTL	blend rubric; src 'thamani'	blend; Bantu
+PROP-094	famous	masuhuli	INTL	blend rubric; src 'mashuhuli'	blend; Semitic
+PROP-095	complete / finished	kamili	INTL	blend rubric; src 'kamili'	blend; Semitic
+PROP-096	sharp-witted / clever	calaku	INTL	blend rubric; src 'calaku'	blend; Indo-Aryan
+PROP-097	stupid / foolish	mupuma	INTL	blend rubric; src 'mupumba'	blend; Bantu
+PROP-098	brief / temporary	kanika	INTL	blend rubric; src 'kshanika'	blend; Indo-Aryan
+PROP-099	main-real / genuine	asia	INTL	blend rubric; src 'aslia'	blend; Semitic
+PROP-100	flexible / soft	lacila	INTL	blend rubric; src 'lacila'	blend; Indo-Aryan
+PROP-101	rigid / stiff	katola	INTL	blend rubric; src 'kathora'	blend; Indo-Aryan
+PROP-102	steady / stable	sutila	INTL	blend rubric; src 'sutila'	blend; Indo-Aryan
+PROP-103	sudden	acanaka	INTL	blend rubric; src 'acanaka'	blend; Indo-Aryan
+PROP-104	gradual / slow	talela	INTL	blend rubric; src 'talela'	blend; Romance
+COG-022	imagine	kalana	INTL	blend rubric; src 'kalpana'	blend; Indo-Aryan
+COG-023	guess / estimate	andasa	INTL	blend rubric; src 'andasa'	blend; Indo-Aryan
+COG-024	plan / arrange	yoyana	INTL	blend rubric; src 'yoyana'	blend; Indo-Aryan
+COG-025	compare	komala	INTL	blend rubric; src 'kompala'	blend; Romance
+COG-026	judge / weigh	hukumu	INTL	blend rubric; src 'hukumu'	blend; Semitic
+COG-027	intend / aim	kusudia	INTL	blend rubric; src 'kusudia'	blend; Semitic
+COG-028	expect / await	tegemea	INTL	blend rubric; src 'tegemea'	blend; Bantu
+COG-029	assume / suppose	manana	INTL	blend rubric; src 'manana'	blend; Indo-Aryan
+COG-030	conclude / decide	decidi	INTL	blend rubric; src 'decidi'	blend; Romance
+COG-031	focus / concentrate	cuyili	INTL	blend rubric; src 'cuyili'	blend; Sinitic
+COG-032	confuse / muddle	cangana	INTL	blend rubric; src 'canganya'	blend; Bantu
+COG-033	consider / ponder	conidela	INTL	blend rubric; src 'considela'	blend; Romance
+COG-034	examine / analyze	cungusa	INTL	blend rubric; src 'cunguza'	blend; Bantu
+COG-035	predict / foretell	yuce	INTL	blend rubric; src 'yuce'	blend; Sinitic
+COG-036	prove / verify	tibita	INTL	blend rubric; src 'tibita'	blend; Bantu
+COG-037	solve / resolve	sulisa	INTL	blend rubric; src 'sulisa'	blend; Bantu
+COG-038	interpret / explain	fasili	INTL	blend rubric; src 'fasili'	blend; Semitic
+COG-039	convince / persuade	sadiki	INTL	blend rubric; src 'sadiki'	blend; Semitic
+COG-040	knowledge	paga	INTL	blend rubric; src 'pragya'	blend; Indo-Aryan
+COG-041	opinion / view	abipaya	INTL	blend rubric; src 'abhipraya'	blend; Indo-Aryan
+COG-042	purpose / goal	lengo	INTL	blend rubric; src 'lengo'	blend; Bantu
+COG-043	intention	sankala	INTL	blend rubric; src 'sankalpa'	blend; Indo-Aryan
+COG-044	attention	ateni	INTL	blend rubric; src 'atensi'	blend; Romance
+COG-045	memory	siti	INTL	blend rubric; src 'smriti'	blend; Indo-Aryan
+COG-046	concept / notion	dalana	INTL	blend rubric; src 'dharana'	blend; Indo-Aryan
+COG-047	theory	nadalia	INTL	blend rubric; src 'nadaria'	blend; Semitic
+COG-048	logic / reason	loyika	INTL	blend rubric; src 'loyika'	blend; Romance
+COG-049	proof / evidence	dalili	INTL	blend rubric; src 'dalili'	blend; Semitic
+COG-050	wisdom	wiweka	INTL	blend rubric; src 'viveka'	blend; Indo-Aryan
+COG-051	curiosity	udadisi	INTL	blend rubric; src 'udadisi'	blend; Bantu
+COG-052	skill / expertise	usadi	INTL	blend rubric; src 'ustadi'	blend; Semitic
+COG-053	method / way	padati	INTL	blend rubric; src 'paddhati'	blend; Indo-Aryan
+COG-054	truth	sacai	INTL	blend rubric; src 'sacai'	blend; Indo-Aryan
+COG-055	secret / mystery	silia	INTL	blend rubric; src 'silia'	blend; Semitic
+QTY-031	weight	usito	INTL	blend rubric; src 'usito'	blend; Bantu
+QTY-032	length	lamai	INTL	blend rubric; src 'lambai'	blend; Austronesian
+QTY-033	width	upana	INTL	blend rubric; src 'upana'	blend; Bantu
+QTY-034	height / tallness	kimo	INTL	blend rubric; src 'kimo'	blend; Bantu
+QTY-035	measure / gauge	pima	INTL	blend rubric; src 'pima'	blend; Bantu
+QTY-036	amount / quantity	palimana	INTL	blend rubric; src 'parimana'	blend; Indo-Aryan
+QTY-037	add / sum	yoda	INTL	blend rubric; src 'yoda'	blend; Indo-Aryan
+QTY-038	subtract / remove	gatana	INTL	blend rubric; src 'ghatana'	blend; Indo-Aryan
+QTY-039	multiply	gunita	INTL	blend rubric; src 'gunita'	blend; Indo-Aryan
+QTY-040	divide / split	takima	INTL	blend rubric; src 'taksima'	blend; Semitic
+QTY-041	pair / couple	yodi	INTL	blend rubric; src 'yodi'	blend; Indo-Aryan
+QTY-042	dozen	dosena	INTL	blend rubric; src 'dosena'	blend; Romance
+QTY-043	percent	pasento	INTL	blend rubric; src 'pasento'	blend; Romance
+QTY-044	average / mean	wasita	INTL	blend rubric; src 'wasita'	blend; Semitic
+QTY-045	degree / level	dalaya	INTL	blend rubric; src 'daraja'	blend; Semitic
+QTY-046	quarter / fourth	cautai	INTL	blend rubric; src 'cauthai'	blend; Indo-Aryan
+QTY-047	majority / most	wengi	INTL	blend rubric; src 'wengi'	blend; Bantu
+QTY-048	limit / bound	mipaka	INTL	blend rubric; src 'mipaka'	blend; Bantu
+QTY-049	total / sum	yumula	INTL	blend rubric; src 'yumula'	blend; Semitic
+QTY-050	gram	gamu	INTL	blend rubric; src 'gramu'	blend; Romance
+QTY-051	meter (unit)	mita	INTL	blend rubric; src 'mita'	blend; Romance
+QTY-052	liter	lita	INTL	blend rubric; src 'lita'	blend; Romance
+QTY-053	kilo / kilogram	kilo	INTL	blend rubric; src 'kilo'	blend; Romance
+QTY-054	dose / portion	hisa	INTL	blend rubric; src 'hissa'	blend; Semitic
+TIM-025	future	banaya	INTL	blend rubric; src 'banaya'	blend; Indo-Aryan
+TIM-026	past / bygone	atita	INTL	blend rubric; src 'atita'	blend; Indo-Aryan
+TIM-027	present / current	watamana	INTL	blend rubric; src 'watamana'	blend; Indo-Aryan
+TIM-028	moment / instant	nimisa	INTL	blend rubric; src 'nimisa'	blend; Indo-Aryan
+TIM-029	period / phase	kipindi	INTL	blend rubric; src 'kipindi'	blend; Bantu
+TIM-030	era / age	kalayuga	INTL	blend rubric; src 'kalayuga'	blend; Indo-Aryan
+TIM-031	dawn / daybreak	alayili	INTL	blend rubric; src 'alfayili'	blend; Semitic
+TIM-032	dusk / twilight	gosani	INTL	blend rubric; src 'gosani'	blend; Indo-Aryan
+TIM-033	schedule / timetable	latiba	INTL	blend rubric; src 'latiba'	blend; Semitic
+TIM-034	delay / lateness	celewa	INTL	blend rubric; src 'celewa'	blend; Bantu
+TIM-035	calendar	kalenda	INTL	blend rubric; src 'kalenda'	blend; Romance
+TIM-036	century	sekulo	INTL	blend rubric; src 'sekulo'	blend; Romance
+TIM-037	decade	dasaka	INTL	blend rubric; src 'dasaka'	blend; Indo-Aryan
+TIM-038	duration / span	awadi	INTL	blend rubric; src 'avadhi'	blend; Indo-Aryan
+TIM-039	frequency / rate	balama	INTL	blend rubric; src 'barambar'	blend; Indo-Aryan
+TIM-040	midnight	manane	INTL	blend rubric; src 'manane'	blend; Bantu
+TIM-041	midday / noon	yohali	INTL	blend rubric; src 'yohali'	blend; Semitic
+TIM-042	stage / step	calana	INTL	blend rubric; src 'carana'	blend; Indo-Aryan
+TIM-043	recently / lately	halini	INTL	blend rubric; src 'halini'	blend; Semitic
+TIM-044	constantly / ever	nita	INTL	blend rubric; src 'nitya'	blend; Indo-Aryan
+SPA-016	between / among	kati	INTL	blend rubric; src 'kati'	blend; Bantu
+SPA-017	around / about	calupasa	INTL	blend rubric; src 'calupasa'	blend; Indo-Aryan
+SPA-018	through / via	katika	INTL	blend rubric; src 'katika'	blend; Bantu
+SPA-019	across / opposite	palele	INTL	blend rubric; src 'palele'	blend; Indo-Aryan
+SPA-020	beyond / past	pale	INTL	blend rubric; src 'pale'	blend; Indo-Aryan
+SPA-021	against / facing	samuha	INTL	blend rubric; src 'sammukha'	blend; Indo-Aryan
+SPA-022	edge / rim	kingo	INTL	blend rubric; src 'kingo'	blend; Bantu
+SPA-023	corner / angle	peme	INTL	blend rubric; src 'pembe'	blend; Bantu
+SPA-024	gap / space	antala	INTL	blend rubric; src 'antara'	blend; Indo-Aryan
+SPA-025	direction	disa	INTL	blend rubric; src 'disa'	blend; Indo-Aryan
+SPA-026	layer / level	tabaka	INTL	blend rubric; src 'tabaka'	blend; Semitic
+SPA-027	border / boundary	sima	INTL	blend rubric; src 'sima'	blend; Indo-Aryan
+SPA-028	distance	dula	INTL	blend rubric; src 'dula'	blend; Indo-Aryan
+SPA-029	region / area	padesa	INTL	blend rubric; src 'pradesa'	blend; Indo-Aryan
+SPA-030	zone / belt	kanda	INTL	blend rubric; src 'kanda'	blend; Bantu
+SPA-031	row / line	safu	INTL	blend rubric; src 'safu'	blend; Bantu
+SPA-032	position / spot	yaga	INTL	blend rubric; src 'yaga'	blend; Indo-Aryan
+SPA-033	slope / incline	tegemeo	INTL	blend rubric; src 'tegemeo'	blend; Bantu
+SPA-034	top / summit	kilele	INTL	blend rubric; src 'kilele'	blend; Bantu
+SPA-035	bottom / base	cini	INTL	blend rubric; src 'cini'	blend; Indo-Aryan
+PHY-029	hill	kilima	INTL	blend rubric; src 'kilima'	blend; Bantu
+PHY-030	valley	kanon	INTL	blend rubric; src 'kanyon'	blend; Romance
+PHY-031	island	kisiwa	INTL	blend rubric; src 'kisiwa'	blend; Bantu
+PHY-032	coast / shore	tila	INTL	blend rubric; src 'tira'	blend; Indo-Aryan
+PHY-033	desert	legisan	INTL	blend rubric; src 'registan'	blend; Semitic
+PHY-034	plain / grassland	nika	INTL	blend rubric; src 'nyika'	blend; Bantu
+PHY-035	cave	pango	INTL	blend rubric; src 'pango'	blend; Bantu
+PHY-036	cliff	genge	INTL	blend rubric; src 'genge'	blend; Bantu
+PHY-037	swamp / marsh	daladala	INTL	blend rubric; src 'daladala'	blend; Indo-Aryan
+PHY-038	stream / brook	kiyito	INTL	blend rubric; src 'kijito'	blend; Bantu
+PHY-039	spring (water source)	casa	INTL	blend rubric; src 'casma'	blend; Semitic
+PHY-040	well (water)	kuwa	INTL	blend rubric; src 'kuva'	blend; Semitic
+PHY-041	pond / pool	talao	INTL	blend rubric; src 'talao'	blend; Indo-Aryan
+PHY-042	wave	lahali	INTL	blend rubric; src 'lahari'	blend; Indo-Aryan
+PHY-043	mud	matope	INTL	blend rubric; src 'matope'	blend; Bantu
+PHY-044	clay	udongo	INTL	blend rubric; src 'udongo'	blend; Bantu
+PHY-045	gold	sonali	INTL	blend rubric; src 'sonari'	blend; Indo-Aryan
+PHY-046	silver	candi	INTL	blend rubric; src 'candi'	blend; Indo-Aryan
+PHY-047	iron	isata	INTL	blend rubric; src 'ispata'	blend; Indo-Aryan
+PHY-048	copper	tonga	INTL	blend rubric; src 'tonga'	blend; Sinitic
+PHY-049	coal	meitan	INTL	blend rubric; src 'meitan'	blend; Sinitic
+PHY-050	glass	kanca	INTL	blend rubric; src 'kanca'	blend; Indo-Aryan
+PHY-051	jewel / gem	latana	INTL	blend rubric; src 'ratana'	blend; Indo-Aryan
+PHY-052	diamond	hila	INTL	blend rubric; src 'hira'	blend; Indo-Aryan
+PHY-053	ocean / deep sea	bahali	INTL	blend rubric; src 'bahari'	blend; Semitic
+PHY-054	earthquake	bukama	INTL	blend rubric; src 'bhukamba'	blend; Indo-Aryan
+PHY-055	volcano	wulano	INTL	blend rubric; src 'wulkano'	blend; Romance
+PHY-056	weather / climate	mausa	INTL	blend rubric; src 'mausam'	blend; Indo-Aryan
+PHY-057	storm	tufani	INTL	blend rubric; src 'tufani'	blend; Semitic
+PHY-058	thunder	galaya	INTL	blend rubric; src 'garaja'	blend; Indo-Aryan
+PHY-059	lightning	biyuli	INTL	blend rubric; src 'biyuli'	blend; Indo-Aryan
+PHY-060	fog / mist	koha	INTL	blend rubric; src 'kohla'	blend; Indo-Aryan
+PHY-061	dew	himata	INTL	blend rubric; src 'himpata'	blend; Indo-Aryan
+PHY-062	flood	sailaba	INTL	blend rubric; src 'sailaba'	blend; Semitic
+PHY-063	drought	suha	INTL	blend rubric; src 'sukha'	blend; Indo-Aryan
+PHY-064	rainbow	indadanu	INTL	blend rubric; src 'indladanu'	blend; Indo-Aryan
+PHY-065	heat / warmth	gali	INTL	blend rubric; src 'garmi'	blend; Indo-Aryan
+PHY-066	planet	gaha	INTL	blend rubric; src 'graha'	blend; Indo-Aryan
+PHY-067	universe / cosmos	bamanda	INTL	blend rubric; src 'bramanda'	blend; Indo-Aryan
+PHY-068	gas	gesi	INTL	blend rubric; src 'gesi'	blend; Romance
+PHY-069	steam / vapour	bafa	INTL	blend rubric; src 'bafa'	blend; Indo-Aryan
+PHY-070	flame	yala	INTL	blend rubric; src 'yvala'	blend; Indo-Aryan
+PHY-071	spark	cingali	INTL	blend rubric; src 'cingali'	blend; Indo-Aryan
+PHY-072	leather / hide	cama	INTL	blend rubric; src 'camla'	blend; Indo-Aryan
+PHY-073	rubber	labala	INTL	blend rubric; src 'labala'	blend; Romance
+PHY-074	plastic	palasiti	INTL	blend rubric; src 'palasiti'	blend; Romance
+PHY-075	powder	feno	INTL	blend rubric; src 'fenmo'	blend; Sinitic
+PHY-076	north	utali	INTL	blend rubric; src 'uttari'	blend; Austronesian
+PHY-077	south	dakina	INTL	blend rubric; src 'daksina'	blend; Indo-Aryan
+PHY-078	east	masalika	INTL	blend rubric; src 'masharika'	blend; Semitic
+PHY-079	west	magalibi	INTL	blend rubric; src 'magharibi'	blend; Semitic
+PHY-080	hole / pit	gade	INTL	blend rubric; src 'gaddhe'	blend; Indo-Aryan
+PHY-081	horizon	ufukeni	INTL	blend rubric; src 'ufukweni'	blend; Bantu
+PHY-082	peak / summit	coti	INTL	blend rubric; src 'cotti'	blend; Indo-Aryan
+PHY-083	slope / hillside	dalan	INTL	blend rubric; src 'dhalan'	blend; Indo-Aryan
+PHY-084	current / flow	pawaha	INTL	blend rubric; src 'pravaha'	blend; Indo-Aryan
+PHY-085	tide	mawimi	INTL	blend rubric; src 'mawimbi'	blend; Bantu
+PHY-086	crystal	sufatika	INTL	blend rubric; src 'sufatika'	blend; Indo-Aryan
+PHY-087	marble / stone-slab	sangamala	INTL	blend rubric; src 'sangamarmar'	blend; Indo-Aryan
+PHY-088	clayware / pottery	mataka	INTL	blend rubric; src 'mataka'	blend; Indo-Aryan
+AGR-018	crop / produce	fasala	INTL	blend rubric; src 'fasala'	blend; Semitic
+AGR-019	wheat	gehu	INTL	blend rubric; src 'gehu'	blend; Indo-Aryan
+AGR-020	barley	sayili	INTL	blend rubric; src 'shayiri'	blend; Semitic
+AGR-021	millet	bayila	INTL	blend rubric; src 'bajila'	blend; Indo-Aryan
+AGR-022	potato	batata	INTL	blend rubric; src 'batata'	blend; Romance
+AGR-023	tomato	tamatala	INTL	blend rubric; src 'tamatala'	blend; Romance
+AGR-024	onion	piyaya	INTL	blend rubric; src 'piyaja'	blend; Indo-Aryan
+AGR-025	garlic	kitungu	INTL	blend rubric; src 'kitunguu'	blend; Bantu
+AGR-026	ginger	adaka	INTL	blend rubric; src 'adraka'	blend; Indo-Aryan
+AGR-027	cabbage	fulobi	INTL	blend rubric; src 'phulgobi'	blend; Indo-Aryan
+AGR-028	carrot	gayala	INTL	blend rubric; src 'gajara'	blend; Indo-Aryan
+AGR-029	cucumber	timun	INTL	blend rubric; src 'timun'	blend; Austronesian
+AGR-030	pumpkin / gourd	boga	INTL	blend rubric; src 'boga'	blend; Bantu
+AGR-031	banana	kadali	INTL	blend rubric; src 'kadali'	blend; Indo-Aryan
+AGR-032	mango	amafa	INTL	blend rubric; src 'ambaphal'	blend; Indo-Aryan
+AGR-033	coconut	naliyala	INTL	blend rubric; src 'naliyala'	blend; Indo-Aryan
+AGR-034	orange (fruit)	santala	INTL	blend rubric; src 'santara'	blend; Indo-Aryan
+AGR-035	lemon	nimu	INTL	blend rubric; src 'nimbu'	blend; Indo-Aryan
+AGR-036	apple	seba	INTL	blend rubric; src 'seba'	blend; Indo-Aryan
+AGR-037	grape	angula	INTL	blend rubric; src 'angula'	blend; Indo-Aryan
+AGR-038	melon	tikiti	INTL	blend rubric; src 'tikiti'	blend; Bantu
+AGR-039	pineapple	ananasa	INTL	blend rubric; src 'ananasa'	blend; Austronesian
+AGR-040	date (fruit)	tende	INTL	blend rubric; src 'tende'	blend; Semitic
+AGR-041	olive	saituni	INTL	blend rubric; src 'saituni'	blend; Semitic
+AGR-042	sugarcane	gano	INTL	blend rubric; src 'ganno'	blend; Indo-Aryan
+AGR-043	cotton	pama	INTL	blend rubric; src 'pamba'	blend; Bantu
+AGR-044	bamboo	wana	INTL	blend rubric; src 'wansa'	blend; Indo-Aryan
+AGR-045	bark (of tree)	taca	INTL	blend rubric; src 'twaca'	blend; Indo-Aryan
+AGR-046	stem / stalk	dantala	INTL	blend rubric; src 'dantala'	blend; Indo-Aryan
+AGR-047	thorn	kantaka	INTL	blend rubric; src 'kantaka'	blend; Indo-Aryan
+AGR-048	vine / creeper	lataka	INTL	blend rubric; src 'lataka'	blend; Indo-Aryan
+AGR-049	weed	halapatawa	INTL	blend rubric; src 'kharapatawa'	blend; Indo-Aryan
+AGR-050	field / cropland	heta	INTL	blend rubric; src 'kheta'	blend; Indo-Aryan
+AGR-051	plough (v)	yotana	INTL	blend rubric; src 'yotana'	blend; Indo-Aryan
+AGR-052	fertilizer / manure	molea	INTL	blend rubric; src 'mbolea'	blend; Bantu
+AGR-053	crop-harvest (n)	upaya	INTL	blend rubric; src 'upaja'	blend; Indo-Aryan
+ANI-021	tiger	halimau	INTL	blend rubric; src 'harimau'	blend; Austronesian
+ANI-022	leopard	duma	INTL	blend rubric; src 'duma'	blend; Bantu
+ANI-023	bear	kiongao	INTL	blend rubric; src 'xiongmao'	blend; Sinitic
+ANI-024	wolf	bediya	INTL	blend rubric; src 'bediya'	blend; Indo-Aryan
+ANI-025	fox	musan	INTL	blend rubric; src 'musang'	blend; Austronesian
+ANI-026	deer	mawala	INTL	blend rubric; src 'mbawala'	blend; Bantu
+ANI-027	rabbit / hare	halagosa	INTL	blend rubric; src 'kharagosa'	blend; Indo-Aryan
+ANI-028	mouse / rat	cuca	INTL	blend rubric; src 'cucha'	blend; Indo-Aryan
+ANI-029	sheep	menda	INTL	blend rubric; src 'menda'	blend; Indo-Aryan
+ANI-030	donkey	gadaha	INTL	blend rubric; src 'gadaha'	blend; Indo-Aryan
+ANI-031	camel	unta	INTL	blend rubric; src 'unta'	blend; Indo-Aryan
+ANI-032	buffalo	baisa	INTL	blend rubric; src 'baisa'	blend; Indo-Aryan
+ANI-033	giraffe	tiga	INTL	blend rubric; src 'twiga'	blend; Bantu
+ANI-034	crocodile	magala	INTL	blend rubric; src 'magara'	blend; Indo-Aryan
+ANI-035	lizard	kilikiti	INTL	blend rubric; src 'kirikiti'	blend; Indo-Aryan
+ANI-036	frog / toad	menduka	INTL	blend rubric; src 'menduka'	blend; Indo-Aryan
+ANI-037	turtle / tortoise	kobe	INTL	blend rubric; src 'kobe'	blend; Bantu
+ANI-038	whale	nangumi	INTL	blend rubric; src 'nyangumi'	blend; Bantu
+ANI-039	shark	papako	INTL	blend rubric; src 'papako'	blend; Bantu
+ANI-040	crab	kanka	INTL	blend rubric; src 'kankda'	blend; Indo-Aryan
+ANI-041	duck	batuka	INTL	blend rubric; src 'batuka'	blend; Indo-Aryan
+ANI-042	eagle / hawk	ukaba	INTL	blend rubric; src 'ukaba'	blend; Semitic
+ANI-043	owl	bundi	INTL	blend rubric; src 'bundi'	blend; Bantu
+ANI-044	crow / raven	wuya	INTL	blend rubric; src 'wuya'	blend; Sinitic
+ANI-045	pigeon / dove	kabutala	INTL	blend rubric; src 'kabutala'	blend; Indo-Aryan
+ANI-046	parrot	kasuku	INTL	blend rubric; src 'kasuku'	blend; Bantu
+ANI-047	peacock	mola	INTL	blend rubric; src 'mora'	blend; Indo-Aryan
+ANI-048	bee	nuki	INTL	blend rubric; src 'nyuki'	blend; Bantu
+ANI-049	ant	cinti	INTL	blend rubric; src 'cinti'	blend; Indo-Aryan
+ANI-050	fly (insect)	mahi	INTL	blend rubric; src 'makhi'	blend; Indo-Aryan
+ANI-051	mosquito	macala	INTL	blend rubric; src 'macala'	blend; Indo-Aryan
+ANI-052	butterfly	tituli	INTL	blend rubric; src 'tituli'	blend; Indo-Aryan
+ANI-053	spider	buibui	INTL	blend rubric; src 'buibui'	blend; Bantu
+ANI-054	worm	kiluda	INTL	blend rubric; src 'kiruda'	blend; Indo-Aryan
+ANI-055	claw / talon	naha	INTL	blend rubric; src 'nakha'	blend; Indo-Aryan
+ANI-056	fur / pelt	manoya	INTL	blend rubric; src 'manyoya'	blend; Bantu
+ANI-057	nest	kiota	INTL	blend rubric; src 'kiota'	blend; Bantu
+ANI-058	herd / flock	yuta	INTL	blend rubric; src 'yutha'	blend; Indo-Aryan
+ANI-059	cattle / livestock	pasudana	INTL	blend rubric; src 'pasudana'	blend; Indo-Aryan
+ANI-060	beast / wild animal	yangali	INTL	blend rubric; src 'yangali'	blend; Indo-Aryan
+ACT-043	close / shut	fungai	INTL	blend rubric; src 'fungai'	blend; Bantu
+ACT-044	cover	danka	INTL	blend rubric; src 'danka'	blend; Indo-Aryan
+ACT-045	fill	balai	INTL	blend rubric; src 'balai'	blend; Indo-Aryan
+ACT-046	empty / pour out	halia	INTL	blend rubric; src 'halia'	blend; Indo-Aryan
+ACT-047	pour	mimina	INTL	blend rubric; src 'mimina'	blend; Bantu
+ACT-048	mix / blend	milana	INTL	blend rubric; src 'milana'	blend; Indo-Aryan
+ACT-049	stir	kologa	INTL	blend rubric; src 'kologa'	blend; Bantu
+ACT-050	squeeze / press	dabana	INTL	blend rubric; src 'dabana'	blend; Indo-Aryan
+ACT-051	fold	kunai	INTL	blend rubric; src 'kunai'	blend; Bantu
+ACT-052	bend	modi	INTL	blend rubric; src 'modi'	blend; Indo-Aryan
+ACT-053	stretch	tanai	INTL	blend rubric; src 'tanai'	blend; Indo-Aryan
+ACT-054	twist	maloda	INTL	blend rubric; src 'maloda'	blend; Indo-Aryan
+ACT-055	shake (object)	hilana	INTL	blend rubric; src 'hilana'	blend; Indo-Aryan
+ACT-056	drop / let fall	gilana	INTL	blend rubric; src 'gilana'	blend; Indo-Aryan
+ACT-057	lift / raise	utana	INTL	blend rubric; src 'utana'	blend; Indo-Aryan
+ACT-058	drag-pull (heavy)	gasitai	INTL	blend rubric; src 'gasitai'	blend; Indo-Aryan
+ACT-059	catch / seize	pakala	INTL	blend rubric; src 'pakala'	blend; Indo-Aryan
+ACT-060	release / let go	coda	INTL	blend rubric; src 'coda'	blend; Indo-Aryan
+ACT-061	tear / rip	fala	INTL	blend rubric; src 'fala'	blend; Indo-Aryan
+ACT-062	scratch	kunao	INTL	blend rubric; src 'kunao'	blend; Indo-Aryan
+ACT-063	stab / pierce	copana	INTL	blend rubric; src 'copana'	blend; Indo-Aryan
+ACT-064	bite	umai	INTL	blend rubric; src 'umai'	blend; Bantu
+ACT-065	lick	cata	INTL	blend rubric; src 'cata'	blend; Indo-Aryan
+ACT-066	blow	pukai	INTL	blend rubric; src 'pukai'	blend; Bantu
+ACT-067	suck	cusa	INTL	blend rubric; src 'cusa'	blend; Indo-Aryan
+ACT-068	kick	teka	INTL	blend rubric; src 'teka'	blend; Bantu
+ACT-069	sweep	fagia	INTL	blend rubric; src 'fagia'	blend; Bantu
+ACT-070	wipe / clean off	ponda	INTL	blend rubric; src 'ponda'	blend; Indo-Aryan
+ACT-071	build / construct	yenga	INTL	blend rubric; src 'yenga'	blend; Bantu
+ACT-072	destroy / wreck	nasai	INTL	blend rubric; src 'nasai'	blend; Indo-Aryan
+ACT-073	repair / mend	malai	INTL	blend rubric; src 'malai'	blend; Indo-Aryan
+ACT-074	measure-out / weigh	tolai	INTL	blend rubric; src 'tolai'	blend; Indo-Aryan
+ACT-075	count-out / tally	gina	INTL	blend rubric; src 'gina'	blend; Indo-Aryan
+ACT-076	hide / conceal	cupai	INTL	blend rubric; src 'cupai'	blend; Indo-Aryan
+ACT-077	search / seek	tafuta	INTL	blend rubric; src 'tafuta'	blend; Bantu
+ACT-078	find / discover	patai	INTL	blend rubric; src 'patai'	blend; Bantu
+ACT-079	choose-pick	cagua	INTL	blend rubric; src 'cagua'	blend; Bantu
+ACT-080	collect / gather up	kusana	INTL	blend rubric; src 'kusana'	blend; Bantu
+ACT-081	share / distribute	bantai	INTL	blend rubric; src 'bantai'	blend; Indo-Aryan
+ACT-082	prepare / get ready	tayalisa	INTL	blend rubric; src 'tayalisa'	blend; Bantu
+ACT-083	arrange / order	pangai	INTL	blend rubric; src 'pangai'	blend; Bantu
+ACT-084	change / alter	badili	INTL	blend rubric; src 'badili'	blend; Bantu
+ACT-085	add-to / increase	ongesa	INTL	blend rubric; src 'ongesa'	blend; Bantu
+ACT-086	reduce / lessen	pungusa	INTL	blend rubric; src 'pungusa'	blend; Bantu
+ACT-087	continue / keep on	endelea	INTL	blend rubric; src 'endelea'	blend; Bantu
+ACT-088	repeat / do again	ludiai	INTL	blend rubric; src 'ludiai'	blend; Bantu
+ACT-089	wait	subili	INTL	blend rubric; src 'subili'	blend; Bantu
+ACT-090	rest	pumika	INTL	blend rubric; src 'pumika'	blend; Bantu
+SOC-029	work-job / occupation	kasana	INTL	blend rubric; src 'kasana'	blend; Bantu
+SOC-030	worker / labourer	mania	INTL	blend rubric; src 'mania'	blend; Bantu
+SOC-031	master / boss	banai	INTL	blend rubric; src 'banai'	blend; Bantu
+SOC-032	servant	sewaka	INTL	blend rubric; src 'sewaka'	blend; Indo-Aryan
+SOC-033	slave	gulama	INTL	blend rubric; src 'gulama'	blend; Semitic
+SOC-034	wealth / riches	mali	INTL	blend rubric; src 'mali'	blend; Semitic
+SOC-035	poverty	umasini	INTL	blend rubric; src 'umasini'	blend; Bantu
+SOC-036	rich / wealthy	tayili	INTL	blend rubric; src 'tayili'	blend; Semitic
+SOC-037	poor / needy	masini	INTL	blend rubric; src 'masini'	blend; Semitic
+SOC-038	market / bazaar	soko	INTL	blend rubric; src 'soko'	blend; Bantu
+SOC-039	goods / wares	bidai	INTL	blend rubric; src 'bidai'	blend; Bantu
+SOC-040	custom / tradition	mila	INTL	blend rubric; src 'mila'	blend; Bantu
+SOC-041	festival / holiday	tohala	INTL	blend rubric; src 'tohala'	blend; Indo-Aryan
+SOC-042	meeting / assembly	mutano	INTL	blend rubric; src 'mutano'	blend; Bantu
+SOC-043	council / committee	balasa	INTL	blend rubric; src 'balasa'	blend; Bantu
+SOC-044	nation / people	taifa	INTL	blend rubric; src 'taifa'	blend; Semitic
+SOC-045	citizen-subject	laiyati	INTL	blend rubric; src 'laiyati'	blend; Semitic
+SOC-046	border-of-state	maka	INTL	blend rubric; src 'maka'	blend; Bantu
+SOC-047	king-rule / kingdom	ufalume	INTL	blend rubric; src 'ufalume'	blend; Bantu
+SOC-048	chief / headman	muku	INTL	blend rubric; src 'muku'	blend; Bantu
+SOC-049	judge (person)	yayi	INTL	blend rubric; src 'yayi'	blend; Semitic
+SOC-050	court (law)	mahakama	INTL	blend rubric; src 'mahakama'	blend; Semitic
+SOC-051	punishment / penalty	adabu	INTL	blend rubric; src 'adabu'	blend; Semitic
+SOC-052	prison / jail	gelesa	INTL	blend rubric; src 'gelesa'	blend; Bantu
+SOC-053	duty / obligation	wayibu	INTL	blend rubric; src 'wayibu'	blend; Semitic
+SOC-054	help-aid / service	huduma	INTL	blend rubric; src 'huduma'	blend; Bantu
+SOC-055	gift / present	sawadi	INTL	blend rubric; src 'sawadi'	blend; Bantu
+SOC-056	message / news-item	uyume	INTL	blend rubric; src 'uyume'	blend; Bantu
+SOC-057	secret-society / faith group	yumuiya	INTL	blend rubric; src 'yumuiya'	blend; Bantu
+SOC-058	class / rank	tabakai	INTL	blend rubric; src 'tabakai'	blend; Semitic
+DWE-028	kitchen	yikoni	INTL	blend rubric; src 'yikoni'	blend; Bantu
+DWE-029	toilet / bathroom	coni	INTL	blend rubric; src 'cooni'	blend; Bantu
+DWE-030	ceiling	dalio	INTL	blend rubric; src 'dalio'	blend; Indo-Aryan
+DWE-031	fence / hedge	usio	INTL	blend rubric; src 'uzio'	blend; Bantu
+DWE-032	gate	lango	INTL	blend rubric; src 'lango'	blend; Bantu
+DWE-033	shelf	lafu	INTL	blend rubric; src 'lafu'	blend; Bantu
+DWE-034	drawer	dalasa	INTL	blend rubric; src 'dalasa'	blend; Bantu
+DWE-035	cupboard / cabinet	kabati	INTL	blend rubric; src 'kabati'	blend; Bantu
+DWE-036	bucket	bali	INTL	blend rubric; src 'balti'	blend; Indo-Aryan
+DWE-037	broom	ufagio	INTL	blend rubric; src 'ufagio'	blend; Bantu
+DWE-038	blanket	banketi	INTL	blend rubric; src 'banketi'	blend; Romance
+DWE-039	towel	taulo	INTL	blend rubric; src 'taulo'	blend; Romance
+DWE-040	fork (utensil)	umao	INTL	blend rubric; src 'umao'	blend; Bantu
+DWE-041	pot / pan	sufulia	INTL	blend rubric; src 'sufulia'	blend; Bantu
+DWE-042	kettle	bilika	INTL	blend rubric; src 'bilika'	blend; Bantu
+DWE-043	jar / pot	gudu	INTL	blend rubric; src 'gudu'	blend; Indo-Aryan
+DWE-044	nail (metal)	misumali	INTL	blend rubric; src 'misumali'	blend; Bantu
+DWE-045	hammer	nundo	INTL	blend rubric; src 'nundo'	blend; Bantu
+DWE-046	saw (tool)	mumeno	INTL	blend rubric; src 'mumeno'	blend; Bantu
+DWE-047	needle-tool / pin	pini	INTL	blend rubric; src 'pini'	blend; Romance
+FOO-030	meat-dish / curry	musio	INTL	blend rubric; src 'musio'	blend; Bantu
+FOO-031	porridge / gruel	ugali	INTL	blend rubric; src 'ugali'	blend; Bantu
+FOO-032	flour-dough	unga	INTL	blend rubric; src 'unga'	blend; Bantu
+FOO-033	fruit-juice / drink	yusi	INTL	blend rubric; src 'yusi'	blend; Romance
+FOO-034	spice / seasoning	masalai	INTL	blend rubric; src 'masalai'	blend; Indo-Aryan
+FOO-035	vinegar	sila	INTL	blend rubric; src 'sila'	blend; Indo-Aryan
+FOO-036	butter	mahana	INTL	blend rubric; src 'mahana'	blend; Indo-Aryan
+FOO-037	egg-dish / omelette	kimanda	INTL	blend rubric; src 'kimanda'	blend; Bantu
+FOO-038	feast / banquet	kalamu	INTL	blend rubric; src 'kalamu'	blend; Bantu
+FOO-039	hunger / famine	nala	INTL	blend rubric; src 'njala'	blend; Bantu
+CLO-016	dress / gown	gauni	INTL	blend rubric; src 'gauni'	blend; Romance
+CLO-017	skirt	setia	INTL	blend rubric; src 'setia'	blend; Romance
+CLO-018	belt	manda	INTL	blend rubric; src 'manda'	blend; Bantu
+CLO-019	glove	gawua	INTL	blend rubric; src 'gawua'	blend; Romance
+CLO-020	sock / stocking	soki	INTL	blend rubric; src 'soki'	blend; Romance
+CLO-021	scarf / veil	leso	INTL	blend rubric; src 'leso'	blend; Bantu
+CLO-022	collar	ukosi	INTL	blend rubric; src 'ukosi'	blend; Bantu
+CLO-023	sleeve	monoa	INTL	blend rubric; src 'monoa'	blend; Bantu
+CLO-024	cloth-wrap / robe	kangai	INTL	blend rubric; src 'kangai'	blend; Bantu
+CLO-025	jewellery / ornament	palata	INTL	blend rubric; src 'palata'	blend; Indo-Aryan
+EMO-024	grief / sorrow	luto	INTL	blend rubric; src 'luto'	blend; Romance
+EMO-025	pity / compassion	pieda	INTL	blend rubric; src 'pieda'	blend; Romance
+EMO-026	relief	aliwio	INTL	blend rubric; src 'aliwio'	blend; Romance
+EMO-027	disgust	asako	INTL	blend rubric; src 'asako'	blend; Japonic
+EMO-028	trust	tikai	INTL	blend rubric; src 'tikai'	blend; Semitic
+EMO-029	comfort / solace	conolo	INTL	blend rubric; src 'conolo'	blend; Romance
+EMO-030	longing / yearning	saudade	INTL	blend rubric; src 'saudade'	blend; Romance
+EMO-031	gratitude	gacia	INTL	blend rubric; src 'gacia'	blend; Romance
+EMO-032	regret / remorse	nadama	INTL	blend rubric; src 'nadama'	blend; Semitic
+EMO-033	courage	sayai	INTL	blend rubric; src 'sayai'	blend; Semitic
+EMO-034	despair	yaisu	INTL	blend rubric; src 'yaisu'	blend; Semitic
+EMO-035	joy / delight	gioia	INTL	blend rubric; src 'gioia'	blend; Romance
+EMO-036	anger / wrath	ganabu	INTL	blend rubric; src 'ganabu'	blend; Semitic
+EMO-037	calmness / serenity	sukunai	INTL	blend rubric; src 'sukunai'	blend; Semitic
+EMO-038	loneliness	soledade	INTL	blend rubric; src 'soledade'	blend; Romance
+EMO-039	boredom	noia	INTL	blend rubric; src 'noia'	blend; Romance
+EMO-040	excitement	emosione	INTL	blend rubric; src 'emosione'	blend; Romance
+EMO-041	contentment	manoku	INTL	blend rubric; src 'manoku'	blend; Japonic
+EMO-042	affection / fondness	aiyo	INTL	blend rubric; src 'aiyo'	blend; Japonic
+EMO-043	desire / craving	deseo	INTL	blend rubric; src 'deseo'	blend; Romance
+EMO-044	disappointment	desilusione	INTL	blend rubric; src 'desilusione'	blend; Romance
+EMO-045	frustration	ihatu	INTL	blend rubric; src 'ihatu'	blend; Semitic
+EMO-046	sympathy	kokan	INTL	blend rubric; src 'kokan'	blend; Japonic
+EMO-047	amazement / awe	ihan	INTL	blend rubric; src 'ihan'	blend; Semitic
+EMO-048	confidence / self-assurance	fiducia	INTL	blend rubric; src 'fiducia'	blend; Romance
+EMO-049	resentment / grudge	ulami	INTL	blend rubric; src 'ulami'	blend; Japonic
+EMO-050	tenderness	telula	INTL	blend rubric; src 'telula'	blend; Romance
+EMO-051	enthusiasm / zeal	hamasa	INTL	blend rubric; src 'hamasa'	blend; Semitic
+EMO-052	comfort / console	conolale	INTL	blend rubric; src 'conolale'	blend; Romance
+EMO-053	enjoy	godele	INTL	blend rubric; src 'godele'	blend; Romance
+EMO-054	suffer	sufile	INTL	blend rubric; src 'sufile'	blend; Romance
+EMO-055	cheerful	alege	INTL	blend rubric; src 'alege'	blend; Romance
+EMO-056	gloomy / glum	cupo	INTL	blend rubric; src 'cupo'	blend; Romance
+EMO-057	anxious / nervous	anioso	INTL	blend rubric; src 'anioso'	blend; Romance
+EMO-058	eager / keen	neso	INTL	blend rubric; src 'neso'	blend; Semitic
+COG-056	reason / intellect	akilu	INTL	blend rubric; src 'akilu'	blend; Semitic
+COG-057	intelligence	inteliyena	INTL	blend rubric; src 'inteliyena'	blend; Romance
+COG-058	judgment	handan	INTL	blend rubric; src 'handan'	blend; Sinitic
+COG-059	intuition / hunch	cokan	INTL	blend rubric; src 'cokan'	blend; Japonic
+COG-060	assumption	suposisione	INTL	blend rubric; src 'suposisione'	blend; Romance
+COG-061	conclusion	concusione	INTL	blend rubric; src 'concusione'	blend; Romance
+COG-062	belief / conviction	cena	INTL	blend rubric; src 'cena'	blend; Romance
+COG-063	conscience	damilu	INTL	blend rubric; src 'damilu'	blend; Semitic
+COG-064	imagination	imayinasione	INTL	blend rubric; src 'imayinasione'	blend; Romance
+COG-065	understand-grasp	capile	INTL	blend rubric; src 'capile'	blend; Romance
+COG-066	comprehend / fathom	likai	INTL	blend rubric; src 'likai'	blend; Japonic
+COG-067	ponder / reflect	kangae	INTL	blend rubric; src 'kangae'	blend; Japonic
+COG-068	recall / recollect	omoidasu	INTL	blend rubric; src 'omoidasu'	blend; Japonic
+COG-069	perceive / discern	pelipi	INTL	blend rubric; src 'pelipi'	blend; Romance
+COG-070	recognize	leconose	INTL	blend rubric; src 'leconose'	blend; Romance
+COG-071	suspect	soseta	INTL	blend rubric; src 'soseta'	blend; Romance
+COG-072	analyze / break-down	buneki	INTL	blend rubric; src 'buneki'	blend; Japonic
+COG-073	distinguish / tell apart	kubesu	INTL	blend rubric; src 'kubesu'	blend; Japonic
+COG-074	aware / conscious	conapewole	INTL	blend rubric; src 'conapewole'	blend; Romance
+COG-075	rational / logical	lasionale	INTL	blend rubric; src 'lasionale'	blend; Romance
+SPE-024	greeting	salutu	INTL	blend rubric; src 'salutu'	blend; Romance
+SPE-025	conversation / talk	cosa	INTL	blend rubric; src 'cosa'	blend; Sinitic
+SPE-026	argument / quarrel	litiyo	INTL	blend rubric; src 'litiyo'	blend; Romance
+SPE-027	announcement	anunio	INTL	blend rubric; src 'anunio'	blend; Romance
+SPE-028	declaration	sengen	INTL	blend rubric; src 'sengen'	blend; Japonic
+SPE-029	report / account	lapolu	INTL	blend rubric; src 'lapolu'	blend; Austronesian
+SPE-030	explanation	setumei	INTL	blend rubric; src 'setumei'	blend; Japonic
+SPE-031	reply / response	heni	INTL	blend rubric; src 'heni'	blend; Japonic
+SPE-032	rumor / gossip	uwasa	INTL	blend rubric; src 'uwasa'	blend; Japonic
+SPE-033	dialect / accent	fanen	INTL	blend rubric; src 'fanen'	blend; Sinitic
+SPE-034	translation	honaku	INTL	blend rubric; src 'honaku'	blend; Japonic
+SPE-035	summary	yoyaku	INTL	blend rubric; src 'yoyaku'	blend; Japonic
+SPE-036	greet	saluta	INTL	blend rubric; src 'saluta'	blend; Romance
+SPE-037	invite	inita	INTL	blend rubric; src 'inita'	blend; Romance
+SPE-038	thank-someone	lingasia	INTL	blend rubric; src 'lingasia'	blend; Romance
+SPE-039	apologize	ayamalu	INTL	blend rubric; src 'ayamalu'	blend; Japonic
+SPE-040	praise / commend	lodai	INTL	blend rubric; src 'lodai'	blend; Romance
+SPE-041	blame / accuse	inola	INTL	blend rubric; src 'inola'	blend; Romance
+SPE-042	forgive / pardon	yulusu	INTL	blend rubric; src 'yulusu'	blend; Japonic
+SPE-043	advise	conilia	INTL	blend rubric; src 'conilia'	blend; Romance
+SPE-044	warn	keikoku	INTL	blend rubric; src 'keikoku'	blend; Japonic
+SPE-045	complain	kucu	INTL	blend rubric; src 'kucu'	blend; Japonic
+SPE-046	joke	yodan	INTL	blend rubric; src 'yodan'	blend; Japonic
+SPE-047	discuss	gilon	INTL	blend rubric; src 'gilon'	blend; Sinitic
+SPE-048	describe	desibe	INTL	blend rubric; src 'desibe'	blend; Romance
+SPE-049	whisper	sasayaku	INTL	blend rubric; src 'sasayaku'	blend; Japonic
+SPE-050	spell / spell out	silaba	INTL	blend rubric; src 'silaba'	blend; Romance
+SPE-051	insult / offend	busula	INTL	blend rubric; src 'busula'	blend; Romance
+SPE-052	boast / brag	yiman	INTL	blend rubric; src 'yiman'	blend; Japonic
+SPE-053	negotiate	kosoa	INTL	blend rubric; src 'kosoa'	blend; Japonic
+SPE-054	fluent / eloquent	fasaha	INTL	blend rubric; src 'fasaha'	blend; Semitic
+SPE-055	polite / courteous	colese	INTL	blend rubric; src 'colese'	blend; Romance
+POS-007	ownership / property	poseso	INTL	blend rubric; src 'poseso'	blend; Romance
+POS-008	debt	deuda	INTL	blend rubric; src 'deuda'	blend; Romance
+POS-009	profit / gain	libun	INTL	blend rubric; src 'libun'	blend; Semitic
+POS-010	loss	pelitai	INTL	blend rubric; src 'pelitai'	blend; Romance
+POS-011	budget	yosan	INTL	blend rubric; src 'yosan'	blend; Japonic
+POS-012	value / worth	walole	INTL	blend rubric; src 'walole'	blend; Romance
+POS-013	exchange / swap	kokana	INTL	blend rubric; src 'kokana'	blend; Japonic
+POS-014	rent / lease	yacin	INTL	blend rubric; src 'yacin'	blend; Japonic
+POS-015	fee / charge	tasa	INTL	blend rubric; src 'tasa'	blend; Romance
+POS-016	fortune / asset	saisan	INTL	blend rubric; src 'saisan'	blend; Japonic
+POS-017	coin	moneda	INTL	blend rubric; src 'moneda'	blend; Romance
+POS-018	wage / salary	kulo	INTL	blend rubric; src 'kulo'	blend; Japonic
+POS-019	own / possess	poside	INTL	blend rubric; src 'poside'	blend; Romance
+POS-020	lend	kasua	INTL	blend rubric; src 'kasua'	blend; Japonic
+POS-021	borrow	kalile	INTL	blend rubric; src 'kalile'	blend; Romance
+POS-022	owe	debe	INTL	blend rubric; src 'debe'	blend; Romance
+POS-023	spend	gasa	INTL	blend rubric; src 'gasa'	blend; Romance
+POS-024	waste / squander	sekai	INTL	blend rubric; src 'sekai'	blend; Romance
+POS-025	earn	kasegu	INTL	blend rubric; src 'kasegu'	blend; Japonic
+POS-026	cost / be priced	kosa	INTL	blend rubric; src 'kosa'	blend; Romance
+POS-027	invest	tosi	INTL	blend rubric; src 'tosi'	blend; Japonic
+POS-028	cheap / inexpensive	balato	INTL	blend rubric; src 'balato'	blend; Romance
+POS-029	expensive / costly	takaia	INTL	blend rubric; src 'takaia'	blend; Japonic
+POS-030	free / no-cost	mulo	INTL	blend rubric; src 'mulo'	blend; Japonic
+POS-031	valuable / worthy	balioso	INTL	blend rubric; src 'balioso'	blend; Romance
+KIN-028	stranger	sukonosino	INTL	blend rubric; src 'sukonosino'	blend; Romance
+KIN-029	partner / companion	comano	INTL	blend rubric; src 'comano'	blend; Romance
+KIN-030	colleague / coworker	dolo	INTL	blend rubric; src 'dolo'	blend; Japonic
+KIN-031	rival / competitor	laibalu	INTL	blend rubric; src 'laibalu'	blend; Japonic
+KIN-032	follower / disciple	tabai	INTL	blend rubric; src 'tabai'	blend; Austronesian
+KIN-033	expert / specialist	senonka	INTL	blend rubric; src 'senonka'	blend; Japonic
+KIN-034	beginner / novice	sosina	INTL	blend rubric; src 'sosina'	blend; Japonic
+KIN-035	witness	sahidu	INTL	blend rubric; src 'sahidu'	blend; Semitic
+KIN-036	owner / proprietor	dueno	INTL	blend rubric; src 'dueno'	blend; Romance
+KIN-037	employee / staff	yugoin	INTL	blend rubric; src 'yugoin'	blend; Japonic
+KIN-038	crowd / throng	gunu	INTL	blend rubric; src 'gunu'	blend; Sinitic
+KIN-039	individual	koyin	INTL	blend rubric; src 'koyin'	blend; Japonic
+KIN-040	generation	sedai	INTL	blend rubric; src 'sedai'	blend; Japonic
+KIN-041	youth / young person	sababua	INTL	blend rubric; src 'sababua'	blend; Semitic
+KIN-042	elder / senior	sinin	INTL	blend rubric; src 'sinin'	blend; Sinitic
+KIN-043	hero	eiyusi	INTL	blend rubric; src 'eiyusi'	blend; Japonic
+KIN-044	fool / idiot	bakao	INTL	blend rubric; src 'bakao'	blend; Japonic
+KIN-045	liar	busiadolo	INTL	blend rubric; src 'busiadolo'	blend; Romance
+KIN-046	ally	domei	INTL	blend rubric; src 'domei'	blend; Japonic
+KIN-047	opponent / adversary	aite	INTL	blend rubric; src 'aite'	blend; Japonic
+KIN-048	apprentice / trainee	desi	INTL	blend rubric; src 'desi'	blend; Japonic
+KIN-049	customer / client	kaku	INTL	blend rubric; src 'kaku'	blend; Japonic
+KIN-050	twin	futago	INTL	blend rubric; src 'futago'	blend; Japonic
+KIN-051	orphan	yatima	INTL	blend rubric; src 'yatima'	blend; Semitic
+KIN-052	widow	wiuda	INTL	blend rubric; src 'wiuda'	blend; Romance
+SOC-059	honour / dignity	onole	INTL	blend rubric; src 'onole'	blend; Romance
+SOC-060	respect / esteem	ihila	INTL	blend rubric; src 'ihila'	blend; Semitic
+SOC-061	fame / renown	meisei	INTL	blend rubric; src 'meisei'	blend; Japonic
+SOC-062	reputation	hoban	INTL	blend rubric; src 'hoban'	blend; Japonic
+SOC-063	status / standing	cihi	INTL	blend rubric; src 'cihi'	blend; Sinitic
+SOC-064	role / function	yakuwali	INTL	blend rubric; src 'yakuwali'	blend; Japonic
+SOC-065	mercy / clemency	laha	INTL	blend rubric; src 'laha'	blend; Semitic
+SOC-066	justice	yutisia	INTL	blend rubric; src 'yutisia'	blend; Romance
+SOC-067	loyalty / fidelity	cunei	INTL	blend rubric; src 'cunei'	blend; Sinitic
+SOC-068	cooperation	koloku	INTL	blend rubric; src 'koloku'	blend; Japonic
+SOC-069	conflict / strife	funo	INTL	blend rubric; src 'funo'	blend; Japonic
+SOC-070	agreement / accord	gapi	INTL	blend rubric; src 'gappi'	blend; Japonic
+SOC-071	norm / rule-social	kihan	INTL	blend rubric; src 'kihan'	blend; Japonic
+SOC-072	habit / routine	sukan	INTL	blend rubric; src 'sukan'	blend; Japonic
+SOC-073	manner / conduct	taido	INTL	blend rubric; src 'taido'	blend; Japonic
+SOC-074	ceremony	gisiki	INTL	blend rubric; src 'gisiki'	blend; Japonic
+SOC-075	ritual / rite	gile	INTL	blend rubric; src 'gile'	blend; Romance
+SOC-076	privilege	token	INTL	blend rubric; src 'token'	blend; Japonic
+SOC-077	equality	bodo	INTL	blend rubric; src 'bodo'	blend; Japonic
+SOC-078	cruelty	yanin	INTL	blend rubric; src 'yanin'	blend; Sinitic
+SOC-079	kindness / benevolence	sinetu	INTL	blend rubric; src 'sinetu'	blend; Japonic
+SOC-080	generosity	kalamua	INTL	blend rubric; src 'kalamua'	blend; Semitic
+SOC-081	prejudice / bias	henken	INTL	blend rubric; src 'henken'	blend; Japonic
+SOC-082	reward / recompense	hosu	INTL	blend rubric; src 'hosu'	blend; Japonic
+SOC-083	cooperate	kolo	INTL	blend rubric; src 'kolo'	blend; Japonic
+SOC-084	compete / contend	kosoi	INTL	blend rubric; src 'kosoi'	blend; Japonic
+SOC-085	obey / comply	sitagau	INTL	blend rubric; src 'sitagau'	blend; Japonic
+SOC-086	rebel / resist	hanko	INTL	blend rubric; src 'hanko'	blend; Japonic
+SOC-087	celebrate	iwau	INTL	blend rubric; src 'iwau'	blend; Japonic
+SOC-088	participate / take part	sanka	INTL	blend rubric; src 'sanka'	blend; Japonic
+MOD-077	screen	pantala	INTL	blend rubric; src 'pantala'	blend; Romance
+MOD-078	control button	botone	INTL	blend rubric; src 'botone'	blend; Romance
+MOD-079	network	leti	INTL	blend rubric; src 'leti'	blend; Austronesian
+MOD-080	signal	senale	INTL	blend rubric; src 'senale'	blend; Romance
+MOD-081	data	dato	INTL	blend rubric; src 'dato'	blend; Romance
+MOD-082	file (digital)	failu	INTL	blend rubric; src 'failu'	blend; international
+MOD-083	digital message	mesahi	INTL	blend rubric; src 'mesahi'	blend; Romance
+MOD-084	password	angou	INTL	blend rubric; src 'angou'	blend; Japonic
+MOD-085	battery	denci	INTL	blend rubric; src 'denci'	blend; Japonic
+MOD-086	switch (device)	suici	INTL	blend rubric; src 'suici'	blend; Japonic
+MOD-087	wire	kawale	INTL	blend rubric; src 'kawale'	blend; Austronesian
+MOD-088	lens	lente	INTL	blend rubric; src 'lente'	blend; Romance
+MOD-089	photo	foto	INTL	blend rubric; src 'foto'	blend; international
+MOD-090	video	wideo	INTL	blend rubric; src 'wideo'	blend; international
+MOD-091	record (v)	gulaba	INTL	blend rubric; src 'gulaba'	blend; international
+MOD-092	broadcast	hoso	INTL	blend rubric; src 'hoso'	blend; Japonic
+MOD-093	channel	canele	INTL	blend rubric; src 'canele'	blend; Romance
+MOD-094	program (software)	gulamu	INTL	blend rubric; src 'gulamu'	blend; international
+MOD-095	robot	loboto	INTL	blend rubric; src 'loboto'	blend; international
+MOD-096	satellite	satelite	INTL	blend rubric; src 'satelite'	blend; Romance
+MOD-097	app (application)	apuli	INTL	blend rubric; src 'apuli'	blend; international
+MOD-098	keyboard	kibodo	INTL	blend rubric; src 'kibodo'	blend; international
+MOD-099	speaker (audio)	alabo	INTL	blend rubric; src 'alabo'	blend; Romance
+MOD-100	cable (data)	kabele	INTL	blend rubric; src 'kabele'	blend; Romance
+MOD-101	update (v)	akutuali	INTL	blend rubric; src 'akutuali'	blend; Romance
+MOD-102	download	desikaga	INTL	blend rubric; src 'desikaga'	blend; international
+MOD-103	account (online)	kuenta	INTL	blend rubric; src 'kuenta'	blend; Romance
+MOD-104	website	sitio	INTL	blend rubric; src 'sitio'	blend; Romance
+MOD-105	microphone	maiku	INTL	blend rubric; src 'maiku'	blend; Japonic
+MOD-106	antenna	antena	INTL	blend rubric; src 'antena'	blend; Romance
+MOD-107	pharmacy	famasia	INTL	blend rubric; src 'famasia'	blend; Romance
+MOD-108	library	tosokan	INTL	blend rubric; src 'tosokan'	blend; Japonic
+MOD-109	museum	museo	INTL	blend rubric; src 'museo'	blend; Romance
+MOD-110	theatre	teatulo	INTL	blend rubric; src 'teatulo'	blend; Romance
+MOD-111	stadium	sutadio	INTL	blend rubric; src 'sutadio'	blend; international
+MOD-112	warehouse	gudan	INTL	blend rubric; src 'gudan'	blend; Austronesian
+MOD-113	bakery	panadeli	INTL	blend rubric; src 'panadeli'	blend; Romance
+MOD-114	restaurant	lesolan	INTL	blend rubric; src 'lesolan'	blend; Romance
+MOD-115	cafe	kafeti	INTL	blend rubric; src 'kafeti'	blend; Romance
+MOD-116	post office	yubinko	INTL	blend rubric; src 'yubinko'	blend; Japonic
+MOD-117	embassy	taisikan	INTL	blend rubric; src 'taisikan'	blend; Japonic
+MOD-118	courtroom	saiban	INTL	blend rubric; src 'saiban'	blend; Japonic
+MOD-119	temple	kuile	INTL	blend rubric; src 'kuile'	blend; Japonic
+MOD-120	church	ilesia	INTL	blend rubric; src 'ilesia'	blend; Romance
+MOD-121	mosque	masidi	INTL	blend rubric; src 'masidi'	blend; Semitic
+MOD-122	cemetery	makaba	INTL	blend rubric; src 'makaba'	blend; Semitic
+MOD-123	park (public)	kowen	INTL	blend rubric; src 'kowen'	blend; Japonic
+MOD-124	plaza / square	pasa	INTL	blend rubric; src 'pasa'	blend; Romance
+MOD-125	stamp (postage)	kite	INTL	blend rubric; src 'kite'	blend; Japonic
+MOD-126	passport	pasepole	INTL	blend rubric; src 'pasepole'	blend; Romance
+MOD-127	license / permit	luwidi	INTL	blend rubric; src 'luwidi'	blend; international
+MOD-128	election / vote	sengo	INTL	blend rubric; src 'sengo'	blend; Japonic
+MOD-129	union (labor)	kumiai	INTL	blend rubric; src 'kumiai'	blend; Japonic
+MOD-130	insurance	hoken	INTL	blend rubric; src 'hoken'	blend; Japonic
+MOD-131	university	daigaku	INTL	blend rubric; src 'daigaku'	blend; Japonic
+FOO-040	fry	golen	INTL	blend rubric; src 'golen'	blend; Austronesian
+FOO-041	bake	panega	INTL	blend rubric; src 'panega'	blend; Romance
+FOO-042	roast	asalo	INTL	blend rubric; src 'asalo'	blend; Romance
+FOO-043	grill	yakito	INTL	blend rubric; src 'yakito'	blend; Japonic
+FOO-044	peel (v)	mugito	INTL	blend rubric; src 'mugito'	blend; Japonic
+FOO-045	slice (v)	kilito	INTL	blend rubric; src 'kilito'	blend; Romance
+FOO-046	grind	muelo	INTL	blend rubric; src 'muelo'	blend; Romance
+FOO-047	knead	koneto	INTL	blend rubric; src 'koneto'	blend; Romance
+FOO-048	ferment	lagiwa	INTL	blend rubric; src 'lagiwa'	blend; Austronesian
+FOO-049	recipe	leseta	INTL	blend rubric; src 'leseta'	blend; Romance
+FOO-050	ingredient	saigo	INTL	blend rubric; src 'saigo'	blend; Japonic
+FOO-051	dough	masa	INTL	blend rubric; src 'masa'	blend; Romance
+FOO-052	sauce	sosu	INTL	blend rubric; src 'sosu'	blend; Japonic
+FOO-053	broth / stock	kaludo	INTL	blend rubric; src 'kaludo'	blend; Romance
+FOO-054	snack	gaiti	INTL	blend rubric; src 'gaiti'	blend; Japonic
+FOO-055	dessert	posole	INTL	blend rubric; src 'posole'	blend; Romance
+FOO-056	ripe	masaku	INTL	blend rubric; src 'masaku'	blend; Austronesian
+FOO-057	raw	namai	INTL	blend rubric; src 'namai'	blend; Japonic
+FOO-058	stale	basi	INTL	blend rubric; src 'basi'	blend; Austronesian
+FOO-059	rotten	busuku	INTL	blend rubric; src 'busuku'	blend; Austronesian
+FOO-060	stew (dish)	gisado	INTL	blend rubric; src 'gisado'	blend; Romance
+FOO-061	salad	enalada	INTL	blend rubric; src 'enalada'	blend; Romance
+FOO-062	noodle	mien	INTL	blend rubric; src 'mien'	blend; Sinitic
+FOO-063	dumpling	gosai	INTL	blend rubric; src 'gosai'	blend; Japonic
+FOO-064	pastry / cake	gateu	INTL	blend rubric; src 'gateu'	blend; Romance
+FOO-065	jam (preserve)	yamua	INTL	blend rubric; src 'yamua'	blend; international
+FOO-066	syrup	silopu	INTL	blend rubric; src 'silopu'	blend; Semitic
+FOO-067	yogurt	yogulu	INTL	blend rubric; src 'yogulu'	blend; Semitic
+FOO-068	tofu	tofu	INTL	blend rubric; src 'tofu'	blend; Sinitic
+FOO-069	sausage	saluci	INTL	blend rubric; src 'saluci'	blend; Romance
+FOO-070	seafood	maliko	INTL	blend rubric; src 'maliko'	blend; Romance
+FOO-071	spicy / hot (taste)	pedasi	INTL	blend rubric; src 'pedasi'	blend; Austronesian
+FOO-072	crunchy	galiga	INTL	blend rubric; src 'galiga'	blend; Austronesian
+FOO-073	fatty / greasy	abula	INTL	blend rubric; src 'abula'	blend; Romance
+ACT-091	serve (food)	selito	INTL	blend rubric; src 'selito'	blend; Romance
+ACT-092	taste-test	kicimi	INTL	blend rubric; src 'kicimi'	blend; Japonic
+ACT-093	store / stow	gudanto	INTL	blend rubric; src 'gudanto'	blend; Austronesian
+ACT-094	pack	tunaga	INTL	blend rubric; src 'tunaga'	blend; Austronesian
+ACT-095	tidy up	kataduke	INTL	blend rubric; src 'kataduke'	blend; Japonic
+ACT-096	decorate	kasalito	INTL	blend rubric; src 'kasalito'	blend; Romance
+ACT-097	polish	migakito	INTL	blend rubric; src 'migakito'	blend; Japonic
+ACT-098	sharpen	togito	INTL	blend rubric; src 'togito'	blend; Japonic
+ACT-099	lock (v)	kunato	INTL	blend rubric; src 'kunato'	blend; Romance
+ACT-100	unlock	akito	INTL	blend rubric; src 'akito'	blend; Japonic
+ACT-101	knock	tokitoa	INTL	blend rubric; src 'tokito'	blend (legalised); Japonic
+ACT-102	ring a bell	nalasi	INTL	blend rubric; src 'nalasi'	blend; Japonic
+ACT-103	switch on	cuketo	INTL	blend rubric; src 'cuketo'	blend; Japonic
+ACT-104	switch off	kesito	INTL	blend rubric; src 'kesito'	blend; Japonic
+ACT-105	plug in	sasito	INTL	blend rubric; src 'sasito'	blend; Japonic
+ACT-106	charge (battery)	cudento	INTL	blend rubric; src 'cudento'	blend; Japonic
+ACT-107	print	selakito	INTL	blend rubric; src 'selakito'	blend; Austronesian
+ACT-108	scan	sukana	INTL	blend rubric; src 'sukana'	blend; international
+ACT-109	type (v)	tipeto	INTL	blend rubric; src 'tipeto'	blend; Romance
+ACT-110	click	kuliki	INTL	blend rubric; src 'kuliki'	blend; international
+ACT-111	mince / chop fine	kisami	INTL	blend rubric; src 'kisami'	blend; Japonic
+ACT-112	assemble / put together	kumitalo	INTL	blend rubric; src 'kumitalo'	blend; Japonic
+ACT-113	install	setudate	INTL	blend rubric; src 'setudate'	blend; international
+ACT-114	wrap	cucumi	INTL	blend rubric; src 'cucumi'	blend; Japonic
+ACT-115	fasten / buckle	tomelo	INTL	blend rubric; src 'tomelo'	blend; Romance
+ACT-116	hang up (object)	kageto	INTL	blend rubric; src 'kageto'	blend; Japonic
+ACT-117	pile / stack	kasaneto	INTL	blend rubric; src 'kasaneto'	blend; Japonic
+ACT-118	sort / classify	walito	INTL	blend rubric; src 'walito'	blend; Japonic
+ACT-119	label / tag	labelo	INTL	blend rubric; src 'labelo'	blend; Romance
+ACT-120	weld / solder	sugito	INTL	blend rubric; src 'sugito'	blend; Japonic
+ACT-121	drill (v)	beleto	INTL	blend rubric; src 'beleto'	blend; Romance
+ACT-122	paint (v)	nulito	INTL	blend rubric; src 'nulito'	blend; Japonic
+ACT-123	rinse	susugi	INTL	blend rubric; src 'susugi'	blend; Japonic
+ACT-124	soak	celento	INTL	blend rubric; src 'celento'	blend; Austronesian
+ACT-125	dry (cause to)	hosito	INTL	blend rubric; src 'hosito'	blend; Japonic
+ACT-126	light (a fire)	tomosi	INTL	blend rubric; src 'tomosi'	blend; Japonic
+DWE-048	apartment	apato	INTL	blend rubric; src 'apato'	blend; Japonic
+DWE-049	cottage	kabana	INTL	blend rubric; src 'kabana'	blend; Romance
+DWE-050	tower	tolea	INTL	blend rubric; src 'tolea'	blend; Romance
+DWE-051	hut	kubo	INTL	blend rubric; src 'kubo'	blend; Austronesian
+DWE-052	tent	tendai	INTL	blend rubric; src 'tendai'	blend; Romance
+DWE-053	palace	palasio	INTL	blend rubric; src 'palasio'	blend; Romance
+DWE-054	barn	binaga	INTL	blend rubric; src 'binaga'	blend; Austronesian
+DWE-055	chimney	cimini	INTL	blend rubric; src 'cimini'	blend; international
+DWE-056	balcony	balukon	INTL	blend rubric; src 'balukon'	blend; Romance
+DWE-057	basement	cikato	INTL	blend rubric; src 'cikato'	blend; Japonic
+DWE-058	corridor	lodaka	INTL	blend rubric; src 'lodaka'	blend; Japonic
+DWE-059	courtyard	niwa	INTL	blend rubric; src 'niwa'	blend; Japonic
+DWE-060	pillar / column	hasila	INTL	blend rubric; src 'hasila'	blend; Austronesian
+DWE-061	brick	ladilo	INTL	blend rubric; src 'ladilo'	blend; Romance
+DWE-062	cement	semento	INTL	blend rubric; src 'semento'	blend; Romance
+DWE-063	tile	tegula	INTL	blend rubric; src 'tegula'	blend; Romance
+DWE-064	paint (substance)	pintula	INTL	blend rubric; src 'pintula'	blend; Romance
+DWE-065	stove / cooker	kono	INTL	blend rubric; src 'kono'	blend; Japonic
+DWE-066	sink (basin)	nagasi	INTL	blend rubric; src 'nagasi'	blend; Japonic
+DWE-067	faucet / tap	gilipo	INTL	blend rubric; src 'gilipo'	blend; Romance
+DWE-068	ladder	hasigo	INTL	blend rubric; src 'hasigo'	blend; Japonic
+DWE-069	fireplace / hearth	dano	INTL	blend rubric; src 'dano'	blend; Sinitic
+DWE-070	mattress	kasugen	INTL	blend rubric; src 'kasugen'	blend; Japonic
+DWE-071	cushion	kuhin	INTL	blend rubric; src 'kuhin'	blend; Romance
+DWE-072	curtain	katen	INTL	blend rubric; src 'katen'	blend; Japonic
+DWE-073	carpet / rug	kalupeta	INTL	blend rubric; src 'kalupeta'	blend; Romance
+DWE-074	wardrobe	tanua	INTL	blend rubric; src 'tanua'	blend; Japonic
+DWE-075	stool / bench	bankoa	INTL	blend rubric; src 'bankoa'	blend; Romance
+DWE-076	sofa / couch	sofa	INTL	blend rubric; src 'sofa'	blend; international
+DWE-077	drill (tool)	kilidoa	INTL	blend rubric; src 'kilido'	blend (legalised); Japonic
+DWE-078	screw	nedi	INTL	blend rubric; src 'nedi'	blend; Japonic
+DWE-079	chain	kusali	INTL	blend rubric; src 'kusali'	blend; Japonic
+DWE-080	lever	palanka	INTL	blend rubric; src 'palanka'	blend; Romance
+DWE-081	pump	ponpu	INTL	blend rubric; src 'ponpu'	blend; international
+DWE-082	blade	habale	INTL	blend rubric; src 'habale'	blend; Japonic
+DWE-083	kiln / furnace	kamado	INTL	blend rubric; src 'kamado'	blend; Japonic
+DWE-084	glue	nolito	INTL	blend rubric; src 'nolito'	blend; Japonic
+DWE-085	wax	losoku	INTL	blend rubric; src 'losoku'	blend; Japonic
+DWE-086	cable / cord	kodale	INTL	blend rubric; src 'kodale'	blend; Romance
+MOT-036	vehicle	sialin	INTL	blend rubric; src 'sialin'	blend; Sinitic
+MOT-037	tyre	taiya	INTL	blend rubric; src 'taiya'	blend; Japonic
+MOT-038	fuel	nento	INTL	blend rubric; src 'nento'	blend; Japonic
+MOT-039	brake	buleki	INTL	blend rubric; src 'buleki'	blend; international
+MOT-040	highway	kosoku	INTL	blend rubric; src 'kosoku'	blend; Japonic
+MOT-041	path / trail	sendelo	INTL	blend rubric; src 'sendelo'	blend; Romance
+MOT-042	track / lane	picita	INTL	blend rubric; src 'picita'	blend; Romance
+MOT-043	harbour / port	minato	INTL	blend rubric; src 'minato'	blend; Japonic
+MOT-044	airport	kuko	INTL	blend rubric; src 'kuko'	blend; Japonic
+MOT-045	platform (station)	homu	INTL	blend rubric; src 'homu'	blend; international
+MOT-046	fare	uncin	INTL	blend rubric; src 'uncin'	blend; Japonic
+MOT-047	luggage	nimotu	INTL	blend rubric; src 'nimotu'	blend; Japonic
+MOT-048	journey / trip	tabi	INTL	blend rubric; src 'tabi'	blend; Japonic
+MOT-049	route	keilo	INTL	blend rubric; src 'keilo'	blend; Romance
+MOT-050	traffic	kosu	INTL	blend rubric; src 'kosu'	blend; Japonic
+MOT-051	tunnel	tonele	INTL	blend rubric; src 'tonele'	blend; Romance
+MOT-052	sail (v)	koline	INTL	blend rubric; src 'koline'	blend; Romance
+MOT-053	anchor	ikali	INTL	blend rubric; src 'ikali'	blend; Japonic
+MOT-054	ferry	felibo	INTL	blend rubric; src 'felibo'	blend; international
+MOT-055	truck / lorry	tolaku	INTL	blend rubric; src 'tolaku'	blend; international
+MOT-056	motorcycle	baiku	INTL	blend rubric; src 'baiku'	blend; international
+MOT-057	subway / metro	cikatela	INTL	blend rubric; src 'cikatela'	blend; Japonic
+MOT-058	cart / wagon	kalita	INTL	blend rubric; src 'kalita'	blend; Romance
+MOT-059	passenger	yokaku	INTL	blend rubric; src 'yokaku'	blend; Japonic
+MOT-060	driver	untente	INTL	blend rubric; src 'untente'	blend; Japonic
+MOT-061	departure	sapasu	INTL	blend rubric; src 'sapasu'	blend; Japonic
+MOT-062	crossroads / junction	kosaten	INTL	blend rubric; src 'kosaten'	blend; Japonic
+MOT-063	load / cargo	kaluga	INTL	blend rubric; src 'kaluga'	blend; Romance
+TIM-045	weekend	sumatu	INTL	blend rubric; src 'sumatu'	blend; Japonic
+TIM-046	interval / pause	aida	INTL	blend rubric; src 'aida'	blend; Japonic
+TIM-047	shift (work period)	kotaia	INTL	blend rubric; src 'kotaia'	blend; Japonic
+TIM-048	timer / countdown	taima	INTL	blend rubric; src 'taima'	blend; international
+QTY-055	container / vessel	yoki	INTL	blend rubric; src 'yoki'	blend; Japonic
+QTY-056	crate / case	kahako	INTL	blend rubric; src 'kahako'	blend; Japonic
+QTY-057	barrel / drum	talu	INTL	blend rubric; src 'talu'	blend; international
+QTY-058	sack	fukulo	INTL	blend rubric; src 'fukulo'	blend; Japonic
+QTY-059	tank / reservoir	tankua	INTL	blend rubric; src 'tankua'	blend; international
+QTY-060	tube	cuboa	INTL	blend rubric; src 'cuboa'	blend; Romance
+QTY-061	scale (weighing)	hakali	INTL	blend rubric; src 'hakali'	blend; Japonic
+QTY-062	heap / pile	yamada	INTL	blend rubric; src 'yamada'	blend; Japonic
+QTY-063	slice / portion	kilen	INTL	blend rubric; src 'kilen'	blend; Romance
+QTY-064	square (math)	kuwadalo	INTL	blend rubric; src 'kuwadalo'	blend; Romance
+QTY-065	angle / degree-turn	kakudo	INTL	blend rubric; src 'kakudo'	blend; Japonic
+SPA-036	interior	naibo	INTL	blend rubric; src 'naibo'	blend; Japonic
+SPA-037	exterior	gaibo	INTL	blend rubric; src 'gaibo'	blend; Japonic
+SPA-038	gap / clearance	sukima	INTL	blend rubric; src 'sukima'	blend; Japonic
+SPA-039	level / floor (storey)	kaida	INTL	blend rubric; src 'kaida'	blend; Japonic
+SPA-040	zone / sector	kuiki	INTL	blend rubric; src 'kuiki'	blend; Japonic
+SPA-041	slot / niche	kukan	INTL	blend rubric; src 'kukan'	blend; Japonic
