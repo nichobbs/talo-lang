@@ -969,3 +969,121 @@ ANI-057	nest	kiota	INTL	blend rubric; src 'kiota'	blend; Bantu
 ANI-058	herd / flock	yuta	INTL	blend rubric; src 'yutha'	blend; Indo-Aryan
 ANI-059	cattle / livestock	pasudana	INTL	blend rubric; src 'pasudana'	blend; Indo-Aryan
 ANI-060	beast / wild animal	yangali	INTL	blend rubric; src 'yangali'	blend; Indo-Aryan
+ACT-043	close / shut	fungai	INTL	blend rubric; src 'fungai'	blend; Bantu
+ACT-044	cover	danka	INTL	blend rubric; src 'danka'	blend; Indo-Aryan
+ACT-045	fill	balai	INTL	blend rubric; src 'balai'	blend; Indo-Aryan
+ACT-046	empty / pour out	halia	INTL	blend rubric; src 'halia'	blend; Indo-Aryan
+ACT-047	pour	mimina	INTL	blend rubric; src 'mimina'	blend; Bantu
+ACT-048	mix / blend	milana	INTL	blend rubric; src 'milana'	blend; Indo-Aryan
+ACT-049	stir	kologa	INTL	blend rubric; src 'kologa'	blend; Bantu
+ACT-050	squeeze / press	dabana	INTL	blend rubric; src 'dabana'	blend; Indo-Aryan
+ACT-051	fold	kunai	INTL	blend rubric; src 'kunai'	blend; Bantu
+ACT-052	bend	modi	INTL	blend rubric; src 'modi'	blend; Indo-Aryan
+ACT-053	stretch	tanai	INTL	blend rubric; src 'tanai'	blend; Indo-Aryan
+ACT-054	twist	maloda	INTL	blend rubric; src 'maloda'	blend; Indo-Aryan
+ACT-055	shake (object)	hilana	INTL	blend rubric; src 'hilana'	blend; Indo-Aryan
+ACT-056	drop / let fall	gilana	INTL	blend rubric; src 'gilana'	blend; Indo-Aryan
+ACT-057	lift / raise	utana	INTL	blend rubric; src 'utana'	blend; Indo-Aryan
+ACT-058	drag-pull (heavy)	gasitai	INTL	blend rubric; src 'gasitai'	blend; Indo-Aryan
+ACT-059	catch / seize	pakala	INTL	blend rubric; src 'pakala'	blend; Indo-Aryan
+ACT-060	release / let go	coda	INTL	blend rubric; src 'coda'	blend; Indo-Aryan
+ACT-061	tear / rip	fala	INTL	blend rubric; src 'fala'	blend; Indo-Aryan
+ACT-062	scratch	kunao	INTL	blend rubric; src 'kunao'	blend; Indo-Aryan
+ACT-063	stab / pierce	copana	INTL	blend rubric; src 'copana'	blend; Indo-Aryan
+ACT-064	bite	umai	INTL	blend rubric; src 'umai'	blend; Bantu
+ACT-065	lick	cata	INTL	blend rubric; src 'cata'	blend; Indo-Aryan
+ACT-066	blow	pukai	INTL	blend rubric; src 'pukai'	blend; Bantu
+ACT-067	suck	cusa	INTL	blend rubric; src 'cusa'	blend; Indo-Aryan
+ACT-068	kick	teka	INTL	blend rubric; src 'teka'	blend; Bantu
+ACT-069	sweep	fagia	INTL	blend rubric; src 'fagia'	blend; Bantu
+ACT-070	wipe / clean off	ponda	INTL	blend rubric; src 'ponda'	blend; Indo-Aryan
+ACT-071	build / construct	yenga	INTL	blend rubric; src 'yenga'	blend; Bantu
+ACT-072	destroy / wreck	nasai	INTL	blend rubric; src 'nasai'	blend; Indo-Aryan
+ACT-073	repair / mend	malai	INTL	blend rubric; src 'malai'	blend; Indo-Aryan
+ACT-074	measure-out / weigh	tolai	INTL	blend rubric; src 'tolai'	blend; Indo-Aryan
+ACT-075	count-out / tally	gina	INTL	blend rubric; src 'gina'	blend; Indo-Aryan
+ACT-076	hide / conceal	cupai	INTL	blend rubric; src 'cupai'	blend; Indo-Aryan
+ACT-077	search / seek	tafuta	INTL	blend rubric; src 'tafuta'	blend; Bantu
+ACT-078	find / discover	patai	INTL	blend rubric; src 'patai'	blend; Bantu
+ACT-079	choose-pick	cagua	INTL	blend rubric; src 'cagua'	blend; Bantu
+ACT-080	collect / gather up	kusana	INTL	blend rubric; src 'kusana'	blend; Bantu
+ACT-081	share / distribute	bantai	INTL	blend rubric; src 'bantai'	blend; Indo-Aryan
+ACT-082	prepare / get ready	tayalisa	INTL	blend rubric; src 'tayalisa'	blend; Bantu
+ACT-083	arrange / order	pangai	INTL	blend rubric; src 'pangai'	blend; Bantu
+ACT-084	change / alter	badili	INTL	blend rubric; src 'badili'	blend; Bantu
+ACT-085	add-to / increase	ongesa	INTL	blend rubric; src 'ongesa'	blend; Bantu
+ACT-086	reduce / lessen	pungusa	INTL	blend rubric; src 'pungusa'	blend; Bantu
+ACT-087	continue / keep on	endelea	INTL	blend rubric; src 'endelea'	blend; Bantu
+ACT-088	repeat / do again	ludiai	INTL	blend rubric; src 'ludiai'	blend; Bantu
+ACT-089	wait	subili	INTL	blend rubric; src 'subili'	blend; Bantu
+ACT-090	rest	pumika	INTL	blend rubric; src 'pumika'	blend; Bantu
+SOC-029	work-job / occupation	kasana	INTL	blend rubric; src 'kasana'	blend; Bantu
+SOC-030	worker / labourer	mania	INTL	blend rubric; src 'mania'	blend; Bantu
+SOC-031	master / boss	banai	INTL	blend rubric; src 'banai'	blend; Bantu
+SOC-032	servant	sewaka	INTL	blend rubric; src 'sewaka'	blend; Indo-Aryan
+SOC-033	slave	gulama	INTL	blend rubric; src 'gulama'	blend; Semitic
+SOC-034	wealth / riches	mali	INTL	blend rubric; src 'mali'	blend; Semitic
+SOC-035	poverty	umasini	INTL	blend rubric; src 'umasini'	blend; Bantu
+SOC-036	rich / wealthy	tayili	INTL	blend rubric; src 'tayili'	blend; Semitic
+SOC-037	poor / needy	masini	INTL	blend rubric; src 'masini'	blend; Semitic
+SOC-038	market / bazaar	soko	INTL	blend rubric; src 'soko'	blend; Bantu
+SOC-039	goods / wares	bidai	INTL	blend rubric; src 'bidai'	blend; Bantu
+SOC-040	custom / tradition	mila	INTL	blend rubric; src 'mila'	blend; Bantu
+SOC-041	festival / holiday	tohala	INTL	blend rubric; src 'tohala'	blend; Indo-Aryan
+SOC-042	meeting / assembly	mutano	INTL	blend rubric; src 'mutano'	blend; Bantu
+SOC-043	council / committee	balasa	INTL	blend rubric; src 'balasa'	blend; Bantu
+SOC-044	nation / people	taifa	INTL	blend rubric; src 'taifa'	blend; Semitic
+SOC-045	citizen-subject	laiyati	INTL	blend rubric; src 'laiyati'	blend; Semitic
+SOC-046	border-of-state	maka	INTL	blend rubric; src 'maka'	blend; Bantu
+SOC-047	king-rule / kingdom	ufalume	INTL	blend rubric; src 'ufalume'	blend; Bantu
+SOC-048	chief / headman	muku	INTL	blend rubric; src 'muku'	blend; Bantu
+SOC-049	judge (person)	yayi	INTL	blend rubric; src 'yayi'	blend; Semitic
+SOC-050	court (law)	mahakama	INTL	blend rubric; src 'mahakama'	blend; Semitic
+SOC-051	punishment / penalty	adabu	INTL	blend rubric; src 'adabu'	blend; Semitic
+SOC-052	prison / jail	gelesa	INTL	blend rubric; src 'gelesa'	blend; Bantu
+SOC-053	duty / obligation	wayibu	INTL	blend rubric; src 'wayibu'	blend; Semitic
+SOC-054	help-aid / service	huduma	INTL	blend rubric; src 'huduma'	blend; Bantu
+SOC-055	gift / present	sawadi	INTL	blend rubric; src 'sawadi'	blend; Bantu
+SOC-056	message / news-item	uyume	INTL	blend rubric; src 'uyume'	blend; Bantu
+SOC-057	secret-society / faith group	yumuiya	INTL	blend rubric; src 'yumuiya'	blend; Bantu
+SOC-058	class / rank	tabakai	INTL	blend rubric; src 'tabakai'	blend; Semitic
+DWE-028	kitchen	yikoni	INTL	blend rubric; src 'yikoni'	blend; Bantu
+DWE-029	toilet / bathroom	coni	INTL	blend rubric; src 'cooni'	blend; Bantu
+DWE-030	ceiling	dalio	INTL	blend rubric; src 'dalio'	blend; Indo-Aryan
+DWE-031	fence / hedge	usio	INTL	blend rubric; src 'uzio'	blend; Bantu
+DWE-032	gate	lango	INTL	blend rubric; src 'lango'	blend; Bantu
+DWE-033	shelf	lafu	INTL	blend rubric; src 'lafu'	blend; Bantu
+DWE-034	drawer	dalasa	INTL	blend rubric; src 'dalasa'	blend; Bantu
+DWE-035	cupboard / cabinet	kabati	INTL	blend rubric; src 'kabati'	blend; Bantu
+DWE-036	bucket	bali	INTL	blend rubric; src 'balti'	blend; Indo-Aryan
+DWE-037	broom	ufagio	INTL	blend rubric; src 'ufagio'	blend; Bantu
+DWE-038	blanket	banketi	INTL	blend rubric; src 'banketi'	blend; Romance
+DWE-039	towel	taulo	INTL	blend rubric; src 'taulo'	blend; Romance
+DWE-040	fork (utensil)	umao	INTL	blend rubric; src 'umao'	blend; Bantu
+DWE-041	pot / pan	sufulia	INTL	blend rubric; src 'sufulia'	blend; Bantu
+DWE-042	kettle	bilika	INTL	blend rubric; src 'bilika'	blend; Bantu
+DWE-043	jar / pot	gudu	INTL	blend rubric; src 'gudu'	blend; Indo-Aryan
+DWE-044	nail (metal)	misumali	INTL	blend rubric; src 'misumali'	blend; Bantu
+DWE-045	hammer	nundo	INTL	blend rubric; src 'nundo'	blend; Bantu
+DWE-046	saw (tool)	mumeno	INTL	blend rubric; src 'mumeno'	blend; Bantu
+DWE-047	needle-tool / pin	pini	INTL	blend rubric; src 'pini'	blend; Romance
+FOO-030	meat-dish / curry	musio	INTL	blend rubric; src 'musio'	blend; Bantu
+FOO-031	porridge / gruel	ugali	INTL	blend rubric; src 'ugali'	blend; Bantu
+FOO-032	flour-dough	unga	INTL	blend rubric; src 'unga'	blend; Bantu
+FOO-033	fruit-juice / drink	yusi	INTL	blend rubric; src 'yusi'	blend; Romance
+FOO-034	spice / seasoning	masalai	INTL	blend rubric; src 'masalai'	blend; Indo-Aryan
+FOO-035	vinegar	sila	INTL	blend rubric; src 'sila'	blend; Indo-Aryan
+FOO-036	butter	mahana	INTL	blend rubric; src 'mahana'	blend; Indo-Aryan
+FOO-037	egg-dish / omelette	kimanda	INTL	blend rubric; src 'kimanda'	blend; Bantu
+FOO-038	feast / banquet	kalamu	INTL	blend rubric; src 'kalamu'	blend; Bantu
+FOO-039	hunger / famine	nala	INTL	blend rubric; src 'njala'	blend; Bantu
+CLO-016	dress / gown	gauni	INTL	blend rubric; src 'gauni'	blend; Romance
+CLO-017	skirt	setia	INTL	blend rubric; src 'setia'	blend; Romance
+CLO-018	belt	manda	INTL	blend rubric; src 'manda'	blend; Bantu
+CLO-019	glove	gawua	INTL	blend rubric; src 'gawua'	blend; Romance
+CLO-020	sock / stocking	soki	INTL	blend rubric; src 'soki'	blend; Romance
+CLO-021	scarf / veil	leso	INTL	blend rubric; src 'leso'	blend; Bantu
+CLO-022	collar	ukosi	INTL	blend rubric; src 'ukosi'	blend; Bantu
+CLO-023	sleeve	monoa	INTL	blend rubric; src 'monoa'	blend; Bantu
+CLO-024	cloth-wrap / robe	kangai	INTL	blend rubric; src 'kangai'	blend; Bantu
+CLO-025	jewellery / ornament	palata	INTL	blend rubric; src 'palata'	blend; Indo-Aryan
