@@ -119,11 +119,11 @@ Sato:  Haope dinka! Yu yato sela?
        good.MOD day.N | you COP who
        'Good day! Who are you?'          (content question: 'who' in-situ, no ke)
 
-Mila:  Mi yato Mila. Yu we namaka yato seko?
+Mila:  Mi yato Milaka. Yu we namaka yato seko?
        I COP Mila | you GEN name.N COP what
        'I am Mila. What is your name?'   (genitive: possessor + we, before head — 0002 §4)
 
-Sato:  Mi yato Sato. Mi yato senanpe.
+Sato:  Mi yato Satoka. Mi yato senanpe.
        I COP Sato | I COP happy.MOD
        'I am Sato. I am happy (to meet you).'   (modifier predicate via copula — 0002 §6.3)
 
@@ -131,9 +131,9 @@ Mila:  Yu datanto selo fe?
        you come.V where SRC
        'Where do you come from?'         (postposition fe after the question-word NP)
 
-Sato:  Mi datanto gande kotaka fe.
+Sato:  Mi datanto gandepe kotaka fe.
        I come.V big.MOD city.N SRC
-       'I come from a big city.'         (attributive modifier 'gande' precedes its head)
+       'I come from a big city.'         (attributive modifier 'gandepe' precedes its head)
 
 Mila:  Mi ti!
        I also
@@ -151,7 +151,7 @@ Sato:  Hi, mi mauto. Mi ti mauto panika.
 Everything here is licensed: subject-first throughout; the verb is always found
 by `-to`; `seko`/`sela`/`selo` sit in their normal argument slots (in-situ, no
 movement); the only yes/no question is the one that ends in `ke`; the copula
-links once to a **noun** predicate (`Mi yato Sato`) and once to a **modifier**
+links once to a **noun** predicate (`Mi yato Satoka`) and once to a **modifier**
 predicate (`Mi yato senanpe`), exactly the two jobs `0002` §6.3 gives it.
 
 -----
@@ -175,7 +175,7 @@ B:  Hi. Mi belayato bahaeka. Ma mi ne tauto nenoka ingi.
     yes | I learn.V language.N | but I NEG know.V word.N many
     'Yes. I am learning the language. But I don't know many words.'
 
-A:  Sana hao! Yu belayato wi, i keso yu tauto lebi.
+A:  Sana haope! Yu belayato wi, i keso yu tauto lebi.
     very good | you learn.V PROG, and tomorrow you know.V more
     'Very good! You are learning, and tomorrow you'll know more.'
 ```
@@ -235,7 +235,7 @@ Ne mi tauto, te.    NEG I know.V, he    — 'Not I know (but) he (does).'
 
 **Yes/no vs content questions (`0002` §6.4):**
 ```
-Yu paha ke?          you understand.V Q      — 'Do you understand?'   (yes/no: ke)
+Yu pahato ke?          you understand.V Q      — 'Do you understand?'   (yes/no: ke)
 Yu mauto seko?       you want.V what          — 'What do you want?'    (in-situ, no ke)
 Te ikuto selo?       he go.V where            — 'Where is he going?'
 ```
@@ -250,7 +250,7 @@ Mi mauto panika i cakulaka.       I want.V water.N and food.N
 
 **Possession — verb and genitive (`0002` §4, POS-001):**
 ```
-Mi motu gouka ki.     I have.V dog.N two   — 'I have two dogs.'   (numeral postposed — see §8.3)
+Mi motuto gouka ki.     I have.V dog.N two   — 'I have two dogs.'   (numeral postposed — see §8.3)
 Mi we tomoka.         I GEN friend.N        — 'my friend'
 ```
 
@@ -323,7 +323,7 @@ language and are currently absent. **To resolve:** mint a small phatic set (like
 a mix of coined and high-transfer borrowings) — a cheap, high-value Phase-5 batch.
 
 ### 8.3 Determiner order vs. the "modifier-before-head" rule
-Attributive `-pe` modifiers **precede** the head (`gande kotaka` "big city",
+Attributive `-pe` modifiers **precede** the head (`gandepe kotaka` "big city",
 `0002` §6.3), but the `0002` §6.6 examples place demonstratives and numerals
 **after** the head (`kanuka itu` "that dog", `kanuka ta` "a/one dog"), which is
 the order this document followed (`gouka ki` "two dogs", `cakulaka itu` "that
@@ -379,12 +379,12 @@ For copy-paste into a parser test harness. One Talo sentence per line.
 ```
 Haope dinka.
 Yu yato sela.
-Mi yato Mila.
+Mi yato Milaka.
 Yu we namaka yato seko.
-Mi yato Sato.
+Mi yato Satoka.
 Mi yato senanpe.
 Yu datanto selo fe.
-Mi datanto gande kotaka fe.
+Mi datanto gandepe kotaka fe.
 Mi ti.
 Yu mauto cakulaka ke.
 Hi, mi mauto.
@@ -395,7 +395,7 @@ Te ayalito wi belayadeka lo.
 Yu yato belayakika ke.
 Mi belayato bahaeka.
 Ma mi ne tauto nenoka ingi.
-Sana hao.
+Sana haope.
 Yu belayato wi, i keso yu tauto lebi.
 Gouka kanto nekoka.
 Gouka nekoka kanto.
@@ -409,12 +409,12 @@ Gouka pu makanto.
 Mi pu sa ikuto baitika su.
 Mi ne tauto.
 Ne mi tauto, te.
-Yu paha ke.
+Yu pahato ke.
 Yu mauto seko.
 Te ikuto selo.
 Fi yu datanto, mi yato senanpe.
 Mi mauto panika i cakulaka.
-Mi motu gouka ki.
+Mi motuto gouka ki.
 Mi we tomoka.
 Bala datanto.
 Mi kanto hako.

@@ -1,0 +1,20 @@
+{
+  "name": "talo-parser",
+  "version": "0.1.0",
+  "description": "Sentence parser / validator for Talo — checks morphosyntactic well-formedness per docs/0002 (grammar) and docs/0005 §3. A teaching aid and regression harness.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-parse": "./src/cli.ts"
+  },
+  "scripts": {
+    "parse": "node --experimental-strip-types src/cli.ts",
+    "test": "node --experimental-strip-types --test test/parser.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
