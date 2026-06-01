@@ -1254,3 +1254,216 @@ SOC-085	obey / comply	sitagau	INTL	blend rubric; src 'sitagau'	blend; Japonic
 SOC-086	rebel / resist	hanko	INTL	blend rubric; src 'hanko'	blend; Japonic
 SOC-087	celebrate	iwau	INTL	blend rubric; src 'iwau'	blend; Japonic
 SOC-088	participate / take part	sanka	INTL	blend rubric; src 'sanka'	blend; Japonic
+MOD-077	screen	pantala	INTL	blend rubric; src 'pantala'	blend; Romance
+MOD-078	control button	botone	INTL	blend rubric; src 'botone'	blend; Romance
+MOD-079	network	leti	INTL	blend rubric; src 'leti'	blend; Austronesian
+MOD-080	signal	senale	INTL	blend rubric; src 'senale'	blend; Romance
+MOD-081	data	dato	INTL	blend rubric; src 'dato'	blend; Romance
+MOD-082	file (digital)	failu	INTL	blend rubric; src 'failu'	blend; international
+MOD-083	digital message	mesahi	INTL	blend rubric; src 'mesahi'	blend; Romance
+MOD-084	password	angou	INTL	blend rubric; src 'angou'	blend; Japonic
+MOD-085	battery	denci	INTL	blend rubric; src 'denci'	blend; Japonic
+MOD-086	switch (device)	suici	INTL	blend rubric; src 'suici'	blend; Japonic
+MOD-087	wire	kawale	INTL	blend rubric; src 'kawale'	blend; Austronesian
+MOD-088	lens	lente	INTL	blend rubric; src 'lente'	blend; Romance
+MOD-089	photo	foto	INTL	blend rubric; src 'foto'	blend; international
+MOD-090	video	wideo	INTL	blend rubric; src 'wideo'	blend; international
+MOD-091	record (v)	gulaba	INTL	blend rubric; src 'gulaba'	blend; international
+MOD-092	broadcast	hoso	INTL	blend rubric; src 'hoso'	blend; Japonic
+MOD-093	channel	canele	INTL	blend rubric; src 'canele'	blend; Romance
+MOD-094	program (software)	gulamu	INTL	blend rubric; src 'gulamu'	blend; international
+MOD-095	robot	loboto	INTL	blend rubric; src 'loboto'	blend; international
+MOD-096	satellite	satelite	INTL	blend rubric; src 'satelite'	blend; Romance
+MOD-097	app (application)	apuli	INTL	blend rubric; src 'apuli'	blend; international
+MOD-098	keyboard	kibodo	INTL	blend rubric; src 'kibodo'	blend; international
+MOD-099	speaker (audio)	alabo	INTL	blend rubric; src 'alabo'	blend; Romance
+MOD-100	cable (data)	kabele	INTL	blend rubric; src 'kabele'	blend; Romance
+MOD-101	update (v)	akutuali	INTL	blend rubric; src 'akutuali'	blend; Romance
+MOD-102	download	desikaga	INTL	blend rubric; src 'desikaga'	blend; international
+MOD-103	account (online)	kuenta	INTL	blend rubric; src 'kuenta'	blend; Romance
+MOD-104	website	sitio	INTL	blend rubric; src 'sitio'	blend; Romance
+MOD-105	microphone	maiku	INTL	blend rubric; src 'maiku'	blend; Japonic
+MOD-106	antenna	antena	INTL	blend rubric; src 'antena'	blend; Romance
+MOD-107	pharmacy	famasia	INTL	blend rubric; src 'famasia'	blend; Romance
+MOD-108	library	tosokan	INTL	blend rubric; src 'tosokan'	blend; Japonic
+MOD-109	museum	museo	INTL	blend rubric; src 'museo'	blend; Romance
+MOD-110	theatre	teatulo	INTL	blend rubric; src 'teatulo'	blend; Romance
+MOD-111	stadium	sutadio	INTL	blend rubric; src 'sutadio'	blend; international
+MOD-112	warehouse	gudan	INTL	blend rubric; src 'gudan'	blend; Austronesian
+MOD-113	bakery	panadeli	INTL	blend rubric; src 'panadeli'	blend; Romance
+MOD-114	restaurant	lesolan	INTL	blend rubric; src 'lesolan'	blend; Romance
+MOD-115	cafe	kafeti	INTL	blend rubric; src 'kafeti'	blend; Romance
+MOD-116	post office	yubinko	INTL	blend rubric; src 'yubinko'	blend; Japonic
+MOD-117	embassy	taisikan	INTL	blend rubric; src 'taisikan'	blend; Japonic
+MOD-118	courtroom	saiban	INTL	blend rubric; src 'saiban'	blend; Japonic
+MOD-119	temple	kuile	INTL	blend rubric; src 'kuile'	blend; Japonic
+MOD-120	church	ilesia	INTL	blend rubric; src 'ilesia'	blend; Romance
+MOD-121	mosque	masidi	INTL	blend rubric; src 'masidi'	blend; Semitic
+MOD-122	cemetery	makaba	INTL	blend rubric; src 'makaba'	blend; Semitic
+MOD-123	park (public)	kowen	INTL	blend rubric; src 'kowen'	blend; Japonic
+MOD-124	plaza / square	pasa	INTL	blend rubric; src 'pasa'	blend; Romance
+MOD-125	stamp (postage)	kite	INTL	blend rubric; src 'kite'	blend; Japonic
+MOD-126	passport	pasepole	INTL	blend rubric; src 'pasepole'	blend; Romance
+MOD-127	license / permit	luwidi	INTL	blend rubric; src 'luwidi'	blend; international
+MOD-128	election / vote	sengo	INTL	blend rubric; src 'sengo'	blend; Japonic
+MOD-129	union (labor)	kumiai	INTL	blend rubric; src 'kumiai'	blend; Japonic
+MOD-130	insurance	hoken	INTL	blend rubric; src 'hoken'	blend; Japonic
+MOD-131	university	daigaku	INTL	blend rubric; src 'daigaku'	blend; Japonic
+FOO-040	fry	golen	INTL	blend rubric; src 'golen'	blend; Austronesian
+FOO-041	bake	panega	INTL	blend rubric; src 'panega'	blend; Romance
+FOO-042	roast	asalo	INTL	blend rubric; src 'asalo'	blend; Romance
+FOO-043	grill	yakito	INTL	blend rubric; src 'yakito'	blend; Japonic
+FOO-044	peel (v)	mugito	INTL	blend rubric; src 'mugito'	blend; Japonic
+FOO-045	slice (v)	kilito	INTL	blend rubric; src 'kilito'	blend; Romance
+FOO-046	grind	muelo	INTL	blend rubric; src 'muelo'	blend; Romance
+FOO-047	knead	koneto	INTL	blend rubric; src 'koneto'	blend; Romance
+FOO-048	ferment	lagiwa	INTL	blend rubric; src 'lagiwa'	blend; Austronesian
+FOO-049	recipe	leseta	INTL	blend rubric; src 'leseta'	blend; Romance
+FOO-050	ingredient	saigo	INTL	blend rubric; src 'saigo'	blend; Japonic
+FOO-051	dough	masa	INTL	blend rubric; src 'masa'	blend; Romance
+FOO-052	sauce	sosu	INTL	blend rubric; src 'sosu'	blend; Japonic
+FOO-053	broth / stock	kaludo	INTL	blend rubric; src 'kaludo'	blend; Romance
+FOO-054	snack	gaiti	INTL	blend rubric; src 'gaiti'	blend; Japonic
+FOO-055	dessert	posole	INTL	blend rubric; src 'posole'	blend; Romance
+FOO-056	ripe	masaku	INTL	blend rubric; src 'masaku'	blend; Austronesian
+FOO-057	raw	namai	INTL	blend rubric; src 'namai'	blend; Japonic
+FOO-058	stale	basi	INTL	blend rubric; src 'basi'	blend; Austronesian
+FOO-059	rotten	busuku	INTL	blend rubric; src 'busuku'	blend; Austronesian
+FOO-060	stew (dish)	gisado	INTL	blend rubric; src 'gisado'	blend; Romance
+FOO-061	salad	enalada	INTL	blend rubric; src 'enalada'	blend; Romance
+FOO-062	noodle	mien	INTL	blend rubric; src 'mien'	blend; Sinitic
+FOO-063	dumpling	gosai	INTL	blend rubric; src 'gosai'	blend; Japonic
+FOO-064	pastry / cake	gateu	INTL	blend rubric; src 'gateu'	blend; Romance
+FOO-065	jam (preserve)	yamua	INTL	blend rubric; src 'yamua'	blend; international
+FOO-066	syrup	silopu	INTL	blend rubric; src 'silopu'	blend; Semitic
+FOO-067	yogurt	yogulu	INTL	blend rubric; src 'yogulu'	blend; Semitic
+FOO-068	tofu	tofu	INTL	blend rubric; src 'tofu'	blend; Sinitic
+FOO-069	sausage	saluci	INTL	blend rubric; src 'saluci'	blend; Romance
+FOO-070	seafood	maliko	INTL	blend rubric; src 'maliko'	blend; Romance
+FOO-071	spicy / hot (taste)	pedasi	INTL	blend rubric; src 'pedasi'	blend; Austronesian
+FOO-072	crunchy	galiga	INTL	blend rubric; src 'galiga'	blend; Austronesian
+FOO-073	fatty / greasy	abula	INTL	blend rubric; src 'abula'	blend; Romance
+ACT-091	serve (food)	selito	INTL	blend rubric; src 'selito'	blend; Romance
+ACT-092	taste-test	kicimi	INTL	blend rubric; src 'kicimi'	blend; Japonic
+ACT-093	store / stow	gudanto	INTL	blend rubric; src 'gudanto'	blend; Austronesian
+ACT-094	pack	tunaga	INTL	blend rubric; src 'tunaga'	blend; Austronesian
+ACT-095	tidy up	kataduke	INTL	blend rubric; src 'kataduke'	blend; Japonic
+ACT-096	decorate	kasalito	INTL	blend rubric; src 'kasalito'	blend; Romance
+ACT-097	polish	migakito	INTL	blend rubric; src 'migakito'	blend; Japonic
+ACT-098	sharpen	togito	INTL	blend rubric; src 'togito'	blend; Japonic
+ACT-099	lock (v)	kunato	INTL	blend rubric; src 'kunato'	blend; Romance
+ACT-100	unlock	akito	INTL	blend rubric; src 'akito'	blend; Japonic
+ACT-101	knock	tokitoa	INTL	blend rubric; src 'tokito'	blend (legalised); Japonic
+ACT-102	ring a bell	nalasi	INTL	blend rubric; src 'nalasi'	blend; Japonic
+ACT-103	switch on	cuketo	INTL	blend rubric; src 'cuketo'	blend; Japonic
+ACT-104	switch off	kesito	INTL	blend rubric; src 'kesito'	blend; Japonic
+ACT-105	plug in	sasito	INTL	blend rubric; src 'sasito'	blend; Japonic
+ACT-106	charge (battery)	cudento	INTL	blend rubric; src 'cudento'	blend; Japonic
+ACT-107	print	selakito	INTL	blend rubric; src 'selakito'	blend; Austronesian
+ACT-108	scan	sukana	INTL	blend rubric; src 'sukana'	blend; international
+ACT-109	type (v)	tipeto	INTL	blend rubric; src 'tipeto'	blend; Romance
+ACT-110	click	kuliki	INTL	blend rubric; src 'kuliki'	blend; international
+ACT-111	mince / chop fine	kisami	INTL	blend rubric; src 'kisami'	blend; Japonic
+ACT-112	assemble / put together	kumitalo	INTL	blend rubric; src 'kumitalo'	blend; Japonic
+ACT-113	install	setudate	INTL	blend rubric; src 'setudate'	blend; international
+ACT-114	wrap	cucumi	INTL	blend rubric; src 'cucumi'	blend; Japonic
+ACT-115	fasten / buckle	tomelo	INTL	blend rubric; src 'tomelo'	blend; Romance
+ACT-116	hang up (object)	kageto	INTL	blend rubric; src 'kageto'	blend; Japonic
+ACT-117	pile / stack	kasaneto	INTL	blend rubric; src 'kasaneto'	blend; Japonic
+ACT-118	sort / classify	walito	INTL	blend rubric; src 'walito'	blend; Japonic
+ACT-119	label / tag	labelo	INTL	blend rubric; src 'labelo'	blend; Romance
+ACT-120	weld / solder	sugito	INTL	blend rubric; src 'sugito'	blend; Japonic
+ACT-121	drill (v)	beleto	INTL	blend rubric; src 'beleto'	blend; Romance
+ACT-122	paint (v)	nulito	INTL	blend rubric; src 'nulito'	blend; Japonic
+ACT-123	rinse	susugi	INTL	blend rubric; src 'susugi'	blend; Japonic
+ACT-124	soak	celento	INTL	blend rubric; src 'celento'	blend; Austronesian
+ACT-125	dry (cause to)	hosito	INTL	blend rubric; src 'hosito'	blend; Japonic
+ACT-126	light (a fire)	tomosi	INTL	blend rubric; src 'tomosi'	blend; Japonic
+DWE-048	apartment	apato	INTL	blend rubric; src 'apato'	blend; Japonic
+DWE-049	cottage	kabana	INTL	blend rubric; src 'kabana'	blend; Romance
+DWE-050	tower	tolea	INTL	blend rubric; src 'tolea'	blend; Romance
+DWE-051	hut	kubo	INTL	blend rubric; src 'kubo'	blend; Austronesian
+DWE-052	tent	tendai	INTL	blend rubric; src 'tendai'	blend; Romance
+DWE-053	palace	palasio	INTL	blend rubric; src 'palasio'	blend; Romance
+DWE-054	barn	binaga	INTL	blend rubric; src 'binaga'	blend; Austronesian
+DWE-055	chimney	cimini	INTL	blend rubric; src 'cimini'	blend; international
+DWE-056	balcony	balukon	INTL	blend rubric; src 'balukon'	blend; Romance
+DWE-057	basement	cikato	INTL	blend rubric; src 'cikato'	blend; Japonic
+DWE-058	corridor	lodaka	INTL	blend rubric; src 'lodaka'	blend; Japonic
+DWE-059	courtyard	niwa	INTL	blend rubric; src 'niwa'	blend; Japonic
+DWE-060	pillar / column	hasila	INTL	blend rubric; src 'hasila'	blend; Austronesian
+DWE-061	brick	ladilo	INTL	blend rubric; src 'ladilo'	blend; Romance
+DWE-062	cement	semento	INTL	blend rubric; src 'semento'	blend; Romance
+DWE-063	tile	tegula	INTL	blend rubric; src 'tegula'	blend; Romance
+DWE-064	paint (substance)	pintula	INTL	blend rubric; src 'pintula'	blend; Romance
+DWE-065	stove / cooker	kono	INTL	blend rubric; src 'kono'	blend; Japonic
+DWE-066	sink (basin)	nagasi	INTL	blend rubric; src 'nagasi'	blend; Japonic
+DWE-067	faucet / tap	gilipo	INTL	blend rubric; src 'gilipo'	blend; Romance
+DWE-068	ladder	hasigo	INTL	blend rubric; src 'hasigo'	blend; Japonic
+DWE-069	fireplace / hearth	dano	INTL	blend rubric; src 'dano'	blend; Sinitic
+DWE-070	mattress	kasugen	INTL	blend rubric; src 'kasugen'	blend; Japonic
+DWE-071	cushion	kuhin	INTL	blend rubric; src 'kuhin'	blend; Romance
+DWE-072	curtain	katen	INTL	blend rubric; src 'katen'	blend; Japonic
+DWE-073	carpet / rug	kalupeta	INTL	blend rubric; src 'kalupeta'	blend; Romance
+DWE-074	wardrobe	tanua	INTL	blend rubric; src 'tanua'	blend; Japonic
+DWE-075	stool / bench	bankoa	INTL	blend rubric; src 'bankoa'	blend; Romance
+DWE-076	sofa / couch	sofa	INTL	blend rubric; src 'sofa'	blend; international
+DWE-077	drill (tool)	kilidoa	INTL	blend rubric; src 'kilido'	blend (legalised); Japonic
+DWE-078	screw	nedi	INTL	blend rubric; src 'nedi'	blend; Japonic
+DWE-079	chain	kusali	INTL	blend rubric; src 'kusali'	blend; Japonic
+DWE-080	lever	palanka	INTL	blend rubric; src 'palanka'	blend; Romance
+DWE-081	pump	ponpu	INTL	blend rubric; src 'ponpu'	blend; international
+DWE-082	blade	habale	INTL	blend rubric; src 'habale'	blend; Japonic
+DWE-083	kiln / furnace	kamado	INTL	blend rubric; src 'kamado'	blend; Japonic
+DWE-084	glue	nolito	INTL	blend rubric; src 'nolito'	blend; Japonic
+DWE-085	wax	losoku	INTL	blend rubric; src 'losoku'	blend; Japonic
+DWE-086	cable / cord	kodale	INTL	blend rubric; src 'kodale'	blend; Romance
+MOT-036	vehicle	sialin	INTL	blend rubric; src 'sialin'	blend; Sinitic
+MOT-037	tyre	taiya	INTL	blend rubric; src 'taiya'	blend; Japonic
+MOT-038	fuel	nento	INTL	blend rubric; src 'nento'	blend; Japonic
+MOT-039	brake	buleki	INTL	blend rubric; src 'buleki'	blend; international
+MOT-040	highway	kosoku	INTL	blend rubric; src 'kosoku'	blend; Japonic
+MOT-041	path / trail	sendelo	INTL	blend rubric; src 'sendelo'	blend; Romance
+MOT-042	track / lane	picita	INTL	blend rubric; src 'picita'	blend; Romance
+MOT-043	harbour / port	minato	INTL	blend rubric; src 'minato'	blend; Japonic
+MOT-044	airport	kuko	INTL	blend rubric; src 'kuko'	blend; Japonic
+MOT-045	platform (station)	homu	INTL	blend rubric; src 'homu'	blend; international
+MOT-046	fare	uncin	INTL	blend rubric; src 'uncin'	blend; Japonic
+MOT-047	luggage	nimotu	INTL	blend rubric; src 'nimotu'	blend; Japonic
+MOT-048	journey / trip	tabi	INTL	blend rubric; src 'tabi'	blend; Japonic
+MOT-049	route	keilo	INTL	blend rubric; src 'keilo'	blend; Romance
+MOT-050	traffic	kosu	INTL	blend rubric; src 'kosu'	blend; Japonic
+MOT-051	tunnel	tonele	INTL	blend rubric; src 'tonele'	blend; Romance
+MOT-052	sail (v)	koline	INTL	blend rubric; src 'koline'	blend; Romance
+MOT-053	anchor	ikali	INTL	blend rubric; src 'ikali'	blend; Japonic
+MOT-054	ferry	felibo	INTL	blend rubric; src 'felibo'	blend; international
+MOT-055	truck / lorry	tolaku	INTL	blend rubric; src 'tolaku'	blend; international
+MOT-056	motorcycle	baiku	INTL	blend rubric; src 'baiku'	blend; international
+MOT-057	subway / metro	cikatela	INTL	blend rubric; src 'cikatela'	blend; Japonic
+MOT-058	cart / wagon	kalita	INTL	blend rubric; src 'kalita'	blend; Romance
+MOT-059	passenger	yokaku	INTL	blend rubric; src 'yokaku'	blend; Japonic
+MOT-060	driver	untente	INTL	blend rubric; src 'untente'	blend; Japonic
+MOT-061	departure	sapasu	INTL	blend rubric; src 'sapasu'	blend; Japonic
+MOT-062	crossroads / junction	kosaten	INTL	blend rubric; src 'kosaten'	blend; Japonic
+MOT-063	load / cargo	kaluga	INTL	blend rubric; src 'kaluga'	blend; Romance
+TIM-045	weekend	sumatu	INTL	blend rubric; src 'sumatu'	blend; Japonic
+TIM-046	interval / pause	aida	INTL	blend rubric; src 'aida'	blend; Japonic
+TIM-047	shift (work period)	kotaia	INTL	blend rubric; src 'kotaia'	blend; Japonic
+TIM-048	timer / countdown	taima	INTL	blend rubric; src 'taima'	blend; international
+QTY-055	container / vessel	yoki	INTL	blend rubric; src 'yoki'	blend; Japonic
+QTY-056	crate / case	kahako	INTL	blend rubric; src 'kahako'	blend; Japonic
+QTY-057	barrel / drum	talu	INTL	blend rubric; src 'talu'	blend; international
+QTY-058	sack	fukulo	INTL	blend rubric; src 'fukulo'	blend; Japonic
+QTY-059	tank / reservoir	tankua	INTL	blend rubric; src 'tankua'	blend; international
+QTY-060	tube	cuboa	INTL	blend rubric; src 'cuboa'	blend; Romance
+QTY-061	scale (weighing)	hakali	INTL	blend rubric; src 'hakali'	blend; Japonic
+QTY-062	heap / pile	yamada	INTL	blend rubric; src 'yamada'	blend; Japonic
+QTY-063	slice / portion	kilen	INTL	blend rubric; src 'kilen'	blend; Romance
+QTY-064	square (math)	kuwadalo	INTL	blend rubric; src 'kuwadalo'	blend; Romance
+QTY-065	angle / degree-turn	kakudo	INTL	blend rubric; src 'kakudo'	blend; Japonic
+SPA-036	interior	naibo	INTL	blend rubric; src 'naibo'	blend; Japonic
+SPA-037	exterior	gaibo	INTL	blend rubric; src 'gaibo'	blend; Japonic
+SPA-038	gap / clearance	sukima	INTL	blend rubric; src 'sukima'	blend; Japonic
+SPA-039	level / floor (storey)	kaida	INTL	blend rubric; src 'kaida'	blend; Japonic
+SPA-040	zone / sector	kuiki	INTL	blend rubric; src 'kuiki'	blend; Japonic
+SPA-041	slot / niche	kukan	INTL	blend rubric; src 'kukan'	blend; Japonic
