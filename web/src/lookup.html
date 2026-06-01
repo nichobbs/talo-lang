@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Talo Dictionary — word lookup</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <a class="brand" href="index.html">Talo</a>
+  <nav><a href="index.html">Home</a><a href="book.html">Learn</a><a class="active" href="lookup.html">Dictionary</a></nav>
+</header>
+
+<main class="lookup">
+  <h1>Word lookup</h1>
+  <p class="lede">Search <strong>Talo → English</strong> or <strong>English → Talo</strong>. Type a Talo word, an English meaning, or part of either.</p>
+
+  <div class="searchbar">
+    <input id="q" type="search" placeholder="Search… e.g. dog, kanu, water, run" autocomplete="off" autofocus>
+    <select id="dir" title="search direction">
+      <option value="both">both ways</option>
+      <option value="t2e">Talo → English</option>
+      <option value="e2t">English → Talo</option>
+    </select>
+  </div>
+
+  <div class="filters">
+    <label>Domain
+      <select id="domain"><option value="">all</option></select>
+    </label>
+    <label>Tier
+      <select id="tier">
+        <option value="">all</option>
+        <option value="1">1 — core</option>
+        <option value="2">2 — general</option>
+        <option value="3">3 — extended</option>
+      </select>
+    </label>
+    <span id="count" class="count"></span>
+  </div>
+
+  <ul id="results" class="results"></ul>
+  <p id="empty" class="empty" hidden>No matches. Try fewer letters, or switch search direction.</p>
+</main>
+
+<footer class="site-foot">
+  <p>Generated from the Talo dataset. <a href="https://github.com/nichobbs/talo-lang">Source &amp; data on GitHub</a>.</p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
