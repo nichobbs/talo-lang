@@ -381,7 +381,7 @@ MOD-010	computer	konpu	INTL	blend rubric; src 'konpyuta' (simplified, avoid puta
 MOD-011	internet	intaneto	INTL	blend rubric; src 'intaneto'	blend
 MOD-012	electricity	denki	INTL	blend rubric; src 'denki'	blend
 MOD-013	machine	kikai	INTL	blend rubric; src 'kikai'	blend
-MOD-014	hospital	yoi	INTL	blend rubric; src 'byoin' (simplified)	blend (simplified)
+MOD-014	hospital	asipitali	INTL	blend rubric; src 'hospitali'	blend (polished); Bantu
 MOD-015	medicine	kusuli	INTL	blend rubric; src 'kusuri'	blend (legalised)
 MOD-016	doctor	iha	INTL	blend rubric; src 'isha' (simplified)	blend (simplified)
 MOD-018	government	seifu	INTL	blend rubric; src 'seifu'	blend
@@ -604,7 +604,7 @@ BOD-070	scar	kowu	INTL	blend rubric; src 'kovu'	blend; Bantu
 BOD-071	bleed	liukie	INTL	blend rubric; src 'liuxie'	blend; Sinitic
 BOD-072	swallow	tunan	INTL	blend rubric; src 'tunyan'	blend; Sinitic
 BOD-073	chew	yueyu	INTL	blend rubric; src 'jueju'	blend; Sinitic
-BOD-074	itch	huyi	INTL	blend rubric; src 'khujli'	blend; Indo-Aryan
+BOD-074	itch	kayui	INTL	blend rubric; src 'kayui'	blend (polished); Austronesian
 BOD-075	spit	tafala	INTL	blend rubric; src 'tafala'	blend; Semitic
 BOD-076	digest	digeli	INTL	blend rubric; src 'digeri'	blend; Romance
 BOD-077	blink	kedi	INTL	blend rubric; src 'kedip'	blend; Austronesian
@@ -672,7 +672,7 @@ MOD-060	vitality / strength (health)	guwu	INTL	blend rubric; src 'nguvu'	blend; 
 MOD-061	lame / crippled	langa	INTL	blend rubric; src 'langda'	blend; Indo-Aryan
 MOD-062	virus	bingu	INTL	blend rubric; src 'bingdu'	blend; Sinitic
 MOD-063	infect / infection	ganana	INTL	blend rubric; src 'ganran'	blend (legalised); Sinitic
-MOD-064	tumor / lump	songiu	INTL	blend rubric; src 'zhongliu'	blend; Sinitic
+MOD-064	tumor / lump	tumoli	INTL	blend rubric; src 'tumor'	blend (polished); Romance
 MOD-065	vaccine	yamiao	INTL	blend rubric; src 'yamiao'	blend; Sinitic
 MOD-066	diarrhea	fukie	INTL	blend rubric; src 'fuxie'	blend; Sinitic
 MOD-067	surgery / operation	kilulia	INTL	blend rubric; src 'kirurgia'	blend; Romance
@@ -698,13 +698,13 @@ PROP-064	common / usual	kawaida	INTL	blend rubric; src 'kawaida'	blend; Semitic
 PROP-065	normal	nolale	INTL	blend rubric; src 'normale'	blend; Romance
 PROP-066	real / actual	keli	INTL	blend rubric; src 'kweli'	blend; Bantu
 PROP-067	certain / sure	yakini	INTL	blend rubric; src 'yakini'	blend; Semitic
-PROP-068	main / chief	muha	INTL	blend rubric; src 'mukhya'	blend; Indo-Aryan
+PROP-068	main / chief	muka	INTL	blend rubric; src 'mukhya'	blend (polished); Indo-Aryan
 PROP-069	whole / entire	samula	INTL	blend rubric; src 'sampulna'	blend; Indo-Aryan
 PROP-070	double	duba	INTL	blend rubric; src 'dubla'	blend; Romance
 PROP-071	busy	masulo	INTL	blend rubric; src 'masulo'	blend; Indo-Aryan
 PROP-072	ready	tayali	INTL	blend rubric; src 'tayari'	blend; Bantu
 PROP-073	serious	gamila	INTL	blend rubric; src 'gambhila'	blend; Indo-Aryan
-PROP-074	clear / obvious	sasa	INTL	blend rubric; src 'spasta'	blend; Indo-Aryan
+PROP-074	clear / obvious	wasi	INTL	blend rubric; src 'wazi'	blend (polished); Austronesian
 PROP-075	secret / hidden	sili	INTL	blend rubric; src 'siri'	blend; Bantu
 PROP-076	public	pubiko	INTL	blend rubric; src 'publiko'	blend; Romance
 PROP-077	general	henela	INTL	blend rubric; src 'henela'	blend; Romance
@@ -753,7 +753,7 @@ COG-036	prove / verify	tibita	INTL	blend rubric; src 'tibita'	blend; Bantu
 COG-037	solve / resolve	sulisa	INTL	blend rubric; src 'sulisa'	blend; Bantu
 COG-038	interpret / explain	fasili	INTL	blend rubric; src 'fasili'	blend; Semitic
 COG-039	convince / persuade	sadiki	INTL	blend rubric; src 'sadiki'	blend; Semitic
-COG-040	knowledge	paga	INTL	blend rubric; src 'pragya'	blend; Indo-Aryan
+COG-040	knowledge	wida	INTL	blend rubric; src 'vidya'	blend (polished); Indo-Aryan
 COG-041	opinion / view	abipaya	INTL	blend rubric; src 'abhipraya'	blend; Indo-Aryan
 COG-042	purpose / goal	lengo	INTL	blend rubric; src 'lengo'	blend; Bantu
 COG-043	intention	sankala	INTL	blend rubric; src 'sankalpa'	blend; Indo-Aryan

@@ -130,6 +130,26 @@ for — multiple **obscenity-substring** hits (`kaaka` "crow", `kakadi` "cucumbe
 (`pesa` = Swahili "money"), and hundreds of homophone / near-homophone collisions
 under the b/p·d/t·g/k merger — none of which reached `data/`.
 
+### Euphony polish pass (post-sweep)
+
+A follow-up pass audited the sweep's auto-resolved forms for recognisability. Two
+findings shaped its (deliberately small) scope:
+
+- **Appended-vowel suffixes are load-bearing, not noise.** Of the forms whose
+  surface ends in a vowel the donor lacks (e.g. `pafu`→`pafua` "lung", `pika`→
+  `pikae` "six"), **every single one** was checked by removing the suffix — and
+  **all collided** (homophone or near-homophone) with an existing word. The
+  suffix is the autofixer's disambiguation, so stripping it would reintroduce a
+  collision. These were left as-is.
+- **Cluster-simplifications are mostly legitimate** (`sempit`→`sepi`, `lembut`→
+  `lebu`): Talo simply cannot carry the dropped cluster. Only a handful were both
+  lossy *and* low-recognisability with a clearly better, gate-clear alternative.
+
+So the polish was **surgical — six forms re-sourced**, each verified to keep the
+full lexicon at exit 0: hospital `yoi`→`asipitali`, knowledge `paga`→`wida`,
+clear `sasa`→`wasi`, itch `huyi`→`kayui`, chief `muha`→`muka`, tumour `songiu`→
+`tumoli`. Form count unchanged (in-place); both gates and the parser stay green.
+
 -----
 
 ## Running totals
