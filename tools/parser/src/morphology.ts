@@ -89,6 +89,7 @@ export const FUNCTION_WORDS = {
     "lagia", "mungi",             // again / maybe
     "sababu", "sehinga", "walau", // because / so / although
     "leo", "keso", "yana", "inino", // today/tomorrow/yesterday/now (time-words)
+    "toki",                         // then (at that time), 0005 §1
   ]),
 } as const;
 

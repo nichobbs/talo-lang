@@ -1,0 +1,16 @@
+{
+  "name": "talo-book",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Build tooling for 'Teach Yourself Talo' — renders the Markdown chapters to a single HTML book and validates every Talo example through the parser. PDF via a documented pandoc/weasyprint command (see README).",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node --experimental-strip-types build/build.ts",
+    "check": "node --experimental-strip-types build/build.ts --check-only",
+    "pdf": "node --experimental-strip-types build/build.ts && weasyprint build/talo-book.html build/talo-book.pdf"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
