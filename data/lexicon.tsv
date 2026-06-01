@@ -685,3 +685,151 @@ MOD-073	ointment / balm	salaba	INTL	blend rubric; src 'salaba'	blend; Semitic
 MOD-074	contagion / catch (illness)	kanen	INTL	blend rubric; src 'kansen'	blend; Japonic
 MOD-075	dizzy / faint	kisungusungu	INTL	blend rubric; src 'kizunguzungu'	blend; Bantu
 MOD-076	recover / heal up	pona	INTL	blend rubric; src 'pona'	blend; Bantu
+PROP-055	important	muhimu	INTL	blend rubric; src 'muhimu'	blend; Bantu
+PROP-056	necessary	necesa	INTL	blend rubric; src 'necesa'	blend; Romance
+PROP-057	possible	posibe	INTL	blend rubric; src 'posible'	blend; Romance
+PROP-058	useful	utile	INTL	blend rubric; src 'utile'	blend; Romance
+PROP-059	difficult	katina	INTL	blend rubric; src 'katina'	blend; Indo-Aryan
+PROP-060	simple / easy	sahala	INTL	blend rubric; src 'sahala'	blend; Bantu
+PROP-061	dangerous	hatali	INTL	blend rubric; src 'hatari'	blend; Bantu
+PROP-062	safe	salama	INTL	blend rubric; src 'salama'	blend; Bantu
+PROP-063	strange / odd	ayabu	INTL	blend rubric; src 'ajabu'	blend; Semitic
+PROP-064	common / usual	kawaida	INTL	blend rubric; src 'kawaida'	blend; Semitic
+PROP-065	normal	nolale	INTL	blend rubric; src 'normale'	blend; Romance
+PROP-066	real / actual	keli	INTL	blend rubric; src 'kweli'	blend; Bantu
+PROP-067	certain / sure	yakini	INTL	blend rubric; src 'yakini'	blend; Semitic
+PROP-068	main / chief	muha	INTL	blend rubric; src 'mukhya'	blend; Indo-Aryan
+PROP-069	whole / entire	samula	INTL	blend rubric; src 'sampulna'	blend; Indo-Aryan
+PROP-070	double	duba	INTL	blend rubric; src 'dubla'	blend; Romance
+PROP-071	busy	masulo	INTL	blend rubric; src 'masulo'	blend; Indo-Aryan
+PROP-072	ready	tayali	INTL	blend rubric; src 'tayari'	blend; Bantu
+PROP-073	serious	gamila	INTL	blend rubric; src 'gambhila'	blend; Indo-Aryan
+PROP-074	clear / obvious	sasa	INTL	blend rubric; src 'spasta'	blend; Indo-Aryan
+PROP-075	secret / hidden	sili	INTL	blend rubric; src 'siri'	blend; Bantu
+PROP-076	public	pubiko	INTL	blend rubric; src 'publiko'	blend; Romance
+PROP-077	general	henela	INTL	blend rubric; src 'henela'	blend; Romance
+PROP-078	special	haso	INTL	blend rubric; src 'khaso'	blend; Indo-Aryan
+PROP-079	basic / fundamental	mula	INTL	blend rubric; src 'mula'	blend; Indo-Aryan
+PROP-080	total / entire	kabisa	INTL	blend rubric; src 'kabisa'	blend; Bantu
+PROP-081	extra / spare	siyada	INTL	blend rubric; src 'ziyada'	blend; Semitic
+PROP-082	ordinary	samana	INTL	blend rubric; src 'samanya'	blend; Indo-Aryan
+PROP-083	similar / alike	sadisa	INTL	blend rubric; src 'sadrisa'	blend; Indo-Aryan
+PROP-084	opposite / reverse	kinume	INTL	blend rubric; src 'kinyume'	blend; Bantu
+PROP-085	equal	sawa	INTL	blend rubric; src 'sawa'	blend; Bantu
+PROP-086	fair / just	adili	INTL	blend rubric; src 'adili'	blend; Semitic
+PROP-087	honest	maminifu	INTL	blend rubric; src 'mwaminifu'	blend; Bantu
+PROP-088	rare	nadila	INTL	blend rubric; src 'nadira'	blend; Semitic
+PROP-089	modern	modelo	INTL	blend rubric; src 'moderno'	blend; Romance
+PROP-090	ancient / old	kadimu	INTL	blend rubric; src 'kadimu'	blend; Semitic
+PROP-091	natural	natulale	INTL	blend rubric; src 'naturale'	blend; Romance
+PROP-092	useless / vain	bekala	INTL	blend rubric; src 'bekala'	blend; Indo-Aryan
+PROP-093	precious / valuable	tamani	INTL	blend rubric; src 'thamani'	blend; Bantu
+PROP-094	famous	masuhuli	INTL	blend rubric; src 'mashuhuli'	blend; Semitic
+PROP-095	complete / finished	kamili	INTL	blend rubric; src 'kamili'	blend; Semitic
+PROP-096	sharp-witted / clever	calaku	INTL	blend rubric; src 'calaku'	blend; Indo-Aryan
+PROP-097	stupid / foolish	mupuma	INTL	blend rubric; src 'mupumba'	blend; Bantu
+PROP-098	brief / temporary	kanika	INTL	blend rubric; src 'kshanika'	blend; Indo-Aryan
+PROP-099	main-real / genuine	asia	INTL	blend rubric; src 'aslia'	blend; Semitic
+PROP-100	flexible / soft	lacila	INTL	blend rubric; src 'lacila'	blend; Indo-Aryan
+PROP-101	rigid / stiff	katola	INTL	blend rubric; src 'kathora'	blend; Indo-Aryan
+PROP-102	steady / stable	sutila	INTL	blend rubric; src 'sutila'	blend; Indo-Aryan
+PROP-103	sudden	acanaka	INTL	blend rubric; src 'acanaka'	blend; Indo-Aryan
+PROP-104	gradual / slow	talela	INTL	blend rubric; src 'talela'	blend; Romance
+COG-022	imagine	kalana	INTL	blend rubric; src 'kalpana'	blend; Indo-Aryan
+COG-023	guess / estimate	andasa	INTL	blend rubric; src 'andasa'	blend; Indo-Aryan
+COG-024	plan / arrange	yoyana	INTL	blend rubric; src 'yoyana'	blend; Indo-Aryan
+COG-025	compare	komala	INTL	blend rubric; src 'kompala'	blend; Romance
+COG-026	judge / weigh	hukumu	INTL	blend rubric; src 'hukumu'	blend; Semitic
+COG-027	intend / aim	kusudia	INTL	blend rubric; src 'kusudia'	blend; Semitic
+COG-028	expect / await	tegemea	INTL	blend rubric; src 'tegemea'	blend; Bantu
+COG-029	assume / suppose	manana	INTL	blend rubric; src 'manana'	blend; Indo-Aryan
+COG-030	conclude / decide	decidi	INTL	blend rubric; src 'decidi'	blend; Romance
+COG-031	focus / concentrate	cuyili	INTL	blend rubric; src 'cuyili'	blend; Sinitic
+COG-032	confuse / muddle	cangana	INTL	blend rubric; src 'canganya'	blend; Bantu
+COG-033	consider / ponder	conidela	INTL	blend rubric; src 'considela'	blend; Romance
+COG-034	examine / analyze	cungusa	INTL	blend rubric; src 'cunguza'	blend; Bantu
+COG-035	predict / foretell	yuce	INTL	blend rubric; src 'yuce'	blend; Sinitic
+COG-036	prove / verify	tibita	INTL	blend rubric; src 'tibita'	blend; Bantu
+COG-037	solve / resolve	sulisa	INTL	blend rubric; src 'sulisa'	blend; Bantu
+COG-038	interpret / explain	fasili	INTL	blend rubric; src 'fasili'	blend; Semitic
+COG-039	convince / persuade	sadiki	INTL	blend rubric; src 'sadiki'	blend; Semitic
+COG-040	knowledge	paga	INTL	blend rubric; src 'pragya'	blend; Indo-Aryan
+COG-041	opinion / view	abipaya	INTL	blend rubric; src 'abhipraya'	blend; Indo-Aryan
+COG-042	purpose / goal	lengo	INTL	blend rubric; src 'lengo'	blend; Bantu
+COG-043	intention	sankala	INTL	blend rubric; src 'sankalpa'	blend; Indo-Aryan
+COG-044	attention	ateni	INTL	blend rubric; src 'atensi'	blend; Romance
+COG-045	memory	siti	INTL	blend rubric; src 'smriti'	blend; Indo-Aryan
+COG-046	concept / notion	dalana	INTL	blend rubric; src 'dharana'	blend; Indo-Aryan
+COG-047	theory	nadalia	INTL	blend rubric; src 'nadaria'	blend; Semitic
+COG-048	logic / reason	loyika	INTL	blend rubric; src 'loyika'	blend; Romance
+COG-049	proof / evidence	dalili	INTL	blend rubric; src 'dalili'	blend; Semitic
+COG-050	wisdom	wiweka	INTL	blend rubric; src 'viveka'	blend; Indo-Aryan
+COG-051	curiosity	udadisi	INTL	blend rubric; src 'udadisi'	blend; Bantu
+COG-052	skill / expertise	usadi	INTL	blend rubric; src 'ustadi'	blend; Semitic
+COG-053	method / way	padati	INTL	blend rubric; src 'paddhati'	blend; Indo-Aryan
+COG-054	truth	sacai	INTL	blend rubric; src 'sacai'	blend; Indo-Aryan
+COG-055	secret / mystery	silia	INTL	blend rubric; src 'silia'	blend; Semitic
+QTY-031	weight	usito	INTL	blend rubric; src 'usito'	blend; Bantu
+QTY-032	length	lamai	INTL	blend rubric; src 'lambai'	blend; Austronesian
+QTY-033	width	upana	INTL	blend rubric; src 'upana'	blend; Bantu
+QTY-034	height / tallness	kimo	INTL	blend rubric; src 'kimo'	blend; Bantu
+QTY-035	measure / gauge	pima	INTL	blend rubric; src 'pima'	blend; Bantu
+QTY-036	amount / quantity	palimana	INTL	blend rubric; src 'parimana'	blend; Indo-Aryan
+QTY-037	add / sum	yoda	INTL	blend rubric; src 'yoda'	blend; Indo-Aryan
+QTY-038	subtract / remove	gatana	INTL	blend rubric; src 'ghatana'	blend; Indo-Aryan
+QTY-039	multiply	gunita	INTL	blend rubric; src 'gunita'	blend; Indo-Aryan
+QTY-040	divide / split	takima	INTL	blend rubric; src 'taksima'	blend; Semitic
+QTY-041	pair / couple	yodi	INTL	blend rubric; src 'yodi'	blend; Indo-Aryan
+QTY-042	dozen	dosena	INTL	blend rubric; src 'dosena'	blend; Romance
+QTY-043	percent	pasento	INTL	blend rubric; src 'pasento'	blend; Romance
+QTY-044	average / mean	wasita	INTL	blend rubric; src 'wasita'	blend; Semitic
+QTY-045	degree / level	dalaya	INTL	blend rubric; src 'daraja'	blend; Semitic
+QTY-046	quarter / fourth	cautai	INTL	blend rubric; src 'cauthai'	blend; Indo-Aryan
+QTY-047	majority / most	wengi	INTL	blend rubric; src 'wengi'	blend; Bantu
+QTY-048	limit / bound	mipaka	INTL	blend rubric; src 'mipaka'	blend; Bantu
+QTY-049	total / sum	yumula	INTL	blend rubric; src 'yumula'	blend; Semitic
+QTY-050	gram	gamu	INTL	blend rubric; src 'gramu'	blend; Romance
+QTY-051	meter (unit)	mita	INTL	blend rubric; src 'mita'	blend; Romance
+QTY-052	liter	lita	INTL	blend rubric; src 'lita'	blend; Romance
+QTY-053	kilo / kilogram	kilo	INTL	blend rubric; src 'kilo'	blend; Romance
+QTY-054	dose / portion	hisa	INTL	blend rubric; src 'hissa'	blend; Semitic
+TIM-025	future	banaya	INTL	blend rubric; src 'banaya'	blend; Indo-Aryan
+TIM-026	past / bygone	atita	INTL	blend rubric; src 'atita'	blend; Indo-Aryan
+TIM-027	present / current	watamana	INTL	blend rubric; src 'watamana'	blend; Indo-Aryan
+TIM-028	moment / instant	nimisa	INTL	blend rubric; src 'nimisa'	blend; Indo-Aryan
+TIM-029	period / phase	kipindi	INTL	blend rubric; src 'kipindi'	blend; Bantu
+TIM-030	era / age	kalayuga	INTL	blend rubric; src 'kalayuga'	blend; Indo-Aryan
+TIM-031	dawn / daybreak	alayili	INTL	blend rubric; src 'alfayili'	blend; Semitic
+TIM-032	dusk / twilight	gosani	INTL	blend rubric; src 'gosani'	blend; Indo-Aryan
+TIM-033	schedule / timetable	latiba	INTL	blend rubric; src 'latiba'	blend; Semitic
+TIM-034	delay / lateness	celewa	INTL	blend rubric; src 'celewa'	blend; Bantu
+TIM-035	calendar	kalenda	INTL	blend rubric; src 'kalenda'	blend; Romance
+TIM-036	century	sekulo	INTL	blend rubric; src 'sekulo'	blend; Romance
+TIM-037	decade	dasaka	INTL	blend rubric; src 'dasaka'	blend; Indo-Aryan
+TIM-038	duration / span	awadi	INTL	blend rubric; src 'avadhi'	blend; Indo-Aryan
+TIM-039	frequency / rate	balama	INTL	blend rubric; src 'barambar'	blend; Indo-Aryan
+TIM-040	midnight	manane	INTL	blend rubric; src 'manane'	blend; Bantu
+TIM-041	midday / noon	yohali	INTL	blend rubric; src 'yohali'	blend; Semitic
+TIM-042	stage / step	calana	INTL	blend rubric; src 'carana'	blend; Indo-Aryan
+TIM-043	recently / lately	halini	INTL	blend rubric; src 'halini'	blend; Semitic
+TIM-044	constantly / ever	nita	INTL	blend rubric; src 'nitya'	blend; Indo-Aryan
+SPA-016	between / among	kati	INTL	blend rubric; src 'kati'	blend; Bantu
+SPA-017	around / about	calupasa	INTL	blend rubric; src 'calupasa'	blend; Indo-Aryan
+SPA-018	through / via	katika	INTL	blend rubric; src 'katika'	blend; Bantu
+SPA-019	across / opposite	palele	INTL	blend rubric; src 'palele'	blend; Indo-Aryan
+SPA-020	beyond / past	pale	INTL	blend rubric; src 'pale'	blend; Indo-Aryan
+SPA-021	against / facing	samuha	INTL	blend rubric; src 'sammukha'	blend; Indo-Aryan
+SPA-022	edge / rim	kingo	INTL	blend rubric; src 'kingo'	blend; Bantu
+SPA-023	corner / angle	peme	INTL	blend rubric; src 'pembe'	blend; Bantu
+SPA-024	gap / space	antala	INTL	blend rubric; src 'antara'	blend; Indo-Aryan
+SPA-025	direction	disa	INTL	blend rubric; src 'disa'	blend; Indo-Aryan
+SPA-026	layer / level	tabaka	INTL	blend rubric; src 'tabaka'	blend; Semitic
+SPA-027	border / boundary	sima	INTL	blend rubric; src 'sima'	blend; Indo-Aryan
+SPA-028	distance	dula	INTL	blend rubric; src 'dula'	blend; Indo-Aryan
+SPA-029	region / area	padesa	INTL	blend rubric; src 'pradesa'	blend; Indo-Aryan
+SPA-030	zone / belt	kanda	INTL	blend rubric; src 'kanda'	blend; Bantu
+SPA-031	row / line	safu	INTL	blend rubric; src 'safu'	blend; Bantu
+SPA-032	position / spot	yaga	INTL	blend rubric; src 'yaga'	blend; Indo-Aryan
+SPA-033	slope / incline	tegemeo	INTL	blend rubric; src 'tegemeo'	blend; Bantu
+SPA-034	top / summit	kilele	INTL	blend rubric; src 'kilele'	blend; Bantu
+SPA-035	bottom / base	cini	INTL	blend rubric; src 'cini'	blend; Indo-Aryan
