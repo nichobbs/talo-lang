@@ -1,0 +1,33 @@
+id	form	gloss	pos	parts	morphemes
+COMP-001	panikamaka	bathroom (water-room)	noun	PHY-008+DWE-010	pani+kama+ka
+COMP-002	pikabaitika	kitchen (cook-house)	noun	FOO-005+DWE-001	pika+baiti+ka
+COMP-003	tidukamaka	bedroom (sleep-room)	noun	BOD-027+DWE-010	tidu+kama+ka
+COMP-004	makankamaka	dining room (eat-room)	noun	BOD-028+DWE-010	makan+kama+ka
+COMP-005	totokamaka	nursery (child-room)	noun	KIN-004+DWE-010	toto+kama+ka
+COMP-006	kasikamaka	office (work-room)	noun	ACT-034+DWE-010	kasi+kama+ka
+COMP-007	honbaitika	library (book-house)	noun	MOD-002+DWE-001	hon+baiti+ka
+COMP-008	ugonabaitika	hospital (sick-house)	noun	MOD-047+DWE-001	ugona+baiti+ka
+COMP-009	uanbaitika	bank (money-house)	noun	MOD-001+DWE-001	uan+baiti+ka
+COMP-010	belayabaitika	school (learn-house)	noun	COG-004+DWE-001	belaya+baiti+ka
+COMP-011	kasibaitika	workshop (work-house)	noun	ACT-034+DWE-001	kasi+baiti+ka
+COMP-012	kayubaitika	wooden house (wood-house)	noun	AGR-003+DWE-001	kayu+baiti+ka
+COMP-013	batubaitika	stone house (stone-house)	noun	PHY-013+DWE-001	batu+baiti+ka
+COMP-014	gandebaitika	mansion (big-house)	noun	PROP-001+DWE-001	gande+baiti+ka
+COMP-015	pikobaitika	cottage / hut (small-house)	noun	PROP-002+DWE-001	piko+baiti+ka
+COMP-016	ugonahitoka	patient (sick-person)	noun	MOD-047+KIN-001	ugona+hito+ka
+COMP-017	gandehitoka	adult / grown-up (big-person)	noun	PROP-001+KIN-001	gande+hito+ka
+COMP-018	kasihitoka	worker (work-person)	noun	ACT-034+KIN-001	kasi+hito+ka
+COMP-019	pikahitoka	cook / chef (cook-person)	noun	FOO-005+KIN-001	pika+hito+ka
+COMP-020	kadimuhitoka	elder (old-person)	noun	PROP-090+KIN-001	kadimu+hito+ka
+COMP-021	kepalasakika	headache (head-pain)	noun	BOD-001+EMO-018	kepala+saki+ka
+COMP-022	gigisakika	toothache (tooth-pain)	noun	BOD-007+EMO-018	gigi+saki+ka
+COMP-023	matapanika	tears (eye-water)	noun	BOD-003+PHY-008	mata+pani+ka
+COMP-024	taiohikalika	sunlight (sun-light)	noun	PHY-001+PHY-026	taio+hikali+ka
+COMP-025	hosihikalika	starlight (star-light)	noun	PHY-003+PHY-026	hosi+hikali+ka
+COMP-026	dinahikalika	daylight (day-light)	noun	TIM-002+PHY-026	din+hikali+ka
+COMP-027	panitolika	waterfowl (water-bird)	noun	PHY-008+ANI-004	pani+toli+ka
+COMP-028	umidobuka	sea creature (sea-animal)	noun	PHY-009+ANI-001	umi+dobu+ka
+COMP-029	amedinka	rainy day (rain-day)	noun	PHY-022+TIM-002	ame+din+ka
+COMP-030	nenohonka	dictionary (word-book)	noun	SPE-002+MOD-002	neno+hon+ka
+COMP-031	honamiseka	bookstore (book-shop)	noun	MOD-002+MOD-022	hon+mise+ka
+COMP-032	cakulamiseka	grocery (food-shop)	noun	FOO-001+MOD-022	cakula+mise+ka

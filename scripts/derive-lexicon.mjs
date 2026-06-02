@@ -58,40 +58,55 @@ function loadFalseFriends(path) {
 }
 
 // ---- the derivation paradigm (docs/0002 §1, §3.2) --------------------------
-// Each entry: { affix?, badge, label, gloss(rootGloss) }. `affix` omitted = bare
-// badge (the acategorial trifecta). The English gloss is a TEMPLATED hint built
-// from the root gloss; the Talo form + the morpheme labels are what is normative.
+// Each slot: { affixes?, badge, label, gloss(rootGloss) }. `affixes` is the
+// root→outward chain (omitted/[] = a bare badge, the acategorial trifecta; one
+// entry = first-order derivation; two = a curated second-order STACK, docs/0007
+// §7). The English gloss is a TEMPLATED hint built from the root gloss; the Talo
+// form + the morpheme labels are what is normative.
 const BADGE = { ka: "noun", to: "verb", pe: "modifier" };
 
 function q(g) { return `'${g}'`; }
 
 // Paradigm chosen PER pos_hint so the derivations are semantically defensible
-// rather than a blind cross-product (a causative of a noun, an instrument of a
-// quality, etc. would be noise). See docs/0007 §2 for the rationale per slot.
+// rather than a blind cross-product (an instrument of a quality, a place of an
+// adjective, etc. would be noise). See docs/0007 §2/§6/§7 for the rationale per
+// slot. Slots marked "(2nd-order)" are the curated affix stacks (layer B).
 const PARADIGM = {
   v: [
     { badge: "to", label: "verb", gloss: (g) => `to ${q(g)}` },
     { badge: "ka", label: "noun", gloss: (g) => `act of ${q(g)}; a ${q(g)}` },
     { badge: "pe", label: "modifier", gloss: (g) => `${q(g)}-ing` },
-    { affix: "ki", badge: "ka", label: "agent", gloss: (g) => `one who ${q(g)}s; ${q(g)}-er` },
-    { affix: "tu", badge: "ka", label: "instrument", gloss: (g) => `tool/means for ${q(g)}` },
-    { affix: "bo", badge: "ka", label: "patient/result", gloss: (g) => `thing ${q(g)}-ed; result of ${q(g)}` },
-    { affix: "de", badge: "ka", label: "place", gloss: (g) => `place for ${q(g)}` },
-    { affix: "ta", badge: "to", label: "causative", gloss: (g) => `to make/cause to ${q(g)}` },
+    { affixes: ["ki"], badge: "ka", label: "agent", gloss: (g) => `one who ${q(g)}s; ${q(g)}-er` },
+    { affixes: ["tu"], badge: "ka", label: "instrument", gloss: (g) => `tool/means for ${q(g)}` },
+    { affixes: ["bo"], badge: "ka", label: "patient/result", gloss: (g) => `thing ${q(g)}-ed; result of ${q(g)}` },
+    { affixes: ["de"], badge: "ka", label: "place", gloss: (g) => `place for ${q(g)}` },
+    { affixes: ["ta"], badge: "to", label: "causative", gloss: (g) => `to make/cause to ${q(g)}` },
+    { affixes: ["pi"], badge: "to", label: "inchoative", gloss: (g) => `to begin to ${q(g)}` }, // A
+    // curated 2nd-order stacks (B):
+    { affixes: ["ta", "ki"], badge: "ka", label: "causative-agent", gloss: (g) => `one who makes/causes ${q(g)}; instigator of ${q(g)}` },
+    { affixes: ["ta", "bo"], badge: "ka", label: "causative-result", gloss: (g) => `what is brought about by ${q(g)}` },
+    { affixes: ["ki", "de"], badge: "ka", label: "agent-place", gloss: (g) => `place of the one who ${q(g)}s` },
   ],
   n: [
     { badge: "ka", label: "noun", gloss: (g) => `${g}` },
     { badge: "pe", label: "modifier", gloss: (g) => `of/like ${q(g)}; ${q(g)}-related` },
-    { affix: "ci", badge: "ka", label: "diminutive", gloss: (g) => `little ${q(g)}; small/dear ${q(g)}` },
-    { affix: "go", badge: "ka", label: "augmentative", gloss: (g) => `big ${q(g)}; great ${q(g)}` },
+    { badge: "to", label: "verb", gloss: (g) => `to use/apply ${q(g)}; to act as ${q(g)}` }, // A
+    { affixes: ["ci"], badge: "ka", label: "diminutive", gloss: (g) => `little ${q(g)}; small/dear ${q(g)}` },
+    { affixes: ["go"], badge: "ka", label: "augmentative", gloss: (g) => `big ${q(g)}; great ${q(g)}` },
+    { affixes: ["de"], badge: "ka", label: "place", gloss: (g) => `place of/for ${q(g)}` }, // A
   ],
   mod: [
     { badge: "pe", label: "modifier", gloss: (g) => `${g}` },
     { badge: "ka", label: "noun", gloss: (g) => `${q(g)}-ness; the quality ${q(g)}` },
-    { affix: "pa", badge: "ka", label: "quality", gloss: (g) => `${q(g)}-ness; state of being ${q(g)}` },
-    { affix: "ku", badge: "pe", label: "opposite", gloss: (g) => `opposite of ${q(g)}; un-${q(g)}` },
-    { affix: "ta", badge: "to", label: "causative", gloss: (g) => `to make ${q(g)}` },
-    { affix: "pi", badge: "to", label: "inchoative", gloss: (g) => `to become ${q(g)}` },
+    { affixes: ["pa"], badge: "ka", label: "quality", gloss: (g) => `${q(g)}-ness; state of being ${q(g)}` },
+    { affixes: ["ku"], badge: "pe", label: "opposite", gloss: (g) => `opposite of ${q(g)}; un-${q(g)}` },
+    { affixes: ["ta"], badge: "to", label: "causative", gloss: (g) => `to make ${q(g)}` },
+    { affixes: ["pi"], badge: "to", label: "inchoative", gloss: (g) => `to become ${q(g)}` },
+    { affixes: ["go"], badge: "pe", label: "augmentative", gloss: (g) => `very ${q(g)}; intensely ${q(g)}` }, // A
+    { affixes: ["ci"], badge: "pe", label: "diminutive", gloss: (g) => `${q(g)}-ish; somewhat ${q(g)}` }, // A
+    // curated 2nd-order stacks (B):
+    { affixes: ["ku", "pa"], badge: "ka", label: "opposite-quality", gloss: (g) => `un-${q(g)}-ness; the quality of being not ${q(g)}` },
+    { affixes: ["ta", "ki"], badge: "ka", label: "causative-agent", gloss: (g) => `one who makes things ${q(g)}` },
   ],
 };
 
@@ -132,12 +147,13 @@ function main() {
     const rootGloss = lex.gloss || concept.gloss;
     for (const slot of slots) {
       considered++;
-      const form = root + (slot.affix ?? "") + slot.badge;
+      const affixes = slot.affixes ?? [];
+      const form = root + affixes.join("") + slot.badge;
       const res = checkForm(form, occupied, blocklist, falseFriends);
       if (!res.ok) { dropped.push({ form, id: lex.id, why: res.conflict.kind, msg: res.conflict.message }); continue; }
-      const morphemes = [root, slot.affix, slot.badge].filter(Boolean).join("+");
+      const morphemes = [root, ...affixes, slot.badge].join("+");
       rows.push({
-        id: `${lex.id}.${slot.affix ? slot.affix + slot.badge : slot.badge}`,
+        id: `${lex.id}.${affixes.join("") + slot.badge}`,
         form,
         gloss: slot.gloss(rootGloss),
         pos: BADGE[slot.badge],

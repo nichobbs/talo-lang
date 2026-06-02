@@ -11,15 +11,15 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 | Phase in progress | — (next: parser/validator, or governance/freeze O-6) |
 | Concepts catalogued | 1489 (`data/concepts.tsv`) |
 | Lexicon forms minted | 1472 roots (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
-| Derived dictionary | 7009 surface words (`data/derived-lexicon.tsv`, generated) — **8481 total entries** |
-| Both gates | green (linter R1–R6 + collision checker); roots 1472/1472 + derived 7009/7009 clear, exit 0 |
+| Derived dictionary | 10688 affix-derived (`data/derived-lexicon.tsv`) + 32 curated compounds (`data/compounds.tsv`), all generated — **12192 total entries** |
+| Both gates | green (linter R1–R6 + collision checker); roots 1472/1472 + derived 10688/10688 + compounds 32/32 clear, exit 0 |
 | 0008 §7 corpus batch | +4 roots the news translations needed — `okoa` rescue (Bantu), `pelesiden` president (Romance), `menteli` minister (Austronesian), `adikali` official (Indo-Aryan); `kill`/`spokesperson` stay derived. Both gates exit 0 |
 | CI | both tool test suites passing (linter; checker 12/12) |
 | Donor blend | all families ≤25% cap — Japonic 18.6%, Bantu 17.6%, Indo-Aryan 14.2%, Romance 13.2%, Austronesian 10.1%, Semitic 5.9%, Sinitic 2.6% |
 | Hello-world corpus | `docs/0004` — 2 annotated dialogues + ~30 feature sentences, all on the 386 words |
 | Grammar completeness | `docs/0005` — conditionals, existential verb `kuna`, determiner order, proper nouns, phatic set (7 new forms) |
 | Lexicon scaling | `docs/0006` — batch log; 7 batches, +1082 forms across all domains (386 → 1468), donor-balanced |
-| Derivation expansion | `docs/0007` — `scripts/derive-lexicon.mjs` applies the 3 badges + productive affixes per pos_hint to 1369 content roots → 6989 gated surface words (81 dropped); self-validating, regenerable |
+| Derivation expansion | `docs/0007` — 3 layers, all gated/regenerable: (A) first-order affixes + (B) curated 2nd-order stacks via `scripts/derive-lexicon.mjs` → 10688 forms; (C) curated compounds via `scripts/derive-compounds.mjs` → 32. 1472 roots → 12192 entries. Wired into the dictionary build (`dictionary/`) so lookup resolves derived/compound words |
 | Corpus (first slice) | `corpus/` — 3 simplified news items (17 clauses), each validated through the parser; new `corpus-check` CI gate enforces grammar + real-vocab-only; gaps logged in `corpus/GAPS.md` |
 
 ## What exists today

@@ -41,11 +41,17 @@ words that exist**. So derivations are emitted **per `pos_hint`** (from
 useful word for that class. Function words (`fun`) and numerals (`num`) are
 closed-class and are **not** derived.
 
-| Root class | Badges emitted | Affixes emitted (then badged) |
+The dataset is built in **three layers**, each a stricter level of curation:
+**A** — first-order affixes (one affix), emitted per `pos_hint` (this section);
+**B** — curated second-order **affix stacks** (two affixes, §7);
+**C** — curated **compounds** (§8, a separate file). The table below is the
+first-order set (A), with the slots added in the second expansion marked **(+)**:
+
+| Root class | Badges emitted | First-order affixes (then badged) |
 |---|---|---|
-| **verb** (`v`, 319 roots) | `-ka` act-noun, `-to` verb, `-pe` modifier | `-ki` agent · `-tu` instrument · `-bo` patient/result · `-de` place · `-ta` causative |
-| **noun** (`n`, 891 roots) | `-ka` noun, `-pe` modifier ("of/like X") | `-ci` diminutive · `-go` augmentative |
-| **modifier** (`mod`, 159 roots) | `-pe` modifier, `-ka` quality-noun | `-pa` quality · `-ku` opposite · `-ta` causative · `-pi` inchoative |
+| **verb** (`v`, 319 roots) | `-ka` act-noun, `-to` verb, `-pe` modifier | `-ki` agent · `-tu` instrument · `-bo` patient/result · `-de` place · `-ta` causative · **(+)** `-pi` inchoative ("begin to X") |
+| **noun** (`n`, 891 roots) | `-ka` noun, `-pe` modifier ("of/like X"), **(+)** `-to` verb ("to use/act as X") | `-ci` diminutive · `-go` augmentative · **(+)** `-de` place ("place of X") |
+| **modifier** (`mod`, 159 roots) | `-pe` modifier, `-ka` quality-noun | `-pa` quality · `-ku` opposite · `-ta` causative · `-pi` inchoative · **(+)** `-go`/`-ci` as intensity ("very X" / "X-ish", kept on `-pe`) |
 
 **Rationale per slot.**
 - **Verbs** are the richest source: agent (*teacher*), instrument (*a cutter*),
@@ -99,23 +105,27 @@ node --experimental-strip-types tools/collision-checker/src/cli.ts --lexicon dat
 
 ## 4. Result (verified, exit 0)
 
+Totals after **all three layers** (A first-order affixes + B stacks, both in
+`data/derived-lexicon.tsv`; C compounds in `data/compounds.tsv`):
+
 | | |
 |---|---|
 | Content roots processed | 1,369 (of 1,468; 99 are `fun`/`num`, not derived) |
-| Paradigm slots considered | 7,070 |
-| **Derived forms written** | **6,989** → `data/derived-lexicon.tsv` |
-| Dropped (collisions) | 81 — `OBSCENITY 51 · NEAR_HOMOPHONE 19 · HOMOPHONE 11` |
-| By POS | noun 4,514 · modifier 1,527 · verb 948 |
-| By derivation | dim 891 · aug 891 · agent 319 · instrument 319 · result 319 · place 318 · causative 477 · quality 159 · opposite 159 · inchoative 159 · bare-badge noun 1,298 / mod 1,368 / verb 312 |
-| Both gates | green — generator self-validation **6,989/6,989 clear, exit 0**; independent checker CLI **6,989/6,989 clear, 0 conflict, exit 0** |
-| Total dictionary | 1,468 roots + 6,989 derived = **8,457 surface entries** |
+| Paradigm slots considered | 10,764 |
+| **Affix-derived forms (A+B)** | **10,658** → `data/derived-lexicon.tsv` |
+| **Curated compounds (C)** | **32** → `data/compounds.tsv` |
+| Dropped (collisions) | 106 — `OBSCENITY 60 · NEAR_HOMOPHONE 29 · HOMOPHONE 17` |
+| Both gates | green — generator self-validation **10,658/10,658 clear, exit 0**; independent checker CLI exit 0 on both files |
+| **Total dictionary** | 1,468 roots + 10,658 derived + 32 compounds = **12,158 surface entries** |
 
-The **81 drops** are the screen working as intended: most are the obscenity
+The **106 drops** are the screen working as intended: most are the obscenity
 screen catching a root-final `ka` + the `-ka` noun badge surfacing as `…kaka`
 (flagged for review, not auto-shipped), the rest are derived forms that would
 homophone or near-homophone an existing root. They are listed in the generator
 output and left **uncoined** rather than patched, so the derived layer never
-contradicts a gate.
+contradicts a gate. (The first expansion shipped 6,989 forms from the
+first-order high-yield slots; the second added the omitted first-order slots,
+the second-order stacks (§7) and the compound seed (§8).)
 
 -----
 
@@ -152,3 +162,59 @@ contradicts a gate.
 - **Governance / freeze** (`0000` §6, O-6). The derived layer is **derived**, so
   the freeze boundary need only fix the **roots + the affix paradigm**; the
   surface dictionary follows automatically and need not be frozen line-by-line.
+
+-----
+
+## 7. Layer B — curated second-order affix stacks
+
+The word template `ROOT(+AFFIX)*+BADGE` (`0002` §2.2) permits **affix chains**.
+A blind two-affix cross-product (10 × 10) is mostly noise, so — exactly as §2
+selects first-order slots — we emit only a **curated whitelist** of pairs that
+name a real concept, applied to the appropriate root class. They live in the
+same generator/file as layer A, tagged in the `deriv` column:
+
+| Stack | On | Surface (root→outward) | Meaning |
+|---|---|---|---|
+| causative + agent | verb | `…ta+ki+ka` | one who makes/causes X; instigator |
+| causative + result | verb | `…ta+bo+ka` | what is brought about by X |
+| agent + place | verb | `…ki+de+ka` | place of the one who Xs |
+| opposite + quality | modifier | `…ku+pa+ka` | un-X-ness |
+| causative + agent | modifier | `…ta+ki+ka` | one who makes things X |
+
+Each is gated identically (§3). The same root-final/affix segmentation ambiguity
+(§5.2) applies and is again a parser concern, not a generation one.
+
+-----
+
+## 8. Layer C — curated compounding (seed)
+
+Compounding (`0002` §3.1: *modifier-root(s) + head-root + one badge*) is the
+largest multiplier and the most editorial. It is **open-ended N×N**, so it is the
+one layer that must **not** be auto-generated as a cross-product. Instead
+`scripts/derive-compounds.mjs` holds a hand-curated, **real-glossed** seed
+(`data/compounds.tsv`), each entry referencing concept **IDs** (robust to form
+edits) and grouped into productive sub-grids — *X-room/X-house* (bathroom,
+kitchen, library, hospital, bank…), *X-person* (patient, worker, cook, elder…),
+*body + pain* (headache, toothache), *eye-water* (tears), *X-light*
+(sunlight, daylight), *word-book* (dictionary), and so on.
+
+The generator applies the **§3.1 buffer-vowel rule** at an illegal `n`-seam
+(`din`+`hikali` → `din‑a‑hikali` "daylight"; `hon`+`mise` → `hon‑a‑mise`
+"bookstore") and is **fail-fast**: because the list is curated, *every* entry
+must clear the gate — a failure aborts the build rather than shipping a mangled
+compound (this is how the seam `pika`+`kama` "cook-room", which surfaces the
+obscenity-screened `…kaka`, was caught and re-routed to `cook-house`). 32
+compounds in the seed; it is explicitly extensible.
+
+-----
+
+## 9. What is **not** derivable (recorded, so it isn't retried)
+
+- **Pronouns and function words** (`0002` §6) take **no badge** and are
+  closed-class, so the badge/affix machinery does not apply. Richer pronouns
+  (reflexive, reciprocal, dedicated possessive) are **new closed-class words** →
+  a governance/ADR decision, not a generation pass.
+- **Numeral derivations** (ordinals, multiplicatives) likewise need a *new affix*
+  fixed by ADR before they can be generated; numerals are closed-class
+  determiners today.
+- **The correlatives grid** (`0002` §6.7) is already complete and closed (42).
