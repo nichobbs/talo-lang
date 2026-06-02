@@ -1483,8 +1483,8 @@ SPA-038	gap / clearance	SPA	3	n	yes		IDS	5b batch1 (Japonic)
 SPA-039	level / floor (storey)	SPA	2	n	yes		IDS	5b batch1 (Japonic)
 SPA-040	zone / sector	SPA	2	n	yes		IDS	5b batch1 (Japonic)
 SPA-041	slot / niche	SPA	3	n	yes		IDS	5b batch1 (Japonic)
-ACT-127	rescue / save	ACT	2	v	yes		IDS	0007 §7 corpus batch (Bantu)
-SOC-089	president	SOC	2	n	yes		IDS	0007 §7 corpus batch (Romance, capped)
-SOC-090	minister	SOC	2	n	yes		IDS	0007 §7 corpus batch (Austronesian)
-SOC-091	official	SOC	2	n	yes		IDS	0007 §7 corpus batch (Indo-Aryan)
-SOC-092	spokesperson	SOC	2	n	no	say + -ki(agent)	IDS	0007 §7 — derived (sema+ki -> semakika), not a root
+ACT-127	rescue / save	ACT	2	v	yes		IDS	0008 §7 corpus batch (Bantu)
+SOC-089	president	SOC	2	n	yes		IDS	0008 §7 corpus batch (Romance, capped)
+SOC-090	minister	SOC	2	n	yes		IDS	0008 §7 corpus batch (Austronesian)
+SOC-091	official	SOC	2	n	yes		IDS	0008 §7 corpus batch (Indo-Aryan)
+SOC-092	spokesperson	SOC	2	n	no	say + -ki(agent)	IDS	0008 §7 — derived (sema+ki -> semakika), not a root
