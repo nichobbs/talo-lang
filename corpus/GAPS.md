@@ -57,13 +57,13 @@ to derive cleanly: `destroy`→`nasai`, `region/area`→`padesa`, `report`→`la
 
 The two longer articles surfaced **no grammar gaps** — conditionals (`fi…toki`),
 wh-/yes-no questions, the connectives `i`/`ma`/`sababu`, and the negative
-imperative all composed at discourse length. A few small **vocabulary** gaps were
-paraphrased around and are candidates for a future batch:
+imperative all composed at discourse length. The small **vocabulary** gaps they
+exposed are now **minted** (donor-balanced, both gates exit 0):
 
-- **`danger` / `dangerous`** — avoided; rendered as "the wind/sea is strong" and
-  "people fear the storm" (`taku`).
-- **`stay` / `remain`** (as distinct from "be at") — used the locative `kuna`
-  ("be in the house"); a dedicated "stay" verb would read better for warnings.
-- **`calm`** (of weather/sea) — rendered as "good" (`hao`); a real "calm/still"
-  modifier is the natural word.
-- **`study`** — folded onto `belaya` "learn" / `baca` "read".
+- **`danger`** → `bahaya` (Indonesian, Austronesian); *dangerous* = `bahayape`.
+- **`stay` / `remain`** (distinct from locative `kuna`) → `tomalu` (Japanese
+  *tomaru*, Japonic).
+- **`study`** (distinct from `belaya` "learn" / `baca` "read") → `soma` (Swahili,
+  Bantu).
+- **`calm`** — *not* a gap: it already exists as **`sisuka`** (the batch-3 note was
+  mistaken; the storm article's "good sea" could be re-worded with `sisuka`).
