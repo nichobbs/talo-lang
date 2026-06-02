@@ -1471,3 +1471,5 @@ ACT-127	rescue / save	okoa	INTL	Swahili okoa	Bantu
 SOC-089	president	pelesiden	INTL	Indonesian/Latin presiden (praesidens)	Romance (capped)
 SOC-090	minister	menteli	INTL	Indonesian menteri (r->l)	Austronesian
 SOC-091	official	adikali	INTL	Hindi adhikari (dh->d, r->l)	Indo-Aryan
+BOD-079	be born	lahili	INTL	Indonesian lahir (coda r -> li)	Austronesian
+ACT-128	appear	tokea	INTL	Swahili tokea	Bantu

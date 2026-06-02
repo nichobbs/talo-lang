@@ -160,12 +160,13 @@ person.N five or more die.V COMPLETIVE
 **Rationale.** Zero new vocabulary, fully regular, transparent (rules 3, 4, 5);
 "N or more" is a recognised paraphrase across many languages (rule 1).
 
-**"about / approximately N" — ratified: reuse `mungi` "maybe".** Postpose `mungi`
-to the numeral-quantified noun, as a hedge on the figure:
+**"about / approximately N" — ratified: reuse `mungi` "maybe".** Place `mungi`
+**immediately before the numeral** it hedges (it scopes the figure, so it leads
+it — `… mungi N`, not `… N mungi`):
 
 ```
-hitoka le mungi matito li
-person.N five maybe die.V COMPLETIVE
+hitoka mungi le matito li
+person.N maybe five die.V COMPLETIVE
 'About five people died.'
 ```
 
@@ -188,12 +189,13 @@ borrowed month names:
 | Unit | Pattern | Example |
 |---|---|---|
 | month | `sukia` + cardinal | `sukia mo` = month-3 = March |
-| weekday | `din` + cardinal | `din ta` = day-1 (first day of the week) |
+| weekday | `din` + cardinal | `din ta` = day-1 = **Sunday** |
 | year | `taun` + spelled number | `taun ki-sebu ki-diko-le` etc. |
 
-A dateline is then just a time-phrase in the normal slot. **Out of scope:** which
-day the week starts on, and the calendar epoch — those are *culture*, a `0000`
-non-goal, and should not be baked into the grammar.
+**The week starts on Sunday** (ratified): `din ta` = Sunday, `din ki` = Monday, …,
+`din pikae` = Friday, `din haba` = Saturday. The calendar **epoch** (which year is
+counted from) stays **out of scope** — that is *culture*, a `0000` non-goal, and is
+not baked into the grammar.
 
 **Rationale.** Regularity over borrowed irregular sets (rule 3); zero new
 vocabulary (rule 5); a learner who knows the numerals can already say every date
