@@ -23,6 +23,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const CORPUS = join(__dirname, "..");
 const ARTICLES = join(CORPUS, "articles");
 const LEXICON = join(CORPUS, "..", "data", "lexicon.tsv");
+const COMPOUNDS = join(CORPUS, "..", "data", "compounds.tsv");
 const PROPER = join(CORPUS, "proper-nouns.tsv");
 
 /**
@@ -103,6 +104,10 @@ function clausesFrom(md: string): string[] {
 
 function main(): void {
   const lexRoots = loadLexiconRoots(LEXICON);
+  // Curated compounds (data/compounds.tsv) are whole surface forms (e.g.
+  // `dobukebunka` zoo); the analyzer can't reduce them to a single root, so we
+  // match the token verbatim against this set.
+  const compoundForms = loadLexiconRoots(COMPOUNDS);
   const properRoots = loadProperRoots(PROPER);
   const files = readdirSync(ARTICLES).filter((f) => f.endsWith(".md")).sort();
   if (files.length === 0) {
@@ -125,6 +130,7 @@ function main(): void {
       }
       // real-vocab check: every content word must reduce to a known form
       for (const tok of clause.split(/\s+/)) {
+        if (compoundForms.has(tok.toLowerCase())) continue; // a curated compound surface form
         const a = analyze(tok);
         if (a.kind !== "content" || !a.root) continue;
         const known = candidateStems(a.root, a.affixes).some(
