@@ -1,0 +1,14 @@
+{
+  "name": "talo-corpus",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A growing corpus of short Talo articles with English + interlinear glosses. Every clause is validated through tools/parser, and every content root must be a real lexicon entry or a declared proper noun. Zero dependencies (Node built-in type-stripping).",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "check": "node --experimental-strip-types build/check.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}

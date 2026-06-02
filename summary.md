@@ -19,6 +19,7 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 | Grammar completeness | `docs/0005` — conditionals, existential verb `kuna`, determiner order, proper nouns, phatic set (7 new forms) |
 | Lexicon scaling | `docs/0006` — batch log; 7 batches, +1082 forms across all domains (386 → 1468), donor-balanced |
 | Derivation expansion | `docs/0007` — `scripts/derive-lexicon.mjs` applies the 3 badges + productive affixes per pos_hint to 1369 content roots → 6989 gated surface words (81 dropped); self-validating, regenerable |
+| Corpus (first slice) | `corpus/` — 3 simplified news items (17 clauses), each validated through the parser; new `corpus-check` CI gate enforces grammar + real-vocab-only; gaps logged in `corpus/GAPS.md` |
 
 ## What exists today
 
@@ -100,6 +101,15 @@ forms minted → buffer-vowel polish pass.
 4. **Governance & freeze boundary** (open decision O-6 in `0000` §9) — decide
    what is frozen core vs open before community scale.
 5. Later: derivation explorer, SRS material generation, corpus/community seeding.
+
+**Corpus follow-ups** (from the first `corpus/` slice, see `corpus/GAPS.md`):
+`docs/0008-corpus` is **ratified (Status: Accepted)**: it settles the register
+constructions the news text forced — agentless predication
+(resultative `-pe` + impersonal `bala`, no passive voice), reported speech by
+juxtaposition, compositional approximation (`o lebi`/`o sukuna`), numeric dates,
+manner `-pe`, and a proper-noun transliteration procedure — all with **no new
+morphemes**. The §7 lexicon batch (`rescue`, political-role titles; `kill` =
+causative `matita`) is minted separately (`0008 §7`, +4 roots, both gates exit 0).
 
 ## Open decisions still logged (`0000` §9)
 
