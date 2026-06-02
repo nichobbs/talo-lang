@@ -7,16 +7,18 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 
 | | |
 |---|---|
-| Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass), 5b (lexicon scaling to ~1,500) |
+| Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass), 5b (lexicon scaling to ~1,500), 6 (derivation expansion) |
 | Phase in progress | — (next: parser/validator, or governance/freeze O-6) |
 | Concepts catalogued | 1484 (`data/concepts.tsv`) |
-| Lexicon forms minted | 1468 (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
-| Both gates | green (linter R1–R6 + collision checker); 1468/1468 clear, exit 0 |
+| Lexicon forms minted | 1468 roots (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
+| Derived dictionary | 6989 surface words (`data/derived-lexicon.tsv`, generated) — **8457 total entries** |
+| Both gates | green (linter R1–R6 + collision checker); roots 1468/1468 + derived 6989/6989 clear, exit 0 |
 | CI | both tool test suites passing (linter; checker 12/12) |
 | Donor blend | all families ≤25% cap — Japonic 18.6%, Bantu 17.6%, Indo-Aryan 14.2%, Romance 13.2%, Austronesian 10.1%, Semitic 5.9%, Sinitic 2.6% |
 | Hello-world corpus | `docs/0004` — 2 annotated dialogues + ~30 feature sentences, all on the 386 words |
 | Grammar completeness | `docs/0005` — conditionals, existential verb `kuna`, determiner order, proper nouns, phatic set (7 new forms) |
 | Lexicon scaling | `docs/0006` — batch log; 7 batches, +1082 forms across all domains (386 → 1468), donor-balanced |
+| Derivation expansion | `docs/0007` — `scripts/derive-lexicon.mjs` applies the 3 badges + productive affixes per pos_hint to 1369 content roots → 6989 gated surface words (81 dropped); self-validating, regenerable |
 
 ## What exists today
 
