@@ -17,6 +17,7 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 | Hello-world corpus | `docs/0004` — 2 annotated dialogues + ~30 feature sentences, all on the 386 words |
 | Grammar completeness | `docs/0005` — conditionals, existential verb `kuna`, determiner order, proper nouns, phatic set (7 new forms) |
 | Lexicon scaling | `docs/0006` — batch log; 7 batches, +1082 forms across all domains (386 → 1468), donor-balanced |
+| Corpus (first slice) | `corpus/` — 3 simplified news items (17 clauses), each validated through the parser; new `corpus-check` CI gate enforces grammar + real-vocab-only; gaps logged in `corpus/GAPS.md` |
 
 ## What exists today
 
@@ -98,6 +99,13 @@ forms minted → buffer-vowel polish pass.
 4. **Governance & freeze boundary** (open decision O-6 in `0000` §9) — decide
    what is frozen core vs open before community scale.
 5. Later: derivation explorer, SRS material generation, corpus/community seeding.
+
+**Corpus follow-ups** (from the first `corpus/` slice, see `corpus/GAPS.md`):
+write a `docs/0007-corpus` ADR for the register decisions the news text forced —
+the biggest being **agentless/passive predication** and a **quotative for
+reported speech** — plus a small political-roles + emergency lexicon batch
+(`president`/`minister`/`rescue`, and confirm `kill` = causative `matita`), and a
+proper-noun **transliteration** appendix. None minted/decided yet (needs sign-off).
 
 ## Open decisions still logged (`0000` §9)
 

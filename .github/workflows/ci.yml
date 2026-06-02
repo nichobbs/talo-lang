@@ -73,6 +73,22 @@ jobs:
         working-directory: book
         run: npm run check
 
+  # The corpus check is the fourth tool gate: it validates every Talo clause in
+  # corpus/articles/ through the parser AND enforces that every content root is a
+  # real lexicon entry or a declared proper noun — so the reading corpus can
+  # never go ungrammatical or invent vocabulary. Zero deps.
+  corpus-check:
+    name: Corpus clauses validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Validate Talo corpus
+        working-directory: corpus
+        run: npm run check
+
   # The dictionary generator is the cross-file integrity gate for data/ (every
   # form legal, unique, badges consistent) and produces the published JSON the
   # web tool loads. Its suite must stay green. Zero deps.
@@ -111,7 +127,7 @@ jobs:
   # are never auto-merged — they fall through to human review.
   auto-merge-docs:
     name: Auto-merge docs-only PRs
-    needs: [test, collision-tests, parser-tests, book-check, dictionary-tests, site-check]
+    needs: [test, collision-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.draft == false
