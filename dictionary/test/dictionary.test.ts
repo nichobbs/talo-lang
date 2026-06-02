@@ -48,6 +48,29 @@ test("generated JSON is well-formed and every form is legal Talo", () => {
   }
 });
 
+test("derived words and compounds are folded in and resolve", () => {
+  const data = JSON.parse(readFileSync(join(DICT, "dist", "dictionary.json"), "utf8")) as Array<{
+    form: string; kind: string; base?: string; morphemes?: string; keywords: string[];
+  }>;
+  const kinds = new Map<string, number>();
+  for (const e of data) kinds.set(e.kind, (kinds.get(e.kind) ?? 0) + 1);
+  // all three layers present (docs/0007): roots + derived + compounds
+  assert.ok((kinds.get("root") ?? 0) > 1400, "roots present");
+  assert.ok((kinds.get("derived") ?? 0) > 5000, "derived layer folded in");
+  assert.ok((kinds.get("compound") ?? 0) > 0, "compound layer folded in");
+  const byForm = new Map(data.map((e) => [e.form, e]));
+  // a known derived word resolves, carries its breakdown, and is searchable by root meaning
+  const d = byForm.get("tendakika");
+  assert.ok(d && d.kind === "derived", "tendakika should be a derived entry");
+  assert.equal(d!.base, "tenda");
+  assert.equal(d!.morphemes, "tenda+ki+ka");
+  assert.ok(d!.keywords.includes("make"), "derived word indexed under its root meaning");
+  // every derived/compound carries a morpheme breakdown
+  for (const e of data) {
+    if (e.kind !== "root") assert.ok(e.morphemes, `${e.form} (${e.kind}) needs a morpheme breakdown`);
+  }
+});
+
 test("English index headwords all resolve to a real form", () => {
   const data = JSON.parse(readFileSync(join(DICT, "dist", "dictionary.json"), "utf8")) as Array<{ form: string }>;
   const forms = new Set(data.map((e) => e.form));

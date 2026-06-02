@@ -70,6 +70,15 @@ export interface Entry {
   /** which badges this root conventionally takes, derived from pos hint */
   badges: { noun?: string; verb?: string; modifier?: string };
   source: string;
+  /** "root" (a bare acategorial root), "derived" (root+affix(es)+badge, docs/0007
+   *  §2/§7) or "compound" (multi-root + badge, §8). Lets the web tool filter. */
+  kind: "root" | "derived" | "compound";
+  /** for derived/compound: the morpheme breakdown, e.g. "edu+ki+ka". */
+  morphemes?: string;
+  /** for derived: the underlying root form, e.g. "edu". */
+  base?: string;
+  /** the gloss keywords the English→Talo search indexes this entry under. */
+  keywords: string[];
 }
 
 const POS_TO_BADGE: Record<string, ("noun" | "verb" | "modifier")[]> = {
@@ -128,6 +137,46 @@ function build(): Entry[] {
       derivation: c?.derivation ?? "",
       badges,
       source: r.rationale || r.source || "",
+      kind: "root",
+      keywords: glossKeywords(gloss),
+    });
+  }
+
+  // ---- derived layer (data/derived-lexicon.tsv, docs/0007 §2/§7) ------------
+  // The productive paradigm materialised as surface WORDS (root+affix(es)+badge),
+  // folded in so a lookup of e.g. `edukika` "teacher" resolves. They are checked
+  // through the SAME integrity gate (legal + unique). English→Talo search indexes
+  // them under their ROOT gloss (the templated English gloss is a display hint),
+  // so searching "teach" surfaces the agent/place/result derivations too.
+  for (const r of loadTsv(join(DATA, "derived-lexicon.tsv"))) {
+    const { id, form, gloss } = r;
+    if (!form) continue;
+    pushSurface(entries, problems, seenForm, {
+      id, form, gloss, kind: "derived",
+      domain: id.split(".")[0].split("-")[0],
+      derivation: r.deriv ?? "",
+      morphemes: r.morphemes ?? "",
+      base: r.root ?? "",
+      // index under the root meaning, not the templated gloss
+      keywords: glossKeywords(r.root_gloss ?? gloss),
+      source: r.morphemes ?? "",
+    });
+  }
+
+  // ---- compound layer (data/compounds.tsv, docs/0007 §8) --------------------
+  // Curated idiomatic compounds; grouped under the HEAD root's domain, indexed
+  // under their own (real) gloss.
+  for (const r of loadTsv(join(DATA, "compounds.tsv"))) {
+    const { id, form, gloss } = r;
+    if (!form) continue;
+    const head = (r.parts ?? "").split("+").pop() ?? "";
+    pushSurface(entries, problems, seenForm, {
+      id, form, gloss, kind: "compound",
+      domain: head.split("-")[0] || "MOD",
+      derivation: "compound",
+      morphemes: r.morphemes ?? "",
+      keywords: glossKeywords(gloss),
+      source: r.parts ?? "",
     });
   }
 
@@ -139,6 +188,31 @@ function build(): Entry[] {
 
   process.stdout.write(`✓ ${entries.length} entries, all forms legal, no duplicate forms\n`);
   return entries;
+}
+
+/**
+ * Append a derived/compound surface word, running the same integrity gate as a
+ * root: the form must be legal Talo and globally unique. (The generators in
+ * scripts/ already guarantee both, but the dictionary re-checks so it stays an
+ * independent cross-file gate over whatever is committed.)
+ */
+function pushSurface(
+  entries: Entry[],
+  problems: string[],
+  seenForm: Map<string, string>,
+  e: Pick<Entry, "id" | "form" | "gloss" | "kind" | "domain" | "derivation" | "morphemes" | "keywords" | "source"> & { base?: string },
+): void {
+  if (!lint(e.form).legal) problems.push(`${e.id} '${e.form}': illegal Talo (derived)`);
+  if (seenForm.has(e.form)) problems.push(`duplicate form '${e.form}': ${seenForm.get(e.form)} and ${e.id}`);
+  else seenForm.set(e.form, e.id);
+  entries.push({
+    ...e,
+    domainName: DOMAINS[e.domain] ?? e.domain.toLowerCase(),
+    tier: 0,
+    pos: "", // surface words carry no pos HINT; their category is in the badge
+    isRoot: false,
+    badges: {},
+  });
 }
 
 /** Remove a trailing badge if present, to re-badge a stored form. */
@@ -158,11 +232,16 @@ function glossKeywords(gloss: string): string[] {
 function emit(entries: Entry[]): void {
   mkdirSync(DIST, { recursive: true });
 
-  // 1. JSON (web tool data) — compact, with split keywords for search.
+  // 1. JSON (web tool data) — compact, with split keywords for search. Includes
+  //    roots, derived words and compounds (the `kind` field distinguishes them),
+  //    so the lookup tool resolves any surface word, not just bare roots.
   const json = entries.map((e) => ({
-    id: e.id, form: e.form, gloss: e.gloss, keywords: glossKeywords(e.gloss),
+    id: e.id, form: e.form, gloss: e.gloss, keywords: e.keywords,
     domain: e.domain, domainName: e.domainName, tier: e.tier, pos: e.pos,
-    isRoot: e.isRoot, derivation: e.derivation, badges: e.badges,
+    isRoot: e.isRoot, kind: e.kind, derivation: e.derivation,
+    ...(e.base ? { base: e.base } : {}),
+    ...(e.morphemes ? { morphemes: e.morphemes } : {}),
+    badges: e.badges,
   }));
   writeFileSync(join(DIST, "dictionary.json"), JSON.stringify(json, null, 0) + "\n");
 
@@ -177,15 +256,18 @@ function emit(entries: Entry[]): void {
   for (const e of byForm) {
     const L = e.form[0].toUpperCase();
     if (L !== letter) { letter = L; t2e.push(`\n## ${L}\n`); }
-    const badgeNote = badgeLine(e);
-    t2e.push(`**${e.form}** — ${e.gloss}  *(${e.domainName})*${badgeNote}`, "");
+    // roots show their badge forms; derived/compounds show the morpheme breakdown.
+    const note = e.kind === "root" ? badgeLine(e) : ` — *${e.morphemes}* (${e.kind})`;
+    t2e.push(`**${e.form}** — ${e.gloss}  *(${e.domainName})*${note}`, "");
   }
   writeFileSync(join(DIST, "talo-english.md"), t2e.join("\n"));
 
   // 3. English → Talo, alphabetical by gloss keyword (one line per keyword).
+  //    Each entry is indexed under its `keywords` (derived words under their ROOT
+  //    meaning), so an English search resolves roots and their derivations alike.
   const pairs: { key: string; form: string; gloss: string }[] = [];
   for (const e of entries) {
-    for (const k of glossKeywords(e.gloss)) pairs.push({ key: k.toLowerCase(), form: e.form, gloss: e.gloss });
+    for (const k of e.keywords) pairs.push({ key: k.toLowerCase(), form: e.form, gloss: e.gloss });
   }
   pairs.sort((a, b) => a.key.localeCompare(b.key) || a.form.localeCompare(b.form));
   const e2t: string[] = [
