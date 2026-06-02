@@ -38,6 +38,8 @@ h1{font-size:2.2rem;color:var(--accent);margin:.2rem 0 .4rem;line-height:1.15}
 .chip{font-family:'SF Mono',Menlo,Consolas,monospace;font-size:.85rem;background:var(--chip);padding:.2em .55em;border-radius:6px;border-left:3px solid var(--line)}
 .chip.n{border-left-color:#5a8f5a}.chip.v{border-left-color:#7a3b00}.chip.m{border-left-color:#3b5a8f}
 .chip em{color:var(--mut);font-style:normal;font-size:.8em}
+.deriv{font-style:italic}
+.morph{font-family:'SF Mono',Menlo,Consolas,monospace;font-size:.8rem;background:var(--chip);padding:.05em .4em;border-radius:5px}
 .entry.error{border-color:#c0392b;color:#c0392b}
 .empty{color:var(--mut);text-align:center;margin-top:2rem}
 

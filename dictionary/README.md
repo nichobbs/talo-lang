@@ -49,8 +49,29 @@ Function words and the correlatives grid take no badge and are listed as-is.
 Multi-sense glosses ("look at / watch") are split into separate English headwords
 so both senses are findable.
 
+## Derived words and compounds
+
+The dictionary also folds in the **derived layer** the morphology generates
+([`docs/0007`](../docs/0007-derivation-expansion.md)) so a lookup resolves *any*
+surface word, not just bare roots:
+
+| `kind` | source file | example |
+|---|---|---|
+| `root` | `data/lexicon.tsv` | `tenda` "do / make" |
+| `derived` | `data/derived-lexicon.tsv` | `tendakika` "doer" (`tenda+ki+ka`, agent) |
+| `compound` | `data/compounds.tsv` | `panikamaka` "bathroom" (`pani+kama+ka`) |
+
+Each derived/compound entry carries a `morphemes` breakdown (and `base` for
+derived words). They are **indexed under their root meaning**, so an English
+search for *teach* surfaces the root and its agent/place/result derivations
+together. Every form is re-checked through the linter and the global
+uniqueness gate, so the build stays an independent integrity check over all three
+data files.
+
 ## Regenerating
 
 `dist/dictionary.json` is committed (it is the published data artifact the static
 site loads). The two Markdown files are generated on demand and git-ignored. Run
-`npm run build` after any change to `data/lexicon.tsv` or `data/concepts.tsv`.
+`npm run build` after any change to `data/lexicon.tsv`, `data/concepts.tsv`,
+`data/derived-lexicon.tsv` or `data/compounds.tsv` (regenerate the latter two
+first with `scripts/derive-lexicon.mjs` / `scripts/derive-compounds.mjs`).

@@ -60,8 +60,18 @@ function render(list) {
     .map((e) => {
       const chips = badgeChips(e.badges || {});
       const tier = e.tier ? `<span class="tier t${e.tier}">tier ${e.tier}</span>` : "";
-      const deriv = e.derivation ? ` · <span class="deriv">derived: ${escapeHtml(e.derivation)}</span>` : "";
-      return `<li class="entry">
+      // roots: show the concept's derivation note. derived/compound surface words
+      // (kind from docs/0007): show the relation + the morpheme breakdown so the
+      // learner sees HOW the word is built.
+      let deriv = "";
+      if (e.kind === "derived" || e.kind === "compound") {
+        const rel = e.kind === "compound" ? "compound" : escapeHtml(e.derivation || "derived");
+        const morph = e.morphemes ? ` <span class="morph">${escapeHtml(e.morphemes)}</span>` : "";
+        deriv = ` · <span class="deriv">${rel}</span>${morph}`;
+      } else if (e.derivation) {
+        deriv = ` · <span class="deriv">derived: ${escapeHtml(e.derivation)}</span>`;
+      }
+      return `<li class="entry ${escapeHtml(e.kind || "root")}">
         <div class="head"><span class="form">${escapeHtml(e.form)}</span>
           <span class="gloss">${escapeHtml(e.gloss)}</span></div>
         <div class="meta"><span class="domain">${escapeHtml(e.domainName)}</span> ${tier}${deriv}</div>
