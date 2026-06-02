@@ -66,6 +66,8 @@ const COMPOUNDS = [
   { parts: ["SPE-002", "MOD-002"], badge: "ka", gloss: "dictionary (word-book)" },
   { parts: ["MOD-002", "MOD-022"], badge: "ka", gloss: "bookstore (book-shop)" }, // n-seam buffer
   { parts: ["FOO-001", "MOD-022"], badge: "ka", gloss: "grocery (food-shop)" },
+  // ---- appended (0008 follow-up): keep IDs stable, append-only -------------
+  { parts: ["ANI-001", "DWE-025"], badge: "ka", gloss: "zoo (animal-garden)" },
 ];
 
 // ---- loaders ---------------------------------------------------------------

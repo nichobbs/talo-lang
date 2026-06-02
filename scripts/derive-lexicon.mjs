@@ -95,6 +95,11 @@ const PARADIGM = {
     { affixes: ["go"], badge: "ka", label: "augmentative", gloss: (g) => `big ${q(g)}; great ${q(g)}` },
     { affixes: ["de"], badge: "ka", label: "place", gloss: (g) => `place of/for ${q(g)}` }, // A
   ],
+  num: [
+    // Ordinals are the modifier reading of a cardinal (docs/0003 §5; QTY-017):
+    // bare numeral = cardinal counting determiner (0005 §3), numeral + -pe = ordinal.
+    { badge: "pe", label: "ordinal", gloss: (g) => `${q(g)}th; the ${q(g)} in order (ordinal)` },
+  ],
   mod: [
     { badge: "pe", label: "modifier", gloss: (g) => `${g}` },
     { badge: "ka", label: "noun", gloss: (g) => `${q(g)}-ness; the quality ${q(g)}` },
@@ -141,7 +146,7 @@ function main() {
     const concept = concepts.get(lex.id);
     if (!concept) { console.error(`FATAL: lexicon id ${lex.id} has no concept row`); process.exit(1); }
     const slots = PARADIGM[concept.pos_hint];
-    if (!slots) continue; // function words (fun) and numerals (num) are not derived
+    if (!slots) continue; // function words (fun) are not derived; numerals (num) get only the ordinal -pe
 
     const root = lex.form;
     const rootGloss = lex.gloss || concept.gloss;

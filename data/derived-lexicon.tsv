@@ -1,4 +1,12 @@
 id	form	gloss	pos	root	root_gloss	deriv	morphemes
+QTY-001.pe	sope	'zero'th; the 'zero' in order (ordinal)	modifier	so	zero	ordinal	so+pe
+QTY-002.pe	tape	'one'th; the 'one' in order (ordinal)	modifier	ta	one	ordinal	ta+pe
+QTY-003.pe	kipe	'two'th; the 'two' in order (ordinal)	modifier	ki	two	ordinal	ki+pe
+QTY-004.pe	mope	'three'th; the 'three' in order (ordinal)	modifier	mo	three	ordinal	mo+pe
+QTY-005.pe	fupe	'four'th; the 'four' in order (ordinal)	modifier	fu	four	ordinal	fu+pe
+QTY-006.pe	lepe	'five'th; the 'five' in order (ordinal)	modifier	le	five	ordinal	le+pe
+QTY-011.pe	dikope	'ten'th; the 'ten' in order (ordinal)	modifier	diko	ten	ordinal	diko+pe
+QTY-012.pe	samupe	'hundred'th; the 'hundred' in order (ordinal)	modifier	samu	hundred	ordinal	samu+pe
 TIM-001.ka	wakatika	time	noun	wakati	time	noun	wakati+ka
 TIM-001.pe	wakatipe	of/like 'time'; 'time'-related	modifier	wakati	time	modifier	wakati+pe
 TIM-001.to	wakatito	to use/apply 'time'; to act as 'time'	verb	wakati	time	verb	wakati+to
@@ -1151,6 +1159,13 @@ FOO-008.to	gohanto	to use/apply 'rice'; to act as 'rice'	verb	gohan	rice	verb	go
 FOO-008.cika	gohancika	little 'rice'; small/dear 'rice'	noun	gohan	rice	diminutive	gohan+ci+ka
 FOO-008.goka	gohangoka	big 'rice'; great 'rice'	noun	gohan	rice	augmentative	gohan+go+ka
 FOO-008.deka	gohandeka	place of/for 'rice'	noun	gohan	rice	place	gohan+de+ka
+QTY-007.pe	pikaepe	'six'th; the 'six' in order (ordinal)	modifier	pikae	six	ordinal	pikae+pe
+QTY-008.pe	habape	'seven'th; the 'seven' in order (ordinal)	modifier	haba	seven	ordinal	haba+pe
+QTY-009.pe	cewape	'eight'th; the 'eight' in order (ordinal)	modifier	cewa	eight	ordinal	cewa+pe
+QTY-010.pe	hubape	'nine'th; the 'nine' in order (ordinal)	modifier	huba	nine	ordinal	huba+pe
+QTY-013.pe	sebupe	'thousand'th; the 'thousand' in order (ordinal)	modifier	sebu	thousand	ordinal	sebu+pe
+QTY-014.pe	milionpe	'million'th; the 'million' in order (ordinal)	modifier	milion	million	ordinal	milion+pe
+QTY-027.pe	setengape	'half'th; the 'half' in order (ordinal)	modifier	setenga	half	ordinal	setenga+pe
 QTY-028.ka	kasuka	number	noun	kasu	number	noun	kasu+ka
 QTY-028.pe	kasupe	of/like 'number'; 'number'-related	modifier	kasu	number	modifier	kasu+pe
 QTY-028.to	kasuto	to use/apply 'number'; to act as 'number'	verb	kasu	number	verb	kasu+to
@@ -10687,3 +10702,27 @@ SOC-091.to	adikalito	to use/apply 'official'; to act as 'official'	verb	adikali	
 SOC-091.cika	adikalicika	little 'official'; small/dear 'official'	noun	adikali	official	diminutive	adikali+ci+ka
 SOC-091.goka	adikaligoka	big 'official'; great 'official'	noun	adikali	official	augmentative	adikali+go+ka
 SOC-091.deka	adikalideka	place of/for 'official'	noun	adikali	official	place	adikali+de+ka
+BOD-079.to	lahilito	to 'be born'	verb	lahili	be born	verb	lahili+to
+BOD-079.ka	lahilika	act of 'be born'; a 'be born'	noun	lahili	be born	noun	lahili+ka
+BOD-079.pe	lahilipe	'be born'-ing	modifier	lahili	be born	modifier	lahili+pe
+BOD-079.kika	lahilikika	one who 'be born's; 'be born'-er	noun	lahili	be born	agent	lahili+ki+ka
+BOD-079.tuka	lahilituka	tool/means for 'be born'	noun	lahili	be born	instrument	lahili+tu+ka
+BOD-079.boka	lahiliboka	thing 'be born'-ed; result of 'be born'	noun	lahili	be born	patient/result	lahili+bo+ka
+BOD-079.deka	lahilideka	place for 'be born'	noun	lahili	be born	place	lahili+de+ka
+BOD-079.tato	lahilitato	to make/cause to 'be born'	verb	lahili	be born	causative	lahili+ta+to
+BOD-079.pito	lahilipito	to begin to 'be born'	verb	lahili	be born	inchoative	lahili+pi+to
+BOD-079.takika	lahilitakika	one who makes/causes 'be born'; instigator of 'be born'	noun	lahili	be born	causative-agent	lahili+ta+ki+ka
+BOD-079.taboka	lahilitaboka	what is brought about by 'be born'	noun	lahili	be born	causative-result	lahili+ta+bo+ka
+BOD-079.kideka	lahilikideka	place of the one who 'be born's	noun	lahili	be born	agent-place	lahili+ki+de+ka
+ACT-128.to	tokeato	to 'appear'	verb	tokea	appear	verb	tokea+to
+ACT-128.ka	tokeaka	act of 'appear'; a 'appear'	noun	tokea	appear	noun	tokea+ka
+ACT-128.pe	tokeape	'appear'-ing	modifier	tokea	appear	modifier	tokea+pe
+ACT-128.kika	tokeakika	one who 'appear's; 'appear'-er	noun	tokea	appear	agent	tokea+ki+ka
+ACT-128.tuka	tokeatuka	tool/means for 'appear'	noun	tokea	appear	instrument	tokea+tu+ka
+ACT-128.boka	tokeaboka	thing 'appear'-ed; result of 'appear'	noun	tokea	appear	patient/result	tokea+bo+ka
+ACT-128.deka	tokeadeka	place for 'appear'	noun	tokea	appear	place	tokea+de+ka
+ACT-128.tato	tokeatato	to make/cause to 'appear'	verb	tokea	appear	causative	tokea+ta+to
+ACT-128.pito	tokeapito	to begin to 'appear'	verb	tokea	appear	inchoative	tokea+pi+to
+ACT-128.takika	tokeatakika	one who makes/causes 'appear'; instigator of 'appear'	noun	tokea	appear	causative-agent	tokea+ta+ki+ka
+ACT-128.taboka	tokeataboka	what is brought about by 'appear'	noun	tokea	appear	causative-result	tokea+ta+bo+ka
+ACT-128.kideka	tokeakideka	place of the one who 'appear's	noun	tokea	appear	agent-place	tokea+ki+de+ka
