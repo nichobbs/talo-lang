@@ -101,11 +101,13 @@ forms minted → buffer-vowel polish pass.
 5. Later: derivation explorer, SRS material generation, corpus/community seeding.
 
 **Corpus follow-ups** (from the first `corpus/` slice, see `corpus/GAPS.md`):
-write a `docs/0007-corpus` ADR for the register decisions the news text forced —
-the biggest being **agentless/passive predication** and a **quotative for
-reported speech** — plus a small political-roles + emergency lexicon batch
-(`president`/`minister`/`rescue`, and confirm `kill` = causative `matita`), and a
-proper-noun **transliteration** appendix. None minted/decided yet (needs sign-off).
+`docs/0007-corpus` is **drafted (Status: Proposed — awaiting ratification)**: it
+proposes the register constructions the news text forced — agentless predication
+(resultative `-pe` + impersonal `bala`, no passive voice), reported speech by
+juxtaposition, compositional approximation (`o lebi`/`o sukuna`), numeric dates,
+manner `-pe`, and a proper-noun transliteration procedure — all with **no new
+morphemes**. The remaining work item is a gated lexicon batch (`rescue`,
+political-role titles; `kill` = causative `matita`); not minted yet.
 
 ## Open decisions still logged (`0000` §9)
 
