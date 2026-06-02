@@ -1467,3 +1467,7 @@ SPA-038	gap / clearance	sukima	INTL	blend rubric; src 'sukima'	blend; Japonic
 SPA-039	level / floor (storey)	kaida	INTL	blend rubric; src 'kaida'	blend; Japonic
 SPA-040	zone / sector	kuiki	INTL	blend rubric; src 'kuiki'	blend; Japonic
 SPA-041	slot / niche	kukan	INTL	blend rubric; src 'kukan'	blend; Japonic
+ACT-127	rescue / save	okoa	INTL	Swahili okoa	Bantu
+SOC-089	president	pelesiden	INTL	Indonesian/Latin presiden (praesidens)	Romance (capped)
+SOC-090	minister	menteli	INTL	Indonesian menteri (r->l)	Austronesian
+SOC-091	official	adikali	INTL	Hindi adhikari (dh->d, r->l)	Indo-Aryan

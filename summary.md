@@ -9,10 +9,11 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 |---|---|
 | Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass), 5b (lexicon scaling to ~1,500), 6 (derivation expansion) |
 | Phase in progress | — (next: parser/validator, or governance/freeze O-6) |
-| Concepts catalogued | 1484 (`data/concepts.tsv`) |
-| Lexicon forms minted | 1468 roots (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
-| Derived dictionary | 6989 surface words (`data/derived-lexicon.tsv`, generated) — **8457 total entries** |
-| Both gates | green (linter R1–R6 + collision checker); roots 1468/1468 + derived 6989/6989 clear, exit 0 |
+| Concepts catalogued | 1489 (`data/concepts.tsv`) |
+| Lexicon forms minted | 1472 roots (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
+| Derived dictionary | 7009 surface words (`data/derived-lexicon.tsv`, generated) — **8481 total entries** |
+| Both gates | green (linter R1–R6 + collision checker); roots 1472/1472 + derived 7009/7009 clear, exit 0 |
+| 0008 §7 corpus batch | +4 roots the news translations needed — `okoa` rescue (Bantu), `pelesiden` president (Romance), `menteli` minister (Austronesian), `adikali` official (Indo-Aryan); `kill`/`spokesperson` stay derived. Both gates exit 0 |
 | CI | both tool test suites passing (linter; checker 12/12) |
 | Donor blend | all families ≤25% cap — Japonic 18.6%, Bantu 17.6%, Indo-Aryan 14.2%, Romance 13.2%, Austronesian 10.1%, Semitic 5.9%, Sinitic 2.6% |
 | Hello-world corpus | `docs/0004` — 2 annotated dialogues + ~30 feature sentences, all on the 386 words |
