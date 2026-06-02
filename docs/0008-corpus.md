@@ -183,19 +183,20 @@ gain `mungi` already delivers).
 year.
 
 **Proposed decision.** Name calendar units **numerically** with the existing
-cardinals, as `unit + numeral` (the postposed-determiner order of `0005` §3) — no
-borrowed month names:
+cardinals, as `unit-noun + numeral` (the postposed-determiner order of `0005` §3) —
+no borrowed month names. The unit is an ordinary content noun, so it takes the
+`-ka` badge (`0002` §1); the numeral is the bare counting determiner:
 
 | Unit | Pattern | Example |
 |---|---|---|
-| month | `sukia` + cardinal | `sukia mo` = month-3 = March |
-| weekday | `din` + cardinal | `din ta` = day-1 = **Sunday** |
-| year | `taun` + spelled number | `taun ki-sebu ki-diko-le` etc. |
+| month | `sukiaka` + cardinal | `sukiaka mo` = month-3 = March |
+| weekday | `dinka` + cardinal | `dinka ta` = day-1 = **Sunday** |
+| year | `taunka` + spelled number | `taunka ki-sebu ki-diko-le` etc. |
 
-**The week starts on Sunday** (ratified): `din ta` = Sunday, `din ki` = Monday, …,
-`din pikae` = Friday, `din haba` = Saturday. The calendar **epoch** (which year is
-counted from) stays **out of scope** — that is *culture*, a `0000` non-goal, and is
-not baked into the grammar.
+**The week starts on Sunday** (ratified): `dinka ta` = Sunday, `dinka ki` = Monday,
+…, `dinka pikae` = Friday, `dinka haba` = Saturday. The calendar **epoch** (which
+year is counted from) stays **out of scope** — that is *culture*, a `0000` non-goal,
+and is not baked into the grammar.
 
 **Rationale.** Regularity over borrowed irregular sets (rule 3); zero new
 vocabulary (rule 5); a learner who knows the numerals can already say every date
