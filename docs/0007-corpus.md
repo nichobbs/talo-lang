@@ -1,13 +1,13 @@
 # Talo — Phase 7 (corpus register): the constructions running text demands
 
-**Status: PROPOSED — not yet ratified.** This is a *draft*. It proposes
-resolutions to the gaps the first translation slice surfaced (`corpus/GAPS.md`),
-so Talo can carry connected, journalistic-register text. **Nothing here is
-locked until signed off**; merging this ADR (after review) is what ratifies
-§§1–6. Each section gives a recommended decision, its rationale against the `0000`
-§0 tie-break rules, and the alternative rejected with its cost — but the close
-calls (the quotative in §2, the agentless strategy in §1) are explicitly flagged
-for the maintainer to confirm or amend.
+**Status: Accepted.** Resolves the gaps the first translation slice surfaced
+(`corpus/GAPS.md`) so Talo can carry connected, journalistic-register text. The
+two close calls were **ratified by the maintainer**: §1 keeps the two existing-
+machinery strategies and adds **no passive voice**; §2 keeps **direct quotation
+by juxtaposition** and does **not** mint an indirect-speech complementiser at this
+time. §3 adopts `mungi` for "about". Like `0005`, this ADR is *additive*: it fills
+in constructions `0002`/`0005` left unspecified and reverses nothing in
+`0000`–`0006`. **No new closed-class morpheme is minted by any decision here.**
 
 **Why now.** Translating three short news items (`corpus/articles/`) showed the
 *lexicon* is rarely the blocker — most "missing" words already exist under a
@@ -37,7 +37,7 @@ this extends), `docs/0005` (proper nouns §4, which §6 here completes), and
 | # | Gap (from `corpus/GAPS.md`) | Resolved in | New morpheme? |
 |---|---|---|---|
 | 1 | No agentless / passive predication | §1 | none |
-| 2 | No reported-speech frame (quotative) | §2 | none (one optional, flagged) |
+| 2 | No reported-speech frame (quotative) | §2 | none |
 | 3 | No approximation ("at least", "about") | §3 | none |
 | 4 | No date / weekday / month naming | §4 | none |
 | 5 | Manner-adverb status of `-pe` undocumented | §5 | none |
@@ -96,10 +96,9 @@ existing strategies already mostly deliver — a poor trade against rule 3. *Als
 rejected: object-fronting/topicalisation*, because it breaks the subject-first
 invariant (`0002` §3.5) — a locked decision, high cost.
 
-> **Flag for sign-off.** If the maintainer judges dynamic agentless clauses
-> frequent enough in the target register to warrant a true passive, that is a
-> `0002`-level reopening and should be its own decision; this ADR recommends
-> against it.
+> **Ratified.** The maintainer confirmed the two-strategy approach and declined a
+> true passive voice. Should a future register prove dynamic agentless clauses
+> frequent enough to need one, that is a `0002`-level reopening with its own ADR.
 
 -----
 
@@ -125,14 +124,13 @@ Talo needs no tense backshift (the language has no tense, `0002` §5), so the ga
 between "said: *help is coming*" and "said *that* help was coming" largely
 collapses anyway.
 
-**Optional, flagged for decision — an indirect-speech complementiser.** If a
-"that"-clause is wanted (to embed the report as an object: *"knows that…",
-"reported that…"*), it needs **one minted closed-class function word** (a legal CV
-"that", screened by both gates). This ADR does **not** mint it; it records the
-slot and recommends deferring until a construction actually requires embedding
-rather than juxtaposition. **Cost of adding it:** one new function word + a
-subordination pattern; **cost of not:** complex attributed sentences must be split
-into two. *Maintainer call.*
+**Indirect-speech complementiser — ratified NOT to add (for now).** A "that"-
+clause (to embed the report as an object: *"knows that…", "reported that…"*) would
+need one minted closed-class function word. The maintainer declined it at this
+time: with no tense backshift, juxtaposition covers the attested needs, and the
+complementiser can be revisited in its own ADR if embedding later proves frequent
+(e.g. for "asked whether…" questions). **Accepted cost:** complex attributed
+sentences are split into two clauses rather than embedded.
 
 -----
 
@@ -162,9 +160,18 @@ person.N five or more die.V COMPLETIVE
 **Rationale.** Zero new vocabulary, fully regular, transparent (rules 3, 4, 5);
 "N or more" is a recognised paraphrase across many languages (rule 1).
 
-**Open sub-item (defer):** *"about / approximately N"* has no clean compositional
-form. Candidate: reuse `mungi` "maybe" before the numeral (`mungi le` ≈ "about
-five"), or mint a dedicated hedge later. Left out of the ratified set.
+**"about / approximately N" — ratified: reuse `mungi` "maybe".** Postpose `mungi`
+to the numeral-quantified noun, as a hedge on the figure:
+
+```
+hitoka le mungi matito li
+person.N five maybe die.V COMPLETIVE
+'About five people died.'
+```
+
+Zero new vocabulary (rules 1, 5); "maybe five" ≈ "about five" is a recognised
+paraphrase. A dedicated approximator was considered and declined (a new word for a
+gain `mungi` already delivers).
 
 -----
 
@@ -282,7 +289,7 @@ real lexicon entry, so no placeholder can sneak in.
 |---|---|
 | §1 agentless = resultative `-pe` + impersonal `bala` | dynamic agentless clauses are slightly periphrastic vs. a true passive |
 | §2 reported speech = juxtaposition | embedded "that"-clauses must be split until/unless a complementiser is minted |
-| §3 approximation = `o lebi` / `o sukuna` | "about/approximately" still unresolved (deferred) |
+| §3 approximation = `o lebi` / `o sukuna`; "about" = `mungi` | a true comparative/approximator grade is paraphrastic, not morphological |
 | §4 dates = numeric | no one-word month/day names; datelines are two-token phrases |
 | §5 manner = predicate `-pe` | a `-pe` word's adnominal vs. adverbial reading is context-resolved, not marked |
 | §6 transliteration procedure | some names have more than one defensible adaptation; the registry arbitrates |
