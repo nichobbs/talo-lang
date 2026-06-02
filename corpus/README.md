@@ -21,7 +21,7 @@ corpus check keeps the running *text* honest.
 - `proper-nouns.tsv` — names used in the corpus, adapted to Talo phonotactics
   (`0005 §4`). Roots are stored bare and lowercase (`yapan` → written `Yapanka`).
 - `GAPS.md` — hand-maintained punch-list of concepts/structures that forced a
-  paraphrase. Inputs to a future `docs/0007-corpus` ADR; **no minting here**.
+  paraphrase. Inputs to the `docs/0008-corpus` ADR; **no minting here**.
 - `build/check.ts` — the gate (below).
 
 ## Article format

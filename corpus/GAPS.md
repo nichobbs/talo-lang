@@ -4,7 +4,7 @@ Concepts and structures that translating the first three articles forced us to
 **paraphrase or recast** because Talo cannot yet say them directly. This file is
 hand-maintained (the checker can only catch *unknown roots in text*, not *things
 we couldn't write*). Nothing here is a decision — these are inputs for a future
-`docs/0007-corpus` ADR and small, gated lexicon/grammar follow-ups. **No words
+`docs/0008-corpus` ADR and small, gated lexicon/grammar follow-ups. **No words
 have been minted and no grammar has been changed in this slice.**
 
 ## Vocabulary gaps (would need minting, donor-balanced, both gates)
