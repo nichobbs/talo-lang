@@ -52,3 +52,18 @@ to derive cleanly: `destroy`→`nasai`, `region/area`→`padesa`, `report`→`la
   spelling to follow, how to place stress, handling of un-adaptable segments).
   `Japan` → `Yapan` was a judgement call. A short transliteration appendix would
   make the corpus reproducible. Declared names live in `proper-nouns.tsv`.
+
+## Batch-3 workarounds (longer pieces — storm, school)
+
+The two longer articles surfaced **no grammar gaps** — conditionals (`fi…toki`),
+wh-/yes-no questions, the connectives `i`/`ma`/`sababu`, and the negative
+imperative all composed at discourse length. A few small **vocabulary** gaps were
+paraphrased around and are candidates for a future batch:
+
+- **`danger` / `dangerous`** — avoided; rendered as "the wind/sea is strong" and
+  "people fear the storm" (`taku`).
+- **`stay` / `remain`** (as distinct from "be at") — used the locative `kuna`
+  ("be in the house"); a dedicated "stay" verb would read better for warnings.
+- **`calm`** (of weather/sea) — rendered as "good" (`hao`); a real "calm/still"
+  modifier is the natural word.
+- **`study`** — folded onto `belaya` "learn" / `baca` "read".
