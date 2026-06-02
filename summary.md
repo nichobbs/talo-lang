@@ -21,6 +21,7 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 | Lexicon scaling | `docs/0006` — batch log; 7 batches, +1082 forms across all domains (386 → 1468), donor-balanced |
 | Derivation expansion | `docs/0007` — 3 layers, all gated/regenerable: (A) first-order affixes + (B) curated 2nd-order stacks via `scripts/derive-lexicon.mjs` → 10688 forms; (C) curated compounds via `scripts/derive-compounds.mjs` → 32. 1472 roots → 12192 entries. Wired into the dictionary build (`dictionary/`) so lookup resolves derived/compound words |
 | Corpus (first slice) | `corpus/` — 3 simplified news items (17 clauses), each validated through the parser; new `corpus-check` CI gate enforces grammar + real-vocab-only; gaps logged in `corpus/GAPS.md` |
+| Proposals (not yet ratified) | `docs/0009` pronoun extensions (reflexive `sendi`, reciprocal `salin`); `docs/0010` numeral derivations (ordinal `banu`, multiplicative `kai`, fraction `bagi`). Forms gated clear; await governance (O-6) before any data/grammar change |
 
 ## What exists today
 
