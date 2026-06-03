@@ -10726,3 +10726,33 @@ ACT-128.pito	tokeapito	to begin to 'appear'	verb	tokea	appear	inchoative	tokea+p
 ACT-128.takika	tokeatakika	one who makes/causes 'appear'; instigator of 'appear'	noun	tokea	appear	causative-agent	tokea+ta+ki+ka
 ACT-128.taboka	tokeataboka	what is brought about by 'appear'	noun	tokea	appear	causative-result	tokea+ta+bo+ka
 ACT-128.kideka	tokeakideka	place of the one who 'appear's	noun	tokea	appear	agent-place	tokea+ki+de+ka
+PROP-105.ka	bahayaka	danger	noun	bahaya	danger	noun	bahaya+ka
+PROP-105.pe	bahayape	of/like 'danger'; 'danger'-related	modifier	bahaya	danger	modifier	bahaya+pe
+PROP-105.to	bahayato	to use/apply 'danger'; to act as 'danger'	verb	bahaya	danger	verb	bahaya+to
+PROP-105.cika	bahayacika	little 'danger'; small/dear 'danger'	noun	bahaya	danger	diminutive	bahaya+ci+ka
+PROP-105.goka	bahayagoka	big 'danger'; great 'danger'	noun	bahaya	danger	augmentative	bahaya+go+ka
+PROP-105.deka	bahayadeka	place of/for 'danger'	noun	bahaya	danger	place	bahaya+de+ka
+MOT-064.to	tomaluto	to 'stay / remain'	verb	tomalu	stay / remain	verb	tomalu+to
+MOT-064.ka	tomaluka	act of 'stay / remain'; a 'stay / remain'	noun	tomalu	stay / remain	noun	tomalu+ka
+MOT-064.pe	tomalupe	'stay / remain'-ing	modifier	tomalu	stay / remain	modifier	tomalu+pe
+MOT-064.kika	tomalukika	one who 'stay / remain's; 'stay / remain'-er	noun	tomalu	stay / remain	agent	tomalu+ki+ka
+MOT-064.tuka	tomalutuka	tool/means for 'stay / remain'	noun	tomalu	stay / remain	instrument	tomalu+tu+ka
+MOT-064.boka	tomaluboka	thing 'stay / remain'-ed; result of 'stay / remain'	noun	tomalu	stay / remain	patient/result	tomalu+bo+ka
+MOT-064.deka	tomaludeka	place for 'stay / remain'	noun	tomalu	stay / remain	place	tomalu+de+ka
+MOT-064.tato	tomalutato	to make/cause to 'stay / remain'	verb	tomalu	stay / remain	causative	tomalu+ta+to
+MOT-064.pito	tomalupito	to begin to 'stay / remain'	verb	tomalu	stay / remain	inchoative	tomalu+pi+to
+MOT-064.takika	tomalutakika	one who makes/causes 'stay / remain'; instigator of 'stay / remain'	noun	tomalu	stay / remain	causative-agent	tomalu+ta+ki+ka
+MOT-064.taboka	tomalutaboka	what is brought about by 'stay / remain'	noun	tomalu	stay / remain	causative-result	tomalu+ta+bo+ka
+MOT-064.kideka	tomalukideka	place of the one who 'stay / remain's	noun	tomalu	stay / remain	agent-place	tomalu+ki+de+ka
+COG-076.to	somato	to 'study'	verb	soma	study	verb	soma+to
+COG-076.ka	somaka	act of 'study'; a 'study'	noun	soma	study	noun	soma+ka
+COG-076.pe	somape	'study'-ing	modifier	soma	study	modifier	soma+pe
+COG-076.kika	somakika	one who 'study's; 'study'-er	noun	soma	study	agent	soma+ki+ka
+COG-076.tuka	somatuka	tool/means for 'study'	noun	soma	study	instrument	soma+tu+ka
+COG-076.boka	somaboka	thing 'study'-ed; result of 'study'	noun	soma	study	patient/result	soma+bo+ka
+COG-076.deka	somadeka	place for 'study'	noun	soma	study	place	soma+de+ka
+COG-076.tato	somatato	to make/cause to 'study'	verb	soma	study	causative	soma+ta+to
+COG-076.pito	somapito	to begin to 'study'	verb	soma	study	inchoative	soma+pi+to
+COG-076.takika	somatakika	one who makes/causes 'study'; instigator of 'study'	noun	soma	study	causative-agent	soma+ta+ki+ka
+COG-076.taboka	somataboka	what is brought about by 'study'	noun	soma	study	causative-result	soma+ta+bo+ka
+COG-076.kideka	somakideka	place of the one who 'study's	noun	soma	study	agent-place	soma+ki+de+ka

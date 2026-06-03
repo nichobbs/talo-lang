@@ -1473,3 +1473,6 @@ SOC-090	minister	menteli	INTL	Indonesian menteri (r->l)	Austronesian
 SOC-091	official	adikali	INTL	Hindi adhikari (dh->d, r->l)	Indo-Aryan
 BOD-079	be born	lahili	INTL	Indonesian lahir (coda r -> li)	Austronesian
 ACT-128	appear	tokea	INTL	Swahili tokea	Bantu
+PROP-105	danger	bahaya	INTL	Indonesian bahaya	Austronesian
+MOT-064	stay / remain	tomalu	INTL	Japanese tomaru (r->l)	Japonic
+COG-076	study	soma	INTL	Swahili soma	Bantu

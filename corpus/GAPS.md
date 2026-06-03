@@ -57,13 +57,40 @@ to derive cleanly: `destroy`→`nasai`, `region/area`→`padesa`, `report`→`la
 
 The two longer articles surfaced **no grammar gaps** — conditionals (`fi…toki`),
 wh-/yes-no questions, the connectives `i`/`ma`/`sababu`, and the negative
-imperative all composed at discourse length. A few small **vocabulary** gaps were
-paraphrased around and are candidates for a future batch:
+imperative all composed at discourse length. The small **vocabulary** gaps they
+exposed are now **minted** (donor-balanced, both gates exit 0):
 
-- **`danger` / `dangerous`** — avoided; rendered as "the wind/sea is strong" and
-  "people fear the storm" (`taku`).
-- **`stay` / `remain`** (as distinct from "be at") — used the locative `kuna`
-  ("be in the house"); a dedicated "stay" verb would read better for warnings.
-- **`calm`** (of weather/sea) — rendered as "good" (`hao`); a real "calm/still"
-  modifier is the natural word.
-- **`study`** — folded onto `belaya` "learn" / `baca` "read".
+- **`danger`** → `bahaya` (Indonesian, Austronesian); *dangerous* = `bahayape`.
+- **`stay` / `remain`** (distinct from locative `kuna`) → `tomalu` (Japanese
+  *tomaru*, Japonic).
+- **`study`** (distinct from `belaya` "learn" / `baca` "read") → `soma` (Swahili,
+  Bantu).
+- **`calm`** — *not* a gap: it already exists as **`sisuka`** (the batch-3 note was
+  mistaken; the storm article's "good sea" could be re-worded with `sisuka`).
+
+## Register strains (opinion / analysis — article 0009)
+
+The op-ed piece is fully valid Talo, but four natural opinion constructions had
+to be **paraphrased**. These are the grammar's current edges for argued prose —
+candidates for future ADRs, not bugs:
+
+1. **Comparative with a standard** ("more X *than* Y") — biggest strain. There is
+   no "than"/standard marker, so it was split into two contrasting degree clauses
+   (`somaka … muhimupe lebi` / `uanka … muhimupe sukuna` = "study matters more,
+   money less"). A `mae`-style standard marker or a `lebi … fe …` ("more … from …")
+   construction would be the natural fix.
+2. **Relative clauses** ("the people *who* study") — no relative construction.
+   Agentive ones dodge it via the agent noun (`somakika` "studier" = "those who
+   study"); a *non-agentive* relative ("the country that helps") still needs two
+   clauses. NEW.
+3. **Modality** ("must / should / can") — `lasima` "must" and `bisa` "can" are
+   plain verbs with no auxiliary or verb-chaining construction. Used verb +
+   nominalised complement (`lasimato somaka` "must the-studying"); works but is
+   periphrastic, and there is **no must-vs-should distinction**. NEW.
+4. **Embedded complement "that"** ("I think *that* …") — rendered by juxtaposition
+   (`mi omouto li. …`), as `0008` §2 already foresaw; opinion register leans on it
+   constantly, strengthening the case for a future quotative/complementiser.
+
+Notably, everything *else* held: abstract subjects, evaluation, `because`/`but`,
+conditionals, the ordinal, and the new `soma`/`bahaya`/`tomalu` all composed
+cleanly.
