@@ -101,8 +101,9 @@ forms minted → buffer-vowel polish pass.
    widening the phatic set._
 3. **Parser/validator tool** — checks sentence well-formedness (subject-first,
    badge-final, role markers); doubles as a teaching aid and regression harness.
-4. **Governance & freeze boundary** (open decision O-6 in `0000` §9) — decide
-   what is frozen core vs open before community scale.
+4. **Governance & freeze boundary** (open decision O-6 in `0000` §9) — **proposed
+   in `docs/0011`**; awaits maintainer ratification, then declare the v1.0 freeze
+   once the §5.1 checklist is green.
 5. Later: derivation explorer, SRS material generation, corpus/community seeding.
 
 **Corpus follow-ups** (from the first `corpus/` slice, see `corpus/GAPS.md`):
@@ -116,5 +117,13 @@ causative `matita`) is minted separately (`0008 §7`, +4 roots, both gates exit 
 
 ## Open decisions still logged (`0000` §9)
 
-- **O-6** governance model & freeze boundary — not yet made.
+- **O-6** governance model & freeze boundary — **proposed** in
+  `docs/0011-governance-freeze-boundary.md`; resolves on maintainer ratification.
+  Defines a three-tier freeze (**F** frozen core = `0001`+`0002`+the constitution
+  + gate rules; **S** governed-extension = closed-class words/affixes, where
+  `0009`/`0010` markers live; **O** open = lexicon + corpus + gate seed data), the
+  **additive invariant** (Talo only ever adds; nothing already learned becomes
+  wrong), an interim maintainer with an Academy-succession trigger, and a **1.0
+  freeze** with a pre-freeze checklist (real false-friend/blocklist data; euphony
+  polish; parser as executable spec; `0009`/`0010` settled).
 - (O-1…O-5 resolved; O-7 resolved pedagogically.)

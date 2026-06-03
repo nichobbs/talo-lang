@@ -255,7 +255,12 @@ front **what is frozen vs open**: which core is immutable (cf. Esperanto’s
 *Fundamento*, whose deliberate freeze prevented fragmentation while allowing
 peripheral growth), who may extend the lexicon, and how changes are ratified.
 
-> **TODO:** draft the governance model and the freeze boundary.
+> **PROPOSED (`docs/0011`):** the governance model and freeze boundary are drafted
+> in `docs/0011-governance-freeze-boundary.md` — a three-tier freeze (F frozen
+> core / S governed-extension / O open lexicon+corpus), the **additive invariant**
+> (Talo only ever *adds*; nothing already learned becomes wrong), an interim
+> maintainer with a defined Academy-succession trigger, and a 1.0 freeze with a
+> pre-freeze checklist. Resolves on maintainer ratification.
 
 -----
 
@@ -303,7 +308,7 @@ the least under our control.
 |O-3|Derivation/affix system                            |✅ **Resolved** in `docs/0002-morphology-grammar.md` §§2–3: acategorial roots, ten-affix core, compounding.|
 |O-4|Role-marker inventory (ditransitives, obliques)    |✅ **Resolved** in `docs/0002-morphology-grammar.md` §4: six free postpositions.|
 |O-5|Tense/aspect/number particle set & defaults        |✅ **Resolved** in `docs/0002-morphology-grammar.md` §5: no tense; aspect `li`/`wi` + time-words; plural `pu`; clusivity `sa`/`fo`.|
-|O-6|Governance model & freeze boundary                 |§6. Before community scales.                                                    |
+|O-6|Governance model & freeze boundary                 |📝 **Proposed** in `docs/0011-governance-freeze-boundary.md` (three-tier freeze + additive invariant + 1.0 trigger); §6. Resolves on maintainer ratification.|
 |O-7|Per-speaker verb-order consistency norm            |Resolved *pedagogically* (§3.5): teach one, unlock fluidity. Not a grammar rule.|
 
 -----
