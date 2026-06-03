@@ -8,7 +8,7 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 | | |
 |---|---|
 | Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass), 5b (lexicon scaling to ~1,500), 6 (derivation expansion) |
-| Phase in progress | — (next: parser/validator, or governance/freeze O-6) |
+| Phase in progress | — (O-6 governance/freeze **resolved**, `docs/0011`; next: drive the v1.0 freeze checklist, `0011` §5.1) |
 | Concepts catalogued | 1494 (`data/concepts.tsv`) |
 | Lexicon forms minted | 1477 roots (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
 | Derived dictionary | 10757 affix-derived (`data/derived-lexicon.tsv`) + 33 curated compounds (`data/compounds.tsv`), all generated — **12267 total entries** |
@@ -117,16 +117,16 @@ causative `matita`) is minted separately (`0008 §7`, +4 roots, both gates exit 
 
 ## Open decisions still logged (`0000` §9)
 
-- **O-6** governance model & freeze boundary — **proposed** in
-  `docs/0011-governance-freeze-boundary.md`; resolves on maintainer ratification.
-  Defines a three-tier freeze (**F** frozen core = `0001`+`0002`+the constitution
-  + gate rules; **S** governed-extension = closed-class words/affixes, where
-  `0009`/`0010` markers live; **O** open = lexicon + corpus + gate seed data), the
-  **additive invariant** (Talo only ever adds; nothing already learned becomes
-  wrong), an interim maintainer with an Academy-succession trigger, and a **1.0
-  freeze** with a pre-freeze checklist (real false-friend/blocklist data; euphony
-  polish; parser as executable spec; `0009`/`0010` settled).
-  **Update:** `0009` and `0010` are now **ratified** by the maintainer under the
-  `0011` Tier-S bootstrap path (`sendi`/`salin`, `kai`/`bagi`), settling that
-  checklist item; `0011` itself stays PROPOSED pending its status flip.
-- (O-1…O-5 resolved; O-7 resolved pedagogically.)
+- **O-6** governance model & freeze boundary — ✅ **resolved (ratified)** in
+  `docs/0011-governance-freeze-boundary.md`. Defines a three-tier freeze (**F**
+  frozen core = `0001`+`0002`+the constitution + gate rules; **S**
+  governed-extension = closed-class words/affixes; **O** open = lexicon + corpus +
+  gate seed data), the **additive invariant** (Talo only ever adds; nothing
+  already learned becomes wrong), an interim maintainer with an Academy-succession
+  trigger, and a **1.0 freeze** with a pre-freeze checklist (real
+  false-friend/blocklist data; euphony polish; parser as executable spec;
+  `0009`/`0010` settled). `0009` (`sendi`/`salin`) and `0010` (`kai`/`bagi`) are
+  ratified as the **first Tier-S additions** under it.
+- **All logged O-decisions are now resolved** (O-1…O-6; O-7 resolved
+  pedagogically). Next work is execution toward the **v1.0 freeze checklist**
+  (`0011` §5.1), not open design questions.

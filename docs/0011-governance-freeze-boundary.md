@@ -1,13 +1,14 @@
 # Talo — ADR 0011: Governance model & freeze boundary
 
-**Status: PROPOSED** (resolves open decision **O-6**, `0000` §6 / §9). This ADR
-defines *what is frozen vs. open*, *who may extend Talo*, and *how changes are
-ratified*. It is **constitutional**: it changes no phonology, grammar, or lexicon,
-but it establishes the process every future change runs through — including its
-own. Because no ratification process exists yet, the bootstrap is explicit (§0):
-the **maintainer** ratifies this ADR directly, and that single act brings the
-model into force and retroactively supplies the "governance process" that `0009`
-and `0010` already cite.
+**Status: ACCEPTED** (resolves open decision **O-6**, `0000` §6 / §9; ratified by
+the maintainer). This ADR defines *what is frozen vs. open*, *who may extend
+Talo*, and *how changes are ratified*. It is **constitutional**: it changes no
+phonology, grammar, or lexicon, but it establishes the process every future
+change runs through — including its own. Because no ratification process existed
+beforehand, the bootstrap is explicit (§0): the **maintainer** ratified this ADR
+directly, and that single act brought the model into force and retroactively
+supplied the "governance process" that `0009` and `0010` cite — both since
+ratified under it as the first Tier-S additions (§8).
 
 **Parent:** `docs/0000-design-principles.md` §6 (governance), §8 (freeze
 bottom-up), §9 (open decision O-6). **Inherits:** `0000`'s tie-break rule 5
@@ -269,19 +270,19 @@ keeps "writing down a proposal" cheap and "changing the language" deliberate.
 
 -----
 
-## 8. If ratified — the change set
+## 8. Change set (landed on ratification)
 
-1. `0000` §6: replace the `TODO` with a one-line summary + pointer to this ADR.
-   `0000` §9: mark **O-6 ✅ Resolved** in `docs/0011`.
-2. `0009` and `0010` (the `kai`/`bagi` markers): the "awaiting the governance
-   process" blocker is now satisfiable — each becomes a Tier-S motion the
-   maintainer can ratify under §6. (This ADR does not pre-ratify them; it unblocks
-   them.)
-3. `summary.md`: update the "Open decisions" section — O-6 resolved; note the
-   three-tier boundary and the 1.0 freeze checklist as the path to a release.
-4. (Optional, operational) extract §2/§4/§6 into a top-level `GOVERNANCE.md` /
-   `CONTRIBUTING.md` for contributors who won't read ADRs; the ADR stays the
-   decision of record.
+1. ✅ `0000` §6: the `TODO` replaced with a summary + pointer to this ADR.
+   `0000` §9: **O-6 marked ✅ Resolved** in `docs/0011`.
+2. ✅ `0009` and `0010` (incl. the `kai`/`bagi` markers): the "awaiting the
+   governance process" blocker is satisfied — both **ratified** by the maintainer
+   as the first **Tier-S** additions under §6 (reflexive/reciprocal `sendi`/`salin`;
+   multiplicative/fraction `kai`/`bagi`).
+3. ✅ `summary.md`: "Open decisions" section updated — O-6 resolved; three-tier
+   boundary and 1.0 freeze checklist recorded as the path to a release.
+4. (Optional, operational, not yet done) extract §2/§4/§6 into a top-level
+   `GOVERNANCE.md` / `CONTRIBUTING.md` for contributors who won't read ADRs; the
+   ADR stays the decision of record.
 
-Until ratified, this document is the proposal of record; nothing downstream
-changes.
+This document is now the governance of record; the model in §2–§6 governs all
+subsequent changes, including amendments to this ADR itself.
