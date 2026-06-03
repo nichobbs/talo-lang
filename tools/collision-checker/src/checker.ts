@@ -49,6 +49,10 @@ export const RESERVED_FORMS: ReadonlySet<string> = new Set([
   "li", "wi", "pu", "sa", "fo",
   // pronouns (§6.1), negator (§6.2), copula root (§6.3), question (§6.4), and (§6.5)
   "mi", "yu", "te", "ne", "ya", "ke", "i",
+  // coreference pro-forms (§6.8): reflexive/emphatic, reciprocal (0009, ratified)
+  "sendi", "salin",
+  // numeral markers (0010, ratified): multiplicative (N times), fraction (a÷b)
+  "kai", "bagi",
 ]);
 
 /** A false-friend entry: `form` is a common word meaning something else in `lang`. */

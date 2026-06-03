@@ -63,6 +63,10 @@ export const FUNCTION_WORDS = {
   pronouns: new Set(["mi", "yu", "te"]),
   /** negator (§6.2) */
   negator: new Set(["ne"]),
+  /** coreference pro-forms (§6.8): reflexive/emphatic `sendi`, reciprocal `salin` */
+  coreference: new Set(["sendi", "salin"]),
+  /** numeral markers (0010): multiplicative `kai` (N times), fraction `bagi` (a÷b) */
+  numeralMarker: new Set(["kai", "bagi"]),
   /** question particle, clause-final (§6.4) */
   question: new Set(["ke"]),
   /** coordinator (§6.5) */
@@ -123,6 +127,8 @@ function functionRoleOf(token: string): string | null {
   if (FUNCTION_WORDS.number.has(token)) return "number";
   if (FUNCTION_WORDS.pronouns.has(token)) return "pronoun";
   if (FUNCTION_WORDS.negator.has(token)) return "negator";
+  if (FUNCTION_WORDS.coreference.has(token)) return "coreference";
+  if (FUNCTION_WORDS.numeralMarker.has(token)) return "numeralMarker";
   if (FUNCTION_WORDS.question.has(token)) return "question";
   if (FUNCTION_WORDS.conjunction.has(token)) return "conjunction";
   if (FUNCTION_WORDS.other.has(token)) return "other";

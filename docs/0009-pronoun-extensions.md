@@ -1,12 +1,14 @@
 # Talo — Proposal 0009: Pronoun & coreference extensions
 
-**Status: PROPOSED** (awaiting ratification under the governance process — `0000`
-§6 / open decision **O-6**, now drafted in `docs/0011-governance-freeze-boundary.md`,
-where these are a **Tier-S** closed-class addition). This ADR proposes
-**additions** to the closed-class
-function-word inventory; it changes **no** frozen decision and mints **no**
-lexicon data until ratified. It is the written-up answer to "what would it take to
-give Talo reflexives, reciprocals and possessive pronouns?".
+**Status: ACCEPTED** (ratified by the maintainer under the governance process —
+`0000` §6 / O-6, the **Tier-S** path in `docs/0011-governance-freeze-boundary.md`
+§6). Reflexive/emphatic `sendi` and reciprocal `salin` are now part of the
+closed-class inventory (`0002` §6.8 / Appendix B), reserved in the collision
+checker, and recognised by the parser. `salin`'s placement is fixed to the
+**object slot** (§2.2). The change set landed is in §6. This ADR proposes
+**additions** to the closed-class function-word inventory; it changes **no**
+frozen decision. It is the written-up answer to "what would it take to give Talo
+reflexives, reciprocals and possessive pronouns?".
 
 **Parent:** `docs/0002-morphology-grammar.md` §6 (closed-class function words,
 pronouns §6.1, role markers §4). **Constraints inherited:** the phonotactics
@@ -77,9 +79,8 @@ One word covers both the reflexive and the emphatic, exactly as English *-self*
 does — maximal transfer, zero extra judgement (rules 1, 3).
 
 ### 2.2 Reciprocal `salin`
-`salin` marks a symmetric relation among a plural subject; it sits in the object
-slot (or before the verb, like the negator `ne` §6.2 — placement to be fixed at
-ratification, recommended **object slot** for parallelism with `sendi`):
+`salin` marks a symmetric relation among a plural subject; it sits in the
+**object slot** (fixed at ratification, for parallelism with `sendi`):
 
 ```
 te pu tungguto salin     they help each other
@@ -131,14 +132,25 @@ node --experimental-strip-types tools/collision-checker/src/cli.ts \
 
 -----
 
-## 6. If ratified — the change set
+## 6. The change set (landed on ratification)
 
-1. `0002` §6: add `sendi` (reflexive/emphatic) and `salin` (reciprocal) to the
-   closed-class inventory and Appendix B; fix `salin`'s placement.
-2. `tools/collision-checker` `RESERVED_FORMS` and `tools/parser`
-   `FUNCTION_WORDS`: add both words (so they parse as function words and are
-   reserved against future minting).
-3. `data/concepts.tsv` + `data/lexicon.tsv`: add the two as `FUN` entries.
-4. A corpus sentence or two exercising each (the `0008` corpus gate).
+1. ✅ `0002` §6.8 (new) + Appendix B: `sendi` (reflexive/emphatic) and `salin`
+   (reciprocal) added to the closed-class inventory (free-word count 18 → 20);
+   `salin`'s placement fixed to the object slot (§2.2).
+2. ✅ `tools/collision-checker` `RESERVED_FORMS` and `tools/parser`
+   `FUNCTION_WORDS` (a new `coreference` group): both words added, so they parse
+   as function words and are reserved against future minting.
+3. **Superseded — no `data/` rows.** The proposal floated adding the pair as
+   `FUN` entries in `concepts.tsv`/`lexicon.tsv`, but the established invariant is
+   that **0002 Appendix-B grammatical morphemes** (pronouns, role markers, the
+   negator, `i`, …) live in `RESERVED_FORMS` and are **not** lexicon dataset rows —
+   the two sets are disjoint. `sendi`/`salin` join that closed grammar class, so
+   they follow the same pattern. Putting a form in **both** `RESERVED_FORMS` and
+   the lexicon would also self-trip the checker's RESERVED gate (`checkBatch`
+   seeds occupied with the reserved set). Reserved-only is the gate-safe,
+   consistent home; being reserved already protects them from future homophone
+   minting.
+4. ✅ Corpus coverage exercising each: `corpus/articles/0010-coreference.md`
+   (reflexive, emphatic, reciprocal), parser- and lexicon-gated.
 
-Until then, this document is the proposal of record; nothing downstream changes.
+Both gates and all four tool test-suites pass (exit 0) with the above landed.

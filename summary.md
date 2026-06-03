@@ -21,8 +21,8 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 | Grammar completeness | `docs/0005` — conditionals, existential verb `kuna`, determiner order, proper nouns, phatic set (7 new forms) |
 | Lexicon scaling | `docs/0006` — batch log; 7 batches, +1082 forms across all domains (386 → 1468), donor-balanced |
 | Derivation expansion | `docs/0007` — 3 layers, all gated/regenerable: (A) first-order affixes (incl. the `num` ordinal `-pe`) + (B) curated 2nd-order stacks via `scripts/derive-lexicon.mjs` → 10757 forms; (C) curated compounds via `scripts/derive-compounds.mjs` → 33. 1477 roots → 12267 entries. Wired into the dictionary build (`dictionary/`) so lookup resolves derived/compound words |
-| Corpus | `corpus/` — 9 items (66 clauses), each parser-validated; `corpus-check` CI gate enforces grammar + real-vocab-only (incl. compounds). News batches + two longer discourse pieces + an **opinion/analysis** op-ed (0009) that probes register strain. `corpus/GAPS.md` logs the edges found: comparative-with-standard ("more X than Y"), relative clauses, modality (must/should/can), and the embedded-"that" complementiser |
-| Proposals (not yet ratified) | `docs/0009` pronoun extensions (reflexive `sendi`, reciprocal `salin`); `docs/0010` numeral derivations — **ordinal ratified as `NUM + -pe`** (no marker), multiplicative `kai` + fraction `bagi` still await governance (O-6) |
+| Corpus | `corpus/` — 11 items (72 clauses), each parser-validated; `corpus-check` CI gate enforces grammar + real-vocab-only (incl. compounds). News batches + two longer discourse pieces + an **opinion/analysis** op-ed (0009) that probes register strain + two grammar-exercise pieces (coreference, numeral markers). `corpus/GAPS.md` logs the edges found: comparative-with-standard ("more X than Y"), relative clauses, modality (must/should/can), and the embedded-"that" complementiser |
+| Ratified extensions (`0011` Tier-S) | `docs/0009` **ratified** — reflexive/emphatic `sendi`, reciprocal `salin` (`0002` §6.8); `docs/0010` **ratified** — ordinal `NUM + -pe`, multiplicative `kai`, fraction `bagi` (`0003` §5.1). All four markers are reserved closed-class words (checker `RESERVED_FORMS` + parser `FUNCTION_WORDS`), no `data/` rows. Both gates + all suites exit 0 |
 
 ## What exists today
 
@@ -126,4 +126,7 @@ causative `matita`) is minted separately (`0008 §7`, +4 roots, both gates exit 
   wrong), an interim maintainer with an Academy-succession trigger, and a **1.0
   freeze** with a pre-freeze checklist (real false-friend/blocklist data; euphony
   polish; parser as executable spec; `0009`/`0010` settled).
+  **Update:** `0009` and `0010` are now **ratified** by the maintainer under the
+  `0011` Tier-S bootstrap path (`sendi`/`salin`, `kai`/`bagi`), settling that
+  checklist item; `0011` itself stays PROPOSED pending its status flip.
 - (O-1…O-5 resolved; O-7 resolved pedagogically.)
