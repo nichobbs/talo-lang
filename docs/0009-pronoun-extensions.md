@@ -1,7 +1,9 @@
 # Talo — Proposal 0009: Pronoun & coreference extensions
 
-**Status: PROPOSED** (awaiting ratification under the governance process, `0000`
-§6 / open decision **O-6**). This ADR proposes **additions** to the closed-class
+**Status: PROPOSED** (awaiting ratification under the governance process — `0000`
+§6 / open decision **O-6**, now drafted in `docs/0011-governance-freeze-boundary.md`,
+where these are a **Tier-S** closed-class addition). This ADR proposes
+**additions** to the closed-class
 function-word inventory; it changes **no** frozen decision and mints **no**
 lexicon data until ratified. It is the written-up answer to "what would it take to
 give Talo reflexives, reciprocals and possessive pronouns?".

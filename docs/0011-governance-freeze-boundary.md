@@ -10,8 +10,9 @@ model into force and retroactively supplies the "governance process" that `0009`
 and `0010` already cite.
 
 **Parent:** `docs/0000-design-principles.md` §6 (governance), §8 (freeze
-bottom-up), §9 (open decision O-6). **Inherits:** tie-break rule 5 (*derivation
-is additive*, §0000), here generalised from word-formation to the whole language.
+bottom-up), §9 (open decision O-6). **Inherits:** `0000`'s tie-break rule 5
+(*derivation is additive*), here generalised from word-formation to the whole
+language.
 
 -----
 
@@ -100,8 +101,8 @@ breaks anything already learned*, so it is permitted where a Tier-F change is no
 - The **closed-class function-word** inventory (`0002` §6 / Appendix B):
   pronouns, particles, role markers. New members enter here. **This is where
   `0009` `sendi`/`salin` and the `0010` `kai`/`bagi` markers live.**
-- The **affix inventory** (`0002` §2) and the compounding/buffer rules' *surface*
-  (not the principle, which is Tier F).
+- The **affix inventory** (`0002` §3.2) and the compounding/buffer rules' *surface*
+  (`0002` §3.1) — not the additive-derivation *principle*, which is Tier F.
 - Any new **reserved grammatical word** (must also land in the checker's
   `RESERVED_FORMS` and the parser's `FUNCTION_WORDS`).
 

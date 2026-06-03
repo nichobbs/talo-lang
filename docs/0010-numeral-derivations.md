@@ -4,7 +4,8 @@
 reading* of a cardinal, `NUM + -pe` (no marker word) — ratified by the maintainer,
 and additive-with-zero-cost (a numeral root simply takes the existing modifier
 badge), so it needs no governance gate. The **multiplicative `kai`** and
-**fraction `bagi`** remain **PROPOSED** (awaiting `0000` §6 / **O-6**), because each
+**fraction `bagi`** remain **PROPOSED** (awaiting `0000` §6 / **O-6**, the
+governance process drafted in `docs/0011` — these are **Tier-S** additions), because each
 *does* add a closed-class marker. The written-up answer to "what would it take to
 say *third*, *three times*, *a third*?".
 
