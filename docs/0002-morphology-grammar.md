@@ -515,6 +515,33 @@ themselves; the `-ko` thing-forms `iniko/ituko` are the explicit "this thing".
 > zero-exception, self-generating deictic system — the learner never memorises
 > these as separate vocabulary. (Rule 3: predictability over economy.)
 
+### 6.8 Coreference — reflexive/emphatic `sendi`, reciprocal `salin`
+
+**Decision (added by `docs/0009`, ratified).** Two invariant closed-class
+pro-forms cover clause-level coreference, which bare pronouns (§6.1) leave
+ambiguous:
+
+| Word | Role | Gloss |
+|---|---|---|
+| `sendi` | **reflexive / emphatic** | -self |
+| `salin` | **reciprocal** | each other, one another |
+
+- **Reflexive `sendi`** fills an argument slot and is **bound to the subject**
+  (unambiguous given subject-first, §3.5): `te kanto sendi` "she sees herself"
+  (cf. `te kanto te` "she sees him/her"). One person-neutral form, like the single
+  genderless `te` — no `myself/yourself/…` table.
+- **Emphatic `sendi`** follows the noun/pronoun it intensifies (the
+  determiner-like slot, `0005` §3): `mi sendi tendato itu` "I did that myself".
+  One word covers reflexive and emphatic, as English *-self* does.
+- **Reciprocal `salin`** marks a symmetric relation over a **plural** subject and
+  sits in the **object slot** (placement fixed at ratification, for parallelism
+  with `sendi`): `mi pu tolonato salin` "we help each other". Reciprocity over a
+  non-subject reuses the comitative `wa` ("with each other").
+
+Both are free words, not bound affixes — coreference is clause-level, like
+negation and the role markers, so it needs no morphotactic change (rule 4). A
+reflexive/reciprocal is **not** an independent subject: neither can satisfy
+subject-first on its own.
 
 -----
 
@@ -625,7 +652,8 @@ SYNTAX:  subject FIRST (enforced) · verb placement FLUID (found by -to)
 -pa -ci -go -ku -ta -pi` (derivational affixes). 13 total.
 
 **Free (unrestricted onset):** `na lo su fe wa we` (role markers); `li wi` (aspect);
-`pu` (plural); `sa fo` (clusivity); `mi yu te` (pronouns); `ne` (negator); `ya`
-(copula root); `ke` (question); `i` (and). 18 total.
+`pu` (plural); `sa fo` (clusivity); `mi yu te` (pronouns); `sendi salin`
+(coreference, §6.8; added by `0009`); `ne` (negator); `ya` (copula root); `ke`
+(question); `i` (and). 20 total.
 
 No two of the above differ by voicing alone (`0001` §2.1); all pass R1–R6.

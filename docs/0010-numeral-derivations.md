@@ -1,12 +1,13 @@
 # Talo — Proposal 0010: Numeral derivations (ordinal · multiplicative · fraction)
 
-**Status: PARTLY RATIFIED.** The **ordinal** is **decided**: it is the *modifier
-reading* of a cardinal, `NUM + -pe` (no marker word) — ratified by the maintainer,
-and additive-with-zero-cost (a numeral root simply takes the existing modifier
-badge), so it needs no governance gate. The **multiplicative `kai`** and
-**fraction `bagi`** remain **PROPOSED** (awaiting `0000` §6 / **O-6**), because each
-*does* add a closed-class marker. The written-up answer to "what would it take to
-say *third*, *three times*, *a third*?".
+**Status: ACCEPTED.** All three series are now ratified. The **ordinal** was
+already decided — the *modifier reading* of a cardinal, `NUM + -pe` (no marker
+word), additive-with-zero-cost. The **multiplicative `kai`** and **fraction
+`bagi`** are now **ratified by the maintainer** under the `0011` Tier-S governance
+path (`0000` §6 / O-6): each is an invariant closed-class marker, added to the
+collision checker's `RESERVED_FORMS` and the parser's `FUNCTION_WORDS`
+(`numeralMarker`) and documented in `0003` §5.1. The written-up answer to "what
+would it take to say *third*, *three times*, *a third*?".
 
 **Parent:** `docs/0003-lexicon.md` §5 (base-10 numerals) and
 `docs/0002-morphology-grammar.md` §6.6 / `docs/0005` §3 (numerals are a
@@ -160,13 +161,17 @@ no longer reserved.)
   and the dictionary regenerated.
 - `QTY-017` note updated to "one + -pe (ordinal)".
 
-**Multiplicative + fraction — if ratified** (`O-6`):
-1. `0003` §5 (or a short addendum): add the multiplicative/fraction constructions;
-   cross-reference the determiner order in `0005` §3.
-2. `tools/collision-checker` `RESERVED_FORMS` + `tools/parser` `FUNCTION_WORDS`:
-   add `kai`, `bagi`.
-3. `data/concepts.tsv` + `data/lexicon.tsv`: add the two as `QTY`/`FUN` entries.
-4. Corpus coverage: a sentence each (the `0008` gate).
+**Multiplicative + fraction — landed on ratification:**
+1. ✅ `0003` §5.1 (new): the ordinal/multiplicative/fraction series documented in
+   one table, cross-referencing the determiner order (`0005` §3).
+2. ✅ `tools/collision-checker` `RESERVED_FORMS` + `tools/parser` `FUNCTION_WORDS`
+   (new `numeralMarker` group): `kai`, `bagi` added.
+3. **Superseded — no `data/` rows.** As with `0009` (§6), 0002 Appendix-B–style
+   grammatical morphemes live in `RESERVED_FORMS` and are **not** lexicon dataset
+   rows (the two sets are disjoint; a form in both self-trips the checker's
+   RESERVED gate). `kai`/`bagi` are reserved-only; being reserved already protects
+   them from future homophone minting.
+4. ✅ Corpus coverage: `corpus/articles/0011-numerals.md` (multiplicative + fraction),
+   parser- and lexicon-gated.
 
-Until then the markers are the proposal of record; nothing downstream changes for
-them.
+Both gates and all four tool test-suites pass (exit 0) with the above landed.
