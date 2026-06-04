@@ -1,0 +1,21 @@
+{
+  "name": "talo-coverage-stats",
+  "version": "0.1.0",
+  "description": "Talo coverage statistics (docs/0003 §7b, 0006). Reports donor-family balance vs the ≤25% cap, tier/domain coverage, and gate health; --check fails on a provable cap breach or a root concept with no form.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-coverage": "./src/cli.ts"
+  },
+  "scripts": {
+    "coverage": "node --experimental-strip-types src/cli.ts",
+    "check": "node --experimental-strip-types src/cli.ts --check",
+    "test": "node --experimental-strip-types --test test/coverage.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
