@@ -94,3 +94,32 @@ candidates for future ADRs, not bugs:
 Notably, everything *else* held: abstract subjects, evaluation, `because`/`but`,
 conditionals, the ordinal, and the new `soma`/`bahaya`/`tomalu` all composed
 cleanly.
+
+## Large-article gaps (Delhi fire — article 0012)
+
+The biggest piece so far (27 clauses) stayed fully valid, but a substantial news
+report leaned on several missing items, all paraphrased:
+
+**Vocabulary** (candidates for a disaster/news batch):
+- **`foreign` / `foreigner`** — no word; "some of the dead came from another
+  country" had to drop to `negalaka fe` "from the country" (and see the grammar
+  note below for why `negalaka toipe fe` "from a far country" won't parse).
+- **`trapped`** — rendered as `ne kimiato` "could not escape".
+- **`firefighter`** — paraphrased as "people came and fought the fire".
+- **`capital` (city)** — used the city name `Delika` instead.
+- **`investigate`** — "officials do not yet know" + "the government will study it".
+- **`spread`** (of fire) — used `sodatuto` "grew" + `naikito` "rose".
+- **`survive`**, **`other`/`another`**, **`several`**, **`still/yet`** — worked
+  around with `ikilu` "alive", `bala` "some", `inino ne` "now not".
+
+**Grammar finding (worth a parser/ADR check):** a **role-marked NP cannot carry a
+post-nominal `-pe` modifier** — `negalaka toipe fe` ("from a far country") is
+rejected (`S4_ROLE_MARKER_POSTPOSED`), because the role marker `fe` no longer
+"directly follows" the noun once a modifier intervenes. Either modifiers must
+precede the noun inside a role-marked NP, or the rule needs to span `noun (+ -pe)*`.
+Currently undocumented; the article sidesteps it.
+
+Everything else carried a real disaster report: `matita` "kill" (causative),
+compound numerals (`ki diko ta` = 21), `okoa` rescue, approximation (`fu diko
+lebi` = 40+), reported speech, genitive, and the `mi we totoka` "my child"
+possessive all composed cleanly.
