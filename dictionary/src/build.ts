@@ -21,7 +21,7 @@
  * Zero runtime deps; reuses the repo's own linter + parser. (The book/site that
  * consume these outputs may use a standard toolchain; the data layer stays clean.)
  */
-import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { lint } from "../../tools/phonotactic-linter/src/index.ts";
@@ -82,6 +82,10 @@ export interface Entry {
   keywords: string[];
   /** broad IPA transcription with initial stress, e.g. "/ˈpa.ni.ka/" (0001; tools/ipa). */
   ipa?: string;
+  /** up to 2 attested usage examples pulled from corpus/articles (clause + English). */
+  examples?: { talo: string; en: string }[];
+  /** a cross-language false-friend note, e.g. "looks like 'money' (Swahili)". */
+  falseFriend?: string;
 }
 
 const POS_TO_BADGE: Record<string, ("noun" | "verb" | "modifier")[]> = {
@@ -191,7 +195,108 @@ function build(): Entry[] {
 
   process.stdout.write(`✓ ${entries.length} entries, all forms legal, no duplicate forms\n`);
   for (const e of entries) e.ipa = toIPA(e.form, true);
+  enrich(entries);
   return entries;
+}
+
+/**
+ * Attach attested usage examples (from the corpus) and cross-language
+ * false-friend notes (from data/false-friends.tsv) to the entries in place.
+ *
+ * Examples are matched by SURFACE FORM, not parser decomposition: a corpus
+ * token resolves to an entry if the token equals the entry's form, or the token
+ * with a trailing badge (-ka/-to/-pe) stripped equals a (bare-root) form. We
+ * avoid `analyze().root` here on purpose — the parser greedily strips
+ * affix-shaped syllables (e.g. `tatakuto` → root `ta`) and would mis-key the
+ * example onto the wrong word. Proper nouns (capitalised tokens) are skipped.
+ */
+function enrich(entries: Entry[]): void {
+  const byForm = new Map<string, Entry>();
+  for (const e of entries) if (!byForm.has(e.form)) byForm.set(e.form, e);
+
+  const CAP = 2;
+  const dir = join(ROOT, "corpus", "articles");
+  let files: string[] = [];
+  try { files = readdirSync(dir).filter((f) => f.endsWith(".md")).sort(); } catch { /* no corpus */ }
+
+  let attached = 0;
+  for (const f of files) {
+    for (const cl of taloClauses(readFileSync(join(dir, f), "utf8"))) {
+      const hit = new Set<Entry>(); // one example may cite a word at most once
+      for (const raw of cl.talo.split(/\s+/)) {
+        const e = resolveToken(raw, byForm);
+        if (!e || hit.has(e)) continue;
+        hit.add(e);
+        e.examples ??= [];
+        if (e.examples.length < CAP && !e.examples.some((x) => x.talo === cl.talo)) {
+          e.examples.push(cl);
+          attached++;
+        }
+      }
+    }
+  }
+
+  let warned = 0;
+  for (const r of loadFalseFriends(join(DATA, "false-friends.tsv"))) {
+    const e = byForm.get(r.form);
+    if (!e || e.falseFriend) continue;
+    // the screen's meaning sometimes appends a "(Talo … = …)" self-reference for
+    // its own bookkeeping; that's redundant on the very entry it describes.
+    const meaning = r.meaning.replace(/\s*\(Talo [^)]*\)/i, "").trim();
+    e.falseFriend = `${r.lang}: ${meaning}`;
+    warned++;
+  }
+  process.stdout.write(`✓ enriched: ${attached} corpus example(s), ${warned} false-friend note(s)\n`);
+}
+
+/**
+ * Resolve a corpus token to the entry a learner would look it up under. We
+ * PREFER the bare root: a running token like `bukamaka` is the auto-badged noun
+ * of the root `bukama`, and the example is most useful on the root entry (which
+ * is what an "earthquake" search surfaces), not on the generated badge form. So:
+ * exact root match first, then badge-stripped root, then any exact surface form
+ * (a derived/compound word with no bare root behind it, e.g. `edukika`).
+ */
+function resolveToken(raw: string, byForm: Map<string, Entry>): Entry | undefined {
+  const tok = raw.replace(/[^a-z]/gi, "");
+  if (!tok || tok[0] !== tok[0].toLowerCase()) return undefined; // skip proper nouns
+  const t = tok.toLowerCase();
+  const exact = byForm.get(t);
+  if (exact && exact.kind === "root") return exact;
+  if (/(ka|to|pe)$/.test(t)) {
+    const root = byForm.get(t.slice(0, -2));
+    if (root) return root;
+  }
+  return exact;
+}
+
+/** Extract `talo › english` clauses from the ```talo blocks of a corpus file. */
+function taloClauses(md: string): { talo: string; en: string }[] {
+  const out: { talo: string; en: string }[] = [];
+  let inBlock = false;
+  for (const line of md.split(/\r?\n/)) {
+    const fence = line.trim();
+    if (fence.startsWith("```")) { inBlock = fence === "```talo"; continue; }
+    if (!inBlock) continue;
+    const s = line.trim();
+    if (!s || s.startsWith("#") || !s.includes("›")) continue;
+    const [talo, en] = s.split("›");
+    const t = talo.trim(), e = (en ?? "").trim();
+    if (t && e) out.push({ talo: t, en: e });
+  }
+  return out;
+}
+
+/** Load false-friends.tsv, skipping its `#` comment lines and the header row. */
+function loadFalseFriends(path: string): { form: string; lang: string; meaning: string; severity: string }[] {
+  const out: { form: string; lang: string; meaning: string; severity: string }[] = [];
+  for (const line of readFileSync(path, "utf8").split(/\r?\n/)) {
+    if (!line.trim() || line.startsWith("#")) continue;
+    const [form, lang, meaning, severity] = line.split("\t").map((c) => (c ?? "").trim());
+    if (!form || form === "form") continue; // skip header
+    out.push({ form, lang, meaning, severity });
+  }
+  return out;
 }
 
 /**
@@ -245,6 +350,8 @@ function emit(entries: Entry[]): void {
     isRoot: e.isRoot, kind: e.kind, derivation: e.derivation,
     ...(e.base ? { base: e.base } : {}),
     ...(e.morphemes ? { morphemes: e.morphemes } : {}),
+    ...(e.examples ? { examples: e.examples } : {}),
+    ...(e.falseFriend ? { falseFriend: e.falseFriend } : {}),
     badges: e.badges,
   }));
   writeFileSync(join(DIST, "dictionary.json"), JSON.stringify(json, null, 0) + "\n");

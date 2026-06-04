@@ -41,6 +41,20 @@ h1{font-size:2.2rem;color:var(--accent);margin:.2rem 0 .4rem;line-height:1.15}
 .chip em{color:var(--mut);font-style:normal;font-size:.8em}
 .deriv{font-style:italic}
 .morph{font-family:'SF Mono',Menlo,Consolas,monospace;font-size:.8rem;background:var(--chip);padding:.05em .4em;border-radius:5px}
+/* cross-reference + example detail under an entry */
+.entry .examples,.entry .xref{margin-top:.5rem;font-size:.88rem;color:var(--ink)}
+.entry .lbl{display:inline-block;min-width:5.5em;font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);font-weight:700;vertical-align:top}
+.entry .examples ul{display:inline-block;margin:.1rem 0 0;padding:0;list-style:none;vertical-align:top}
+.entry .examples li{margin:.1rem 0}
+.entry .ex-t{font-weight:600;color:var(--accent)}
+.entry .ex-e{color:var(--mut)}
+.entry .xref .g{color:var(--mut);font-size:.85em}
+.entry .xref .more{color:var(--mut);font-size:.85em}
+.entry .xref.confuse .lbl{color:#a05a00}
+.entry .xref.ff{color:#b04a3a}
+.entry .xref.ff .lbl{color:#b04a3a}
+a.flink{color:var(--accent2);text-decoration:none;font-weight:600;border-bottom:1px dotted var(--line)}
+a.flink:hover{border-bottom-style:solid}
 .entry.error{border-color:#c0392b;color:#c0392b}
 .empty{color:var(--mut);text-align:center;margin-top:2rem}
 
