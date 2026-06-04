@@ -1,0 +1,21 @@
+{
+  "name": "talo-srs-generator",
+  "version": "0.1.0",
+  "description": "Talo SRS (spaced-repetition) deck generator. Turns the dictionary's teachable core (roots + curated compounds) into a tier-ordered Anki-importable TSV and JSON deck, each card with IPA, badge forms, and an attested example.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-srs": "./src/cli.ts"
+  },
+  "scripts": {
+    "srs": "node --experimental-strip-types src/cli.ts",
+    "check": "node --experimental-strip-types src/cli.ts --check",
+    "test": "node --experimental-strip-types --test test/srs.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}

@@ -93,6 +93,27 @@ jobs:
         working-directory: tools/derivation-explorer
         run: npm test
 
+  # The SRS deck generator turns the dictionary's teachable core into a
+  # spaced-repetition deck; its suite must stay green AND the deck must still
+  # build cleanly from the committed dictionary.json. Zero dependencies.
+  srs-tests:
+    name: SRS deck generator
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Run tests
+        working-directory: tools/srs-generator
+        run: npm test
+      - name: Build the dictionary data
+        working-directory: dictionary
+        run: npm run build
+      - name: Validate the deck builds
+        working-directory: tools/srs-generator
+        run: npm run check
+
   # The parser/validator (docs/0002 grammar + 0005 §3) is a teaching aid and the
   # regression harness for the corpus; its suite must stay green too. Zero deps.
   parser-tests:
@@ -175,7 +196,7 @@ jobs:
   # are never auto-merged — they fall through to human review.
   auto-merge-docs:
     name: Auto-merge docs-only PRs
-    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
+    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, srs-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.draft == false
