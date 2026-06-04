@@ -29,6 +29,9 @@ compound:  describing-root + main-root + ONE badge
 | negation | `ne` before what it negates |
 | questions | `ke` (yes/no, at end) · question words in place |
 | joining | `i` and · `o` or · `ma` but · `fi` if · `toki` then |
+| reporting | `ce` "that" (puts a clause inside another: `mi tauto ce …`) |
+| helping verbs (before the verb) | `lasima` must · `beki` should · `bisa` can |
+| self / each other | `sendi` -self · `salin` each other |
 | politeness | `ahoi` hi · `cao` bye · `doso` please · `tanku` thanks · `pole` sorry · `oke` okay |
 
 ## Sentence rules
@@ -40,6 +43,18 @@ compound:  describing-root + main-root + ONE badge
    a determiner (this/that, a number, a quantity) comes AFTER its noun.
 4. Role markers and aspect/number particles follow the word they attach to.
 5. The yes/no word 'ke' is always last.
+```
+
+## Comparing, describing, ordering
+
+```
+comparison:   X … lebi  Y fe       more X than Y     (lebi … fe; "than" = fe "from")
+              X … lebi  ote fe      the most          ("more than all")
+describing:   noun + VERB-pe        the noun that V-s (kanuka hasilupe = "running dog")
+              two clauses + te      the noun (that) I V-ed   (Mi kanto X. Te …)
+ordinal:      number + -pe          first, second …   (honka mope = "third book")
+times:        number + kai          twice, 3 times    (ki kai = "twice")
+fraction:     number bagi number    a ÷ b             (ta bagi mo = "one third")
 ```
 
 ## The correlatives grid
