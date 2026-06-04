@@ -47,7 +47,9 @@ export const RESERVED_FORMS: ReadonlySet<string> = new Set([
   "na", "lo", "su", "fe", "wa", "we",
   // aspect (§5.1), plural (§5.2), clusivity (§5.3)
   "li", "wi", "pu", "sa", "fo",
-  // pronouns (§6.1), negator (§6.2), copula root (§6.3), question (§6.4), and (§6.5)
+  // pronouns (§6.1), negator (§6.2), copula root (§6.3), question (§6.4),
+  // coordinator (§6.5) "i" and. (The other coordinator "o" or is a lexicon
+  // entry FUN-009, so it is collision-protected by the homophone check instead.)
   "mi", "yu", "te", "ne", "ya", "ke", "i",
   // coreference pro-forms (§6.8): reflexive/emphatic, reciprocal (0009, ratified)
   "sendi", "salin",
