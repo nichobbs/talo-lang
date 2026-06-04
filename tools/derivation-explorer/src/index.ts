@@ -22,6 +22,8 @@ export interface DictEntry {
   form: string;
   gloss: string;
   kind: "root" | "derived" | "compound";
+  /** conventional pos hint; "n"/"v"/"mod" mark a content root (one that badges). */
+  pos?: string;
   base?: string;
   morphemes?: string;
   ipa?: string;
@@ -83,11 +85,54 @@ export function confusables(form: string, ix: Indices): DictEntry[] {
   return (ix.skel.get(skeleton(form)) ?? []).filter((x) => x.form !== form);
 }
 
+const BADGE_TAG: Readonly<Record<string, "N" | "V" | "MOD">> = { ka: "N", to: "V", pe: "MOD" };
+
+/** A content root is one that surfaces with a badge (its pos hint is n/v/mod). */
+function isContentRoot(e: DictEntry | undefined): e is DictEntry {
+  return !!e && e.kind === "root" && ["n", "v", "mod"].includes(e.pos ?? "");
+}
+
+/**
+ * Citation-form confusables (the "written-as" axis, distinct from near-homophony).
+ * A content root never surfaces bare, so when one root's headword spells another
+ * root + a badge, the two are confusable on the page even though running text is
+ * unambiguous. We report both directions:
+ *   - `readsAs`: THIS headword, in text, parses as `stem`(content root) + badge —
+ *     e.g. `kunato` reads as `kuna`(exist)+V; the `kunato`(lock) root itself
+ *     only ever appears as `kunatoto`/`kunatoka`/….
+ *   - `spells`:  THIS (content) root's own badge forms each spell another root —
+ *     e.g. `kan`(see) → `kanto` is also the `office` root, `kanka` the `crab` root.
+ */
+export interface BadgeCoincidence {
+  readsAs?: { stem: DictEntry; badge: "N" | "V" | "MOD" };
+  spells: { badge: "N" | "V" | "MOD"; root: DictEntry }[];
+}
+
+export function badgeCoincidences(form: string, ix: Indices): BadgeCoincidence {
+  const out: BadgeCoincidence = { spells: [] };
+  const e = ix.byForm.get(form);
+  if (!e || e.kind !== "root") return out;
+
+  const m = form.match(/(ka|to|pe)$/);
+  if (m) {
+    const stem = ix.byForm.get(form.slice(0, -2));
+    if (isContentRoot(stem)) out.readsAs = { stem, badge: BADGE_TAG[m[0]] };
+  }
+  if (isContentRoot(e)) {
+    for (const b of ["ka", "to", "pe"] as const) {
+      const r = ix.byForm.get(form + b);
+      if (r && r.kind === "root") out.spells.push({ badge: BADGE_TAG[b], root: r });
+    }
+  }
+  return out;
+}
+
 export interface Explanation {
   entry?: DictEntry;
   root?: DictEntry;
   family: DictEntry[];
   confusables: DictEntry[];
+  badge: BadgeCoincidence;
 }
 
 /** Everything the explorer knows about one form, resolved through the indices. */
@@ -101,5 +146,6 @@ export function explain(form: string, ix: Indices): Explanation {
     root,
     family: wordFamily(familyKey, ix),
     confusables: confusables(entry?.kind === "root" ? form : entry?.base ?? form, ix),
+    badge: badgeCoincidences(form, ix),
   };
 }
