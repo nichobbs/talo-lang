@@ -45,10 +45,10 @@ not), `1` otherwise — so it composes in CI like the linter and checker.
 | `S1_BARE_ROOT` | error | every content word carries a POS badge -ka/-to/-pe (§1) |
 | `S2_NO_VERB` | warning | a full clause has a verb, found by -to (§3.5); verbless = fragment |
 | `S3_SUBJECT_FIRST` | error | a subject precedes the verb (§3.5, enforced) |
-| `S4_ROLE_MARKER_POSTPOSED` | error | na/lo/su/fe/wa/we follow their noun (§4) |
+| `S4_ROLE_MARKER_POSTPOSED` | error | na/lo/su/fe/wa/we follow their noun phrase, incl. post-nominal -pe (§4 / 0012) |
 | `S5_ASPECT_POSTVERB` | error | li/wi sit immediately after a verb (§5.1) |
 | `S6_KE_FINAL` | error | the yes/no particle ke is clause-final (§6.4) |
-| `S7_MODIFIER_BEFORE_HEAD` | warning | a -pe modifier precedes its head noun (§6.3) |
+| `S7_MODIFIER_DANGLING` | warning | a -pe modifier has a head noun before or after it (§6.3 / 0012) |
 | `LEX_UNKNOWN_ROOT` | warning | (with `--lexicon`) the root is an attested entry |
 
 It is deliberately conservative: Talo verb placement is **fluid** by design

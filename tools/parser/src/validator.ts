@@ -123,11 +123,16 @@ export function validate(clause: string, opts: ValidateOptions = {}): ValidateRe
     }
   }
 
-  // S4 — role markers are postposed: each must follow a nominal (§4).
+  // S4 — role markers are postposed: each must follow a nominal (§4). The marker
+  // attaches to the whole noun phrase, so it may also follow post-nominal -pe
+  // modifier(s): `negalaka toipe fe` "from a far country" (0012). We walk back
+  // over any modifier run to find the nominal head it ultimately marks.
   tokens.forEach((a, i) => {
     if (a.kind === "function" && a.functionRole === "roleMarker") {
-      const prev = tokens[i - 1];
-      const follows = prev && (isNominalKind(prev) || prev.category === "noun");
+      let j = i - 1;
+      while (j >= 0 && tokens[j].category === "modifier") j--;
+      const head = tokens[j];
+      const follows = head && (isNominalKind(head) || head.category === "noun");
       if (!follows) {
         issues.push({
           severity: "error",
@@ -166,19 +171,24 @@ export function validate(clause: string, opts: ValidateOptions = {}): ValidateRe
     }
   });
 
-  // S7 — a -pe modifier must have a head noun AFTER it (modifier-before-head,
-  // §6.3). A trailing -pe with nothing nominal following is only valid as a
-  // predicate after the copula; we flag a dangling attributive modifier softly.
+  // S7 — a -pe modifier attaches to a head noun. Talo allows it EITHER before the
+  // head (attributive "describe before", §6.3) OR directly after it (post-nominal
+  // attributive / participial relative, e.g. `negalaka tolonape` "the helping
+  // country", 0012). It is also fine as a predicate after the copula. We only flag
+  // a -pe that is genuinely dangling: no nominal before OR after it, and no copula.
   tokens.forEach((a, i) => {
     if (a.category === "modifier") {
       const afterHasNoun = tokens.slice(i + 1).some((b) => b.category === "noun" || isNominalKind(b));
+      const prev = tokens[i - 1];
+      const followsNominal =
+        !!prev && (isNominalKind(prev) || prev.category === "noun" || prev.category === "modifier");
       const prevIsCopula =
         tokens.slice(0, i).some((b) => b.category === "verb" && b.root === "ya");
-      if (!afterHasNoun && !prevIsCopula) {
+      if (!afterHasNoun && !followsNominal && !prevIsCopula) {
         issues.push({
           severity: "warning",
-          code: "S7_MODIFIER_BEFORE_HEAD",
-          message: `Modifier '${a.token}' normally precedes its head noun (0002 §6.3); here nothing nominal follows it. (Fine if it is a predicate after the copula yato.)`,
+          code: "S7_MODIFIER_DANGLING",
+          message: `Modifier '${a.token}' has no head noun before or after it (0002 §6.3 / 0012). (Fine as a predicate after the copula yato.)`,
           index: i,
         });
       }

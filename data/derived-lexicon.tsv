@@ -10825,3 +10825,15 @@ SOC-096.gope	meledekagope	very 'independent / sovereign / free'; intensely 'inde
 SOC-096.cipe	meledekacipe	'independent / sovereign / free'-ish; somewhat 'independent / sovereign / free'	modifier	meledeka	independent / sovereign / free	diminutive	meledeka+ci+pe
 SOC-096.kupaka	meledekakupaka	un-'independent / sovereign / free'-ness; the quality of being not 'independent / sovereign / free'	noun	meledeka	independent / sovereign / free	opposite-quality	meledeka+ku+pa+ka
 SOC-096.takika	meledekatakika	one who makes things 'independent / sovereign / free'	noun	meledeka	independent / sovereign / free	causative-agent	meledeka+ta+ki+ka
+COG-077.to	bekito	to 'should / ought'	verb	beki	should / ought	verb	beki+to
+COG-077.ka	bekika	act of 'should / ought'; a 'should / ought'	noun	beki	should / ought	noun	beki+ka
+COG-077.pe	bekipe	'should / ought'-ing	modifier	beki	should / ought	modifier	beki+pe
+COG-077.kika	bekikika	one who 'should / ought's; 'should / ought'-er	noun	beki	should / ought	agent	beki+ki+ka
+COG-077.tuka	bekituka	tool/means for 'should / ought'	noun	beki	should / ought	instrument	beki+tu+ka
+COG-077.boka	bekiboka	thing 'should / ought'-ed; result of 'should / ought'	noun	beki	should / ought	patient/result	beki+bo+ka
+COG-077.deka	bekideka	place for 'should / ought'	noun	beki	should / ought	place	beki+de+ka
+COG-077.tato	bekitato	to make/cause to 'should / ought'	verb	beki	should / ought	causative	beki+ta+to
+COG-077.pito	bekipito	to begin to 'should / ought'	verb	beki	should / ought	inchoative	beki+pi+to
+COG-077.takika	bekitakika	one who makes/causes 'should / ought'; instigator of 'should / ought'	noun	beki	should / ought	causative-agent	beki+ta+ki+ka
+COG-077.taboka	bekitaboka	what is brought about by 'should / ought'	noun	beki	should / ought	causative-result	beki+ta+bo+ka
+COG-077.kideka	bekikideka	place of the one who 'should / ought's	noun	beki	should / ought	agent-place	beki+ki+de+ka

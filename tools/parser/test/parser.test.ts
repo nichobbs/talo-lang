@@ -127,6 +127,36 @@ test("reject S4: role marker with no preceding nominal", () => {
   assert.ok(r.issues.some((x) => x.code === "S4_ROLE_MARKER_POSTPOSED"));
 });
 
+// ---------- validator: 0012 grammar-register extensions ----------
+
+test("accept S4: role marker after noun + post-nominal -pe modifier (0012)", () => {
+  // `negalaka toipe fe` "from a far country" — fe marks the whole NP, not just the noun
+  const r = validate("te datanto negalaka toipe fe");
+  assert.equal(r.ok, true);
+  assert.ok(!r.issues.some((x) => x.code === "S4_ROLE_MARKER_POSTPOSED"));
+});
+
+test("accept: comparative standard with fe (more X than Y) (0012)", () => {
+  assert.equal(validate("somaka yato muhimupe lebi uanka fe").ok, true);
+});
+
+test("accept: -pe participial relative, post-nominal (0012)", () => {
+  // `negalaka tolonape` "the helping country" — post-nominal -pe is not dangling
+  const r = validate("negalaka tolonape yato haope");
+  assert.equal(r.ok, true);
+  assert.ok(!r.issues.some((x) => x.code === "S7_MODIFIER_DANGLING"));
+});
+
+test("accept: serial modal + main verb keeps its object (modality B) (0012)", () => {
+  // `bekito bacato honka` "should read books"
+  assert.equal(validate("totoka bekito bacato honka").ok, true);
+});
+
+test("accept + analyze: complementiser `ce` introduces an embedded clause (0012)", () => {
+  assert.equal(analyze("ce").functionRole, "complementizer");
+  assert.equal(validate("mi tauto ce te datanto li").ok, true);
+});
+
 // ---------- validator: lexicon-aware unknown-root warning ----------
 
 test("unknown-root warning fires only with a lexicon", () => {

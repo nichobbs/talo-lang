@@ -178,3 +178,26 @@ The four items left open after batch 2 are now resolved — two minted, two deri
 - **`refugee` / `displaced person`** → derived `kimiakika` (`kimia` flee + `-ki` agent).
 
 Both gates exit 0. The geopolitics domain is now essentially covered.
+
+## Grammar-register gaps — CLOSED by docs/0012
+
+The grammatical edges logged above (the 0009 "Register strains" and the 0012-fix
+note) are now **ratified and implemented** (`docs/0012`, parser + checker updated,
+tests added):
+
+- **Comparative with a standard** → `… lebi/sukuna … STANDARD fe` ("more X than Y",
+  `fe` = ablative of comparison); superlative = `… lebi ote fe`. No new morpheme.
+- **Relative clauses** → post-nominal `-pe` participle for subject relatives
+  (`negalaka tolonape` "the country that helps"); resumptive juxtaposition for
+  object relatives. No new morpheme.
+- **Modality** → serial modal + main verb (`bekito bacato honka` "should read
+  books"); minted **`beki` "should"** for the weak-vs-strong (`lasima`) split.
+- **Quotative / embedded "that"** → minted closed-class **`ce`**
+  (`mi tauto ce te datanto li` "I know that he came"); supersedes the 0008 §2
+  deferral. Direct-quote juxtaposition still available.
+- **Parser limit** (role marker after a post-nominal `-pe`) → fixed (S4/S7);
+  `negalaka toipe fe` now validates.
+
+Exercised end-to-end in article 0015 (the 0012 regression piece). Remaining open
+items are now **vocabulary only** (foreign, trapped, firefighter, capital,
+investigate, spread, survive; other/another, several, still) — no open grammar.
