@@ -403,7 +403,6 @@ BOD-027.kideka	tidukideka	place of the one who 'sleep's	noun	tidu	sleep	agent-pl
 BOD-028.to	makanto	to 'eat'	verb	makan	eat	verb	makan+to
 BOD-028.ka	makanka	act of 'eat'; a 'eat'	noun	makan	eat	noun	makan+ka
 BOD-028.pe	makanpe	'eat'-ing	modifier	makan	eat	modifier	makan+pe
-BOD-028.kika	makankika	one who 'eat's; 'eat'-er	noun	makan	eat	agent	makan+ki+ka
 BOD-028.tuka	makantuka	tool/means for 'eat'	noun	makan	eat	instrument	makan+tu+ka
 BOD-028.boka	makanboka	thing 'eat'-ed; result of 'eat'	noun	makan	eat	patient/result	makan+bo+ka
 BOD-028.deka	makandeka	place for 'eat'	noun	makan	eat	place	makan+de+ka
@@ -411,7 +410,6 @@ BOD-028.tato	makantato	to make/cause to 'eat'	verb	makan	eat	causative	makan+ta+
 BOD-028.pito	makanpito	to begin to 'eat'	verb	makan	eat	inchoative	makan+pi+to
 BOD-028.takika	makantakika	one who makes/causes 'eat'; instigator of 'eat'	noun	makan	eat	causative-agent	makan+ta+ki+ka
 BOD-028.taboka	makantaboka	what is brought about by 'eat'	noun	makan	eat	causative-result	makan+ta+bo+ka
-BOD-028.kideka	makankideka	place of the one who 'eat's	noun	makan	eat	agent-place	makan+ki+de+ka
 BOD-029.to	pinato	to 'drink'	verb	pina	drink	verb	pina+to
 BOD-029.pe	pinape	'drink'-ing	modifier	pina	drink	modifier	pina+pe
 BOD-029.kika	pinakika	one who 'drink's; 'drink'-er	noun	pina	drink	agent	pina+ki+ka
@@ -703,14 +701,12 @@ SPA-005.cika	lokacika	little 'place'; small/dear 'place'	noun	loka	place	diminut
 SPA-005.goka	lokagoka	big 'place'; great 'place'	noun	loka	place	augmentative	loka+go+ka
 SPA-005.deka	lokadeka	place of/for 'place'	noun	loka	place	place	loka+de+ka
 PER-001.pe	kanpe	'see'-ing	modifier	kan	see	modifier	kan+pe
-PER-001.kika	kankika	one who 'see's; 'see'-er	noun	kan	see	agent	kan+ki+ka
 PER-001.tuka	kantuka	tool/means for 'see'	noun	kan	see	instrument	kan+tu+ka
 PER-001.boka	kanboka	thing 'see'-ed; result of 'see'	noun	kan	see	patient/result	kan+bo+ka
 PER-001.tato	kantato	to make/cause to 'see'	verb	kan	see	causative	kan+ta+to
 PER-001.pito	kanpito	to begin to 'see'	verb	kan	see	inchoative	kan+pi+to
 PER-001.takika	kantakika	one who makes/causes 'see'; instigator of 'see'	noun	kan	see	causative-agent	kan+ta+ki+ka
 PER-001.taboka	kantaboka	what is brought about by 'see'	noun	kan	see	causative-result	kan+ta+bo+ka
-PER-001.kideka	kankideka	place of the one who 'see's	noun	kan	see	agent-place	kan+ki+de+ka
 PER-002.to	kikuto	to 'hear'	verb	kiku	hear	verb	kiku+to
 PER-002.ka	kikuka	act of 'hear'; a 'hear'	noun	kiku	hear	noun	kiku+ka
 PER-002.pe	kikupe	'hear'-ing	modifier	kiku	hear	modifier	kiku+pe
@@ -957,12 +953,10 @@ BOD-025.goka	kaladagoka	big 'body'; great 'body'	noun	kalada	body	augmentative	k
 BOD-025.deka	kaladadeka	place of/for 'body'	noun	kalada	body	place	kalada+de+ka
 BOD-026.ka	napuka	act of 'breathe'; a 'breathe'	noun	napu	breathe	noun	napu+ka
 BOD-026.pe	napupe	'breathe'-ing	modifier	napu	breathe	modifier	napu+pe
-BOD-026.kika	napukika	one who 'breathe's; 'breathe'-er	noun	napu	breathe	agent	napu+ki+ka
 BOD-026.tuka	naputuka	tool/means for 'breathe'	noun	napu	breathe	instrument	napu+tu+ka
 BOD-026.boka	napuboka	thing 'breathe'-ed; result of 'breathe'	noun	napu	breathe	patient/result	napu+bo+ka
 BOD-026.deka	napudeka	place for 'breathe'	noun	napu	breathe	place	napu+de+ka
 BOD-026.pito	napupito	to begin to 'breathe'	verb	napu	breathe	inchoative	napu+pi+to
-BOD-026.kideka	napukideka	place of the one who 'breathe's	noun	napu	breathe	agent-place	napu+ki+de+ka
 BOD-031.to	hiduto	to 'live'	verb	hidu	live	verb	hidu+to
 BOD-031.ka	hiduka	act of 'live'; a 'live'	noun	hidu	live	noun	hidu+ka
 BOD-031.pe	hidupe	'live'-ing	modifier	hidu	live	modifier	hidu+pe
@@ -1138,14 +1132,11 @@ FOO-005.takika	pikatakika	one who makes/causes 'cook'; instigator of 'cook'	noun
 FOO-005.taboka	pikataboka	what is brought about by 'cook'	noun	pika	cook	causative-result	pika+ta+bo+ka
 FOO-005.kideka	pikakideka	place of the one who 'cook's	noun	pika	cook	agent-place	pika+ki+de+ka
 FOO-006.pe	manipe	sweet	modifier	mani	sweet	modifier	mani+pe
-FOO-006.ka	manika	'sweet'-ness; the quality 'sweet'	noun	mani	sweet	noun	mani+ka
 FOO-006.paka	manipaka	'sweet'-ness; state of being 'sweet'	noun	mani	sweet	quality	mani+pa+ka
-FOO-006.kupe	manikupe	opposite of 'sweet'; un-'sweet'	modifier	mani	sweet	opposite	mani+ku+pe
 FOO-006.tato	manitato	to make 'sweet'	verb	mani	sweet	causative	mani+ta+to
 FOO-006.pito	manipito	to become 'sweet'	verb	mani	sweet	inchoative	mani+pi+to
 FOO-006.gope	manigope	very 'sweet'; intensely 'sweet'	modifier	mani	sweet	augmentative	mani+go+pe
 FOO-006.cipe	manicipe	'sweet'-ish; somewhat 'sweet'	modifier	mani	sweet	diminutive	mani+ci+pe
-FOO-006.kupaka	manikupaka	un-'sweet'-ness; the quality of being not 'sweet'	noun	mani	sweet	opposite-quality	mani+ku+pa+ka
 FOO-006.takika	manitakika	one who makes things 'sweet'	noun	mani	sweet	causative-agent	mani+ta+ki+ka
 FOO-007.ka	lotika	bread	noun	loti	bread	noun	loti+ka
 FOO-007.pe	lotipe	of/like 'bread'; 'bread'-related	modifier	loti	bread	modifier	loti+pe
@@ -2639,7 +2630,6 @@ SOC-014.to	melekato	to use/apply 'freedom'; to act as 'freedom'	verb	meleka	free
 SOC-014.cika	melekacika	little 'freedom'; small/dear 'freedom'	noun	meleka	freedom	diminutive	meleka+ci+ka
 SOC-014.goka	melekagoka	big 'freedom'; great 'freedom'	noun	meleka	freedom	augmentative	meleka+go+ka
 SOC-014.deka	melekadeka	place of/for 'freedom'	noun	meleka	freedom	place	meleka+de+ka
-SOC-015.ka	amanika	peace	noun	amani	peace	noun	amani+ka
 SOC-015.pe	amanipe	of/like 'peace'; 'peace'-related	modifier	amani	peace	modifier	amani+pe
 SOC-015.to	amanito	to use/apply 'peace'; to act as 'peace'	verb	amani	peace	verb	amani+to
 SOC-015.cika	amanicika	little 'peace'; small/dear 'peace'	noun	amani	peace	diminutive	amani+ci+ka
@@ -3318,7 +3308,6 @@ CLO-010.pe	kitamape	of/like 'cloth / fabric'; 'cloth / fabric'-related	modifier	
 CLO-010.to	kitamato	to use/apply 'cloth / fabric'; to act as 'cloth / fabric'	verb	kitama	cloth / fabric	verb	kitama+to
 CLO-010.cika	kitamacika	little 'cloth / fabric'; small/dear 'cloth / fabric'	noun	kitama	cloth / fabric	diminutive	kitama+ci+ka
 CLO-010.goka	kitamagoka	big 'cloth / fabric'; great 'cloth / fabric'	noun	kitama	cloth / fabric	augmentative	kitama+go+ka
-CLO-010.deka	kitamadeka	place of/for 'cloth / fabric'	noun	kitama	cloth / fabric	place	kitama+de+ka
 CLO-011.ka	itoka	thread	noun	ito	thread	noun	ito+ka
 CLO-011.pe	itope	of/like 'thread'; 'thread'-related	modifier	ito	thread	modifier	ito+pe
 CLO-011.to	itoto	to use/apply 'thread'; to act as 'thread'	verb	ito	thread	verb	ito+to
@@ -4153,7 +4142,6 @@ PER-023.to	sadato	to use/apply 'echo'; to act as 'echo'	verb	sada	echo	verb	sada
 PER-023.cika	sadacika	little 'echo'; small/dear 'echo'	noun	sada	echo	diminutive	sada+ci+ka
 PER-023.goka	sadagoka	big 'echo'; great 'echo'	noun	sada	echo	augmentative	sada+go+ka
 PER-023.deka	sadadeka	place of/for 'echo'	noun	sada	echo	place	sada+de+ka
-PER-024.ka	alifaka	aroma	noun	alifa	aroma	noun	alifa+ka
 PER-024.pe	alifape	of/like 'aroma'; 'aroma'-related	modifier	alifa	aroma	modifier	alifa+pe
 PER-024.to	alifato	to use/apply 'aroma'; to act as 'aroma'	verb	alifa	aroma	verb	alifa+to
 PER-024.cika	alifacika	little 'aroma'; small/dear 'aroma'	noun	alifa	aroma	diminutive	alifa+ci+ka
@@ -4170,7 +4158,6 @@ PER-025.cipe	lengecipe	'sticky'-ish; somewhat 'sticky'	modifier	lenge	sticky	dim
 PER-025.kupaka	lengekupaka	un-'sticky'-ness; the quality of being not 'sticky'	noun	lenge	sticky	opposite-quality	lenge+ku+pa+ka
 PER-025.takika	lengetakika	one who makes things 'sticky'	noun	lenge	sticky	causative-agent	lenge+ta+ki+ka
 PER-026.pe	licinpe	slippery	modifier	licin	slippery	modifier	licin+pe
-PER-026.ka	licinka	'slippery'-ness; the quality 'slippery'	noun	licin	slippery	noun	licin+ka
 PER-026.paka	licinpaka	'slippery'-ness; state of being 'slippery'	noun	licin	slippery	quality	licin+pa+ka
 PER-026.kupe	licinkupe	opposite of 'slippery'; un-'slippery'	modifier	licin	slippery	opposite	licin+ku+pe
 PER-026.tato	licintato	to make 'slippery'	verb	licin	slippery	causative	licin+ta+to
@@ -4232,7 +4219,6 @@ MOT-011.pe	tamape	'crawl'-ing	modifier	tama	crawl	modifier	tama+pe
 MOT-011.kika	tamakika	one who 'crawl's; 'crawl'-er	noun	tama	crawl	agent	tama+ki+ka
 MOT-011.tuka	tamatuka	tool/means for 'crawl'	noun	tama	crawl	instrument	tama+tu+ka
 MOT-011.boka	tamaboka	thing 'crawl'-ed; result of 'crawl'	noun	tama	crawl	patient/result	tama+bo+ka
-MOT-011.deka	tamadeka	place for 'crawl'	noun	tama	crawl	place	tama+de+ka
 MOT-011.tato	tamatato	to make/cause to 'crawl'	verb	tama	crawl	causative	tama+ta+to
 MOT-011.pito	tamapito	to begin to 'crawl'	verb	tama	crawl	inchoative	tama+pi+to
 MOT-011.takika	tamatakika	one who makes/causes 'crawl'; instigator of 'crawl'	noun	tama	crawl	causative-agent	tama+ta+ki+ka
@@ -5114,14 +5100,11 @@ PROP-092.cipe	bekalacipe	'useless / vain'-ish; somewhat 'useless / vain'	modifie
 PROP-092.kupaka	bekalakupaka	un-'useless / vain'-ness; the quality of being not 'useless / vain'	noun	bekala	useless / vain	opposite-quality	bekala+ku+pa+ka
 PROP-092.takika	bekalatakika	one who makes things 'useless / vain'	noun	bekala	useless / vain	causative-agent	bekala+ta+ki+ka
 PROP-093.pe	tamanipe	precious / valuable	modifier	tamani	precious / valuable	modifier	tamani+pe
-PROP-093.ka	tamanika	'precious / valuable'-ness; the quality 'precious / valuable'	noun	tamani	precious / valuable	noun	tamani+ka
 PROP-093.paka	tamanipaka	'precious / valuable'-ness; state of being 'precious / valuable'	noun	tamani	precious / valuable	quality	tamani+pa+ka
-PROP-093.kupe	tamanikupe	opposite of 'precious / valuable'; un-'precious / valuable'	modifier	tamani	precious / valuable	opposite	tamani+ku+pe
 PROP-093.tato	tamanitato	to make 'precious / valuable'	verb	tamani	precious / valuable	causative	tamani+ta+to
 PROP-093.pito	tamanipito	to become 'precious / valuable'	verb	tamani	precious / valuable	inchoative	tamani+pi+to
 PROP-093.gope	tamanigope	very 'precious / valuable'; intensely 'precious / valuable'	modifier	tamani	precious / valuable	augmentative	tamani+go+pe
 PROP-093.cipe	tamanicipe	'precious / valuable'-ish; somewhat 'precious / valuable'	modifier	tamani	precious / valuable	diminutive	tamani+ci+pe
-PROP-093.kupaka	tamanikupaka	un-'precious / valuable'-ness; the quality of being not 'precious / valuable'	noun	tamani	precious / valuable	opposite-quality	tamani+ku+pa+ka
 PROP-093.takika	tamanitakika	one who makes things 'precious / valuable'	noun	tamani	precious / valuable	causative-agent	tamani+ta+ki+ka
 PROP-094.pe	masuhulipe	famous	modifier	masuhuli	famous	modifier	masuhuli+pe
 PROP-094.ka	masuhulika	'famous'-ness; the quality 'famous'	noun	masuhuli	famous	noun	masuhuli+ka
@@ -6193,7 +6176,6 @@ PHY-068.pe	gesipe	of/like 'gas'; 'gas'-related	modifier	gesi	gas	modifier	gesi+p
 PHY-068.cika	gesicika	little 'gas'; small/dear 'gas'	noun	gesi	gas	diminutive	gesi+ci+ka
 PHY-068.goka	gesigoka	big 'gas'; great 'gas'	noun	gesi	gas	augmentative	gesi+go+ka
 PHY-068.deka	gesideka	place of/for 'gas'	noun	gesi	gas	place	gesi+de+ka
-PHY-069.ka	bafaka	steam / vapour	noun	bafa	steam / vapour	noun	bafa+ka
 PHY-069.pe	bafape	of/like 'steam / vapour'; 'steam / vapour'-related	modifier	bafa	steam / vapour	modifier	bafa+pe
 PHY-069.to	bafato	to use/apply 'steam / vapour'; to act as 'steam / vapour'	verb	bafa	steam / vapour	verb	bafa+to
 PHY-069.cika	bafacika	little 'steam / vapour'; small/dear 'steam / vapour'	noun	bafa	steam / vapour	diminutive	bafa+ci+ka
@@ -6393,7 +6375,6 @@ AGR-031.to	kadalito	to use/apply 'banana'; to act as 'banana'	verb	kadali	banana
 AGR-031.cika	kadalicika	little 'banana'; small/dear 'banana'	noun	kadali	banana	diminutive	kadali+ci+ka
 AGR-031.goka	kadaligoka	big 'banana'; great 'banana'	noun	kadali	banana	augmentative	kadali+go+ka
 AGR-031.deka	kadalideka	place of/for 'banana'	noun	kadali	banana	place	kadali+de+ka
-AGR-032.ka	amafaka	mango	noun	amafa	mango	noun	amafa+ka
 AGR-032.pe	amafape	of/like 'mango'; 'mango'-related	modifier	amafa	mango	modifier	amafa+pe
 AGR-032.to	amafato	to use/apply 'mango'; to act as 'mango'	verb	amafa	mango	verb	amafa+to
 AGR-032.cika	amafacika	little 'mango'; small/dear 'mango'	noun	amafa	mango	diminutive	amafa+ci+ka
@@ -7270,7 +7251,6 @@ ACT-084.kideka	badilikideka	place of the one who 'change / alter's	noun	badili	c
 ACT-085.to	ongesato	to 'add-to / increase'	verb	ongesa	add-to / increase	verb	ongesa+to
 ACT-085.ka	ongesaka	act of 'add-to / increase'; a 'add-to / increase'	noun	ongesa	add-to / increase	noun	ongesa+ka
 ACT-085.pe	ongesape	'add-to / increase'-ing	modifier	ongesa	add-to / increase	modifier	ongesa+pe
-ACT-085.kika	ongesakika	one who 'add-to / increase's; 'add-to / increase'-er	noun	ongesa	add-to / increase	agent	ongesa+ki+ka
 ACT-085.tuka	ongesatuka	tool/means for 'add-to / increase'	noun	ongesa	add-to / increase	instrument	ongesa+tu+ka
 ACT-085.boka	ongesaboka	thing 'add-to / increase'-ed; result of 'add-to / increase'	noun	ongesa	add-to / increase	patient/result	ongesa+bo+ka
 ACT-085.deka	ongesadeka	place for 'add-to / increase'	noun	ongesa	add-to / increase	place	ongesa+de+ka
@@ -7278,7 +7258,6 @@ ACT-085.tato	ongesatato	to make/cause to 'add-to / increase'	verb	ongesa	add-to 
 ACT-085.pito	ongesapito	to begin to 'add-to / increase'	verb	ongesa	add-to / increase	inchoative	ongesa+pi+to
 ACT-085.takika	ongesatakika	one who makes/causes 'add-to / increase'; instigator of 'add-to / increase'	noun	ongesa	add-to / increase	causative-agent	ongesa+ta+ki+ka
 ACT-085.taboka	ongesataboka	what is brought about by 'add-to / increase'	noun	ongesa	add-to / increase	causative-result	ongesa+ta+bo+ka
-ACT-085.kideka	ongesakideka	place of the one who 'add-to / increase's	noun	ongesa	add-to / increase	agent-place	ongesa+ki+de+ka
 ACT-086.to	pungusato	to 'reduce / lessen'	verb	pungusa	reduce / lessen	verb	pungusa+to
 ACT-086.ka	pungusaka	act of 'reduce / lessen'; a 'reduce / lessen'	noun	pungusa	reduce / lessen	noun	pungusa+ka
 ACT-086.pe	pungusape	'reduce / lessen'-ing	modifier	pungusa	reduce / lessen	modifier	pungusa+pe
@@ -7435,7 +7414,6 @@ SOC-043.to	balasato	to use/apply 'council / committee'; to act as 'council / com
 SOC-043.cika	balasacika	little 'council / committee'; small/dear 'council / committee'	noun	balasa	council / committee	diminutive	balasa+ci+ka
 SOC-043.goka	balasagoka	big 'council / committee'; great 'council / committee'	noun	balasa	council / committee	augmentative	balasa+go+ka
 SOC-043.deka	balasadeka	place of/for 'council / committee'	noun	balasa	council / committee	place	balasa+de+ka
-SOC-044.ka	taifaka	nation / people	noun	taifa	nation / people	noun	taifa+ka
 SOC-044.pe	taifape	of/like 'nation / people'; 'nation / people'-related	modifier	taifa	nation / people	modifier	taifa+pe
 SOC-044.to	taifato	to use/apply 'nation / people'; to act as 'nation / people'	verb	taifa	nation / people	verb	taifa+to
 SOC-044.cika	taifacika	little 'nation / people'; small/dear 'nation / people'	noun	taifa	nation / people	diminutive	taifa+ci+ka
@@ -8537,7 +8515,6 @@ POS-013.to	kokanato	to use/apply 'exchange / swap'; to act as 'exchange / swap'	
 POS-013.cika	kokanacika	little 'exchange / swap'; small/dear 'exchange / swap'	noun	kokana	exchange / swap	diminutive	kokana+ci+ka
 POS-013.goka	kokanagoka	big 'exchange / swap'; great 'exchange / swap'	noun	kokana	exchange / swap	augmentative	kokana+go+ka
 POS-013.deka	kokanadeka	place of/for 'exchange / swap'	noun	kokana	exchange / swap	place	kokana+de+ka
-POS-014.ka	yacinka	rent / lease	noun	yacin	rent / lease	noun	yacin+ka
 POS-014.pe	yacinpe	of/like 'rent / lease'; 'rent / lease'-related	modifier	yacin	rent / lease	modifier	yacin+pe
 POS-014.to	yacinto	to use/apply 'rent / lease'; to act as 'rent / lease'	verb	yacin	rent / lease	verb	yacin+to
 POS-014.cika	yacincika	little 'rent / lease'; small/dear 'rent / lease'	noun	yacin	rent / lease	diminutive	yacin+ci+ka
@@ -10308,7 +10285,6 @@ DWE-075.to	bankoato	to use/apply 'stool / bench'; to act as 'stool / bench'	verb
 DWE-075.cika	bankoacika	little 'stool / bench'; small/dear 'stool / bench'	noun	bankoa	stool / bench	diminutive	bankoa+ci+ka
 DWE-075.goka	bankoagoka	big 'stool / bench'; great 'stool / bench'	noun	bankoa	stool / bench	augmentative	bankoa+go+ka
 DWE-075.deka	bankoadeka	place of/for 'stool / bench'	noun	bankoa	stool / bench	place	bankoa+de+ka
-DWE-076.ka	sofaka	sofa / couch	noun	sofa	sofa / couch	noun	sofa+ka
 DWE-076.pe	sofape	of/like 'sofa / couch'; 'sofa / couch'-related	modifier	sofa	sofa / couch	modifier	sofa+pe
 DWE-076.to	sofato	to use/apply 'sofa / couch'; to act as 'sofa / couch'	verb	sofa	sofa / couch	verb	sofa+to
 DWE-076.cika	sofacika	little 'sofa / couch'; small/dear 'sofa / couch'	noun	sofa	sofa / couch	diminutive	sofa+ci+ka
@@ -10432,7 +10408,6 @@ MOT-045.to	homuto	to use/apply 'platform (station)'; to act as 'platform (statio
 MOT-045.cika	homucika	little 'platform (station)'; small/dear 'platform (station)'	noun	homu	platform (station)	diminutive	homu+ci+ka
 MOT-045.goka	homugoka	big 'platform (station)'; great 'platform (station)'	noun	homu	platform (station)	augmentative	homu+go+ka
 MOT-045.deka	homudeka	place of/for 'platform (station)'	noun	homu	platform (station)	place	homu+de+ka
-MOT-046.ka	uncinka	fare	noun	uncin	fare	noun	uncin+ka
 MOT-046.pe	uncinpe	of/like 'fare'; 'fare'-related	modifier	uncin	fare	modifier	uncin+pe
 MOT-046.to	uncinto	to use/apply 'fare'; to act as 'fare'	verb	uncin	fare	verb	uncin+to
 MOT-046.cika	uncincika	little 'fare'; small/dear 'fare'	noun	uncin	fare	diminutive	uncin+ci+ka
