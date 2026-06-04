@@ -65,9 +65,14 @@ screen seeds.
 **Tooling:** phonotactic linter, collision checker (homophone / near-homophone /
 reserved / obscenity / false-friend), morphological linter (buffer rule + seams),
 parser/validator, **IPA renderer** (`tools/ipa`, backs the dictionary's
-pronunciation field), dictionary generator + integrity gate, corpus-check, and the
-book/site builders — all with test suites/CLIs, wired into CI. The dictionary JSON
-and web lookup now carry an IPA transcription for every form.
+pronunciation field), **derivation explorer** (`tools/derivation-explorer`, the
+dictionary's cross-reference layer: word families, near-homophone confusables,
+false-friend notes), **SRS deck generator** (`tools/srs-generator`, tier-ordered
+Anki/JSON deck of the teachable core), dictionary generator + integrity gate,
+corpus-check, and the book/site builders — all with test suites/CLIs, wired into
+CI. The dictionary JSON and web lookup now carry, per word, an IPA transcription,
+attested corpus examples, root↔derived cross-references, confusables, and any
+false-friend warning.
 
 ## How we got here (PRs #1–#13, all merged)
 
@@ -120,7 +125,11 @@ forms minted → buffer-vowel polish pass.
 4. **Governance & freeze boundary** (open decision O-6 in `0000` §9) — **proposed
    in `docs/0011`**; awaits maintainer ratification, then declare the v1.0 freeze
    once the §5.1 checklist is green.
-5. Later: derivation explorer, SRS material generation, corpus/community seeding.
+5. ✅ **Derivation explorer + dictionary cross-reference enrichment** (`tools/
+   derivation-explorer`; examples/families/confusables/false-friends in the
+   lookup). ✅ **SRS material generation** (`tools/srs-generator`). Still later:
+   interlinear glosser, coverage stats, deprecation registry, corpus/community
+   seeding.
 
 **Corpus follow-ups** (from the first `corpus/` slice, see `corpus/GAPS.md`):
 `docs/0008-corpus` is **ratified (Status: Accepted)**: it settles the register
