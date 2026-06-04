@@ -20,6 +20,51 @@ const els = {
 };
 
 let ENTRIES = [];
+/** form → entry (first occurrence wins), for cross-reference resolution. */
+const BY_FORM = new Map();
+/** root form → its non-trivial derivations and compounds (the word family). */
+const FAMILY = new Map();
+/** merge-skeleton → root entries sharing it (near-homophone confusables). */
+const SKEL = new Map();
+
+/**
+ * Merge-skeleton: weak stop contrast neutralised (b→p, d→t, g→k). Two forms are
+ * near-homophones iff they share a skeleton. Mirrors tools/collision-checker's
+ * skeleton() so "sounds like" here matches what the collision gate would flag.
+ */
+const WEAK = { b: "p", d: "t", g: "k" };
+function skeleton(form) {
+  let out = "";
+  for (const c of form.toLowerCase()) out += WEAK[c] || c;
+  return out;
+}
+
+/** Build the cross-reference indices once, after the data loads. */
+function buildIndices() {
+  for (const e of ENTRIES) if (!BY_FORM.has(e.form)) BY_FORM.set(e.form, e);
+
+  const addFam = (root, e) => {
+    if (!FAMILY.has(root)) FAMILY.set(root, []);
+    FAMILY.get(root).push(e);
+  };
+  for (const e of ENTRIES) {
+    if (e.kind === "derived" && e.base) {
+      // skip the trivial bare-badge forms (root+badge, 2 segments); keep the
+      // affixed derivations (root+affix+badge) that a learner can't predict.
+      if ((e.morphemes || "").split("+").length >= 3) addFam(e.base, e);
+    } else if (e.kind === "compound" && e.morphemes) {
+      const segs = e.morphemes.split("+").filter((s) => !["ka", "to", "pe"].includes(s));
+      for (const s of new Set(segs)) if (BY_FORM.has(s)) addFam(s, e);
+    }
+  }
+
+  for (const e of ENTRIES) {
+    if (e.kind !== "root") continue;
+    const k = skeleton(e.form);
+    if (!SKEL.has(k)) SKEL.set(k, []);
+    SKEL.get(k).push(e);
+  }
+}
 
 /** Score one entry against a lowercased query; higher = better, 0 = no match. */
 function score(entry, q, dir) {
@@ -77,9 +122,60 @@ function render(list) {
           <span class="gloss">${escapeHtml(e.gloss)}</span></div>
         <div class="meta"><span class="domain">${escapeHtml(e.domainName)}</span> ${tier}${deriv}</div>
         ${chips ? `<div class="chips">${chips}</div>` : ""}
+        ${detailBlocks(e)}
       </li>`;
     })
     .join("");
+}
+
+/** A clickable cross-reference that re-runs the search on the given form. */
+function formLink(e) {
+  return `<a class="flink" data-q="${escapeHtml(e.form)}" title="${escapeHtml(e.gloss)}" href="#">${escapeHtml(e.form)}</a>`;
+}
+
+/**
+ * The expandable detail under an entry: its source root (for derived/compounds),
+ * attested corpus examples, its word family (derivations + compounds), the words
+ * it could be confused with by ear, and any cross-language false-friend warning.
+ */
+function detailBlocks(e) {
+  const out = [];
+
+  if (e.base && BY_FORM.has(e.base)) {
+    const r = BY_FORM.get(e.base);
+    out.push(`<div class="xref"><span class="lbl">root</span> ${formLink(r)} <span class="g">${escapeHtml(r.gloss)}</span></div>`);
+  }
+
+  if (e.examples && e.examples.length) {
+    const items = e.examples
+      .map((x) => `<li><span class="ex-t">${escapeHtml(x.talo)}</span> <span class="ex-e">${escapeHtml(x.en)}</span></li>`)
+      .join("");
+    out.push(`<div class="examples"><span class="lbl">examples</span><ul>${items}</ul></div>`);
+  }
+
+  const fam = FAMILY.get(e.form);
+  if (fam && fam.length) {
+    const items = fam.slice(0, 14).map(formLink).join(" · ");
+    const more = fam.length > 14 ? ` <span class="more">+${fam.length - 14}</span>` : "";
+    out.push(`<div class="xref"><span class="lbl">family</span> ${items}${more}</div>`);
+  }
+
+  if (e.kind === "root") {
+    const conf = (SKEL.get(skeleton(e.form)) || []).filter((x) => x.form !== e.form);
+    if (conf.length) {
+      const items = conf
+        .slice(0, 6)
+        .map((c) => `${formLink(c)} <span class="g">${escapeHtml(c.gloss)}</span>`)
+        .join(" · ");
+      out.push(`<div class="xref confuse"><span class="lbl">sounds like</span> ${items}</div>`);
+    }
+  }
+
+  if (e.falseFriend) {
+    out.push(`<div class="xref ff"><span class="lbl">false friend</span> ${escapeHtml(e.falseFriend)}</div>`);
+  }
+
+  return out.join("");
 }
 
 function escapeHtml(s) {
@@ -135,10 +231,21 @@ async function init() {
     els.results.innerHTML = `<li class="entry error">Could not load the dictionary data (${escapeHtml(String(err))}).</li>`;
     return;
   }
+  buildIndices();
   populateDomains();
   for (const el of [els.q, els.dir, els.domain, els.tier]) {
     el.addEventListener("input", update);
   }
+  // delegated: clicking a cross-reference re-runs the search on that form.
+  els.results.addEventListener("click", (ev) => {
+    const a = ev.target.closest(".flink");
+    if (!a) return;
+    ev.preventDefault();
+    els.q.value = a.dataset.q;
+    els.dir.value = "t2e";
+    update();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   // support ?q= deep links
   const params = new URLSearchParams(location.search);
   if (params.get("q")) els.q.value = params.get("q");

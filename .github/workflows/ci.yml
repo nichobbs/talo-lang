@@ -78,6 +78,21 @@ jobs:
         working-directory: tools/ipa
         run: npm test
 
+  # The derivation explorer (docs/0007) is the dictionary's cross-reference layer
+  # as a library + CLI: word families, near-homophone confusables, false-friend
+  # notes. Its suite must stay green so the web lookup and CLI agree. Zero deps.
+  derivation-tests:
+    name: Derivation explorer tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Run tests
+        working-directory: tools/derivation-explorer
+        run: npm test
+
   # The parser/validator (docs/0002 grammar + 0005 §3) is a teaching aid and the
   # regression harness for the corpus; its suite must stay green too. Zero deps.
   parser-tests:
@@ -160,7 +175,7 @@ jobs:
   # are never auto-merged — they fall through to human review.
   auto-merge-docs:
     name: Auto-merge docs-only PRs
-    needs: [test, collision-tests, morpho-tests, ipa-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
+    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.draft == false

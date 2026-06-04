@@ -1,0 +1,20 @@
+{
+  "name": "talo-derivation-explorer",
+  "version": "0.1.0",
+  "description": "Talo derivation explorer (docs/0007). Surfaces a form's root, word family, near-homophone confusables and false-friend notes from the enriched dictionary.json — the CLI mirror of the web lookup's cross-reference layer.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-derive": "./src/cli.ts"
+  },
+  "scripts": {
+    "derive": "node --experimental-strip-types src/cli.ts",
+    "test": "node --experimental-strip-types --test test/explorer.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
