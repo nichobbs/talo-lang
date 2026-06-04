@@ -39,3 +39,17 @@ is small"; `kunato` for "the cat is in the house".
 **Ch. 10** — **10.1** e.g. `Ahoi! Mi yato Milaka. Tanku.` **10.2** `Selo yato
 panika?` / `Itu kunato baitika lo.` **10.3** (your own — check each content word
 ends in `-ka`, `-to`, or `-pe`.)
+
+**Ch. 11** — **11.1** `Te kanto sendi.` / `Ayalikika sendi datanto li.` **11.2**
+`Te tolonato salin.` **11.3** `baitika kipe`, `dinka tape`. **11.4** `Mi datanto
+ki kai.` / `ta bagi mo`.
+
+**Ch. 12** — **12.1** `Kanuka yato gandepe lebi nekoka fe.` **12.2** `hitoka
+tolonape`, `nekoka makanpe`. **12.3** `Yu bekito datanto.` / `Mi ne bisato
+makanto.` **12.4** `Mi tauto ce yu yato senanpe.`
+
+**Ch. 13** — **13.1** "I know that you are happy." / "The running dog is bigger
+than the cat." **13.2** `Ayalikika bekito tolonato totoka pu.` / `Mi tauto ce
+panika kunato baitika lo.` / `Hitoka kasipe yato lelape.` **13.3** e.g. `Kanuka
+pikope datanto baitika su. Te mauto cakulaka. Totoka donato panika te na. Inino
+kanuka yato senanpe.` **13.4** They should read and write (`bacato i tulito`).
