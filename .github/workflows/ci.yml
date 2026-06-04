@@ -153,6 +153,24 @@ jobs:
         working-directory: tools/coverage-stats
         run: npm run check
 
+  # The deprecation registry makes form-retirement a gated act: its suite must
+  # stay green AND the data must pass (no retired spelling live again, every
+  # recorded replacement live under its id). Zero dependencies.
+  deprecation-tests:
+    name: Deprecation registry
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Run tests
+        working-directory: tools/deprecation-registry
+        run: npm test
+      - name: Registry gate over the data
+        working-directory: tools/deprecation-registry
+        run: npm run check
+
   # The parser/validator (docs/0002 grammar + 0005 §3) is a teaching aid and the
   # regression harness for the corpus; its suite must stay green too. Zero deps.
   parser-tests:
@@ -235,7 +253,7 @@ jobs:
   # are never auto-merged — they fall through to human review.
   auto-merge-docs:
     name: Auto-merge docs-only PRs
-    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, srs-tests, glosser-tests, coverage-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
+    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, srs-tests, glosser-tests, coverage-tests, deprecation-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.draft == false

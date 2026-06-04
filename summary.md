@@ -71,7 +71,9 @@ false-friend notes), **SRS deck generator** (`tools/srs-generator`, tier-ordered
 Anki/JSON deck of the teachable core), **interlinear glosser** (`tools/glosser`,
 auto-produces the morpheme gloss line + a corpus gloss-coverage gate),
 **coverage stats** (`tools/coverage-stats`, donor-family balance vs the ≤25% cap
-+ tier/domain coverage + a provable-cap gate), dictionary generator + integrity
++ tier/domain coverage + a provable-cap gate), **deprecation registry**
+(`tools/deprecation-registry` + `data/deprecations.tsv`, makes form-retirement a
+gated act — retired spellings stay dead), dictionary generator + integrity
 gate,
 corpus-check, and the book/site builders — all with test suites/CLIs, wired into
 CI. The dictionary JSON and web lookup now carry, per word, an IPA transcription,
@@ -133,8 +135,8 @@ forms minted → buffer-vowel polish pass.
    derivation-explorer`; examples/families/confusables/false-friends in the
    lookup). ✅ **SRS material generation** (`tools/srs-generator`). ✅
    **interlinear glosser** (`tools/glosser`). ✅ **coverage stats**
-   (`tools/coverage-stats`). Still later: deprecation registry, corpus/community
-   seeding.
+   (`tools/coverage-stats`). ✅ **deprecation registry**
+   (`tools/deprecation-registry`). Still later: corpus/community seeding.
 
 **Corpus follow-ups** (from the first `corpus/` slice, see `corpus/GAPS.md`):
 `docs/0008-corpus` is **ratified (Status: Accepted)**: it settles the register
