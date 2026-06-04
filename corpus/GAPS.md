@@ -163,3 +163,18 @@ gates exit 0) and exercised in a second conflict piece:
 
 Still open (next batch if needed): `terrorist`, `sovereignty`, `evacuate`,
 `refugee` (currently the derivation `kimiakika` "one who flees").
+
+## Conflict batch 3 (the rest of the geopolitics gaps — closed)
+
+The four items left open after batch 2 are now resolved — two minted, two derived
+(per the `0003` derivation-pruning rule: don't mint what derives predictably):
+
+- **`terrorism` / `terror`** → minted `ilihabu` (Arabic *irhab*, Semitic).
+  - **`terrorist`** → compound `ilihabuhitoka` ("terrorism-person", COMP-034).
+- **`independent` / `sovereign` / `free` (liberty-sense)** → minted `meledeka`
+  (Indonesian *merdeka*, Austronesian); distinct from `mulo` "free of cost".
+  - **`sovereignty` / `independence`** → derived `meledekapaka` (independent + -pa).
+- **`evacuate`** → derived `keluatato` (`kelua` leave + `-ta` causative = "make leave").
+- **`refugee` / `displaced person`** → derived `kimiakika` (`kimia` flee + `-ki` agent).
+
+Both gates exit 0. The geopolitics domain is now essentially covered.

@@ -10810,3 +10810,18 @@ ACT-131.to	kisasito	to use/apply 'revenge / retaliation'; to act as 'revenge / r
 ACT-131.cika	kisasicika	little 'revenge / retaliation'; small/dear 'revenge / retaliation'	noun	kisasi	revenge / retaliation	diminutive	kisasi+ci+ka
 ACT-131.goka	kisasigoka	big 'revenge / retaliation'; great 'revenge / retaliation'	noun	kisasi	revenge / retaliation	augmentative	kisasi+go+ka
 ACT-131.deka	kisasideka	place of/for 'revenge / retaliation'	noun	kisasi	revenge / retaliation	place	kisasi+de+ka
+SOC-095.ka	ilihabuka	terrorism / terror	noun	ilihabu	terrorism / terror	noun	ilihabu+ka
+SOC-095.pe	ilihabupe	of/like 'terrorism / terror'; 'terrorism / terror'-related	modifier	ilihabu	terrorism / terror	modifier	ilihabu+pe
+SOC-095.to	ilihabuto	to use/apply 'terrorism / terror'; to act as 'terrorism / terror'	verb	ilihabu	terrorism / terror	verb	ilihabu+to
+SOC-095.cika	ilihabucika	little 'terrorism / terror'; small/dear 'terrorism / terror'	noun	ilihabu	terrorism / terror	diminutive	ilihabu+ci+ka
+SOC-095.goka	ilihabugoka	big 'terrorism / terror'; great 'terrorism / terror'	noun	ilihabu	terrorism / terror	augmentative	ilihabu+go+ka
+SOC-095.deka	ilihabudeka	place of/for 'terrorism / terror'	noun	ilihabu	terrorism / terror	place	ilihabu+de+ka
+SOC-096.pe	meledekape	independent / sovereign / free	modifier	meledeka	independent / sovereign / free	modifier	meledeka+pe
+SOC-096.paka	meledekapaka	'independent / sovereign / free'-ness; state of being 'independent / sovereign / free'	noun	meledeka	independent / sovereign / free	quality	meledeka+pa+ka
+SOC-096.kupe	meledekakupe	opposite of 'independent / sovereign / free'; un-'independent / sovereign / free'	modifier	meledeka	independent / sovereign / free	opposite	meledeka+ku+pe
+SOC-096.tato	meledekatato	to make 'independent / sovereign / free'	verb	meledeka	independent / sovereign / free	causative	meledeka+ta+to
+SOC-096.pito	meledekapito	to become 'independent / sovereign / free'	verb	meledeka	independent / sovereign / free	inchoative	meledeka+pi+to
+SOC-096.gope	meledekagope	very 'independent / sovereign / free'; intensely 'independent / sovereign / free'	modifier	meledeka	independent / sovereign / free	augmentative	meledeka+go+pe
+SOC-096.cipe	meledekacipe	'independent / sovereign / free'-ish; somewhat 'independent / sovereign / free'	modifier	meledeka	independent / sovereign / free	diminutive	meledeka+ci+pe
+SOC-096.kupaka	meledekakupaka	un-'independent / sovereign / free'-ness; the quality of being not 'independent / sovereign / free'	noun	meledeka	independent / sovereign / free	opposite-quality	meledeka+ku+pa+ka
+SOC-096.takika	meledekatakika	one who makes things 'independent / sovereign / free'	noun	meledeka	independent / sovereign / free	causative-agent	meledeka+ta+ki+ka

@@ -68,6 +68,8 @@ const COMPOUNDS = [
   { parts: ["FOO-001", "MOD-022"], badge: "ka", gloss: "grocery (food-shop)" },
   // ---- appended (0008 follow-up): keep IDs stable, append-only -------------
   { parts: ["ANI-001", "DWE-025"], badge: "ka", gloss: "zoo (animal-garden)" },
+  // ---- appended (conflict batch 3): terrorist = terrorism-person ----------
+  { parts: ["SOC-095", "KIN-001"], badge: "ka", gloss: "terrorist (terrorism-person)" },
 ];
 
 // ---- loaders ---------------------------------------------------------------
