@@ -7674,7 +7674,6 @@ FOO-034.cika	masalaicika	little 'spice / seasoning'; small/dear 'spice / seasoni
 FOO-034.goka	masalaigoka	big 'spice / seasoning'; great 'spice / seasoning'	noun	masalai	spice / seasoning	augmentative	masalai+go+ka
 FOO-034.deka	masalaideka	place of/for 'spice / seasoning'	noun	masalai	spice / seasoning	place	masalai+de+ka
 FOO-035.ka	silaka	vinegar	noun	sila	vinegar	noun	sila+ka
-FOO-035.pe	silape	of/like 'vinegar'; 'vinegar'-related	modifier	sila	vinegar	modifier	sila+pe
 FOO-035.to	silato	to use/apply 'vinegar'; to act as 'vinegar'	verb	sila	vinegar	verb	sila+to
 FOO-035.cika	silacika	little 'vinegar'; small/dear 'vinegar'	noun	sila	vinegar	diminutive	sila+ci+ka
 FOO-035.goka	silagoka	big 'vinegar'; great 'vinegar'	noun	sila	vinegar	augmentative	sila+go+ka
@@ -10837,3 +10836,48 @@ COG-077.pito	bekipito	to begin to 'should / ought'	verb	beki	should / ought	inch
 COG-077.takika	bekitakika	one who makes/causes 'should / ought'; instigator of 'should / ought'	noun	beki	should / ought	causative-agent	beki+ta+ki+ka
 COG-077.taboka	bekitaboka	what is brought about by 'should / ought'	noun	beki	should / ought	causative-result	beki+ta+bo+ka
 COG-077.kideka	bekikideka	place of the one who 'should / ought's	noun	beki	should / ought	agent-place	beki+ki+de+ka
+PROP-106.pe	asinpe	foreign	modifier	asin	foreign	modifier	asin+pe
+PROP-106.ka	asinka	'foreign'-ness; the quality 'foreign'	noun	asin	foreign	noun	asin+ka
+PROP-106.paka	asinpaka	'foreign'-ness; state of being 'foreign'	noun	asin	foreign	quality	asin+pa+ka
+PROP-106.kupe	asinkupe	opposite of 'foreign'; un-'foreign'	modifier	asin	foreign	opposite	asin+ku+pe
+PROP-106.tato	asintato	to make 'foreign'	verb	asin	foreign	causative	asin+ta+to
+PROP-106.pito	asinpito	to become 'foreign'	verb	asin	foreign	inchoative	asin+pi+to
+PROP-106.gope	asingope	very 'foreign'; intensely 'foreign'	modifier	asin	foreign	augmentative	asin+go+pe
+PROP-106.cipe	asincipe	'foreign'-ish; somewhat 'foreign'	modifier	asin	foreign	diminutive	asin+ci+pe
+PROP-106.kupaka	asinkupaka	un-'foreign'-ness; the quality of being not 'foreign'	noun	asin	foreign	opposite-quality	asin+ku+pa+ka
+PROP-106.takika	asintakika	one who makes things 'foreign'	noun	asin	foreign	causative-agent	asin+ta+ki+ka
+ACT-133.to	silabeto	to 'investigate'	verb	silabe	investigate	verb	silabe+to
+ACT-133.ka	silabeka	act of 'investigate'; a 'investigate'	noun	silabe	investigate	noun	silabe+ka
+ACT-133.pe	silabepe	'investigate'-ing	modifier	silabe	investigate	modifier	silabe+pe
+ACT-133.kika	silabekika	one who 'investigate's; 'investigate'-er	noun	silabe	investigate	agent	silabe+ki+ka
+ACT-133.tuka	silabetuka	tool/means for 'investigate'	noun	silabe	investigate	instrument	silabe+tu+ka
+ACT-133.boka	silabeboka	thing 'investigate'-ed; result of 'investigate'	noun	silabe	investigate	patient/result	silabe+bo+ka
+ACT-133.deka	silabedeka	place for 'investigate'	noun	silabe	investigate	place	silabe+de+ka
+ACT-133.tato	silabetato	to make/cause to 'investigate'	verb	silabe	investigate	causative	silabe+ta+to
+ACT-133.pito	silabepito	to begin to 'investigate'	verb	silabe	investigate	inchoative	silabe+pi+to
+ACT-133.takika	silabetakika	one who makes/causes 'investigate'; instigator of 'investigate'	noun	silabe	investigate	causative-agent	silabe+ta+ki+ka
+ACT-133.taboka	silabetaboka	what is brought about by 'investigate'	noun	silabe	investigate	causative-result	silabe+ta+bo+ka
+ACT-133.kideka	silabekideka	place of the one who 'investigate's	noun	silabe	investigate	agent-place	silabe+ki+de+ka
+ACT-134.to	eneato	to 'spread'	verb	enea	spread	verb	enea+to
+ACT-134.ka	eneaka	act of 'spread'; a 'spread'	noun	enea	spread	noun	enea+ka
+ACT-134.pe	eneape	'spread'-ing	modifier	enea	spread	modifier	enea+pe
+ACT-134.kika	eneakika	one who 'spread's; 'spread'-er	noun	enea	spread	agent	enea+ki+ka
+ACT-134.tuka	eneatuka	tool/means for 'spread'	noun	enea	spread	instrument	enea+tu+ka
+ACT-134.boka	eneaboka	thing 'spread'-ed; result of 'spread'	noun	enea	spread	patient/result	enea+bo+ka
+ACT-134.deka	eneadeka	place for 'spread'	noun	enea	spread	place	enea+de+ka
+ACT-134.tato	eneatato	to make/cause to 'spread'	verb	enea	spread	causative	enea+ta+to
+ACT-134.pito	eneapito	to begin to 'spread'	verb	enea	spread	inchoative	enea+pi+to
+ACT-134.takika	eneatakika	one who makes/causes 'spread'; instigator of 'spread'	noun	enea	spread	causative-agent	enea+ta+ki+ka
+ACT-134.taboka	eneataboka	what is brought about by 'spread'	noun	enea	spread	causative-result	enea+ta+bo+ka
+ACT-134.kideka	eneakideka	place of the one who 'spread's	noun	enea	spread	agent-place	enea+ki+de+ka
+BOD-080.to	okokato	to 'survive'	verb	okoka	survive	verb	okoka+to
+BOD-080.pe	okokape	'survive'-ing	modifier	okoka	survive	modifier	okoka+pe
+BOD-080.kika	okokakika	one who 'survive's; 'survive'-er	noun	okoka	survive	agent	okoka+ki+ka
+BOD-080.tuka	okokatuka	tool/means for 'survive'	noun	okoka	survive	instrument	okoka+tu+ka
+BOD-080.boka	okokaboka	thing 'survive'-ed; result of 'survive'	noun	okoka	survive	patient/result	okoka+bo+ka
+BOD-080.deka	okokadeka	place for 'survive'	noun	okoka	survive	place	okoka+de+ka
+BOD-080.tato	okokatato	to make/cause to 'survive'	verb	okoka	survive	causative	okoka+ta+to
+BOD-080.pito	okokapito	to begin to 'survive'	verb	okoka	survive	inchoative	okoka+pi+to
+BOD-080.takika	okokatakika	one who makes/causes 'survive'; instigator of 'survive'	noun	okoka	survive	causative-agent	okoka+ta+ki+ka
+BOD-080.taboka	okokataboka	what is brought about by 'survive'	noun	okoka	survive	causative-result	okoka+ta+bo+ka
+BOD-080.kideka	okokakideka	place of the one who 'survive's	noun	okoka	survive	agent-place	okoka+ki+de+ka
