@@ -1513,3 +1513,8 @@ PROP-106	foreign	PROP	2	mod	yes		IDS	vocab completion (Austronesian)
 ACT-133	investigate	ACT	2	v	yes		IDS	vocab completion (Japonic)
 ACT-134	spread	ACT	2	v	yes		IDS	vocab completion (Bantu)
 BOD-080	survive	BOD	2	v	yes		IDS	vocab completion (Bantu); cf. mati die, okoa rescue
+ACT-135	connect / link	ACT	2	v	yes		IDS	AI/online batch (Japonic)
+PROP-107	artificial / man-made	PROP	2	mod	yes		IDS	AI/online batch (Austronesian)
+MOD-134	email	MOD	2	n	yes		IDS	AI/online batch (international)
+ACT-136	user	ACT	2	n	no	use + -ki(agent)	IDS	AI/online batch — derived (pakaikika)
+COG-078	artificial intelligence (AI)	COG	2	n	no	intelligence + artificial	IDS	AI/online batch — AI = inteliyena buatanpe (cf COG-057)

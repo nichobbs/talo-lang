@@ -1492,3 +1492,6 @@ PROP-106	foreign	asin	INTL	Indonesian asing	Austronesian
 ACT-133	investigate	silabe	INTL	Japanese shiraberu (sh->s, r->l)	Japonic
 ACT-134	spread	enea	INTL	Swahili enea	Bantu
 BOD-080	survive	okoka	INTL	Swahili okoka	Bantu
+ACT-135	connect / link	sunagu	INTL	Japanese tsunagu (tsu->su)	Japonic
+PROP-107	artificial / man-made	buatan	INTL	Indonesian buatan	Austronesian
+MOD-134	email	imeli	INTL	international e-mail	international

@@ -10881,3 +10881,31 @@ BOD-080.pito	okokapito	to begin to 'survive'	verb	okoka	survive	inchoative	okoka
 BOD-080.takika	okokatakika	one who makes/causes 'survive'; instigator of 'survive'	noun	okoka	survive	causative-agent	okoka+ta+ki+ka
 BOD-080.taboka	okokataboka	what is brought about by 'survive'	noun	okoka	survive	causative-result	okoka+ta+bo+ka
 BOD-080.kideka	okokakideka	place of the one who 'survive's	noun	okoka	survive	agent-place	okoka+ki+de+ka
+ACT-135.to	sunaguto	to 'connect / link'	verb	sunagu	connect / link	verb	sunagu+to
+ACT-135.ka	sunaguka	act of 'connect / link'; a 'connect / link'	noun	sunagu	connect / link	noun	sunagu+ka
+ACT-135.pe	sunagupe	'connect / link'-ing	modifier	sunagu	connect / link	modifier	sunagu+pe
+ACT-135.kika	sunagukika	one who 'connect / link's; 'connect / link'-er	noun	sunagu	connect / link	agent	sunagu+ki+ka
+ACT-135.tuka	sunagutuka	tool/means for 'connect / link'	noun	sunagu	connect / link	instrument	sunagu+tu+ka
+ACT-135.boka	sunaguboka	thing 'connect / link'-ed; result of 'connect / link'	noun	sunagu	connect / link	patient/result	sunagu+bo+ka
+ACT-135.deka	sunagudeka	place for 'connect / link'	noun	sunagu	connect / link	place	sunagu+de+ka
+ACT-135.tato	sunagutato	to make/cause to 'connect / link'	verb	sunagu	connect / link	causative	sunagu+ta+to
+ACT-135.pito	sunagupito	to begin to 'connect / link'	verb	sunagu	connect / link	inchoative	sunagu+pi+to
+ACT-135.takika	sunagutakika	one who makes/causes 'connect / link'; instigator of 'connect / link'	noun	sunagu	connect / link	causative-agent	sunagu+ta+ki+ka
+ACT-135.taboka	sunagutaboka	what is brought about by 'connect / link'	noun	sunagu	connect / link	causative-result	sunagu+ta+bo+ka
+ACT-135.kideka	sunagukideka	place of the one who 'connect / link's	noun	sunagu	connect / link	agent-place	sunagu+ki+de+ka
+PROP-107.pe	buatanpe	artificial / man-made	modifier	buatan	artificial / man-made	modifier	buatan+pe
+PROP-107.ka	buatanka	'artificial / man-made'-ness; the quality 'artificial / man-made'	noun	buatan	artificial / man-made	noun	buatan+ka
+PROP-107.paka	buatanpaka	'artificial / man-made'-ness; state of being 'artificial / man-made'	noun	buatan	artificial / man-made	quality	buatan+pa+ka
+PROP-107.kupe	buatankupe	opposite of 'artificial / man-made'; un-'artificial / man-made'	modifier	buatan	artificial / man-made	opposite	buatan+ku+pe
+PROP-107.tato	buatantato	to make 'artificial / man-made'	verb	buatan	artificial / man-made	causative	buatan+ta+to
+PROP-107.pito	buatanpito	to become 'artificial / man-made'	verb	buatan	artificial / man-made	inchoative	buatan+pi+to
+PROP-107.gope	buatangope	very 'artificial / man-made'; intensely 'artificial / man-made'	modifier	buatan	artificial / man-made	augmentative	buatan+go+pe
+PROP-107.cipe	buatancipe	'artificial / man-made'-ish; somewhat 'artificial / man-made'	modifier	buatan	artificial / man-made	diminutive	buatan+ci+pe
+PROP-107.kupaka	buatankupaka	un-'artificial / man-made'-ness; the quality of being not 'artificial / man-made'	noun	buatan	artificial / man-made	opposite-quality	buatan+ku+pa+ka
+PROP-107.takika	buatantakika	one who makes things 'artificial / man-made'	noun	buatan	artificial / man-made	causative-agent	buatan+ta+ki+ka
+MOD-134.ka	imelika	email	noun	imeli	email	noun	imeli+ka
+MOD-134.pe	imelipe	of/like 'email'; 'email'-related	modifier	imeli	email	modifier	imeli+pe
+MOD-134.to	imelito	to use/apply 'email'; to act as 'email'	verb	imeli	email	verb	imeli+to
+MOD-134.cika	imelicika	little 'email'; small/dear 'email'	noun	imeli	email	diminutive	imeli+ci+ka
+MOD-134.goka	imeligoka	big 'email'; great 'email'	noun	imeli	email	augmentative	imeli+go+ka
+MOD-134.deka	imelideka	place of/for 'email'	noun	imeli	email	place	imeli+de+ka
