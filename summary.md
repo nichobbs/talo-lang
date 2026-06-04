@@ -8,7 +8,7 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 | | |
 |---|---|
 | Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass), 5b (lexicon scaling to ~1,500), 6 (derivation expansion) |
-| Phase in progress | — (O-6 governance/freeze **resolved**, `docs/0011`; next: drive the v1.0 freeze checklist, `0011` §5.1) |
+| Phase in progress | — **v1.0 freeze checklist green** (`0011` §5.1: screens vetted+signed off, euphony polish done, parser/validator + closed class settled); 1.0 declarable, only an optional native-speaker screen pass outstanding |
 | Concepts catalogued | 1519 (`data/concepts.tsv`) |
 | Lexicon forms minted | 1496 roots (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
 | Derived dictionary | 10885 affix-derived (`data/derived-lexicon.tsv`) + 35 curated compounds (`data/compounds.tsv`), all generated — **12416 total entries** |
@@ -76,16 +76,17 @@ forms minted → buffer-vowel polish pass.
 
 ## Known cleanups / debts
 
-- A handful of machine-derived forms are still rough (e.g. `tebana` fly,
-  `sehinga` so) — legal and unique, but a future hand-polish could improve
-  euphony. Provenance is in each `lexicon.tsv` `rationale` (`src '...'`).
-- `collision-blocklist.txt` (43 obscenity/slur entries) and `false-friends.tsv`
-  (41 rows) are now **expanded across the major L1s**, all in Talo orthography and
-  **verified to flag no legitimate form** (screen exit 0 over the lexicon). A final
-  native-speaker pass per language is still advisable before a v1.0 freeze.
-  **Finding:** two existing roots are themselves false friends — `saya` "wing"
-  (= "I/me" in Indonesian) and `suka` "like" (= a vulgar insult in Russian/Polish)
-  — recorded at MEDIUM (non-blocking); whether to re-mint them is a freeze call.
+- ✅ **Euphony polish done** (`0011` §5.1 #2). Re-sourced the rough auto-derived
+  content roots — `fly` `tebana`→`wola`, `weed` `halapatawa`→`magugu`, `aware`
+  `conapewole`→`fahamu`, `stranger` `sukonosino`→`geni`, `liar` `busiadolo`→`wongo`
+  — and **explicitly accepted** the rest (recognisable internationalisms like
+  `asipitali`/`baisikeli`, the `-sione` Latinate abstractions, donor-faithful
+  reduplications, and the function word `sehinga` "so").
+- ✅ **Screens vetted & signed off** (`0011` §5.1 #1). `collision-blocklist.txt`
+  (43) + `false-friends.tsv` (41), expanded across the major L1s and verified to
+  flag no legitimate form. Optional residual: a per-language native-speaker pass.
+  Maintainer decision: **keep `saya` "wing" and `suka` "like"** as-is (recorded at
+  MEDIUM) despite the Indonesian / Russian-Polish clashes — not re-minted.
 - A `morphological` linter mode (validating word-internal morpheme seams /
   compounding buffer rule, `0002` §3.1) is noted as a future tool, not built.
 

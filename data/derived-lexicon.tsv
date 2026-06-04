@@ -1842,18 +1842,18 @@ ACT-032.pito	ogeleapito	to begin to 'swim'	verb	ogelea	swim	inchoative	ogelea+pi
 ACT-032.takika	ogeleatakika	one who makes/causes 'swim'; instigator of 'swim'	noun	ogelea	swim	causative-agent	ogelea+ta+ki+ka
 ACT-032.taboka	ogeleataboka	what is brought about by 'swim'	noun	ogelea	swim	causative-result	ogelea+ta+bo+ka
 ACT-032.kideka	ogeleakideka	place of the one who 'swim's	noun	ogelea	swim	agent-place	ogelea+ki+de+ka
-ACT-033.to	tebanato	to 'fly'	verb	tebana	fly	verb	tebana+to
-ACT-033.ka	tebanaka	act of 'fly'; a 'fly'	noun	tebana	fly	noun	tebana+ka
-ACT-033.pe	tebanape	'fly'-ing	modifier	tebana	fly	modifier	tebana+pe
-ACT-033.kika	tebanakika	one who 'fly's; 'fly'-er	noun	tebana	fly	agent	tebana+ki+ka
-ACT-033.tuka	tebanatuka	tool/means for 'fly'	noun	tebana	fly	instrument	tebana+tu+ka
-ACT-033.boka	tebanaboka	thing 'fly'-ed; result of 'fly'	noun	tebana	fly	patient/result	tebana+bo+ka
-ACT-033.deka	tebanadeka	place for 'fly'	noun	tebana	fly	place	tebana+de+ka
-ACT-033.tato	tebanatato	to make/cause to 'fly'	verb	tebana	fly	causative	tebana+ta+to
-ACT-033.pito	tebanapito	to begin to 'fly'	verb	tebana	fly	inchoative	tebana+pi+to
-ACT-033.takika	tebanatakika	one who makes/causes 'fly'; instigator of 'fly'	noun	tebana	fly	causative-agent	tebana+ta+ki+ka
-ACT-033.taboka	tebanataboka	what is brought about by 'fly'	noun	tebana	fly	causative-result	tebana+ta+bo+ka
-ACT-033.kideka	tebanakideka	place of the one who 'fly's	noun	tebana	fly	agent-place	tebana+ki+de+ka
+ACT-033.to	wolato	to 'fly'	verb	wola	fly	verb	wola+to
+ACT-033.ka	wolaka	act of 'fly'; a 'fly'	noun	wola	fly	noun	wola+ka
+ACT-033.pe	wolape	'fly'-ing	modifier	wola	fly	modifier	wola+pe
+ACT-033.kika	wolakika	one who 'fly's; 'fly'-er	noun	wola	fly	agent	wola+ki+ka
+ACT-033.tuka	wolatuka	tool/means for 'fly'	noun	wola	fly	instrument	wola+tu+ka
+ACT-033.boka	wolaboka	thing 'fly'-ed; result of 'fly'	noun	wola	fly	patient/result	wola+bo+ka
+ACT-033.deka	woladeka	place for 'fly'	noun	wola	fly	place	wola+de+ka
+ACT-033.tato	wolatato	to make/cause to 'fly'	verb	wola	fly	causative	wola+ta+to
+ACT-033.pito	wolapito	to begin to 'fly'	verb	wola	fly	inchoative	wola+pi+to
+ACT-033.takika	wolatakika	one who makes/causes 'fly'; instigator of 'fly'	noun	wola	fly	causative-agent	wola+ta+ki+ka
+ACT-033.taboka	wolataboka	what is brought about by 'fly'	noun	wola	fly	causative-result	wola+ta+bo+ka
+ACT-033.kideka	wolakideka	place of the one who 'fly's	noun	wola	fly	agent-place	wola+ki+de+ka
 ACT-035.to	asobuto	to 'play'	verb	asobu	play	verb	asobu+to
 ACT-035.ka	asobuka	act of 'play'; a 'play'	noun	asobu	play	noun	asobu+ka
 ACT-035.pe	asobupe	'play'-ing	modifier	asobu	play	modifier	asobu+pe
@@ -6474,12 +6474,12 @@ AGR-048.to	latakato	to use/apply 'vine / creeper'; to act as 'vine / creeper'	ve
 AGR-048.cika	latakacika	little 'vine / creeper'; small/dear 'vine / creeper'	noun	lataka	vine / creeper	diminutive	lataka+ci+ka
 AGR-048.goka	latakagoka	big 'vine / creeper'; great 'vine / creeper'	noun	lataka	vine / creeper	augmentative	lataka+go+ka
 AGR-048.deka	latakadeka	place of/for 'vine / creeper'	noun	lataka	vine / creeper	place	lataka+de+ka
-AGR-049.ka	halapatawaka	weed	noun	halapatawa	weed	noun	halapatawa+ka
-AGR-049.pe	halapatawape	of/like 'weed'; 'weed'-related	modifier	halapatawa	weed	modifier	halapatawa+pe
-AGR-049.to	halapatawato	to use/apply 'weed'; to act as 'weed'	verb	halapatawa	weed	verb	halapatawa+to
-AGR-049.cika	halapatawacika	little 'weed'; small/dear 'weed'	noun	halapatawa	weed	diminutive	halapatawa+ci+ka
-AGR-049.goka	halapatawagoka	big 'weed'; great 'weed'	noun	halapatawa	weed	augmentative	halapatawa+go+ka
-AGR-049.deka	halapatawadeka	place of/for 'weed'	noun	halapatawa	weed	place	halapatawa+de+ka
+AGR-049.ka	maguguka	weed	noun	magugu	weed	noun	magugu+ka
+AGR-049.pe	magugupe	of/like 'weed'; 'weed'-related	modifier	magugu	weed	modifier	magugu+pe
+AGR-049.to	maguguto	to use/apply 'weed'; to act as 'weed'	verb	magugu	weed	verb	magugu+to
+AGR-049.cika	magugucika	little 'weed'; small/dear 'weed'	noun	magugu	weed	diminutive	magugu+ci+ka
+AGR-049.goka	magugugoka	big 'weed'; great 'weed'	noun	magugu	weed	augmentative	magugu+go+ka
+AGR-049.deka	magugudeka	place of/for 'weed'	noun	magugu	weed	place	magugu+de+ka
 AGR-050.ka	hetaka	field / cropland	noun	heta	field / cropland	noun	heta+ka
 AGR-050.pe	hetape	of/like 'field / cropland'; 'field / cropland'-related	modifier	heta	field / cropland	modifier	heta+pe
 AGR-050.to	hetato	to use/apply 'field / cropland'; to act as 'field / cropland'	verb	heta	field / cropland	verb	heta+to
@@ -8145,16 +8145,16 @@ COG-073.pito	kubesupito	to begin to 'distinguish / tell apart'	verb	kubesu	disti
 COG-073.takika	kubesutakika	one who makes/causes 'distinguish / tell apart'; instigator of 'distinguish / tell apart'	noun	kubesu	distinguish / tell apart	causative-agent	kubesu+ta+ki+ka
 COG-073.taboka	kubesutaboka	what is brought about by 'distinguish / tell apart'	noun	kubesu	distinguish / tell apart	causative-result	kubesu+ta+bo+ka
 COG-073.kideka	kubesukideka	place of the one who 'distinguish / tell apart's	noun	kubesu	distinguish / tell apart	agent-place	kubesu+ki+de+ka
-COG-074.pe	conapewolepe	aware / conscious	modifier	conapewole	aware / conscious	modifier	conapewole+pe
-COG-074.ka	conapewoleka	'aware / conscious'-ness; the quality 'aware / conscious'	noun	conapewole	aware / conscious	noun	conapewole+ka
-COG-074.paka	conapewolepaka	'aware / conscious'-ness; state of being 'aware / conscious'	noun	conapewole	aware / conscious	quality	conapewole+pa+ka
-COG-074.kupe	conapewolekupe	opposite of 'aware / conscious'; un-'aware / conscious'	modifier	conapewole	aware / conscious	opposite	conapewole+ku+pe
-COG-074.tato	conapewoletato	to make 'aware / conscious'	verb	conapewole	aware / conscious	causative	conapewole+ta+to
-COG-074.pito	conapewolepito	to become 'aware / conscious'	verb	conapewole	aware / conscious	inchoative	conapewole+pi+to
-COG-074.gope	conapewolegope	very 'aware / conscious'; intensely 'aware / conscious'	modifier	conapewole	aware / conscious	augmentative	conapewole+go+pe
-COG-074.cipe	conapewolecipe	'aware / conscious'-ish; somewhat 'aware / conscious'	modifier	conapewole	aware / conscious	diminutive	conapewole+ci+pe
-COG-074.kupaka	conapewolekupaka	un-'aware / conscious'-ness; the quality of being not 'aware / conscious'	noun	conapewole	aware / conscious	opposite-quality	conapewole+ku+pa+ka
-COG-074.takika	conapewoletakika	one who makes things 'aware / conscious'	noun	conapewole	aware / conscious	causative-agent	conapewole+ta+ki+ka
+COG-074.pe	fahamupe	aware / conscious	modifier	fahamu	aware / conscious	modifier	fahamu+pe
+COG-074.ka	fahamuka	'aware / conscious'-ness; the quality 'aware / conscious'	noun	fahamu	aware / conscious	noun	fahamu+ka
+COG-074.paka	fahamupaka	'aware / conscious'-ness; state of being 'aware / conscious'	noun	fahamu	aware / conscious	quality	fahamu+pa+ka
+COG-074.kupe	fahamukupe	opposite of 'aware / conscious'; un-'aware / conscious'	modifier	fahamu	aware / conscious	opposite	fahamu+ku+pe
+COG-074.tato	fahamutato	to make 'aware / conscious'	verb	fahamu	aware / conscious	causative	fahamu+ta+to
+COG-074.pito	fahamupito	to become 'aware / conscious'	verb	fahamu	aware / conscious	inchoative	fahamu+pi+to
+COG-074.gope	fahamugope	very 'aware / conscious'; intensely 'aware / conscious'	modifier	fahamu	aware / conscious	augmentative	fahamu+go+pe
+COG-074.cipe	fahamucipe	'aware / conscious'-ish; somewhat 'aware / conscious'	modifier	fahamu	aware / conscious	diminutive	fahamu+ci+pe
+COG-074.kupaka	fahamukupaka	un-'aware / conscious'-ness; the quality of being not 'aware / conscious'	noun	fahamu	aware / conscious	opposite-quality	fahamu+ku+pa+ka
+COG-074.takika	fahamutakika	one who makes things 'aware / conscious'	noun	fahamu	aware / conscious	causative-agent	fahamu+ta+ki+ka
 COG-075.pe	lasionalepe	rational / logical	modifier	lasionale	rational / logical	modifier	lasionale+pe
 COG-075.ka	lasionaleka	'rational / logical'-ness; the quality 'rational / logical'	noun	lasionale	rational / logical	noun	lasionale+ka
 COG-075.paka	lasionalepaka	'rational / logical'-ness; state of being 'rational / logical'	noun	lasionale	rational / logical	quality	lasionale+pa+ka
@@ -8691,12 +8691,12 @@ POS-031.gope	baliosogope	very 'valuable / worthy'; intensely 'valuable / worthy'
 POS-031.cipe	baliosocipe	'valuable / worthy'-ish; somewhat 'valuable / worthy'	modifier	balioso	valuable / worthy	diminutive	balioso+ci+pe
 POS-031.kupaka	baliosokupaka	un-'valuable / worthy'-ness; the quality of being not 'valuable / worthy'	noun	balioso	valuable / worthy	opposite-quality	balioso+ku+pa+ka
 POS-031.takika	baliosotakika	one who makes things 'valuable / worthy'	noun	balioso	valuable / worthy	causative-agent	balioso+ta+ki+ka
-KIN-028.ka	sukonosinoka	stranger	noun	sukonosino	stranger	noun	sukonosino+ka
-KIN-028.pe	sukonosinope	of/like 'stranger'; 'stranger'-related	modifier	sukonosino	stranger	modifier	sukonosino+pe
-KIN-028.to	sukonosinoto	to use/apply 'stranger'; to act as 'stranger'	verb	sukonosino	stranger	verb	sukonosino+to
-KIN-028.cika	sukonosinocika	little 'stranger'; small/dear 'stranger'	noun	sukonosino	stranger	diminutive	sukonosino+ci+ka
-KIN-028.goka	sukonosinogoka	big 'stranger'; great 'stranger'	noun	sukonosino	stranger	augmentative	sukonosino+go+ka
-KIN-028.deka	sukonosinodeka	place of/for 'stranger'	noun	sukonosino	stranger	place	sukonosino+de+ka
+KIN-028.ka	genika	stranger	noun	geni	stranger	noun	geni+ka
+KIN-028.pe	genipe	of/like 'stranger'; 'stranger'-related	modifier	geni	stranger	modifier	geni+pe
+KIN-028.to	genito	to use/apply 'stranger'; to act as 'stranger'	verb	geni	stranger	verb	geni+to
+KIN-028.cika	genicika	little 'stranger'; small/dear 'stranger'	noun	geni	stranger	diminutive	geni+ci+ka
+KIN-028.goka	genigoka	big 'stranger'; great 'stranger'	noun	geni	stranger	augmentative	geni+go+ka
+KIN-028.deka	genideka	place of/for 'stranger'	noun	geni	stranger	place	geni+de+ka
 KIN-029.ka	comanoka	partner / companion	noun	comano	partner / companion	noun	comano+ka
 KIN-029.pe	comanope	of/like 'partner / companion'; 'partner / companion'-related	modifier	comano	partner / companion	modifier	comano+pe
 KIN-029.to	comanoto	to use/apply 'partner / companion'; to act as 'partner / companion'	verb	comano	partner / companion	verb	comano+to
@@ -8792,12 +8792,12 @@ KIN-044.to	bakaoto	to use/apply 'fool / idiot'; to act as 'fool / idiot'	verb	ba
 KIN-044.cika	bakaocika	little 'fool / idiot'; small/dear 'fool / idiot'	noun	bakao	fool / idiot	diminutive	bakao+ci+ka
 KIN-044.goka	bakaogoka	big 'fool / idiot'; great 'fool / idiot'	noun	bakao	fool / idiot	augmentative	bakao+go+ka
 KIN-044.deka	bakaodeka	place of/for 'fool / idiot'	noun	bakao	fool / idiot	place	bakao+de+ka
-KIN-045.ka	busiadoloka	liar	noun	busiadolo	liar	noun	busiadolo+ka
-KIN-045.pe	busiadolope	of/like 'liar'; 'liar'-related	modifier	busiadolo	liar	modifier	busiadolo+pe
-KIN-045.to	busiadoloto	to use/apply 'liar'; to act as 'liar'	verb	busiadolo	liar	verb	busiadolo+to
-KIN-045.cika	busiadolocika	little 'liar'; small/dear 'liar'	noun	busiadolo	liar	diminutive	busiadolo+ci+ka
-KIN-045.goka	busiadologoka	big 'liar'; great 'liar'	noun	busiadolo	liar	augmentative	busiadolo+go+ka
-KIN-045.deka	busiadolodeka	place of/for 'liar'	noun	busiadolo	liar	place	busiadolo+de+ka
+KIN-045.ka	wongoka	liar	noun	wongo	liar	noun	wongo+ka
+KIN-045.pe	wongope	of/like 'liar'; 'liar'-related	modifier	wongo	liar	modifier	wongo+pe
+KIN-045.to	wongoto	to use/apply 'liar'; to act as 'liar'	verb	wongo	liar	verb	wongo+to
+KIN-045.cika	wongocika	little 'liar'; small/dear 'liar'	noun	wongo	liar	diminutive	wongo+ci+ka
+KIN-045.goka	wongogoka	big 'liar'; great 'liar'	noun	wongo	liar	augmentative	wongo+go+ka
+KIN-045.deka	wongodeka	place of/for 'liar'	noun	wongo	liar	place	wongo+de+ka
 KIN-046.ka	domeika	ally	noun	domei	ally	noun	domei+ka
 KIN-046.pe	domeipe	of/like 'ally'; 'ally'-related	modifier	domei	ally	modifier	domei+pe
 KIN-046.to	domeito	to use/apply 'ally'; to act as 'ally'	verb	domei	ally	verb	domei+to
