@@ -64,6 +64,20 @@ jobs:
         working-directory: tools/morpho-linter
         run: npm run check
 
+  # The IPA renderer (docs/0001) backs the dictionary's pronunciation field; its
+  # transcription must stay correct. Zero dependencies.
+  ipa-tests:
+    name: IPA renderer tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Run tests
+        working-directory: tools/ipa
+        run: npm test
+
   # The parser/validator (docs/0002 grammar + 0005 §3) is a teaching aid and the
   # regression harness for the corpus; its suite must stay green too. Zero deps.
   parser-tests:
@@ -146,7 +160,7 @@ jobs:
   # are never auto-merged — they fall through to human review.
   auto-merge-docs:
     name: Auto-merge docs-only PRs
-    needs: [test, collision-tests, morpho-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
+    needs: [test, collision-tests, morpho-tests, ipa-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.draft == false

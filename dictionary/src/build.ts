@@ -26,6 +26,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { lint } from "../../tools/phonotactic-linter/src/index.ts";
 import { analyze } from "../../tools/parser/src/index.ts";
+import { toIPA } from "../../tools/ipa/src/index.ts";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..", "..");
@@ -79,6 +80,8 @@ export interface Entry {
   base?: string;
   /** the gloss keywords the English→Talo search indexes this entry under. */
   keywords: string[];
+  /** broad IPA transcription with initial stress, e.g. "/ˈpa.ni.ka/" (0001; tools/ipa). */
+  ipa?: string;
 }
 
 const POS_TO_BADGE: Record<string, ("noun" | "verb" | "modifier")[]> = {
@@ -187,6 +190,7 @@ function build(): Entry[] {
   }
 
   process.stdout.write(`✓ ${entries.length} entries, all forms legal, no duplicate forms\n`);
+  for (const e of entries) e.ipa = toIPA(e.form, true);
   return entries;
 }
 
@@ -236,7 +240,7 @@ function emit(entries: Entry[]): void {
   //    roots, derived words and compounds (the `kind` field distinguishes them),
   //    so the lookup tool resolves any surface word, not just bare roots.
   const json = entries.map((e) => ({
-    id: e.id, form: e.form, gloss: e.gloss, keywords: e.keywords,
+    id: e.id, form: e.form, ipa: e.ipa, gloss: e.gloss, keywords: e.keywords,
     domain: e.domain, domainName: e.domainName, tier: e.tier, pos: e.pos,
     isRoot: e.isRoot, kind: e.kind, derivation: e.derivation,
     ...(e.base ? { base: e.base } : {}),

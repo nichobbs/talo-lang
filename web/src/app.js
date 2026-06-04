@@ -71,8 +71,9 @@ function render(list) {
       } else if (e.derivation) {
         deriv = ` · <span class="deriv">derived: ${escapeHtml(e.derivation)}</span>`;
       }
+      const ipa = e.ipa ? `<span class="ipa">${escapeHtml(e.ipa)}</span>` : "";
       return `<li class="entry ${escapeHtml(e.kind || "root")}">
-        <div class="head"><span class="form">${escapeHtml(e.form)}</span>
+        <div class="head"><span class="form">${escapeHtml(e.form)}</span>${ipa}
           <span class="gloss">${escapeHtml(e.gloss)}</span></div>
         <div class="meta"><span class="domain">${escapeHtml(e.domainName)}</span> ${tier}${deriv}</div>
         ${chips ? `<div class="chips">${chips}</div>` : ""}

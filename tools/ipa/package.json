@@ -1,0 +1,20 @@
+{
+  "name": "talo-ipa",
+  "version": "0.1.0",
+  "description": "Talo → IPA renderer (docs/0001). Deterministic broad transcription with syllable boundaries, the initial-stress mark, and the coda-n → [ŋ] allophony. Backs the dictionary's pronunciation field.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-ipa": "./src/cli.ts"
+  },
+  "scripts": {
+    "ipa": "node --experimental-strip-types src/cli.ts",
+    "test": "node --experimental-strip-types --test test/ipa.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
