@@ -223,3 +223,20 @@ company, `inteliyena` intelligence/AI. Paraphrased: **`smart`** = `inteliyenape`
 ("intelligent"), **`protect`** = `salamata` (safe+causative), **`fake`** =
 `salape` ("wrong"), **`useful`** = `pakaipe` (use+`-pe`). No new tech roots needed
 for this piece; a dedicated "AI"/"smart"/"online" set could come later.
+
+## AI / online batch — domain essentially complete
+
+The digital/online domain turned out to be **already well-stocked**: `failu` file,
+`wideo` video, `kuenta` online, `desikaga` download, `sitio` website, `angou`
+password, `tafuta` search, `bantai` share, `pantala` screen, `kuliki` click,
+`apuli` app, `gulamu` program/software, `dato` data, `leti` network, `intaneto`
+internet, `kaisa` company. Only a few real gaps remained, now **minted**:
+
+- **`connect` / `link`** → `sunagu` (Japanese *tsunagu*, Japonic).
+- **`artificial` / `man-made`** → `buatan` (Indonesian, Austronesian).
+- **`email`** → `imeli` (international).
+
+Derived (no redundant root): **`user`** → `pakaikika` (use + `-ki` agent);
+**`AI` (artificial intelligence)** → `inteliyena buatanpe` ("intelligence
+artificial"). Still open (a future micro-batch if wanted): `upload` (pairs with
+`desikaga` download; currently "send up"), `code` (folded onto `gulamu`).

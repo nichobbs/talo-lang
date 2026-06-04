@@ -9,10 +9,10 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 |---|---|
 | Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass), 5b (lexicon scaling to ~1,500), 6 (derivation expansion) |
 | Phase in progress | — (O-6 governance/freeze **resolved**, `docs/0011`; next: drive the v1.0 freeze checklist, `0011` §5.1) |
-| Concepts catalogued | 1514 (`data/concepts.tsv`) |
-| Lexicon forms minted | 1493 roots (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
-| Derived dictionary | 10882 affix-derived (`data/derived-lexicon.tsv`) + 35 curated compounds (`data/compounds.tsv`), all generated — **12410 total entries** |
-| Both gates | green (linter R1–R6 + collision checker); roots 1493/1493 + derived 10882/10882 + compounds 35/35 clear, exit 0 |
+| Concepts catalogued | 1519 (`data/concepts.tsv`) |
+| Lexicon forms minted | 1496 roots (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
+| Derived dictionary | 10910 affix-derived (`data/derived-lexicon.tsv`) + 35 curated compounds (`data/compounds.tsv`), all generated — **12441 total entries** |
+| Both gates | green (linter R1–R6 + collision checker); roots 1496/1496 + derived 10910/10910 + compounds 35/35 clear, exit 0 |
 | Vocab completion | +6 roots closing the GAPS punch-list: `hoka` other (determiner), `masi` still/yet (adverb), `asin` foreign, `silabe` investigate, `enea` spread, `okoka` survive. `several` folded into `badi`; `capital` = compound `mukukotaka`; `firefighter` = `-pe` relative. Only `trapped` still paraphrased |
 | Grammar register | `docs/0012` **ratified** — comparison (`… lebi … STANDARD fe`), relative clauses (post-nominal `-pe` participle + resumptive), serial modality + minted `beki` "should", and complementiser **`ce`** "that" (reserved, no data row). Parser S4/S7 fixed for post-nominal `-pe`; tests added. Closes all open **grammar** gaps; only vocabulary remains |
 | Conflict/diplomacy batches | +9 roots across three batches — b1: `katasa` forbid, `hamala` attack, `buki` weapon; b2: `huduna` ceasefire, `milisi` militia, `misile` rocket, `kisasi` revenge; b3: `ilihabu` terrorism (Semitic), `meledeka` independent/sovereign (Austronesian). Derived, not minted: `terrorist` = `ilihabuhitoka` (compound), `sovereignty` = `meledekapaka`, `evacuate` = `keluatato` (leave+causative), `refugee` = `kimiakika` (flee+agent). Both gates exit 0 |
@@ -23,7 +23,7 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 | Hello-world corpus | `docs/0004` — 2 annotated dialogues + ~30 feature sentences, all on the 386 words |
 | Grammar completeness | `docs/0005` — conditionals, existential verb `kuna`, determiner order, proper nouns, phatic set (7 new forms) |
 | Lexicon scaling | `docs/0006` — batch log; 7 batches, +1082 forms across all domains (386 → 1468), donor-balanced |
-| Derivation expansion | `docs/0007` — 3 layers, all gated/regenerable: (A) first-order affixes (incl. the `num` ordinal `-pe`) + (B) curated 2nd-order stacks via `scripts/derive-lexicon.mjs` → 10882 forms; (C) curated compounds via `scripts/derive-compounds.mjs` → 35. 1493 roots → 12410 entries. Wired into the dictionary build (`dictionary/`) so lookup resolves derived/compound words |
+| Derivation expansion | `docs/0007` — 3 layers, all gated/regenerable: (A) first-order affixes (incl. the `num` ordinal `-pe`) + (B) curated 2nd-order stacks via `scripts/derive-lexicon.mjs` → 10910 forms; (C) curated compounds via `scripts/derive-compounds.mjs` → 35. 1496 roots → 12441 entries. Wired into the dictionary build (`dictionary/`) so lookup resolves derived/compound words |
 | Corpus | `corpus/` — 16 items (157 clauses), each parser-validated; `corpus-check` CI gate enforces grammar + real-vocab-only (incl. compounds + native-badge-ending roots). News + longer discourse pieces + an **opinion** op-ed (0009) + grammar-exercise pieces + a 27-clause disaster report (0012, Delhi fire) + an international-conflict report (0013, Israel–Lebanon ceasefire). `corpus/GAPS.md` logs the edges: comparative-with-standard, relative clauses, modality, embedded-"that"; vocab gaps (foreign/trapped/firefighter/capital/…; ceasefire/militia/rocket/…); and a role-marked-NP + post-nominal-`-pe` parser limit |
 | Ratified extensions (`0011` Tier-S) | `docs/0009` **ratified** — reflexive/emphatic `sendi`, reciprocal `salin` (`0002` §6.8); `docs/0010` **ratified** — ordinal `NUM + -pe`, multiplicative `kai`, fraction `bagi` (`0003` §5.1). All four markers are reserved closed-class words (checker `RESERVED_FORMS` + parser `FUNCTION_WORDS`), no `data/` rows. Both gates + all suites exit 0 |
 
