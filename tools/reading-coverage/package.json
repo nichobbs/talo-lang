@@ -1,0 +1,21 @@
+{
+  "name": "talo-reading-coverage",
+  "version": "0.1.0",
+  "description": "Talo reading-coverage harness (docs/0013). Measures how much of the IDS concept spine the lexicon expresses and emits the uncovered concepts as the prioritised mint queue.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-coverage-reading": "./src/cli.ts"
+  },
+  "scripts": {
+    "report": "node --experimental-strip-types src/cli.ts",
+    "queue": "node --experimental-strip-types src/cli.ts --missing",
+    "test": "node --experimental-strip-types --test test/coverage.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
