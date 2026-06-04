@@ -1,0 +1,21 @@
+{
+  "name": "talo-deprecation-registry",
+  "version": "0.1.0",
+  "description": "Talo deprecation registry (data/deprecations.tsv). Makes form-retirement a recorded, gated act: retired spellings stay dead and every recorded replacement is live under its id.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-deprecations": "./src/cli.ts"
+  },
+  "scripts": {
+    "deprecations": "node --experimental-strip-types src/cli.ts",
+    "check": "node --experimental-strip-types src/cli.ts --check",
+    "test": "node --experimental-strip-types --test test/deprecation.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}

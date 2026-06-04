@@ -1,0 +1,24 @@
+# Talo deprecation registry — every form deliberately RETIRED and replaced, so a
+# form-retirement is a recorded, gated act, not a silent change (the project's
+# "decisions are constitutional, recorded not silent" discipline; docs/0000).
+#
+# Scope: deliberate, post-construction retirements. The early sourcing pivot
+# (docs/0003) and the buffer-vowel/euphony mechanical passes reshaped many forms
+# before any stable vocabulary existed; those are documented in the ADRs, not
+# tracked per-form here. This registry begins with the docs/0011 §5.1 freeze
+# checklist re-mints and grows as forms are retired going forward.
+#
+# The gate (tools/deprecation-registry) enforces:
+#   1. no `old_form` is still LIVE (in lexicon/derived/compounds) — a retired
+#      spelling must stay dead, so it can't silently come back for a new meaning;
+#   2. each `new_form` IS live under its `id` — the recorded replacement is real;
+#   3. each `id` still exists in the lexicon.
+#
+# Columns: old_form<TAB>new_form<TAB>id<TAB>gloss<TAB>reason<TAB>decision<TAB>date
+# ('#' = comment). new_form may be '∅' for a retirement with no replacement.
+old_form	new_form	id	gloss	reason	decision	date
+tebana	wola	ACT-033	fly	euphony re-source (rough auto-derived blend 'terbang')	0011 §5.1	2026-06-04
+halapatawa	magugu	AGR-049	weed	euphony re-source (rough auto-derived blend)	0011 §5.1	2026-06-04
+conapewole	fahamu	COG-074	aware / conscious	euphony re-source (rough auto-derived blend)	0011 §5.1	2026-06-04
+sukonosino	geni	KIN-028	stranger	euphony re-source (rough auto-derived blend)	0011 §5.1	2026-06-04
+busiadolo	wongo	KIN-045	liar	euphony re-source (rough auto-derived blend)	0011 §5.1	2026-06-04
