@@ -312,7 +312,7 @@ ACT-028	rub	goso	INTL	blend rubric; src 'gosok' (simplified)	blend (simplified)
 ACT-029	dig	holu	INTL	blend rubric; src 'horu'	blend (legalised)
 ACT-031	flow	nagale	INTL	blend rubric; src 'nagare'	blend (legalised)
 ACT-032	swim	ogelea	INTL	blend rubric; src 'ogelea'	blend
-ACT-033	fly	tebana	INTL	blend rubric; src 'terbang' (simplified)	blend (simplified)
+ACT-033	fly	wola	INTL	Spanish volar (v->w, r->l); euphony re-source (0011 §5.1, was 'tebana')	Romance (capped)
 ACT-035	play	asobu	INTL	blend rubric; src 'asobu'	blend
 ACT-036	use	pakai	INTL	blend rubric; src 'pakai'	blend
 ACT-037	help	tolona	INTL	blend rubric; src 'tolong' (simplified)	blend (simplified)
@@ -924,7 +924,7 @@ AGR-045	bark (of tree)	taca	INTL	blend rubric; src 'twaca'	blend; Indo-Aryan
 AGR-046	stem / stalk	dantala	INTL	blend rubric; src 'dantala'	blend; Indo-Aryan
 AGR-047	thorn	kantaka	INTL	blend rubric; src 'kantaka'	blend; Indo-Aryan
 AGR-048	vine / creeper	lataka	INTL	blend rubric; src 'lataka'	blend; Indo-Aryan
-AGR-049	weed	halapatawa	INTL	blend rubric; src 'kharapatawa'	blend; Indo-Aryan
+AGR-049	weed	magugu	INTL	Swahili magugu; euphony re-source (0011 §5.1, was 'halapatawa')	Bantu
 AGR-050	field / cropland	heta	INTL	blend rubric; src 'kheta'	blend; Indo-Aryan
 AGR-051	plough (v)	yotana	INTL	blend rubric; src 'yotana'	blend; Indo-Aryan
 AGR-052	fertilizer / manure	molea	INTL	blend rubric; src 'mbolea'	blend; Bantu
@@ -1140,7 +1140,7 @@ COG-070	recognize	leconose	INTL	blend rubric; src 'leconose'	blend; Romance
 COG-071	suspect	soseta	INTL	blend rubric; src 'soseta'	blend; Romance
 COG-072	analyze / break-down	buneki	INTL	blend rubric; src 'buneki'	blend; Japonic
 COG-073	distinguish / tell apart	kubesu	INTL	blend rubric; src 'kubesu'	blend; Japonic
-COG-074	aware / conscious	conapewole	INTL	blend rubric; src 'conapewole'	blend; Romance
+COG-074	aware / conscious	fahamu	INTL	Swahili fahamu; euphony re-source (0011 §5.1, was 'conapewole')	Bantu
 COG-075	rational / logical	lasionale	INTL	blend rubric; src 'lasionale'	blend; Romance
 SPE-024	greeting	salutu	INTL	blend rubric; src 'salutu'	blend; Romance
 SPE-025	conversation / talk	cosa	INTL	blend rubric; src 'cosa'	blend; Sinitic
@@ -1199,7 +1199,7 @@ POS-028	cheap / inexpensive	balato	INTL	blend rubric; src 'balato'	blend; Romanc
 POS-029	expensive / costly	takaia	INTL	blend rubric; src 'takaia'	blend; Japonic
 POS-030	free / no-cost	mulo	INTL	blend rubric; src 'mulo'	blend; Japonic
 POS-031	valuable / worthy	balioso	INTL	blend rubric; src 'balioso'	blend; Romance
-KIN-028	stranger	sukonosino	INTL	blend rubric; src 'sukonosino'	blend; Romance
+KIN-028	stranger	geni	INTL	Swahili mgeni "stranger/guest"; euphony re-source (0011 §5.1, was 'sukonosino')	Bantu
 KIN-029	partner / companion	comano	INTL	blend rubric; src 'comano'	blend; Romance
 KIN-030	colleague / coworker	dolo	INTL	blend rubric; src 'dolo'	blend; Japonic
 KIN-031	rival / competitor	laibalu	INTL	blend rubric; src 'laibalu'	blend; Japonic
@@ -1216,7 +1216,7 @@ KIN-041	youth / young person	sababua	INTL	blend rubric; src 'sababua'	blend; Sem
 KIN-042	elder / senior	sinin	INTL	blend rubric; src 'sinin'	blend; Sinitic
 KIN-043	hero	eiyusi	INTL	blend rubric; src 'eiyusi'	blend; Japonic
 KIN-044	fool / idiot	bakao	INTL	blend rubric; src 'bakao'	blend; Japonic
-KIN-045	liar	busiadolo	INTL	blend rubric; src 'busiadolo'	blend; Romance
+KIN-045	liar	wongo	INTL	Swahili mwongo "liar"; euphony re-source (0011 §5.1, was 'busiadolo')	Bantu
 KIN-046	ally	domei	INTL	blend rubric; src 'domei'	blend; Japonic
 KIN-047	opponent / adversary	aite	INTL	blend rubric; src 'aite'	blend; Japonic
 KIN-048	apprentice / trainee	desi	INTL	blend rubric; src 'desi'	blend; Japonic
