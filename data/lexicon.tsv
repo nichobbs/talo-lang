@@ -1476,3 +1476,6 @@ ACT-128	appear	tokea	INTL	Swahili tokea	Bantu
 PROP-105	danger	bahaya	INTL	Indonesian bahaya	Austronesian
 MOT-064	stay / remain	tomalu	INTL	Japanese tomaru (r->l)	Japonic
 COG-076	study	soma	INTL	Swahili soma	Bantu
+ACT-129	forbid / ban	katasa	INTL	Swahili kataza (z->s)	Bantu
+ACT-130	attack	hamala	INTL	Hindi hamla (epenthesis ml->mal)	Indo-Aryan
+MOD-132	weapon	buki	INTL	Japanese buki	Japonic
