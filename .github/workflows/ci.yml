@@ -114,6 +114,27 @@ jobs:
         working-directory: tools/srs-generator
         run: npm run check
 
+  # The interlinear glosser (docs/0002) auto-produces the morpheme gloss line; its
+  # suite must stay green AND every corpus token must still gloss (--corpus is a
+  # coverage gate over the reading corpus). Zero dependencies.
+  glosser-tests:
+    name: Interlinear glosser
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Run tests
+        working-directory: tools/glosser
+        run: npm test
+      - name: Build the dictionary data
+        working-directory: dictionary
+        run: npm run build
+      - name: Gloss-coverage gate over the corpus
+        working-directory: tools/glosser
+        run: npm run check
+
   # The parser/validator (docs/0002 grammar + 0005 §3) is a teaching aid and the
   # regression harness for the corpus; its suite must stay green too. Zero deps.
   parser-tests:
@@ -196,7 +217,7 @@ jobs:
   # are never auto-merged — they fall through to human review.
   auto-merge-docs:
     name: Auto-merge docs-only PRs
-    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, srs-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
+    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, srs-tests, glosser-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.draft == false

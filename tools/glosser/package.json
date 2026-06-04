@@ -1,0 +1,21 @@
+{
+  "name": "talo-glosser",
+  "version": "0.1.0",
+  "description": "Talo interlinear glosser (docs/0002). Auto-produces the morpheme-by-morpheme gloss line for any clause, from the dictionary + the closed-class grammatical labels; doubles as a corpus coverage gate (--corpus).",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-gloss": "./src/cli.ts"
+  },
+  "scripts": {
+    "gloss": "node --experimental-strip-types src/cli.ts",
+    "check": "node --experimental-strip-types src/cli.ts --corpus",
+    "test": "node --experimental-strip-types --test test/glosser.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
