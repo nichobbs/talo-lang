@@ -87,8 +87,13 @@ forms minted → buffer-vowel polish pass.
   flag no legitimate form. Optional residual: a per-language native-speaker pass.
   Maintainer decision: **keep `saya` "wing" and `suka` "like"** as-is (recorded at
   MEDIUM) despite the Indonesian / Russian-Polish clashes — not re-minted.
-- A `morphological` linter mode (validating word-internal morpheme seams /
-  compounding buffer rule, `0002` §3.1) is noted as a future tool, not built.
+- ✅ **Morphological linter built** (`tools/morpho-linter`) — validates the
+  word-internal morpheme seams / `0002` §3.1 buffer rule, and gates the generated
+  layers (10,920 compound/derived forms must join legally from their morphemes).
+  Wired into CI. Plus a **reserved/function-word sync test** (`tools/collision-
+  checker/test/sync.test.ts`) locking the parser's `FUNCTION_WORDS` and the
+  checker's `RESERVED_FORMS` together so a new grammatical word can't be added to
+  one without the other.
 
 ## Next steps (recommended order)
 

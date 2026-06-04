@@ -12,7 +12,7 @@
   },
   "scripts": {
     "check": "node --experimental-strip-types src/cli.ts",
-    "test": "node --experimental-strip-types --test test/checker.test.ts"
+    "test": "node --experimental-strip-types --test test/checker.test.ts test/sync.test.ts"
   },
   "engines": {
     "node": ">=22.6.0"
