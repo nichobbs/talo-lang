@@ -1,8 +1,17 @@
 # Talo false-friend screen — forms to AVOID minting because they are a common,
-# different-meaning word in a major language (docs/0003 §7b; the mirror of the
-# obscenity blocklist). The collision checker BLOCKS forms listed at SEVERE/HIGH
-# by default; MEDIUM/LOW are documentation (surfaced only with a tightened
-# --ff-block). Seeded from data/false-friend-audit.tsv; expand with native review.
+# different-meaning (or rude) word in a major language (docs/0003 §7b; the mirror
+# of the obscenity blocklist). The collision checker BLOCKS forms listed at
+# SEVERE/HIGH by default; MEDIUM/LOW are documentation, surfaced only with a
+# tightened --ff-block. Matching is on the WHOLE form (exact), so an entry warns
+# against minting that exact root — it does not flag embeddings (that is the
+# obscenity blocklist's job).
+#
+# CURATION: drawn from the largest L1s, prioritising (a) very high-frequency
+# everyday words (pronouns, "rice", "face") in big languages, since an accidental
+# clash there is most jarring, and (b) rude/taboo exact forms. Every SEVERE/HIGH
+# entry was checked NOT to be a current lexicon root (the screen stays exit 0 over
+# data/lexicon.tsv). Broad but not exhaustive; a native-speaker pass per major L1
+# should still review it before a v1.0 freeze.
 # Columns: form<TAB>lang<TAB>meaning<TAB>severity   ('#' = comment)
 form	lang	meaning	severity
 ano	Spanish/Portuguese	anus (año without ñ)	SEVERE
@@ -15,6 +24,14 @@ kane	Japanese	money	HIGH
 nila	Hindi/Indonesian	blue / indigo	HIGH
 bila	Arabic/Swahili	without	HIGH
 go	Japanese	five	HIGH
+kita	Indonesian/Malay	we (inclusive) — ~300M speakers	HIGH
+kamu	Indonesian/Malay	you (informal)	HIGH
+nasi	Indonesian/Malay	cooked rice	HIGH
+ana	Arabic	I / me	HIGH
+# saya/suka are ALREADY minted roots, so they are recorded at MEDIUM (documented,
+# non-blocking) rather than HIGH — re-minting an existing root is a freeze-time call:
+saya	Indonesian/Malay	"I / me" in Indonesian (Talo saya = wing, ANI-010)	MEDIUM
+suka	Russian/Polish	vulgar insult (Talo suka = "like", EMO-002)	MEDIUM
 du	German	you (informal)	MEDIUM
 oso	Spanish	bear	MEDIUM
 kalo	Greek	good	MEDIUM
@@ -23,5 +40,19 @@ masa	Spanish/Tagalog	dough / mass	MEDIUM
 pena	Spanish/Portuguese	sorrow / feather	MEDIUM
 mata	Spanish	he/she kills	MEDIUM
 kaki	Japanese	persimmon	MEDIUM
+muka	Indonesian/Malay	face	MEDIUM
+buta	Japanese/Indonesian	pig / blind	MEDIUM
+baka	Japanese	idiot (insult)	MEDIUM
+nani	Japanese	what	MEDIUM
+doko	Japanese	where	MEDIUM
+homo	Greek	same (prefix); English clipping	MEDIUM
+gato	Spanish/Portuguese	cat	MEDIUM
+pane	Italian	bread	MEDIUM
+sake	Japanese	rice wine	MEDIUM
 semi	Japanese	cicada	LOW
 piwa	Polish	beers	LOW
+tako	Japanese	octopus	LOW
+sika	Finnish	pig	LOW
+sole	Italian	sun	LOW
+mole	Spanish	sauce	LOW
+foka	Polish	seal (animal)	LOW

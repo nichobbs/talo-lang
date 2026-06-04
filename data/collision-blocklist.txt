@@ -1,25 +1,88 @@
-# Talo collision checker — cross-language obscenity blocklist
+# Talo collision checker — cross-language obscenity / slur blocklist
 #
 # Purpose (docs/0000 §4, docs/0001 §8): screen candidate Talo forms against
-# strings that are obscene/offensive in major languages, so the lexicon does not
-# accidentally mint one. This is a real, frequently-skipped localisation step.
+# strings that are obscene, taboo or slurs in major languages, so the lexicon
+# never accidentally mints one. A frequently-skipped localisation step for any
+# worldlang.
 #
-# Matching (see tools/collision-checker): a candidate is FLAGGED (for human
-# review, not silently banned) if its lowercase form
-#   - exactly equals an entry, or
+# Matching (tools/collision-checker `obscenityHit`): a candidate is FLAGGED (for
+# human review, not silently banned) if its lowercased form
+#   - exactly equals an entry, OR
 #   - contains an entry of length >= 4 as a substring.
-# Short entries (< 4 chars) match only as whole words, to avoid false positives
-# (e.g. 'kut' must not flag the legitimate root 'kuto' = knife).
+# Entries shorter than 4 characters therefore match ONLY as a whole word, so a
+# short entry like `kut` cannot flag the legitimate root `kuto` (knife), and
+# `sit` cannot flag `sita` (below) or `sitio` (website).
 #
-# This seed list is ILLUSTRATIVE and NON-EXHAUSTIVE. Before Talo's lexicon is
-# frozen it MUST be expanded using proper profanity/slur resources across the
-# largest L1s (a curation task, not a code task). One entry per line; '#' = comment.
-#
-# --- seed entries (lowercased Talo-orthography strings to avoid) ---
-kaka
+# CURATION
+# - Entries are written in **Talo orthography** (the 20 letters
+#   a e i o u p t k b d g c f s h m n l w y), because only such a string can ever
+#   appear inside a Talo form. Foreign profanities are adapted the way the form
+#   would actually enter Talo (r→l, v→w, z→s, j→y, sh→s; illegal codas/clusters
+#   resolved), e.g. Korean *ssibal* → `siba`, Japanese *chinko* → `cinko`. A word
+#   that survives no legal Talo adaptation (needs a cluster/coda Talo forbids) is
+#   omitted — no Talo form could ever contain it, so it cannot match.
+# - Verified against the live lexicon + derived layer: **no legitimate Talo form
+#   is flagged** (the screen stays exit 0 over `data/lexicon.tsv`).
+# - Broad, not exhaustive; a native-speaker pass per major L1 should still review
+#   it before a v1.0 freeze. One entry per line; '#' = comment.
+
+# --- Romance (Spanish / Portuguese / Italian / French) ---
 puta
 puto
+puten
+merda
+mielda
+kabon
+pendeyo
+pula
+konyo
+kalayo
+boseta
+enkule
+wafankulo
+
+# --- Germanic (English / German) ---
+faka
+fakin
+kunti
+kont
+saise
+
+# --- Indo-Aryan (Hindi / Urdu / Bengali) ---
+cutiya
+benco
+bosadi
+halandi
+kanki
+
+# --- Arabic / Persian ---
+samuta
+kahaba
+manik
+
+# --- Sinitic (Mandarin / Hokkien) ---
+tamade
+
+# --- Japanese / Korean ---
+cinko
+manko
+sibala
+gesaki
+
+# --- Austronesian (Indonesian / Malay / Tagalog) ---
+konto
+memek
+puki
+putanina
+tanina
+
+# --- Bantu (Swahili) ---
+kuma
+matako
+
+# --- slurs (screened regardless of source language; adapted to orthography) ---
+nige
+cinka
 pedo
 fitta
-merda
-kont
+kaka
