@@ -89,8 +89,24 @@ function senseOf(e: GlossEntry): string {
   return first.trim().replace(/\s+/g, ".");
 }
 
-/** Resolve a content token to its dictionary entry, preferring the bare root. */
+/**
+ * Resolve a content surface token to the entry it glosses under.
+ *
+ * A content root NEVER surfaces bare — it always wears a badge (0002 §2). So for
+ * a badged token, the badge-stripped ROOT is the only grammatically valid
+ * reading, and it wins even over an exact match to a same-spelled root headword.
+ * This matters where one root's citation form coincides with another's surface
+ * form: in text, `kunato` is `kuna`(exist)+V — never the `kunato`(lock) root,
+ * which itself surfaces only as `kunatoto`/`kunatoka`/…; likewise `batuka` is
+ * `batu`(stone)+N, not the `batuka`(duck) root (which surfaces as `batukaka`).
+ * Only if no stem-root exists do we fall back to an exact match (a derived or
+ * compound surface word, e.g. `edukika` "teacher").
+ */
 function resolveContent(low: string, ctx: GlossContext): GlossEntry | undefined {
+  if (/(ka|to|pe)$/.test(low)) {
+    const root = ctx.byForm.get(low.slice(0, -2));
+    if (root && root.kind === "root") return root;
+  }
   const exact = ctx.byForm.get(low);
   if (exact && exact.kind === "root") return exact;
   if (/(ka|to|pe)$/.test(low)) {

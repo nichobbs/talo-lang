@@ -17,6 +17,12 @@ const DICT: GlossEntry[] = [
   { form: "seko", gloss: "what", keywords: ["what"], kind: "root" },             // correlative (dict)
   { form: "edukika", gloss: "teacher", keywords: ["teacher"], kind: "derived" }, // surface word
   { form: "lukutu", gloss: "look at / watch", keywords: ["look at", "watch"], kind: "root" }, // multiword sense
+  // a citation-form coincidence: the existential root `kuna`, and a SEPARATE
+  // root `kunato` ("lock") whose own surface forms are kunatoto/kunatoka/…
+  { form: "kuna", gloss: "exist / be located", keywords: ["exist", "be"], kind: "root" },
+  { form: "kunato", gloss: "lock", keywords: ["lock"], kind: "root" },
+  { form: "batu", gloss: "stone", keywords: ["stone"], kind: "root" },
+  { form: "batuka", gloss: "duck", keywords: ["duck"], kind: "root" },
 ];
 const PROPER = [{ root: "yapan", source: "Japan" }];
 
@@ -64,6 +70,15 @@ test("a whole clause glosses to its interlinear line", () => {
     "earthquake-N strong-MOD hit-V Japan-N yesterday",
   );
   assert.equal(glossClause("hitoka mauto panika i cakulaka", ctx), "person-N want-V water-N and food-N");
+});
+
+test("badged token decomposes even when its spelling is another root's headword", () => {
+  // a content root never surfaces bare, so a badged token is always root+badge:
+  assert.equal(glossToken("kunato", ctx), "exist-V");  // kuna+V, NOT the kunato (lock) root
+  assert.equal(glossToken("batuka", ctx), "stone-N");  // batu+N, NOT the batuka (duck) root
+  // the coinciding root itself only ever appears with its OWN badge:
+  assert.equal(glossToken("kunatoto", ctx), "lock-V");
+  assert.equal(glossToken("batukaka", ctx), "duck-N");
 });
 
 test("unknown word is flagged with a trailing ?", () => {
