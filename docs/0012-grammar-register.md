@@ -147,10 +147,15 @@ clause after `ce` — the parser needs no special subordination logic.
 
 **Decision (tooling clarification, not a grammar change).** A postposed role
 marker (`na/lo/su/fe/wa/we`) follows the **entire noun phrase**, including any
-post-nominal `-pe` modifier — `negalaka toipe fe` "from a far country". The
-parser's `S4` rule now walks back over a modifier run to the nominal head, and
-`S7` no longer flags a post-nominal modifier as dangling (it is the §2 attributive/
-participle). Tests added; the corpus's earlier work-around is retired.
+post-nominal `-pe` modifier — `negalaka toipe fe` "from a far country" — **and any
+other post-nominal phrase tail**: the plural `pu` / clusivity (`totoka pu fe` "than
+the children") and the postposed determiners (numbers, `ini`/`itu`, quantifiers).
+The NP is `noun (+ -pe modifiers)(+ pu/clusivity)(+ determiners)`, and the marker
+follows the whole thing. The parser's `S4` rule walks back over that tail to the
+nominal head, and `S7` no longer flags a post-nominal modifier as dangling (it is
+the §2 attributive/participle). Tests added; the corpus's earlier work-arounds are
+retired. (`pu` stays a **free** word, not a bound suffix — it also attaches to
+pronouns (`te pu`) and the word shape keeps the badge strictly final, §1.)
 
 -----
 

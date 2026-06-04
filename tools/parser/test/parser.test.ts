@@ -136,6 +136,15 @@ test("accept S4: role marker after noun + post-nominal -pe modifier (0012)", () 
   assert.ok(!r.issues.some((x) => x.code === "S4_ROLE_MARKER_POSTPOSED"));
 });
 
+test("accept S4: role marker after a plural / determiner NP tail", () => {
+  // `totoka pu fe` "than the children" — fe follows noun + plural pu
+  assert.equal(validate("totoka tape yato senanpe lebi totoka pu fe").ok, true);
+  // `gouka ki su` — fe/su follows noun + a numeral determiner
+  assert.equal(validate("mi kiliato gouka ki su").ok, true);
+  // still rejects a role marker with NO nominal in the phrase at all
+  assert.ok(validate("na gouka makanto").issues.some((x) => x.code === "S4_ROLE_MARKER_POSTPOSED"));
+});
+
 test("accept: comparative standard with fe (more X than Y) (0012)", () => {
   assert.equal(validate("somaka yato muhimupe lebi uanka fe").ok, true);
 });

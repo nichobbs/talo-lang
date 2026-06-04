@@ -123,14 +123,21 @@ export function validate(clause: string, opts: ValidateOptions = {}): ValidateRe
     }
   }
 
-  // S4 — role markers are postposed: each must follow a nominal (§4). The marker
-  // attaches to the whole noun phrase, so it may also follow post-nominal -pe
-  // modifier(s): `negalaka toipe fe` "from a far country" (0012). We walk back
-  // over any modifier run to find the nominal head it ultimately marks.
+  // S4 — role markers are postposed: each follows the whole NOUN PHRASE (§4).
+  // The phrase is `noun (+ -pe modifiers)(+ pu/clusivity)(+ determiners)`, so the
+  // marker may sit after any of those post-nominal pieces: `negalaka toipe fe`
+  // "from a far country" (0012 §5), `totoka pu fe` "than the children". We walk
+  // back over that NP tail to the nominal head the marker ultimately attaches to.
+  const isNpTail = (t: WordAnalysis): boolean =>
+    t.category === "modifier" || // post-nominal -pe modifier
+    (t.kind === "function" &&
+      (t.functionRole === "number" || // plural pu, clusivity sa/fo
+        t.functionRole === "numeralMarker" || // kai/bagi
+        t.functionRole === "other")); // determiners: numbers, ini/itu, quantifiers
   tokens.forEach((a, i) => {
     if (a.kind === "function" && a.functionRole === "roleMarker") {
       let j = i - 1;
-      while (j >= 0 && tokens[j].category === "modifier") j--;
+      while (j >= 0 && isNpTail(tokens[j])) j--;
       const head = tokens[j];
       const follows = head && (isNominalKind(head) || head.category === "noun");
       if (!follows) {
