@@ -208,23 +208,32 @@ simple, additive-friendly version line:
 
 ### 5.1 What must be true before 1.0 (the freeze checklist)
 
-The pre-freeze debts already logged (`summary.md` "Known cleanups / debts") are
-**1.0 blockers**, because the freeze makes them permanent:
+The pre-freeze debts logged in `summary.md` are **1.0 blockers**, because the
+freeze makes them permanent. Current status:
 
-1. `false-friends.tsv` and `collision-blocklist.txt` upgraded from *illustrative
-   seeds* to resources vetted against real profanity/false-friend data across the
-   donor families — a frozen gate must screen against real data.
-2. The euphony polish pass over auto-resolved forms (e.g. `tebana`, `sehinga`)
-   completed or explicitly accepted, since post-1.0 a deployed form can only be
-   deprecated, not corrected in place.
-3. The **parser/validator** (`summary.md` next-step #3) in place as the executable
-   spec of Tier-F grammar — a freeze needs a machine-checkable definition, not
-   only prose.
-4. `0009` and the `0010` markers ratified or explicitly declined, so the
-   closed-class inventory entering the freeze is settled.
+1. ✅ **Screens vetted.** `collision-blocklist.txt` (43 entries) and
+   `false-friends.tsv` (41 rows) expanded across the donor families, all in Talo
+   orthography and verified to flag no legitimate form. The maintainer has
+   **signed this off**; a final per-language native-speaker pass is recommended but
+   not blocking. *(It surfaced two roots that are themselves false friends —
+   `saya` "wing" and `suka` "like"; the maintainer's decision is to **keep both**,
+   recorded at MEDIUM in `false-friends.tsv`.)*
+2. ✅ **Euphony polish done.** The worst auto-resolved content roots were
+   re-sourced to recognisable, gated forms — `fly` `tebana`→`wola`, `weed`
+   `halapatawa`→`magugu`, `aware` `conapewole`→`fahamu`, `stranger`
+   `sukonosino`→`geni`, `liar` `busiadolo`→`wongo`. The remaining long forms are
+   **explicitly accepted**: recognisable internationalisms (`asipitali` hospital,
+   `baisikeli` bicycle, the Latinate `-sione` abstractions) and donor-faithful
+   reduplications (`kisungusungu` dizzy, `tangatanga` wander), plus the function
+   word `sehinga` "so" (← Malay/Indonesian *sehingga*). No form is left "rough".
+3. ✅ **Parser/validator** in place (`tools/parser`) as the executable Tier-F spec,
+   wired into CI; it now also encodes the `0012` grammar.
+4. ✅ **Closed class settled.** `0009` (reflexive/reciprocal) and the `0010`
+   numeral markers are ratified; `0012` added `ce` and the modality/comparison
+   constructions. The inventory entering the freeze is fixed.
 
-1.0 is declared by the maintainer (or, post-succession, the Academy) only when
-this checklist is green.
+All four are green. 1.0 is declared by the maintainer (or, post-succession, the
+Academy); the only remaining gate is the optional native-speaker screen review (1).
 
 -----
 
