@@ -53,6 +53,8 @@ export const RESERVED_FORMS: ReadonlySet<string> = new Set([
   "sendi", "salin",
   // numeral markers (0010, ratified): multiplicative (N times), fraction (a÷b)
   "kai", "bagi",
+  // complementiser / quotative (0012): introduces an embedded/reported clause
+  "ce",
 ]);
 
 /** A false-friend entry: `form` is a common word meaning something else in `lang`. */

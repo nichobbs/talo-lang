@@ -71,6 +71,10 @@ export const FUNCTION_WORDS = {
   question: new Set(["ke"]),
   /** coordinator (§6.5) */
   conjunction: new Set(["i", "o"]),
+  /** complementiser / quotative `ce` "that" — introduces an embedded or reported
+   *  clause as a complement (0012). Transfer: a "say"-type quotative, like
+   *  Japanese `to`, Hindi `ki`, many West-African languages. */
+  complementizer: new Set(["ce"]),
   /**
    * Other closed-class words that are lexicon entries but take no badge:
    * demonstratives, numerals, quantifiers (the postposed determiner class of
@@ -131,6 +135,7 @@ function functionRoleOf(token: string): string | null {
   if (FUNCTION_WORDS.numeralMarker.has(token)) return "numeralMarker";
   if (FUNCTION_WORDS.question.has(token)) return "question";
   if (FUNCTION_WORDS.conjunction.has(token)) return "conjunction";
+  if (FUNCTION_WORDS.complementizer.has(token)) return "complementizer";
   if (FUNCTION_WORDS.other.has(token)) return "other";
   return null;
 }
