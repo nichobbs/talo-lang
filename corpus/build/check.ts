@@ -130,7 +130,12 @@ function main(): void {
       }
       // real-vocab check: every content word must reduce to a known form
       for (const tok of clause.split(/\s+/)) {
-        if (compoundForms.has(tok.toLowerCase())) continue; // a curated compound surface form
+        const lc = tok.toLowerCase();
+        // A token that IS a lexicon form or compound verbatim is known — handles
+        // roots whose citation form natively ends in a badge syllable and appears
+        // bare (e.g. `naka` "inside", a relational noun), which the analyzer would
+        // otherwise over-strip to `na`.
+        if (lexRoots.has(lc) || compoundForms.has(lc)) continue;
         const a = analyze(tok);
         if (a.kind !== "content" || !a.root) continue;
         const known = candidateStems(a.root, a.affixes).some(
