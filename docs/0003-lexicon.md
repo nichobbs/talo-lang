@@ -118,6 +118,13 @@ tier:
 The cutoff is a tier boundary, not a target count: we build tiers 1→2→3 until
 ~1,500 roots, then stop. Derivation covers everything past the cutoff.
 
+> **Extended by `docs/0013`.** The ~1,500 cutoff was the *first* frontier; it has
+> been reached (1,496 roots). `0013` replaces the fixed count with a
+> **coverage-defined target** — build until the lexicon expresses ≥98 % of a
+> cleaned reading reference (interim 95 %), which converges to ~3,500–4,500 roots
+> after derivation triage. The tier system and pruning policy here are unchanged;
+> only the stopping line moves outward.
+
 -----
 
 ## 4. Semantic domains (the chapter structure)
