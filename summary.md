@@ -62,9 +62,12 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 `collision-blocklist.txt` (obscenity) and `false-friends.tsv` (false-friend)
 screen seeds.
 
-**Tooling:** phonotactic linter and collision checker (homophone /
-near-homophone / reserved / obscenity / false-friend), both with test suites and
-CLIs, wired into CI.
+**Tooling:** phonotactic linter, collision checker (homophone / near-homophone /
+reserved / obscenity / false-friend), morphological linter (buffer rule + seams),
+parser/validator, **IPA renderer** (`tools/ipa`, backs the dictionary's
+pronunciation field), dictionary generator + integrity gate, corpus-check, and the
+book/site builders — all with test suites/CLIs, wired into CI. The dictionary JSON
+and web lookup now carry an IPA transcription for every form.
 
 ## How we got here (PRs #1–#13, all merged)
 
