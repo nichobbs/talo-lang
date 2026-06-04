@@ -149,3 +149,17 @@ lede sentence already needs ~8 missing terms, and a full piece would need 40–6
 Verbatim translation is therefore both a copyright non-starter (we write original
 summaries) and not yet lexically possible — exactly the gap this batch begins to
 close.
+
+## Conflict batch 2 (minted — article 0014 "When a ceasefire breaks")
+
+The recurring geopolitics gaps from 0013 are now **minted** (donor-balanced, both
+gates exit 0) and exercised in a second conflict piece:
+
+- **`ceasefire` / `truce`** → `huduna` (Arabic *hudna*, Semitic).
+- **`militia`** → `milisi` (Indonesian *milisi*, Austronesian).
+- **`rocket` / `missile`** → `misile` (Latin/international, Romance).
+- **`revenge` / `retaliation`** → `kisasi` (Swahili *kisasi*, Bantu).
+- **`negotiate`** — *not* minted: already exists as `kosoa`.
+
+Still open (next batch if needed): `terrorist`, `sovereignty`, `evacuate`,
+`refugee` (currently the derivation `kimiakika` "one who flees").

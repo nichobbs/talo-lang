@@ -10786,3 +10786,27 @@ MOD-132.to	bukito	to use/apply 'weapon'; to act as 'weapon'	verb	buki	weapon	ver
 MOD-132.cika	bukicika	little 'weapon'; small/dear 'weapon'	noun	buki	weapon	diminutive	buki+ci+ka
 MOD-132.goka	bukigoka	big 'weapon'; great 'weapon'	noun	buki	weapon	augmentative	buki+go+ka
 MOD-132.deka	bukideka	place of/for 'weapon'	noun	buki	weapon	place	buki+de+ka
+SOC-093.ka	hudunaka	ceasefire / truce	noun	huduna	ceasefire / truce	noun	huduna+ka
+SOC-093.pe	hudunape	of/like 'ceasefire / truce'; 'ceasefire / truce'-related	modifier	huduna	ceasefire / truce	modifier	huduna+pe
+SOC-093.to	hudunato	to use/apply 'ceasefire / truce'; to act as 'ceasefire / truce'	verb	huduna	ceasefire / truce	verb	huduna+to
+SOC-093.cika	hudunacika	little 'ceasefire / truce'; small/dear 'ceasefire / truce'	noun	huduna	ceasefire / truce	diminutive	huduna+ci+ka
+SOC-093.goka	hudunagoka	big 'ceasefire / truce'; great 'ceasefire / truce'	noun	huduna	ceasefire / truce	augmentative	huduna+go+ka
+SOC-093.deka	hudunadeka	place of/for 'ceasefire / truce'	noun	huduna	ceasefire / truce	place	huduna+de+ka
+SOC-094.ka	milisika	militia	noun	milisi	militia	noun	milisi+ka
+SOC-094.pe	milisipe	of/like 'militia'; 'militia'-related	modifier	milisi	militia	modifier	milisi+pe
+SOC-094.to	milisito	to use/apply 'militia'; to act as 'militia'	verb	milisi	militia	verb	milisi+to
+SOC-094.cika	milisicika	little 'militia'; small/dear 'militia'	noun	milisi	militia	diminutive	milisi+ci+ka
+SOC-094.goka	milisigoka	big 'militia'; great 'militia'	noun	milisi	militia	augmentative	milisi+go+ka
+SOC-094.deka	milisideka	place of/for 'militia'	noun	milisi	militia	place	milisi+de+ka
+MOD-133.ka	misileka	rocket / missile	noun	misile	rocket / missile	noun	misile+ka
+MOD-133.pe	misilepe	of/like 'rocket / missile'; 'rocket / missile'-related	modifier	misile	rocket / missile	modifier	misile+pe
+MOD-133.to	misileto	to use/apply 'rocket / missile'; to act as 'rocket / missile'	verb	misile	rocket / missile	verb	misile+to
+MOD-133.cika	misilecika	little 'rocket / missile'; small/dear 'rocket / missile'	noun	misile	rocket / missile	diminutive	misile+ci+ka
+MOD-133.goka	misilegoka	big 'rocket / missile'; great 'rocket / missile'	noun	misile	rocket / missile	augmentative	misile+go+ka
+MOD-133.deka	misiledeka	place of/for 'rocket / missile'	noun	misile	rocket / missile	place	misile+de+ka
+ACT-131.ka	kisasika	revenge / retaliation	noun	kisasi	revenge / retaliation	noun	kisasi+ka
+ACT-131.pe	kisasipe	of/like 'revenge / retaliation'; 'revenge / retaliation'-related	modifier	kisasi	revenge / retaliation	modifier	kisasi+pe
+ACT-131.to	kisasito	to use/apply 'revenge / retaliation'; to act as 'revenge / retaliation'	verb	kisasi	revenge / retaliation	verb	kisasi+to
+ACT-131.cika	kisasicika	little 'revenge / retaliation'; small/dear 'revenge / retaliation'	noun	kisasi	revenge / retaliation	diminutive	kisasi+ci+ka
+ACT-131.goka	kisasigoka	big 'revenge / retaliation'; great 'revenge / retaliation'	noun	kisasi	revenge / retaliation	augmentative	kisasi+go+ka
+ACT-131.deka	kisasideka	place of/for 'revenge / retaliation'	noun	kisasi	revenge / retaliation	place	kisasi+de+ka

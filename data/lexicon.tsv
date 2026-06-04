@@ -1479,3 +1479,7 @@ COG-076	study	soma	INTL	Swahili soma	Bantu
 ACT-129	forbid / ban	katasa	INTL	Swahili kataza (z->s)	Bantu
 ACT-130	attack	hamala	INTL	Hindi hamla (epenthesis ml->mal)	Indo-Aryan
 MOD-132	weapon	buki	INTL	Japanese buki	Japonic
+SOC-093	ceasefire / truce	huduna	INTL	Arabic hudna (epenthesis)	Semitic
+SOC-094	militia	milisi	INTL	Indonesian milisi	Austronesian
+MOD-133	rocket / missile	misile	INTL	Latin/international missile (missilis)	Romance
+ACT-131	revenge / retaliation	kisasi	INTL	Swahili kisasi	Bantu
