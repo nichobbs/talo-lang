@@ -98,9 +98,11 @@ forms minted → buffer-vowel polish pass.
   reduplications, and the function word `sehinga` "so").
 - ✅ **Screens vetted & signed off** (`0011` §5.1 #1). `collision-blocklist.txt`
   (43) + `false-friends.tsv` (41), expanded across the major L1s and verified to
-  flag no legitimate form. Optional residual: a per-language native-speaker pass.
-  Maintainer decision: **keep `saya` "wing" and `suka` "like"** as-is (recorded at
-  MEDIUM) despite the Indonesian / Russian-Polish clashes — not re-minted.
+  flag no legitimate form. The optional per-language **native-speaker pass is now
+  closed** by the maintainer (deferred to the post-1.0 correction window) — **no
+  freeze gate remains**. Maintainer decision: **keep `saya` "wing" and `suka`
+  "like"** as-is (recorded at MEDIUM) despite the Indonesian / Russian-Polish
+  clashes — not re-minted.
 - ✅ **Morphological linter built** (`tools/morpho-linter`) — validates the
   word-internal morpheme seams / `0002` §3.1 buffer rule, and gates the generated
   layers (10,920 compound/derived forms must join legally from their morphemes).

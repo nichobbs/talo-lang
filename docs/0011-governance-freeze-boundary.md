@@ -214,10 +214,12 @@ freeze makes them permanent. Current status:
 1. ✅ **Screens vetted.** `collision-blocklist.txt` (43 entries) and
    `false-friends.tsv` (41 rows) expanded across the donor families, all in Talo
    orthography and verified to flag no legitimate form. The maintainer has
-   **signed this off**; a final per-language native-speaker pass is recommended but
-   not blocking. *(It surfaced two roots that are themselves false friends —
-   `saya` "wing" and `suka` "like"; the maintainer's decision is to **keep both**,
-   recorded at MEDIUM in `false-friends.tsv`.)*
+   **signed this off** and has now also **closed the optional native-speaker
+   pass**: the screens are accepted as sufficient for 1.0, with any further
+   per-language review deferred to the post-1.0 correction window (§6). *(It
+   surfaced two roots that are themselves false friends — `saya` "wing" and
+   `suka` "like"; the maintainer's decision is to **keep both**, recorded at
+   MEDIUM in `false-friends.tsv`.)*
 2. ✅ **Euphony polish done.** The worst auto-resolved content roots were
    re-sourced to recognisable, gated forms — `fly` `tebana`→`wola`, `weed`
    `halapatawa`→`magugu`, `aware` `conapewole`→`fahamu`, `stranger`
@@ -232,8 +234,9 @@ freeze makes them permanent. Current status:
    numeral markers are ratified; `0012` added `ce` and the modality/comparison
    constructions. The inventory entering the freeze is fixed.
 
-All four are green. 1.0 is declared by the maintainer (or, post-succession, the
-Academy); the only remaining gate is the optional native-speaker screen review (1).
+All four are green, and item 1's optional native-speaker review is now **closed
+by the maintainer** (deferred to the post-1.0 correction window). **No gate
+remains**; 1.0 is declared by the maintainer (or, post-succession, the Academy).
 
 -----
 
