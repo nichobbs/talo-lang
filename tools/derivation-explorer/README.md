@@ -9,6 +9,13 @@ form it surfaces the four relations the web lookup shows (docs/0007):
 - the words it could be **confused with by ear** — other roots sharing its
   merge-skeleton (near-homophones under the b/p·d/t·g/k collapse, same rule as
   `tools/collision-checker`);
+- the words it could be **confused with on the page** — citation-form
+  coincidences, since a content root never surfaces bare: if a headword spells
+  another content root **+ a badge** it `reads in text as` that (e.g. `kunato`
+  reads as `kuna`(exist)+V — the `kunato`(lock) root itself only appears as
+  `kunatoto`/`kunatoka`/…), and a content root reports which of its own badge
+  forms are `spelled like` another root (`kan`(see) → `kanto` is also "office",
+  `kanka` also "crab");
 - any cross-language **false friend** warning.
 
 It reads the already-enriched `dictionary/dist/dictionary.json` (built by

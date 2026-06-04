@@ -39,6 +39,33 @@ function skeleton(form) {
   return out;
 }
 
+const BADGE_TAG = { ka: "N", to: "V", pe: "MOD" };
+const isContentRoot = (e) => !!e && e.kind === "root" && ["n", "v", "mod"].includes(e.pos);
+
+/**
+ * Citation-form coincidences for a root entry (mirrors tools/derivation-explorer's
+ * badgeCoincidences): `readsAs` = this headword parses, in text, as a content
+ * root + a badge; `spells` = this content root's own badge forms each spell
+ * another root. Only content stems (pos n/v/mod) count — function words and
+ * numerals take no badge, so they make no surface coincidence.
+ */
+function badgeCoincidence(e) {
+  const out = { readsAs: null, spells: [] };
+  if (!e || e.kind !== "root") return out;
+  const m = /(ka|to|pe)$/.exec(e.form);
+  if (m) {
+    const stem = BY_FORM.get(e.form.slice(0, -2));
+    if (isContentRoot(stem)) out.readsAs = { stem, badge: BADGE_TAG[m[0]] };
+  }
+  if (isContentRoot(e)) {
+    for (const b of ["ka", "to", "pe"]) {
+      const r = BY_FORM.get(e.form + b);
+      if (r && r.kind === "root") out.spells.push({ badge: BADGE_TAG[b], root: r });
+    }
+  }
+  return out;
+}
+
 /** Build the cross-reference indices once, after the data loads. */
 function buildIndices() {
   for (const e of ENTRIES) if (!BY_FORM.has(e.form)) BY_FORM.set(e.form, e);
@@ -168,6 +195,21 @@ function detailBlocks(e) {
         .map((c) => `${formLink(c)} <span class="g">${escapeHtml(c.gloss)}</span>`)
         .join(" · ");
       out.push(`<div class="xref confuse"><span class="lbl">sounds like</span> ${items}</div>`);
+    }
+    // citation-form coincidences: this headword reads, in text, as another
+    // content root + a badge (and/or this root's own badge forms spell other
+    // roots). A content root never surfaces bare, so the two are confusable on
+    // the page even though running text is unambiguous (see tools/derivation-explorer).
+    const bc = badgeCoincidence(e);
+    if (bc.readsAs) {
+      const s = bc.readsAs.stem;
+      out.push(`<div class="xref confuse"><span class="lbl">reads as</span> ${formLink(s)}+${bc.readsAs.badge} <span class="g">${escapeHtml(s.gloss)}</span> <span class="g">(in text; this root surfaces with its own badge)</span></div>`);
+    }
+    if (bc.spells.length) {
+      const items = bc.spells
+        .map((x) => `${escapeHtml(e.form)}+${x.badge} = ${formLink(x.root)} <span class="g">${escapeHtml(x.root.gloss)}</span>`)
+        .join(" · ");
+      out.push(`<div class="xref confuse"><span class="lbl">spelled like</span> ${items}</div>`);
     }
   }
 

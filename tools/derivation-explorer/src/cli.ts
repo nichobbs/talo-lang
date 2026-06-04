@@ -37,7 +37,7 @@ const short = (g: string, n = 48): string => (g.length > n ? g.slice(0, n - 1) +
 let missing = 0;
 
 for (const form of forms) {
-  const { entry, root, family, confusables } = explain(form, ix);
+  const { entry, root, family, confusables, badge } = explain(form, ix);
   if (!entry) {
     process.stdout.write(`\n${form} — not in the dictionary\n`);
     missing++;
@@ -58,6 +58,12 @@ for (const form of forms) {
   }
   if (confusables.length) {
     process.stdout.write(`  sounds like: ${confusables.map((c) => `${c.form} (${short(c.gloss, 24)})`).join(", ")}\n`);
+  }
+  if (badge.readsAs) {
+    process.stdout.write(`  reads in text as: ${badge.readsAs.stem.form}+${badge.readsAs.badge} — ${short(badge.readsAs.stem.gloss, 28)}\n`);
+  }
+  for (const s of badge.spells) {
+    process.stdout.write(`  spelled like: ${entry.form}+${s.badge} = ${s.root.form} (${short(s.root.gloss, 24)})\n`);
   }
   if (entry.falseFriend) process.stdout.write(`  false friend: ${entry.falseFriend}\n`);
 }
