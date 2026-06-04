@@ -1493,3 +1493,6 @@ ACT-128	appear	ACT	2	v	yes		IDS	0008 §7 follow-up (Bantu)
 PROP-105	danger	PROP	2	n	yes		IDS	0008 corpus follow-up (Austronesian); dangerous = danger+-pe
 MOT-064	stay / remain	MOT	2	v	yes		IDS	0008 corpus follow-up (Japonic)
 COG-076	study	COG	2	v	yes		IDS	0008 corpus follow-up (Bantu)
+ACT-129	forbid / ban	ACT	2	v	yes		IDS	conflict/diplomacy batch (Bantu)
+ACT-130	attack	ACT	2	v	yes		IDS	conflict/diplomacy batch (Indo-Aryan)
+MOD-132	weapon	MOD	2	n	yes		IDS	conflict/diplomacy batch (Japonic)

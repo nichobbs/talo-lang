@@ -10756,3 +10756,33 @@ COG-076.pito	somapito	to begin to 'study'	verb	soma	study	inchoative	soma+pi+to
 COG-076.takika	somatakika	one who makes/causes 'study'; instigator of 'study'	noun	soma	study	causative-agent	soma+ta+ki+ka
 COG-076.taboka	somataboka	what is brought about by 'study'	noun	soma	study	causative-result	soma+ta+bo+ka
 COG-076.kideka	somakideka	place of the one who 'study's	noun	soma	study	agent-place	soma+ki+de+ka
+ACT-129.to	katasato	to 'forbid / ban'	verb	katasa	forbid / ban	verb	katasa+to
+ACT-129.ka	katasaka	act of 'forbid / ban'; a 'forbid / ban'	noun	katasa	forbid / ban	noun	katasa+ka
+ACT-129.pe	katasape	'forbid / ban'-ing	modifier	katasa	forbid / ban	modifier	katasa+pe
+ACT-129.kika	katasakika	one who 'forbid / ban's; 'forbid / ban'-er	noun	katasa	forbid / ban	agent	katasa+ki+ka
+ACT-129.tuka	katasatuka	tool/means for 'forbid / ban'	noun	katasa	forbid / ban	instrument	katasa+tu+ka
+ACT-129.boka	katasaboka	thing 'forbid / ban'-ed; result of 'forbid / ban'	noun	katasa	forbid / ban	patient/result	katasa+bo+ka
+ACT-129.deka	katasadeka	place for 'forbid / ban'	noun	katasa	forbid / ban	place	katasa+de+ka
+ACT-129.tato	katasatato	to make/cause to 'forbid / ban'	verb	katasa	forbid / ban	causative	katasa+ta+to
+ACT-129.pito	katasapito	to begin to 'forbid / ban'	verb	katasa	forbid / ban	inchoative	katasa+pi+to
+ACT-129.takika	katasatakika	one who makes/causes 'forbid / ban'; instigator of 'forbid / ban'	noun	katasa	forbid / ban	causative-agent	katasa+ta+ki+ka
+ACT-129.taboka	katasataboka	what is brought about by 'forbid / ban'	noun	katasa	forbid / ban	causative-result	katasa+ta+bo+ka
+ACT-129.kideka	katasakideka	place of the one who 'forbid / ban's	noun	katasa	forbid / ban	agent-place	katasa+ki+de+ka
+ACT-130.to	hamalato	to 'attack'	verb	hamala	attack	verb	hamala+to
+ACT-130.ka	hamalaka	act of 'attack'; a 'attack'	noun	hamala	attack	noun	hamala+ka
+ACT-130.pe	hamalape	'attack'-ing	modifier	hamala	attack	modifier	hamala+pe
+ACT-130.kika	hamalakika	one who 'attack's; 'attack'-er	noun	hamala	attack	agent	hamala+ki+ka
+ACT-130.tuka	hamalatuka	tool/means for 'attack'	noun	hamala	attack	instrument	hamala+tu+ka
+ACT-130.boka	hamalaboka	thing 'attack'-ed; result of 'attack'	noun	hamala	attack	patient/result	hamala+bo+ka
+ACT-130.deka	hamaladeka	place for 'attack'	noun	hamala	attack	place	hamala+de+ka
+ACT-130.tato	hamalatato	to make/cause to 'attack'	verb	hamala	attack	causative	hamala+ta+to
+ACT-130.pito	hamalapito	to begin to 'attack'	verb	hamala	attack	inchoative	hamala+pi+to
+ACT-130.takika	hamalatakika	one who makes/causes 'attack'; instigator of 'attack'	noun	hamala	attack	causative-agent	hamala+ta+ki+ka
+ACT-130.taboka	hamalataboka	what is brought about by 'attack'	noun	hamala	attack	causative-result	hamala+ta+bo+ka
+ACT-130.kideka	hamalakideka	place of the one who 'attack's	noun	hamala	attack	agent-place	hamala+ki+de+ka
+MOD-132.ka	bukika	weapon	noun	buki	weapon	noun	buki+ka
+MOD-132.pe	bukipe	of/like 'weapon'; 'weapon'-related	modifier	buki	weapon	modifier	buki+pe
+MOD-132.to	bukito	to use/apply 'weapon'; to act as 'weapon'	verb	buki	weapon	verb	buki+to
+MOD-132.cika	bukicika	little 'weapon'; small/dear 'weapon'	noun	buki	weapon	diminutive	buki+ci+ka
+MOD-132.goka	bukigoka	big 'weapon'; great 'weapon'	noun	buki	weapon	augmentative	buki+go+ka
+MOD-132.deka	bukideka	place of/for 'weapon'	noun	buki	weapon	place	buki+de+ka

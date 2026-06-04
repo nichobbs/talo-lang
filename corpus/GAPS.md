@@ -94,3 +94,29 @@ candidates for future ADRs, not bugs:
 Notably, everything *else* held: abstract subjects, evaluation, `because`/`but`,
 conditionals, the ordinal, and the new `soma`/`bahaya`/`tomalu` all composed
 cleanly.
+
+## Conflict/diplomacy article (Israel–Lebanon ceasefire — article 0013)
+
+A whole new domain. Three roots were **minted** for it (donor-balanced, both gates
+exit 0): `katasa` forbid/ban (Bantu), `hamala` attack (Indo-Aryan), `buki` weapon
+(Japonic). Much of the domain already existed: `setuyu` agree, `salama` safe,
+`guntai` army, `tentala` soldier, `sima` border, `amani` peace, `pelan` war,
+`adui` enemy, `laga` fight, `henti` stop.
+
+Still paraphrased (candidates for a follow-up batch):
+- **`ceasefire` / `truce`** — rendered as "agree to stop the war again"
+  (`setuyu` + `henti pelan`). A dedicated word (or a fixed `amani`-compound) would
+  be cleaner; this is the central term of the genre.
+- **`fighter` / `militant`** — used the agent derivation `lagakika` ("fighter",
+  fight + `-ki`); fine for "fighters", but "militant group / militia" still needs a
+  compound or root.
+- **`rocket` / `missile`** — folded onto `buki` "weapon".
+- **`retaliation` / `revenge`**, **`displaced` / `refugee`**, **`negotiate`/`talks`**,
+  **`terrorist`**, **`sovereignty`** — all paraphrased or dropped; a real
+  geopolitics report leans on these constantly.
+
+The **verbatim-translation** test (a full BBC article) confirmed the same: one
+lede sentence already needs ~8 missing terms, and a full piece would need 40–60.
+Verbatim translation is therefore both a copyright non-starter (we write original
+summaries) and not yet lexically possible — exactly the gap this batch begins to
+close.
