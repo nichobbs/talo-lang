@@ -1507,3 +1507,9 @@ SOC-098	sovereignty / independence	SOC	2	n	no	independent + -pa(quality)	IDS	con
 ACT-132	evacuate	ACT	2	v	no	leave + -ta(causative)	IDS	conflict batch 3 — derived (keluatato)
 SOC-099	refugee / displaced person	SOC	2	n	no	flee + -ki(agent)	IDS	conflict batch 3 — derived (kimiakika)
 COG-077	should / ought	COG	2	v	yes		IDS	grammar register (0012); weak obligation, cf. lasima "must" (Japonic)
+QTY-066	other / another	QTY	2	fun	yes		IDS	vocab completion; postposed determiner (Japonic)
+TIM-049	still / yet	TIM	2	fun	yes		IDS	vocab completion; continuative time-adverb (Austronesian)
+PROP-106	foreign	PROP	2	mod	yes		IDS	vocab completion (Austronesian)
+ACT-133	investigate	ACT	2	v	yes		IDS	vocab completion (Japonic)
+ACT-134	spread	ACT	2	v	yes		IDS	vocab completion (Bantu)
+BOD-080	survive	BOD	2	v	yes		IDS	vocab completion (Bantu); cf. mati die, okoa rescue

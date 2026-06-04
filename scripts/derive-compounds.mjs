@@ -70,6 +70,8 @@ const COMPOUNDS = [
   { parts: ["ANI-001", "DWE-025"], badge: "ka", gloss: "zoo (animal-garden)" },
   // ---- appended (conflict batch 3): terrorist = terrorism-person ----------
   { parts: ["SOC-095", "KIN-001"], badge: "ka", gloss: "terrorist (terrorism-person)" },
+  // ---- appended (vocab completion): capital = chief-city ------------------
+  { parts: ["SOC-048", "SOC-005"], badge: "ka", gloss: "capital (chief-city)" },
 ];
 
 // ---- loaders ---------------------------------------------------------------

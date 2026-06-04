@@ -201,3 +201,25 @@ tests added):
 Exercised end-to-end in article 0015 (the 0012 regression piece). Remaining open
 items are now **vocabulary only** (foreign, trapped, firefighter, capital,
 investigate, spread, survive; other/another, several, still) — no open grammar.
+
+## Vocabulary completion + a tech article (0016)
+
+The high-frequency function words and most disaster nouns are now **minted/handled**:
+
+- **`other` / `another`** → `hoka` (Japonic), a postposed determiner (`hitoka hoka`).
+- **`still` / `yet`** → `masi` (Indonesian *masih*), a time-adverb (`… ne datan masi`
+  "not yet"). `several` was **folded** into `badi` "some" / `kidogo` "a few" (no mint).
+- **`foreign`** → `asin`; **`investigate`** → `silabe`; **`spread`** → `enea`;
+  **`survive`** → `okoka` (all minted, donor-balanced).
+- **`capital`** → compound `mukukotaka` ("chief-city", COMP-035).
+- **`firefighter`** → now a clean `-pe` relative (`hitoka motoka lagape` "people who
+  fight the fire") thanks to 0012 — no root needed.
+- **`trapped`** → still paraphrased ("could not escape"); the only disaster gap left.
+
+**Technology** (article 0016): the domain is already well-stocked — `dewa` phone,
+`konpu` computer, `intaneto` internet, `kikai` machine, `loboto` robot, `gulamu`
+program, `dato` data, `leti` network, `apuli` app, `pantala` screen, `kaisa`
+company, `inteliyena` intelligence/AI. Paraphrased: **`smart`** = `inteliyenape`
+("intelligent"), **`protect`** = `salamata` (safe+causative), **`fake`** =
+`salape` ("wrong"), **`useful`** = `pakaipe` (use+`-pe`). No new tech roots needed
+for this piece; a dedicated "AI"/"smart"/"online" set could come later.

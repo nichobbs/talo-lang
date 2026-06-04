@@ -90,13 +90,13 @@ export const FUNCTION_WORDS = {
     "diko", "samu", "sebu", "milion",
     // quantifiers (0005 §3 determiner class)
     "ote", "ingi", "kidogo", "badi", "hakuna", "lebi", "sukuna",
-    "kila", "cuku", "setenga",
+    "kila", "cuku", "setenga", "hoka", // every/each/.../other (postposed determiners)
     "hi", "no",                   // yes / no answer
     "sana", "ti", "dake",         // very / also / only
     "ma", "fi",                   // but / if
     "lagia", "mungi",             // again / maybe
     "sababu", "sehinga", "walau", // because / so / although
-    "leo", "keso", "yana", "inino", // today/tomorrow/yesterday/now (time-words)
+    "leo", "keso", "yana", "inino", "masi", // today/tomorrow/yesterday/now/still (time-words)
     "toki",                         // then (at that time), 0005 §1
   ]),
 } as const;
