@@ -11242,3 +11242,404 @@ SPE-058.pito	teliapito	to begin to 'shout / yell'	verb	telia	shout / yell	inchoa
 SPE-058.takika	teliatakika	one who makes/causes 'shout / yell'; instigator of 'shout / yell'	noun	telia	shout / yell	causative-agent	telia+ta+ki+ka
 SPE-058.taboka	teliataboka	what is brought about by 'shout / yell'	noun	telia	shout / yell	causative-result	telia+ta+bo+ka
 SPE-058.kideka	teliakideka	place of the one who 'shout / yell's	noun	telia	shout / yell	agent-place	telia+ki+de+ka
+CLO-026.ka	manieka	bead	noun	manie	bead	noun	manie+ka
+CLO-026.pe	maniepe	of/like 'bead'; 'bead'-related	modifier	manie	bead	modifier	manie+pe
+CLO-026.to	manieto	to use/apply 'bead'; to act as 'bead'	verb	manie	bead	verb	manie+to
+CLO-026.cika	maniecika	little 'bead'; small/dear 'bead'	noun	manie	bead	diminutive	manie+ci+ka
+CLO-026.goka	maniegoka	big 'bead'; great 'bead'	noun	manie	bead	augmentative	manie+go+ka
+CLO-026.deka	maniedeka	place of/for 'bead'	noun	manie	bead	place	manie+de+ka
+CLO-027.ka	gelanka	bracelet	noun	gelan	bracelet	noun	gelan+ka
+CLO-027.pe	gelanpe	of/like 'bracelet'; 'bracelet'-related	modifier	gelan	bracelet	modifier	gelan+pe
+CLO-027.to	gelanto	to use/apply 'bracelet'; to act as 'bracelet'	verb	gelan	bracelet	verb	gelan+to
+CLO-027.cika	gelancika	little 'bracelet'; small/dear 'bracelet'	noun	gelan	bracelet	diminutive	gelan+ci+ka
+CLO-027.goka	gelangoka	big 'bracelet'; great 'bracelet'	noun	gelan	bracelet	augmentative	gelan+go+ka
+CLO-027.deka	gelandeka	place of/for 'bracelet'	noun	gelan	bracelet	place	gelan+de+ka
+CLO-028.ka	sisiaka	comb	noun	sisia	comb	noun	sisia+ka
+CLO-028.pe	sisiape	of/like 'comb'; 'comb'-related	modifier	sisia	comb	modifier	sisia+pe
+CLO-028.to	sisiato	to use/apply 'comb'; to act as 'comb'	verb	sisia	comb	verb	sisia+to
+CLO-028.cika	sisiacika	little 'comb'; small/dear 'comb'	noun	sisia	comb	diminutive	sisia+ci+ka
+CLO-028.goka	sisiagoka	big 'comb'; great 'comb'	noun	sisia	comb	augmentative	sisia+go+ka
+CLO-028.deka	sisiadeka	place of/for 'comb'	noun	sisia	comb	place	sisia+de+ka
+CLO-029.ka	antinka	earring	noun	antin	earring	noun	antin+ka
+CLO-029.pe	antinpe	of/like 'earring'; 'earring'-related	modifier	antin	earring	modifier	antin+pe
+CLO-029.to	antinto	to use/apply 'earring'; to act as 'earring'	verb	antin	earring	verb	antin+to
+CLO-029.cika	antincika	little 'earring'; small/dear 'earring'	noun	antin	earring	diminutive	antin+ci+ka
+CLO-029.goka	antingoka	big 'earring'; great 'earring'	noun	antin	earring	augmentative	antin+go+ka
+CLO-029.deka	antindeka	place of/for 'earring'	noun	antin	earring	place	antin+de+ka
+CLO-030.ka	mufuka	necklace	noun	mufu	necklace	noun	mufu+ka
+CLO-030.pe	mufupe	of/like 'necklace'; 'necklace'-related	modifier	mufu	necklace	modifier	mufu+pe
+CLO-030.to	mufuto	to use/apply 'necklace'; to act as 'necklace'	verb	mufu	necklace	verb	mufu+to
+CLO-030.cika	mufucika	little 'necklace'; small/dear 'necklace'	noun	mufu	necklace	diminutive	mufu+ci+ka
+CLO-030.goka	mufugoka	big 'necklace'; great 'necklace'	noun	mufu	necklace	augmentative	mufu+go+ka
+CLO-030.deka	mufudeka	place of/for 'necklace'	noun	mufu	necklace	place	mufu+de+ka
+CLO-031.ka	wemeka	razor	noun	weme	razor	noun	weme+ka
+CLO-031.pe	wemepe	of/like 'razor'; 'razor'-related	modifier	weme	razor	modifier	weme+pe
+CLO-031.to	wemeto	to use/apply 'razor'; to act as 'razor'	verb	weme	razor	verb	weme+to
+CLO-031.cika	wemecika	little 'razor'; small/dear 'razor'	noun	weme	razor	diminutive	weme+ci+ka
+CLO-031.goka	wemegoka	big 'razor'; great 'razor'	noun	weme	razor	augmentative	weme+go+ka
+CLO-031.deka	wemedeka	place of/for 'razor'	noun	weme	razor	place	weme+de+ka
+CLO-032.pe	sikape	of/like 'brush'; 'brush'-related	modifier	sika	brush	modifier	sika+pe
+CLO-032.to	sikato	to use/apply 'brush'; to act as 'brush'	verb	sika	brush	verb	sika+to
+CLO-032.cika	sikacika	little 'brush'; small/dear 'brush'	noun	sika	brush	diminutive	sika+ci+ka
+CLO-032.goka	sikagoka	big 'brush'; great 'brush'	noun	sika	brush	augmentative	sika+go+ka
+CLO-032.deka	sikadeka	place of/for 'brush'	noun	sika	brush	place	sika+de+ka
+CLO-033.to	tenunto	to 'weave (v)'	verb	tenun	weave (v)	verb	tenun+to
+CLO-033.ka	tenunka	act of 'weave (v)'; a 'weave (v)'	noun	tenun	weave (v)	noun	tenun+ka
+CLO-033.pe	tenunpe	'weave (v)'-ing	modifier	tenun	weave (v)	modifier	tenun+pe
+CLO-033.kika	tenunkika	one who 'weave (v)'s; 'weave (v)'-er	noun	tenun	weave (v)	agent	tenun+ki+ka
+CLO-033.tuka	tenuntuka	tool/means for 'weave (v)'	noun	tenun	weave (v)	instrument	tenun+tu+ka
+CLO-033.boka	tenunboka	thing 'weave (v)'-ed; result of 'weave (v)'	noun	tenun	weave (v)	patient/result	tenun+bo+ka
+CLO-033.deka	tenundeka	place for 'weave (v)'	noun	tenun	weave (v)	place	tenun+de+ka
+CLO-033.tato	tenuntato	to make/cause to 'weave (v)'	verb	tenun	weave (v)	causative	tenun+ta+to
+CLO-033.pito	tenunpito	to begin to 'weave (v)'	verb	tenun	weave (v)	inchoative	tenun+pi+to
+CLO-033.takika	tenuntakika	one who makes/causes 'weave (v)'; instigator of 'weave (v)'	noun	tenun	weave (v)	causative-agent	tenun+ta+ki+ka
+CLO-033.taboka	tenuntaboka	what is brought about by 'weave (v)'	noun	tenun	weave (v)	causative-result	tenun+ta+bo+ka
+CLO-033.kideka	tenunkideka	place of the one who 'weave (v)'s	noun	tenun	weave (v)	agent-place	tenun+ki+de+ka
+CLO-034.ka	suaka	wool	noun	sua	wool	noun	sua+ka
+CLO-034.pe	suape	of/like 'wool'; 'wool'-related	modifier	sua	wool	modifier	sua+pe
+CLO-034.to	suato	to use/apply 'wool'; to act as 'wool'	verb	sua	wool	verb	sua+to
+CLO-034.cika	suacika	little 'wool'; small/dear 'wool'	noun	sua	wool	diminutive	sua+ci+ka
+CLO-034.goka	suagoka	big 'wool'; great 'wool'	noun	sua	wool	augmentative	sua+go+ka
+CLO-034.deka	suadeka	place of/for 'wool'	noun	sua	wool	place	sua+de+ka
+CLO-035.ka	sutelaka	silk	noun	sutela	silk	noun	sutela+ka
+CLO-035.pe	sutelape	of/like 'silk'; 'silk'-related	modifier	sutela	silk	modifier	sutela+pe
+CLO-035.to	sutelato	to use/apply 'silk'; to act as 'silk'	verb	sutela	silk	verb	sutela+to
+CLO-035.cika	sutelacika	little 'silk'; small/dear 'silk'	noun	sutela	silk	diminutive	sutela+ci+ka
+CLO-035.goka	sutelagoka	big 'silk'; great 'silk'	noun	sutela	silk	augmentative	sutela+go+ka
+CLO-035.deka	suteladeka	place of/for 'silk'	noun	sutela	silk	place	sutela+de+ka
+CLO-036.to	celuto	to 'dye (v)'	verb	celu	dye (v)	verb	celu+to
+CLO-036.ka	celuka	act of 'dye (v)'; a 'dye (v)'	noun	celu	dye (v)	noun	celu+ka
+CLO-036.pe	celupe	'dye (v)'-ing	modifier	celu	dye (v)	modifier	celu+pe
+CLO-036.kika	celukika	one who 'dye (v)'s; 'dye (v)'-er	noun	celu	dye (v)	agent	celu+ki+ka
+CLO-036.tuka	celutuka	tool/means for 'dye (v)'	noun	celu	dye (v)	instrument	celu+tu+ka
+CLO-036.boka	celuboka	thing 'dye (v)'-ed; result of 'dye (v)'	noun	celu	dye (v)	patient/result	celu+bo+ka
+CLO-036.deka	celudeka	place for 'dye (v)'	noun	celu	dye (v)	place	celu+de+ka
+CLO-036.tato	celutato	to make/cause to 'dye (v)'	verb	celu	dye (v)	causative	celu+ta+to
+CLO-036.pito	celupito	to begin to 'dye (v)'	verb	celu	dye (v)	inchoative	celu+pi+to
+CLO-036.takika	celutakika	one who makes/causes 'dye (v)'; instigator of 'dye (v)'	noun	celu	dye (v)	causative-agent	celu+ta+ki+ka
+CLO-036.taboka	celutaboka	what is brought about by 'dye (v)'	noun	celu	dye (v)	causative-result	celu+ta+bo+ka
+CLO-036.kideka	celukideka	place of the one who 'dye (v)'s	noun	celu	dye (v)	agent-place	celu+ki+de+ka
+CLO-037.ka	tatauka	tattoo	noun	tatau	tattoo	noun	tatau+ka
+CLO-037.pe	tataupe	of/like 'tattoo'; 'tattoo'-related	modifier	tatau	tattoo	modifier	tatau+pe
+CLO-037.to	tatauto	to use/apply 'tattoo'; to act as 'tattoo'	verb	tatau	tattoo	verb	tatau+to
+CLO-037.cika	tataucika	little 'tattoo'; small/dear 'tattoo'	noun	tatau	tattoo	diminutive	tatau+ci+ka
+CLO-037.goka	tataugoka	big 'tattoo'; great 'tattoo'	noun	tatau	tattoo	augmentative	tatau+go+ka
+CLO-037.deka	tataudeka	place of/for 'tattoo'	noun	tatau	tattoo	place	tatau+de+ka
+CLO-038.ka	yubaka	cloak / robe	noun	yuba	cloak / robe	noun	yuba+ka
+CLO-038.pe	yubape	of/like 'cloak / robe'; 'cloak / robe'-related	modifier	yuba	cloak / robe	modifier	yuba+pe
+CLO-038.to	yubato	to use/apply 'cloak / robe'; to act as 'cloak / robe'	verb	yuba	cloak / robe	verb	yuba+to
+CLO-038.cika	yubacika	little 'cloak / robe'; small/dear 'cloak / robe'	noun	yuba	cloak / robe	diminutive	yuba+ci+ka
+CLO-038.goka	yubagoka	big 'cloak / robe'; great 'cloak / robe'	noun	yuba	cloak / robe	augmentative	yuba+go+ka
+CLO-038.deka	yubadeka	place of/for 'cloak / robe'	noun	yuba	cloak / robe	place	yuba+de+ka
+ACT-137.ka	kapaka	axe	noun	kapa	axe	noun	kapa+ka
+ACT-137.pe	kapape	of/like 'axe'; 'axe'-related	modifier	kapa	axe	modifier	kapa+pe
+ACT-137.to	kapato	to use/apply 'axe'; to act as 'axe'	verb	kapa	axe	verb	kapa+to
+ACT-137.cika	kapacika	little 'axe'; small/dear 'axe'	noun	kapa	axe	diminutive	kapa+ci+ka
+ACT-137.goka	kapagoka	big 'axe'; great 'axe'	noun	kapa	axe	augmentative	kapa+go+ka
+ACT-137.deka	kapadeka	place of/for 'axe'	noun	kapa	axe	place	kapa+de+ka
+ACT-138.ka	pahaika	chisel	noun	pahai	chisel	noun	pahai+ka
+ACT-138.pe	pahaipe	of/like 'chisel'; 'chisel'-related	modifier	pahai	chisel	modifier	pahai+pe
+ACT-138.to	pahaito	to use/apply 'chisel'; to act as 'chisel'	verb	pahai	chisel	verb	pahai+to
+ACT-138.cika	pahaicika	little 'chisel'; small/dear 'chisel'	noun	pahai	chisel	diminutive	pahai+ci+ka
+ACT-138.goka	pahaigoka	big 'chisel'; great 'chisel'	noun	pahai	chisel	augmentative	pahai+go+ka
+ACT-138.deka	pahaideka	place of/for 'chisel'	noun	pahai	chisel	place	pahai+de+ka
+ACT-139.to	ukito	to 'carve'	verb	uki	carve	verb	uki+to
+ACT-139.ka	ukika	act of 'carve'; a 'carve'	noun	uki	carve	noun	uki+ka
+ACT-139.pe	ukipe	'carve'-ing	modifier	uki	carve	modifier	uki+pe
+ACT-139.kika	ukikika	one who 'carve's; 'carve'-er	noun	uki	carve	agent	uki+ki+ka
+ACT-139.tuka	ukituka	tool/means for 'carve'	noun	uki	carve	instrument	uki+tu+ka
+ACT-139.boka	ukiboka	thing 'carve'-ed; result of 'carve'	noun	uki	carve	patient/result	uki+bo+ka
+ACT-139.deka	ukideka	place for 'carve'	noun	uki	carve	place	uki+de+ka
+ACT-139.tato	ukitato	to make/cause to 'carve'	verb	uki	carve	causative	uki+ta+to
+ACT-139.pito	ukipito	to begin to 'carve'	verb	uki	carve	inchoative	uki+pi+to
+ACT-139.takika	ukitakika	one who makes/causes 'carve'; instigator of 'carve'	noun	uki	carve	causative-agent	uki+ta+ki+ka
+ACT-139.taboka	ukitaboka	what is brought about by 'carve'	noun	uki	carve	causative-result	uki+ta+bo+ka
+ACT-139.kideka	ukikideka	place of the one who 'carve's	noun	uki	carve	agent-place	uki+ki+de+ka
+ACT-140.ka	simuka	knot	noun	simu	knot	noun	simu+ka
+ACT-140.pe	simupe	of/like 'knot'; 'knot'-related	modifier	simu	knot	modifier	simu+pe
+ACT-140.to	simuto	to use/apply 'knot'; to act as 'knot'	verb	simu	knot	verb	simu+to
+ACT-140.cika	simucika	little 'knot'; small/dear 'knot'	noun	simu	knot	diminutive	simu+ci+ka
+ACT-140.goka	simugoka	big 'knot'; great 'knot'	noun	simu	knot	augmentative	simu+go+ka
+ACT-140.deka	simudeka	place of/for 'knot'	noun	simu	knot	place	simu+de+ka
+ACT-141.ka	yalaeka	net	noun	yalae	net	noun	yalae+ka
+ACT-141.pe	yalaepe	of/like 'net'; 'net'-related	modifier	yalae	net	modifier	yalae+pe
+ACT-141.to	yalaeto	to use/apply 'net'; to act as 'net'	verb	yalae	net	verb	yalae+to
+ACT-141.cika	yalaecika	little 'net'; small/dear 'net'	noun	yalae	net	diminutive	yalae+ci+ka
+ACT-141.goka	yalaegoka	big 'net'; great 'net'	noun	yalae	net	augmentative	yalae+go+ka
+ACT-141.deka	yalaedeka	place of/for 'net'	noun	yalae	net	place	yalae+de+ka
+ACT-142.ka	mulika	statue	noun	muli	statue	noun	muli+ka
+ACT-142.pe	mulipe	of/like 'statue'; 'statue'-related	modifier	muli	statue	modifier	muli+pe
+ACT-142.to	mulito	to use/apply 'statue'; to act as 'statue'	verb	muli	statue	verb	muli+to
+ACT-142.cika	mulicika	little 'statue'; small/dear 'statue'	noun	muli	statue	diminutive	muli+ci+ka
+ACT-142.goka	muligoka	big 'statue'; great 'statue'	noun	muli	statue	augmentative	muli+go+ka
+ACT-142.deka	mulideka	place of/for 'statue'	noun	muli	statue	place	muli+de+ka
+ACT-143.ka	kipaka	fan (device)	noun	kipa	fan (device)	noun	kipa+ka
+ACT-143.pe	kipape	of/like 'fan (device)'; 'fan (device)'-related	modifier	kipa	fan (device)	modifier	kipa+pe
+ACT-143.to	kipato	to use/apply 'fan (device)'; to act as 'fan (device)'	verb	kipa	fan (device)	verb	kipa+to
+ACT-143.cika	kipacika	little 'fan (device)'; small/dear 'fan (device)'	noun	kipa	fan (device)	diminutive	kipa+ci+ka
+ACT-143.goka	kipagoka	big 'fan (device)'; great 'fan (device)'	noun	kipa	fan (device)	augmentative	kipa+go+ka
+ACT-143.deka	kipadeka	place of/for 'fan (device)'	noun	kipa	fan (device)	place	kipa+de+ka
+MOT-065.ka	dayunka	oar / paddle	noun	dayun	oar / paddle	noun	dayun+ka
+MOT-065.pe	dayunpe	of/like 'oar / paddle'; 'oar / paddle'-related	modifier	dayun	oar / paddle	modifier	dayun+pe
+MOT-065.to	dayunto	to use/apply 'oar / paddle'; to act as 'oar / paddle'	verb	dayun	oar / paddle	verb	dayun+to
+MOT-065.cika	dayuncika	little 'oar / paddle'; small/dear 'oar / paddle'	noun	dayun	oar / paddle	diminutive	dayun+ci+ka
+MOT-065.goka	dayungoka	big 'oar / paddle'; great 'oar / paddle'	noun	dayun	oar / paddle	augmentative	dayun+go+ka
+MOT-065.deka	dayundeka	place of/for 'oar / paddle'	noun	dayun	oar / paddle	place	dayun+de+ka
+MOT-066.ka	lakieka	raft	noun	lakie	raft	noun	lakie+ka
+MOT-066.pe	lakiepe	of/like 'raft'; 'raft'-related	modifier	lakie	raft	modifier	lakie+pe
+MOT-066.to	lakieto	to use/apply 'raft'; to act as 'raft'	verb	lakie	raft	verb	lakie+to
+MOT-066.cika	lakiecika	little 'raft'; small/dear 'raft'	noun	lakie	raft	diminutive	lakie+ci+ka
+MOT-066.goka	lakiegoka	big 'raft'; great 'raft'	noun	lakie	raft	augmentative	lakie+go+ka
+MOT-066.deka	lakiedeka	place of/for 'raft'	noun	lakie	raft	place	lakie+de+ka
+MOT-067.ka	bangaeka	canoe	noun	bangae	canoe	noun	bangae+ka
+MOT-067.pe	bangaepe	of/like 'canoe'; 'canoe'-related	modifier	bangae	canoe	modifier	bangae+pe
+MOT-067.to	bangaeto	to use/apply 'canoe'; to act as 'canoe'	verb	bangae	canoe	verb	bangae+to
+MOT-067.cika	bangaecika	little 'canoe'; small/dear 'canoe'	noun	bangae	canoe	diminutive	bangae+ci+ka
+MOT-067.goka	bangaegoka	big 'canoe'; great 'canoe'	noun	bangae	canoe	augmentative	bangae+go+ka
+MOT-067.deka	bangaedeka	place of/for 'canoe'	noun	bangae	canoe	place	bangae+de+ka
+MOT-068.ka	layaka	sail (noun)	noun	laya	sail (noun)	noun	laya+ka
+MOT-068.pe	layape	of/like 'sail (noun)'; 'sail (noun)'-related	modifier	laya	sail (noun)	modifier	laya+pe
+MOT-068.to	layato	to use/apply 'sail (noun)'; to act as 'sail (noun)'	verb	laya	sail (noun)	verb	laya+to
+MOT-068.cika	layacika	little 'sail (noun)'; small/dear 'sail (noun)'	noun	laya	sail (noun)	diminutive	laya+ci+ka
+MOT-068.goka	layagoka	big 'sail (noun)'; great 'sail (noun)'	noun	laya	sail (noun)	augmentative	laya+go+ka
+MOT-068.deka	layadeka	place of/for 'sail (noun)'	noun	laya	sail (noun)	place	laya+de+ka
+MOT-069.ka	yuaka	yoke	noun	yua	yoke	noun	yua+ka
+MOT-069.pe	yuape	of/like 'yoke'; 'yoke'-related	modifier	yua	yoke	modifier	yua+pe
+MOT-069.to	yuato	to use/apply 'yoke'; to act as 'yoke'	verb	yua	yoke	verb	yua+to
+MOT-069.cika	yuacika	little 'yoke'; small/dear 'yoke'	noun	yua	yoke	diminutive	yua+ci+ka
+MOT-069.goka	yuagoka	big 'yoke'; great 'yoke'	noun	yua	yoke	augmentative	yua+go+ka
+MOT-069.deka	yuadeka	place of/for 'yoke'	noun	yua	yoke	place	yua+de+ka
+MOT-070.ka	pelanaka	saddle	noun	pelana	saddle	noun	pelana+ka
+MOT-070.pe	pelanape	of/like 'saddle'; 'saddle'-related	modifier	pelana	saddle	modifier	pelana+pe
+MOT-070.to	pelanato	to use/apply 'saddle'; to act as 'saddle'	verb	pelana	saddle	verb	pelana+to
+MOT-070.cika	pelanacika	little 'saddle'; small/dear 'saddle'	noun	pelana	saddle	diminutive	pelana+ci+ka
+MOT-070.goka	pelanagoka	big 'saddle'; great 'saddle'	noun	pelana	saddle	augmentative	pelana+go+ka
+MOT-070.deka	pelanadeka	place of/for 'saddle'	noun	pelana	saddle	place	pelana+de+ka
+POS-032.ka	gayika	wages / salary	noun	gayi	wages / salary	noun	gayi+ka
+POS-032.pe	gayipe	of/like 'wages / salary'; 'wages / salary'-related	modifier	gayi	wages / salary	modifier	gayi+pe
+POS-032.to	gayito	to use/apply 'wages / salary'; to act as 'wages / salary'	verb	gayi	wages / salary	verb	gayi+to
+POS-032.cika	gayicika	little 'wages / salary'; small/dear 'wages / salary'	noun	gayi	wages / salary	diminutive	gayi+ci+ka
+POS-032.goka	gayigoka	big 'wages / salary'; great 'wages / salary'	noun	gayi	wages / salary	augmentative	gayi+go+ka
+POS-032.deka	gayideka	place of/for 'wages / salary'	noun	gayi	wages / salary	place	gayi+de+ka
+POS-033.pe	misinpe	poor	modifier	misin	poor	modifier	misin+pe
+POS-033.ka	misinka	'poor'-ness; the quality 'poor'	noun	misin	poor	noun	misin+ka
+POS-033.paka	misinpaka	'poor'-ness; state of being 'poor'	noun	misin	poor	quality	misin+pa+ka
+POS-033.kupe	misinkupe	opposite of 'poor'; un-'poor'	modifier	misin	poor	opposite	misin+ku+pe
+POS-033.tato	misintato	to make 'poor'	verb	misin	poor	causative	misin+ta+to
+POS-033.pito	misinpito	to become 'poor'	verb	misin	poor	inchoative	misin+pi+to
+POS-033.gope	misingope	very 'poor'; intensely 'poor'	modifier	misin	poor	augmentative	misin+go+pe
+POS-033.cipe	misincipe	'poor'-ish; somewhat 'poor'	modifier	misin	poor	diminutive	misin+ci+pe
+POS-033.kupaka	misinkupaka	un-'poor'-ness; the quality of being not 'poor'	noun	misin	poor	opposite-quality	misin+ku+pa+ka
+POS-033.takika	misintakika	one who makes things 'poor'	noun	misin	poor	causative-agent	misin+ta+ki+ka
+POS-034.ka	halaeka	wealth / property	noun	halae	wealth / property	noun	halae+ka
+POS-034.pe	halaepe	of/like 'wealth / property'; 'wealth / property'-related	modifier	halae	wealth / property	modifier	halae+pe
+POS-034.to	halaeto	to use/apply 'wealth / property'; to act as 'wealth / property'	verb	halae	wealth / property	verb	halae+to
+POS-034.cika	halaecika	little 'wealth / property'; small/dear 'wealth / property'	noun	halae	wealth / property	diminutive	halae+ci+ka
+POS-034.goka	halaegoka	big 'wealth / property'; great 'wealth / property'	noun	halae	wealth / property	augmentative	halae+go+ka
+POS-034.deka	halaedeka	place of/for 'wealth / property'	noun	halae	wealth / property	place	halae+de+ka
+POS-035.pe	kikiape	stingy / miserly	modifier	kikia	stingy / miserly	modifier	kikia+pe
+POS-035.ka	kikiaka	'stingy / miserly'-ness; the quality 'stingy / miserly'	noun	kikia	stingy / miserly	noun	kikia+ka
+POS-035.paka	kikiapaka	'stingy / miserly'-ness; state of being 'stingy / miserly'	noun	kikia	stingy / miserly	quality	kikia+pa+ka
+POS-035.kupe	kikiakupe	opposite of 'stingy / miserly'; un-'stingy / miserly'	modifier	kikia	stingy / miserly	opposite	kikia+ku+pe
+POS-035.tato	kikiatato	to make 'stingy / miserly'	verb	kikia	stingy / miserly	causative	kikia+ta+to
+POS-035.pito	kikiapito	to become 'stingy / miserly'	verb	kikia	stingy / miserly	inchoative	kikia+pi+to
+POS-035.gope	kikiagope	very 'stingy / miserly'; intensely 'stingy / miserly'	modifier	kikia	stingy / miserly	augmentative	kikia+go+pe
+POS-035.cipe	kikiacipe	'stingy / miserly'-ish; somewhat 'stingy / miserly'	modifier	kikia	stingy / miserly	diminutive	kikia+ci+pe
+POS-035.kupaka	kikiakupaka	un-'stingy / miserly'-ness; the quality of being not 'stingy / miserly'	noun	kikia	stingy / miserly	opposite-quality	kikia+ku+pa+ka
+POS-035.takika	kikiatakika	one who makes things 'stingy / miserly'	noun	kikia	stingy / miserly	causative-agent	kikia+ta+ki+ka
+SPA-042.ka	bolaka	ball / sphere	noun	bola	ball / sphere	noun	bola+ka
+SPA-042.pe	bolape	of/like 'ball / sphere'; 'ball / sphere'-related	modifier	bola	ball / sphere	modifier	bola+pe
+SPA-042.to	bolato	to use/apply 'ball / sphere'; to act as 'ball / sphere'	verb	bola	ball / sphere	verb	bola+to
+SPA-042.cika	bolacika	little 'ball / sphere'; small/dear 'ball / sphere'	noun	bola	ball / sphere	diminutive	bola+ci+ka
+SPA-042.goka	bolagoka	big 'ball / sphere'; great 'ball / sphere'	noun	bola	ball / sphere	augmentative	bola+go+ka
+SPA-042.deka	boladeka	place of/for 'ball / sphere'	noun	bola	ball / sphere	place	bola+de+ka
+SPA-043.ka	kaiaka	hook	noun	kaia	hook	noun	kaia+ka
+SPA-043.pe	kaiape	of/like 'hook'; 'hook'-related	modifier	kaia	hook	modifier	kaia+pe
+SPA-043.to	kaiato	to use/apply 'hook'; to act as 'hook'	verb	kaia	hook	verb	kaia+to
+SPA-043.cika	kaiacika	little 'hook'; small/dear 'hook'	noun	kaia	hook	diminutive	kaia+ci+ka
+SPA-043.goka	kaiagoka	big 'hook'; great 'hook'	noun	kaia	hook	augmentative	kaia+go+ka
+SPA-043.deka	kaiadeka	place of/for 'hook'	noun	kaia	hook	place	kaia+de+ka
+SPA-044.ka	suduka	corner	noun	sudu	corner	noun	sudu+ka
+SPA-044.pe	sudupe	of/like 'corner'; 'corner'-related	modifier	sudu	corner	modifier	sudu+pe
+SPA-044.to	suduto	to use/apply 'corner'; to act as 'corner'	verb	sudu	corner	verb	sudu+to
+SPA-044.cika	suducika	little 'corner'; small/dear 'corner'	noun	sudu	corner	diminutive	sudu+ci+ka
+SPA-044.goka	sudugoka	big 'corner'; great 'corner'	noun	sudu	corner	augmentative	sudu+go+ka
+SPA-044.deka	sududeka	place of/for 'corner'	noun	sudu	corner	place	sudu+de+ka
+SPA-045.ka	tepika	edge	noun	tepi	edge	noun	tepi+ka
+SPA-045.pe	tepipe	of/like 'edge'; 'edge'-related	modifier	tepi	edge	modifier	tepi+pe
+SPA-045.to	tepito	to use/apply 'edge'; to act as 'edge'	verb	tepi	edge	verb	tepi+to
+SPA-045.cika	tepicika	little 'edge'; small/dear 'edge'	noun	tepi	edge	diminutive	tepi+ci+ka
+SPA-045.goka	tepigoka	big 'edge'; great 'edge'	noun	tepi	edge	augmentative	tepi+go+ka
+SPA-045.deka	tepideka	place of/for 'edge'	noun	tepi	edge	place	tepi+de+ka
+SPA-046.pe	bengope	crooked / bent	modifier	bengo	crooked / bent	modifier	bengo+pe
+SPA-046.ka	bengoka	'crooked / bent'-ness; the quality 'crooked / bent'	noun	bengo	crooked / bent	noun	bengo+ka
+SPA-046.paka	bengopaka	'crooked / bent'-ness; state of being 'crooked / bent'	noun	bengo	crooked / bent	quality	bengo+pa+ka
+SPA-046.kupe	bengokupe	opposite of 'crooked / bent'; un-'crooked / bent'	modifier	bengo	crooked / bent	opposite	bengo+ku+pe
+SPA-046.tato	bengotato	to make 'crooked / bent'	verb	bengo	crooked / bent	causative	bengo+ta+to
+SPA-046.pito	bengopito	to become 'crooked / bent'	verb	bengo	crooked / bent	inchoative	bengo+pi+to
+SPA-046.gope	bengogope	very 'crooked / bent'; intensely 'crooked / bent'	modifier	bengo	crooked / bent	augmentative	bengo+go+pe
+SPA-046.cipe	bengocipe	'crooked / bent'-ish; somewhat 'crooked / bent'	modifier	bengo	crooked / bent	diminutive	bengo+ci+pe
+SPA-046.kupaka	bengokupaka	un-'crooked / bent'-ness; the quality of being not 'crooked / bent'	noun	bengo	crooked / bent	opposite-quality	bengo+ku+pa+ka
+SPA-046.takika	bengotakika	one who makes things 'crooked / bent'	noun	bengo	crooked / bent	causative-agent	bengo+ta+ki+ka
+SPA-047.ka	lapika	layer	noun	lapi	layer	noun	lapi+ka
+SPA-047.pe	lapipe	of/like 'layer'; 'layer'-related	modifier	lapi	layer	modifier	lapi+pe
+SPA-047.to	lapito	to use/apply 'layer'; to act as 'layer'	verb	lapi	layer	verb	lapi+to
+SPA-047.cika	lapicika	little 'layer'; small/dear 'layer'	noun	lapi	layer	diminutive	lapi+ci+ka
+SPA-047.goka	lapigoka	big 'layer'; great 'layer'	noun	lapi	layer	augmentative	lapi+go+ka
+SPA-047.deka	lapideka	place of/for 'layer'	noun	lapi	layer	place	lapi+de+ka
+EMO-059.to	senuto	to 'smile'	verb	senu	smile	verb	senu+to
+EMO-059.ka	senuka	act of 'smile'; a 'smile'	noun	senu	smile	noun	senu+ka
+EMO-059.pe	senupe	'smile'-ing	modifier	senu	smile	modifier	senu+pe
+EMO-059.kika	senukika	one who 'smile's; 'smile'-er	noun	senu	smile	agent	senu+ki+ka
+EMO-059.tuka	senutuka	tool/means for 'smile'	noun	senu	smile	instrument	senu+tu+ka
+EMO-059.boka	senuboka	thing 'smile'-ed; result of 'smile'	noun	senu	smile	patient/result	senu+bo+ka
+EMO-059.deka	senudeka	place for 'smile'	noun	senu	smile	place	senu+de+ka
+EMO-059.tato	senutato	to make/cause to 'smile'	verb	senu	smile	causative	senu+ta+to
+EMO-059.pito	senupito	to begin to 'smile'	verb	senu	smile	inchoative	senu+pi+to
+EMO-059.takika	senutakika	one who makes/causes 'smile'; instigator of 'smile'	noun	senu	smile	causative-agent	senu+ta+ki+ka
+EMO-059.taboka	senutaboka	what is brought about by 'smile'	noun	senu	smile	causative-result	senu+ta+bo+ka
+EMO-059.kideka	senukideka	place of the one who 'smile's	noun	senu	smile	agent-place	senu+ki+de+ka
+EMO-060.to	ciuto	to 'kiss'	verb	ciu	kiss	verb	ciu+to
+EMO-060.ka	ciuka	act of 'kiss'; a 'kiss'	noun	ciu	kiss	noun	ciu+ka
+EMO-060.pe	ciupe	'kiss'-ing	modifier	ciu	kiss	modifier	ciu+pe
+EMO-060.kika	ciukika	one who 'kiss's; 'kiss'-er	noun	ciu	kiss	agent	ciu+ki+ka
+EMO-060.tuka	ciutuka	tool/means for 'kiss'	noun	ciu	kiss	instrument	ciu+tu+ka
+EMO-060.boka	ciuboka	thing 'kiss'-ed; result of 'kiss'	noun	ciu	kiss	patient/result	ciu+bo+ka
+EMO-060.deka	ciudeka	place for 'kiss'	noun	ciu	kiss	place	ciu+de+ka
+EMO-060.tato	ciutato	to make/cause to 'kiss'	verb	ciu	kiss	causative	ciu+ta+to
+EMO-060.pito	ciupito	to begin to 'kiss'	verb	ciu	kiss	inchoative	ciu+pi+to
+EMO-060.takika	ciutakika	one who makes/causes 'kiss'; instigator of 'kiss'	noun	ciu	kiss	causative-agent	ciu+ta+ki+ka
+EMO-060.taboka	ciutaboka	what is brought about by 'kiss'	noun	ciu	kiss	causative-result	ciu+ta+bo+ka
+EMO-060.kideka	ciukideka	place of the one who 'kiss's	noun	ciu	kiss	agent-place	ciu+ki+de+ka
+EMO-061.to	peluto	to 'embrace / hug'	verb	pelu	embrace / hug	verb	pelu+to
+EMO-061.ka	peluka	act of 'embrace / hug'; a 'embrace / hug'	noun	pelu	embrace / hug	noun	pelu+ka
+EMO-061.pe	pelupe	'embrace / hug'-ing	modifier	pelu	embrace / hug	modifier	pelu+pe
+EMO-061.kika	pelukika	one who 'embrace / hug's; 'embrace / hug'-er	noun	pelu	embrace / hug	agent	pelu+ki+ka
+EMO-061.tuka	pelutuka	tool/means for 'embrace / hug'	noun	pelu	embrace / hug	instrument	pelu+tu+ka
+EMO-061.boka	peluboka	thing 'embrace / hug'-ed; result of 'embrace / hug'	noun	pelu	embrace / hug	patient/result	pelu+bo+ka
+EMO-061.deka	peludeka	place for 'embrace / hug'	noun	pelu	embrace / hug	place	pelu+de+ka
+EMO-061.tato	pelutato	to make/cause to 'embrace / hug'	verb	pelu	embrace / hug	causative	pelu+ta+to
+EMO-061.pito	pelupito	to begin to 'embrace / hug'	verb	pelu	embrace / hug	inchoative	pelu+pi+to
+EMO-061.takika	pelutakika	one who makes/causes 'embrace / hug'; instigator of 'embrace / hug'	noun	pelu	embrace / hug	causative-agent	pelu+ta+ki+ka
+EMO-061.taboka	pelutaboka	what is brought about by 'embrace / hug'	noun	pelu	embrace / hug	causative-result	pelu+ta+bo+ka
+EMO-061.kideka	pelukideka	place of the one who 'embrace / hug's	noun	pelu	embrace / hug	agent-place	pelu+ki+de+ka
+EMO-062.pe	cemulupe	jealous / envy	modifier	cemulu	jealous / envy	modifier	cemulu+pe
+EMO-062.ka	cemuluka	'jealous / envy'-ness; the quality 'jealous / envy'	noun	cemulu	jealous / envy	noun	cemulu+ka
+EMO-062.paka	cemulupaka	'jealous / envy'-ness; state of being 'jealous / envy'	noun	cemulu	jealous / envy	quality	cemulu+pa+ka
+EMO-062.kupe	cemulukupe	opposite of 'jealous / envy'; un-'jealous / envy'	modifier	cemulu	jealous / envy	opposite	cemulu+ku+pe
+EMO-062.tato	cemulutato	to make 'jealous / envy'	verb	cemulu	jealous / envy	causative	cemulu+ta+to
+EMO-062.pito	cemulupito	to become 'jealous / envy'	verb	cemulu	jealous / envy	inchoative	cemulu+pi+to
+EMO-062.gope	cemulugope	very 'jealous / envy'; intensely 'jealous / envy'	modifier	cemulu	jealous / envy	augmentative	cemulu+go+pe
+EMO-062.cipe	cemulucipe	'jealous / envy'-ish; somewhat 'jealous / envy'	modifier	cemulu	jealous / envy	diminutive	cemulu+ci+pe
+EMO-062.kupaka	cemulukupaka	un-'jealous / envy'-ness; the quality of being not 'jealous / envy'	noun	cemulu	jealous / envy	opposite-quality	cemulu+ku+pa+ka
+EMO-062.takika	cemulutakika	one who makes things 'jealous / envy'	noun	cemulu	jealous / envy	causative-agent	cemulu+ta+ki+ka
+EMO-063.ka	hulumaka	mercy / compassion	noun	huluma	mercy / compassion	noun	huluma+ka
+EMO-063.pe	hulumape	of/like 'mercy / compassion'; 'mercy / compassion'-related	modifier	huluma	mercy / compassion	modifier	huluma+pe
+EMO-063.to	hulumato	to use/apply 'mercy / compassion'; to act as 'mercy / compassion'	verb	huluma	mercy / compassion	verb	huluma+to
+EMO-063.cika	hulumacika	little 'mercy / compassion'; small/dear 'mercy / compassion'	noun	huluma	mercy / compassion	diminutive	huluma+ci+ka
+EMO-063.goka	hulumagoka	big 'mercy / compassion'; great 'mercy / compassion'	noun	huluma	mercy / compassion	augmentative	huluma+go+ka
+EMO-063.deka	hulumadeka	place of/for 'mercy / compassion'	noun	huluma	mercy / compassion	place	huluma+de+ka
+EMO-064.pe	keyuape	startled / surprised	modifier	keyua	startled / surprised	modifier	keyua+pe
+EMO-064.ka	keyuaka	'startled / surprised'-ness; the quality 'startled / surprised'	noun	keyua	startled / surprised	noun	keyua+ka
+EMO-064.paka	keyuapaka	'startled / surprised'-ness; state of being 'startled / surprised'	noun	keyua	startled / surprised	quality	keyua+pa+ka
+EMO-064.kupe	keyuakupe	opposite of 'startled / surprised'; un-'startled / surprised'	modifier	keyua	startled / surprised	opposite	keyua+ku+pe
+EMO-064.tato	keyuatato	to make 'startled / surprised'	verb	keyua	startled / surprised	causative	keyua+ta+to
+EMO-064.pito	keyuapito	to become 'startled / surprised'	verb	keyua	startled / surprised	inchoative	keyua+pi+to
+EMO-064.gope	keyuagope	very 'startled / surprised'; intensely 'startled / surprised'	modifier	keyua	startled / surprised	augmentative	keyua+go+pe
+EMO-064.cipe	keyuacipe	'startled / surprised'-ish; somewhat 'startled / surprised'	modifier	keyua	startled / surprised	diminutive	keyua+ci+pe
+EMO-064.kupaka	keyuakupaka	un-'startled / surprised'-ness; the quality of being not 'startled / surprised'	noun	keyua	startled / surprised	opposite-quality	keyua+ku+pa+ka
+EMO-064.takika	keyuatakika	one who makes things 'startled / surprised'	noun	keyua	startled / surprised	causative-agent	keyua+ta+ki+ka
+SPE-059.to	puyito	to 'praise (v)'	verb	puyi	praise (v)	verb	puyi+to
+SPE-059.ka	puyika	act of 'praise (v)'; a 'praise (v)'	noun	puyi	praise (v)	noun	puyi+ka
+SPE-059.pe	puyipe	'praise (v)'-ing	modifier	puyi	praise (v)	modifier	puyi+pe
+SPE-059.kika	puyikika	one who 'praise (v)'s; 'praise (v)'-er	noun	puyi	praise (v)	agent	puyi+ki+ka
+SPE-059.tuka	puyituka	tool/means for 'praise (v)'	noun	puyi	praise (v)	instrument	puyi+tu+ka
+SPE-059.boka	puyiboka	thing 'praise (v)'-ed; result of 'praise (v)'	noun	puyi	praise (v)	patient/result	puyi+bo+ka
+SPE-059.deka	puyideka	place for 'praise (v)'	noun	puyi	praise (v)	place	puyi+de+ka
+SPE-059.tato	puyitato	to make/cause to 'praise (v)'	verb	puyi	praise (v)	causative	puyi+ta+to
+SPE-059.pito	puyipito	to begin to 'praise (v)'	verb	puyi	praise (v)	inchoative	puyi+pi+to
+SPE-059.takika	puyitakika	one who makes/causes 'praise (v)'; instigator of 'praise (v)'	noun	puyi	praise (v)	causative-agent	puyi+ta+ki+ka
+SPE-059.taboka	puyitaboka	what is brought about by 'praise (v)'	noun	puyi	praise (v)	causative-result	puyi+ta+bo+ka
+SPE-059.kideka	puyikideka	place of the one who 'praise (v)'s	noun	puyi	praise (v)	agent-place	puyi+ki+de+ka
+SPE-060.pe	somonpe	boastful / arrogant	modifier	somon	boastful / arrogant	modifier	somon+pe
+SPE-060.ka	somonka	'boastful / arrogant'-ness; the quality 'boastful / arrogant'	noun	somon	boastful / arrogant	noun	somon+ka
+SPE-060.paka	somonpaka	'boastful / arrogant'-ness; state of being 'boastful / arrogant'	noun	somon	boastful / arrogant	quality	somon+pa+ka
+SPE-060.kupe	somonkupe	opposite of 'boastful / arrogant'; un-'boastful / arrogant'	modifier	somon	boastful / arrogant	opposite	somon+ku+pe
+SPE-060.tato	somontato	to make 'boastful / arrogant'	verb	somon	boastful / arrogant	causative	somon+ta+to
+SPE-060.pito	somonpito	to become 'boastful / arrogant'	verb	somon	boastful / arrogant	inchoative	somon+pi+to
+SPE-060.gope	somongope	very 'boastful / arrogant'; intensely 'boastful / arrogant'	modifier	somon	boastful / arrogant	augmentative	somon+go+pe
+SPE-060.cipe	somoncipe	'boastful / arrogant'-ish; somewhat 'boastful / arrogant'	modifier	somon	boastful / arrogant	diminutive	somon+ci+pe
+SPE-060.kupaka	somonkupaka	un-'boastful / arrogant'-ness; the quality of being not 'boastful / arrogant'	noun	somon	boastful / arrogant	opposite-quality	somon+ku+pa+ka
+SPE-060.takika	somontakika	one who makes things 'boastful / arrogant'	noun	somon	boastful / arrogant	causative-agent	somon+ta+ki+ka
+SPE-061.to	sangaeto	to 'deny'	verb	sangae	deny	verb	sangae+to
+SPE-061.ka	sangaeka	act of 'deny'; a 'deny'	noun	sangae	deny	noun	sangae+ka
+SPE-061.pe	sangaepe	'deny'-ing	modifier	sangae	deny	modifier	sangae+pe
+SPE-061.kika	sangaekika	one who 'deny's; 'deny'-er	noun	sangae	deny	agent	sangae+ki+ka
+SPE-061.tuka	sangaetuka	tool/means for 'deny'	noun	sangae	deny	instrument	sangae+tu+ka
+SPE-061.boka	sangaeboka	thing 'deny'-ed; result of 'deny'	noun	sangae	deny	patient/result	sangae+bo+ka
+SPE-061.deka	sangaedeka	place for 'deny'	noun	sangae	deny	place	sangae+de+ka
+SPE-061.tato	sangaetato	to make/cause to 'deny'	verb	sangae	deny	causative	sangae+ta+to
+SPE-061.pito	sangaepito	to begin to 'deny'	verb	sangae	deny	inchoative	sangae+pi+to
+SPE-061.takika	sangaetakika	one who makes/causes 'deny'; instigator of 'deny'	noun	sangae	deny	causative-agent	sangae+ta+ki+ka
+SPE-061.taboka	sangaetaboka	what is brought about by 'deny'	noun	sangae	deny	causative-result	sangae+ta+bo+ka
+SPE-061.kideka	sangaekideka	place of the one who 'deny's	noun	sangae	deny	agent-place	sangae+ki+de+ka
+SPE-062.to	teguto	to 'scold / rebuke'	verb	tegu	scold / rebuke	verb	tegu+to
+SPE-062.ka	teguka	act of 'scold / rebuke'; a 'scold / rebuke'	noun	tegu	scold / rebuke	noun	tegu+ka
+SPE-062.pe	tegupe	'scold / rebuke'-ing	modifier	tegu	scold / rebuke	modifier	tegu+pe
+SPE-062.kika	tegukika	one who 'scold / rebuke's; 'scold / rebuke'-er	noun	tegu	scold / rebuke	agent	tegu+ki+ka
+SPE-062.tuka	tegutuka	tool/means for 'scold / rebuke'	noun	tegu	scold / rebuke	instrument	tegu+tu+ka
+SPE-062.boka	teguboka	thing 'scold / rebuke'-ed; result of 'scold / rebuke'	noun	tegu	scold / rebuke	patient/result	tegu+bo+ka
+SPE-062.deka	tegudeka	place for 'scold / rebuke'	noun	tegu	scold / rebuke	place	tegu+de+ka
+SPE-062.tato	tegutato	to make/cause to 'scold / rebuke'	verb	tegu	scold / rebuke	causative	tegu+ta+to
+SPE-062.pito	tegupito	to begin to 'scold / rebuke'	verb	tegu	scold / rebuke	inchoative	tegu+pi+to
+SPE-062.takika	tegutakika	one who makes/causes 'scold / rebuke'; instigator of 'scold / rebuke'	noun	tegu	scold / rebuke	causative-agent	tegu+ta+ki+ka
+SPE-062.taboka	tegutaboka	what is brought about by 'scold / rebuke'	noun	tegu	scold / rebuke	causative-result	tegu+ta+bo+ka
+SPE-062.kideka	tegukideka	place of the one who 'scold / rebuke's	noun	tegu	scold / rebuke	agent-place	tegu+ki+de+ka
+SOC-119.ka	maliaka	king	noun	malia	king	noun	malia+ka
+SOC-119.pe	maliape	of/like 'king'; 'king'-related	modifier	malia	king	modifier	malia+pe
+SOC-119.to	maliato	to use/apply 'king'; to act as 'king'	verb	malia	king	verb	malia+to
+SOC-119.cika	maliacika	little 'king'; small/dear 'king'	noun	malia	king	diminutive	malia+ci+ka
+SOC-119.goka	maliagoka	big 'king'; great 'king'	noun	malia	king	augmentative	malia+go+ka
+SOC-119.deka	maliadeka	place of/for 'king'	noun	malia	king	place	malia+de+ka
+SOC-120.ka	latuka	queen	noun	latu	queen	noun	latu+ka
+SOC-120.pe	latupe	of/like 'queen'; 'queen'-related	modifier	latu	queen	modifier	latu+pe
+SOC-120.to	latuto	to use/apply 'queen'; to act as 'queen'	verb	latu	queen	verb	latu+to
+SOC-120.cika	latucika	little 'queen'; small/dear 'queen'	noun	latu	queen	diminutive	latu+ci+ka
+SOC-120.goka	latugoka	big 'queen'; great 'queen'	noun	latu	queen	augmentative	latu+go+ka
+SOC-120.deka	latudeka	place of/for 'queen'	noun	latu	queen	place	latu+de+ka
+SOC-121.ka	umatika	crowd	noun	umati	crowd	noun	umati+ka
+SOC-121.pe	umatipe	of/like 'crowd'; 'crowd'-related	modifier	umati	crowd	modifier	umati+pe
+SOC-121.to	umatito	to use/apply 'crowd'; to act as 'crowd'	verb	umati	crowd	verb	umati+to
+SOC-121.cika	umaticika	little 'crowd'; small/dear 'crowd'	noun	umati	crowd	diminutive	umati+ci+ka
+SOC-121.goka	umatigoka	big 'crowd'; great 'crowd'	noun	umati	crowd	augmentative	umati+go+ka
+SOC-121.deka	umatideka	place of/for 'crowd'	noun	umati	crowd	place	umati+de+ka
+SOC-122.ka	hukuka	punish / penalty	noun	huku	punish / penalty	noun	huku+ka
+SOC-122.pe	hukupe	of/like 'punish / penalty'; 'punish / penalty'-related	modifier	huku	punish / penalty	modifier	huku+pe
+SOC-122.to	hukuto	to use/apply 'punish / penalty'; to act as 'punish / penalty'	verb	huku	punish / penalty	verb	huku+to
+SOC-122.cika	hukucika	little 'punish / penalty'; small/dear 'punish / penalty'	noun	huku	punish / penalty	diminutive	huku+ci+ka
+SOC-122.goka	hukugoka	big 'punish / penalty'; great 'punish / penalty'	noun	huku	punish / penalty	augmentative	huku+go+ka
+SOC-122.deka	hukudeka	place of/for 'punish / penalty'	noun	huku	punish / penalty	place	huku+de+ka
+SOC-123.ka	sumaeka	oath / swear	noun	sumae	oath / swear	noun	sumae+ka
+SOC-123.pe	sumaepe	of/like 'oath / swear'; 'oath / swear'-related	modifier	sumae	oath / swear	modifier	sumae+pe
+SOC-123.to	sumaeto	to use/apply 'oath / swear'; to act as 'oath / swear'	verb	sumae	oath / swear	verb	sumae+to
+SOC-123.cika	sumaecika	little 'oath / swear'; small/dear 'oath / swear'	noun	sumae	oath / swear	diminutive	sumae+ci+ka
+SOC-123.goka	sumaegoka	big 'oath / swear'; great 'oath / swear'	noun	sumae	oath / swear	augmentative	sumae+go+ka
+SOC-123.deka	sumaedeka	place of/for 'oath / swear'	noun	sumae	oath / swear	place	sumae+de+ka
+PHY-089.ka	omaeka	wave (water)	noun	omae	wave (water)	noun	omae+ka
+PHY-089.pe	omaepe	of/like 'wave (water)'; 'wave (water)'-related	modifier	omae	wave (water)	modifier	omae+pe
+PHY-089.to	omaeto	to use/apply 'wave (water)'; to act as 'wave (water)'	verb	omae	wave (water)	verb	omae+to
+PHY-089.cika	omaecika	little 'wave (water)'; small/dear 'wave (water)'	noun	omae	wave (water)	diminutive	omae+ci+ka
+PHY-089.goka	omaegoka	big 'wave (water)'; great 'wave (water)'	noun	omae	wave (water)	augmentative	omae+go+ka
+PHY-089.deka	omaedeka	place of/for 'wave (water)'	noun	omae	wave (water)	place	omae+de+ka
+PHY-090.ka	powuka	foam	noun	powu	foam	noun	powu+ka
+PHY-090.pe	powupe	of/like 'foam'; 'foam'-related	modifier	powu	foam	modifier	powu+pe
+PHY-090.to	powuto	to use/apply 'foam'; to act as 'foam'	verb	powu	foam	verb	powu+to
+PHY-090.cika	powucika	little 'foam'; small/dear 'foam'	noun	powu	foam	diminutive	powu+ci+ka
+PHY-090.goka	powugoka	big 'foam'; great 'foam'	noun	powu	foam	augmentative	powu+go+ka
+PHY-090.deka	powudeka	place of/for 'foam'	noun	powu	foam	place	powu+de+ka
+PHY-091.ka	alanka	charcoal	noun	alan	charcoal	noun	alan+ka
+PHY-091.pe	alanpe	of/like 'charcoal'; 'charcoal'-related	modifier	alan	charcoal	modifier	alan+pe
+PHY-091.to	alanto	to use/apply 'charcoal'; to act as 'charcoal'	verb	alan	charcoal	verb	alan+to
+PHY-091.cika	alancika	little 'charcoal'; small/dear 'charcoal'	noun	alan	charcoal	diminutive	alan+ci+ka
+PHY-091.goka	alangoka	big 'charcoal'; great 'charcoal'	noun	alan	charcoal	augmentative	alan+go+ka
+PHY-091.deka	alandeka	place of/for 'charcoal'	noun	alan	charcoal	place	alan+de+ka
