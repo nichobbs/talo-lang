@@ -1495,3 +1495,51 @@ BOD-080	survive	okoka	INTL	Swahili okoka	Bantu
 ACT-135	connect / link	sunagu	INTL	Japanese tsunagu (tsu->su)	Japonic
 PROP-107	artificial / man-made	buatan	INTL	Indonesian buatan	Austronesian
 MOD-134	email	imeli	INTL	international e-mail	international
+ANI-061	snail	sipu	INTL	blend rubric; src 'siput'	blend; Austronesian
+ANI-062	grasshopper	belalan	INTL	blend rubric; src 'belalang'	blend; Austronesian
+ANI-063	cockroach	kecoa	INTL	blend rubric; src 'kecoa'	blend; Austronesian
+ANI-064	wasp	tawon	INTL	blend rubric; src 'tawon'	blend; Austronesian
+ANI-065	frog	kodo	INTL	blend rubric; src 'kodok'	blend; Austronesian
+ANI-066	turtle	kasae	INTL	blend rubric; src 'kasa'	blend (legalised); Bantu
+ANI-067	bat (animal)	kalon	INTL	blend rubric; src 'kalong'	blend; Austronesian
+ANI-068	scorpion	bicu	INTL	blend rubric; src 'bicchu'	blend; Indo-Aryan
+AGR-054	cassava / manioc	singon	INTL	blend rubric; src 'singkong'	blend; Austronesian
+AGR-055	tobacco	temakau	INTL	blend rubric; src 'tembakau'	blend; Austronesian
+AGR-056	sugar cane	tebu	INTL	blend rubric; src 'tebu'	blend; Austronesian
+AGR-057	yam	ubi	INTL	blend rubric; src 'ubi'	blend; Austronesian
+AGR-058	sap / resin	gon	INTL	blend rubric; src 'gond'	blend; Indo-Aryan
+SOC-100	bow (weapon)	busu	INTL	blend rubric; src 'busur'	blend; Austronesian
+SOC-101	arrow	amu	INTL	blend rubric; src 'ambu'	blend; Dravidian
+SOC-102	spear	toma	INTL	blend rubric; src 'tombak'	blend; Austronesian
+SOC-103	sword	pedan	INTL	blend rubric; src 'pedang'	blend; Austronesian
+SOC-104	shield	pelisai	INTL	blend rubric; src 'perisai'	blend; Austronesian
+SOC-105	gun / firearm	senapan	INTL	blend rubric; src 'senapang'	blend; Austronesian
+SOC-106	cannon	melia	INTL	blend rubric; src 'meriam'	blend; Austronesian
+SOC-107	club / mace (weapon)	lungu	INTL	blend rubric; src 'rungu'	blend; Bantu
+SOC-108	worship (v)	ibada	INTL	blend rubric; src 'ibada'	blend; Semitic
+SOC-109	pray	oma	INTL	blend rubric; src 'omba'	blend; Bantu
+SOC-110	sacred / holy	mukada	INTL	blend rubric; src 'muqaddas'	blend; Semitic
+SOC-111	soul / spirit	loho	INTL	blend rubric; src 'roho'	blend; Bantu
+SOC-112	heaven / paradise	sula	INTL	blend rubric; src 'surga'	blend; Austronesian
+SOC-113	sin	dosa	INTL	blend rubric; src 'dosa'	blend; Austronesian
+SOC-114	sacrifice / offering	kolan	INTL	blend rubric; src 'korban'	blend; Semitic
+SOC-115	bless	balaka	INTL	blend rubric; src 'baraka'	blend; Semitic
+SOC-116	curse (v)	lana	INTL	blend rubric; src 'laana'	blend; Bantu
+SOC-117	demon / evil spirit	saitan	INTL	blend rubric; src 'shaitan'	blend; Semitic
+SOC-118	deity / god	mungu	INTL	blend rubric; src 'mungu'	blend; Bantu
+FOO-074	beer / brew	pome	INTL	blend rubric; src 'pombe'	blend; Bantu
+FOO-075	wine	angu	INTL	blend rubric; src 'anggur'	blend; Austronesian
+FOO-076	cooking oil	mafuta	INTL	blend rubric; src 'mafuta'	blend; Bantu
+FOO-077	porridge	bubu	INTL	blend rubric; src 'bubur'	blend; Austronesian
+PROP-108	naked / bare	telanan	INTL	blend rubric; src 'telanjang'	blend; Austronesian
+PROP-109	mute / dumb	bisu	INTL	blend rubric; src 'bisu'	blend; Austronesian
+PROP-110	lazy	alasi	INTL	blend rubric; src 'alasi'	blend; Indo-Aryan
+PROP-111	salty	masin	INTL	blend rubric; src 'masin'	blend; Austronesian
+PROP-112	rough / coarse	kesa	INTL	blend rubric; src 'kesat'	blend; Austronesian
+PROP-113	tall / high	tingi	INTL	blend rubric; src 'tinggi'	blend; Austronesian
+PROP-114	shallow	cete	INTL	blend rubric; src 'cetek'	blend; Austronesian
+BOD-081	pus	usaha	INTL	blend rubric; src 'usaha'	blend; Bantu
+BOD-082	itch (v)	alipu	INTL	blend rubric; src 'arippu'	blend; Dravidian
+SPE-056	whistle (v)	siu	INTL	blend rubric; src 'siul'	blend; Austronesian
+SPE-057	whisper (v)	bisi	INTL	blend rubric; src 'bisik'	blend; Austronesian
+SPE-058	shout / yell	telia	INTL	blend rubric; src 'teriak'	blend; Austronesian
