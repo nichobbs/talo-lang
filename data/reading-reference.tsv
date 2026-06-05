@@ -1,0 +1,1319 @@
+# Talo reading-coverage reference — the concept spine the lexicon is scaled to cover (docs/0013).
+# Source: Intercontinental Dictionary Series (IDS) via Concepticon (Key-2016-1310),
+#   CC-BY-4.0. https://concepticon.clld.org/  —  Buck's ~1,310 cross-linguistic
+#   concepts in 22 semantic chapters; named as the lexicon spine in docs/0003 §1.
+# A concept is 'covered' when the Talo lexicon EXPRESSES it (a root, a legal
+# derivation/compound, or a grammatical word). Coverage is measured by
+# tools/reading-coverage; the uncovered rows are the (triage-then-mint) queue.
+# Columns: id<TAB>english<TAB>chapter<TAB>gloss   ('#' = comment)
+id	english	chapter	gloss
+IDS-1	often	14	OFTEN
+IDS-2	always	14	ALWAYS
+IDS-3	ready	14	READY
+IDS-4	cease, stop	14	CEASE
+IDS-5	finish	14	FINISH
+IDS-6	end (temporal)	14	END (OF TIME)
+IDS-7	last, endure	14	LAST (ENDURE)
+IDS-8	begin, beginning	14	BEGIN OR START
+IDS-9	retard, delay	14	BE LATE
+IDS-10	hasten, hurry	14	HURRY
+IDS-11	slow	14	SLOW
+IDS-12	swift, fast, quick	14	FAST
+IDS-13	immediately	14	IMMEDIATELY
+IDS-14	now	14	NOW
+IDS-15	late	14	LATE
+IDS-16	early	14	EARLY
+IDS-17	old	14	OLD
+IDS-18	young	14	YOUNG
+IDS-19	age	14	AGE
+IDS-20	new	14	NEW
+IDS-21	time	14	TIME
+IDS-22	three times	13	THREE TIMES
+IDS-23	third	13	THIRD
+IDS-24	two times	13	TWICE
+IDS-25	pair	13	PAIR
+IDS-26	second	13	SECOND
+IDS-27	last	13	LAST (FINAL)
+IDS-28	first	13	FIRST
+IDS-29	alone, only	13	ONLY
+IDS-30	half	13	HALF
+IDS-31	part, piece	13	PART
+IDS-32	empty	13	EMPTY
+IDS-33	full	13	FULL
+IDS-34	multitude, crowd	13	CROWD
+IDS-35	some	13	SOME
+IDS-36	little (quantity), few	13	FEW
+IDS-37	enough	13	ENOUGH
+IDS-38	more	13	MORE
+IDS-39	much, many	13	MANY
+IDS-40	every, all	13	ALL
+IDS-41	count	13	COUNT
+IDS-42	thousand	13	THOUSAND
+IDS-43	hundred	13	HUNDRED
+IDS-44	twenty	13	TWENTY
+IDS-45	fifteen	13	FIFTEEN
+IDS-46	twelve	13	TWELVE
+IDS-47	eleven	13	ELEVEN
+IDS-48	ten	13	TEN
+IDS-49	nine	13	NINE
+IDS-50	eight	13	EIGHT
+IDS-51	seven	13	SEVEN
+IDS-52	six	13	SIX
+IDS-53	five	13	FIVE
+IDS-54	four	13	FOUR
+IDS-55	two	13	TWO
+IDS-56	three	13	THREE
+IDS-57	one	13	ONE
+IDS-58	zero, nothing	13	NOTHING OR ZERO
+IDS-59	change	12	CHANGE
+IDS-60	like, similar	12	SIMILAR
+IDS-61	line	12	LINE
+IDS-62	hole	12	HOLE
+IDS-63	sphere, ball	12	BALL
+IDS-64	round	12	ROUND
+IDS-65	circle	12	CIRCLE
+IDS-66	square	12	SQUARE
+IDS-67	cross	12	CROSS
+IDS-68	corner	12	CORNER
+IDS-69	hook	12	HOOK
+IDS-70	crooked	12	CROOKED
+IDS-71	straight	12	STRAIGHT
+IDS-72	flat	12	FLAT
+IDS-73	shallow	12	SHALLOW
+IDS-74	deep	12	DEEP
+IDS-75	thin (in dimension)	12	THIN (OF SHAPE OF OBJECT)
+IDS-76	thick (in dimension)	12	THICK
+IDS-77	narrow	12	NARROW
+IDS-78	wide, broad	12	WIDE
+IDS-79	short	12	SHORT
+IDS-80	tall	12	TALL
+IDS-81	long	12	LONG
+IDS-82	small, little	12	SMALL
+IDS-83	large, big	12	BIG
+IDS-84	span, fathom	12	FATHOM
+IDS-85	measure	12	MEASURE
+IDS-86	grow	12	GROW
+IDS-87	south	12	SOUTH
+IDS-88	north	12	NORTH
+IDS-89	west	12	WEST
+IDS-90	east	12	EAST
+IDS-91	near (adv)	12	NEAR
+IDS-92	far (adv)	12	FAR
+IDS-93	left (side)	12	LEFT
+IDS-94	right (side)	12	RIGHT
+IDS-95	middle, center	12	CENTER OR MIDDLE
+IDS-96	side	12	SIDE
+IDS-97	edge	12	EDGE
+IDS-98	pointed	12	POINTED
+IDS-99	end	12	END (OF SPACE)
+IDS-100	bottom	12	BOTTOM
+IDS-101	low	12	LOW
+IDS-102	top	12	TOP
+IDS-103	high	12	HIGH
+IDS-104	hide, conceal	12	HIDE (CONCEAL)
+IDS-105	shut, close	12	SHUT
+IDS-106	cover	12	COVER
+IDS-107	open	12	OPEN
+IDS-108	divide	12	DIVIDE
+IDS-109	separate	12	SEPARATE
+IDS-110	join, unite	12	JOIN
+IDS-111	pile up	12	PILE UP
+IDS-112	pick up	12	PICK UP
+IDS-113	collect, gather	12	GATHER
+IDS-114	remains, left overs	12	REMAINS
+IDS-115	remain, stay	12	REMAIN
+IDS-116	stand	12	STAND
+IDS-117	lie down	12	LIE DOWN
+IDS-118	sit	12	SIT
+IDS-119	put	12	PUT
+IDS-120	place	12	PLACE (POSITION)
+IDS-121	up, above	12	UP
+IDS-122	under	12	BELOW OR UNDER
+IDS-123	outside	12	OUTSIDE
+IDS-124	inside, in	12	INSIDE
+IDS-125	front	12	IN FRONT OF
+IDS-126	before	12	BEFORE
+IDS-127	down, below	12	DOWN OR BELOW
+IDS-128	beside	12	BESIDE
+IDS-129	behind	12	BEHIND
+IDS-130	after	12	AFTER
+IDS-131	weigh	11	WEIGH
+IDS-132	share (distribute)	11	SHARE
+IDS-133	cheap	11	CHEAP
+IDS-134	dear (costly, expensive)	11	EXPENSIVE
+IDS-135	price	11	PRICE
+IDS-136	store, shop	11	STORE
+IDS-137	market (place)	11	MARKET
+IDS-138	merchant	11	MERCHANT
+IDS-139	trade, barter	11	TRADE OR BARTER
+IDS-140	sell	11	SELL
+IDS-141	buy	11	BUY
+IDS-142	earn	11	EARN
+IDS-143	wages	11	WAGES
+IDS-144	hire	11	HIRE OR RENT
+IDS-145	tax, tribute	11	TAX
+IDS-146	account, reckoning	11	BILL
+IDS-147	pay (vb)	11	PAY
+IDS-148	debt	11	DEBT
+IDS-149	owe	11	OWE
+IDS-150	borrow	11	BORROW
+IDS-151	lend	11	LEND
+IDS-152	avaricious, stingy	11	STINGY
+IDS-153	beggar	11	BEGGAR
+IDS-154	poor	11	POOR
+IDS-155	rich	11	RICH
+IDS-156	coin	11	COIN
+IDS-157	money	11	MONEY
+IDS-158	release, let go	11	LET GO OR SET FREE
+IDS-159	lose	11	MISPLACE
+IDS-160	find	11	FIND
+IDS-161	seek, look for	11	LOOK FOR
+IDS-162	harm, injure, damage	11	DAMAGE OR INJURE
+IDS-163	destroy	11	DESTROY
+IDS-164	save, rescue	11	RESCUE
+IDS-165	preserve, look after	11	PRESERVE
+IDS-166	give back	11	GIVE BACK
+IDS-167	give	11	GIVE
+IDS-168	thing	11	THING
+IDS-169	keep, retain	11	KEEP
+IDS-170	get, obtain	11	GET
+IDS-171	hold	11	HOLD
+IDS-172	seize, grasp	11	SEIZE
+IDS-173	take	11	TAKE
+IDS-174	own, possess	11	OWN
+IDS-175	have	11	HAVE
+IDS-176	land (vb)	10	LAND (DESCEND)
+IDS-177	harbor, port	10	PORT
+IDS-178	anchor	10	ANCHOR
+IDS-179	sail (noun)	10	SAILCLOTH
+IDS-180	mast	10	MAST
+IDS-181	rudder	10	RUDDER
+IDS-182	row (vb)	10	ROW
+IDS-183	paddle (noun)	10	PADDLE
+IDS-184	oar	10	OAR
+IDS-185	raft	10	RAFT
+IDS-186	outrigger	10	OUTRIGGER
+IDS-187	canoe	10	CANOE
+IDS-188	boat	10	BOAT
+IDS-189	ship	10	SHIP
+IDS-190	yoke	10	YOKE
+IDS-191	axle	10	AXLE
+IDS-192	wheel	10	WHEEL
+IDS-193	carriage, wagon, cart	10	CART
+IDS-194	bridge	10	BRIDGE
+IDS-195	path	10	PATH
+IDS-196	road	10	ROAD
+IDS-197	push, shove	10	PUSH
+IDS-198	ride	10	RIDE
+IDS-199	drive	10	DRIVE
+IDS-200	lead (vb)	10	LEAD (GUIDE)
+IDS-201	send	10	SEND
+IDS-202	bring	10	BRING
+IDS-203	carry-underarm	10	CARRY UNDER ARM
+IDS-204	carry-on-head	10	CARRY ON HEAD
+IDS-205	carry-on-shoulder	10	CARRY ON SHOULDER
+IDS-206	carry-in-hand	10	CARRY IN HAND
+IDS-207	carry (bear)	10	CARRY
+IDS-208	enter	10	ENTER
+IDS-209	approach	10	APPROACH
+IDS-210	reach, arrive	10	ARRIVE
+IDS-211	pursue	10	PURSUE
+IDS-212	follow	10	FOLLOW
+IDS-213	flee	10	FLEE
+IDS-214	disappear	10	DISAPPEAR
+IDS-215	go away, depart	10	LEAVE
+IDS-216	come back	10	COME BACK
+IDS-217	come	10	COME
+IDS-218	go out	10	GO OUT
+IDS-219	go down	10	GO DOWN (DESCEND)
+IDS-220	climb	10	CLIMB
+IDS-221	go	10	GO
+IDS-222	go up	10	GO UP (ASCEND)
+IDS-223	run	10	RUN
+IDS-224	limp	10	LIMP
+IDS-225	walk	10	WALK
+IDS-226	dance	10	DANCE
+IDS-227	kick	10	KICK
+IDS-228	jump, leap	10	JUMP
+IDS-229	slide, slip	10	SLIP
+IDS-230	crouch	10	CROUCH
+IDS-231	kneel	10	KNEEL
+IDS-232	creep, crawl	10	CRAWL OR CREEP
+IDS-233	blow	10	BLOW (OF WIND)
+IDS-234	fly (vb)	10	FLY (MOVE THROUGH AIR)
+IDS-235	sail (vb)	10	SAIL
+IDS-236	splash	10	SPLASH
+IDS-237	dive	10	DIVE
+IDS-238	swim	10	SWIM
+IDS-239	float	10	FLOAT
+IDS-240	sink	10	SINK (DESCEND)
+IDS-241	flow	10	FLOW
+IDS-242	shake	10	SHAKE
+IDS-243	catch (ball)	10	CATCH
+IDS-244	throw	10	THROW
+IDS-245	drip	10	DRIP (EMIT LIQUID)
+IDS-246	fall	10	FALL
+IDS-247	raise, lift	10	LIFT
+IDS-248	rise	10	RISE (MOVE UPWARDS)
+IDS-249	twist	10	TWIST (AROUND)
+IDS-250	drop (vb)	10	DROP (SOMETHING)
+IDS-251	roll	10	ROLL
+IDS-252	wind, wrap	10	WRAP
+IDS-253	turn around	10	TURN AROUND
+IDS-254	turn over	10	TURN (SOMETHING)
+IDS-255	move	10	MOVE
+IDS-256	paint (vb)	9	PAINTING
+IDS-257	chisel	9	CHISEL
+IDS-258	paint (noun)	9	PAINT (PIGMENTS)
+IDS-259	statue	9	STATUE
+IDS-260	sculptor	9	SCULPTOR
+IDS-261	carve	9	CARVE
+IDS-262	fan (vb)	9	FAN (ACTION)
+IDS-263	fan (noun)	9	FAN (OBJECT)
+IDS-264	netbag	9	NETBAG
+IDS-265	rug	9	RUG
+IDS-266	mat	9	MAT
+IDS-267	basket	9	BASKET
+IDS-268	weave, plait	9	BRAID (VERB) OR WEAVE (BASKET)
+IDS-269	glass	9	GLASS
+IDS-270	clay	9	CLAY
+IDS-271	mold (clay etc)	9	MOLD
+IDS-272	potter	9	POTTER
+IDS-273	tin, tinplate	9	TIN OR TINPLATE
+IDS-274	lead (noun)	9	LEAD (CHEMICAL ELEMENT)
+IDS-275	iron	9	IRON
+IDS-276	copper, bronze	9	BRONZE OR COPPER
+IDS-277	silver	9	SILVER
+IDS-278	gold	9	GOLD
+IDS-279	cast (metals)	9	CAST
+IDS-280	anvil	9	ANVIL
+IDS-281	forge	9	FORGE
+IDS-282	smith, blacksmith	9	BLACKSMITH
+IDS-283	glue	9	GLUE
+IDS-284	nail	9	NAIL (TOOL)
+IDS-285	hammer	9	HAMMER
+IDS-286	saw	9	SAW
+IDS-287	hollow out	9	HOLLOW OUT
+IDS-288	bore	9	BORE
+IDS-289	build	9	BUILD
+IDS-290	carpenter	9	CARPENTER
+IDS-291	tool	9	TOOL
+IDS-292	broom	9	BROOM
+IDS-293	wash	9	WASH
+IDS-294	sweep	9	SWEEP
+IDS-295	pour	9	POUR
+IDS-296	squeeze, wring	9	SQUEEZE
+IDS-297	press	9	PRESS
+IDS-298	hang up	9	HANG UP
+IDS-299	spread out	9	SPREAD OUT
+IDS-300	pull	9	PULL
+IDS-301	stretch	9	STRETCH
+IDS-302	rub, wipe	9	RUB
+IDS-303	flay, skin	9	PULL OFF (SKIN)
+IDS-304	tear	9	TEAR (SHRED)
+IDS-305	split	9	SPLIT
+IDS-306	broken	9	BROKEN
+IDS-307	break	9	BREAK (DESTROY OR GET DESTROYED)
+IDS-308	ax	9	AXE
+IDS-309	adze	9	ADZE
+IDS-310	scissors, shears	9	SHEARS
+IDS-311	knife	9	KNIFE
+IDS-312	stab	9	STAB TO DEATH
+IDS-313	chop, hew	9	CHOP
+IDS-314	cut down	9	CUT DOWN
+IDS-315	cut	9	CUT
+IDS-316	pound with fist	9	POUND
+IDS-317	strike (hit, beat)	9	STRIKE OR BEAT
+IDS-318	knot (noun)	9	KNOT
+IDS-319	rope, cord	9	ROPE
+IDS-320	chain	9	CHAIN
+IDS-321	untie	9	UNTIE
+IDS-322	tie, bind	9	TIE
+IDS-323	fold	9	FOLD
+IDS-324	bend	9	BEND
+IDS-325	work	9	WORK (LABOUR)
+IDS-326	do, make	9	DO OR MAKE
+IDS-327	mushroom	8	MUSHROOM
+IDS-328	nettle	8	NETTLE
+IDS-329	fish poison (root)	8	FISH POISON
+IDS-330	sugar cane	8	SUGAR CANE
+IDS-331	bamboo	8	BAMBOO
+IDS-332	pumpkin, squash	8	PUMPKIN
+IDS-333	gourd	8	GOURD
+IDS-334	tapioca, manioc, cassava	8	CASSAVA
+IDS-335	yam	8	YAM
+IDS-336	sweet potato	8	SWEET POTATO
+IDS-337	banyan	8	BANYAN
+IDS-338	banana tree	8	BANANA TREE
+IDS-339	citrus fruit	8	CITRUS FRUIT
+IDS-340	coconut	8	COCONUT
+IDS-341	palm tree	8	PALM TREE
+IDS-342	sap	8	SAP
+IDS-343	bark	8	BARK
+IDS-344	forked branch	8	FORKED BRANCH
+IDS-345	tree trunk	8	TREE TRUNK
+IDS-346	tree stump	8	TREE STUMP
+IDS-347	pipe	8	PIPE
+IDS-348	smoke (tobacco)	8	SMOKE (INHALE)
+IDS-349	tobacco	8	TOBACCO
+IDS-350	vine	8	GRAPEVINE
+IDS-351	acorn	8	ACORN
+IDS-352	fir	8	FIR
+IDS-353	pine	8	PINE
+IDS-354	birch	8	BIRCH
+IDS-355	beech	8	BEECH
+IDS-356	oak	8	OAK
+IDS-357	tree	8	TREE
+IDS-358	flower	8	FLOWER
+IDS-359	leaf	8	LEAF
+IDS-360	branch	8	BRANCH OR TWIG
+IDS-361	root	8	ROOT
+IDS-362	plant (vb)	8	PLANT (SOMETHING)
+IDS-363	hay	8	HAY
+IDS-364	plant (noun)	8	PLANT (VEGETATION)
+IDS-365	grass	8	GRASS
+IDS-366	rice	8	RICE
+IDS-367	maize, corn	8	MAIZE
+IDS-368	oats	8	OAT
+IDS-369	rye	8	RYE
+IDS-370	wheat	8	WHEAT
+IDS-371	barley	8	BARLEY
+IDS-372	grain (barley, oats etc)	8	GRAIN
+IDS-373	crop, harvest	8	HARVEST
+IDS-374	threshing-floor	8	THRESHING-FLOOR
+IDS-375	thresh	8	THRESH
+IDS-376	sickle, scythe	8	SICKLE OR SCYTHE
+IDS-377	mow, reap	8	MOW
+IDS-378	seed	8	SEED
+IDS-379	sow	8	SOW SEEDS
+IDS-380	rake	8	RAKE
+IDS-381	fork	8	PITCHFORK
+IDS-382	hoe	8	HOE
+IDS-383	shovel	8	SHOVEL
+IDS-384	spade	8	SPADE
+IDS-385	furrow	8	FURROW
+IDS-386	dig	8	DIG
+IDS-387	plow	8	PLOUGH
+IDS-388	ditch	8	DITCH
+IDS-389	fence	8	FENCE
+IDS-390	cultivate, till	8	CULTIVATE
+IDS-391	garden	8	GARDEN
+IDS-392	field (for cultivation)	8	FIELD
+IDS-393	farmer	8	FARMER
+IDS-394	adobe	7	ADOBE
+IDS-395	mortar	7	MORTAR BINDER
+IDS-396	brick	7	BRICK
+IDS-397	arch	7	ARCH
+IDS-398	mason	7	MASON
+IDS-399	board	7	BOARD
+IDS-400	post, pole	7	POST
+IDS-401	beam	7	BEAM
+IDS-402	rafter	7	RAFTER
+IDS-403	ridgepole	7	RIDGEPOLE
+IDS-404	thatch	7	THATCH
+IDS-405	roof	7	ROOF
+IDS-406	trough	7	TROUGH
+IDS-407	shelf	7	SHELF
+IDS-408	candle	7	CANDLE
+IDS-409	lamp, torch	7	TORCH OR LAMP
+IDS-410	table	7	TABLE
+IDS-411	chair	7	CHAIR
+IDS-412	blanket	7	BLANKET
+IDS-413	pillow	7	PILLOW
+IDS-414	bed	7	BED
+IDS-415	ladder	7	LADDER
+IDS-416	chimney	7	CHIMNEY
+IDS-417	stove	7	STOVE
+IDS-418	fireplace	7	FIREPLACE
+IDS-419	wall	7	WALL (OF HOUSE)
+IDS-420	floor	7	FLOOR
+IDS-421	window	7	WINDOW
+IDS-422	key	7	KEY
+IDS-423	latch, door-bolt	7	LATCH
+IDS-424	lock (noun)	7	LOCK
+IDS-425	doorpost, jamb	7	DOORPOST
+IDS-426	room	7	ROOM
+IDS-427	door, gate	7	DOOR
+IDS-428	meeting house	7	MEETING HOUSE
+IDS-429	cookhouse	7	COOKHOUSE
+IDS-430	men's house	7	MEN'S HOUSE
+IDS-431	yard, court	7	YARD
+IDS-432	tent	7	TENT
+IDS-433	garden-house	7	GARDEN-HOUSE
+IDS-434	hut	7	HUT
+IDS-435	house	7	HOUSE
+IDS-436	dwell, live	7	DWELL (LIVE, RESIDE)
+IDS-437	mirror	6	MIRROR
+IDS-438	soap	6	SOAP
+IDS-439	ointment	6	OINTMENT
+IDS-440	razor	6	RAZOR
+IDS-441	braid	6	BRAID
+IDS-442	brush	6	BRUSH
+IDS-443	comb	6	COMB
+IDS-444	towel	6	TOWEL
+IDS-445	handkerchief, rag	6	RAG
+IDS-446	tattoo	6	TATTOO
+IDS-447	headband, headdress	6	HEADBAND OR HEADDRESS
+IDS-448	earring	6	EARRING
+IDS-449	bead	6	BEAD
+IDS-450	necklace	6	NECKLACE
+IDS-451	bracelet	6	BRACELET
+IDS-452	ring (for finger)	6	RING
+IDS-453	jewel	6	JEWEL
+IDS-454	ornament, adornment	6	ORNAMENT
+IDS-455	pin	6	PIN
+IDS-456	button	6	BUTTON
+IDS-457	pocket	6	POCKET
+IDS-458	veil	6	VEIL
+IDS-459	glove	6	GLOVE
+IDS-460	belt, girdle	6	BELT
+IDS-461	hat, cap	6	HEADGEAR
+IDS-462	shoemaker, cobbler	6	SHOEMAKER
+IDS-463	shoe	6	SHOE
+IDS-464	boot	6	BOOT
+IDS-465	stocking, sock	6	STOCKING
+IDS-466	trousers	6	TROUSERS
+IDS-467	grass-skirt	6	GRASS-SKIRT
+IDS-468	skirt	6	SKIRT
+IDS-469	collar	6	COLLAR
+IDS-470	shirt	6	SHIRT
+IDS-471	coat	6	COAT
+IDS-472	woman's dress	6	DRESS
+IDS-473	poncho	6	PONCHO
+IDS-474	dye	6	DYE
+IDS-475	cloak	6	CLOAK
+IDS-476	thread	6	THREAD
+IDS-477	needle	6	NEEDLE (FOR SEWING)
+IDS-478	awl	6	AWL
+IDS-479	sew	6	SEW
+IDS-480	loom	6	LOOM
+IDS-481	weave	6	WEAVE
+IDS-482	spindle	6	SPINDLE
+IDS-483	spin	6	SPIN
+IDS-484	leather	6	LEATHER
+IDS-485	fur	6	FUR
+IDS-486	felt	6	FELT
+IDS-487	silk	6	SILK
+IDS-488	cotton	6	COTTON
+IDS-489	linen, flax	6	FLAX OR LINEN
+IDS-490	wool	6	WOOL
+IDS-491	cloth	6	CLOTH
+IDS-492	tailor	6	TAILOR
+IDS-493	clothing, clothes	6	CLOTHES
+IDS-494	put on (clothes)	6	PUT ON
+IDS-495	egg yolk	5	YOLK
+IDS-496	egg	5	EGG
+IDS-497	fermented drink	5	ALCOHOL (FERMENTED DRINK)
+IDS-498	beer	5	BEER
+IDS-499	wine	5	WINE
+IDS-500	mead	5	MEAD
+IDS-501	beverage, drink	5	BEVERAGE
+IDS-502	butter	5	BUTTER
+IDS-503	cheese	5	CHEESE
+IDS-504	milk (vb)	5	DRAW MILK
+IDS-505	sugar	5	SUGAR
+IDS-506	milk (noun)	5	MILK
+IDS-507	honey	5	HONEY
+IDS-508	chili pepper	5	CHILI PEPPER
+IDS-509	pepper	5	PEPPER
+IDS-510	salt	5	SALT
+IDS-511	grease, fat	5	FAT (ORGANIC SUBSTANCE)
+IDS-512	oil	5	OIL (ORGANIC SUBSTANCE)
+IDS-513	olive	5	OLIVE
+IDS-514	grape	5	GRAPE
+IDS-515	nut	5	NUT
+IDS-516	fig	5	FIG
+IDS-517	bunch	5	BUNCH
+IDS-518	fruit	5	FRUIT
+IDS-519	potato	5	POTATO
+IDS-520	bean	5	BEAN
+IDS-521	vegetables	5	VEGETABLES
+IDS-522	soup, broth	5	SOUP
+IDS-523	sausage	5	SAUSAGE
+IDS-524	meat	5	MEAT
+IDS-525	pestle	5	PESTLE
+IDS-526	mortar (2)	5	MORTAR
+IDS-527	mill	5	MILL
+IDS-528	crush, grind	5	GRIND
+IDS-529	meal, flour	5	FLOUR
+IDS-530	knead	5	KNEAD
+IDS-531	dough	5	DOUGH
+IDS-532	bread	5	BREAD
+IDS-533	stir, mix	5	MIX
+IDS-534	scrape	5	SCRAPE
+IDS-535	sieve, strain	5	SIEVE OR STRAIN
+IDS-536	peel	5	PEEL
+IDS-537	supper	5	DINNER (SUPPER)
+IDS-538	dinner	5	DINNER (SUPPER)
+IDS-539	lunch	5	LUNCH
+IDS-540	breakfast	5	BREAKFAST
+IDS-541	meal (a)	5	MEAL
+IDS-542	tongs	5	TONGS
+IDS-543	fork (2)	5	FORK
+IDS-544	knife (2)	5	KNIFE (FOR EATING)
+IDS-545	spoon	5	SPOON
+IDS-546	saucer	5	SAUCER
+IDS-547	cup, drinking vessel	5	CUP
+IDS-548	bowl	5	BOWL
+IDS-549	pitcher, jug	5	JUG
+IDS-550	plate	5	PLATE
+IDS-551	dish	5	DISH
+IDS-552	pan	5	PAN
+IDS-553	pot, cooking vessel	5	COOKING POT
+IDS-554	kettle	5	KETTLE
+IDS-555	bake	5	BAKE
+IDS-556	oven	5	OVEN
+IDS-557	roast, fry	5	ROAST OR FRY
+IDS-558	boil (vb)	5	BOIL (OF LIQUID)
+IDS-559	cook	5	COOK (SOMETHING)
+IDS-560	choke	5	CHOKE
+IDS-561	swallow	5	SWALLOW
+IDS-562	chew	5	CHEW
+IDS-563	suck	5	SUCK
+IDS-564	thirst	5	THIRST
+IDS-565	famine	5	FAMINE
+IDS-566	hunger	5	HUNGER
+IDS-567	drink	5	DRINK
+IDS-568	rotten	5	ROTTEN
+IDS-569	green, unripe	5	UNRIPE
+IDS-570	ripe	5	RIPE
+IDS-571	raw	5	RAW
+IDS-572	cooked	5	COOKED
+IDS-573	food	5	FOOD
+IDS-574	eat	5	EAT
+IDS-575	naked, bare	4	NAKED
+IDS-576	blind	4	BLIND
+IDS-577	intoxicated	4	DRUNK
+IDS-578	mute	4	MUTE
+IDS-579	deaf	4	DEAF
+IDS-580	bald	4	BALD
+IDS-581	lame	4	LAME
+IDS-582	lazy	4	LAZY
+IDS-583	rest	4	REST
+IDS-584	tired, weary	4	TIRED
+IDS-585	poison	4	POISON
+IDS-586	medicine, drug	4	MEDICINE
+IDS-587	physician	4	PHYSICIAN
+IDS-588	cure, heal	4	CURE
+IDS-589	scar	4	SCAR
+IDS-590	pus	4	PUS
+IDS-591	boil (noun)	4	BOIL (OF SKIN)
+IDS-592	blister	4	BLISTER
+IDS-593	itch	4	ITCH
+IDS-594	swelling	4	SWELLING
+IDS-595	bruise	4	BRUISE
+IDS-596	wound, sore	4	WOUND
+IDS-597	cold (catarrh)	4	COMMON COLD (DISEASE)
+IDS-598	goiter	4	GOITER
+IDS-599	fever	4	FEVER
+IDS-600	sick, sickness	4	SICK
+IDS-601	well, health	4	HEALTHY
+IDS-602	weak	4	WEAK
+IDS-603	strong, mighty, powerful	4	MIGHTY OR POWERFUL OR STRONG
+IDS-604	grave, tomb	4	GRAVE
+IDS-605	bury (the dead)	4	BURY
+IDS-606	corpse	4	CORPSE
+IDS-607	kill	4	KILL
+IDS-608	drowned	4	DROWNED
+IDS-609	die, dead	4	BE DEAD OR DIE
+IDS-610	live, living, life	4	BE ALIVE OR LIFE
+IDS-611	conceive	4	CONCEIVE
+IDS-612	pregnant	4	PREGNANT
+IDS-613	born (to be)	4	BE BORN
+IDS-614	beget (of father)	4	BEGET
+IDS-615	bathe	4	BATHE
+IDS-616	shiver	4	SHIVER
+IDS-617	have sexual intercourse	4	COPULATE
+IDS-618	defecate	4	SHIT (DEFECATE)
+IDS-619	urinate	4	PISS
+IDS-620	break wind	4	FART
+IDS-621	wake up	4	WAKE UP
+IDS-622	dream	4	DREAM (SOMETHING)
+IDS-623	snore	4	SNORE
+IDS-624	sleep	4	SLEEP
+IDS-625	dribble	4	DRIBBLE
+IDS-626	lick	4	LICK
+IDS-627	bite	4	BITE
+IDS-628	vomit	4	VOMIT
+IDS-629	spit	4	SPIT
+IDS-630	perspire	4	SWEAT (PERSPIRE)
+IDS-631	sneeze	4	SNEEZE
+IDS-632	cough	4	COUGH
+IDS-633	hiccough	4	HICCOUGH
+IDS-634	yawn, gape	4	YAWN
+IDS-635	breathe, breath	4	BREATH OR BREATHE
+IDS-636	penis	4	PENIS
+IDS-637	testicle	4	TESTICLES
+IDS-638	womb	4	WOMB
+IDS-639	buttocks	4	BUTTOCKS
+IDS-640	hip	4	HIP
+IDS-641	waist	4	WAIST
+IDS-642	intestines, guts	4	INTESTINES
+IDS-643	stomach	4	STOMACH
+IDS-644	spleen	4	SPLEEN
+IDS-645	kidney	4	KIDNEY
+IDS-646	liver	4	LIVER
+IDS-647	lung	4	LUNG
+IDS-648	heart	4	HEART
+IDS-649	navel	4	NAVEL
+IDS-650	udder	4	UDDER
+IDS-651	nipple, teat	4	NIPPLE
+IDS-652	breast (of woman)	4	BREAST
+IDS-653	chest	4	CHEST
+IDS-654	feather	4	FEATHER
+IDS-655	wing	4	WING
+IDS-656	toe	4	TOE
+IDS-657	footprint	4	FOOTPRINT
+IDS-658	heel	4	HEEL
+IDS-659	ankle	4	ANKLE
+IDS-660	foot	4	FOOT
+IDS-661	knee	4	KNEE
+IDS-662	calf of leg	4	CALF OF LEG
+IDS-663	thigh	4	UPPER LEG (THIGH)
+IDS-664	leg	4	LEG
+IDS-665	claw	4	CLAW
+IDS-666	fingernail	4	FINGERNAIL
+IDS-667	thumb	4	THUMB
+IDS-668	finger	4	FINGER
+IDS-669	palm of hand	4	PALM OF HAND
+IDS-670	hand	4	HAND
+IDS-671	wrist	4	WRIST
+IDS-672	elbow	4	ELBOW
+IDS-673	armpit	4	ARMPIT
+IDS-674	arm	4	ARM
+IDS-675	collarbone	4	COLLARBONE
+IDS-676	shoulderblade	4	SHOULDERBLADE
+IDS-677	shoulder	4	SHOULDER
+IDS-678	throat	4	THROAT
+IDS-679	nape of neck	4	NAPE (OF NECK)
+IDS-680	neck	4	NECK
+IDS-681	molartooth	4	MOLAR TOOTH
+IDS-682	tooth	4	TOOTH
+IDS-683	gums	4	GUMS
+IDS-684	tongue	4	TONGUE
+IDS-685	lip	4	LIP
+IDS-686	beak	4	BEAK
+IDS-687	mouth	4	MOUTH
+IDS-688	mucus (nasal)	4	NASAL MUCUS (SNOT)
+IDS-689	nostril	4	NOSTRIL
+IDS-690	nose	4	NOSE
+IDS-691	earwax	4	EARWAX
+IDS-692	earlobe	4	EARLOBE
+IDS-693	ear	4	EAR
+IDS-694	blink	4	BLINK
+IDS-695	eyelash	4	EYELASH
+IDS-696	eyelid	4	EYELID
+IDS-697	eyebrow	4	EYEBROW
+IDS-698	eye	4	EYE
+IDS-699	cheek	4	CHEEK
+IDS-700	chin	4	CHIN
+IDS-701	forehead	4	FOREHEAD
+IDS-702	jaw	4	JAW
+IDS-703	face	4	FACE
+IDS-704	brain	4	BRAIN
+IDS-705	side of head, temple	4	TEMPLES
+IDS-706	skull	4	SKULL
+IDS-707	head	4	HEAD
+IDS-708	spine	4	SPINE
+IDS-709	back	4	BACK
+IDS-710	tail	4	TAIL
+IDS-711	horn	4	HORN (ANATOMY)
+IDS-712	rib	4	RIB
+IDS-713	bone	4	BONE
+IDS-714	vein, artery	4	BLOOD VESSEL
+IDS-715	blood	4	BLOOD
+IDS-716	dandruff	4	DANDRUFF
+IDS-717	pubic hair	4	PUBIC HAIR
+IDS-718	body hair	4	HAIR (BODY)
+IDS-719	beard	4	BEARD
+IDS-720	hair (head)	4	HAIR (HEAD)
+IDS-721	flesh	4	FLESH
+IDS-722	skin, hide	4	SKIN
+IDS-723	body	4	BODY
+IDS-724	turtle	3	TURTLE
+IDS-725	crocodile, alligator	3	CROCODILE
+IDS-726	lizard	3	LIZARD
+IDS-727	frog	3	FROG
+IDS-728	snail	3	SNAIL
+IDS-729	grasshopper	3	GRASSHOPPER
+IDS-730	butterfly	3	BUTTERFLY
+IDS-731	firefly	3	FIREFLY
+IDS-732	snake	3	SNAKE
+IDS-733	worm	3	WORM
+IDS-734	mosquito	3	MOSQUITO
+IDS-735	sandfly (midge), gnat	3	SANDFLY
+IDS-736	fly	3	FLY (INSECT)
+IDS-737	wasp	3	WASP
+IDS-738	beehive	3	BEEHIVE
+IDS-739	beeswax	3	BEESWAX
+IDS-740	bee	3	BEE
+IDS-741	spider web	3	SPIDER WEB
+IDS-742	spider	3	SPIDER
+IDS-743	ant	3	ANT
+IDS-744	cockroach	3	COCKROACH
+IDS-745	scorpion	3	SCORPION
+IDS-746	centipede	3	CENTIPEDE
+IDS-747	flea	3	FLEA
+IDS-748	nit (louse egg)	3	NIT
+IDS-749	louse	3	LOUSE
+IDS-750	insect	3	INSECT
+IDS-751	camel	3	CAMEL
+IDS-752	elephant	3	ELEPHANT
+IDS-753	monkey	3	MONKEY
+IDS-754	deer	3	DEER
+IDS-755	fox	3	FOX
+IDS-756	bear	3	BEAR
+IDS-757	lion	3	LION
+IDS-758	wolf	3	WOLF
+IDS-759	freshwater eel	3	FRESHWATER EEL
+IDS-760	stingray	3	STINGRAY
+IDS-761	whale	3	WHALE
+IDS-762	porpoise, dolphin	3	DOLPHIN
+IDS-763	shark	3	SHARK
+IDS-764	shell	3	SHELL
+IDS-765	gill	3	GILL
+IDS-766	fishscale	3	SCALE
+IDS-767	fin (dorsal)	3	FIN
+IDS-768	fish	3	FISH
+IDS-769	mouse, rat	3	MUROID (MOUSE OR RAT)
+IDS-770	opossum	3	OPOSSUM
+IDS-771	cat	3	CAT
+IDS-772	rabbit	3	RABBIT
+IDS-773	dog	3	DOG
+IDS-774	dove	3	DOVE
+IDS-775	owl	3	OWL
+IDS-776	crow	3	CROW
+IDS-777	parrot	3	PARROT
+IDS-778	bat	3	BAT
+IDS-779	vulture	3	VULTURE
+IDS-780	hawk	3	HAWK
+IDS-781	eagle	3	EAGLE
+IDS-782	seagull	3	SEAGULL
+IDS-783	heron	3	HERON
+IDS-784	bird	3	BIRD
+IDS-785	nest	3	NEST
+IDS-786	duck	3	DUCK
+IDS-787	goose	3	GOOSE
+IDS-788	chicken	3	CHICKEN
+IDS-789	hen	3	HEN
+IDS-790	cock, rooster	3	ROOSTER
+IDS-791	mule	3	MULE
+IDS-792	fowl	3	FOWL
+IDS-793	ass, donkey	3	DONKEY
+IDS-794	foal, colt	3	FOAL
+IDS-795	mare	3	MARE
+IDS-796	stallion	3	STALLION
+IDS-797	horse (equine)	3	HORSE
+IDS-798	kid	3	YOUNG GOAT (KID)
+IDS-799	he-goat	3	MALE GOAT
+IDS-800	goat	3	GOAT
+IDS-801	pig	3	PIG
+IDS-802	sow (2)	3	SOW (FEMALE PIG)
+IDS-803	boar	3	BOAR (MALE PIG)
+IDS-804	lamb	3	LAMB
+IDS-805	ewe	3	EWE
+IDS-806	ram	3	RAM
+IDS-807	sheep	3	SHEEP
+IDS-808	calf	3	CALF
+IDS-809	cow	3	COW
+IDS-810	ox	3	OX
+IDS-811	bull	3	BULL
+IDS-812	cattle (bovine)	3	CATTLE
+IDS-813	stable, stall	3	STABLE
+IDS-814	herdsman	3	HERDSMAN
+IDS-815	pasture	3	PASTURE
+IDS-816	livestock	3	LIVESTOCK
+IDS-817	female (adj)	3	FEMALE (OF ANIMAL)
+IDS-818	male (adj)	3	MALE (OF ANIMAL)
+IDS-819	animal	3	ANIMAL
+IDS-820	they	2	THEY
+IDS-821	you (plural)	2	YOU
+IDS-822	we (exclusive)	2	WE (EXCLUSIVE)
+IDS-823	we (inclusive)	2	WE (INCLUSIVE)
+IDS-824	we	2	WE
+IDS-825	he/she/it	2	HE OR SHE OR IT
+IDS-826	you (singular)	2	THOU
+IDS-827	I	2	I
+IDS-828	family	2	FAMILY
+IDS-829	relatives, kinsmen	2	RELATIVES
+IDS-830	widower	2	WIDOWER
+IDS-831	widow	2	WIDOW
+IDS-832	orphan	2	ORPHAN
+IDS-833	stepdaughter	2	STEPDAUGHTER
+IDS-834	stepson	2	STEPSON
+IDS-835	stepmother	2	STEPMOTHER
+IDS-836	stepfather	2	STEPFATHER
+IDS-837	daughter-in-law (of a woman)	2	DAUGHTER-IN-LAW (OF WOMAN)
+IDS-838	daughter-in-law (of a man)	2	DAUGHTER-IN-LAW (OF MAN)
+IDS-839	son-in-law (of a woman)	2	SON-IN-LAW (OF WOMAN)
+IDS-840	son-in-law (of a man)	2	SON-IN-LAW (OF MAN)
+IDS-841	mother-in-law (of a woman)	2	MOTHER-IN-LAW (OF WOMAN)
+IDS-842	mother-in-law (of a man)	2	MOTHER-IN-LAW (OF MAN)
+IDS-843	father-in-law (of a woman)	2	FATHER-IN-LAW (OF WOMAN)
+IDS-844	father-in-law (of a man)	2	FATHER-IN-LAW (OF MAN)
+IDS-845	descendants	2	DESCENDANTS
+IDS-846	ancestors	2	ANCESTORS
+IDS-847	cousin	2	COUSIN
+IDS-848	niece	2	NIECE
+IDS-849	nephew	2	NEPHEW
+IDS-850	father's sister	2	PATERNAL AUNT (FATHER'S SISTER)
+IDS-851	aunt	2	AUNT
+IDS-852	mother's sister	2	MATERNAL AUNT (MOTHER'S SISTER)
+IDS-853	father's brother	2	PATERNAL UNCLE (FATHER'S BROTHER)
+IDS-854	mother's brother	2	MATERNAL UNCLE (MOTHER'S BROTHER)
+IDS-855	uncle	2	UNCLE
+IDS-856	grandson	2	GRANDSON
+IDS-857	granddaughter	2	GRANDDAUGHTER
+IDS-858	old woman	2	OLD WOMAN
+IDS-859	grandmother	2	GRANDMOTHER
+IDS-860	old man	2	OLD MAN
+IDS-861	grandfather	2	GRANDFATHER
+IDS-862	twins	2	TWINS
+IDS-863	sibling	2	SIBLING
+IDS-864	younger sister	2	YOUNGER SISTER
+IDS-865	older sister	2	OLDER SISTER
+IDS-866	sister	2	SISTER
+IDS-867	younger brother	2	YOUNGER BROTHER
+IDS-868	older brother	2	OLDER BROTHER
+IDS-869	brother	2	BROTHER
+IDS-870	offspring (son or daughter)	2	CHILD (DESCENDANT)
+IDS-871	daughter	2	DAUGHTER
+IDS-872	son	2	SON
+IDS-873	married woman	2	MARRIED WOMAN
+IDS-874	married man	2	MARRIED MAN
+IDS-875	parents	2	PARENTS
+IDS-876	mother	2	MOTHER
+IDS-877	father	2	FATHER
+IDS-878	divorce	2	DIVORCE
+IDS-879	marriage, wedding	2	MARRIAGE OR WEDDING
+IDS-880	marry	2	MARRY
+IDS-881	wife	2	WIFE
+IDS-882	husband	2	HUSBAND
+IDS-883	infant, baby	2	BABY
+IDS-884	child	2	CHILD (YOUNG HUMAN)
+IDS-885	young woman (adolescent)	2	YOUNG WOMAN
+IDS-886	girl	2	GIRL
+IDS-887	young man (adolescent)	2	YOUNG MAN
+IDS-888	boy	2	BOY
+IDS-889	female	2	FEMALE (OF PERSON)
+IDS-890	male	2	MALE (OF PERSON)
+IDS-891	woman	2	WOMAN
+IDS-892	man (vs. woman)	2	MAN
+IDS-893	person, human being	2	PERSON
+IDS-894	charcoal	1	CHARCOAL
+IDS-895	firewood	1	FIREWOOD
+IDS-896	match (noun)	1	MATCH
+IDS-897	extinguish	1	EXTINGUISH
+IDS-898	light, kindle, ignite	1	LIGHT (IGNITE)
+IDS-899	burn (vb intrans)	1	BURNING
+IDS-900	burn (vb trans)	1	BURN (SOMETHING)
+IDS-901	embers	1	EMBERS
+IDS-902	ashes	1	ASH
+IDS-903	smoke (noun)	1	SMOKE (EXHAUST)
+IDS-904	flame (noun)	1	FLAME
+IDS-905	fire	1	FIRE
+IDS-906	weather	1	WEATHER
+IDS-907	ice	1	ICE
+IDS-908	snow (noun)	1	SNOW
+IDS-909	rain (noun)	1	RAIN (PRECIPITATION)
+IDS-910	fog	1	FOG
+IDS-911	wind	1	WIND
+IDS-912	cloud	1	CLOUD
+IDS-913	air	1	AIR
+IDS-914	dew	1	DEW
+IDS-915	shade, shadow	1	SHADE
+IDS-916	darkness	1	DARKNESS
+IDS-917	light (noun)	1	LIGHT (RADIATION)
+IDS-918	rainbow	1	RAINBOW
+IDS-919	storm	1	STORM
+IDS-920	thunder	1	THUNDER
+IDS-921	lightning (as striking)	1	BOLT (OF LIGHTNING)
+IDS-922	lightning	1	LIGHTNING
+IDS-923	star	1	STAR
+IDS-924	moon	1	MOON
+IDS-925	sun	1	SUN
+IDS-926	sky	1	SKY
+IDS-927	earthquake	1	EARTHQUAKE
+IDS-928	stone, rock	1	STONE OR ROCK
+IDS-929	wood	1	WOOD
+IDS-930	tree (cf 08.600)	1	TREE
+IDS-931	woods, forest	1	FOREST
+IDS-932	waterfall	1	WATERFALL
+IDS-933	swamp	1	SWAMP
+IDS-934	spring, well	1	SPRING OR WELL
+IDS-935	whirlpool	1	WHIRLPOOL
+IDS-936	river, stream, brook	1	FLOWING BODY OF WATER
+IDS-937	hightide	1	HIGH TIDE
+IDS-938	lowtide	1	LOW TIDE
+IDS-939	tide	1	TIDE
+IDS-940	wave	1	WAVE
+IDS-941	headland, point	1	CAPE
+IDS-942	reef	1	REEF
+IDS-943	lagoon	1	LAGOON
+IDS-944	gulf, bay	1	BAY
+IDS-945	lake	1	LAKE
+IDS-946	ocean	1	OCEAN
+IDS-947	foam	1	FOAM
+IDS-948	rough (of sea)	1	ROUGH (OF SEA)
+IDS-949	sea	1	SEA
+IDS-950	calm (of sea)	1	CALM (OF SEA)
+IDS-951	water	1	WATER
+IDS-952	cave	1	CAVE
+IDS-953	shore	1	SHORE
+IDS-954	mainland	1	MAINLAND
+IDS-955	island	1	ISLAND
+IDS-956	valley	1	VALLEY
+IDS-957	plain, field	1	PLAIN
+IDS-958	cliff, precipice	1	PRECIPICE
+IDS-959	mountain, hill	1	MOUNTAIN OR HILL
+IDS-960	mud	1	MUD
+IDS-961	sand	1	SAND
+IDS-962	dust	1	DUST
+IDS-963	earth=ground, soil	1	EARTH (SOIL)
+IDS-964	earth, land	1	LAND
+IDS-965	world	1	WORLD
+IDS-966	sometimes	14	SOMETIMES
+IDS-967	soon	14	SOON
+IDS-968	long-time (for a)	14	FOR A LONG TIME
+IDS-969	never	14	NEVER
+IDS-970	again	14	AGAIN
+IDS-971	day	14	DAY (NOT NIGHT)
+IDS-972	night	14	NIGHT
+IDS-973	dawn	14	DAWN
+IDS-974	morning	14	MORNING
+IDS-975	noon, midday	14	MIDDAY
+IDS-976	afternoon	14	AFTERNOON
+IDS-977	evening	14	EVENING
+IDS-978	today	14	TODAY
+IDS-979	tomorrow	14	TOMORROW
+IDS-980	day-after-tomorrow	14	DAY AFTER TOMORROW
+IDS-981	yesterday	14	YESTERDAY
+IDS-982	day-before-yesterday	14	DAY BEFORE YESTERDAY
+IDS-983	hour	14	HOUR
+IDS-984	clock, timepiece	14	CLOCK
+IDS-985	week	14	WEEK
+IDS-986	Sunday	14	SUNDAY
+IDS-987	Monday	14	MONDAY
+IDS-988	Tuesday	14	TUESDAY
+IDS-989	Wednesday	14	WEDNESDAY
+IDS-990	Thursday	14	THURSDAY
+IDS-991	Friday	14	FRIDAY
+IDS-992	Saturday	14	SATURDAY
+IDS-993	month	14	MONTH
+IDS-994	year	14	YEAR
+IDS-995	winter	14	WINTER
+IDS-996	spring	14	SPRINGTIME
+IDS-997	summer	14	SUMMER
+IDS-998	autumn	14	AUTUMN
+IDS-999	season	14	SEASON
+IDS-1000	smell (vb intrans)	15	SMELL (STINK)
+IDS-1001	sniff	15	SNIFF
+IDS-1002	smell (vb trans)	15	SMELL (PERCEIVE)
+IDS-1003	fragrant, good smelling	15	FRAGRANT
+IDS-1004	stinking, bad smelling	15	STINKING
+IDS-1005	taste	15	TASTE (SOMETHING)
+IDS-1006	sweet	15	SWEET
+IDS-1007	salty	15	SALTY
+IDS-1008	bitter	15	BITTER
+IDS-1009	acid, sour	15	SOUR
+IDS-1010	brackish	15	BRACKISH
+IDS-1011	hear	15	HEAR
+IDS-1012	listen	15	LISTEN
+IDS-1013	sound, noise	15	SOUND OR NOISE
+IDS-1014	loud	15	LOUD
+IDS-1015	quiet, silence	15	SILENCE
+IDS-1016	see	15	SEE
+IDS-1017	look, look at	15	LOOK
+IDS-1018	show	15	SHOW
+IDS-1019	shine	15	SHINE
+IDS-1020	bright	15	BRIGHT
+IDS-1021	color	15	COLOR
+IDS-1022	light (in color)	15	LIGHT (COLOR)
+IDS-1023	dark (in color)	15	DARK
+IDS-1024	white	15	WHITE
+IDS-1025	black	15	BLACK
+IDS-1026	red	15	RED
+IDS-1027	blue	15	BLUE
+IDS-1028	green	15	GREEN
+IDS-1029	yellow	15	YELLOW
+IDS-1030	touch	15	TOUCH
+IDS-1031	pinch	15	PINCH
+IDS-1032	feel	15	FEEL
+IDS-1033	hard	15	HARD
+IDS-1034	soft	15	SOFT
+IDS-1035	rough	15	ROUGH
+IDS-1036	smooth	15	SMOOTH
+IDS-1037	sharp	15	SHARP
+IDS-1038	blunt, dull	15	BLUNT
+IDS-1039	heavy	15	HEAVY
+IDS-1040	light (in weight)	15	LIGHT (WEIGHT)
+IDS-1041	wet, damp	15	WET
+IDS-1042	dry	15	DRY
+IDS-1043	hot	15	HOT
+IDS-1044	warm	15	WARM
+IDS-1045	cold	15	COLD
+IDS-1046	clean	15	CLEAN
+IDS-1047	dirty, soiled	15	DIRTY
+IDS-1048	wrinkled	15	WRINKLED
+IDS-1049	soul, spirit	16	SOUL
+IDS-1050	surprised, astonished	16	SURPRISED
+IDS-1051	good fortune, luck	16	GOOD LUCK
+IDS-1052	misfortune, bad luck	16	BAD LUCK
+IDS-1053	joyful, glad, happy	16	HAPPY
+IDS-1054	laugh	16	LAUGH
+IDS-1055	smile	16	SMILE
+IDS-1056	play	16	PLAY
+IDS-1057	love	16	LOVE
+IDS-1058	kiss	16	KISS
+IDS-1059	embrace	16	EMBRACE
+IDS-1060	pain	16	PAIN
+IDS-1061	grief, sorrow, sadness	16	GRIEF
+IDS-1062	anxiety, worry	16	ANXIETY
+IDS-1063	regret, be sorry	16	REGRET
+IDS-1064	pity	16	PITY
+IDS-1065	cry, weep	16	CRY
+IDS-1066	tear (noun)	16	TEAR (OF EYE)
+IDS-1067	groan	16	GROAN
+IDS-1068	hate	16	HATE
+IDS-1069	anger	16	ANGER
+IDS-1070	envy, jealousy	16	ENVY
+IDS-1071	shame (noun)	16	SHAME
+IDS-1072	proud	16	PROUD
+IDS-1073	dare	16	DARE
+IDS-1074	brave	16	BRAVE
+IDS-1075	fear, fright	16	FEAR (FRIGHT)
+IDS-1076	danger	16	DANGER
+IDS-1077	desire, want	16	WANT
+IDS-1078	choose	16	CHOOSE
+IDS-1079	hope	16	HOPE
+IDS-1080	faithful	16	FAITHFUL
+IDS-1081	true	16	TRUE
+IDS-1082	lie, tell lies	16	LIE (MISLEAD)
+IDS-1083	deceit	16	DECEIT
+IDS-1084	forgive	16	FORGIVE
+IDS-1085	good	16	GOOD
+IDS-1086	bad	16	BAD
+IDS-1087	right, correct	16	CORRECT (RIGHT)
+IDS-1088	wrong	16	WRONG
+IDS-1089	fault	16	FAULT
+IDS-1090	mistake, error	16	MISTAKE
+IDS-1091	blame	16	BLAME
+IDS-1092	praise	16	PRAISE
+IDS-1093	beautiful	16	BEAUTIFUL
+IDS-1094	ugly	16	UGLY
+IDS-1095	greedy	16	GREEDY
+IDS-1096	clever	16	CLEVER
+IDS-1097	mind	17	MIND
+IDS-1098	think (= reflect)	17	THINK (REFLECT)
+IDS-1099	think (= be of the opinion)	17	THINK (BELIEVE)
+IDS-1100	believe	17	BELIEVE
+IDS-1101	understand	17	UNDERSTAND
+IDS-1102	know	17	KNOW (SOMETHING)
+IDS-1103	guess	17	GUESS
+IDS-1104	imitate	17	IMITATE
+IDS-1105	seem	17	SEEM
+IDS-1106	idea, notion	17	IDEA
+IDS-1107	wise	17	WISE
+IDS-1108	foolish, stupid	17	STUPID
+IDS-1109	insane, crazy	17	MAD
+IDS-1110	learn	17	LEARN
+IDS-1111	study	17	STUDY
+IDS-1112	teach	17	TEACH
+IDS-1113	pupil	17	PUPIL (STUDENT)
+IDS-1114	teacher	17	TEACHER
+IDS-1115	school	17	SCHOOL
+IDS-1116	remember	17	REMEMBER
+IDS-1117	forget	17	FORGET
+IDS-1118	clear, plain	17	CLEAR
+IDS-1119	obscure	17	OBSCURE
+IDS-1120	secret	17	SECRET
+IDS-1121	sure, certain	17	CERTAIN
+IDS-1122	explain	17	EXPLAIN
+IDS-1123	intention, purpose	17	INTENTION
+IDS-1124	cause	17	CAUSE
+IDS-1125	doubt	17	DOUBT
+IDS-1126	suspect	17	SUSPECT
+IDS-1127	betray	17	BETRAY
+IDS-1128	need, necessity	17	NEED (NOUN)
+IDS-1129	easy	17	EASY
+IDS-1130	difficult	17	DIFFICULT
+IDS-1131	try, attempt	17	TRY
+IDS-1132	way, manner	17	MANNER
+IDS-1133	and	17	AND
+IDS-1134	because	17	BECAUSE
+IDS-1135	if	17	IF
+IDS-1136	or	17	OR
+IDS-1137	yes, affirmative	17	YES
+IDS-1138	no, negative	17	NO
+IDS-1139	how?	17	HOW
+IDS-1140	how many?	17	HOW MANY PIECES
+IDS-1141	how much?	17	HOW MUCH
+IDS-1142	what?	17	WHAT
+IDS-1143	when?	17	WHEN
+IDS-1144	where?	17	WHERE
+IDS-1145	which?	17	WHICH
+IDS-1146	who?	17	WHO
+IDS-1147	why?	17	WHY
+IDS-1148	voice	18	VOICE
+IDS-1149	sing	18	SING
+IDS-1150	shout, cry out	18	SHOUT
+IDS-1151	whisper	18	WHISPER
+IDS-1152	mumble	18	MUMBLE
+IDS-1153	whistle	18	WHISTLE
+IDS-1154	shriek, screech	18	SHRIEK
+IDS-1155	howl	18	HOWL
+IDS-1156	speak, talk	18	SPEAK
+IDS-1157	stutter, stammer	18	STUTTER
+IDS-1158	say	18	SAY
+IDS-1159	tell story	18	TELL
+IDS-1160	speech (make a)	18	SPEECH
+IDS-1161	silent (be)	18	BE SILENT
+IDS-1162	language	18	LANGUAGE
+IDS-1163	word	18	WORD
+IDS-1164	name	18	NAME
+IDS-1165	ask (question, inquire)	18	ASK (INQUIRE)
+IDS-1166	answer	18	ANSWER
+IDS-1167	admit, confess	18	ADMIT
+IDS-1168	deny	18	DENY
+IDS-1169	ask, request	18	ASK (REQUEST)
+IDS-1170	promise	18	PROMISE
+IDS-1171	refuse	18	REFUSE
+IDS-1172	forbid	18	FORBID
+IDS-1173	rebuke, scold	18	SCOLD
+IDS-1174	call (=summon)	18	CALL
+IDS-1175	call (=name)	18	CALL BY NAME
+IDS-1176	announce	18	ANNOUNCE
+IDS-1177	threaten	18	THREATEN
+IDS-1178	boast	18	BOAST
+IDS-1179	write	18	WRITE
+IDS-1180	read	18	READ
+IDS-1181	paper	18	PAPER
+IDS-1182	pen	18	PEN
+IDS-1183	book	18	BOOK
+IDS-1184	poet	18	POET
+IDS-1185	flute	18	FLUTE
+IDS-1186	drum	18	DRUM
+IDS-1187	horn, trumpet	18	BRASS INSTRUMENT (HORN OR TRUMPET)
+IDS-1188	rattle	18	RATTLE
+IDS-1189	country	19	COUNTRY
+IDS-1190	one's native country	19	NATIVE COUNTRY
+IDS-1191	city, town	19	TOWN
+IDS-1192	village	19	VILLAGE
+IDS-1193	boundary	19	BOUNDARY
+IDS-1194	people (populace)	19	PEOPLE
+IDS-1195	tribe, clan	19	CLAN
+IDS-1196	chief, chieftain	19	CHIEFTAIN
+IDS-1197	staff, walking stick	19	WALKING STICK
+IDS-1198	rule, govern	19	RULE
+IDS-1199	king, ruler	19	KING
+IDS-1200	queen	19	QUEEN
+IDS-1201	noble, nobleman	19	NOBLE
+IDS-1202	citizen, subject	19	CITIZEN
+IDS-1203	master	19	MASTER
+IDS-1204	slave	19	SLAVE
+IDS-1205	servant	19	SERVANT
+IDS-1206	freeman	19	FREEMAN
+IDS-1207	command, order	19	COMMAND
+IDS-1208	obey	19	OBEY
+IDS-1209	let, permit	19	ALLOW OR PERMIT
+IDS-1210	friend, companion	19	FRIEND
+IDS-1211	enemy	19	ENEMY
+IDS-1212	neighbor	19	NEIGHBOUR
+IDS-1213	stranger	19	STRANGER
+IDS-1214	guest	19	GUEST
+IDS-1215	host	19	HOST
+IDS-1216	help, aid	19	HELP
+IDS-1217	hinder, prevent	19	HINDER OR PREVENT
+IDS-1218	custom	19	CUSTOM
+IDS-1219	strife, quarrel	19	QUARREL
+IDS-1220	conspiracy, plot	19	PLOT
+IDS-1221	meet	19	MEET
+IDS-1222	prostitute	19	PROSTITUTE
+IDS-1223	fight (vb)	20	FIGHT
+IDS-1224	war, battle	20	BATTLE
+IDS-1225	peace	20	PEACE
+IDS-1226	army	20	ARMY
+IDS-1227	soldier	20	SOLDIER
+IDS-1228	weapons, arms	20	WEAPONS
+IDS-1229	club	20	CLUB
+IDS-1230	battle-ax	20	BATTLE-AXE
+IDS-1231	sling	20	SLING
+IDS-1232	bow	20	BOW
+IDS-1233	arrow	20	ARROW
+IDS-1234	spear	20	SPEAR
+IDS-1235	sword	20	SWORD
+IDS-1236	gun, cannon	20	CANNON OR GUN
+IDS-1237	armor (defensive)	20	ARMOUR
+IDS-1238	helmet	20	HELMET
+IDS-1239	shield	20	SHIELD
+IDS-1240	fortress	20	FORTRESS
+IDS-1241	tower	20	TOWER
+IDS-1242	victory	20	VICTORY
+IDS-1243	defeat	20	DEFEAT
+IDS-1244	attack	20	ATTACK
+IDS-1245	defend	20	DEFEND
+IDS-1246	retreat	20	RETREAT
+IDS-1247	surrender	20	SURRENDER
+IDS-1248	captive, prisoner	20	PRISONER
+IDS-1249	guard, sentinel	20	GUARD
+IDS-1250	booty, spoils	20	BOOTY
+IDS-1251	ambush	20	AMBUSH
+IDS-1252	fisherman	20	FISHERMAN
+IDS-1253	fishhook	20	FISHHOOK
+IDS-1254	fishing line	20	FISHING LINE
+IDS-1255	fishnet	20	FISHNET
+IDS-1256	fish trap	20	FISH TRAP
+IDS-1257	bait	20	BAIT
+IDS-1258	hunt	20	HUNT
+IDS-1259	shoot	20	SHOOT
+IDS-1260	miss (target)	20	MISS (A TARGET)
+IDS-1261	trap (noun)	20	TRAP (PITFALL)
+IDS-1262	trap (vb)	20	TRAP (CATCH)
+IDS-1263	law	21	LAW
+IDS-1264	court	21	COURT
+IDS-1265	judge (vb)	21	ADJUDICATE
+IDS-1266	judgment	21	JUDGMENT
+IDS-1267	judge (noun)	21	JUDGE
+IDS-1268	plaintiff	21	PLAINTIFF
+IDS-1269	defendant	21	DEFENDANT
+IDS-1270	witness	21	WITNESS
+IDS-1271	swear	21	SWEAR
+IDS-1272	oath	21	OATH
+IDS-1273	accuse	21	ACCUSE
+IDS-1274	condemn	21	CONDEMN
+IDS-1275	convict (vb)	21	CONVICT
+IDS-1276	acquit	21	ACQUIT
+IDS-1277	guilty	21	GUILTY
+IDS-1278	innocent	21	INNOCENT
+IDS-1279	penalty, punishment	21	PUNISHMENT
+IDS-1280	fine	21	FINE (PENALTY)
+IDS-1281	prison, jail	21	PRISON
+IDS-1282	murder	21	MURDER
+IDS-1283	adultery	21	ADULTERY
+IDS-1284	rape	21	RAPE
+IDS-1285	arson	21	ARSON
+IDS-1286	perjury	21	PERJURY
+IDS-1287	steal	21	STEAL
+IDS-1288	thief	21	THIEF
+IDS-1289	religion	22	RELIGION
+IDS-1290	God	22	GOD
+IDS-1291	temple, church	22	TEMPLE
+IDS-1292	altar	22	ALTAR
+IDS-1293	sacrifice, offering	22	SACRIFICE
+IDS-1294	worship	22	WORSHIP
+IDS-1295	pray	22	PRAY
+IDS-1296	priest	22	PRIEST
+IDS-1297	holy, sacred	22	HOLY
+IDS-1298	preach	22	PREACH
+IDS-1299	bless	22	BLESS
+IDS-1300	curse	22	CURSE
+IDS-1301	fast (vb)	22	ABSTAIN FROM FOOD
+IDS-1302	heaven	22	HEAVEN
+IDS-1303	hell	22	HELL
+IDS-1304	demon (evil spirit)	22	DEMON
+IDS-1305	idol	22	IDOL
+IDS-1306	magic, witchcraft, sorcery	22	MAGIC
+IDS-1307	sorcerer, witch	22	MAGICIAN
+IDS-1308	fairy, elf	22	ELF OR FAIRY
+IDS-1309	ghost, phantom	22	GHOST
+IDS-1310	omen, portent	22	OMEN

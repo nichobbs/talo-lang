@@ -71,7 +71,9 @@ false-friend notes), **SRS deck generator** (`tools/srs-generator`, tier-ordered
 Anki/JSON deck of the teachable core), **interlinear glosser** (`tools/glosser`,
 auto-produces the morpheme gloss line + a corpus gloss-coverage gate),
 **coverage stats** (`tools/coverage-stats`, donor-family balance vs the ≤25% cap
-+ tier/domain coverage + a provable-cap gate), **deprecation registry**
++ tier/domain coverage + a provable-cap gate), **reading-coverage harness**
+(`tools/reading-coverage`, measures lexicon coverage of the IDS concept spine +
+emits the mint queue, the `0013` scaling instrument), **deprecation registry**
 (`tools/deprecation-registry` + `data/deprecations.tsv`, makes form-retirement a
 gated act — retired spellings stay dead), dictionary generator + integrity
 gate,
