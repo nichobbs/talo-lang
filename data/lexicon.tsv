@@ -1543,3 +1543,57 @@ BOD-082	itch (v)	alipu	INTL	blend rubric; src 'arippu'	blend; Dravidian
 SPE-056	whistle (v)	siu	INTL	blend rubric; src 'siul'	blend; Austronesian
 SPE-057	whisper (v)	bisi	INTL	blend rubric; src 'bisik'	blend; Austronesian
 SPE-058	shout / yell	telia	INTL	blend rubric; src 'teriak'	blend; Austronesian
+CLO-026	bead	manie	INTL	blend rubric; src 'manik'	blend (legalised); Austronesian
+CLO-027	bracelet	gelan	INTL	blend rubric; src 'gelang'	blend; Austronesian
+CLO-028	comb	sisia	INTL	blend rubric; src 'sisir'	blend (legalised); Austronesian
+CLO-029	earring	antin	INTL	blend rubric; src 'anting'	blend; Austronesian
+CLO-030	necklace	mufu	INTL	blend rubric; src 'mkufu'	blend; Bantu
+CLO-031	razor	weme	INTL	blend rubric; src 'wembe'	blend; Bantu
+CLO-032	brush	sika	INTL	blend rubric; src 'sikat'	blend; Austronesian
+CLO-033	weave (v)	tenun	INTL	blend rubric; src 'tenun'	blend; Austronesian
+CLO-034	wool	sua	INTL	blend rubric; src 'suf'	blend (legalised); Semitic
+CLO-035	silk	sutela	INTL	blend rubric; src 'sutera'	blend; Austronesian
+CLO-036	dye (v)	celu	INTL	blend rubric; src 'celup'	blend; Austronesian
+CLO-037	tattoo	tatau	INTL	blend rubric; src 'tatau'	blend; Austronesian
+CLO-038	cloak / robe	yuba	INTL	blend rubric; src 'jubah'	blend; Austronesian
+ACT-137	axe	kapa	INTL	blend rubric; src 'kapak'	blend; Austronesian
+ACT-138	chisel	pahai	INTL	blend rubric; src 'pahat'	blend (legalised); Austronesian
+ACT-139	carve	uki	INTL	blend rubric; src 'ukir'	blend; Austronesian
+ACT-140	knot	simu	INTL	blend rubric; src 'simpul'	blend; Austronesian
+ACT-141	net	yalae	INTL	blend rubric; src 'jala'	blend (legalised); Austronesian
+ACT-142	statue	muli	INTL	blend rubric; src 'murti'	blend; Indo-Aryan
+ACT-143	fan (device)	kipa	INTL	blend rubric; src 'kipas'	blend; Austronesian
+MOT-065	oar / paddle	dayun	INTL	blend rubric; src 'dayung'	blend; Austronesian
+MOT-066	raft	lakie	INTL	blend rubric; src 'rakit'	blend (legalised); Austronesian
+MOT-067	canoe	bangae	INTL	blend rubric; src 'bangka'	blend (legalised); Austronesian
+MOT-068	sail (noun)	laya	INTL	blend rubric; src 'layar'	blend; Austronesian
+MOT-069	yoke	yua	INTL	blend rubric; src 'jua'	blend; Indo-Aryan
+MOT-070	saddle	pelana	INTL	blend rubric; src 'pelana'	blend; Austronesian
+POS-032	wages / salary	gayi	INTL	blend rubric; src 'gaji'	blend; Austronesian
+POS-033	poor	misin	INTL	blend rubric; src 'miskin'	blend; Austronesian
+POS-034	wealth / property	halae	INTL	blend rubric; src 'harta'	blend (legalised); Austronesian
+POS-035	stingy / miserly	kikia	INTL	blend rubric; src 'kikir'	blend (legalised); Austronesian
+SPA-042	ball / sphere	bola	INTL	blend rubric; src 'bola'	blend; Austronesian
+SPA-043	hook	kaia	INTL	blend rubric; src 'kait'	blend (legalised); Austronesian
+SPA-044	corner	sudu	INTL	blend rubric; src 'sudut'	blend; Austronesian
+SPA-045	edge	tepi	INTL	blend rubric; src 'tepi'	blend; Austronesian
+SPA-046	crooked / bent	bengo	INTL	blend rubric; src 'bengkok'	blend; Austronesian
+SPA-047	layer	lapi	INTL	blend rubric; src 'lapis'	blend; Austronesian
+EMO-059	smile	senu	INTL	blend rubric; src 'senyum'	blend; Austronesian
+EMO-060	kiss	ciu	INTL	blend rubric; src 'cium'	blend; Austronesian
+EMO-061	embrace / hug	pelu	INTL	blend rubric; src 'peluk'	blend; Austronesian
+EMO-062	jealous / envy	cemulu	INTL	blend rubric; src 'cemburu'	blend; Austronesian
+EMO-063	mercy / compassion	huluma	INTL	blend rubric; src 'huruma'	blend; Bantu
+EMO-064	startled / surprised	keyua	INTL	blend rubric; src 'kejut'	blend (legalised); Austronesian
+SPE-059	praise (v)	puyi	INTL	blend rubric; src 'puji'	blend; Austronesian
+SPE-060	boastful / arrogant	somon	INTL	blend rubric; src 'sombong'	blend; Austronesian
+SPE-061	deny	sangae	INTL	blend rubric; src 'sangkal'	blend (legalised); Austronesian
+SPE-062	scold / rebuke	tegu	INTL	blend rubric; src 'tegur'	blend; Austronesian
+SOC-119	king	malia	INTL	blend rubric; src 'malik'	blend (legalised); Semitic
+SOC-120	queen	latu	INTL	blend rubric; src 'ratu'	blend; Austronesian
+SOC-121	crowd	umati	INTL	blend rubric; src 'umati'	blend; Bantu
+SOC-122	punish / penalty	huku	INTL	blend rubric; src 'hukum'	blend; Austronesian
+SOC-123	oath / swear	sumae	INTL	blend rubric; src 'sumpah'	blend (legalised); Austronesian
+PHY-089	wave (water)	omae	INTL	blend rubric; src 'ombak'	blend (legalised); Austronesian
+PHY-090	foam	powu	INTL	blend rubric; src 'povu'	blend; Bantu
+PHY-091	charcoal	alan	INTL	blend rubric; src 'arang'	blend; Austronesian
