@@ -10884,3 +10884,361 @@ MOD-134.to	imelito	to use/apply 'email'; to act as 'email'	verb	imeli	email	verb
 MOD-134.cika	imelicika	little 'email'; small/dear 'email'	noun	imeli	email	diminutive	imeli+ci+ka
 MOD-134.goka	imeligoka	big 'email'; great 'email'	noun	imeli	email	augmentative	imeli+go+ka
 MOD-134.deka	imelideka	place of/for 'email'	noun	imeli	email	place	imeli+de+ka
+ANI-061.ka	sipuka	snail	noun	sipu	snail	noun	sipu+ka
+ANI-061.pe	sipupe	of/like 'snail'; 'snail'-related	modifier	sipu	snail	modifier	sipu+pe
+ANI-061.cika	sipucika	little 'snail'; small/dear 'snail'	noun	sipu	snail	diminutive	sipu+ci+ka
+ANI-061.goka	sipugoka	big 'snail'; great 'snail'	noun	sipu	snail	augmentative	sipu+go+ka
+ANI-061.deka	sipudeka	place of/for 'snail'	noun	sipu	snail	place	sipu+de+ka
+ANI-062.ka	belalanka	grasshopper	noun	belalan	grasshopper	noun	belalan+ka
+ANI-062.pe	belalanpe	of/like 'grasshopper'; 'grasshopper'-related	modifier	belalan	grasshopper	modifier	belalan+pe
+ANI-062.to	belalanto	to use/apply 'grasshopper'; to act as 'grasshopper'	verb	belalan	grasshopper	verb	belalan+to
+ANI-062.cika	belalancika	little 'grasshopper'; small/dear 'grasshopper'	noun	belalan	grasshopper	diminutive	belalan+ci+ka
+ANI-062.goka	belalangoka	big 'grasshopper'; great 'grasshopper'	noun	belalan	grasshopper	augmentative	belalan+go+ka
+ANI-062.deka	belalandeka	place of/for 'grasshopper'	noun	belalan	grasshopper	place	belalan+de+ka
+ANI-063.ka	kecoaka	cockroach	noun	kecoa	cockroach	noun	kecoa+ka
+ANI-063.pe	kecoape	of/like 'cockroach'; 'cockroach'-related	modifier	kecoa	cockroach	modifier	kecoa+pe
+ANI-063.to	kecoato	to use/apply 'cockroach'; to act as 'cockroach'	verb	kecoa	cockroach	verb	kecoa+to
+ANI-063.cika	kecoacika	little 'cockroach'; small/dear 'cockroach'	noun	kecoa	cockroach	diminutive	kecoa+ci+ka
+ANI-063.goka	kecoagoka	big 'cockroach'; great 'cockroach'	noun	kecoa	cockroach	augmentative	kecoa+go+ka
+ANI-063.deka	kecoadeka	place of/for 'cockroach'	noun	kecoa	cockroach	place	kecoa+de+ka
+ANI-064.ka	tawonka	wasp	noun	tawon	wasp	noun	tawon+ka
+ANI-064.pe	tawonpe	of/like 'wasp'; 'wasp'-related	modifier	tawon	wasp	modifier	tawon+pe
+ANI-064.to	tawonto	to use/apply 'wasp'; to act as 'wasp'	verb	tawon	wasp	verb	tawon+to
+ANI-064.cika	tawoncika	little 'wasp'; small/dear 'wasp'	noun	tawon	wasp	diminutive	tawon+ci+ka
+ANI-064.goka	tawongoka	big 'wasp'; great 'wasp'	noun	tawon	wasp	augmentative	tawon+go+ka
+ANI-064.deka	tawondeka	place of/for 'wasp'	noun	tawon	wasp	place	tawon+de+ka
+ANI-065.ka	kodoka	frog	noun	kodo	frog	noun	kodo+ka
+ANI-065.pe	kodope	of/like 'frog'; 'frog'-related	modifier	kodo	frog	modifier	kodo+pe
+ANI-065.to	kodoto	to use/apply 'frog'; to act as 'frog'	verb	kodo	frog	verb	kodo+to
+ANI-065.cika	kodocika	little 'frog'; small/dear 'frog'	noun	kodo	frog	diminutive	kodo+ci+ka
+ANI-065.goka	kodogoka	big 'frog'; great 'frog'	noun	kodo	frog	augmentative	kodo+go+ka
+ANI-065.deka	kododeka	place of/for 'frog'	noun	kodo	frog	place	kodo+de+ka
+ANI-066.ka	kasaeka	turtle	noun	kasae	turtle	noun	kasae+ka
+ANI-066.pe	kasaepe	of/like 'turtle'; 'turtle'-related	modifier	kasae	turtle	modifier	kasae+pe
+ANI-066.to	kasaeto	to use/apply 'turtle'; to act as 'turtle'	verb	kasae	turtle	verb	kasae+to
+ANI-066.cika	kasaecika	little 'turtle'; small/dear 'turtle'	noun	kasae	turtle	diminutive	kasae+ci+ka
+ANI-066.goka	kasaegoka	big 'turtle'; great 'turtle'	noun	kasae	turtle	augmentative	kasae+go+ka
+ANI-066.deka	kasaedeka	place of/for 'turtle'	noun	kasae	turtle	place	kasae+de+ka
+ANI-067.ka	kalonka	bat (animal)	noun	kalon	bat (animal)	noun	kalon+ka
+ANI-067.pe	kalonpe	of/like 'bat (animal)'; 'bat (animal)'-related	modifier	kalon	bat (animal)	modifier	kalon+pe
+ANI-067.to	kalonto	to use/apply 'bat (animal)'; to act as 'bat (animal)'	verb	kalon	bat (animal)	verb	kalon+to
+ANI-067.cika	kaloncika	little 'bat (animal)'; small/dear 'bat (animal)'	noun	kalon	bat (animal)	diminutive	kalon+ci+ka
+ANI-067.goka	kalongoka	big 'bat (animal)'; great 'bat (animal)'	noun	kalon	bat (animal)	augmentative	kalon+go+ka
+ANI-067.deka	kalondeka	place of/for 'bat (animal)'	noun	kalon	bat (animal)	place	kalon+de+ka
+ANI-068.ka	bicuka	scorpion	noun	bicu	scorpion	noun	bicu+ka
+ANI-068.pe	bicupe	of/like 'scorpion'; 'scorpion'-related	modifier	bicu	scorpion	modifier	bicu+pe
+ANI-068.to	bicuto	to use/apply 'scorpion'; to act as 'scorpion'	verb	bicu	scorpion	verb	bicu+to
+ANI-068.cika	bicucika	little 'scorpion'; small/dear 'scorpion'	noun	bicu	scorpion	diminutive	bicu+ci+ka
+ANI-068.goka	bicugoka	big 'scorpion'; great 'scorpion'	noun	bicu	scorpion	augmentative	bicu+go+ka
+ANI-068.deka	bicudeka	place of/for 'scorpion'	noun	bicu	scorpion	place	bicu+de+ka
+AGR-054.ka	singonka	cassava / manioc	noun	singon	cassava / manioc	noun	singon+ka
+AGR-054.pe	singonpe	of/like 'cassava / manioc'; 'cassava / manioc'-related	modifier	singon	cassava / manioc	modifier	singon+pe
+AGR-054.to	singonto	to use/apply 'cassava / manioc'; to act as 'cassava / manioc'	verb	singon	cassava / manioc	verb	singon+to
+AGR-054.cika	singoncika	little 'cassava / manioc'; small/dear 'cassava / manioc'	noun	singon	cassava / manioc	diminutive	singon+ci+ka
+AGR-054.goka	singongoka	big 'cassava / manioc'; great 'cassava / manioc'	noun	singon	cassava / manioc	augmentative	singon+go+ka
+AGR-054.deka	singondeka	place of/for 'cassava / manioc'	noun	singon	cassava / manioc	place	singon+de+ka
+AGR-055.ka	temakauka	tobacco	noun	temakau	tobacco	noun	temakau+ka
+AGR-055.pe	temakaupe	of/like 'tobacco'; 'tobacco'-related	modifier	temakau	tobacco	modifier	temakau+pe
+AGR-055.to	temakauto	to use/apply 'tobacco'; to act as 'tobacco'	verb	temakau	tobacco	verb	temakau+to
+AGR-055.cika	temakaucika	little 'tobacco'; small/dear 'tobacco'	noun	temakau	tobacco	diminutive	temakau+ci+ka
+AGR-055.goka	temakaugoka	big 'tobacco'; great 'tobacco'	noun	temakau	tobacco	augmentative	temakau+go+ka
+AGR-055.deka	temakaudeka	place of/for 'tobacco'	noun	temakau	tobacco	place	temakau+de+ka
+AGR-056.ka	tebuka	sugar cane	noun	tebu	sugar cane	noun	tebu+ka
+AGR-056.pe	tebupe	of/like 'sugar cane'; 'sugar cane'-related	modifier	tebu	sugar cane	modifier	tebu+pe
+AGR-056.to	tebuto	to use/apply 'sugar cane'; to act as 'sugar cane'	verb	tebu	sugar cane	verb	tebu+to
+AGR-056.cika	tebucika	little 'sugar cane'; small/dear 'sugar cane'	noun	tebu	sugar cane	diminutive	tebu+ci+ka
+AGR-056.goka	tebugoka	big 'sugar cane'; great 'sugar cane'	noun	tebu	sugar cane	augmentative	tebu+go+ka
+AGR-056.deka	tebudeka	place of/for 'sugar cane'	noun	tebu	sugar cane	place	tebu+de+ka
+AGR-057.ka	ubika	yam	noun	ubi	yam	noun	ubi+ka
+AGR-057.pe	ubipe	of/like 'yam'; 'yam'-related	modifier	ubi	yam	modifier	ubi+pe
+AGR-057.to	ubito	to use/apply 'yam'; to act as 'yam'	verb	ubi	yam	verb	ubi+to
+AGR-057.cika	ubicika	little 'yam'; small/dear 'yam'	noun	ubi	yam	diminutive	ubi+ci+ka
+AGR-057.goka	ubigoka	big 'yam'; great 'yam'	noun	ubi	yam	augmentative	ubi+go+ka
+AGR-057.deka	ubideka	place of/for 'yam'	noun	ubi	yam	place	ubi+de+ka
+AGR-058.pe	gonpe	of/like 'sap / resin'; 'sap / resin'-related	modifier	gon	sap / resin	modifier	gon+pe
+AGR-058.to	gonto	to use/apply 'sap / resin'; to act as 'sap / resin'	verb	gon	sap / resin	verb	gon+to
+AGR-058.cika	goncika	little 'sap / resin'; small/dear 'sap / resin'	noun	gon	sap / resin	diminutive	gon+ci+ka
+AGR-058.goka	gongoka	big 'sap / resin'; great 'sap / resin'	noun	gon	sap / resin	augmentative	gon+go+ka
+AGR-058.deka	gondeka	place of/for 'sap / resin'	noun	gon	sap / resin	place	gon+de+ka
+SOC-100.ka	busuka	bow (weapon)	noun	busu	bow (weapon)	noun	busu+ka
+SOC-100.pe	busupe	of/like 'bow (weapon)'; 'bow (weapon)'-related	modifier	busu	bow (weapon)	modifier	busu+pe
+SOC-100.to	busuto	to use/apply 'bow (weapon)'; to act as 'bow (weapon)'	verb	busu	bow (weapon)	verb	busu+to
+SOC-100.cika	busucika	little 'bow (weapon)'; small/dear 'bow (weapon)'	noun	busu	bow (weapon)	diminutive	busu+ci+ka
+SOC-100.goka	busugoka	big 'bow (weapon)'; great 'bow (weapon)'	noun	busu	bow (weapon)	augmentative	busu+go+ka
+SOC-100.deka	busudeka	place of/for 'bow (weapon)'	noun	busu	bow (weapon)	place	busu+de+ka
+SOC-101.ka	amuka	arrow	noun	amu	arrow	noun	amu+ka
+SOC-101.pe	amupe	of/like 'arrow'; 'arrow'-related	modifier	amu	arrow	modifier	amu+pe
+SOC-101.to	amuto	to use/apply 'arrow'; to act as 'arrow'	verb	amu	arrow	verb	amu+to
+SOC-101.cika	amucika	little 'arrow'; small/dear 'arrow'	noun	amu	arrow	diminutive	amu+ci+ka
+SOC-101.goka	amugoka	big 'arrow'; great 'arrow'	noun	amu	arrow	augmentative	amu+go+ka
+SOC-101.deka	amudeka	place of/for 'arrow'	noun	amu	arrow	place	amu+de+ka
+SOC-102.ka	tomaka	spear	noun	toma	spear	noun	toma+ka
+SOC-102.pe	tomape	of/like 'spear'; 'spear'-related	modifier	toma	spear	modifier	toma+pe
+SOC-102.to	tomato	to use/apply 'spear'; to act as 'spear'	verb	toma	spear	verb	toma+to
+SOC-102.cika	tomacika	little 'spear'; small/dear 'spear'	noun	toma	spear	diminutive	toma+ci+ka
+SOC-102.goka	tomagoka	big 'spear'; great 'spear'	noun	toma	spear	augmentative	toma+go+ka
+SOC-102.deka	tomadeka	place of/for 'spear'	noun	toma	spear	place	toma+de+ka
+SOC-103.ka	pedanka	sword	noun	pedan	sword	noun	pedan+ka
+SOC-103.pe	pedanpe	of/like 'sword'; 'sword'-related	modifier	pedan	sword	modifier	pedan+pe
+SOC-103.to	pedanto	to use/apply 'sword'; to act as 'sword'	verb	pedan	sword	verb	pedan+to
+SOC-103.cika	pedancika	little 'sword'; small/dear 'sword'	noun	pedan	sword	diminutive	pedan+ci+ka
+SOC-103.goka	pedangoka	big 'sword'; great 'sword'	noun	pedan	sword	augmentative	pedan+go+ka
+SOC-103.deka	pedandeka	place of/for 'sword'	noun	pedan	sword	place	pedan+de+ka
+SOC-104.ka	pelisaika	shield	noun	pelisai	shield	noun	pelisai+ka
+SOC-104.pe	pelisaipe	of/like 'shield'; 'shield'-related	modifier	pelisai	shield	modifier	pelisai+pe
+SOC-104.to	pelisaito	to use/apply 'shield'; to act as 'shield'	verb	pelisai	shield	verb	pelisai+to
+SOC-104.cika	pelisaicika	little 'shield'; small/dear 'shield'	noun	pelisai	shield	diminutive	pelisai+ci+ka
+SOC-104.goka	pelisaigoka	big 'shield'; great 'shield'	noun	pelisai	shield	augmentative	pelisai+go+ka
+SOC-104.deka	pelisaideka	place of/for 'shield'	noun	pelisai	shield	place	pelisai+de+ka
+SOC-105.ka	senapanka	gun / firearm	noun	senapan	gun / firearm	noun	senapan+ka
+SOC-105.pe	senapanpe	of/like 'gun / firearm'; 'gun / firearm'-related	modifier	senapan	gun / firearm	modifier	senapan+pe
+SOC-105.to	senapanto	to use/apply 'gun / firearm'; to act as 'gun / firearm'	verb	senapan	gun / firearm	verb	senapan+to
+SOC-105.cika	senapancika	little 'gun / firearm'; small/dear 'gun / firearm'	noun	senapan	gun / firearm	diminutive	senapan+ci+ka
+SOC-105.goka	senapangoka	big 'gun / firearm'; great 'gun / firearm'	noun	senapan	gun / firearm	augmentative	senapan+go+ka
+SOC-105.deka	senapandeka	place of/for 'gun / firearm'	noun	senapan	gun / firearm	place	senapan+de+ka
+SOC-106.ka	meliaka	cannon	noun	melia	cannon	noun	melia+ka
+SOC-106.pe	meliape	of/like 'cannon'; 'cannon'-related	modifier	melia	cannon	modifier	melia+pe
+SOC-106.to	meliato	to use/apply 'cannon'; to act as 'cannon'	verb	melia	cannon	verb	melia+to
+SOC-106.cika	meliacika	little 'cannon'; small/dear 'cannon'	noun	melia	cannon	diminutive	melia+ci+ka
+SOC-106.goka	meliagoka	big 'cannon'; great 'cannon'	noun	melia	cannon	augmentative	melia+go+ka
+SOC-106.deka	meliadeka	place of/for 'cannon'	noun	melia	cannon	place	melia+de+ka
+SOC-107.ka	lunguka	club / mace (weapon)	noun	lungu	club / mace (weapon)	noun	lungu+ka
+SOC-107.pe	lungupe	of/like 'club / mace (weapon)'; 'club / mace (weapon)'-related	modifier	lungu	club / mace (weapon)	modifier	lungu+pe
+SOC-107.to	lunguto	to use/apply 'club / mace (weapon)'; to act as 'club / mace (weapon)'	verb	lungu	club / mace (weapon)	verb	lungu+to
+SOC-107.cika	lungucika	little 'club / mace (weapon)'; small/dear 'club / mace (weapon)'	noun	lungu	club / mace (weapon)	diminutive	lungu+ci+ka
+SOC-107.goka	lungugoka	big 'club / mace (weapon)'; great 'club / mace (weapon)'	noun	lungu	club / mace (weapon)	augmentative	lungu+go+ka
+SOC-107.deka	lungudeka	place of/for 'club / mace (weapon)'	noun	lungu	club / mace (weapon)	place	lungu+de+ka
+SOC-108.to	ibadato	to 'worship (v)'	verb	ibada	worship (v)	verb	ibada+to
+SOC-108.ka	ibadaka	act of 'worship (v)'; a 'worship (v)'	noun	ibada	worship (v)	noun	ibada+ka
+SOC-108.pe	ibadape	'worship (v)'-ing	modifier	ibada	worship (v)	modifier	ibada+pe
+SOC-108.kika	ibadakika	one who 'worship (v)'s; 'worship (v)'-er	noun	ibada	worship (v)	agent	ibada+ki+ka
+SOC-108.tuka	ibadatuka	tool/means for 'worship (v)'	noun	ibada	worship (v)	instrument	ibada+tu+ka
+SOC-108.boka	ibadaboka	thing 'worship (v)'-ed; result of 'worship (v)'	noun	ibada	worship (v)	patient/result	ibada+bo+ka
+SOC-108.deka	ibadadeka	place for 'worship (v)'	noun	ibada	worship (v)	place	ibada+de+ka
+SOC-108.tato	ibadatato	to make/cause to 'worship (v)'	verb	ibada	worship (v)	causative	ibada+ta+to
+SOC-108.pito	ibadapito	to begin to 'worship (v)'	verb	ibada	worship (v)	inchoative	ibada+pi+to
+SOC-108.takika	ibadatakika	one who makes/causes 'worship (v)'; instigator of 'worship (v)'	noun	ibada	worship (v)	causative-agent	ibada+ta+ki+ka
+SOC-108.taboka	ibadataboka	what is brought about by 'worship (v)'	noun	ibada	worship (v)	causative-result	ibada+ta+bo+ka
+SOC-108.kideka	ibadakideka	place of the one who 'worship (v)'s	noun	ibada	worship (v)	agent-place	ibada+ki+de+ka
+SOC-109.to	omato	to 'pray'	verb	oma	pray	verb	oma+to
+SOC-109.ka	omaka	act of 'pray'; a 'pray'	noun	oma	pray	noun	oma+ka
+SOC-109.pe	omape	'pray'-ing	modifier	oma	pray	modifier	oma+pe
+SOC-109.kika	omakika	one who 'pray's; 'pray'-er	noun	oma	pray	agent	oma+ki+ka
+SOC-109.tuka	omatuka	tool/means for 'pray'	noun	oma	pray	instrument	oma+tu+ka
+SOC-109.boka	omaboka	thing 'pray'-ed; result of 'pray'	noun	oma	pray	patient/result	oma+bo+ka
+SOC-109.deka	omadeka	place for 'pray'	noun	oma	pray	place	oma+de+ka
+SOC-109.tato	omatato	to make/cause to 'pray'	verb	oma	pray	causative	oma+ta+to
+SOC-109.pito	omapito	to begin to 'pray'	verb	oma	pray	inchoative	oma+pi+to
+SOC-109.takika	omatakika	one who makes/causes 'pray'; instigator of 'pray'	noun	oma	pray	causative-agent	oma+ta+ki+ka
+SOC-109.taboka	omataboka	what is brought about by 'pray'	noun	oma	pray	causative-result	oma+ta+bo+ka
+SOC-109.kideka	omakideka	place of the one who 'pray's	noun	oma	pray	agent-place	oma+ki+de+ka
+SOC-110.pe	mukadape	sacred / holy	modifier	mukada	sacred / holy	modifier	mukada+pe
+SOC-110.ka	mukadaka	'sacred / holy'-ness; the quality 'sacred / holy'	noun	mukada	sacred / holy	noun	mukada+ka
+SOC-110.paka	mukadapaka	'sacred / holy'-ness; state of being 'sacred / holy'	noun	mukada	sacred / holy	quality	mukada+pa+ka
+SOC-110.kupe	mukadakupe	opposite of 'sacred / holy'; un-'sacred / holy'	modifier	mukada	sacred / holy	opposite	mukada+ku+pe
+SOC-110.tato	mukadatato	to make 'sacred / holy'	verb	mukada	sacred / holy	causative	mukada+ta+to
+SOC-110.pito	mukadapito	to become 'sacred / holy'	verb	mukada	sacred / holy	inchoative	mukada+pi+to
+SOC-110.gope	mukadagope	very 'sacred / holy'; intensely 'sacred / holy'	modifier	mukada	sacred / holy	augmentative	mukada+go+pe
+SOC-110.cipe	mukadacipe	'sacred / holy'-ish; somewhat 'sacred / holy'	modifier	mukada	sacred / holy	diminutive	mukada+ci+pe
+SOC-110.kupaka	mukadakupaka	un-'sacred / holy'-ness; the quality of being not 'sacred / holy'	noun	mukada	sacred / holy	opposite-quality	mukada+ku+pa+ka
+SOC-110.takika	mukadatakika	one who makes things 'sacred / holy'	noun	mukada	sacred / holy	causative-agent	mukada+ta+ki+ka
+SOC-111.ka	lohoka	soul / spirit	noun	loho	soul / spirit	noun	loho+ka
+SOC-111.pe	lohope	of/like 'soul / spirit'; 'soul / spirit'-related	modifier	loho	soul / spirit	modifier	loho+pe
+SOC-111.to	lohoto	to use/apply 'soul / spirit'; to act as 'soul / spirit'	verb	loho	soul / spirit	verb	loho+to
+SOC-111.cika	lohocika	little 'soul / spirit'; small/dear 'soul / spirit'	noun	loho	soul / spirit	diminutive	loho+ci+ka
+SOC-111.goka	lohogoka	big 'soul / spirit'; great 'soul / spirit'	noun	loho	soul / spirit	augmentative	loho+go+ka
+SOC-111.deka	lohodeka	place of/for 'soul / spirit'	noun	loho	soul / spirit	place	loho+de+ka
+SOC-112.ka	sulaka	heaven / paradise	noun	sula	heaven / paradise	noun	sula+ka
+SOC-112.pe	sulape	of/like 'heaven / paradise'; 'heaven / paradise'-related	modifier	sula	heaven / paradise	modifier	sula+pe
+SOC-112.to	sulato	to use/apply 'heaven / paradise'; to act as 'heaven / paradise'	verb	sula	heaven / paradise	verb	sula+to
+SOC-112.cika	sulacika	little 'heaven / paradise'; small/dear 'heaven / paradise'	noun	sula	heaven / paradise	diminutive	sula+ci+ka
+SOC-112.goka	sulagoka	big 'heaven / paradise'; great 'heaven / paradise'	noun	sula	heaven / paradise	augmentative	sula+go+ka
+SOC-112.deka	suladeka	place of/for 'heaven / paradise'	noun	sula	heaven / paradise	place	sula+de+ka
+SOC-113.ka	dosaka	sin	noun	dosa	sin	noun	dosa+ka
+SOC-113.pe	dosape	of/like 'sin'; 'sin'-related	modifier	dosa	sin	modifier	dosa+pe
+SOC-113.to	dosato	to use/apply 'sin'; to act as 'sin'	verb	dosa	sin	verb	dosa+to
+SOC-113.cika	dosacika	little 'sin'; small/dear 'sin'	noun	dosa	sin	diminutive	dosa+ci+ka
+SOC-113.goka	dosagoka	big 'sin'; great 'sin'	noun	dosa	sin	augmentative	dosa+go+ka
+SOC-113.deka	dosadeka	place of/for 'sin'	noun	dosa	sin	place	dosa+de+ka
+SOC-114.ka	kolanka	sacrifice / offering	noun	kolan	sacrifice / offering	noun	kolan+ka
+SOC-114.pe	kolanpe	of/like 'sacrifice / offering'; 'sacrifice / offering'-related	modifier	kolan	sacrifice / offering	modifier	kolan+pe
+SOC-114.to	kolanto	to use/apply 'sacrifice / offering'; to act as 'sacrifice / offering'	verb	kolan	sacrifice / offering	verb	kolan+to
+SOC-114.cika	kolancika	little 'sacrifice / offering'; small/dear 'sacrifice / offering'	noun	kolan	sacrifice / offering	diminutive	kolan+ci+ka
+SOC-114.goka	kolangoka	big 'sacrifice / offering'; great 'sacrifice / offering'	noun	kolan	sacrifice / offering	augmentative	kolan+go+ka
+SOC-114.deka	kolandeka	place of/for 'sacrifice / offering'	noun	kolan	sacrifice / offering	place	kolan+de+ka
+SOC-115.to	balakato	to 'bless'	verb	balaka	bless	verb	balaka+to
+SOC-115.pe	balakape	'bless'-ing	modifier	balaka	bless	modifier	balaka+pe
+SOC-115.kika	balakakika	one who 'bless's; 'bless'-er	noun	balaka	bless	agent	balaka+ki+ka
+SOC-115.tuka	balakatuka	tool/means for 'bless'	noun	balaka	bless	instrument	balaka+tu+ka
+SOC-115.boka	balakaboka	thing 'bless'-ed; result of 'bless'	noun	balaka	bless	patient/result	balaka+bo+ka
+SOC-115.deka	balakadeka	place for 'bless'	noun	balaka	bless	place	balaka+de+ka
+SOC-115.tato	balakatato	to make/cause to 'bless'	verb	balaka	bless	causative	balaka+ta+to
+SOC-115.pito	balakapito	to begin to 'bless'	verb	balaka	bless	inchoative	balaka+pi+to
+SOC-115.takika	balakatakika	one who makes/causes 'bless'; instigator of 'bless'	noun	balaka	bless	causative-agent	balaka+ta+ki+ka
+SOC-115.taboka	balakataboka	what is brought about by 'bless'	noun	balaka	bless	causative-result	balaka+ta+bo+ka
+SOC-115.kideka	balakakideka	place of the one who 'bless's	noun	balaka	bless	agent-place	balaka+ki+de+ka
+SOC-116.to	lanato	to 'curse (v)'	verb	lana	curse (v)	verb	lana+to
+SOC-116.ka	lanaka	act of 'curse (v)'; a 'curse (v)'	noun	lana	curse (v)	noun	lana+ka
+SOC-116.pe	lanape	'curse (v)'-ing	modifier	lana	curse (v)	modifier	lana+pe
+SOC-116.kika	lanakika	one who 'curse (v)'s; 'curse (v)'-er	noun	lana	curse (v)	agent	lana+ki+ka
+SOC-116.tuka	lanatuka	tool/means for 'curse (v)'	noun	lana	curse (v)	instrument	lana+tu+ka
+SOC-116.boka	lanaboka	thing 'curse (v)'-ed; result of 'curse (v)'	noun	lana	curse (v)	patient/result	lana+bo+ka
+SOC-116.deka	lanadeka	place for 'curse (v)'	noun	lana	curse (v)	place	lana+de+ka
+SOC-116.tato	lanatato	to make/cause to 'curse (v)'	verb	lana	curse (v)	causative	lana+ta+to
+SOC-116.pito	lanapito	to begin to 'curse (v)'	verb	lana	curse (v)	inchoative	lana+pi+to
+SOC-116.takika	lanatakika	one who makes/causes 'curse (v)'; instigator of 'curse (v)'	noun	lana	curse (v)	causative-agent	lana+ta+ki+ka
+SOC-116.taboka	lanataboka	what is brought about by 'curse (v)'	noun	lana	curse (v)	causative-result	lana+ta+bo+ka
+SOC-116.kideka	lanakideka	place of the one who 'curse (v)'s	noun	lana	curse (v)	agent-place	lana+ki+de+ka
+SOC-117.ka	saitanka	demon / evil spirit	noun	saitan	demon / evil spirit	noun	saitan+ka
+SOC-117.pe	saitanpe	of/like 'demon / evil spirit'; 'demon / evil spirit'-related	modifier	saitan	demon / evil spirit	modifier	saitan+pe
+SOC-117.to	saitanto	to use/apply 'demon / evil spirit'; to act as 'demon / evil spirit'	verb	saitan	demon / evil spirit	verb	saitan+to
+SOC-117.cika	saitancika	little 'demon / evil spirit'; small/dear 'demon / evil spirit'	noun	saitan	demon / evil spirit	diminutive	saitan+ci+ka
+SOC-117.goka	saitangoka	big 'demon / evil spirit'; great 'demon / evil spirit'	noun	saitan	demon / evil spirit	augmentative	saitan+go+ka
+SOC-117.deka	saitandeka	place of/for 'demon / evil spirit'	noun	saitan	demon / evil spirit	place	saitan+de+ka
+SOC-118.ka	munguka	deity / god	noun	mungu	deity / god	noun	mungu+ka
+SOC-118.pe	mungupe	of/like 'deity / god'; 'deity / god'-related	modifier	mungu	deity / god	modifier	mungu+pe
+SOC-118.to	munguto	to use/apply 'deity / god'; to act as 'deity / god'	verb	mungu	deity / god	verb	mungu+to
+SOC-118.cika	mungucika	little 'deity / god'; small/dear 'deity / god'	noun	mungu	deity / god	diminutive	mungu+ci+ka
+SOC-118.goka	mungugoka	big 'deity / god'; great 'deity / god'	noun	mungu	deity / god	augmentative	mungu+go+ka
+SOC-118.deka	mungudeka	place of/for 'deity / god'	noun	mungu	deity / god	place	mungu+de+ka
+FOO-074.ka	pomeka	beer / brew	noun	pome	beer / brew	noun	pome+ka
+FOO-074.pe	pomepe	of/like 'beer / brew'; 'beer / brew'-related	modifier	pome	beer / brew	modifier	pome+pe
+FOO-074.to	pometo	to use/apply 'beer / brew'; to act as 'beer / brew'	verb	pome	beer / brew	verb	pome+to
+FOO-074.cika	pomecika	little 'beer / brew'; small/dear 'beer / brew'	noun	pome	beer / brew	diminutive	pome+ci+ka
+FOO-074.goka	pomegoka	big 'beer / brew'; great 'beer / brew'	noun	pome	beer / brew	augmentative	pome+go+ka
+FOO-074.deka	pomedeka	place of/for 'beer / brew'	noun	pome	beer / brew	place	pome+de+ka
+FOO-075.pe	angupe	of/like 'wine'; 'wine'-related	modifier	angu	wine	modifier	angu+pe
+FOO-075.to	anguto	to use/apply 'wine'; to act as 'wine'	verb	angu	wine	verb	angu+to
+FOO-075.cika	angucika	little 'wine'; small/dear 'wine'	noun	angu	wine	diminutive	angu+ci+ka
+FOO-075.goka	angugoka	big 'wine'; great 'wine'	noun	angu	wine	augmentative	angu+go+ka
+FOO-075.deka	angudeka	place of/for 'wine'	noun	angu	wine	place	angu+de+ka
+FOO-076.ka	mafutaka	cooking oil	noun	mafuta	cooking oil	noun	mafuta+ka
+FOO-076.pe	mafutape	of/like 'cooking oil'; 'cooking oil'-related	modifier	mafuta	cooking oil	modifier	mafuta+pe
+FOO-076.to	mafutato	to use/apply 'cooking oil'; to act as 'cooking oil'	verb	mafuta	cooking oil	verb	mafuta+to
+FOO-076.cika	mafutacika	little 'cooking oil'; small/dear 'cooking oil'	noun	mafuta	cooking oil	diminutive	mafuta+ci+ka
+FOO-076.goka	mafutagoka	big 'cooking oil'; great 'cooking oil'	noun	mafuta	cooking oil	augmentative	mafuta+go+ka
+FOO-076.deka	mafutadeka	place of/for 'cooking oil'	noun	mafuta	cooking oil	place	mafuta+de+ka
+FOO-077.ka	bubuka	porridge	noun	bubu	porridge	noun	bubu+ka
+FOO-077.pe	bubupe	of/like 'porridge'; 'porridge'-related	modifier	bubu	porridge	modifier	bubu+pe
+FOO-077.to	bubuto	to use/apply 'porridge'; to act as 'porridge'	verb	bubu	porridge	verb	bubu+to
+FOO-077.cika	bubucika	little 'porridge'; small/dear 'porridge'	noun	bubu	porridge	diminutive	bubu+ci+ka
+FOO-077.goka	bubugoka	big 'porridge'; great 'porridge'	noun	bubu	porridge	augmentative	bubu+go+ka
+FOO-077.deka	bubudeka	place of/for 'porridge'	noun	bubu	porridge	place	bubu+de+ka
+PROP-108.pe	telananpe	naked / bare	modifier	telanan	naked / bare	modifier	telanan+pe
+PROP-108.ka	telananka	'naked / bare'-ness; the quality 'naked / bare'	noun	telanan	naked / bare	noun	telanan+ka
+PROP-108.paka	telananpaka	'naked / bare'-ness; state of being 'naked / bare'	noun	telanan	naked / bare	quality	telanan+pa+ka
+PROP-108.kupe	telanankupe	opposite of 'naked / bare'; un-'naked / bare'	modifier	telanan	naked / bare	opposite	telanan+ku+pe
+PROP-108.tato	telanantato	to make 'naked / bare'	verb	telanan	naked / bare	causative	telanan+ta+to
+PROP-108.pito	telananpito	to become 'naked / bare'	verb	telanan	naked / bare	inchoative	telanan+pi+to
+PROP-108.gope	telanangope	very 'naked / bare'; intensely 'naked / bare'	modifier	telanan	naked / bare	augmentative	telanan+go+pe
+PROP-108.cipe	telanancipe	'naked / bare'-ish; somewhat 'naked / bare'	modifier	telanan	naked / bare	diminutive	telanan+ci+pe
+PROP-108.kupaka	telanankupaka	un-'naked / bare'-ness; the quality of being not 'naked / bare'	noun	telanan	naked / bare	opposite-quality	telanan+ku+pa+ka
+PROP-108.takika	telanantakika	one who makes things 'naked / bare'	noun	telanan	naked / bare	causative-agent	telanan+ta+ki+ka
+PROP-109.pe	bisupe	mute / dumb	modifier	bisu	mute / dumb	modifier	bisu+pe
+PROP-109.ka	bisuka	'mute / dumb'-ness; the quality 'mute / dumb'	noun	bisu	mute / dumb	noun	bisu+ka
+PROP-109.paka	bisupaka	'mute / dumb'-ness; state of being 'mute / dumb'	noun	bisu	mute / dumb	quality	bisu+pa+ka
+PROP-109.kupe	bisukupe	opposite of 'mute / dumb'; un-'mute / dumb'	modifier	bisu	mute / dumb	opposite	bisu+ku+pe
+PROP-109.tato	bisutato	to make 'mute / dumb'	verb	bisu	mute / dumb	causative	bisu+ta+to
+PROP-109.pito	bisupito	to become 'mute / dumb'	verb	bisu	mute / dumb	inchoative	bisu+pi+to
+PROP-109.gope	bisugope	very 'mute / dumb'; intensely 'mute / dumb'	modifier	bisu	mute / dumb	augmentative	bisu+go+pe
+PROP-109.cipe	bisucipe	'mute / dumb'-ish; somewhat 'mute / dumb'	modifier	bisu	mute / dumb	diminutive	bisu+ci+pe
+PROP-109.kupaka	bisukupaka	un-'mute / dumb'-ness; the quality of being not 'mute / dumb'	noun	bisu	mute / dumb	opposite-quality	bisu+ku+pa+ka
+PROP-109.takika	bisutakika	one who makes things 'mute / dumb'	noun	bisu	mute / dumb	causative-agent	bisu+ta+ki+ka
+PROP-110.pe	alasipe	lazy	modifier	alasi	lazy	modifier	alasi+pe
+PROP-110.ka	alasika	'lazy'-ness; the quality 'lazy'	noun	alasi	lazy	noun	alasi+ka
+PROP-110.paka	alasipaka	'lazy'-ness; state of being 'lazy'	noun	alasi	lazy	quality	alasi+pa+ka
+PROP-110.kupe	alasikupe	opposite of 'lazy'; un-'lazy'	modifier	alasi	lazy	opposite	alasi+ku+pe
+PROP-110.tato	alasitato	to make 'lazy'	verb	alasi	lazy	causative	alasi+ta+to
+PROP-110.pito	alasipito	to become 'lazy'	verb	alasi	lazy	inchoative	alasi+pi+to
+PROP-110.gope	alasigope	very 'lazy'; intensely 'lazy'	modifier	alasi	lazy	augmentative	alasi+go+pe
+PROP-110.cipe	alasicipe	'lazy'-ish; somewhat 'lazy'	modifier	alasi	lazy	diminutive	alasi+ci+pe
+PROP-110.kupaka	alasikupaka	un-'lazy'-ness; the quality of being not 'lazy'	noun	alasi	lazy	opposite-quality	alasi+ku+pa+ka
+PROP-110.takika	alasitakika	one who makes things 'lazy'	noun	alasi	lazy	causative-agent	alasi+ta+ki+ka
+PROP-111.pe	masinpe	salty	modifier	masin	salty	modifier	masin+pe
+PROP-111.ka	masinka	'salty'-ness; the quality 'salty'	noun	masin	salty	noun	masin+ka
+PROP-111.paka	masinpaka	'salty'-ness; state of being 'salty'	noun	masin	salty	quality	masin+pa+ka
+PROP-111.kupe	masinkupe	opposite of 'salty'; un-'salty'	modifier	masin	salty	opposite	masin+ku+pe
+PROP-111.tato	masintato	to make 'salty'	verb	masin	salty	causative	masin+ta+to
+PROP-111.pito	masinpito	to become 'salty'	verb	masin	salty	inchoative	masin+pi+to
+PROP-111.gope	masingope	very 'salty'; intensely 'salty'	modifier	masin	salty	augmentative	masin+go+pe
+PROP-111.cipe	masincipe	'salty'-ish; somewhat 'salty'	modifier	masin	salty	diminutive	masin+ci+pe
+PROP-111.kupaka	masinkupaka	un-'salty'-ness; the quality of being not 'salty'	noun	masin	salty	opposite-quality	masin+ku+pa+ka
+PROP-111.takika	masintakika	one who makes things 'salty'	noun	masin	salty	causative-agent	masin+ta+ki+ka
+PROP-112.pe	kesape	rough / coarse	modifier	kesa	rough / coarse	modifier	kesa+pe
+PROP-112.ka	kesaka	'rough / coarse'-ness; the quality 'rough / coarse'	noun	kesa	rough / coarse	noun	kesa+ka
+PROP-112.paka	kesapaka	'rough / coarse'-ness; state of being 'rough / coarse'	noun	kesa	rough / coarse	quality	kesa+pa+ka
+PROP-112.kupe	kesakupe	opposite of 'rough / coarse'; un-'rough / coarse'	modifier	kesa	rough / coarse	opposite	kesa+ku+pe
+PROP-112.tato	kesatato	to make 'rough / coarse'	verb	kesa	rough / coarse	causative	kesa+ta+to
+PROP-112.pito	kesapito	to become 'rough / coarse'	verb	kesa	rough / coarse	inchoative	kesa+pi+to
+PROP-112.gope	kesagope	very 'rough / coarse'; intensely 'rough / coarse'	modifier	kesa	rough / coarse	augmentative	kesa+go+pe
+PROP-112.cipe	kesacipe	'rough / coarse'-ish; somewhat 'rough / coarse'	modifier	kesa	rough / coarse	diminutive	kesa+ci+pe
+PROP-112.kupaka	kesakupaka	un-'rough / coarse'-ness; the quality of being not 'rough / coarse'	noun	kesa	rough / coarse	opposite-quality	kesa+ku+pa+ka
+PROP-112.takika	kesatakika	one who makes things 'rough / coarse'	noun	kesa	rough / coarse	causative-agent	kesa+ta+ki+ka
+PROP-113.pe	tingipe	tall / high	modifier	tingi	tall / high	modifier	tingi+pe
+PROP-113.ka	tingika	'tall / high'-ness; the quality 'tall / high'	noun	tingi	tall / high	noun	tingi+ka
+PROP-113.paka	tingipaka	'tall / high'-ness; state of being 'tall / high'	noun	tingi	tall / high	quality	tingi+pa+ka
+PROP-113.kupe	tingikupe	opposite of 'tall / high'; un-'tall / high'	modifier	tingi	tall / high	opposite	tingi+ku+pe
+PROP-113.tato	tingitato	to make 'tall / high'	verb	tingi	tall / high	causative	tingi+ta+to
+PROP-113.pito	tingipito	to become 'tall / high'	verb	tingi	tall / high	inchoative	tingi+pi+to
+PROP-113.gope	tingigope	very 'tall / high'; intensely 'tall / high'	modifier	tingi	tall / high	augmentative	tingi+go+pe
+PROP-113.cipe	tingicipe	'tall / high'-ish; somewhat 'tall / high'	modifier	tingi	tall / high	diminutive	tingi+ci+pe
+PROP-113.kupaka	tingikupaka	un-'tall / high'-ness; the quality of being not 'tall / high'	noun	tingi	tall / high	opposite-quality	tingi+ku+pa+ka
+PROP-113.takika	tingitakika	one who makes things 'tall / high'	noun	tingi	tall / high	causative-agent	tingi+ta+ki+ka
+PROP-114.pe	cetepe	shallow	modifier	cete	shallow	modifier	cete+pe
+PROP-114.ka	ceteka	'shallow'-ness; the quality 'shallow'	noun	cete	shallow	noun	cete+ka
+PROP-114.paka	cetepaka	'shallow'-ness; state of being 'shallow'	noun	cete	shallow	quality	cete+pa+ka
+PROP-114.kupe	cetekupe	opposite of 'shallow'; un-'shallow'	modifier	cete	shallow	opposite	cete+ku+pe
+PROP-114.tato	cetetato	to make 'shallow'	verb	cete	shallow	causative	cete+ta+to
+PROP-114.pito	cetepito	to become 'shallow'	verb	cete	shallow	inchoative	cete+pi+to
+PROP-114.gope	cetegope	very 'shallow'; intensely 'shallow'	modifier	cete	shallow	augmentative	cete+go+pe
+PROP-114.cipe	cetecipe	'shallow'-ish; somewhat 'shallow'	modifier	cete	shallow	diminutive	cete+ci+pe
+PROP-114.kupaka	cetekupaka	un-'shallow'-ness; the quality of being not 'shallow'	noun	cete	shallow	opposite-quality	cete+ku+pa+ka
+PROP-114.takika	cetetakika	one who makes things 'shallow'	noun	cete	shallow	causative-agent	cete+ta+ki+ka
+BOD-081.ka	usahaka	pus	noun	usaha	pus	noun	usaha+ka
+BOD-081.pe	usahape	of/like 'pus'; 'pus'-related	modifier	usaha	pus	modifier	usaha+pe
+BOD-081.to	usahato	to use/apply 'pus'; to act as 'pus'	verb	usaha	pus	verb	usaha+to
+BOD-081.cika	usahacika	little 'pus'; small/dear 'pus'	noun	usaha	pus	diminutive	usaha+ci+ka
+BOD-081.goka	usahagoka	big 'pus'; great 'pus'	noun	usaha	pus	augmentative	usaha+go+ka
+BOD-081.deka	usahadeka	place of/for 'pus'	noun	usaha	pus	place	usaha+de+ka
+BOD-082.ka	alipuka	act of 'itch (v)'; a 'itch (v)'	noun	alipu	itch (v)	noun	alipu+ka
+BOD-082.pe	alipupe	'itch (v)'-ing	modifier	alipu	itch (v)	modifier	alipu+pe
+BOD-082.tuka	aliputuka	tool/means for 'itch (v)'	noun	alipu	itch (v)	instrument	alipu+tu+ka
+BOD-082.boka	alipuboka	thing 'itch (v)'-ed; result of 'itch (v)'	noun	alipu	itch (v)	patient/result	alipu+bo+ka
+BOD-082.deka	alipudeka	place for 'itch (v)'	noun	alipu	itch (v)	place	alipu+de+ka
+BOD-082.pito	alipupito	to begin to 'itch (v)'	verb	alipu	itch (v)	inchoative	alipu+pi+to
+SPE-056.to	siuto	to 'whistle (v)'	verb	siu	whistle (v)	verb	siu+to
+SPE-056.ka	siuka	act of 'whistle (v)'; a 'whistle (v)'	noun	siu	whistle (v)	noun	siu+ka
+SPE-056.pe	siupe	'whistle (v)'-ing	modifier	siu	whistle (v)	modifier	siu+pe
+SPE-056.kika	siukika	one who 'whistle (v)'s; 'whistle (v)'-er	noun	siu	whistle (v)	agent	siu+ki+ka
+SPE-056.tuka	siutuka	tool/means for 'whistle (v)'	noun	siu	whistle (v)	instrument	siu+tu+ka
+SPE-056.boka	siuboka	thing 'whistle (v)'-ed; result of 'whistle (v)'	noun	siu	whistle (v)	patient/result	siu+bo+ka
+SPE-056.deka	siudeka	place for 'whistle (v)'	noun	siu	whistle (v)	place	siu+de+ka
+SPE-056.tato	siutato	to make/cause to 'whistle (v)'	verb	siu	whistle (v)	causative	siu+ta+to
+SPE-056.pito	siupito	to begin to 'whistle (v)'	verb	siu	whistle (v)	inchoative	siu+pi+to
+SPE-056.takika	siutakika	one who makes/causes 'whistle (v)'; instigator of 'whistle (v)'	noun	siu	whistle (v)	causative-agent	siu+ta+ki+ka
+SPE-056.taboka	siutaboka	what is brought about by 'whistle (v)'	noun	siu	whistle (v)	causative-result	siu+ta+bo+ka
+SPE-056.kideka	siukideka	place of the one who 'whistle (v)'s	noun	siu	whistle (v)	agent-place	siu+ki+de+ka
+SPE-057.to	bisito	to 'whisper (v)'	verb	bisi	whisper (v)	verb	bisi+to
+SPE-057.ka	bisika	act of 'whisper (v)'; a 'whisper (v)'	noun	bisi	whisper (v)	noun	bisi+ka
+SPE-057.pe	bisipe	'whisper (v)'-ing	modifier	bisi	whisper (v)	modifier	bisi+pe
+SPE-057.kika	bisikika	one who 'whisper (v)'s; 'whisper (v)'-er	noun	bisi	whisper (v)	agent	bisi+ki+ka
+SPE-057.tuka	bisituka	tool/means for 'whisper (v)'	noun	bisi	whisper (v)	instrument	bisi+tu+ka
+SPE-057.boka	bisiboka	thing 'whisper (v)'-ed; result of 'whisper (v)'	noun	bisi	whisper (v)	patient/result	bisi+bo+ka
+SPE-057.deka	bisideka	place for 'whisper (v)'	noun	bisi	whisper (v)	place	bisi+de+ka
+SPE-057.tato	bisitato	to make/cause to 'whisper (v)'	verb	bisi	whisper (v)	causative	bisi+ta+to
+SPE-057.pito	bisipito	to begin to 'whisper (v)'	verb	bisi	whisper (v)	inchoative	bisi+pi+to
+SPE-057.takika	bisitakika	one who makes/causes 'whisper (v)'; instigator of 'whisper (v)'	noun	bisi	whisper (v)	causative-agent	bisi+ta+ki+ka
+SPE-057.taboka	bisitaboka	what is brought about by 'whisper (v)'	noun	bisi	whisper (v)	causative-result	bisi+ta+bo+ka
+SPE-057.kideka	bisikideka	place of the one who 'whisper (v)'s	noun	bisi	whisper (v)	agent-place	bisi+ki+de+ka
+SPE-058.to	teliato	to 'shout / yell'	verb	telia	shout / yell	verb	telia+to
+SPE-058.ka	teliaka	act of 'shout / yell'; a 'shout / yell'	noun	telia	shout / yell	noun	telia+ka
+SPE-058.pe	teliape	'shout / yell'-ing	modifier	telia	shout / yell	modifier	telia+pe
+SPE-058.kika	teliakika	one who 'shout / yell's; 'shout / yell'-er	noun	telia	shout / yell	agent	telia+ki+ka
+SPE-058.tuka	teliatuka	tool/means for 'shout / yell'	noun	telia	shout / yell	instrument	telia+tu+ka
+SPE-058.boka	teliaboka	thing 'shout / yell'-ed; result of 'shout / yell'	noun	telia	shout / yell	patient/result	telia+bo+ka
+SPE-058.deka	teliadeka	place for 'shout / yell'	noun	telia	shout / yell	place	telia+de+ka
+SPE-058.tato	teliatato	to make/cause to 'shout / yell'	verb	telia	shout / yell	causative	telia+ta+to
+SPE-058.pito	teliapito	to begin to 'shout / yell'	verb	telia	shout / yell	inchoative	telia+pi+to
+SPE-058.takika	teliatakika	one who makes/causes 'shout / yell'; instigator of 'shout / yell'	noun	telia	shout / yell	causative-agent	telia+ta+ki+ka
+SPE-058.taboka	teliataboka	what is brought about by 'shout / yell'	noun	telia	shout / yell	causative-result	telia+ta+bo+ka
+SPE-058.kideka	teliakideka	place of the one who 'shout / yell's	noun	telia	shout / yell	agent-place	telia+ki+de+ka
