@@ -52,6 +52,8 @@ export const FUNCTION_GLOSS: Readonly<Record<string, string>> = {
   ke: "Q", i: "and", o: "or", ce: "that", ya: "COP",
   // voice particle (0014): passive
   kena: "PASS",
+  // relational time-words used bare (anteriority, 0014 §4)
+  mae: "before", ato: "after",
 };
 
 /** The badge a content token wears → its interlinear category tag. */

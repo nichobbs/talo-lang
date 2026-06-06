@@ -20,12 +20,13 @@ register is saturated with agent-demoting passives ("were ordered", "is given",
 impersonal agent is verbose and often distorts focus.
 
 **Decision.** Add a clause-level **passive particle `kena`**, placed before the
-verb; the patient is the subject; the agent, if expressed, takes the instrument
-marker `wa`:
+verb; the patient is the subject; the agent, if expressed, is a postposed phrase
+in the instrument marker `wa` (role markers are postpositions — the agent noun
+comes *before* `wa`, not after):
 
 ```
-pangai     kena donato      (wa NASA-ka)
-order-N    PASS give-V      (by NASA)
+pangaika   kena donato      (NASA-ka wa)
+order-N    PASS give-V      (NASA-by)
 "the order is given (by NASA)"
 ```
 

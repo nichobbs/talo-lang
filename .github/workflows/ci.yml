@@ -44,6 +44,9 @@ jobs:
       - name: Run tests
         working-directory: tools/collision-checker
         run: npm test
+      - name: Collision gate over the live lexicon (homophone / near-homophone /
+          reserved / obscenity / false-friend)
+        run: node --experimental-strip-types tools/collision-checker/src/cli.ts --lexicon data/lexicon.tsv
 
   # The morphological linter is the THIRD word-level gate (docs/0002 §3.1): it
   # validates the compounding buffer rule + morpheme seams, and gates the
@@ -269,12 +272,33 @@ jobs:
         working-directory: web
         run: npm run build
 
+  # Freshness gate: the committed GENERATED layers (derived lexicon, compounds,
+  # dictionary JSON) must match a clean regeneration from data/. Catches a
+  # lexicon/concepts/overrides edit committed without re-running the generators
+  # (the "re-derive from the committed file" hazard, CLAUDE.md). The hand-curated
+  # data/derived-overrides.tsv is an INPUT here, not regenerated.
+  data-freshness:
+    name: Generated data is up to date
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Regenerate derived layers + dictionary
+        run: |
+          node --experimental-strip-types scripts/derive-lexicon.mjs
+          node --experimental-strip-types scripts/derive-compounds.mjs
+          (cd dictionary && npm run build)
+      - name: Fail if the committed artifacts drifted
+        run: git diff --exit-code -- data/derived-lexicon.tsv data/compounds.tsv dictionary/dist/dictionary.json
+
   # Auto-merge a PR only when (a) the builds above passed AND (b) every changed
   # file is documentation. Code changes (anything outside docs / *.md / LICENSE)
   # are never auto-merged — they fall through to human review.
   auto-merge-docs:
     name: Auto-merge docs-only PRs
-    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, srs-tests, glosser-tests, coverage-tests, deprecation-tests, reading-coverage-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check]
+    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, srs-tests, glosser-tests, coverage-tests, deprecation-tests, reading-coverage-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check, data-freshness]
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.draft == false

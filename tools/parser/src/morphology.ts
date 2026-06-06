@@ -101,6 +101,8 @@ export const FUNCTION_WORDS = {
     "sababu", "sehinga", "walau", // because / so / although
     "leo", "keso", "yana", "inino", "masi", // today/tomorrow/yesterday/now/still (time-words)
     "toki",                         // then (at that time), 0005 §1
+    "mae", "ato",                   // before / after — relational time-words used bare
+                                    //   as adverbs/postpositions (anteriority, 0014 §4)
   ]),
 } as const;
 
