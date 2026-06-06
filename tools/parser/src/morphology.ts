@@ -96,6 +96,7 @@ export const FUNCTION_WORDS = {
     "kila", "cuku", "setenga", "hoka", // every/each/.../other (postposed determiners)
     "hi", "no",                   // yes / no answer
     "sana", "ti", "dake",         // very / also / only
+    "tai",                        // too / excessively (0017) — degree adverb, postposed
     "ma", "fi",                   // but / if
     "lagia", "mungi",             // again / maybe
     "sababu", "sehinga", "walau", // because / so / although
