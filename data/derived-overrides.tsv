@@ -93,3 +93,56 @@ SOC-014	diminutive	(suppress)
 SOC-066	diminutive	(suppress)
 SOC-015	diminutive	(suppress)
 SPE-011	diminutive	(suppress)
+
+# ---- place nouns (-de): "place for X" -> the real place ---------------------
+COG-004	place	school
+FOO-005	place	kitchen
+BOD-027	place	bedroom
+BOD-088	place	bathroom
+SOC-109	place	temple / place of worship
+POS-003	place	market / shop
+ACT-034	place	workplace
+ACT-035	place	playground
+FOO-041	place	bakery
+SOC-004	place	battlefield
+BOD-028	place	dining hall
+
+# ---- more agent nouns ------------------------------------------------------
+POS-003	agent	buyer
+COG-076	agent	student / scholar
+PER-001	agent	observer / spectator
+
+# ---- causative verbs (-ta): "cause to X" -> the real verb ------------------
+ACT-016	causative	drop / fell
+MOT-005	causative	raise / lift
+ACT-007	causative	seat
+BOD-028	causative	feed
+PER-001	causative	show
+COG-001	causative	inform / tell
+COG-006	causative	remind
+COG-004	causative	teach
+
+# ---- result / patient (-bo): "thing X-ed" -> the real word -----------------
+ACT-071	patient/result	building
+SPE-008	patient/result	writing / document
+ACT-009	patient/result	gift
+SPE-005	patient/result	question
+FOO-005	patient/result	dish / cooked food
+POS-003	patient/result	purchase / goods
+
+# ---- more quality nouns (irregular nominalisations) ------------------------
+PROP-016	quality	youth
+PROP-090	quality	age
+PROP-054	quality	death
+PROP-053	quality	life
+
+# ---- more young animals ----------------------------------------------------
+ANI-027	diminutive	kit / young rabbit
+
+# ---- instrument nouns (-tu): "tool for X" -> the real tool -----------------
+ACT-022	instrument	knife / cutter
+ACT-069	instrument	broom
+SPE-008	instrument	pen
+
+# ---- class suppression: a diminutive cognition noun ("tiny opinion") is odd -
+COG	diminutive	(suppress)
