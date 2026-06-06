@@ -52,13 +52,13 @@ test("generator is deterministic and grammatical", () => {
 });
 
 test("buildDeck = bank + generated, ids unique", () => {
-  const deck = buildDeck(bank, ctx);
+  const deck = buildDeck(bank, ctx, knownRoots);
   assert.ok(deck.length > bank.length);
   assert.equal(new Set(deck.map((e) => e.id)).size, deck.length);
 });
 
 test("buildDeck enriches each item with token tooltips + acceptable answers", () => {
-  const deck = buildDeck(bank, ctx);
+  const deck = buildDeck(bank, ctx, knownRoots);
   const ex = deck.find((e) => e.id === "EX-001")!;
   assert.ok(ex.tokens && ex.tokens.length === 3);                 // Gouka kanto nekoka.
   assert.equal(ex.tokens![0].gloss, "dog");
@@ -66,5 +66,12 @@ test("buildDeck enriches each item with token tooltips + acceptable answers", ()
   assert.ok(/^\/.*\/$/.test(ex.tokens![0].ipa));                  // IPA with slashes
   assert.ok(ex.accept && ex.accept.includes("dog see cat"));      // translator rendering accepted
   // every deck item is fully enriched
-  assert.ok(deck.every((e) => e.tokens!.length > 0 && e.accept!.length > 0));
+  assert.ok(deck.every((e) => e.tokens!.length > 0 && e.accept!.length > 0 && e.acceptTalo!.length > 0));
+});
+
+test("production: acceptTalo includes the reference AND valid same-meaning reorderings", () => {
+  const deck = buildDeck(bank, ctx, knownRoots);
+  const ex = deck.find((e) => e.id === "EX-001")!;               // "Gouka kanto nekoka." (SVO)
+  assert.ok(ex.acceptTalo!.includes("gouka kanto nekoka"));      // reference
+  assert.ok(ex.acceptTalo!.includes("gouka nekoka kanto"));      // SOV — also accepted
 });

@@ -30,6 +30,10 @@
     "accept": [
       "dog sees cat",
       "dog see cat"
+    ],
+    "acceptTalo": [
+      "gouka kanto nekoka",
+      "gouka nekoka kanto"
     ]
   },
   {
@@ -63,6 +67,10 @@
     "accept": [
       "child eats food",
       "child eat food"
+    ],
+    "acceptTalo": [
+      "totoka makanto cakulaka",
+      "totoka cakulaka makanto"
     ]
   },
   {
@@ -96,6 +104,10 @@
     "accept": [
       "man drinks water",
       "man drink water"
+    ],
+    "acceptTalo": [
+      "adamika pinato panika",
+      "adamika panika pinato"
     ]
   },
   {
@@ -128,6 +140,10 @@
     ],
     "accept": [
       "i see dog"
+    ],
+    "acceptTalo": [
+      "mi kanto gouka",
+      "mi gouka kanto"
     ]
   },
   {
@@ -161,6 +177,10 @@
     "accept": [
       "woman reads book",
       "woman read book"
+    ],
+    "acceptTalo": [
+      "wanitaka bacato honka",
+      "wanitaka honka bacato"
     ]
   },
   {
@@ -193,6 +213,9 @@
     ],
     "accept": [
       "child ate"
+    ],
+    "acceptTalo": [
+      "totoka makanto li"
     ]
   },
   {
@@ -226,6 +249,9 @@
     "accept": [
       "dog is running",
       "dog is runing"
+    ],
+    "acceptTalo": [
+      "gouka hasiluto wi"
     ]
   },
   {
@@ -264,6 +290,9 @@
     ],
     "accept": [
       "i read book"
+    ],
+    "acceptTalo": [
+      "mi honka bacato li"
     ]
   },
   {
@@ -296,6 +325,9 @@
     ],
     "accept": [
       "doctor is coming"
+    ],
+    "acceptTalo": [
+      "ihaka datanto wi"
     ]
   },
   {
@@ -329,6 +361,9 @@
     "accept": [
       "man slept",
       "man sleeped"
+    ],
+    "acceptTalo": [
+      "adamika tiduto li"
     ]
   },
   {
@@ -362,6 +397,9 @@
     ],
     "accept": [
       "i do not know"
+    ],
+    "acceptTalo": [
+      "mi ne tauto"
     ]
   },
   {
@@ -395,6 +433,9 @@
     "accept": [
       "children eat",
       "childs eat"
+    ],
+    "acceptTalo": [
+      "totoka pu makanto"
     ]
   },
   {
@@ -434,6 +475,10 @@
     "accept": [
       "dog does not see cat",
       "dog do not see cat"
+    ],
+    "acceptTalo": [
+      "gouka ne kanto nekoka",
+      "gouka nekoka ne kanto"
     ]
   },
   {
@@ -473,6 +518,10 @@
     "accept": [
       "people want water",
       "persons want water"
+    ],
+    "acceptTalo": [
+      "hitoka pu mauto panika",
+      "hitoka pu panika mauto"
     ]
   },
   {
@@ -512,6 +561,10 @@
     "accept": [
       "woman does not drink water",
       "woman do not drink water"
+    ],
+    "acceptTalo": [
+      "wanitaka ne pinato panika",
+      "wanitaka panika ne pinato"
     ]
   },
   {
@@ -551,6 +604,10 @@
     "accept": [
       "child sleeps in house",
       "child sleep in house"
+    ],
+    "acceptTalo": [
+      "totoka tiduto baitika lo",
+      "totoka baitika lo tiduto"
     ]
   },
   {
@@ -596,6 +653,10 @@
     ],
     "accept": [
       "i give book to child"
+    ],
+    "acceptTalo": [
+      "mi donato honka totoka na",
+      "mi honka totoka na donato"
     ]
   },
   {
@@ -635,6 +696,10 @@
     "accept": [
       "man comes from house",
       "man come from house"
+    ],
+    "acceptTalo": [
+      "adamika datanto baitika fe",
+      "adamika baitika fe datanto"
     ]
   },
   {
@@ -680,6 +745,10 @@
     "accept": [
       "dog eats food in house",
       "dog eat food in house"
+    ],
+    "acceptTalo": [
+      "gouka makanto cakulaka baitika lo",
+      "gouka cakulaka baitika lo makanto"
     ]
   },
   {
@@ -718,6 +787,10 @@
     ],
     "accept": [
       "i see big dog"
+    ],
+    "acceptTalo": [
+      "mi kanto gouka gandepe",
+      "mi gouka gandepe kanto"
     ]
   },
   {
@@ -757,6 +830,10 @@
     "accept": [
       "child wants two books",
       "child want 2 books"
+    ],
+    "acceptTalo": [
+      "totoka mauto honka nu",
+      "totoka honka nu mauto"
     ]
   },
   {
@@ -790,6 +867,9 @@
     "accept": [
       "big man runs",
       "big man run"
+    ],
+    "acceptTalo": [
+      "adamika gandepe hasiluto"
     ]
   },
   {
@@ -828,6 +908,10 @@
     ],
     "accept": [
       "i love this dog"
+    ],
+    "acceptTalo": [
+      "mi sukito gouka ini",
+      "mi gouka ini sukito"
     ]
   },
   {
@@ -867,6 +951,10 @@
     "accept": [
       "woman sees three birds",
       "woman see 3 birds"
+    ],
+    "acceptTalo": [
+      "wanitaka kanto tolika mo",
+      "wanitaka tolika mo kanto"
     ]
   },
   {
@@ -906,6 +994,9 @@
     "accept": [
       "what do you want",
       "you want what"
+    ],
+    "acceptTalo": [
+      "yu mauto seko ke"
     ]
   },
   {
@@ -950,6 +1041,9 @@
     ],
     "accept": [
       "i see dog and cat"
+    ],
+    "acceptTalo": [
+      "mi kanto gouka i nekoka"
     ]
   },
   {
@@ -989,6 +1083,9 @@
     "accept": [
       "child eats and drinks",
       "child eat and to drink"
+    ],
+    "acceptTalo": [
+      "totoka makanto i pinato"
     ]
   },
   {
@@ -1023,6 +1120,9 @@
     "accept": [
       "who comes",
       "who come"
+    ],
+    "acceptTalo": [
+      "sela datanto ke"
     ]
   },
   {
@@ -1062,6 +1162,9 @@
     "accept": [
       "do you see dog",
       "you see dog"
+    ],
+    "acceptTalo": [
+      "yu kanto gouka ke"
     ]
   },
   {
@@ -1095,6 +1198,10 @@
     ],
     "accept": [
       "dog see water"
+    ],
+    "acceptTalo": [
+      "gouka kanto panika",
+      "gouka panika kanto"
     ]
   },
   {
@@ -1128,6 +1235,10 @@
     ],
     "accept": [
       "dog see food"
+    ],
+    "acceptTalo": [
+      "gouka kanto cakulaka",
+      "gouka cakulaka kanto"
     ]
   },
   {
@@ -1161,6 +1272,10 @@
     ],
     "accept": [
       "dog see book"
+    ],
+    "acceptTalo": [
+      "gouka kanto honka",
+      "gouka honka kanto"
     ]
   },
   {
@@ -1194,6 +1309,10 @@
     ],
     "accept": [
       "dog see cat"
+    ],
+    "acceptTalo": [
+      "gouka kanto nekoka",
+      "gouka nekoka kanto"
     ]
   },
   {
@@ -1227,6 +1346,10 @@
     ],
     "accept": [
       "dog eat water"
+    ],
+    "acceptTalo": [
+      "gouka makanto panika",
+      "gouka panika makanto"
     ]
   },
   {
@@ -1260,6 +1383,10 @@
     ],
     "accept": [
       "dog eat food"
+    ],
+    "acceptTalo": [
+      "gouka makanto cakulaka",
+      "gouka cakulaka makanto"
     ]
   },
   {
@@ -1293,6 +1420,10 @@
     ],
     "accept": [
       "dog eat book"
+    ],
+    "acceptTalo": [
+      "gouka makanto honka",
+      "gouka honka makanto"
     ]
   },
   {
@@ -1326,6 +1457,10 @@
     ],
     "accept": [
       "dog eat cat"
+    ],
+    "acceptTalo": [
+      "gouka makanto nekoka",
+      "gouka nekoka makanto"
     ]
   },
   {
@@ -1366,6 +1501,10 @@
     ],
     "accept": [
       "dog saw water"
+    ],
+    "acceptTalo": [
+      "gouka kanto li panika",
+      "gouka panika kanto li"
     ]
   },
   {
@@ -1406,6 +1545,10 @@
     ],
     "accept": [
       "dog saw food"
+    ],
+    "acceptTalo": [
+      "gouka kanto li cakulaka",
+      "gouka cakulaka kanto li"
     ]
   },
   {
@@ -1446,6 +1589,10 @@
     ],
     "accept": [
       "dog saw book"
+    ],
+    "acceptTalo": [
+      "gouka kanto li honka",
+      "gouka honka kanto li"
     ]
   },
   {
@@ -1486,6 +1633,10 @@
     ],
     "accept": [
       "dog saw cat"
+    ],
+    "acceptTalo": [
+      "gouka kanto li nekoka",
+      "gouka nekoka kanto li"
     ]
   },
   {
@@ -1526,6 +1677,10 @@
     ],
     "accept": [
       "dog ate water"
+    ],
+    "acceptTalo": [
+      "gouka makanto li panika",
+      "gouka panika makanto li"
     ]
   },
   {
@@ -1566,6 +1721,10 @@
     ],
     "accept": [
       "dog ate food"
+    ],
+    "acceptTalo": [
+      "gouka makanto li cakulaka",
+      "gouka cakulaka makanto li"
     ]
   },
   {
@@ -1606,6 +1765,10 @@
     ],
     "accept": [
       "dog ate book"
+    ],
+    "acceptTalo": [
+      "gouka makanto li honka",
+      "gouka honka makanto li"
     ]
   },
   {
@@ -1646,6 +1809,10 @@
     ],
     "accept": [
       "dog ate cat"
+    ],
+    "acceptTalo": [
+      "gouka makanto li nekoka",
+      "gouka nekoka makanto li"
     ]
   }
 ]

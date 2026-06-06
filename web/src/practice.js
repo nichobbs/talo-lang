@@ -75,9 +75,11 @@ function grade() {
     correct = !!a && (targets.includes(a) || contentMatch(a, targets));
     expected = ex.english;
   } else {
-    // production: accept the reference Talo (exact, normalised). Full grammar
-    // grading runs server-side; here we accept the model answer.
-    correct = normTalo(raw) === normTalo(ex.talo);
+    // production: accept the reference OR any grammatical same-meaning reordering.
+    // The set (ex.acceptTalo) was computed at build time by the parser + the
+    // back-translator, so the grammar + meaning check is the real engine's.
+    const targets = ex.acceptTalo || [normTalo(ex.talo)];
+    correct = !!normTalo(raw) && targets.includes(normTalo(raw));
     expected = ex.talo;
   }
   const fb = $("feedback");

@@ -31,7 +31,8 @@ export interface Exercise {
   generated?: boolean;
   /** enriched by buildDeck for the web: per-token tooltips + acceptable answers. */
   tokens?: TokenInfo[];
-  accept?: string[];
+  accept?: string[];        // acceptable English (comprehension)
+  acceptTalo?: string[];    // acceptable Talo (production): reference + valid same-meaning reorderings
 }
 
 /** Learner-friendly glosses for the closed-class particles (not in the dictionary). */
@@ -156,11 +157,39 @@ export function generate(level: number, n: number, ctx: GlossContext): Exercise[
   return out;
 }
 
-/** Enrich one exercise with per-token tooltips + the acceptable-answer set. */
-function enrich(ex: Exercise, ctx: GlossContext): Exercise {
+/**
+ * Word-order variants of a sentence that Talo's fluid verb placement permits:
+ * move the verb group (verb + trailing aspect, and a leading `ne`) to clause-end,
+ * i.e. SVO → SOV. Caller keeps only those that parse AND back-translate the same.
+ */
+function reorderVariants(talo: string): string[] {
+  const punct = (talo.match(/[.?!]$/) || [""])[0];
+  const toks = talo.replace(/[.?!]$/, "").split(/\s+/).filter(Boolean);
+  let vi = -1;
+  for (let k = 0; k < toks.length; k++) if (analyze(toks[k].toLowerCase()).category === "verb") { vi = k; break; }
+  if (vi < 0) return [];
+  let start = vi, end = vi;
+  if (toks[end + 1] && /^(li|wi)$/.test(toks[end + 1].toLowerCase())) end++;
+  if (start > 0 && toks[start - 1].toLowerCase() === "ne") start--;
+  const before = toks.slice(0, start), vg = toks.slice(start, end + 1), after = toks.slice(end + 1);
+  if (!after.length) return [];                         // verb already final
+  return [[...before, ...after, ...vg].join(" ") + punct]; // SOV
+}
+
+/** Enrich one exercise with tooltips, acceptable English, and acceptable Talo. */
+function enrich(ex: Exercise, ctx: GlossContext, knownRoots: Set<string>): Exercise {
   const tokens = ex.talo.split(/\s+/).filter(Boolean).map((t) => tokenInfo(t, ctx));
   const accept = [...new Set([normalizeEn(ex.english), normalizeEn(translate(ex.talo, ctx))])].filter(Boolean);
-  return { ...ex, tokens, accept };
+  // Production answers: the reference + any reordering the parser accepts that
+  // back-translates to the same meaning (grammar + meaning checked by the engine
+  // at build time, shipped as a set the browser can match).
+  const refEn = normalizeEn(translate(ex.talo, ctx));
+  const acceptTalo = new Set([normalizeTalo(ex.talo)]);
+  for (const v of reorderVariants(ex.talo)) {
+    const grammatical = validate(v, { knownRoots }).issues.every((x) => x.severity !== "error");
+    if (grammatical && normalizeEn(translate(v, ctx)) === refEn) acceptTalo.add(normalizeTalo(v));
+  }
+  return { ...ex, tokens, accept, acceptTalo: [...acceptTalo] };
 }
 
 /**
@@ -168,6 +197,6 @@ function enrich(ex: Exercise, ctx: GlossContext): Exercise {
  * higher-level items, each enriched with tooltips + acceptable answers. Pure and
  * deterministic, so the committed data/exercises.json is a stable artifact.
  */
-export function buildDeck(bank: Exercise[], ctx: GlossContext): Exercise[] {
-  return [...bank, ...generate(7, 8, ctx), ...generate(8, 8, ctx)].map((ex) => enrich(ex, ctx));
+export function buildDeck(bank: Exercise[], ctx: GlossContext, knownRoots: Set<string>): Exercise[] {
+  return [...bank, ...generate(7, 8, ctx), ...generate(8, 8, ctx)].map((ex) => enrich(ex, ctx, knownRoots));
 }
