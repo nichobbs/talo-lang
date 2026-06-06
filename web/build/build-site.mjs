@@ -17,8 +17,9 @@
  */
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync, existsSync, readdirSync } from "node:fs";
 import { execFileSync } from "node:child_process";
-import { fileURLToPath } from "node:url";
-import { dirname, join } from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import { dirname, join, resolve } from "node:path";
+import { stripTypeScriptTypes } from "node:module";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const WEB = join(__dirname, "..");
@@ -74,6 +75,45 @@ ${body}
 
 process.stdout.write(`✓ dictionary: ${dict.length} entries\n`);
 process.stdout.write(`✓ book: rendered (${(bookHtml.length / 1024).toFixed(0)} KB)\n`);
+
+// 2b. Compact in-browser engine. The Talo tools are pure, zero-dep TypeScript;
+// strip their types (Node's built-in stripper — no bundler) and rewrite the
+// .ts import specifiers to flat .js so the browser can load the parser + glosser
+// + translator as ES modules. This is what powers fully open-ended production
+// grading (parse + back-translate the learner's own Talo) on the Practice page.
+const ENGINE_MODULES = [
+  { src: "tools/parser/src/morphology.ts", flat: "morphology.js" },
+  { src: "tools/parser/src/validator.ts", flat: "validator.js" },
+  { src: "tools/parser/src/index.ts", flat: "parser-index.js" },
+  { src: "tools/glosser/src/index.ts", flat: "glosser.js" },
+  { src: "tools/translator/src/index.ts", flat: "translator.js" },
+];
+const engineByAbs = new Map(ENGINE_MODULES.map((m) => [resolve(ROOT, m.src), m.flat]));
+function buildEngine() {
+  const dir = join(DIST, "engine");
+  mkdirSync(dir, { recursive: true });
+  for (const m of ENGINE_MODULES) {
+    const abs = resolve(ROOT, m.src);
+    let js = stripTypeScriptTypes(readFileSync(abs, "utf8"), { mode: "strip" });
+    js = js.replace(/(from\s*["'])([^"']+\.ts)(["'])/g, (_w, p1, spec, p3) => {
+      const target = engineByAbs.get(resolve(dirname(abs), spec));
+      if (!target) fail(`engine bundle: unresolved import "${spec}" in ${m.src}`);
+      return `${p1}./${target}${p3}`;
+    });
+    writeFileSync(join(dir, m.flat), js);
+  }
+}
+async function smokeTestEngine() {
+  const eng = await import(pathToFileURL(join(DIST, "engine", "translator.js")).href);
+  const { validate } = await import(pathToFileURL(join(DIST, "engine", "validator.js")).href);
+  const ctx = eng.buildContext(dict, []);
+  const out = eng.translate("Gouka kanto nekoka.", ctx);
+  if (out !== "Dog see cat.") fail(`engine smoke test: translate gave "${out}"`);
+  if (!validate("Gouka kanto nekoka.").issues.every((i) => i.severity !== "error")) fail("engine smoke test: validate rejected a good sentence");
+  process.stdout.write(`✓ engine: ${ENGINE_MODULES.length} modules stripped + smoke-tested\n`);
+}
+buildEngine();
+await smokeTestEngine();
 
 if (checkOnly) {
   // verify the static src files are all present

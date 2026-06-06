@@ -1,13 +1,16 @@
 /* Talo Practice — learn by translating.
  *
- * Loads the pre-built deck (exercises.json: each item carries `tokens` with
- * per-word gloss/POS/IPA for tooltips, and `accept` with the acceptable English
- * answers). All grading is client-side string normalisation — the heavy lifting
- * (parsing, translation) was done at build time by tools/exercises. Zero deps. */
-"use strict";
+ * Loads the pre-built deck (exercises.json: per-token tooltips + acceptable
+ * answers) AND the compact in-browser engine (web/dist/engine/, stripped from the
+ * Talo tools at build time). Comprehension grades the typed English against the
+ * accept set; PRODUCTION grades open-endedly — it parses the learner's own Talo
+ * (validate) and back-translates it (translate), so any grammatical, same-meaning
+ * answer is accepted, not just the reference. Zero npm dependencies. */
+import { buildContext, translate } from "./engine/translator.js";
+import { validate } from "./engine/validator.js";
 
 const $ = (id) => document.getElementById(id);
-const state = { deck: [], view: [], i: 0, mode: "comprehension", level: "", answered: false };
+const state = { deck: [], view: [], i: 0, mode: "comprehension", level: "", answered: false, ctx: null, knownRoots: null };
 
 const ARTICLES = /\b(a|an|the)\b/g;
 function normEn(s) {
@@ -75,17 +78,28 @@ function grade() {
     correct = !!a && (targets.includes(a) || contentMatch(a, targets));
     expected = ex.english;
   } else {
-    // production: accept the reference OR any grammatical same-meaning reordering.
-    // The set (ex.acceptTalo) was computed at build time by the parser + the
-    // back-translator, so the grammar + meaning check is the real engine's.
-    const targets = ex.acceptTalo || [normTalo(ex.talo)];
-    correct = !!normTalo(raw) && targets.includes(normTalo(raw));
+    // production: grade open-endedly with the in-browser engine — the learner's
+    // Talo must PARSE (real roots) and BACK-TRANSLATE to the reference meaning.
     expected = ex.talo;
+    var detail = "";
+    if (!normTalo(raw)) { correct = false; }
+    else if (state.ctx && state.knownRoots) {
+      const grammatical = validate(raw, { knownRoots: state.knownRoots }).issues.every((i) => i.severity !== "error");
+      if (!grammatical) { correct = false; detail = " (not grammatical)"; }
+      else {
+        const meaning = normEn(translate(raw, state.ctx));
+        const targets = ex.accept || [normEn(ex.english)];
+        correct = targets.includes(meaning) || contentMatch(meaning, targets) || (ex.acceptTalo || []).includes(normTalo(raw));
+        if (!correct) detail = ` (reads as: ${translate(raw, state.ctx)})`;
+      }
+    } else { // engine unavailable → fall back to the precomputed accept set
+      correct = (ex.acceptTalo || [normTalo(ex.talo)]).includes(normTalo(raw));
+    }
   }
   const fb = $("feedback");
   fb.hidden = false;
   fb.className = "feedback " + (correct ? "ok" : "no");
-  fb.textContent = correct ? "✓ Correct!" : `✗ Not quite — answer: ${expected}`;
+  fb.textContent = correct ? "✓ Correct!" : `✗ Not quite — answer: ${expected}${(typeof detail !== "undefined" && detail) || ""}`;
   state.answered = true;
   $("check").disabled = true;
   $("answer").disabled = true;
@@ -129,6 +143,13 @@ async function init() {
     return;
   }
   state.deck = deck;
+  // Build the engine context for open-ended production grading (optional — the
+  // page still works on the precomputed accept set if the dictionary is absent).
+  try {
+    const dict = await (await fetch("dictionary.json")).json();
+    state.ctx = buildContext(dict, []);
+    state.knownRoots = new Set(dict.filter((e) => e.kind === "root").map((e) => e.form));
+  } catch { /* fall back to precomputed acceptTalo */ }
   const levels = [...new Set(deck.map((e) => e.level))].sort((a, b) => a - b);
   const sel = $("level");
   for (const lv of levels) {
