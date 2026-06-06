@@ -26,6 +26,7 @@ const ROOT = join(WEB, "..");
 const SRC = join(WEB, "src");
 const DIST = join(WEB, "dist");
 const DICT_JSON = join(ROOT, "dictionary", "dist", "dictionary.json");
+const EXERCISES_JSON = join(ROOT, "data", "exercises.json");
 const BOOK_DIR = join(ROOT, "book");
 
 const checkOnly = process.argv.includes("--check");
@@ -39,6 +40,9 @@ function fail(msg) {
 if (!existsSync(DICT_JSON)) fail(`missing ${DICT_JSON} — run the dictionary build first (cd dictionary && npm run build)`);
 const dict = JSON.parse(readFileSync(DICT_JSON, "utf8"));
 if (!Array.isArray(dict) || dict.length < 1000) fail("dictionary.json looks wrong (too few entries)");
+if (!existsSync(EXERCISES_JSON)) fail(`missing ${EXERCISES_JSON} — build it first (cd tools/exercises && npm run build)`);
+const exercises = JSON.parse(readFileSync(EXERCISES_JSON, "utf8"));
+if (!Array.isArray(exercises) || !exercises.length) fail("exercises.json looks wrong (empty)");
 
 // 2. Build the book HTML (its own build validates every example).
 let bookHtml = "";
@@ -63,7 +67,7 @@ function wrapBook(html) {
 ${head}
 </head><body>
 <header class="site"><a class="brand" href="index.html">Talo</a>
-<nav><a href="index.html">Home</a><a class="active" href="book.html">Learn</a><a href="lookup.html">Dictionary</a></nav></header>
+<nav><a href="index.html">Home</a><a class="active" href="book.html">Learn</a><a href="practice.html">Practice</a><a href="lookup.html">Dictionary</a></nav></header>
 ${body}
 </body></html>`;
 }
@@ -73,7 +77,7 @@ process.stdout.write(`✓ book: rendered (${(bookHtml.length / 1024).toFixed(0)}
 
 if (checkOnly) {
   // verify the static src files are all present
-  for (const f of ["index.html", "lookup.html", "app.js", "style.css"]) {
+  for (const f of ["index.html", "lookup.html", "practice.html", "practice.js", "app.js", "style.css"]) {
     if (!existsSync(join(SRC, f))) fail(`missing web/src/${f}`);
   }
   process.stdout.write("✓ all site inputs present\n");
@@ -84,6 +88,7 @@ if (checkOnly) {
 mkdirSync(DIST, { recursive: true });
 for (const f of readdirSync(SRC)) copyFileSync(join(SRC, f), join(DIST, f));
 copyFileSync(DICT_JSON, join(DIST, "dictionary.json"));
+copyFileSync(EXERCISES_JSON, join(DIST, "exercises.json"));
 writeFileSync(join(DIST, "book.html"), wrapBook(bookHtml));
 // a .nojekyll so Pages serves files as-is
 writeFileSync(join(DIST, ".nojekyll"), "");

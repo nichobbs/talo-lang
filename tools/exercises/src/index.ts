@@ -15,7 +15,12 @@
  * Zero deps (Node ≥ 22.6). Pure; file IO + dictionary loading live in cli.ts.
  */
 import { validate } from "../../parser/src/validator.ts";
+import { analyze } from "../../parser/src/morphology.ts";
+import { toIPA } from "../../ipa/src/index.ts";
 import { translate, type GlossContext } from "../../translator/src/index.ts";
+
+/** Per-token tooltip data shipped to the web Practice page. */
+export interface TokenInfo { s: string; gloss: string; pos: string; ipa: string }
 
 export interface Exercise {
   id: string;
@@ -24,6 +29,37 @@ export interface Exercise {
   talo: string;
   english: string;
   generated?: boolean;
+  /** enriched by buildDeck for the web: per-token tooltips + acceptable answers. */
+  tokens?: TokenInfo[];
+  accept?: string[];
+}
+
+/** Learner-friendly glosses for the closed-class particles (not in the dictionary). */
+const FRIENDLY: Record<string, string> = {
+  na: "to (recipient)", lo: "at / in", su: "toward", fe: "from", wa: "with / by", we: "of",
+  li: "(completed / past)", wi: "(ongoing)", pu: "(plural)", sa: "(we, incl.)", fo: "(we, excl.)",
+  mi: "I / me", yu: "you", te: "he / she / it", ne: "not", ke: "(question)",
+  i: "and", o: "or", ce: "that", ya: "be", kena: "(passive)", sendi: "-self", salin: "each other",
+  sana: "very", ti: "also", dake: "only", tai: "too", lebi: "more", ini: "this", itu: "that",
+  hi: "yes", no: "no", kai: "(times)", bagi: "(fraction)", mae: "before", ato: "after",
+};
+const POS_NAME: Record<string, string> = { n: "noun", v: "verb", mod: "modifier", num: "number", fun: "particle" };
+
+/** Describe one surface token for a tooltip: gloss + part of speech + IPA. */
+export function tokenInfo(raw: string, ctx: GlossContext): TokenInfo {
+  const low = raw.replace(/[.,!?;:]/g, "").toLowerCase();
+  const ipa = low ? toIPA(low, true) : "";
+  const first = (g: string) => g.split(/\s*[/,(]\s*/)[0].trim() || g;
+  const a = analyze(low);
+  if (a.category) { // badged content word
+    const e = ctx.byForm.get(low.slice(0, -2)) ?? ctx.byForm.get(low);
+    const gloss = e ? first(e.gloss) : (ctx.proper.get(low.slice(0, -2)) ?? low);
+    return { s: raw, gloss, pos: a.category, ipa };
+  }
+  const e = ctx.byForm.get(low);                 // correlative / numeral / other dict entry
+  if (e) return { s: raw, gloss: first(e.gloss), pos: POS_NAME[(e as any).pos] ?? "word", ipa };
+  if (FRIENDLY[low]) return { s: raw, gloss: FRIENDLY[low], pos: "particle", ipa };
+  return { s: raw, gloss: "?", pos: "?", ipa };
 }
 
 /** Parse data/exercises.tsv into rows (skips comments + header). */
@@ -120,7 +156,18 @@ export function generate(level: number, n: number, ctx: GlossContext): Exercise[
   return out;
 }
 
-/** Build the full deck: authored bank + a fixed set of generated higher-level items. */
+/** Enrich one exercise with per-token tooltips + the acceptable-answer set. */
+function enrich(ex: Exercise, ctx: GlossContext): Exercise {
+  const tokens = ex.talo.split(/\s+/).filter(Boolean).map((t) => tokenInfo(t, ctx));
+  const accept = [...new Set([normalizeEn(ex.english), normalizeEn(translate(ex.talo, ctx))])].filter(Boolean);
+  return { ...ex, tokens, accept };
+}
+
+/**
+ * Build the full deck for the web: authored bank + a fixed set of generated
+ * higher-level items, each enriched with tooltips + acceptable answers. Pure and
+ * deterministic, so the committed data/exercises.json is a stable artifact.
+ */
 export function buildDeck(bank: Exercise[], ctx: GlossContext): Exercise[] {
-  return [...bank, ...generate(7, 8, ctx), ...generate(8, 8, ctx)];
+  return [...bank, ...generate(7, 8, ctx), ...generate(8, 8, ctx)].map((ex) => enrich(ex, ctx));
 }

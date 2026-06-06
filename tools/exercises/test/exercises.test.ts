@@ -56,3 +56,15 @@ test("buildDeck = bank + generated, ids unique", () => {
   assert.ok(deck.length > bank.length);
   assert.equal(new Set(deck.map((e) => e.id)).size, deck.length);
 });
+
+test("buildDeck enriches each item with token tooltips + acceptable answers", () => {
+  const deck = buildDeck(bank, ctx);
+  const ex = deck.find((e) => e.id === "EX-001")!;
+  assert.ok(ex.tokens && ex.tokens.length === 3);                 // Gouka kanto nekoka.
+  assert.equal(ex.tokens![0].gloss, "dog");
+  assert.equal(ex.tokens![0].pos, "noun");
+  assert.ok(/^\/.*\/$/.test(ex.tokens![0].ipa));                  // IPA with slashes
+  assert.ok(ex.accept && ex.accept.includes("dog see cat"));      // translator rendering accepted
+  // every deck item is fully enriched
+  assert.ok(deck.every((e) => e.tokens!.length > 0 && e.accept!.length > 0));
+});

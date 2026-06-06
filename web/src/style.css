@@ -74,3 +74,31 @@ a.flink:hover{border-bottom-style:solid}
 .site-foot a{color:var(--accent)}
 
 @media (max-width:520px){.searchbar{flex-direction:column}.count{margin-left:0}}
+
+/* ---- Practice (translation exercises) ---- */
+main.practice { max-width: 50rem; margin: 0 auto; padding: 1.5rem 1rem 4rem; }
+.prac-controls { display: flex; gap: 1rem; align-items: center; flex-wrap: wrap; margin: 1rem 0; }
+.prac-controls label { display: flex; flex-direction: column; font-size: .8rem; gap: .25rem; }
+.prac-card { border: 1px solid var(--line, #ddd); border-radius: .6rem; padding: 1.25rem; background: var(--card, #fff); }
+.prac-level { display: flex; gap: .6rem; align-items: center; margin-bottom: .75rem; }
+.badge { background: #2b6cb0; color: #fff; border-radius: 1rem; padding: .1rem .6rem; font-size: .75rem; }
+.skills { color: #777; font-size: .8rem; }
+.prompt { font-size: 1.4rem; line-height: 2.2; margin: .5rem 0 1rem; }
+.tok { font: inherit; font-size: 1.4rem; background: #eef4fb; border: 1px solid #cfe0f2; border-radius: .35rem;
+  padding: .05rem .35rem; cursor: pointer; color: inherit; }
+.tok:hover, .tok:focus { background: #d8e8fb; outline: none; }
+#answer-form { display: flex; gap: .5rem; flex-wrap: wrap; }
+#answer { flex: 1 1 16rem; font-size: 1rem; padding: .5rem .6rem; border: 1px solid var(--line, #ccc); border-radius: .4rem; }
+.prac-card button { font: inherit; padding: .5rem .9rem; border-radius: .4rem; border: 1px solid #2b6cb0;
+  background: #2b6cb0; color: #fff; cursor: pointer; }
+.prac-card button.ghost { background: transparent; color: #2b6cb0; }
+.prac-card button.primary { margin-top: 1rem; }
+.prac-card button:disabled { opacity: .5; cursor: default; }
+.feedback { margin: .9rem 0 0; font-weight: 600; }
+.feedback.ok { color: #1a7f37; }
+.feedback.no { color: #b42318; }
+.tok-tip { position: absolute; z-index: 20; background: #1a202c; color: #fff; padding: .45rem .6rem;
+  border-radius: .4rem; font-size: .9rem; max-width: 18rem; box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+.tip-pos { color: #9ad; font-size: .75rem; }
+.tip-gloss { font-weight: 600; }
+.tip-ipa { color: #bcd; font-style: italic; }

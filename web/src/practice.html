@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Talo Practice — learn by translating</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <a class="brand" href="index.html">Talo</a>
+  <nav><a href="index.html">Home</a><a href="book.html">Learn</a><a class="active" href="practice.html">Practice</a><a href="lookup.html">Dictionary</a></nav>
+</header>
+
+<main class="practice">
+  <h1>Practice</h1>
+  <p class="lede">Learn by translating real Talo sentences, building up in difficulty.
+    Tap any Talo word for its meaning. Choose a direction below.</p>
+
+  <div class="prac-controls">
+    <label>Mode
+      <select id="mode">
+        <option value="comprehension">Talo → English (read)</option>
+        <option value="production">English → Talo (write)</option>
+      </select>
+    </label>
+    <label>Level
+      <select id="level"><option value="">all</option></select>
+    </label>
+    <span id="progress" class="count"></span>
+  </div>
+
+  <section id="card" class="prac-card" hidden>
+    <div class="prac-level"><span id="badge" class="badge"></span> <span id="skills" class="skills"></span></div>
+    <p id="prompt" class="prompt"></p>
+    <form id="answer-form" autocomplete="off">
+      <input id="answer" type="text" placeholder="Type your translation…" autocomplete="off" autofocus>
+      <button type="submit" id="check">Check</button>
+      <button type="button" id="reveal" class="ghost">Reveal</button>
+    </form>
+    <p id="feedback" class="feedback" hidden></p>
+    <div class="prac-nav">
+      <button type="button" id="next" class="primary">Next →</button>
+    </div>
+  </section>
+
+  <p id="loading" class="empty">Loading exercises…</p>
+  <div id="tooltip" class="tok-tip" hidden></div>
+</main>
+
+<footer class="site-foot">
+  <p>Generated from the Talo dataset. <a href="https://github.com/nichobbs/talo-lang">Source &amp; data on GitHub</a>.</p>
+</footer>
+
+<script src="practice.js"></script>
+</body>
+</html>
