@@ -3076,7 +3076,6 @@ FOO-009.to	sokuyito	to use/apply 'meal'; to act as 'meal'	verb	sokuyi	meal	verb	
 FOO-009.cika	sokuyicika	little 'meal'; small/dear 'meal'	noun	sokuyi	meal	diminutive	sokuyi+ci+ka
 FOO-009.goka	sokuyigoka	big 'meal'; great 'meal'	noun	sokuyi	meal	augmentative	sokuyi+go+ka
 FOO-009.deka	sokuyideka	place of/for 'meal'	noun	sokuyi	meal	place	sokuyi+de+ka
-FOO-010.ka	caka	tea	noun	ca	tea	noun	ca+ka
 FOO-010.pe	cape	of/like 'tea'; 'tea'-related	modifier	ca	tea	modifier	ca+pe
 FOO-010.to	cato	to use/apply 'tea'; to act as 'tea'	verb	ca	tea	verb	ca+to
 FOO-010.cika	cacika	little 'tea'; small/dear 'tea'	noun	ca	tea	diminutive	ca+ci+ka
@@ -11970,3 +11969,270 @@ PER-029.pito	cubipito	to begin to 'pinch (v)'	verb	cubi	pinch (v)	inchoative	cub
 PER-029.takika	cubitakika	one who makes/causes 'pinch (v)'; instigator of 'pinch (v)'	noun	cubi	pinch (v)	causative-agent	cubi+ta+ki+ka
 PER-029.taboka	cubitaboka	what is brought about by 'pinch (v)'	noun	cubi	pinch (v)	causative-result	cubi+ta+bo+ka
 PER-029.kideka	cubikideka	place of the one who 'pinch (v)'s	noun	cubi	pinch (v)	agent-place	cubi+ki+de+ka
+COG-079.to	tiluto	to 'imitate / copy'	verb	tilu	imitate / copy	verb	tilu+to
+COG-079.ka	tiluka	act of 'imitate / copy'; a 'imitate / copy'	noun	tilu	imitate / copy	noun	tilu+ka
+COG-079.pe	tilupe	'imitate / copy'-ing	modifier	tilu	imitate / copy	modifier	tilu+pe
+COG-079.kika	tilukika	one who 'imitate / copy's; 'imitate / copy'-er	noun	tilu	imitate / copy	agent	tilu+ki+ka
+COG-079.tuka	tilutuka	tool/means for 'imitate / copy'	noun	tilu	imitate / copy	instrument	tilu+tu+ka
+COG-079.boka	tiluboka	thing 'imitate / copy'-ed; result of 'imitate / copy'	noun	tilu	imitate / copy	patient/result	tilu+bo+ka
+COG-079.deka	tiludeka	place for 'imitate / copy'	noun	tilu	imitate / copy	place	tilu+de+ka
+COG-079.tato	tilutato	to make/cause to 'imitate / copy'	verb	tilu	imitate / copy	causative	tilu+ta+to
+COG-079.pito	tilupito	to begin to 'imitate / copy'	verb	tilu	imitate / copy	inchoative	tilu+pi+to
+COG-079.takika	tilutakika	one who makes/causes 'imitate / copy'; instigator of 'imitate / copy'	noun	tilu	imitate / copy	causative-agent	tilu+ta+ki+ka
+COG-079.taboka	tilutaboka	what is brought about by 'imitate / copy'	noun	tilu	imitate / copy	causative-result	tilu+ta+bo+ka
+COG-079.kideka	tilukideka	place of the one who 'imitate / copy's	noun	tilu	imitate / copy	agent-place	tilu+ki+de+ka
+COG-080.to	tamaeto	to 'seem / appear'	verb	tamae	seem / appear	verb	tamae+to
+COG-080.ka	tamaeka	act of 'seem / appear'; a 'seem / appear'	noun	tamae	seem / appear	noun	tamae+ka
+COG-080.pe	tamaepe	'seem / appear'-ing	modifier	tamae	seem / appear	modifier	tamae+pe
+COG-080.kika	tamaekika	one who 'seem / appear's; 'seem / appear'-er	noun	tamae	seem / appear	agent	tamae+ki+ka
+COG-080.tuka	tamaetuka	tool/means for 'seem / appear'	noun	tamae	seem / appear	instrument	tamae+tu+ka
+COG-080.boka	tamaeboka	thing 'seem / appear'-ed; result of 'seem / appear'	noun	tamae	seem / appear	patient/result	tamae+bo+ka
+COG-080.deka	tamaedeka	place for 'seem / appear'	noun	tamae	seem / appear	place	tamae+de+ka
+COG-080.tato	tamaetato	to make/cause to 'seem / appear'	verb	tamae	seem / appear	causative	tamae+ta+to
+COG-080.pito	tamaepito	to begin to 'seem / appear'	verb	tamae	seem / appear	inchoative	tamae+pi+to
+COG-080.takika	tamaetakika	one who makes/causes 'seem / appear'; instigator of 'seem / appear'	noun	tamae	seem / appear	causative-agent	tamae+ta+ki+ka
+COG-080.taboka	tamaetaboka	what is brought about by 'seem / appear'	noun	tamae	seem / appear	causative-result	tamae+ta+bo+ka
+COG-080.kideka	tamaekideka	place of the one who 'seem / appear's	noun	tamae	seem / appear	agent-place	tamae+ki+de+ka
+COG-081.pe	gilaepe	crazy / insane	modifier	gilae	crazy / insane	modifier	gilae+pe
+COG-081.ka	gilaeka	'crazy / insane'-ness; the quality 'crazy / insane'	noun	gilae	crazy / insane	noun	gilae+ka
+COG-081.paka	gilaepaka	'crazy / insane'-ness; state of being 'crazy / insane'	noun	gilae	crazy / insane	quality	gilae+pa+ka
+COG-081.kupe	gilaekupe	opposite of 'crazy / insane'; un-'crazy / insane'	modifier	gilae	crazy / insane	opposite	gilae+ku+pe
+COG-081.tato	gilaetato	to make 'crazy / insane'	verb	gilae	crazy / insane	causative	gilae+ta+to
+COG-081.pito	gilaepito	to become 'crazy / insane'	verb	gilae	crazy / insane	inchoative	gilae+pi+to
+COG-081.gope	gilaegope	very 'crazy / insane'; intensely 'crazy / insane'	modifier	gilae	crazy / insane	augmentative	gilae+go+pe
+COG-081.cipe	gilaecipe	'crazy / insane'-ish; somewhat 'crazy / insane'	modifier	gilae	crazy / insane	diminutive	gilae+ci+pe
+COG-081.kupaka	gilaekupaka	un-'crazy / insane'-ness; the quality of being not 'crazy / insane'	noun	gilae	crazy / insane	opposite-quality	gilae+ku+pa+ka
+COG-081.takika	gilaetakika	one who makes things 'crazy / insane'	noun	gilae	crazy / insane	causative-agent	gilae+ta+ki+ka
+COG-082.to	tekaeto	to 'guess'	verb	tekae	guess	verb	tekae+to
+COG-082.ka	tekaeka	act of 'guess'; a 'guess'	noun	tekae	guess	noun	tekae+ka
+COG-082.pe	tekaepe	'guess'-ing	modifier	tekae	guess	modifier	tekae+pe
+COG-082.kika	tekaekika	one who 'guess's; 'guess'-er	noun	tekae	guess	agent	tekae+ki+ka
+COG-082.tuka	tekaetuka	tool/means for 'guess'	noun	tekae	guess	instrument	tekae+tu+ka
+COG-082.boka	tekaeboka	thing 'guess'-ed; result of 'guess'	noun	tekae	guess	patient/result	tekae+bo+ka
+COG-082.deka	tekaedeka	place for 'guess'	noun	tekae	guess	place	tekae+de+ka
+COG-082.tato	tekaetato	to make/cause to 'guess'	verb	tekae	guess	causative	tekae+ta+to
+COG-082.pito	tekaepito	to begin to 'guess'	verb	tekae	guess	inchoative	tekae+pi+to
+COG-082.takika	tekaetakika	one who makes/causes 'guess'; instigator of 'guess'	noun	tekae	guess	causative-agent	tekae+ta+ki+ka
+COG-082.taboka	tekaetaboka	what is brought about by 'guess'	noun	tekae	guess	causative-result	tekae+ta+bo+ka
+COG-082.kideka	tekaekideka	place of the one who 'guess's	noun	tekae	guess	agent-place	tekae+ki+de+ka
+COG-083.ka	niaka	intend / purpose	noun	nia	intend / purpose	noun	nia+ka
+COG-083.pe	niape	of/like 'intend / purpose'; 'intend / purpose'-related	modifier	nia	intend / purpose	modifier	nia+pe
+COG-083.to	niato	to use/apply 'intend / purpose'; to act as 'intend / purpose'	verb	nia	intend / purpose	verb	nia+to
+COG-083.cika	niacika	little 'intend / purpose'; small/dear 'intend / purpose'	noun	nia	intend / purpose	diminutive	nia+ci+ka
+COG-083.goka	niagoka	big 'intend / purpose'; great 'intend / purpose'	noun	nia	intend / purpose	augmentative	nia+go+ka
+COG-083.deka	niadeka	place of/for 'intend / purpose'	noun	nia	intend / purpose	place	nia+de+ka
+COG-084.pe	biyape	wise	modifier	biya	wise	modifier	biya+pe
+COG-084.ka	biyaka	'wise'-ness; the quality 'wise'	noun	biya	wise	noun	biya+ka
+COG-084.paka	biyapaka	'wise'-ness; state of being 'wise'	noun	biya	wise	quality	biya+pa+ka
+COG-084.kupe	biyakupe	opposite of 'wise'; un-'wise'	modifier	biya	wise	opposite	biya+ku+pe
+COG-084.tato	biyatato	to make 'wise'	verb	biya	wise	causative	biya+ta+to
+COG-084.pito	biyapito	to become 'wise'	verb	biya	wise	inchoative	biya+pi+to
+COG-084.gope	biyagope	very 'wise'; intensely 'wise'	modifier	biya	wise	augmentative	biya+go+pe
+COG-084.cipe	biyacipe	'wise'-ish; somewhat 'wise'	modifier	biya	wise	diminutive	biya+ci+pe
+COG-084.kupaka	biyakupaka	un-'wise'-ness; the quality of being not 'wise'	noun	biya	wise	opposite-quality	biya+ku+pa+ka
+COG-084.takika	biyatakika	one who makes things 'wise'	noun	biya	wise	causative-agent	biya+ta+ki+ka
+COG-085.pe	bodoape	foolish / stupid	modifier	bodoa	foolish / stupid	modifier	bodoa+pe
+COG-085.ka	bodoaka	'foolish / stupid'-ness; the quality 'foolish / stupid'	noun	bodoa	foolish / stupid	noun	bodoa+ka
+COG-085.paka	bodoapaka	'foolish / stupid'-ness; state of being 'foolish / stupid'	noun	bodoa	foolish / stupid	quality	bodoa+pa+ka
+COG-085.kupe	bodoakupe	opposite of 'foolish / stupid'; un-'foolish / stupid'	modifier	bodoa	foolish / stupid	opposite	bodoa+ku+pe
+COG-085.tato	bodoatato	to make 'foolish / stupid'	verb	bodoa	foolish / stupid	causative	bodoa+ta+to
+COG-085.pito	bodoapito	to become 'foolish / stupid'	verb	bodoa	foolish / stupid	inchoative	bodoa+pi+to
+COG-085.gope	bodoagope	very 'foolish / stupid'; intensely 'foolish / stupid'	modifier	bodoa	foolish / stupid	augmentative	bodoa+go+pe
+COG-085.cipe	bodoacipe	'foolish / stupid'-ish; somewhat 'foolish / stupid'	modifier	bodoa	foolish / stupid	diminutive	bodoa+ci+pe
+COG-085.kupaka	bodoakupaka	un-'foolish / stupid'-ness; the quality of being not 'foolish / stupid'	noun	bodoa	foolish / stupid	opposite-quality	bodoa+ku+pa+ka
+COG-085.takika	bodoatakika	one who makes things 'foolish / stupid'	noun	bodoa	foolish / stupid	causative-agent	bodoa+ta+ki+ka
+COG-086.to	hianato	to 'betray'	verb	hiana	betray	verb	hiana+to
+COG-086.ka	hianaka	act of 'betray'; a 'betray'	noun	hiana	betray	noun	hiana+ka
+COG-086.pe	hianape	'betray'-ing	modifier	hiana	betray	modifier	hiana+pe
+COG-086.kika	hianakika	one who 'betray's; 'betray'-er	noun	hiana	betray	agent	hiana+ki+ka
+COG-086.tuka	hianatuka	tool/means for 'betray'	noun	hiana	betray	instrument	hiana+tu+ka
+COG-086.boka	hianaboka	thing 'betray'-ed; result of 'betray'	noun	hiana	betray	patient/result	hiana+bo+ka
+COG-086.deka	hianadeka	place for 'betray'	noun	hiana	betray	place	hiana+de+ka
+COG-086.tato	hianatato	to make/cause to 'betray'	verb	hiana	betray	causative	hiana+ta+to
+COG-086.pito	hianapito	to begin to 'betray'	verb	hiana	betray	inchoative	hiana+pi+to
+COG-086.takika	hianatakika	one who makes/causes 'betray'; instigator of 'betray'	noun	hiana	betray	causative-agent	hiana+ta+ki+ka
+COG-086.taboka	hianataboka	what is brought about by 'betray'	noun	hiana	betray	causative-result	hiana+ta+bo+ka
+COG-086.kideka	hianakideka	place of the one who 'betray's	noun	hiana	betray	agent-place	hiana+ki+de+ka
+COG-087.pe	pandaiape	clever / skilled	modifier	pandaia	clever / skilled	modifier	pandaia+pe
+COG-087.ka	pandaiaka	'clever / skilled'-ness; the quality 'clever / skilled'	noun	pandaia	clever / skilled	noun	pandaia+ka
+COG-087.paka	pandaiapaka	'clever / skilled'-ness; state of being 'clever / skilled'	noun	pandaia	clever / skilled	quality	pandaia+pa+ka
+COG-087.kupe	pandaiakupe	opposite of 'clever / skilled'; un-'clever / skilled'	modifier	pandaia	clever / skilled	opposite	pandaia+ku+pe
+COG-087.tato	pandaiatato	to make 'clever / skilled'	verb	pandaia	clever / skilled	causative	pandaia+ta+to
+COG-087.pito	pandaiapito	to become 'clever / skilled'	verb	pandaia	clever / skilled	inchoative	pandaia+pi+to
+COG-087.gope	pandaiagope	very 'clever / skilled'; intensely 'clever / skilled'	modifier	pandaia	clever / skilled	augmentative	pandaia+go+pe
+COG-087.cipe	pandaiacipe	'clever / skilled'-ish; somewhat 'clever / skilled'	modifier	pandaia	clever / skilled	diminutive	pandaia+ci+pe
+COG-087.kupaka	pandaiakupaka	un-'clever / skilled'-ness; the quality of being not 'clever / skilled'	noun	pandaia	clever / skilled	opposite-quality	pandaia+ku+pa+ka
+COG-087.takika	pandaiatakika	one who makes things 'clever / skilled'	noun	pandaia	clever / skilled	causative-agent	pandaia+ta+ki+ka
+COG-088.ka	wicaka	idea / thought	noun	wica	idea / thought	noun	wica+ka
+COG-088.pe	wicape	of/like 'idea / thought'; 'idea / thought'-related	modifier	wica	idea / thought	modifier	wica+pe
+COG-088.to	wicato	to use/apply 'idea / thought'; to act as 'idea / thought'	verb	wica	idea / thought	verb	wica+to
+COG-088.cika	wicacika	little 'idea / thought'; small/dear 'idea / thought'	noun	wica	idea / thought	diminutive	wica+ci+ka
+COG-088.goka	wicagoka	big 'idea / thought'; great 'idea / thought'	noun	wica	idea / thought	augmentative	wica+go+ka
+COG-088.deka	wicadeka	place of/for 'idea / thought'	noun	wica	idea / thought	place	wica+de+ka
+EMO-065.pe	cemape	worry / anxious	modifier	cema	worry / anxious	modifier	cema+pe
+EMO-065.ka	cemaka	'worry / anxious'-ness; the quality 'worry / anxious'	noun	cema	worry / anxious	noun	cema+ka
+EMO-065.paka	cemapaka	'worry / anxious'-ness; state of being 'worry / anxious'	noun	cema	worry / anxious	quality	cema+pa+ka
+EMO-065.kupe	cemakupe	opposite of 'worry / anxious'; un-'worry / anxious'	modifier	cema	worry / anxious	opposite	cema+ku+pe
+EMO-065.tato	cematato	to make 'worry / anxious'	verb	cema	worry / anxious	causative	cema+ta+to
+EMO-065.pito	cemapito	to become 'worry / anxious'	verb	cema	worry / anxious	inchoative	cema+pi+to
+EMO-065.gope	cemagope	very 'worry / anxious'; intensely 'worry / anxious'	modifier	cema	worry / anxious	augmentative	cema+go+pe
+EMO-065.cipe	cemacipe	'worry / anxious'-ish; somewhat 'worry / anxious'	modifier	cema	worry / anxious	diminutive	cema+ci+pe
+EMO-065.kupaka	cemakupaka	un-'worry / anxious'-ness; the quality of being not 'worry / anxious'	noun	cema	worry / anxious	opposite-quality	cema+ku+pa+ka
+EMO-065.takika	cematakika	one who makes things 'worry / anxious'	noun	cema	worry / anxious	causative-agent	cema+ta+ki+ka
+EMO-066.pe	belaniape	brave / courage	modifier	belania	brave / courage	modifier	belania+pe
+EMO-066.ka	belaniaka	'brave / courage'-ness; the quality 'brave / courage'	noun	belania	brave / courage	noun	belania+ka
+EMO-066.paka	belaniapaka	'brave / courage'-ness; state of being 'brave / courage'	noun	belania	brave / courage	quality	belania+pa+ka
+EMO-066.kupe	belaniakupe	opposite of 'brave / courage'; un-'brave / courage'	modifier	belania	brave / courage	opposite	belania+ku+pe
+EMO-066.tato	belaniatato	to make 'brave / courage'	verb	belania	brave / courage	causative	belania+ta+to
+EMO-066.pito	belaniapito	to become 'brave / courage'	verb	belania	brave / courage	inchoative	belania+pi+to
+EMO-066.gope	belaniagope	very 'brave / courage'; intensely 'brave / courage'	modifier	belania	brave / courage	augmentative	belania+go+pe
+EMO-066.cipe	belaniacipe	'brave / courage'-ish; somewhat 'brave / courage'	modifier	belania	brave / courage	diminutive	belania+ci+pe
+EMO-066.kupaka	belaniakupaka	un-'brave / courage'-ness; the quality of being not 'brave / courage'	noun	belania	brave / courage	opposite-quality	belania+ku+pa+ka
+EMO-066.takika	belaniatakika	one who makes things 'brave / courage'	noun	belania	brave / courage	causative-agent	belania+ta+ki+ka
+EMO-067.pe	sukuape	grateful	modifier	sukua	grateful	modifier	sukua+pe
+EMO-067.ka	sukuaka	'grateful'-ness; the quality 'grateful'	noun	sukua	grateful	noun	sukua+ka
+EMO-067.paka	sukuapaka	'grateful'-ness; state of being 'grateful'	noun	sukua	grateful	quality	sukua+pa+ka
+EMO-067.kupe	sukuakupe	opposite of 'grateful'; un-'grateful'	modifier	sukua	grateful	opposite	sukua+ku+pe
+EMO-067.tato	sukuatato	to make 'grateful'	verb	sukua	grateful	causative	sukua+ta+to
+EMO-067.pito	sukuapito	to become 'grateful'	verb	sukua	grateful	inchoative	sukua+pi+to
+EMO-067.gope	sukuagope	very 'grateful'; intensely 'grateful'	modifier	sukua	grateful	augmentative	sukua+go+pe
+EMO-067.cipe	sukuacipe	'grateful'-ish; somewhat 'grateful'	modifier	sukua	grateful	diminutive	sukua+ci+pe
+EMO-067.kupaka	sukuakupaka	un-'grateful'-ness; the quality of being not 'grateful'	noun	sukua	grateful	opposite-quality	sukua+ku+pa+ka
+EMO-067.takika	sukuatakika	one who makes things 'grateful'	noun	sukua	grateful	causative-agent	sukua+ta+ki+ka
+EMO-068.to	sesato	to 'regret'	verb	sesa	regret	verb	sesa+to
+EMO-068.ka	sesaka	act of 'regret'; a 'regret'	noun	sesa	regret	noun	sesa+ka
+EMO-068.pe	sesape	'regret'-ing	modifier	sesa	regret	modifier	sesa+pe
+EMO-068.kika	sesakika	one who 'regret's; 'regret'-er	noun	sesa	regret	agent	sesa+ki+ka
+EMO-068.tuka	sesatuka	tool/means for 'regret'	noun	sesa	regret	instrument	sesa+tu+ka
+EMO-068.boka	sesaboka	thing 'regret'-ed; result of 'regret'	noun	sesa	regret	patient/result	sesa+bo+ka
+EMO-068.deka	sesadeka	place for 'regret'	noun	sesa	regret	place	sesa+de+ka
+EMO-068.tato	sesatato	to make/cause to 'regret'	verb	sesa	regret	causative	sesa+ta+to
+EMO-068.pito	sesapito	to begin to 'regret'	verb	sesa	regret	inchoative	sesa+pi+to
+EMO-068.takika	sesatakika	one who makes/causes 'regret'; instigator of 'regret'	noun	sesa	regret	causative-agent	sesa+ta+ki+ka
+EMO-068.taboka	sesataboka	what is brought about by 'regret'	noun	sesa	regret	causative-result	sesa+ta+bo+ka
+EMO-068.kideka	sesakideka	place of the one who 'regret's	noun	sesa	regret	agent-place	sesa+ki+de+ka
+EMO-069.pe	setiaepe	loyal / faithful	modifier	setiae	loyal / faithful	modifier	setiae+pe
+EMO-069.ka	setiaeka	'loyal / faithful'-ness; the quality 'loyal / faithful'	noun	setiae	loyal / faithful	noun	setiae+ka
+EMO-069.paka	setiaepaka	'loyal / faithful'-ness; state of being 'loyal / faithful'	noun	setiae	loyal / faithful	quality	setiae+pa+ka
+EMO-069.kupe	setiaekupe	opposite of 'loyal / faithful'; un-'loyal / faithful'	modifier	setiae	loyal / faithful	opposite	setiae+ku+pe
+EMO-069.tato	setiaetato	to make 'loyal / faithful'	verb	setiae	loyal / faithful	causative	setiae+ta+to
+EMO-069.pito	setiaepito	to become 'loyal / faithful'	verb	setiae	loyal / faithful	inchoative	setiae+pi+to
+EMO-069.gope	setiaegope	very 'loyal / faithful'; intensely 'loyal / faithful'	modifier	setiae	loyal / faithful	augmentative	setiae+go+pe
+EMO-069.cipe	setiaecipe	'loyal / faithful'-ish; somewhat 'loyal / faithful'	modifier	setiae	loyal / faithful	diminutive	setiae+ci+pe
+EMO-069.kupaka	setiaekupaka	un-'loyal / faithful'-ness; the quality of being not 'loyal / faithful'	noun	setiae	loyal / faithful	opposite-quality	setiae+ku+pa+ka
+EMO-069.takika	setiaetakika	one who makes things 'loyal / faithful'	noun	setiae	loyal / faithful	causative-agent	setiae+ta+ki+ka
+SOC-124.ka	uhuluka	freedom / liberty	noun	uhulu	freedom / liberty	noun	uhulu+ka
+SOC-124.pe	uhulupe	of/like 'freedom / liberty'; 'freedom / liberty'-related	modifier	uhulu	freedom / liberty	modifier	uhulu+pe
+SOC-124.to	uhuluto	to use/apply 'freedom / liberty'; to act as 'freedom / liberty'	verb	uhulu	freedom / liberty	verb	uhulu+to
+SOC-124.cika	uhulucika	little 'freedom / liberty'; small/dear 'freedom / liberty'	noun	uhulu	freedom / liberty	diminutive	uhulu+ci+ka
+SOC-124.goka	uhulugoka	big 'freedom / liberty'; great 'freedom / liberty'	noun	uhulu	freedom / liberty	augmentative	uhulu+go+ka
+SOC-124.deka	uhuludeka	place of/for 'freedom / liberty'	noun	uhulu	freedom / liberty	place	uhulu+de+ka
+SOC-125.to	sasanto	to 'govern / rule'	verb	sasan	govern / rule	verb	sasan+to
+SOC-125.ka	sasanka	act of 'govern / rule'; a 'govern / rule'	noun	sasan	govern / rule	noun	sasan+ka
+SOC-125.pe	sasanpe	'govern / rule'-ing	modifier	sasan	govern / rule	modifier	sasan+pe
+SOC-125.kika	sasankika	one who 'govern / rule's; 'govern / rule'-er	noun	sasan	govern / rule	agent	sasan+ki+ka
+SOC-125.tuka	sasantuka	tool/means for 'govern / rule'	noun	sasan	govern / rule	instrument	sasan+tu+ka
+SOC-125.boka	sasanboka	thing 'govern / rule'-ed; result of 'govern / rule'	noun	sasan	govern / rule	patient/result	sasan+bo+ka
+SOC-125.deka	sasandeka	place for 'govern / rule'	noun	sasan	govern / rule	place	sasan+de+ka
+SOC-125.tato	sasantato	to make/cause to 'govern / rule'	verb	sasan	govern / rule	causative	sasan+ta+to
+SOC-125.pito	sasanpito	to begin to 'govern / rule'	verb	sasan	govern / rule	inchoative	sasan+pi+to
+SOC-125.takika	sasantakika	one who makes/causes 'govern / rule'; instigator of 'govern / rule'	noun	sasan	govern / rule	causative-agent	sasan+ta+ki+ka
+SOC-125.taboka	sasantaboka	what is brought about by 'govern / rule'	noun	sasan	govern / rule	causative-result	sasan+ta+bo+ka
+SOC-125.kideka	sasankideka	place of the one who 'govern / rule's	noun	sasan	govern / rule	agent-place	sasan+ki+de+ka
+SPE-063.to	telemato	to 'translate'	verb	telema	translate	verb	telema+to
+SPE-063.ka	telemaka	act of 'translate'; a 'translate'	noun	telema	translate	noun	telema+ka
+SPE-063.pe	telemape	'translate'-ing	modifier	telema	translate	modifier	telema+pe
+SPE-063.kika	telemakika	one who 'translate's; 'translate'-er	noun	telema	translate	agent	telema+ki+ka
+SPE-063.tuka	telematuka	tool/means for 'translate'	noun	telema	translate	instrument	telema+tu+ka
+SPE-063.boka	telemaboka	thing 'translate'-ed; result of 'translate'	noun	telema	translate	patient/result	telema+bo+ka
+SPE-063.deka	telemadeka	place for 'translate'	noun	telema	translate	place	telema+de+ka
+SPE-063.tato	telematato	to make/cause to 'translate'	verb	telema	translate	causative	telema+ta+to
+SPE-063.pito	telemapito	to begin to 'translate'	verb	telema	translate	inchoative	telema+pi+to
+SPE-063.takika	telematakika	one who makes/causes 'translate'; instigator of 'translate'	noun	telema	translate	causative-agent	telema+ta+ki+ka
+SPE-063.taboka	telemataboka	what is brought about by 'translate'	noun	telema	translate	causative-result	telema+ta+bo+ka
+SPE-063.kideka	telemakideka	place of the one who 'translate's	noun	telema	translate	agent-place	telema+ki+de+ka
+SPE-064.ka	celitaeka	story / tale	noun	celitae	story / tale	noun	celitae+ka
+SPE-064.pe	celitaepe	of/like 'story / tale'; 'story / tale'-related	modifier	celitae	story / tale	modifier	celitae+pe
+SPE-064.to	celitaeto	to use/apply 'story / tale'; to act as 'story / tale'	verb	celitae	story / tale	verb	celitae+to
+SPE-064.cika	celitaecika	little 'story / tale'; small/dear 'story / tale'	noun	celitae	story / tale	diminutive	celitae+ci+ka
+SPE-064.goka	celitaegoka	big 'story / tale'; great 'story / tale'	noun	celitae	story / tale	augmentative	celitae+go+ka
+SPE-064.deka	celitaedeka	place of/for 'story / tale'	noun	celitae	story / tale	place	celitae+de+ka
+SPE-065.to	bantaeto	to 'argue / quarrel'	verb	bantae	argue / quarrel	verb	bantae+to
+SPE-065.ka	bantaeka	act of 'argue / quarrel'; a 'argue / quarrel'	noun	bantae	argue / quarrel	noun	bantae+ka
+SPE-065.pe	bantaepe	'argue / quarrel'-ing	modifier	bantae	argue / quarrel	modifier	bantae+pe
+SPE-065.kika	bantaekika	one who 'argue / quarrel's; 'argue / quarrel'-er	noun	bantae	argue / quarrel	agent	bantae+ki+ka
+SPE-065.tuka	bantaetuka	tool/means for 'argue / quarrel'	noun	bantae	argue / quarrel	instrument	bantae+tu+ka
+SPE-065.boka	bantaeboka	thing 'argue / quarrel'-ed; result of 'argue / quarrel'	noun	bantae	argue / quarrel	patient/result	bantae+bo+ka
+SPE-065.deka	bantaedeka	place for 'argue / quarrel'	noun	bantae	argue / quarrel	place	bantae+de+ka
+SPE-065.tato	bantaetato	to make/cause to 'argue / quarrel'	verb	bantae	argue / quarrel	causative	bantae+ta+to
+SPE-065.pito	bantaepito	to begin to 'argue / quarrel'	verb	bantae	argue / quarrel	inchoative	bantae+pi+to
+SPE-065.takika	bantaetakika	one who makes/causes 'argue / quarrel'; instigator of 'argue / quarrel'	noun	bantae	argue / quarrel	causative-agent	bantae+ta+ki+ka
+SPE-065.taboka	bantaetaboka	what is brought about by 'argue / quarrel'	noun	bantae	argue / quarrel	causative-result	bantae+ta+bo+ka
+SPE-065.kideka	bantaekideka	place of the one who 'argue / quarrel's	noun	bantae	argue / quarrel	agent-place	bantae+ki+de+ka
+PROP-115.pe	beninpe	clear / transparent	modifier	benin	clear / transparent	modifier	benin+pe
+PROP-115.ka	beninka	'clear / transparent'-ness; the quality 'clear / transparent'	noun	benin	clear / transparent	noun	benin+ka
+PROP-115.paka	beninpaka	'clear / transparent'-ness; state of being 'clear / transparent'	noun	benin	clear / transparent	quality	benin+pa+ka
+PROP-115.kupe	beninkupe	opposite of 'clear / transparent'; un-'clear / transparent'	modifier	benin	clear / transparent	opposite	benin+ku+pe
+PROP-115.tato	benintato	to make 'clear / transparent'	verb	benin	clear / transparent	causative	benin+ta+to
+PROP-115.pito	beninpito	to become 'clear / transparent'	verb	benin	clear / transparent	inchoative	benin+pi+to
+PROP-115.gope	beningope	very 'clear / transparent'; intensely 'clear / transparent'	modifier	benin	clear / transparent	augmentative	benin+go+pe
+PROP-115.cipe	benincipe	'clear / transparent'-ish; somewhat 'clear / transparent'	modifier	benin	clear / transparent	diminutive	benin+ci+pe
+PROP-115.kupaka	beninkupaka	un-'clear / transparent'-ness; the quality of being not 'clear / transparent'	noun	benin	clear / transparent	opposite-quality	benin+ku+pa+ka
+PROP-115.takika	benintakika	one who makes things 'clear / transparent'	noun	benin	clear / transparent	causative-agent	benin+ta+ki+ka
+FOO-090.ka	lemaeka	spice	noun	lemae	spice	noun	lemae+ka
+FOO-090.pe	lemaepe	of/like 'spice'; 'spice'-related	modifier	lemae	spice	modifier	lemae+pe
+FOO-090.to	lemaeto	to use/apply 'spice'; to act as 'spice'	verb	lemae	spice	verb	lemae+to
+FOO-090.cika	lemaecika	little 'spice'; small/dear 'spice'	noun	lemae	spice	diminutive	lemae+ci+ka
+FOO-090.goka	lemaegoka	big 'spice'; great 'spice'	noun	lemae	spice	augmentative	lemae+go+ka
+FOO-090.deka	lemaedeka	place of/for 'spice'	noun	lemae	spice	place	lemae+de+ka
+ANI-077.ka	kelincika	rabbit	noun	kelinci	rabbit	noun	kelinci+ka
+ANI-077.pe	kelincipe	of/like 'rabbit'; 'rabbit'-related	modifier	kelinci	rabbit	modifier	kelinci+pe
+ANI-077.to	kelincito	to use/apply 'rabbit'; to act as 'rabbit'	verb	kelinci	rabbit	verb	kelinci+to
+ANI-077.cika	kelincicika	little 'rabbit'; small/dear 'rabbit'	noun	kelinci	rabbit	diminutive	kelinci+ci+ka
+ANI-077.goka	kelincigoka	big 'rabbit'; great 'rabbit'	noun	kelinci	rabbit	augmentative	kelinci+go+ka
+ANI-077.deka	kelincideka	place of/for 'rabbit'	noun	kelinci	rabbit	place	kelinci+de+ka
+ANI-078.ka	tupaika	squirrel	noun	tupai	squirrel	noun	tupai+ka
+ANI-078.pe	tupaipe	of/like 'squirrel'; 'squirrel'-related	modifier	tupai	squirrel	modifier	tupai+pe
+ANI-078.to	tupaito	to use/apply 'squirrel'; to act as 'squirrel'	verb	tupai	squirrel	verb	tupai+to
+ANI-078.cika	tupaicika	little 'squirrel'; small/dear 'squirrel'	noun	tupai	squirrel	diminutive	tupai+ci+ka
+ANI-078.goka	tupaigoka	big 'squirrel'; great 'squirrel'	noun	tupai	squirrel	augmentative	tupai+go+ka
+ANI-078.deka	tupaideka	place of/for 'squirrel'	noun	tupai	squirrel	place	tupai+de+ka
+ANI-079.ka	gagaka	crow	noun	gaga	crow	noun	gaga+ka
+ANI-079.pe	gagape	of/like 'crow'; 'crow'-related	modifier	gaga	crow	modifier	gaga+pe
+ANI-079.to	gagato	to use/apply 'crow'; to act as 'crow'	verb	gaga	crow	verb	gaga+to
+ANI-079.cika	gagacika	little 'crow'; small/dear 'crow'	noun	gaga	crow	diminutive	gaga+ci+ka
+ANI-079.goka	gagagoka	big 'crow'; great 'crow'	noun	gaga	crow	augmentative	gaga+go+ka
+ANI-079.deka	gagadeka	place of/for 'crow'	noun	gaga	crow	place	gaga+de+ka
+ANI-080.pe	cakape	of/like 'claw'; 'claw'-related	modifier	caka	claw	modifier	caka+pe
+ANI-080.to	cakato	to use/apply 'claw'; to act as 'claw'	verb	caka	claw	verb	caka+to
+ANI-080.cika	cakacika	little 'claw'; small/dear 'claw'	noun	caka	claw	diminutive	caka+ci+ka
+ANI-080.goka	cakagoka	big 'claw'; great 'claw'	noun	caka	claw	augmentative	caka+go+ka
+ANI-080.deka	cakadeka	place of/for 'claw'	noun	caka	claw	place	caka+de+ka
+ANI-081.ka	kukuka	hoof	noun	kuku	hoof	noun	kuku+ka
+ANI-081.pe	kukupe	of/like 'hoof'; 'hoof'-related	modifier	kuku	hoof	modifier	kuku+pe
+ANI-081.to	kukuto	to use/apply 'hoof'; to act as 'hoof'	verb	kuku	hoof	verb	kuku+to
+ANI-081.cika	kukucika	little 'hoof'; small/dear 'hoof'	noun	kuku	hoof	diminutive	kuku+ci+ka
+ANI-081.goka	kukugoka	big 'hoof'; great 'hoof'	noun	kuku	hoof	augmentative	kuku+go+ka
+ANI-081.deka	kukudeka	place of/for 'hoof'	noun	kuku	hoof	place	kuku+de+ka
+ANI-082.ka	pemeaka	horn (animal)	noun	pemea	horn (animal)	noun	pemea+ka
+ANI-082.pe	pemeape	of/like 'horn (animal)'; 'horn (animal)'-related	modifier	pemea	horn (animal)	modifier	pemea+pe
+ANI-082.to	pemeato	to use/apply 'horn (animal)'; to act as 'horn (animal)'	verb	pemea	horn (animal)	verb	pemea+to
+ANI-082.cika	pemeacika	little 'horn (animal)'; small/dear 'horn (animal)'	noun	pemea	horn (animal)	diminutive	pemea+ci+ka
+ANI-082.goka	pemeagoka	big 'horn (animal)'; great 'horn (animal)'	noun	pemea	horn (animal)	augmentative	pemea+go+ka
+ANI-082.deka	pemeadeka	place of/for 'horn (animal)'	noun	pemea	horn (animal)	place	pemea+de+ka
+ANI-083.ka	buluka	feather / fur	noun	bulu	feather / fur	noun	bulu+ka
+ANI-083.pe	bulupe	of/like 'feather / fur'; 'feather / fur'-related	modifier	bulu	feather / fur	modifier	bulu+pe
+ANI-083.to	buluto	to use/apply 'feather / fur'; to act as 'feather / fur'	verb	bulu	feather / fur	verb	bulu+to
+ANI-083.cika	bulucika	little 'feather / fur'; small/dear 'feather / fur'	noun	bulu	feather / fur	diminutive	bulu+ci+ka
+ANI-083.goka	bulugoka	big 'feather / fur'; great 'feather / fur'	noun	bulu	feather / fur	augmentative	bulu+go+ka
+ANI-083.deka	buludeka	place of/for 'feather / fur'	noun	bulu	feather / fur	place	bulu+de+ka
+BOD-093.pe	pincanpe	lame / limping	modifier	pincan	lame / limping	modifier	pincan+pe
+BOD-093.ka	pincanka	'lame / limping'-ness; the quality 'lame / limping'	noun	pincan	lame / limping	noun	pincan+ka
+BOD-093.paka	pincanpaka	'lame / limping'-ness; state of being 'lame / limping'	noun	pincan	lame / limping	quality	pincan+pa+ka
+BOD-093.kupe	pincankupe	opposite of 'lame / limping'; un-'lame / limping'	modifier	pincan	lame / limping	opposite	pincan+ku+pe
+BOD-093.tato	pincantato	to make 'lame / limping'	verb	pincan	lame / limping	causative	pincan+ta+to
+BOD-093.pito	pincanpito	to become 'lame / limping'	verb	pincan	lame / limping	inchoative	pincan+pi+to
+BOD-093.gope	pincangope	very 'lame / limping'; intensely 'lame / limping'	modifier	pincan	lame / limping	augmentative	pincan+go+pe
+BOD-093.cipe	pincancipe	'lame / limping'-ish; somewhat 'lame / limping'	modifier	pincan	lame / limping	diminutive	pincan+ci+pe
+BOD-093.kupaka	pincankupaka	un-'lame / limping'-ness; the quality of being not 'lame / limping'	noun	pincan	lame / limping	opposite-quality	pincan+ku+pa+ka
+BOD-093.takika	pincantakika	one who makes things 'lame / limping'	noun	pincan	lame / limping	causative-agent	pincan+ta+ki+ka
