@@ -41,3 +41,15 @@ COMP-039	fudinka	Wednesday (day-4)	noun	QTY-005+TIM-002	fu+din+ka
 COMP-040	ledinka	Thursday (day-5)	noun	QTY-006+TIM-002	le+din+ka
 COMP-041	pikaedinka	Friday (day-6)	noun	QTY-007+TIM-002	pikae+din+ka
 COMP-042	habadinka	Saturday (day-7)	noun	QTY-008+TIM-002	haba+din+ka
+COMP-043	talunka	January (month-1)	noun	QTY-002+TIM-012	ta+lun+ka
+COMP-044	kilunka	February (month-2)	noun	QTY-003+TIM-012	ki+lun+ka
+COMP-045	molunka	March (month-3)	noun	QTY-004+TIM-012	mo+lun+ka
+COMP-046	fulunka	April (month-4)	noun	QTY-005+TIM-012	fu+lun+ka
+COMP-047	lelunka	May (month-5)	noun	QTY-006+TIM-012	le+lun+ka
+COMP-048	pikaelunka	June (month-6)	noun	QTY-007+TIM-012	pikae+lun+ka
+COMP-049	habalunka	July (month-7)	noun	QTY-008+TIM-012	haba+lun+ka
+COMP-050	cewalunka	August (month-8)	noun	QTY-009+TIM-012	cewa+lun+ka
+COMP-051	hubalunka	September (month-9)	noun	QTY-010+TIM-012	huba+lun+ka
+COMP-052	dikolunka	October (month-10)	noun	QTY-011+TIM-012	diko+lun+ka
+COMP-053	dikotalunka	November (month-11)	noun	QTY-011+QTY-002+TIM-012	diko+ta+lun+ka
+COMP-054	dikokilunka	December (month-12)	noun	QTY-011+QTY-003+TIM-012	diko+ki+lun+ka
