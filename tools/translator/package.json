@@ -1,0 +1,21 @@
+{
+  "name": "talo-translator",
+  "version": "0.1.0",
+  "description": "Rule-based Talo → English transfer translator. Reuses the parser (morphology + structure) and glosser (lexicon) and adds reordering + surface realisation. A reading aid and the grader behind the web translation exercises.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-translate": "./src/cli.ts"
+  },
+  "scripts": {
+    "translate": "node --experimental-strip-types src/cli.ts",
+    "corpus": "node --experimental-strip-types src/cli.ts --corpus",
+    "test": "node --experimental-strip-types --test test/translator.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}
