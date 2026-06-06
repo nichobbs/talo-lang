@@ -12108,3 +12108,80 @@ BOD-093.gope	pincangope	very 'lame / limping'; intensely 'lame / limping'	modifi
 BOD-093.cipe	pincancipe	'lame / limping'-ish; somewhat 'lame / limping'	modifier	pincan	lame / limping	diminutive	pincan+ci+pe
 BOD-093.kupaka	pincankupaka	un-'lame / limping'-ness; the quality of being not 'lame / limping'	noun	pincan	lame / limping	opposite-quality	pincan+ku+pa+ka
 BOD-093.takika	pincantakika	one who makes things 'lame / limping'	noun	pincan	lame / limping	causative-agent	pincan+ta+ki+ka
+PHY-092.to	bocoto	to 'leak (of fluid or gas)'	verb	boco	leak (of fluid or gas)	verb	boco+to
+PHY-092.ka	bocoka	act of 'leak (of fluid or gas)'; a 'leak (of fluid or gas)'	noun	boco	leak (of fluid or gas)	noun	boco+ka
+PHY-092.pe	bocope	'leak (of fluid or gas)'-ing	modifier	boco	leak (of fluid or gas)	modifier	boco+pe
+PHY-092.kika	bocokika	one who 'leak (of fluid or gas)'s; 'leak (of fluid or gas)'-er	noun	boco	leak (of fluid or gas)	agent	boco+ki+ka
+PHY-092.tuka	bocotuka	tool/means for 'leak (of fluid or gas)'	noun	boco	leak (of fluid or gas)	instrument	boco+tu+ka
+PHY-092.boka	bocoboka	thing 'leak (of fluid or gas)'-ed; result of 'leak (of fluid or gas)'	noun	boco	leak (of fluid or gas)	patient/result	boco+bo+ka
+PHY-092.deka	bocodeka	place for 'leak (of fluid or gas)'	noun	boco	leak (of fluid or gas)	place	boco+de+ka
+PHY-092.tato	bocotato	to make/cause to 'leak (of fluid or gas)'	verb	boco	leak (of fluid or gas)	causative	boco+ta+to
+PHY-092.pito	bocopito	to begin to 'leak (of fluid or gas)'	verb	boco	leak (of fluid or gas)	inchoative	boco+pi+to
+PHY-092.takika	bocotakika	one who makes/causes 'leak (of fluid or gas)'; instigator of 'leak (of fluid or gas)'	noun	boco	leak (of fluid or gas)	causative-agent	boco+ta+ki+ka
+PHY-092.taboka	bocotaboka	what is brought about by 'leak (of fluid or gas)'	noun	boco	leak (of fluid or gas)	causative-result	boco+ta+bo+ka
+PHY-092.kideka	bocokideka	place of the one who 'leak (of fluid or gas)'s	noun	boco	leak (of fluid or gas)	agent-place	boco+ki+de+ka
+SOC-126.ka	awaka	crew / personnel	noun	awa	crew / personnel	noun	awa+ka
+SOC-126.pe	awape	of/like 'crew / personnel'; 'crew / personnel'-related	modifier	awa	crew / personnel	modifier	awa+pe
+SOC-126.to	awato	to use/apply 'crew / personnel'; to act as 'crew / personnel'	verb	awa	crew / personnel	verb	awa+to
+SOC-126.cika	awacika	little 'crew / personnel'; small/dear 'crew / personnel'	noun	awa	crew / personnel	diminutive	awa+ci+ka
+SOC-126.goka	awagoka	big 'crew / personnel'; great 'crew / personnel'	noun	awa	crew / personnel	augmentative	awa+go+ka
+SOC-126.deka	awadeka	place of/for 'crew / personnel'	noun	awa	crew / personnel	place	awa+de+ka
+MOD-135.ka	mundoka	structure / framework	noun	mundo	structure / framework	noun	mundo+ka
+MOD-135.pe	mundope	of/like 'structure / framework'; 'structure / framework'-related	modifier	mundo	structure / framework	modifier	mundo+pe
+MOD-135.to	mundoto	to use/apply 'structure / framework'; to act as 'structure / framework'	verb	mundo	structure / framework	verb	mundo+to
+MOD-135.cika	mundocika	little 'structure / framework'; small/dear 'structure / framework'	noun	mundo	structure / framework	diminutive	mundo+ci+ka
+MOD-135.goka	mundogoka	big 'structure / framework'; great 'structure / framework'	noun	mundo	structure / framework	augmentative	mundo+go+ka
+MOD-135.deka	mundodeka	place of/for 'structure / framework'	noun	mundo	structure / framework	place	mundo+de+ka
+MOD-136.ka	kituoka	station (depot / hub)	noun	kituo	station (depot / hub)	noun	kituo+ka
+MOD-136.pe	kituope	of/like 'station (depot / hub)'; 'station (depot / hub)'-related	modifier	kituo	station (depot / hub)	modifier	kituo+pe
+MOD-136.to	kituoto	to use/apply 'station (depot / hub)'; to act as 'station (depot / hub)'	verb	kituo	station (depot / hub)	verb	kituo+to
+MOD-136.cika	kituocika	little 'station (depot / hub)'; small/dear 'station (depot / hub)'	noun	kituo	station (depot / hub)	diminutive	kituo+ci+ka
+MOD-136.goka	kituogoka	big 'station (depot / hub)'; great 'station (depot / hub)'	noun	kituo	station (depot / hub)	augmentative	kituo+go+ka
+MOD-136.deka	kituodeka	place of/for 'station (depot / hub)'	noun	kituo	station (depot / hub)	place	kituo+de+ka
+MOD-137.ka	moduaka	module / unit	noun	modua	module / unit	noun	modua+ka
+MOD-137.pe	moduape	of/like 'module / unit'; 'module / unit'-related	modifier	modua	module / unit	modifier	modua+pe
+MOD-137.to	moduato	to use/apply 'module / unit'; to act as 'module / unit'	verb	modua	module / unit	verb	modua+to
+MOD-137.cika	moduacika	little 'module / unit'; small/dear 'module / unit'	noun	modua	module / unit	diminutive	modua+ci+ka
+MOD-137.goka	moduagoka	big 'module / unit'; great 'module / unit'	noun	modua	module / unit	augmentative	modua+go+ka
+MOD-137.deka	moduadeka	place of/for 'module / unit'	noun	modua	module / unit	place	modua+de+ka
+MOD-138.ka	lokeka	rocket	noun	loke	rocket	noun	loke+ka
+MOD-138.pe	lokepe	of/like 'rocket'; 'rocket'-related	modifier	loke	rocket	modifier	loke+pe
+MOD-138.to	loketo	to use/apply 'rocket'; to act as 'rocket'	verb	loke	rocket	verb	loke+to
+MOD-138.cika	lokecika	little 'rocket'; small/dear 'rocket'	noun	loke	rocket	diminutive	loke+ci+ka
+MOD-138.goka	lokegoka	big 'rocket'; great 'rocket'	noun	loke	rocket	augmentative	loke+go+ka
+MOD-138.deka	lokedeka	place of/for 'rocket'	noun	loke	rocket	place	loke+de+ka
+MOT-071.to	luncuto	to 'launch / set off'	verb	luncu	launch / set off	verb	luncu+to
+MOT-071.ka	luncuka	act of 'launch / set off'; a 'launch / set off'	noun	luncu	launch / set off	noun	luncu+ka
+MOT-071.pe	luncupe	'launch / set off'-ing	modifier	luncu	launch / set off	modifier	luncu+pe
+MOT-071.kika	luncukika	one who 'launch / set off's; 'launch / set off'-er	noun	luncu	launch / set off	agent	luncu+ki+ka
+MOT-071.tuka	luncutuka	tool/means for 'launch / set off'	noun	luncu	launch / set off	instrument	luncu+tu+ka
+MOT-071.boka	luncuboka	thing 'launch / set off'-ed; result of 'launch / set off'	noun	luncu	launch / set off	patient/result	luncu+bo+ka
+MOT-071.deka	luncudeka	launchpad	noun	luncu	launch / set off	place	luncu+de+ka
+MOT-071.tato	luncutato	to make/cause to 'launch / set off'	verb	luncu	launch / set off	causative	luncu+ta+to
+MOT-071.pito	luncupito	to begin to 'launch / set off'	verb	luncu	launch / set off	inchoative	luncu+pi+to
+MOT-071.takika	luncutakika	one who makes/causes 'launch / set off'; instigator of 'launch / set off'	noun	luncu	launch / set off	causative-agent	luncu+ta+ki+ka
+MOT-071.taboka	luncutaboka	what is brought about by 'launch / set off'	noun	luncu	launch / set off	causative-result	luncu+ta+bo+ka
+MOT-071.kideka	luncukideka	place of the one who 'launch / set off's	noun	luncu	launch / set off	agent-place	luncu+ki+de+ka
+PHY-093.ka	okigenka	oxygen	noun	okigen	oxygen	noun	okigen+ka
+PHY-093.pe	okigenpe	of/like 'oxygen'; 'oxygen'-related	modifier	okigen	oxygen	modifier	okigen+pe
+PHY-093.to	okigento	to use/apply 'oxygen'; to act as 'oxygen'	verb	okigen	oxygen	verb	okigen+to
+PHY-093.cika	okigencika	little 'oxygen'; small/dear 'oxygen'	noun	okigen	oxygen	diminutive	okigen+ci+ka
+PHY-093.goka	okigengoka	big 'oxygen'; great 'oxygen'	noun	okigen	oxygen	augmentative	okigen+go+ka
+PHY-093.deka	okigendeka	place of/for 'oxygen'	noun	okigen	oxygen	place	okigen+de+ka
+MOD-139.pe	misipe	of/like 'mission / assignment'; 'mission / assignment'-related	modifier	misi	mission / assignment	modifier	misi+pe
+MOD-139.to	misito	to use/apply 'mission / assignment'; to act as 'mission / assignment'	verb	misi	mission / assignment	verb	misi+to
+MOD-139.cika	misicika	little 'mission / assignment'; small/dear 'mission / assignment'	noun	misi	mission / assignment	diminutive	misi+ci+ka
+MOD-139.goka	misigoka	big 'mission / assignment'; great 'mission / assignment'	noun	misi	mission / assignment	augmentative	misi+go+ka
+MOD-139.deka	misideka	place of/for 'mission / assignment'	noun	misi	mission / assignment	place	misi+de+ka
+ACT-144.to	lindunto	to 'shelter / take refuge'	verb	lindun	shelter / take refuge	verb	lindun+to
+ACT-144.ka	lindunka	act of 'shelter / take refuge'; a 'shelter / take refuge'	noun	lindun	shelter / take refuge	noun	lindun+ka
+ACT-144.pe	lindunpe	'shelter / take refuge'-ing	modifier	lindun	shelter / take refuge	modifier	lindun+pe
+ACT-144.kika	lindunkika	protector	noun	lindun	shelter / take refuge	agent	lindun+ki+ka
+ACT-144.tuka	linduntuka	tool/means for 'shelter / take refuge'	noun	lindun	shelter / take refuge	instrument	lindun+tu+ka
+ACT-144.boka	lindunboka	thing 'shelter / take refuge'-ed; result of 'shelter / take refuge'	noun	lindun	shelter / take refuge	patient/result	lindun+bo+ka
+ACT-144.deka	lindundeka	shelter / refuge	noun	lindun	shelter / take refuge	place	lindun+de+ka
+ACT-144.tato	linduntato	to make/cause to 'shelter / take refuge'	verb	lindun	shelter / take refuge	causative	lindun+ta+to
+ACT-144.pito	lindunpito	to begin to 'shelter / take refuge'	verb	lindun	shelter / take refuge	inchoative	lindun+pi+to
+ACT-144.takika	linduntakika	one who makes/causes 'shelter / take refuge'; instigator of 'shelter / take refuge'	noun	lindun	shelter / take refuge	causative-agent	lindun+ta+ki+ka
+ACT-144.taboka	linduntaboka	what is brought about by 'shelter / take refuge'	noun	lindun	shelter / take refuge	causative-result	lindun+ta+bo+ka
+ACT-144.kideka	lindunkideka	place of the one who 'shelter / take refuge's	noun	lindun	shelter / take refuge	agent-place	lindun+ki+de+ka

@@ -442,6 +442,9 @@ SPE-063	agent	translator
 PROP-115	quality	clearness
 ANI-077	diminutive	kit / young rabbit
 BOD-093	quality	lameness
+MOT-071	place	launchpad
+ACT-144	agent	protector
+ACT-144	place	shelter / refuge
 
 # class suppressions (abstract diminutives — overridable per-root above)
 COG	diminutive	(suppress)
