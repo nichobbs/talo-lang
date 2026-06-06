@@ -39,7 +39,7 @@ to derive cleanly: `destroy`→`nasai`, `region/area`→`padesa`, `report`→`la
    "at least twenty" had to drop to "many" (`ingi`). Casualty/figure language is
    core to news.
 4. **Dates and day/month names.** No weekday or month names; only `yana`
-   yesterday / `leo` today / `taun` year / `sukia` month / `din` day exist.
+   yesterday / `leo` today / `taun` year / `lun` month / `din` day exist.
    Datelines ("on Tuesday", "in March") need a convention.
 5. **Manner adverbs.** "go quickly" used a trailing `-pe` modifier
    (`hayaipe`); this validates, but whether a manner adverb is just a modifier or

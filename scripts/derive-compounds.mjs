@@ -72,6 +72,27 @@ const COMPOUNDS = [
   { parts: ["SOC-095", "KIN-001"], badge: "ka", gloss: "terrorist (terrorism-person)" },
   // ---- appended (vocab completion): capital = chief-city ------------------
   { parts: ["SOC-048", "SOC-005"], badge: "ka", gloss: "capital (chief-city)" },
+  // ---- weekdays (0016): number-first compound [N]+din+ka, Sunday = 1 -------
+  { parts: ["QTY-002", "TIM-002"], badge: "ka", gloss: "Sunday (day-1)" },
+  { parts: ["QTY-003", "TIM-002"], badge: "ka", gloss: "Monday (day-2)" },
+  { parts: ["QTY-004", "TIM-002"], badge: "ka", gloss: "Tuesday (day-3)" },
+  { parts: ["QTY-005", "TIM-002"], badge: "ka", gloss: "Wednesday (day-4)" },
+  { parts: ["QTY-006", "TIM-002"], badge: "ka", gloss: "Thursday (day-5)" },
+  { parts: ["QTY-007", "TIM-002"], badge: "ka", gloss: "Friday (day-6)" },
+  { parts: ["QTY-008", "TIM-002"], badge: "ka", gloss: "Saturday (day-7)" },
+  // ---- months (0016): same rule, [N]+lun(month)+ka, aligned with weekdays ----
+  { parts: ["QTY-002", "TIM-012"], badge: "ka", gloss: "January (month-1)" },
+  { parts: ["QTY-003", "TIM-012"], badge: "ka", gloss: "February (month-2)" },
+  { parts: ["QTY-004", "TIM-012"], badge: "ka", gloss: "March (month-3)" },
+  { parts: ["QTY-005", "TIM-012"], badge: "ka", gloss: "April (month-4)" },
+  { parts: ["QTY-006", "TIM-012"], badge: "ka", gloss: "May (month-5)" },
+  { parts: ["QTY-007", "TIM-012"], badge: "ka", gloss: "June (month-6)" },
+  { parts: ["QTY-008", "TIM-012"], badge: "ka", gloss: "July (month-7)" },
+  { parts: ["QTY-009", "TIM-012"], badge: "ka", gloss: "August (month-8)" },
+  { parts: ["QTY-010", "TIM-012"], badge: "ka", gloss: "September (month-9)" },
+  { parts: ["QTY-011", "TIM-012"], badge: "ka", gloss: "October (month-10)" },
+  { parts: ["QTY-011", "QTY-002", "TIM-012"], badge: "ka", gloss: "November (month-11)" },
+  { parts: ["QTY-011", "QTY-003", "TIM-012"], badge: "ka", gloss: "December (month-12)" },
 ];
 
 // ---- loaders ---------------------------------------------------------------

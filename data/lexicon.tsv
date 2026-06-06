@@ -244,7 +244,7 @@ QTY-030	count	hitun	INTL	blend rubric; src 'hitung' (simplified)	blend (simplifi
 TIM-004	morning	asagohan	INTL	blend rubric; src 'asagohan'	blend
 TIM-005	evening	yugata	INTL	blend rubric; src 'yugata'	blend
 TIM-010	then (at that time)	toki	INTL	blend rubric; src 'toki'	blend
-TIM-012	month	sukia	INTL	blend rubric; src 'tsuki' (simplified)	blend (simplified)
+TIM-012	month	lun	INTL	Latin luna/lunar; short root to align the date system (0016, was 'sukia')	Romance (capped)
 TIM-013	week	mingu	INTL	blend rubric; src 'minggu' (simplified)	blend (simplified)
 TIM-014	hour	yamu	INTL	blend rubric; src 'jamu'	blend (legalised)
 TIM-019	often	selin	INTL	blend rubric; src 'sering' (simplified)	blend (simplified)
