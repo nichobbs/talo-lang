@@ -12279,3 +12279,95 @@ COG-090.pe	lisikope	of/like 'risk'; 'risk'-related	modifier	lisiko	risk	modifier
 COG-090.to	lisikoto	to use/apply 'risk'; to act as 'risk'	verb	lisiko	risk	verb	lisiko+to
 COG-090.goka	lisikogoka	big 'risk'; great 'risk'	noun	lisiko	risk	augmentative	lisiko+go+ka
 COG-090.deka	lisikodeka	place of/for 'risk'	noun	lisiko	risk	place	lisiko+de+ka
+BOD-094.ka	potinaka	protein	noun	potina	protein	noun	potina+ka
+BOD-094.pe	potinape	of/like 'protein'; 'protein'-related	modifier	potina	protein	modifier	potina+pe
+BOD-094.to	potinato	to use/apply 'protein'; to act as 'protein'	verb	potina	protein	verb	potina+to
+BOD-094.cika	potinacika	little 'protein'; small/dear 'protein'	noun	potina	protein	diminutive	potina+ci+ka
+BOD-094.goka	potinagoka	big 'protein'; great 'protein'	noun	potina	protein	augmentative	potina+go+ka
+BOD-094.deka	potinadeka	place of/for 'protein'	noun	potina	protein	place	potina+de+ka
+BOD-095.ka	selika	cell (biology)	noun	seli	cell (biology)	noun	seli+ka
+BOD-095.pe	selipe	of/like 'cell (biology)'; 'cell (biology)'-related	modifier	seli	cell (biology)	modifier	seli+pe
+BOD-095.cika	selicika	little 'cell (biology)'; small/dear 'cell (biology)'	noun	seli	cell (biology)	diminutive	seli+ci+ka
+BOD-095.goka	seligoka	big 'cell (biology)'; great 'cell (biology)'	noun	seli	cell (biology)	augmentative	seli+go+ka
+BOD-095.deka	selideka	place of/for 'cell (biology)'	noun	seli	cell (biology)	place	seli+de+ka
+BOD-096.ka	antibodika	antibody	noun	antibodi	antibody	noun	antibodi+ka
+BOD-096.pe	antibodipe	of/like 'antibody'; 'antibody'-related	modifier	antibodi	antibody	modifier	antibodi+pe
+BOD-096.to	antibodito	to use/apply 'antibody'; to act as 'antibody'	verb	antibodi	antibody	verb	antibodi+to
+BOD-096.cika	antibodicika	little 'antibody'; small/dear 'antibody'	noun	antibodi	antibody	diminutive	antibodi+ci+ka
+BOD-096.goka	antibodigoka	big 'antibody'; great 'antibody'	noun	antibodi	antibody	augmentative	antibodi+go+ka
+BOD-096.deka	antibodideka	place of/for 'antibody'	noun	antibodi	antibody	place	antibodi+de+ka
+BOD-097.ka	geyalaka	symptom	noun	geyala	symptom	noun	geyala+ka
+BOD-097.pe	geyalape	of/like 'symptom'; 'symptom'-related	modifier	geyala	symptom	modifier	geyala+pe
+BOD-097.to	geyalato	to use/apply 'symptom'; to act as 'symptom'	verb	geyala	symptom	verb	geyala+to
+BOD-097.cika	geyalacika	little 'symptom'; small/dear 'symptom'	noun	geyala	symptom	diminutive	geyala+ci+ka
+BOD-097.goka	geyalagoka	big 'symptom'; great 'symptom'	noun	geyala	symptom	augmentative	geyala+go+ka
+BOD-097.deka	geyaladeka	place of/for 'symptom'	noun	geyala	symptom	place	geyala+de+ka
+MOD-143.ka	yalibioka	trial / experiment	noun	yalibio	trial / experiment	noun	yalibio+ka
+MOD-143.pe	yalibiope	of/like 'trial / experiment'; 'trial / experiment'-related	modifier	yalibio	trial / experiment	modifier	yalibio+pe
+MOD-143.to	yalibioto	to use/apply 'trial / experiment'; to act as 'trial / experiment'	verb	yalibio	trial / experiment	verb	yalibio+to
+MOD-143.cika	yalibiocika	little 'trial / experiment'; small/dear 'trial / experiment'	noun	yalibio	trial / experiment	diminutive	yalibio+ci+ka
+MOD-143.goka	yalibiogoka	big 'trial / experiment'; great 'trial / experiment'	noun	yalibio	trial / experiment	augmentative	yalibio+go+ka
+MOD-143.deka	yalibiodeka	place of/for 'trial / experiment'	noun	yalibio	trial / experiment	place	yalibio+de+ka
+COG-091.to	cekito	to 'test / check'	verb	ceki	test / check	verb	ceki+to
+COG-091.ka	cekika	act of 'test / check'; a 'test / check'	noun	ceki	test / check	noun	ceki+ka
+COG-091.pe	cekipe	'test / check'-ing	modifier	ceki	test / check	modifier	ceki+pe
+COG-091.kika	cekikika	tester	noun	ceki	test / check	agent	ceki+ki+ka
+COG-091.tuka	cekituka	tool/means for 'test / check'	noun	ceki	test / check	instrument	ceki+tu+ka
+COG-091.boka	cekiboka	thing 'test / check'-ed; result of 'test / check'	noun	ceki	test / check	patient/result	ceki+bo+ka
+COG-091.deka	cekideka	place for 'test / check'	noun	ceki	test / check	place	ceki+de+ka
+COG-091.tato	cekitato	to make/cause to 'test / check'	verb	ceki	test / check	causative	ceki+ta+to
+COG-091.pito	cekipito	to begin to 'test / check'	verb	ceki	test / check	inchoative	ceki+pi+to
+COG-091.takika	cekitakika	one who makes/causes 'test / check'; instigator of 'test / check'	noun	ceki	test / check	causative-agent	ceki+ta+ki+ka
+COG-091.taboka	cekitaboka	what is brought about by 'test / check'	noun	ceki	test / check	causative-result	ceki+ta+bo+ka
+COG-091.kideka	cekikideka	place of the one who 'test / check's	noun	ceki	test / check	agent-place	ceki+ki+de+ka
+COG-092.to	diagonosato	to 'diagnose'	verb	diagonosa	diagnose	verb	diagonosa+to
+COG-092.ka	diagonosaka	act of 'diagnose'; a 'diagnose'	noun	diagonosa	diagnose	noun	diagonosa+ka
+COG-092.pe	diagonosape	'diagnose'-ing	modifier	diagonosa	diagnose	modifier	diagonosa+pe
+COG-092.kika	diagonosakika	diagnostician	noun	diagonosa	diagnose	agent	diagonosa+ki+ka
+COG-092.tuka	diagonosatuka	tool/means for 'diagnose'	noun	diagonosa	diagnose	instrument	diagonosa+tu+ka
+COG-092.boka	diagonosaboka	diagnosis	noun	diagonosa	diagnose	patient/result	diagonosa+bo+ka
+COG-092.deka	diagonosadeka	place for 'diagnose'	noun	diagonosa	diagnose	place	diagonosa+de+ka
+COG-092.tato	diagonosatato	to make/cause to 'diagnose'	verb	diagonosa	diagnose	causative	diagonosa+ta+to
+COG-092.pito	diagonosapito	to begin to 'diagnose'	verb	diagonosa	diagnose	inchoative	diagonosa+pi+to
+COG-092.takika	diagonosatakika	one who makes/causes 'diagnose'; instigator of 'diagnose'	noun	diagonosa	diagnose	causative-agent	diagonosa+ta+ki+ka
+COG-092.taboka	diagonosataboka	what is brought about by 'diagnose'	noun	diagonosa	diagnose	causative-result	diagonosa+ta+bo+ka
+COG-092.kideka	diagonosakideka	place of the one who 'diagnose's	noun	diagonosa	diagnose	agent-place	diagonosa+ki+de+ka
+ACT-149.to	lindato	to 'protect'	verb	linda	protect	verb	linda+to
+ACT-149.ka	lindaka	act of 'protect'; a 'protect'	noun	linda	protect	noun	linda+ka
+ACT-149.pe	lindape	'protect'-ing	modifier	linda	protect	modifier	linda+pe
+ACT-149.kika	lindakika	protector / guardian	noun	linda	protect	agent	linda+ki+ka
+ACT-149.tuka	lindatuka	tool/means for 'protect'	noun	linda	protect	instrument	linda+tu+ka
+ACT-149.boka	lindaboka	thing 'protect'-ed; result of 'protect'	noun	linda	protect	patient/result	linda+bo+ka
+ACT-149.deka	lindadeka	place for 'protect'	noun	linda	protect	place	linda+de+ka
+ACT-149.tato	lindatato	to make/cause to 'protect'	verb	linda	protect	causative	linda+ta+to
+ACT-149.pito	lindapito	to begin to 'protect'	verb	linda	protect	inchoative	linda+pi+to
+ACT-149.takika	lindatakika	one who makes/causes 'protect'; instigator of 'protect'	noun	linda	protect	causative-agent	linda+ta+ki+ka
+ACT-149.taboka	lindataboka	what is brought about by 'protect'	noun	linda	protect	causative-result	linda+ta+bo+ka
+ACT-149.kideka	lindakideka	place of the one who 'protect's	noun	linda	protect	agent-place	linda+ki+de+ka
+ACT-150.to	cedelato	to 'harm / damage'	verb	cedela	harm / damage	verb	cedela+to
+ACT-150.ka	cedelaka	act of 'harm / damage'; a 'harm / damage'	noun	cedela	harm / damage	noun	cedela+ka
+ACT-150.pe	cedelape	'harm / damage'-ing	modifier	cedela	harm / damage	modifier	cedela+pe
+ACT-150.tuka	cedelatuka	tool/means for 'harm / damage'	noun	cedela	harm / damage	instrument	cedela+tu+ka
+ACT-150.boka	cedelaboka	harm / damage (n)	noun	cedela	harm / damage	patient/result	cedela+bo+ka
+ACT-150.deka	cedeladeka	place for 'harm / damage'	noun	cedela	harm / damage	place	cedela+de+ka
+ACT-150.tato	cedelatato	to make/cause to 'harm / damage'	verb	cedela	harm / damage	causative	cedela+ta+to
+ACT-150.pito	cedelapito	to begin to 'harm / damage'	verb	cedela	harm / damage	inchoative	cedela+pi+to
+ACT-150.takika	cedelatakika	one who makes/causes 'harm / damage'; instigator of 'harm / damage'	noun	cedela	harm / damage	causative-agent	cedela+ta+ki+ka
+ACT-150.taboka	cedelataboka	what is brought about by 'harm / damage'	noun	cedela	harm / damage	causative-result	cedela+ta+bo+ka
+ACT-150.kideka	cedelakideka	place of the one who 'harm / damage's	noun	cedela	harm / damage	agent-place	cedela+ki+de+ka
+ACT-151.to	solotato	to 'decline / deteriorate'	verb	solota	decline / deteriorate	verb	solota+to
+ACT-151.ka	solotaka	act of 'decline / deteriorate'; a 'decline / deteriorate'	noun	solota	decline / deteriorate	noun	solota+ka
+ACT-151.pe	solotape	'decline / deteriorate'-ing	modifier	solota	decline / deteriorate	modifier	solota+pe
+ACT-151.tuka	solotatuka	tool/means for 'decline / deteriorate'	noun	solota	decline / deteriorate	instrument	solota+tu+ka
+ACT-151.boka	solotaboka	decline / deterioration	noun	solota	decline / deteriorate	patient/result	solota+bo+ka
+ACT-151.deka	solotadeka	place for 'decline / deteriorate'	noun	solota	decline / deteriorate	place	solota+de+ka
+ACT-151.tato	solotatato	to make/cause to 'decline / deteriorate'	verb	solota	decline / deteriorate	causative	solota+ta+to
+ACT-151.pito	solotapito	to begin to 'decline / deteriorate'	verb	solota	decline / deteriorate	inchoative	solota+pi+to
+ACT-151.takika	solotatakika	one who makes/causes 'decline / deteriorate'; instigator of 'decline / deteriorate'	noun	solota	decline / deteriorate	causative-agent	solota+ta+ki+ka
+ACT-151.taboka	solotataboka	what is brought about by 'decline / deteriorate'	noun	solota	decline / deteriorate	causative-result	solota+ta+bo+ka
+ACT-151.kideka	solotakideka	place of the one who 'decline / deteriorate's	noun	solota	decline / deteriorate	agent-place	solota+ki+de+ka
+SOC-129.pe	manufape	of/like 'benefit / advantage'; 'benefit / advantage'-related	modifier	manufa	benefit / advantage	modifier	manufa+pe
+SOC-129.to	manufato	to use/apply 'benefit / advantage'; to act as 'benefit / advantage'	verb	manufa	benefit / advantage	verb	manufa+to
+SOC-129.cika	manufacika	little 'benefit / advantage'; small/dear 'benefit / advantage'	noun	manufa	benefit / advantage	diminutive	manufa+ci+ka
+SOC-129.goka	manufagoka	big 'benefit / advantage'; great 'benefit / advantage'	noun	manufa	benefit / advantage	augmentative	manufa+go+ka
+SOC-129.deka	manufadeka	place of/for 'benefit / advantage'	noun	manufa	benefit / advantage	place	manufa+de+ka

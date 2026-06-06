@@ -1697,3 +1697,14 @@ SOC-128	service (provided)	layanan	INTL	blend rubric; src 'layanan'	blend; Austr
 COG-089	model / example	conto	INTL	blend rubric; src 'contoh'	blend; Austronesian
 COG-090	risk	lisiko	INTL	blend rubric; src 'risiko'	blend; Austronesian
 FUN-030	supposing / if (hypothetical)	andai	INTL	Indonesian/Malay andai/seandainya "supposing, if only"	Austronesian
+BOD-094	protein	potina	INTL	international 'protein'; pr→p, coda simplified	Latinate/international
+BOD-095	cell (biology)	seli	INTL	blend rubric; src 'sel/cell' (legalised)	international
+BOD-096	antibody	antibodi	INTL	international 'antibody'; n+t cluster legal	Latinate/international
+BOD-097	symptom	geyala	INTL	blend rubric; src 'gejala' (j→y)	blend; Austronesian
+MOD-143	trial / experiment	yalibio	INTL	blend rubric; src 'jaribio' (j→y)	blend; Bantu
+COG-091	test / check	ceki	INTL	blend rubric; src 'check'	blend
+COG-092	diagnose	diagonosa	INTL	international 'diagnosa'; buffer o breaks g·n	Latinate/international
+ACT-149	protect	linda	INTL	blend rubric; src 'linda' (guard/protect)	blend; Bantu
+ACT-150	harm / damage	cedela	INTL	blend rubric; src 'cedera' (r→l)	blend; Austronesian
+ACT-151	decline / deteriorate	solota	INTL	blend rubric; src 'zorota' (z→s, r→l)	blend; Bantu
+SOC-129	benefit / advantage	manufa	INTL	blend rubric; src 'manufaa'	blend; Bantu

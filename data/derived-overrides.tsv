@@ -449,6 +449,14 @@ ACT-144	agent	protector
 ACT-144	place	shelter / refuge
 ACT-145	agent	controller / manager
 ACT-148	noun	failure
+COG-091	agent	tester
+COG-092	agent	diagnostician
+COG-092	patient/result	diagnosis
+ACT-149	agent	protector / guardian
+ACT-150	agent	(suppress)
+ACT-150	patient/result	harm / damage (n)
+ACT-151	agent	(suppress)
+ACT-151	patient/result	decline / deterioration
 
 # class suppressions (abstract diminutives — overridable per-root above)
 COG	diminutive	(suppress)
