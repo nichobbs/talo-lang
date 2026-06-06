@@ -8,7 +8,7 @@ _Living status doc. For conventions see `CLAUDE.md`; for the binding decisions s
 | | |
 |---|---|
 | Phases complete | 0 (principles), 1 (phonology + linter), 2 (morphology/grammar), 3 (lexicon), 4 (hello-world slice), 5a (grammar pass), 5b (lexicon scaling to ~1,500), 6 (derivation expansion) |
-| Phase in progress | **7 — reading-coverage lexicon scaling** (`0013`): coverage-defined target (≥98 % of the IDS spine, interim 95 %; converges ~3,500–4,500 roots) via concerted frequency-anchored minting + corpus validation. **Batches 1–3 minted** (+148 IDS-gap roots → 1,644 roots; spine coverage 62.8 %→72.4 %; all gates + ≤25 % cap green). **v1.0 freeze checklist fully green** (`0011` §5.1, all gates closed); 1.0 declarable. |
+| Phase in progress | **7 — reading-coverage lexicon scaling** (`0013`): coverage-defined target (≥98 % of the IDS spine, interim 95 %; converges ~3,500–4,500 roots) via concerted frequency-anchored minting + corpus validation. **Batches 1–4 minted** (+178 roots → 1,674 roots; IDS-spine coverage 62.8 %→72.8 %; all gates + ≤25 % cap green). Note: the harness coverage is a lower bound that increasingly under-credits synonyms — next step is to sharpen its matching for a truer read. **v1.0 freeze checklist fully green** (`0011` §5.1, all gates closed); 1.0 declarable. |
 | Concepts catalogued | 1519 (`data/concepts.tsv`) |
 | Lexicon forms minted | 1496 roots (`data/lexicon.tsv`) — **every catalogued root covered, 0 gaps** |
 | Derived dictionary | 10885 affix-derived (`data/derived-lexicon.tsv`) + 35 curated compounds (`data/compounds.tsv`), all generated — **12416 total entries** |
