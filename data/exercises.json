@@ -1,0 +1,434 @@
+[
+  {
+    "id": "EX-001",
+    "level": 1,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Gouka kanto nekoka.",
+    "english": "The dog sees the cat."
+  },
+  {
+    "id": "EX-002",
+    "level": 1,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Totoka makanto cakulaka.",
+    "english": "The child eats food."
+  },
+  {
+    "id": "EX-003",
+    "level": 1,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Adamika pinato panika.",
+    "english": "The man drinks water."
+  },
+  {
+    "id": "EX-004",
+    "level": 1,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Mi kanto gouka.",
+    "english": "I see the dog."
+  },
+  {
+    "id": "EX-005",
+    "level": 1,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Wanitaka bacato honka.",
+    "english": "The woman reads a book."
+  },
+  {
+    "id": "EX-006",
+    "level": 2,
+    "skills": [
+      "aspect"
+    ],
+    "talo": "Totoka makanto li.",
+    "english": "The child ate."
+  },
+  {
+    "id": "EX-007",
+    "level": 2,
+    "skills": [
+      "aspect"
+    ],
+    "talo": "Gouka hasiluto wi.",
+    "english": "The dog is running."
+  },
+  {
+    "id": "EX-008",
+    "level": 2,
+    "skills": [
+      "aspect"
+    ],
+    "talo": "Mi honka bacato li.",
+    "english": "I read the book."
+  },
+  {
+    "id": "EX-009",
+    "level": 2,
+    "skills": [
+      "aspect"
+    ],
+    "talo": "Ihaka datanto wi.",
+    "english": "The doctor is coming."
+  },
+  {
+    "id": "EX-010",
+    "level": 2,
+    "skills": [
+      "aspect"
+    ],
+    "talo": "Adamika tiduto li.",
+    "english": "The man slept."
+  },
+  {
+    "id": "EX-011",
+    "level": 3,
+    "skills": [
+      "negation",
+      "plural"
+    ],
+    "talo": "Mi ne tauto.",
+    "english": "I do not know."
+  },
+  {
+    "id": "EX-012",
+    "level": 3,
+    "skills": [
+      "plural"
+    ],
+    "talo": "Totoka pu makanto.",
+    "english": "The children eat."
+  },
+  {
+    "id": "EX-013",
+    "level": 3,
+    "skills": [
+      "negation"
+    ],
+    "talo": "Gouka ne kanto nekoka.",
+    "english": "The dog does not see the cat."
+  },
+  {
+    "id": "EX-014",
+    "level": 3,
+    "skills": [
+      "plural"
+    ],
+    "talo": "Hitoka pu mauto panika.",
+    "english": "The people want water."
+  },
+  {
+    "id": "EX-015",
+    "level": 3,
+    "skills": [
+      "negation"
+    ],
+    "talo": "Wanitaka ne pinato panika.",
+    "english": "The woman does not drink water."
+  },
+  {
+    "id": "EX-016",
+    "level": 4,
+    "skills": [
+      "postposition"
+    ],
+    "talo": "Totoka tiduto baitika lo.",
+    "english": "The child sleeps in the house."
+  },
+  {
+    "id": "EX-017",
+    "level": 4,
+    "skills": [
+      "postposition",
+      "ditransitive"
+    ],
+    "talo": "Mi donato honka totoka na.",
+    "english": "I give the book to the child."
+  },
+  {
+    "id": "EX-018",
+    "level": 4,
+    "skills": [
+      "postposition"
+    ],
+    "talo": "Adamika datanto baitika fe.",
+    "english": "The man comes from the house."
+  },
+  {
+    "id": "EX-019",
+    "level": 4,
+    "skills": [
+      "postposition"
+    ],
+    "talo": "Gouka makanto cakulaka baitika lo.",
+    "english": "The dog eats food in the house."
+  },
+  {
+    "id": "EX-020",
+    "level": 5,
+    "skills": [
+      "modifier"
+    ],
+    "talo": "Mi kanto gouka gandepe.",
+    "english": "I see the big dog."
+  },
+  {
+    "id": "EX-021",
+    "level": 5,
+    "skills": [
+      "numeral"
+    ],
+    "talo": "Totoka mauto honka nu.",
+    "english": "The child wants two books."
+  },
+  {
+    "id": "EX-022",
+    "level": 5,
+    "skills": [
+      "modifier"
+    ],
+    "talo": "Adamika gandepe hasiluto.",
+    "english": "The big man runs."
+  },
+  {
+    "id": "EX-023",
+    "level": 5,
+    "skills": [
+      "demonstrative"
+    ],
+    "talo": "Mi sukito gouka ini.",
+    "english": "I love this dog."
+  },
+  {
+    "id": "EX-024",
+    "level": 5,
+    "skills": [
+      "numeral"
+    ],
+    "talo": "Wanitaka kanto tolika mo.",
+    "english": "The woman sees three birds."
+  },
+  {
+    "id": "EX-025",
+    "level": 6,
+    "skills": [
+      "question"
+    ],
+    "talo": "Yu mauto seko ke.",
+    "english": "What do you want?"
+  },
+  {
+    "id": "EX-026",
+    "level": 6,
+    "skills": [
+      "conjunction"
+    ],
+    "talo": "Mi kanto gouka i nekoka.",
+    "english": "I see the dog and the cat."
+  },
+  {
+    "id": "EX-027",
+    "level": 6,
+    "skills": [
+      "conjunction"
+    ],
+    "talo": "Totoka makanto i pinato.",
+    "english": "The child eats and drinks."
+  },
+  {
+    "id": "EX-028",
+    "level": 6,
+    "skills": [
+      "question",
+      "correlative"
+    ],
+    "talo": "Sela datanto ke.",
+    "english": "Who comes?"
+  },
+  {
+    "id": "EX-029",
+    "level": 6,
+    "skills": [
+      "question"
+    ],
+    "talo": "Yu kanto gouka ke.",
+    "english": "Do you see the dog?"
+  },
+  {
+    "id": "GEN-7-001",
+    "level": 7,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Gouka kanto panika.",
+    "english": "Dog see water.",
+    "generated": true
+  },
+  {
+    "id": "GEN-7-002",
+    "level": 7,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Gouka kanto cakulaka.",
+    "english": "Dog see food.",
+    "generated": true
+  },
+  {
+    "id": "GEN-7-003",
+    "level": 7,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Gouka kanto honka.",
+    "english": "Dog see book.",
+    "generated": true
+  },
+  {
+    "id": "GEN-7-004",
+    "level": 7,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Gouka kanto nekoka.",
+    "english": "Dog see cat.",
+    "generated": true
+  },
+  {
+    "id": "GEN-7-005",
+    "level": 7,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Gouka makanto panika.",
+    "english": "Dog eat water.",
+    "generated": true
+  },
+  {
+    "id": "GEN-7-006",
+    "level": 7,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Gouka makanto cakulaka.",
+    "english": "Dog eat food.",
+    "generated": true
+  },
+  {
+    "id": "GEN-7-007",
+    "level": 7,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Gouka makanto honka.",
+    "english": "Dog eat book.",
+    "generated": true
+  },
+  {
+    "id": "GEN-7-008",
+    "level": 7,
+    "skills": [
+      "SVO"
+    ],
+    "talo": "Gouka makanto nekoka.",
+    "english": "Dog eat cat.",
+    "generated": true
+  },
+  {
+    "id": "GEN-8-001",
+    "level": 8,
+    "skills": [
+      "SVO",
+      "aspect"
+    ],
+    "talo": "Gouka kanto li panika.",
+    "english": "Dog saw water.",
+    "generated": true
+  },
+  {
+    "id": "GEN-8-002",
+    "level": 8,
+    "skills": [
+      "SVO",
+      "aspect"
+    ],
+    "talo": "Gouka kanto li cakulaka.",
+    "english": "Dog saw food.",
+    "generated": true
+  },
+  {
+    "id": "GEN-8-003",
+    "level": 8,
+    "skills": [
+      "SVO",
+      "aspect"
+    ],
+    "talo": "Gouka kanto li honka.",
+    "english": "Dog saw book.",
+    "generated": true
+  },
+  {
+    "id": "GEN-8-004",
+    "level": 8,
+    "skills": [
+      "SVO",
+      "aspect"
+    ],
+    "talo": "Gouka kanto li nekoka.",
+    "english": "Dog saw cat.",
+    "generated": true
+  },
+  {
+    "id": "GEN-8-005",
+    "level": 8,
+    "skills": [
+      "SVO",
+      "aspect"
+    ],
+    "talo": "Gouka makanto li panika.",
+    "english": "Dog ate water.",
+    "generated": true
+  },
+  {
+    "id": "GEN-8-006",
+    "level": 8,
+    "skills": [
+      "SVO",
+      "aspect"
+    ],
+    "talo": "Gouka makanto li cakulaka.",
+    "english": "Dog ate food.",
+    "generated": true
+  },
+  {
+    "id": "GEN-8-007",
+    "level": 8,
+    "skills": [
+      "SVO",
+      "aspect"
+    ],
+    "talo": "Gouka makanto li honka.",
+    "english": "Dog ate book.",
+    "generated": true
+  },
+  {
+    "id": "GEN-8-008",
+    "level": 8,
+    "skills": [
+      "SVO",
+      "aspect"
+    ],
+    "talo": "Gouka makanto li nekoka.",
+    "english": "Dog ate cat.",
+    "generated": true
+  }
+]
