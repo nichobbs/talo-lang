@@ -43,6 +43,7 @@ test("grammatical words use the fixed Leipzig labels", () => {
   assert.equal(glossToken("yu", ctx), "you");
   assert.equal(glossToken("lo", ctx), "at");
   assert.equal(glossToken("yato", ctx), "COP");             // copula root ya, badged
+  assert.equal(glossToken("kena", ctx), "PASS");            // voice particle (0014)
 });
 
 test("proper noun → English name + badge", () => {

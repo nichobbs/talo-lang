@@ -181,6 +181,11 @@ This rule is cross-referenced from `0002` §6.6.
 any other noun. The name itself is the root, **adapted to Talo phonotactics**
 exactly as a loanword is (`0003` §7: `r→l`, `j→y`, simplify clusters/codas, etc.).
 
+> **Refined by `docs/0014` §3 (hybrid policy).** Ordinary names are still adapted
+> (`Yapan`, `Lusia`), but **acronyms and global brand names are kept verbatim**
+> (NASA, ISS, SpaceX), +`-ka` only when grammar needs it — adapting an acronym
+> destroys the recognisability that is the whole point of a proper noun.
+
 ```
 Milaka datanto.            Mila.N come.V            'Mila comes.'
 Mi kanto Satoka.           I see.V Sato.N            'I see Sato.'

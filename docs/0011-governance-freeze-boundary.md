@@ -232,7 +232,9 @@ freeze makes them permanent. Current status:
    wired into CI; it now also encodes the `0012` grammar.
 4. ✅ **Closed class settled.** `0009` (reflexive/reciprocal) and the `0010`
    numeral markers are ratified; `0012` added `ce` and the modality/comparison
-   constructions. The inventory entering the freeze is fixed.
+   constructions. The inventory entering the freeze is fixed. *(Updated by `0014`:
+   the passive particle `kena` is added within the pre-1.0 correction window —
+   inventory is now "20 free words + `kena`", to be ratified at 1.0.)*
 
 All four are green, and item 1's optional native-speaker review is now **closed
 by the maintainer** (deferred to the post-1.0 correction window). **No gate
