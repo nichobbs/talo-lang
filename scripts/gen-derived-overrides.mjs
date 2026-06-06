@@ -49,10 +49,12 @@ for (const k of ["flow","rub","have","want","know","lie down","obey","wrap"]) AG
 Object.assign(AGENT, {shelter:"protector", control:"controller / manager"}); // 0013 batch5 new roots
 Object.assign(AGENT, {protect:"protector / guardian", test:"tester", diagnose:"diagnostician"}); // medical batch
 for (const k of ["harm","decline"]) AGENT_SUPPRESS.add(k); // no "harmer"/"decliner"
+Object.assign(AGENT, {sell:"seller", collect:"collector"});                       // 0020 art-market batch
+for (const k of ["threaten","allow"]) AGENT_SUPPRESS.add(k);
 const PLACE = {learn:"school",cook:"kitchen",sleep:"bedroom",bathe:"bathroom",pray:"temple / place of worship",buy:"market / shop",work:"workplace",play:"playground",bake:"bakery",fight:"battlefield",eat:"dining hall",heal:"hospital / clinic",worship:"temple",study:"school",read:"library",sell:"market",bury:"cemetery",shelter:"shelter / refuge",launch:"launchpad"};
 const INSTRUMENT = {cut:"knife / cutter",sweep:"broom",write:"pen",dig:"spade / shovel",measure:"measure / gauge",weigh:"scales"};
 const CAUSATIVE = {fall:"drop / fell",rise:"raise / lift",sit:"seat",eat:"feed",see:"show",know:"inform / tell",remember:"remind",learn:"teach",die:"kill",wake:"wake / rouse",drink:"give to drink",lie:"lay"};
-const RESULT = {build:"building",write:"writing / document",give:"gift",ask:"question",cook:"dish / cooked food",buy:"purchase / goods",draw:"drawing",paint:"painting",say:"statement",answer:"answer",pay:"payment",promise:"promise",diagnose:"diagnosis",harm:"harm / damage (n)",decline:"decline / deterioration"};
+const RESULT = {build:"building",write:"writing / document",give:"gift",ask:"question",cook:"dish / cooked food",buy:"purchase / goods",draw:"drawing",paint:"painting",say:"statement",answer:"answer",pay:"payment",promise:"promise",diagnose:"diagnosis",harm:"harm / damage (n)",decline:"decline / deterioration",threaten:"threat",allow:"permission",decide:"decision"};
 // verb → its real nominalisation (the plain noun-badge slot), where a distinct
 // English word exists rather than the template "act of X".
 const NOUN = {fly:"flight", decide:"decision", fail:"failure"};

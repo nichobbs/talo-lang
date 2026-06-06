@@ -29,6 +29,8 @@ const VOWELS = new Set([..."aeiou"]);
 // categorises the whole. Glosses are real (this layer is editorial, not
 // templated). Add freely — the script gates every entry.
 const COMPOUNDS = [
+  // ---- technology -----------------------------------------------------------
+  { parts: ["MOD-013", "COG-009"], badge: "ka", gloss: "artificial intelligence / AI (machine-mind)" },
   // ---- places: X-room / X-house (head: room DWE-010 / house DWE-001) --------
   { parts: ["PHY-008", "DWE-010"], badge: "ka", gloss: "bathroom (water-room)" },
   { parts: ["FOO-005", "DWE-001"], badge: "ka", gloss: "kitchen (cook-house)" },

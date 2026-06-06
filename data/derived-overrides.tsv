@@ -188,6 +188,7 @@ EMO-017	quality	tiredness
 EMO-019	quality	braveness
 EMO-021	quality	loneliness
 COG-010	quality	wisdom
+COG-012	patient/result	decision
 COG-012	noun	decision
 COG-019	agent	(suppress)
 COG-020	agent	(suppress)
@@ -457,6 +458,13 @@ ACT-150	agent	(suppress)
 ACT-150	patient/result	harm / damage (n)
 ACT-151	agent	(suppress)
 ACT-151	patient/result	decline / deterioration
+POS-036	agent	seller
+POS-036	place	market
+ACT-152	agent	(suppress)
+ACT-152	patient/result	threat
+ACT-153	agent	(suppress)
+ACT-153	patient/result	permission
+PROP-117	quality	originalness
 
 # class suppressions (abstract diminutives — overridable per-root above)
 COG	diminutive	(suppress)

@@ -1731,3 +1731,20 @@ ACT-149	protect	ACT	2	v	yes		IDS	medical batch (Bantu)
 ACT-150	harm / damage	ACT	2	v	yes		IDS	medical batch (Austronesian); cf saki 'pain' EMO-018
 ACT-151	decline / deteriorate	ACT	2	v	yes		IDS	medical batch (Bantu); worsen over time
 SOC-129	benefit / advantage	SOC	2	n	yes		IDS	medical batch (Bantu); cf profit/gain POS-009
+FUN-031	without	FUN	1	fun	yes		FUN	caritive postposition (0020); "X tanpa" = without X
+POS-036	sell	POS	2	v	yes		IDS	art-market article (0020)
+ACT-152	threaten	ACT	2	v	yes		IDS	art-market article (0020)
+ACT-153	allow / permit	ACT	2	v	yes		IDS	art-market article (0020); permission = +result
+PROP-116	quality	PROP	2	n	yes		MOD	art-market article (0020)
+PROP-117	original / authentic / genuine	PROP	2	mod	yes		MOD	art-market article (0020)
+POS-037	pound (currency)	POS	3	n	yes		MOD	currency noun (0020); £; "[amount] ponka"
+POS-038	dollar (currency)	POS	3	n	yes		MOD	currency (0020); $
+POS-039	euro (currency)	POS	3	n	yes		MOD	currency (0020); €
+POS-040	yen (currency)	POS	3	n	yes		MOD	currency (0020); ¥ (JP)
+POS-041	yuan / renminbi (currency)	POS	3	n	yes		MOD	currency (0020); ¥ (CN)
+POS-042	rupee (currency)	POS	3	n	yes		MOD	currency (0020)
+POS-043	franc (currency)	POS	3	n	yes		MOD	currency (0020)
+POS-044	won (currency)	POS	3	n	yes		MOD	currency (0020)
+POS-045	peso (currency)	POS	3	n	yes		MOD	currency (0020)
+POS-046	lira (currency)	POS	3	n	yes		MOD	currency (0020)
+POS-047	ruble (currency)	POS	3	n	yes		MOD	currency (0020)
