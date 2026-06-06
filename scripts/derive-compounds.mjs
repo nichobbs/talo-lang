@@ -72,6 +72,14 @@ const COMPOUNDS = [
   { parts: ["SOC-095", "KIN-001"], badge: "ka", gloss: "terrorist (terrorism-person)" },
   // ---- appended (vocab completion): capital = chief-city ------------------
   { parts: ["SOC-048", "SOC-005"], badge: "ka", gloss: "capital (chief-city)" },
+  // ---- weekdays (0016): number-first compound [N]+din+ka, Sunday = 1 -------
+  { parts: ["QTY-002", "TIM-002"], badge: "ka", gloss: "Sunday (day-1)" },
+  { parts: ["QTY-003", "TIM-002"], badge: "ka", gloss: "Monday (day-2)" },
+  { parts: ["QTY-004", "TIM-002"], badge: "ka", gloss: "Tuesday (day-3)" },
+  { parts: ["QTY-005", "TIM-002"], badge: "ka", gloss: "Wednesday (day-4)" },
+  { parts: ["QTY-006", "TIM-002"], badge: "ka", gloss: "Thursday (day-5)" },
+  { parts: ["QTY-007", "TIM-002"], badge: "ka", gloss: "Friday (day-6)" },
+  { parts: ["QTY-008", "TIM-002"], badge: "ka", gloss: "Saturday (day-7)" },
 ];
 
 // ---- loaders ---------------------------------------------------------------

@@ -34,3 +34,10 @@ COMP-032	cakulamiseka	grocery (food-shop)	noun	FOO-001+MOD-022	cakula+mise+ka
 COMP-033	dobukebunka	zoo (animal-garden)	noun	ANI-001+DWE-025	dobu+kebun+ka
 COMP-034	ilihabuhitoka	terrorist (terrorism-person)	noun	SOC-095+KIN-001	ilihabu+hito+ka
 COMP-035	mukukotaka	capital (chief-city)	noun	SOC-048+SOC-005	muku+kota+ka
+COMP-036	tadinka	Sunday (day-1)	noun	QTY-002+TIM-002	ta+din+ka
+COMP-037	kidinka	Monday (day-2)	noun	QTY-003+TIM-002	ki+din+ka
+COMP-038	modinka	Tuesday (day-3)	noun	QTY-004+TIM-002	mo+din+ka
+COMP-039	fudinka	Wednesday (day-4)	noun	QTY-005+TIM-002	fu+din+ka
+COMP-040	ledinka	Thursday (day-5)	noun	QTY-006+TIM-002	le+din+ka
+COMP-041	pikaedinka	Friday (day-6)	noun	QTY-007+TIM-002	pikae+din+ka
+COMP-042	habadinka	Saturday (day-7)	noun	QTY-008+TIM-002	haba+din+ka
