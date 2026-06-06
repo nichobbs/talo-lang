@@ -1720,3 +1720,14 @@ SOC-128	service (provided)	SOC	2	n	yes		IDS	0013 batch6 (Austronesian)
 COG-089	model / example	COG	2	n	yes		IDS	0013 batch6 (Austronesian)
 COG-090	risk	COG	2	n	yes		IDS	0013 batch6 (Austronesian)
 FUN-030	supposing / if (hypothetical)	FUN	1	fun	yes		FUN	counterfactual conditional; vs FUN-011 fi (real if) (0018)
+BOD-094	protein	BOD	3	n	yes		MOD	medical/science batch (0019 follow-up)
+BOD-095	cell (biology)	BOD	3	n	yes		MOD	medical/science batch
+BOD-096	antibody	BOD	3	n	yes		MOD	medical/science batch
+BOD-097	symptom	BOD	2	n	yes		MOD	medical batch (Austronesian)
+MOD-143	trial / experiment	MOD	2	n	yes		MOD	medical/science batch (Bantu); clinical trial
+COG-091	test / check	COG	2	v	yes		MOD	medical batch; diagnostic test
+COG-092	diagnose	COG	2	v	yes		MOD	medical batch
+ACT-149	protect	ACT	2	v	yes		IDS	medical batch (Bantu)
+ACT-150	harm / damage	ACT	2	v	yes		IDS	medical batch (Austronesian); cf saki 'pain' EMO-018
+ACT-151	decline / deteriorate	ACT	2	v	yes		IDS	medical batch (Bantu); worsen over time
+SOC-129	benefit / advantage	SOC	2	n	yes		IDS	medical batch (Bantu); cf profit/gain POS-009

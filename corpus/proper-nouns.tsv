@@ -7,3 +7,6 @@ hesibola	Hezbollah	Hezbollah -> Hesibola (z->s, cluster/coda simplified); Hesibo
 amelika	United States / America	America -> Amelika (r->l); Amelikaka
 ilan	Iran	Iran -> Ilan (r->l, coda n ok); Ilanka
 wasinton	Washington	Washington -> Wasinton (sh->s, legal codas n); Wasintonka
+alusaima	Alzheimer	Alzheimer -> Alusaima (z->s; buffer vowel breaks the 'lz' cluster; coda-free); takes -ka -> Alusaimaka
+pasebo	placebo	placebo -> Pasebo (pl cluster simplified to p); a clinical name per request; takes -ka -> Paseboka
+tau	tau (protein)	Greek-letter protein name kept as 'tau'; NB homographs the root tau 'know' (COG-001) — disambiguated by capitalisation and context
