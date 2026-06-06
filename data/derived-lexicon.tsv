@@ -1832,7 +1832,7 @@ ACT-032.takika	ogeleatakika	one who makes/causes 'swim'; instigator of 'swim'	no
 ACT-032.taboka	ogeleataboka	what is brought about by 'swim'	noun	ogelea	swim	causative-result	ogelea+ta+bo+ka
 ACT-032.kideka	ogeleakideka	place of the one who 'swim's	noun	ogelea	swim	agent-place	ogelea+ki+de+ka
 ACT-033.to	wolato	to 'fly'	verb	wola	fly	verb	wola+to
-ACT-033.ka	wolaka	act of 'fly'; a 'fly'	noun	wola	fly	noun	wola+ka
+ACT-033.ka	wolaka	flight	noun	wola	fly	noun	wola+ka
 ACT-033.pe	wolape	'fly'-ing	modifier	wola	fly	modifier	wola+pe
 ACT-033.kika	wolakika	pilot / flyer	noun	wola	fly	agent	wola+ki+ka
 ACT-033.tuka	wolatuka	tool/means for 'fly'	noun	wola	fly	instrument	wola+tu+ka
@@ -2834,7 +2834,7 @@ COG-011.takika	lagutakika	one who makes/causes 'doubt'; instigator of 'doubt'	no
 COG-011.taboka	lagutaboka	what is brought about by 'doubt'	noun	lagu	doubt	causative-result	lagu+ta+bo+ka
 COG-011.kideka	lagukideka	place of the one who 'doubt's	noun	lagu	doubt	agent-place	lagu+ki+de+ka
 COG-012.to	kimeluto	to 'decide'	verb	kimelu	decide	verb	kimelu+to
-COG-012.ka	kimeluka	act of 'decide'; a 'decide'	noun	kimelu	decide	noun	kimelu+ka
+COG-012.ka	kimeluka	decision	noun	kimelu	decide	noun	kimelu+ka
 COG-012.pe	kimelupe	'decide'-ing	modifier	kimelu	decide	modifier	kimelu+pe
 COG-012.kika	kimelukika	one who 'decide's; 'decide'-er	noun	kimelu	decide	agent	kimelu+ki+ka
 COG-012.tuka	kimelutuka	tool/means for 'decide'	noun	kimelu	decide	instrument	kimelu+tu+ka
@@ -12246,7 +12246,7 @@ ACT-147.takika	gangutakika	one who makes/causes 'disrupt / disturb'; instigator 
 ACT-147.taboka	gangutaboka	what is brought about by 'disrupt / disturb'	noun	gangu	disrupt / disturb	causative-result	gangu+ta+bo+ka
 ACT-147.kideka	gangukideka	place of the one who 'disrupt / disturb's	noun	gangu	disrupt / disturb	agent-place	gangu+ki+de+ka
 ACT-148.to	gagaeto	to 'fail / failure'	verb	gagae	fail / failure	verb	gagae+to
-ACT-148.ka	gagaeka	act of 'fail / failure'; a 'fail / failure'	noun	gagae	fail / failure	noun	gagae+ka
+ACT-148.ka	gagaeka	failure	noun	gagae	fail / failure	noun	gagae+ka
 ACT-148.pe	gagaepe	'fail / failure'-ing	modifier	gagae	fail / failure	modifier	gagae+pe
 ACT-148.kika	gagaekika	one who 'fail / failure's; 'fail / failure'-er	noun	gagae	fail / failure	agent	gagae+ki+ka
 ACT-148.tuka	gagaetuka	tool/means for 'fail / failure'	noun	gagae	fail / failure	instrument	gagae+tu+ka

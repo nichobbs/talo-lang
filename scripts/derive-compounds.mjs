@@ -93,6 +93,9 @@ const COMPOUNDS = [
   { parts: ["QTY-011", "TIM-012"], badge: "ka", gloss: "October (month-10)" },
   { parts: ["QTY-011", "QTY-002", "TIM-012"], badge: "ka", gloss: "November (month-11)" },
   { parts: ["QTY-011", "QTY-003", "TIM-012"], badge: "ka", gloss: "December (month-12)" },
+  // ---- derivable-but-handy compounds (registered for the dictionary) -------
+  { parts: ["ACT-033", "MOD-041"], badge: "ka", gloss: "airline (fly-company)" },
+  { parts: ["ACT-033", "MOD-013"], badge: "ka", gloss: "aircraft / aeroplane (fly-machine)" },
 ];
 
 // ---- loaders ---------------------------------------------------------------
