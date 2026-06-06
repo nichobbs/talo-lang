@@ -173,6 +173,24 @@ test("accept: excessive degree `tai` and the 'too X to Y' construction (0017)", 
   assert.equal(validate("sistemka gantipe tai, sehinga maniaka ne bekito kanto te").ok, true);
 });
 
+test("accept + analyze: counterfactual `andai`, ranges `X su Y`, fused numerals (0018)", () => {
+  // andai is a bare function word (counterfactual conditional), like fi
+  assert.equal(analyze("andai").functionRole, "other");
+  // fused compound numerals parse as numbers, not bare roots
+  assert.equal(analyze("dikole").functionRole, "number");   // 15
+  assert.equal(analyze("dikoki").functionRole, "number");   // 12
+  assert.equal(analyze("habadiko").functionRole, "number"); // 70
+  assert.equal(analyze("kisebu").functionRole, "number");   // 2000
+  // single numerals are recognised function words (listed in .other); a
+  // badged content word is never classed as a number
+  assert.equal(analyze("diko").kind, "function");
+  assert.notEqual(analyze("gouka").functionRole, "number");
+  // range "five to ten years" parses — postposed determiner: noun + X su Y
+  assert.equal(validate("mi datanto taunka le su diko").ok, true);
+  // counterfactual clause parses like a conditional
+  assert.equal(validate("andai te kelato li, mi somato wi").ok, true);
+});
+
 test("accept: correlative-headed relative clauses (0015)", () => {
   // subject relative: "the man who arrived"
   assert.equal(validate("adamika sela datanto li").ok, true);
