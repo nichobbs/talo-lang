@@ -89,7 +89,7 @@ export const FUNCTION_WORDS = {
   other: new Set([
     "ini", "itu",                 // demonstratives (§6.6)
     // numerals (0003 §5) — closed-class determiners, postposed (0005 §3)
-    "so", "ta", "ki", "mo", "fu", "le", "pikae", "haba", "cewa", "huba",
+    "so", "ta", "nu", "mo", "hu", "le", "co", "ki", "fa", "po",
     "diko", "samu", "sebu", "milion",
     // quantifiers (0005 §3 determiner class)
     "ote", "ingi", "kidogo", "badi", "hakuna", "lebi", "sukuna",
@@ -148,11 +148,11 @@ function functionRoleOf(token: string): string | null {
 }
 
 /** Numeral morphemes, longest-first for greedy segmentation (0003 §5). */
-const NUMERAL_MORPHS = ["milion", "sebu", "samu", "diko", "pikae", "haba", "cewa", "huba", "le", "fu", "mo", "ki", "ta", "so"];
+const NUMERAL_MORPHS = ["milion", "sebu", "samu", "diko", "so", "ta", "nu", "mo", "hu", "le", "co", "ki", "fa", "po"];
 
 /**
  * True if a token is a FUSED compound numeral — segments wholly into ≥2 numeral
- * morphemes (diko+le = 15, diko+ki = 12, haba+diko = 70). Single numerals are
+ * morphemes (diko+le = 15, diko+nu = 12, ki+diko = 70). Single numerals are
  * already in FUNCTION_WORDS.other, so this only catches the compounds.
  */
 function isCompoundNumeral(t: string): boolean {
@@ -193,8 +193,8 @@ export function analyze(token: string): WordAnalysis {
   if (CORRELATIVES.has(t)) return { ...base, kind: "correlative" };
 
   // Compound numeral: a bare token that segments entirely into ≥2 numeral
-  // morphemes is itself a numeral (diko+le = 15, diko+ki = 12, haba+diko = 70,
-  // ki+sebu = 2000). Lets percentages, years and ranges parse (0016/0018).
+  // morphemes is itself a numeral (diko+le = 15, diko+nu = 12, ki+diko = 70,
+  // nu+sebu = 2000). Lets percentages, years and ranges parse (0016/0018).
   if (isCompoundNumeral(t)) return { ...base, kind: "function", functionRole: "number" };
 
   // Content word: must end in a two-letter badge.

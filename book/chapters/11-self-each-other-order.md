@@ -45,12 +45,12 @@ sends it *between* the members of a plural subject.
 
 ## Grammar: counting in order — `NUM + -pe`
 
-A plain number *counts* ("two books" = `honka ki`). To say **which one in order**
+A plain number *counts* ("two books" = `honka nu`). To say **which one in order**
 — first, second, third — add the modifier badge `-pe` to the number:
 
 ```talo
 honka tape    › the first book     (ta "one"  + -pe)
-honka kipe    › the second book    (ki "two"  + -pe)
+honka nupe    › the second book    (nu "two"  + -pe)
 honka mope    › the third book     (mo "three"+ -pe)
 ```
 
@@ -60,10 +60,10 @@ So a bare number answers "how many?"; a number with `-pe` answers "which?".
 
 Two small markers extend the numbers further:
 
-- **`kai`** after a number means "times": `ki kai` "twice", `mo kai` "three times".
+- **`kai`** after a number means "times": `nu kai` "twice", `mo kai` "three times".
 
   ```talo
-  Mi datanto ki kai.     › I came twice.
+  Mi datanto nu kai.     › I came twice.
   Te makanto mo kai.     › He eats three times.
   ```
 
@@ -71,7 +71,7 @@ Two small markers extend the numbers further:
 
   ```talo
   ta bagi mo             › one third   (1 ÷ 3)
-  ki bagi le             › two fifths
+  nu bagi le             › two fifths
   ```
 
   The everyday word `setenga` "half" is kept for its own sake:

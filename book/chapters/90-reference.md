@@ -53,7 +53,7 @@ comparison:   X … lebi  Y fe       more X than Y     (lebi … fe; "than" = fe
 describing:   noun + VERB-pe        the noun that V-s (kanuka hasilupe = "running dog")
               two clauses + te      the noun (that) I V-ed   (Mi kanto X. Te …)
 ordinal:      number + -pe          first, second …   (honka mope = "third book")
-times:        number + kai          twice, 3 times    (ki kai = "twice")
+times:        number + kai          twice, 3 times    (nu kai = "twice")
 fraction:     number bagi number    a ÷ b             (ta bagi mo = "one third")
 ```
 
@@ -65,5 +65,5 @@ times endings `-la` person · `-ko` thing · `-lo` place · `-no` time · `-fu` 
 
 ## Numbers
 
-`so` 0 · `ta` 1 · `ki` 2 · `mo` 3 · `fu` 4 · `le` 5 · `pikae` 6 · `haba` 7 ·
-`cewa` 8 · `huba` 9 · `diko` 10 · `samu` 100.
+`so` 0 · `ta` 1 · `nu` 2 · `mo` 3 · `hu` 4 · `le` 5 · `co` 6 · `ki` 7 ·
+`fa` 8 · `po` 9 · `diko` 10 · `samu` 100. (Onset = Major-System mnemonic digit; 0019.)

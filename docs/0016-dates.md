@@ -18,10 +18,10 @@ strongest positive transfer for the first-second-language learner (`0000`).
 
 | unit | form | rule | example |
 |---|---|---|---|
-| **weekday** (Sunday = 1) | **compound** | `[numeral] + din + ka` | `kidinka` = Monday (2-day) |
-| **month** (January = 1) | **compound** | `[numeral] + lun + ka` | `pikaelunka` = June (6-month) |
+| **weekday** (Sunday = 1) | **compound** | `[numeral] + din + ka` | `nudinka` = Monday (2-day) |
+| **month** (January = 1) | **compound** | `[numeral] + lun + ka` | `colunka` = June (6-month) |
 | **day of month** | phrase | `dinka [numeral]` | `dinka le` = the 5th |
-| **year** | phrase | `taunka [numeral]` | `taunka kisebukidikopikae` = 2026 |
+| **year** | phrase | `taunka [numeral]` | `taunka nusebunudikoco` = 2026 |
 
 Weekdays and months share **one rule** — `[numeral] + unit + ka`, with the
 day-unit `din` and the month-unit **`lun`** (← *lunar*; `month` was re-sourced
@@ -44,8 +44,8 @@ modifier-before-head order (§8), which also keeps every form phonotactically cl
 because each numeral ends in a vowel:
 
 ```
-tadinka  kidinka  …  habadinka          (Sun … Sat)
-talunka  kilunka  …  dikokilunka        (Jan … Dec; 11=dikota-, 12=dikoki-)
+tadinka  nudinka  …  kidinka            (Sun … Sat)
+talunka  nulunka  …  dikonulunka        (Jan … Dec; 11=dikota-, 12=dikonu-)
 ```
 
 (`din`/`lun`-*first* — e.g. *dinmoka* — would break R4: `n`+`m`/`l`/`f`/`h` is an
@@ -54,7 +54,7 @@ registered in `data/compounds.tsv`.
 
 **Days-of-month and years stay number+unit phrases:**
 - a **year cannot fuse** — its numeral is itself multi-word (2026 =
-  `ki sebu, ki diko, pikae`) — so year is necessarily `taunka [numeral]`;
+  `nu sebu, nu diko, co`) — so year is necessarily `taunka [numeral]`;
 - **day-of-month** is `dinka` + the **cardinal** (`dinka le` = "the 5th"); keeping
   it phrasal-cardinal distinguishes it from the fused weekday, whose count is
   internal (`ledinka` = Thursday). So `dinka le` (a date) is never the weekday

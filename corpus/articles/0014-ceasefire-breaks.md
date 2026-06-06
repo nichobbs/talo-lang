@@ -22,7 +22,7 @@ remains big.
 
 ```talo
 # --- the truce and its collapse (huduna "ceasefire"; tomalu "hold/last") ---
-negalaka ki setuyuto hudunaka                    › The two countries agreed to a ceasefire.
+negalaka nu setuyuto hudunaka                    › The two countries agreed to a ceasefire.
 # gloss: country-N two agree-V ceasefire-N
 ma hudunaka ne tomaluto                          › But the ceasefire did not hold.
 # gloss: but ceasefire-N NEG last-V

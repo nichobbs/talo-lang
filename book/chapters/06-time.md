@@ -72,10 +72,10 @@ For an exact count, use a number word instead (numbers come after the noun, like
 other determiners):
 
 ```talo
-Mi motuto kanuka ki.     › I have two dogs.
+Mi motuto kanuka nu.     › I have two dogs.
 ```
 
-(`ki` is "two"; `motu` is "have".)
+(`nu` is "two"; `motu` is "have".)
 
 ## Vocabulary
 
@@ -85,7 +85,7 @@ Mi motuto kanuka ki.     › I have two dogs.
 | pu | (plural) |
 | leo keso yana inino | today tomorrow yesterday now |
 | motu | have |
-| ta ki mo | one two three |
+| ta nu mo | one two three |
 
 ## Exercises
 

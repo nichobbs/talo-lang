@@ -46,7 +46,7 @@ dictionary.
 postposed measure phrase**, as in Mandarin (减少 70%):
 
 ```
-te reducto henti-yamuka  habadiko percent
+te reducto henti-yamuka  kidiko percent
 it reduce-V downtime-N   seventy percent
 "it reduced downtime by 70%"
 ```
@@ -60,11 +60,11 @@ Composes from the multiplicative `kai` (N times, `0010`) and the comparative
 standard `lebi … fe` (`0012`):
 
 ```
-ki kai          "double" (two times)
-lebi ki kai fe  "more than double" (more than two-times)
+nu kai          "double" (two times)
+lebi nu kai fe  "more than double" (more than two-times)
 ```
 
-"forecast to more than double within three years" → `… lebi ki kai fe, naka mo
+"forecast to more than double within three years" → `… lebi nu kai fe, naka mo
 taunka` (… more than 2×, within three years). Documentation only.
 
 ## 4. Change set

@@ -137,7 +137,7 @@ findings shaped its (deliberately small) scope:
 
 - **Appended-vowel suffixes are load-bearing, not noise.** Of the forms whose
   surface ends in a vowel the donor lacks (e.g. `pafu`→`pafua` "lung", `pika`→
-  `pikae` "six"), **every single one** was checked by removing the suffix — and
+  `co` "six"), **every single one** was checked by removing the suffix — and
   **all collided** (homophone or near-homophone) with an existing word. The
   suffix is the autofixer's disambiguation, so stripping it would reintroduce a
   collision. These were left as-is.

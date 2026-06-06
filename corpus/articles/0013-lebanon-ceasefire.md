@@ -35,7 +35,7 @@ te hentito pelanka lagia                                 › They will stop the 
 # gloss: they stop-V war-N again
 te yengato padesaka salamape Lebanonka lo               › They will make safe areas in Lebanon.
 # gloss: they make-V area-N safe-MOD Lebanon-N at
-negalaka ki katasato Hesibolaka we lagakika padesaka ini lo   › In these areas the two countries forbid Hezbollah's fighters.
+negalaka nu katasato Hesibolaka we lagakika padesaka ini lo   › In these areas the two countries forbid Hezbollah's fighters.
 # gloss: country-N two forbid-V Hezbollah-N GEN fighter-N area-N this at
 Amelikaka anunioto setuyuka Wasintonka lo               › America announced the agreement in Washington.
 # gloss: America-N announce-V agreement-N Washington-N at
@@ -59,7 +59,7 @@ Hesibolaka yato aduika                                   › Hezbollah is an ene
 # gloss: Hezbollah-N COP enemy-N
 
 # --- reaction ---
-negalaka ki semato lagia                                 › The two countries will talk again.
+negalaka nu semato lagia                                 › The two countries will talk again.
 # gloss: country-N two speak-V again
 Isalaelika we mentelika semato li                        › An Israeli minister said:
 # gloss: Israel-N GEN minister-N say-V COMPLETIVE

@@ -61,9 +61,9 @@ are postposed.)
 
 ## 3. Fused compound numerals parse as numbers (parser fix)
 
-Single numerals (`so ta ki … diko samu sebu milion`) are listed in the parser's
+Single numerals (`so ta nu … diko samu sebu milion`) are listed in the parser's
 `FUNCTION_WORDS.other`, but **fused** compound numerals — written as one token —
-were not, so `dikole` (15), `dikoki` (12), `habadiko` (70), `kisebu` (2000) fell
+were not, so `dikole` (15), `dikonu` (12), `kidiko` (70), `nusebu` (2000) fell
 through to `S1_BARE_ROOT`. They are not bare roots; they are numerals.
 
 The morphology analyzer now recognises a token that segments **entirely into ≥2
@@ -74,14 +74,14 @@ This lets percentages, years, and the §2 ranges parse cleanly.
 
 ```ts
 // morphology.ts
-const NUMERAL_MORPHS = ["milion","sebu","samu","diko","pikae","haba","cewa",
-                        "huba","le","fu","mo","ki","ta","so"];
+const NUMERAL_MORPHS = ["milion","sebu","samu","diko","so","ta","nu",
+                        "mo","hu","le","co","ki","fa","po"];
 ```
 
-> **Note (open review).** `NUMERAL_MORPHS` mirrors the current 0003 §5 set. A
-> pending review of the digits 6–9 (the blend forms `pikae/haba/cewa/huba`) may
-> revise these morphemes; any re-mint updates this list and the weekday/month
-> compounds in lock-step.
+> **Note.** `NUMERAL_MORPHS` mirrors the 0003 §5 set. The digits 6–9 were
+> subsequently re-minted (the blend forms `pikae/haba/cewa/huba` retired) under
+> the Major-System alignment of **`docs/0019`**, which updated this list and the
+> weekday/month compounds in lock-step.
 
 ## 4. Change set
 

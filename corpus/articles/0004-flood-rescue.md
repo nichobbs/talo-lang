@@ -23,8 +23,8 @@ sailabaka gandepe tatakuto kotaka dinka ta   › A big flood struck the city on 
 baitika ingi pecato li                        › Many houses broke.
 # gloss: house-N many break-V COMPLETIVE
 
-# 3 — okoa "rescue"; mungi precedes the numeral it hedges (0008 §3); 20 = ki diko
-kelopoka okoato hitoka mungi ki diko          › A team rescued about twenty people.
+# 3 — okoa "rescue"; mungi precedes the numeral it hedges (0008 §3); 20 = nu diko
+kelopoka okoato hitoka mungi nu diko          › A team rescued about twenty people.
 # gloss: group-N rescue-V person-N about two ten
 
 # 4–5 — reported speech as juxtaposition (0008 §2); ote "all" determiner

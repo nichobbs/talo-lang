@@ -41,8 +41,8 @@ panika?` / `Itu kunato baitika lo.` **10.3** (your own — check each content wo
 ends in `-ka`, `-to`, or `-pe`.)
 
 **Ch. 11** — **11.1** `Te kanto sendi.` / `Ayalikika sendi datanto li.` **11.2**
-`Te tolonato salin.` **11.3** `baitika kipe`, `dinka tape`. **11.4** `Mi datanto
-ki kai.` / `ta bagi mo`.
+`Te tolonato salin.` **11.3** `baitika nupe`, `dinka tape`. **11.4** `Mi datanto
+nu kai.` / `ta bagi mo`.
 
 **Ch. 12** — **12.1** `Kanuka yato gandepe lebi nekoka fe.` **12.2** `hitoka
 tolonape`, `nekoka makanpe`. **12.3** `Yu bekito datanto.` / `Mi ne bisato
