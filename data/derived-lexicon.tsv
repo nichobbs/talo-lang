@@ -2838,7 +2838,7 @@ COG-012.ka	kimeluka	decision	noun	kimelu	decide	noun	kimelu+ka
 COG-012.pe	kimelupe	'decide'-ing	modifier	kimelu	decide	modifier	kimelu+pe
 COG-012.kika	kimelukika	one who 'decide's; 'decide'-er	noun	kimelu	decide	agent	kimelu+ki+ka
 COG-012.tuka	kimelutuka	tool/means for 'decide'	noun	kimelu	decide	instrument	kimelu+tu+ka
-COG-012.boka	kimeluboka	thing 'decide'-ed; result of 'decide'	noun	kimelu	decide	patient/result	kimelu+bo+ka
+COG-012.boka	kimeluboka	decision	noun	kimelu	decide	patient/result	kimelu+bo+ka
 COG-012.deka	kimeludeka	place for 'decide'	noun	kimelu	decide	place	kimelu+de+ka
 COG-012.tato	kimelutato	to make/cause to 'decide'	verb	kimelu	decide	causative	kimelu+ta+to
 COG-012.pito	kimelupito	to begin to 'decide'	verb	kimelu	decide	inchoative	kimelu+pi+to
@@ -12371,3 +12371,117 @@ SOC-129.to	manufato	to use/apply 'benefit / advantage'; to act as 'benefit / adv
 SOC-129.cika	manufacika	little 'benefit / advantage'; small/dear 'benefit / advantage'	noun	manufa	benefit / advantage	diminutive	manufa+ci+ka
 SOC-129.goka	manufagoka	big 'benefit / advantage'; great 'benefit / advantage'	noun	manufa	benefit / advantage	augmentative	manufa+go+ka
 SOC-129.deka	manufadeka	place of/for 'benefit / advantage'	noun	manufa	benefit / advantage	place	manufa+de+ka
+POS-036.to	yualato	to 'sell'	verb	yuala	sell	verb	yuala+to
+POS-036.ka	yualaka	act of 'sell'; a 'sell'	noun	yuala	sell	noun	yuala+ka
+POS-036.pe	yualape	'sell'-ing	modifier	yuala	sell	modifier	yuala+pe
+POS-036.kika	yualakika	seller	noun	yuala	sell	agent	yuala+ki+ka
+POS-036.tuka	yualatuka	tool/means for 'sell'	noun	yuala	sell	instrument	yuala+tu+ka
+POS-036.boka	yualaboka	thing 'sell'-ed; result of 'sell'	noun	yuala	sell	patient/result	yuala+bo+ka
+POS-036.deka	yualadeka	market	noun	yuala	sell	place	yuala+de+ka
+POS-036.tato	yualatato	to make/cause to 'sell'	verb	yuala	sell	causative	yuala+ta+to
+POS-036.pito	yualapito	to begin to 'sell'	verb	yuala	sell	inchoative	yuala+pi+to
+POS-036.takika	yualatakika	one who makes/causes 'sell'; instigator of 'sell'	noun	yuala	sell	causative-agent	yuala+ta+ki+ka
+POS-036.taboka	yualataboka	what is brought about by 'sell'	noun	yuala	sell	causative-result	yuala+ta+bo+ka
+POS-036.kideka	yualakideka	place of the one who 'sell's	noun	yuala	sell	agent-place	yuala+ki+de+ka
+ACT-152.to	ancamato	to 'threaten'	verb	ancama	threaten	verb	ancama+to
+ACT-152.ka	ancamaka	act of 'threaten'; a 'threaten'	noun	ancama	threaten	noun	ancama+ka
+ACT-152.pe	ancamape	'threaten'-ing	modifier	ancama	threaten	modifier	ancama+pe
+ACT-152.tuka	ancamatuka	tool/means for 'threaten'	noun	ancama	threaten	instrument	ancama+tu+ka
+ACT-152.boka	ancamaboka	threat	noun	ancama	threaten	patient/result	ancama+bo+ka
+ACT-152.deka	ancamadeka	place for 'threaten'	noun	ancama	threaten	place	ancama+de+ka
+ACT-152.tato	ancamatato	to make/cause to 'threaten'	verb	ancama	threaten	causative	ancama+ta+to
+ACT-152.pito	ancamapito	to begin to 'threaten'	verb	ancama	threaten	inchoative	ancama+pi+to
+ACT-152.takika	ancamatakika	one who makes/causes 'threaten'; instigator of 'threaten'	noun	ancama	threaten	causative-agent	ancama+ta+ki+ka
+ACT-152.taboka	ancamataboka	what is brought about by 'threaten'	noun	ancama	threaten	causative-result	ancama+ta+bo+ka
+ACT-152.kideka	ancamakideka	place of the one who 'threaten's	noun	ancama	threaten	agent-place	ancama+ki+de+ka
+ACT-153.to	isinito	to 'allow / permit'	verb	isini	allow / permit	verb	isini+to
+ACT-153.ka	isinika	act of 'allow / permit'; a 'allow / permit'	noun	isini	allow / permit	noun	isini+ka
+ACT-153.pe	isinipe	'allow / permit'-ing	modifier	isini	allow / permit	modifier	isini+pe
+ACT-153.tuka	isinituka	tool/means for 'allow / permit'	noun	isini	allow / permit	instrument	isini+tu+ka
+ACT-153.boka	isiniboka	permission	noun	isini	allow / permit	patient/result	isini+bo+ka
+ACT-153.deka	isinideka	place for 'allow / permit'	noun	isini	allow / permit	place	isini+de+ka
+ACT-153.tato	isinitato	to make/cause to 'allow / permit'	verb	isini	allow / permit	causative	isini+ta+to
+ACT-153.pito	isinipito	to begin to 'allow / permit'	verb	isini	allow / permit	inchoative	isini+pi+to
+ACT-153.takika	isinitakika	one who makes/causes 'allow / permit'; instigator of 'allow / permit'	noun	isini	allow / permit	causative-agent	isini+ta+ki+ka
+ACT-153.taboka	isinitaboka	what is brought about by 'allow / permit'	noun	isini	allow / permit	causative-result	isini+ta+bo+ka
+ACT-153.kideka	isinikideka	place of the one who 'allow / permit's	noun	isini	allow / permit	agent-place	isini+ki+de+ka
+PROP-116.ka	ubolaka	quality	noun	ubola	quality	noun	ubola+ka
+PROP-116.pe	ubolape	of/like 'quality'; 'quality'-related	modifier	ubola	quality	modifier	ubola+pe
+PROP-116.to	ubolato	to use/apply 'quality'; to act as 'quality'	verb	ubola	quality	verb	ubola+to
+PROP-116.cika	ubolacika	little 'quality'; small/dear 'quality'	noun	ubola	quality	diminutive	ubola+ci+ka
+PROP-116.goka	ubolagoka	big 'quality'; great 'quality'	noun	ubola	quality	augmentative	ubola+go+ka
+PROP-116.deka	uboladeka	place of/for 'quality'	noun	ubola	quality	place	ubola+de+ka
+PROP-117.pe	asilipe	original / authentic / genuine	modifier	asili	original / authentic / genuine	modifier	asili+pe
+PROP-117.ka	asilika	'original / authentic / genuine'-ness; the quality 'original / authentic / genuine'	noun	asili	original / authentic / genuine	noun	asili+ka
+PROP-117.paka	asilipaka	originalness	noun	asili	original / authentic / genuine	quality	asili+pa+ka
+PROP-117.kupe	asilikupe	opposite of 'original / authentic / genuine'; un-'original / authentic / genuine'	modifier	asili	original / authentic / genuine	opposite	asili+ku+pe
+PROP-117.tato	asilitato	to make 'original / authentic / genuine'	verb	asili	original / authentic / genuine	causative	asili+ta+to
+PROP-117.pito	asilipito	to become 'original / authentic / genuine'	verb	asili	original / authentic / genuine	inchoative	asili+pi+to
+PROP-117.gope	asiligope	very 'original / authentic / genuine'; intensely 'original / authentic / genuine'	modifier	asili	original / authentic / genuine	augmentative	asili+go+pe
+PROP-117.cipe	asilicipe	'original / authentic / genuine'-ish; somewhat 'original / authentic / genuine'	modifier	asili	original / authentic / genuine	diminutive	asili+ci+pe
+PROP-117.kupaka	asilikupaka	un-'original / authentic / genuine'-ness; the quality of being not 'original / authentic / genuine'	noun	asili	original / authentic / genuine	opposite-quality	asili+ku+pa+ka
+PROP-117.takika	asilitakika	one who makes things 'original / authentic / genuine'	noun	asili	original / authentic / genuine	causative-agent	asili+ta+ki+ka
+POS-037.ka	ponka	pound (currency)	noun	pon	pound (currency)	noun	pon+ka
+POS-037.pe	ponpe	of/like 'pound (currency)'; 'pound (currency)'-related	modifier	pon	pound (currency)	modifier	pon+pe
+POS-037.to	ponto	to use/apply 'pound (currency)'; to act as 'pound (currency)'	verb	pon	pound (currency)	verb	pon+to
+POS-037.cika	poncika	little 'pound (currency)'; small/dear 'pound (currency)'	noun	pon	pound (currency)	diminutive	pon+ci+ka
+POS-037.goka	pongoka	big 'pound (currency)'; great 'pound (currency)'	noun	pon	pound (currency)	augmentative	pon+go+ka
+POS-037.deka	pondeka	place of/for 'pound (currency)'	noun	pon	pound (currency)	place	pon+de+ka
+POS-038.ka	dolanka	dollar (currency)	noun	dolan	dollar (currency)	noun	dolan+ka
+POS-038.pe	dolanpe	of/like 'dollar (currency)'; 'dollar (currency)'-related	modifier	dolan	dollar (currency)	modifier	dolan+pe
+POS-038.to	dolanto	to use/apply 'dollar (currency)'; to act as 'dollar (currency)'	verb	dolan	dollar (currency)	verb	dolan+to
+POS-038.cika	dolancika	little 'dollar (currency)'; small/dear 'dollar (currency)'	noun	dolan	dollar (currency)	diminutive	dolan+ci+ka
+POS-038.goka	dolangoka	big 'dollar (currency)'; great 'dollar (currency)'	noun	dolan	dollar (currency)	augmentative	dolan+go+ka
+POS-038.deka	dolandeka	place of/for 'dollar (currency)'	noun	dolan	dollar (currency)	place	dolan+de+ka
+POS-039.ka	euloka	euro (currency)	noun	eulo	euro (currency)	noun	eulo+ka
+POS-039.pe	eulope	of/like 'euro (currency)'; 'euro (currency)'-related	modifier	eulo	euro (currency)	modifier	eulo+pe
+POS-039.to	euloto	to use/apply 'euro (currency)'; to act as 'euro (currency)'	verb	eulo	euro (currency)	verb	eulo+to
+POS-039.cika	eulocika	little 'euro (currency)'; small/dear 'euro (currency)'	noun	eulo	euro (currency)	diminutive	eulo+ci+ka
+POS-039.goka	eulogoka	big 'euro (currency)'; great 'euro (currency)'	noun	eulo	euro (currency)	augmentative	eulo+go+ka
+POS-039.deka	eulodeka	place of/for 'euro (currency)'	noun	eulo	euro (currency)	place	eulo+de+ka
+POS-040.pe	yenpe	of/like 'yen (currency)'; 'yen (currency)'-related	modifier	yen	yen (currency)	modifier	yen+pe
+POS-040.to	yento	to use/apply 'yen (currency)'; to act as 'yen (currency)'	verb	yen	yen (currency)	verb	yen+to
+POS-040.cika	yencika	little 'yen (currency)'; small/dear 'yen (currency)'	noun	yen	yen (currency)	diminutive	yen+ci+ka
+POS-040.goka	yengoka	big 'yen (currency)'; great 'yen (currency)'	noun	yen	yen (currency)	augmentative	yen+go+ka
+POS-040.deka	yendeka	place of/for 'yen (currency)'	noun	yen	yen (currency)	place	yen+de+ka
+POS-041.ka	yuanka	yuan / renminbi (currency)	noun	yuan	yuan / renminbi (currency)	noun	yuan+ka
+POS-041.pe	yuanpe	of/like 'yuan / renminbi (currency)'; 'yuan / renminbi (currency)'-related	modifier	yuan	yuan / renminbi (currency)	modifier	yuan+pe
+POS-041.to	yuanto	to use/apply 'yuan / renminbi (currency)'; to act as 'yuan / renminbi (currency)'	verb	yuan	yuan / renminbi (currency)	verb	yuan+to
+POS-041.cika	yuancika	little 'yuan / renminbi (currency)'; small/dear 'yuan / renminbi (currency)'	noun	yuan	yuan / renminbi (currency)	diminutive	yuan+ci+ka
+POS-041.goka	yuangoka	big 'yuan / renminbi (currency)'; great 'yuan / renminbi (currency)'	noun	yuan	yuan / renminbi (currency)	augmentative	yuan+go+ka
+POS-041.deka	yuandeka	place of/for 'yuan / renminbi (currency)'	noun	yuan	yuan / renminbi (currency)	place	yuan+de+ka
+POS-042.ka	lupiaka	rupee (currency)	noun	lupia	rupee (currency)	noun	lupia+ka
+POS-042.pe	lupiape	of/like 'rupee (currency)'; 'rupee (currency)'-related	modifier	lupia	rupee (currency)	modifier	lupia+pe
+POS-042.to	lupiato	to use/apply 'rupee (currency)'; to act as 'rupee (currency)'	verb	lupia	rupee (currency)	verb	lupia+to
+POS-042.cika	lupiacika	little 'rupee (currency)'; small/dear 'rupee (currency)'	noun	lupia	rupee (currency)	diminutive	lupia+ci+ka
+POS-042.goka	lupiagoka	big 'rupee (currency)'; great 'rupee (currency)'	noun	lupia	rupee (currency)	augmentative	lupia+go+ka
+POS-042.deka	lupiadeka	place of/for 'rupee (currency)'	noun	lupia	rupee (currency)	place	lupia+de+ka
+POS-043.ka	falanka	franc (currency)	noun	falan	franc (currency)	noun	falan+ka
+POS-043.pe	falanpe	of/like 'franc (currency)'; 'franc (currency)'-related	modifier	falan	franc (currency)	modifier	falan+pe
+POS-043.to	falanto	to use/apply 'franc (currency)'; to act as 'franc (currency)'	verb	falan	franc (currency)	verb	falan+to
+POS-043.cika	falancika	little 'franc (currency)'; small/dear 'franc (currency)'	noun	falan	franc (currency)	diminutive	falan+ci+ka
+POS-043.goka	falangoka	big 'franc (currency)'; great 'franc (currency)'	noun	falan	franc (currency)	augmentative	falan+go+ka
+POS-043.deka	falandeka	place of/for 'franc (currency)'	noun	falan	franc (currency)	place	falan+de+ka
+POS-044.ka	wonka	won (currency)	noun	won	won (currency)	noun	won+ka
+POS-044.pe	wonpe	of/like 'won (currency)'; 'won (currency)'-related	modifier	won	won (currency)	modifier	won+pe
+POS-044.to	wonto	to use/apply 'won (currency)'; to act as 'won (currency)'	verb	won	won (currency)	verb	won+to
+POS-044.cika	woncika	little 'won (currency)'; small/dear 'won (currency)'	noun	won	won (currency)	diminutive	won+ci+ka
+POS-044.deka	wondeka	place of/for 'won (currency)'	noun	won	won (currency)	place	won+de+ka
+POS-045.ka	pesoka	peso (currency)	noun	peso	peso (currency)	noun	peso+ka
+POS-045.pe	pesope	of/like 'peso (currency)'; 'peso (currency)'-related	modifier	peso	peso (currency)	modifier	peso+pe
+POS-045.to	pesoto	to use/apply 'peso (currency)'; to act as 'peso (currency)'	verb	peso	peso (currency)	verb	peso+to
+POS-045.cika	pesocika	little 'peso (currency)'; small/dear 'peso (currency)'	noun	peso	peso (currency)	diminutive	peso+ci+ka
+POS-045.goka	pesogoka	big 'peso (currency)'; great 'peso (currency)'	noun	peso	peso (currency)	augmentative	peso+go+ka
+POS-045.deka	pesodeka	place of/for 'peso (currency)'	noun	peso	peso (currency)	place	peso+de+ka
+POS-046.ka	lilaka	lira (currency)	noun	lila	lira (currency)	noun	lila+ka
+POS-046.pe	lilape	of/like 'lira (currency)'; 'lira (currency)'-related	modifier	lila	lira (currency)	modifier	lila+pe
+POS-046.to	lilato	to use/apply 'lira (currency)'; to act as 'lira (currency)'	verb	lila	lira (currency)	verb	lila+to
+POS-046.cika	lilacika	little 'lira (currency)'; small/dear 'lira (currency)'	noun	lila	lira (currency)	diminutive	lila+ci+ka
+POS-046.goka	lilagoka	big 'lira (currency)'; great 'lira (currency)'	noun	lila	lira (currency)	augmentative	lila+go+ka
+POS-046.deka	liladeka	place of/for 'lira (currency)'	noun	lila	lira (currency)	place	lila+de+ka
+POS-047.ka	lubelika	ruble (currency)	noun	lubeli	ruble (currency)	noun	lubeli+ka
+POS-047.pe	lubelipe	of/like 'ruble (currency)'; 'ruble (currency)'-related	modifier	lubeli	ruble (currency)	modifier	lubeli+pe
+POS-047.to	lubelito	to use/apply 'ruble (currency)'; to act as 'ruble (currency)'	verb	lubeli	ruble (currency)	verb	lubeli+to
+POS-047.cika	lubelicika	little 'ruble (currency)'; small/dear 'ruble (currency)'	noun	lubeli	ruble (currency)	diminutive	lubeli+ci+ka
+POS-047.goka	lubeligoka	big 'ruble (currency)'; great 'ruble (currency)'	noun	lubeli	ruble (currency)	augmentative	lubeli+go+ka
+POS-047.deka	lubelideka	place of/for 'ruble (currency)'	noun	lubeli	ruble (currency)	place	lubeli+de+ka

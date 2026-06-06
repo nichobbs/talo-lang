@@ -1,57 +1,58 @@
 id	form	gloss	pos	parts	morphemes
-COMP-001	panikamaka	bathroom (water-room)	noun	PHY-008+DWE-010	pani+kama+ka
-COMP-002	pikabaitika	kitchen (cook-house)	noun	FOO-005+DWE-001	pika+baiti+ka
-COMP-003	tidukamaka	bedroom (sleep-room)	noun	BOD-027+DWE-010	tidu+kama+ka
-COMP-004	makankamaka	dining room (eat-room)	noun	BOD-028+DWE-010	makan+kama+ka
-COMP-005	totokamaka	nursery (child-room)	noun	KIN-004+DWE-010	toto+kama+ka
-COMP-006	kasikamaka	office (work-room)	noun	ACT-034+DWE-010	kasi+kama+ka
-COMP-007	honbaitika	library (book-house)	noun	MOD-002+DWE-001	hon+baiti+ka
-COMP-008	ugonabaitika	hospital (sick-house)	noun	MOD-047+DWE-001	ugona+baiti+ka
-COMP-009	uanbaitika	bank (money-house)	noun	MOD-001+DWE-001	uan+baiti+ka
-COMP-010	belayabaitika	school (learn-house)	noun	COG-004+DWE-001	belaya+baiti+ka
-COMP-011	kasibaitika	workshop (work-house)	noun	ACT-034+DWE-001	kasi+baiti+ka
-COMP-012	kayubaitika	wooden house (wood-house)	noun	AGR-003+DWE-001	kayu+baiti+ka
-COMP-013	batubaitika	stone house (stone-house)	noun	PHY-013+DWE-001	batu+baiti+ka
-COMP-014	gandebaitika	mansion (big-house)	noun	PROP-001+DWE-001	gande+baiti+ka
-COMP-015	pikobaitika	cottage / hut (small-house)	noun	PROP-002+DWE-001	piko+baiti+ka
-COMP-016	ugonahitoka	patient (sick-person)	noun	MOD-047+KIN-001	ugona+hito+ka
-COMP-017	gandehitoka	adult / grown-up (big-person)	noun	PROP-001+KIN-001	gande+hito+ka
-COMP-018	kasihitoka	worker (work-person)	noun	ACT-034+KIN-001	kasi+hito+ka
-COMP-019	pikahitoka	cook / chef (cook-person)	noun	FOO-005+KIN-001	pika+hito+ka
-COMP-020	kadimuhitoka	elder (old-person)	noun	PROP-090+KIN-001	kadimu+hito+ka
-COMP-021	kepalasakika	headache (head-pain)	noun	BOD-001+EMO-018	kepala+saki+ka
-COMP-022	gigisakika	toothache (tooth-pain)	noun	BOD-007+EMO-018	gigi+saki+ka
-COMP-023	matapanika	tears (eye-water)	noun	BOD-003+PHY-008	mata+pani+ka
-COMP-024	taiohikalika	sunlight (sun-light)	noun	PHY-001+PHY-026	taio+hikali+ka
-COMP-025	hosihikalika	starlight (star-light)	noun	PHY-003+PHY-026	hosi+hikali+ka
-COMP-026	dinahikalika	daylight (day-light)	noun	TIM-002+PHY-026	din+hikali+ka
-COMP-027	panitolika	waterfowl (water-bird)	noun	PHY-008+ANI-004	pani+toli+ka
-COMP-028	umidobuka	sea creature (sea-animal)	noun	PHY-009+ANI-001	umi+dobu+ka
-COMP-029	amedinka	rainy day (rain-day)	noun	PHY-022+TIM-002	ame+din+ka
-COMP-030	nenohonka	dictionary (word-book)	noun	SPE-002+MOD-002	neno+hon+ka
-COMP-031	honamiseka	bookstore (book-shop)	noun	MOD-002+MOD-022	hon+mise+ka
-COMP-032	cakulamiseka	grocery (food-shop)	noun	FOO-001+MOD-022	cakula+mise+ka
-COMP-033	dobukebunka	zoo (animal-garden)	noun	ANI-001+DWE-025	dobu+kebun+ka
-COMP-034	ilihabuhitoka	terrorist (terrorism-person)	noun	SOC-095+KIN-001	ilihabu+hito+ka
-COMP-035	mukukotaka	capital (chief-city)	noun	SOC-048+SOC-005	muku+kota+ka
-COMP-036	tadinka	Sunday (day-1)	noun	QTY-002+TIM-002	ta+din+ka
-COMP-037	nudinka	Monday (day-2)	noun	QTY-003+TIM-002	nu+din+ka
-COMP-038	modinka	Tuesday (day-3)	noun	QTY-004+TIM-002	mo+din+ka
-COMP-039	hudinka	Wednesday (day-4)	noun	QTY-005+TIM-002	hu+din+ka
-COMP-040	ledinka	Thursday (day-5)	noun	QTY-006+TIM-002	le+din+ka
-COMP-041	codinka	Friday (day-6)	noun	QTY-007+TIM-002	co+din+ka
-COMP-042	kidinka	Saturday (day-7)	noun	QTY-008+TIM-002	ki+din+ka
-COMP-043	talunka	January (month-1)	noun	QTY-002+TIM-012	ta+lun+ka
-COMP-044	nulunka	February (month-2)	noun	QTY-003+TIM-012	nu+lun+ka
-COMP-045	molunka	March (month-3)	noun	QTY-004+TIM-012	mo+lun+ka
-COMP-046	hulunka	April (month-4)	noun	QTY-005+TIM-012	hu+lun+ka
-COMP-047	lelunka	May (month-5)	noun	QTY-006+TIM-012	le+lun+ka
-COMP-048	colunka	June (month-6)	noun	QTY-007+TIM-012	co+lun+ka
-COMP-049	kilunka	July (month-7)	noun	QTY-008+TIM-012	ki+lun+ka
-COMP-050	falunka	August (month-8)	noun	QTY-009+TIM-012	fa+lun+ka
-COMP-051	polunka	September (month-9)	noun	QTY-010+TIM-012	po+lun+ka
-COMP-052	dikolunka	October (month-10)	noun	QTY-011+TIM-012	diko+lun+ka
-COMP-053	dikotalunka	November (month-11)	noun	QTY-011+QTY-002+TIM-012	diko+ta+lun+ka
-COMP-054	dikonulunka	December (month-12)	noun	QTY-011+QTY-003+TIM-012	diko+nu+lun+ka
-COMP-055	wolakaisaka	airline (fly-company)	noun	ACT-033+MOD-041	wola+kaisa+ka
-COMP-056	wolakikaika	aircraft / aeroplane (fly-machine)	noun	ACT-033+MOD-013	wola+kikai+ka
+COMP-001	kikaiakalika	artificial intelligence / AI (machine-mind)	noun	MOD-013+COG-009	kikai+akali+ka
+COMP-002	panikamaka	bathroom (water-room)	noun	PHY-008+DWE-010	pani+kama+ka
+COMP-003	pikabaitika	kitchen (cook-house)	noun	FOO-005+DWE-001	pika+baiti+ka
+COMP-004	tidukamaka	bedroom (sleep-room)	noun	BOD-027+DWE-010	tidu+kama+ka
+COMP-005	makankamaka	dining room (eat-room)	noun	BOD-028+DWE-010	makan+kama+ka
+COMP-006	totokamaka	nursery (child-room)	noun	KIN-004+DWE-010	toto+kama+ka
+COMP-007	kasikamaka	office (work-room)	noun	ACT-034+DWE-010	kasi+kama+ka
+COMP-008	honbaitika	library (book-house)	noun	MOD-002+DWE-001	hon+baiti+ka
+COMP-009	ugonabaitika	hospital (sick-house)	noun	MOD-047+DWE-001	ugona+baiti+ka
+COMP-010	uanbaitika	bank (money-house)	noun	MOD-001+DWE-001	uan+baiti+ka
+COMP-011	belayabaitika	school (learn-house)	noun	COG-004+DWE-001	belaya+baiti+ka
+COMP-012	kasibaitika	workshop (work-house)	noun	ACT-034+DWE-001	kasi+baiti+ka
+COMP-013	kayubaitika	wooden house (wood-house)	noun	AGR-003+DWE-001	kayu+baiti+ka
+COMP-014	batubaitika	stone house (stone-house)	noun	PHY-013+DWE-001	batu+baiti+ka
+COMP-015	gandebaitika	mansion (big-house)	noun	PROP-001+DWE-001	gande+baiti+ka
+COMP-016	pikobaitika	cottage / hut (small-house)	noun	PROP-002+DWE-001	piko+baiti+ka
+COMP-017	ugonahitoka	patient (sick-person)	noun	MOD-047+KIN-001	ugona+hito+ka
+COMP-018	gandehitoka	adult / grown-up (big-person)	noun	PROP-001+KIN-001	gande+hito+ka
+COMP-019	kasihitoka	worker (work-person)	noun	ACT-034+KIN-001	kasi+hito+ka
+COMP-020	pikahitoka	cook / chef (cook-person)	noun	FOO-005+KIN-001	pika+hito+ka
+COMP-021	kadimuhitoka	elder (old-person)	noun	PROP-090+KIN-001	kadimu+hito+ka
+COMP-022	kepalasakika	headache (head-pain)	noun	BOD-001+EMO-018	kepala+saki+ka
+COMP-023	gigisakika	toothache (tooth-pain)	noun	BOD-007+EMO-018	gigi+saki+ka
+COMP-024	matapanika	tears (eye-water)	noun	BOD-003+PHY-008	mata+pani+ka
+COMP-025	taiohikalika	sunlight (sun-light)	noun	PHY-001+PHY-026	taio+hikali+ka
+COMP-026	hosihikalika	starlight (star-light)	noun	PHY-003+PHY-026	hosi+hikali+ka
+COMP-027	dinahikalika	daylight (day-light)	noun	TIM-002+PHY-026	din+hikali+ka
+COMP-028	panitolika	waterfowl (water-bird)	noun	PHY-008+ANI-004	pani+toli+ka
+COMP-029	umidobuka	sea creature (sea-animal)	noun	PHY-009+ANI-001	umi+dobu+ka
+COMP-030	amedinka	rainy day (rain-day)	noun	PHY-022+TIM-002	ame+din+ka
+COMP-031	nenohonka	dictionary (word-book)	noun	SPE-002+MOD-002	neno+hon+ka
+COMP-032	honamiseka	bookstore (book-shop)	noun	MOD-002+MOD-022	hon+mise+ka
+COMP-033	cakulamiseka	grocery (food-shop)	noun	FOO-001+MOD-022	cakula+mise+ka
+COMP-034	dobukebunka	zoo (animal-garden)	noun	ANI-001+DWE-025	dobu+kebun+ka
+COMP-035	ilihabuhitoka	terrorist (terrorism-person)	noun	SOC-095+KIN-001	ilihabu+hito+ka
+COMP-036	mukukotaka	capital (chief-city)	noun	SOC-048+SOC-005	muku+kota+ka
+COMP-037	tadinka	Sunday (day-1)	noun	QTY-002+TIM-002	ta+din+ka
+COMP-038	nudinka	Monday (day-2)	noun	QTY-003+TIM-002	nu+din+ka
+COMP-039	modinka	Tuesday (day-3)	noun	QTY-004+TIM-002	mo+din+ka
+COMP-040	hudinka	Wednesday (day-4)	noun	QTY-005+TIM-002	hu+din+ka
+COMP-041	ledinka	Thursday (day-5)	noun	QTY-006+TIM-002	le+din+ka
+COMP-042	codinka	Friday (day-6)	noun	QTY-007+TIM-002	co+din+ka
+COMP-043	kidinka	Saturday (day-7)	noun	QTY-008+TIM-002	ki+din+ka
+COMP-044	talunka	January (month-1)	noun	QTY-002+TIM-012	ta+lun+ka
+COMP-045	nulunka	February (month-2)	noun	QTY-003+TIM-012	nu+lun+ka
+COMP-046	molunka	March (month-3)	noun	QTY-004+TIM-012	mo+lun+ka
+COMP-047	hulunka	April (month-4)	noun	QTY-005+TIM-012	hu+lun+ka
+COMP-048	lelunka	May (month-5)	noun	QTY-006+TIM-012	le+lun+ka
+COMP-049	colunka	June (month-6)	noun	QTY-007+TIM-012	co+lun+ka
+COMP-050	kilunka	July (month-7)	noun	QTY-008+TIM-012	ki+lun+ka
+COMP-051	falunka	August (month-8)	noun	QTY-009+TIM-012	fa+lun+ka
+COMP-052	polunka	September (month-9)	noun	QTY-010+TIM-012	po+lun+ka
+COMP-053	dikolunka	October (month-10)	noun	QTY-011+TIM-012	diko+lun+ka
+COMP-054	dikotalunka	November (month-11)	noun	QTY-011+QTY-002+TIM-012	diko+ta+lun+ka
+COMP-055	dikonulunka	December (month-12)	noun	QTY-011+QTY-003+TIM-012	diko+nu+lun+ka
+COMP-056	wolakaisaka	airline (fly-company)	noun	ACT-033+MOD-041	wola+kaisa+ka
+COMP-057	wolakikaika	aircraft / aeroplane (fly-machine)	noun	ACT-033+MOD-013	wola+kikai+ka

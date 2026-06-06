@@ -1708,3 +1708,20 @@ ACT-149	protect	linda	INTL	blend rubric; src 'linda' (guard/protect)	blend; Bant
 ACT-150	harm / damage	cedela	INTL	blend rubric; src 'cedera' (r→l)	blend; Austronesian
 ACT-151	decline / deteriorate	solota	INTL	blend rubric; src 'zorota' (z→s, r→l)	blend; Bantu
 SOC-129	benefit / advantage	manufa	INTL	blend rubric; src 'manufaa'	blend; Bantu
+FUN-031	without	tanpa	INTL	Malay/Indonesian 'tanpa' "without"	Austronesian; caritive (0020)
+POS-036	sell	yuala	INTL	blend rubric; src 'jual' (j→y)	blend; Austronesian
+ACT-152	threaten	ancama	INTL	blend rubric; src 'ancam'	blend; Austronesian
+ACT-153	allow / permit	isini	INTL	blend rubric; src 'izin' (z→s)	blend; Austronesian
+PROP-116	quality	ubola	INTL	blend rubric; src 'ubora' (r→l)	blend; Bantu
+PROP-117	original / authentic / genuine	asili	INTL	Malay/Swahili 'asli/asili' "original, genuine"	Austronesian/Bantu
+POS-037	pound (currency)	pon	INTL	English 'pound' (currency); legal coda n	internationalism
+POS-038	dollar (currency)	dolan	INTL	English 'dollar' (r→l, coda n)	internationalism
+POS-039	euro (currency)	eulo	INTL	'euro' (r→l)	internationalism
+POS-040	yen (currency)	yen	INTL	Japanese 'yen'	internationalism
+POS-041	yuan / renminbi (currency)	yuan	INTL	Mandarin 'yuan'	internationalism
+POS-042	rupee (currency)	lupia	INTL	'rupee / rupiah' (r→l)	internationalism
+POS-043	franc (currency)	falan	INTL	'franc' (fr→f.l, coda n)	internationalism
+POS-044	won (currency)	won	INTL	Korean 'won'	internationalism
+POS-045	peso (currency)	peso	INTL	Spanish 'peso'	internationalism
+POS-046	lira (currency)	lila	INTL	'lira' (r→l)	internationalism
+POS-047	ruble (currency)	lubeli	INTL	'ruble/rubel' (r→l, legal coda)	internationalism
