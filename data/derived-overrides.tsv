@@ -445,6 +445,7 @@ BOD-093	quality	lameness
 MOT-071	place	launchpad
 ACT-144	agent	protector
 ACT-144	place	shelter / refuge
+ACT-145	agent	controller / manager
 
 # class suppressions (abstract diminutives — overridable per-root above)
 COG	diminutive	(suppress)
