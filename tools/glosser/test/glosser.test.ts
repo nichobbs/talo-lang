@@ -50,6 +50,13 @@ test("proper noun → English name + badge", () => {
   assert.equal(glossToken("Yapanka", ctx), "Japan-N");
 });
 
+test("all-caps acronyms kept verbatim (hybrid policy, 0014)", () => {
+  assert.equal(glossToken("ISS", ctx), "ISS");
+  assert.equal(glossToken("NASAka", ctx), "NASA-N");   // badge stripped, acronym kept
+  assert.equal(glossToken("AI", ctx), "AI");
+  assert.equal(glossToken("ISS,", ctx), "ISS");        // trailing punctuation ignored
+});
+
 test("dictionary non-content words (correlatives, time-words) gloss untagged", () => {
   assert.equal(glossToken("seko", ctx), "what");
   assert.equal(glossToken("yana", ctx), "yesterday");
