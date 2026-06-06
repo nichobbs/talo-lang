@@ -27,6 +27,21 @@ test("resurrected: a retired form that is live again is flagged", () => {
   assert.equal(problems[0].kind, "resurrected");
 });
 
+test("reassignment: a retired form may be live if it is another row's replacement (0019)", () => {
+  // `ki` retired from "two" (QTY-003 → nu) AND reassigned to "seven" (QTY-008).
+  // ki is live (as seven) but is itself a recorded replacement → not a resurrection.
+  const deps = [dep("ki", "nu", "QTY-003"), dep("haba", "ki", "QTY-008")];
+  const problems = checkRegistry(deps, live({ "QTY-003": "nu", "QTY-008": "ki" }));
+  assert.deepEqual(problems, []);
+});
+
+test("reassignment does NOT mask the original concept keeping a stale form", () => {
+  // if QTY-003 is still live as `ki` (didn't move to nu), rule 2 still fires.
+  const deps = [dep("ki", "nu", "QTY-003"), dep("haba", "ki", "QTY-008")];
+  const problems = checkRegistry(deps, live({ "QTY-003": "ki", "QTY-008": "ki" }));
+  assert.ok(problems.some((p) => p.kind === "replacement-missing" && p.id === "QTY-003"));
+});
+
 test("replacement-missing: lexicon form for the id isn't the recorded new_form", () => {
   const deps = [dep("tebana", "wola", "ACT-033")];
   const problems = checkRegistry(deps, live({ "ACT-033": "tobu" })); // not wola

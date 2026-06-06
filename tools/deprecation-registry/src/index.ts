@@ -45,9 +45,18 @@ export interface Problem {
 /** Validate the registry against the live data. Returns [] when clean. */
 export function checkRegistry(deprecations: Deprecation[], live: LiveView): Problem[] {
   const problems: Problem[] = [];
+  // A spelling that is itself a recorded replacement (some row's `new_form`) was
+  // deliberately REASSIGNED to a new concept, not silently resurrected — so it is
+  // allowed to be live even if another row retired it. The retirement is still
+  // recorded, and rule 2 below independently verifies the original concept now
+  // uses its proper replacement, so nothing accidental slips through. (0019:
+  // numeral `ki` retired from "two" and reassigned to "seven".)
+  const reassignedForms = new Set(
+    deprecations.filter((x) => x.new_form !== "∅").map((x) => x.new_form),
+  );
   for (const d of deprecations) {
-    // 1. a retired form must not be live again.
-    if (live.liveForms.has(d.old_form)) {
+    // 1. a retired form must not be live again — unless it was reassigned (above).
+    if (live.liveForms.has(d.old_form) && !reassignedForms.has(d.old_form)) {
       problems.push({
         kind: "resurrected",
         old_form: d.old_form,
