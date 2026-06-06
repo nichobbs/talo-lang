@@ -19,7 +19,7 @@ every form below was gated against the live lexicon (see §5).
 ## 0. Why a proposal
 
 Numerals are **closed-class determiners** (`0005` §3): *counting* uses the bare
-numeral, postposed (`liboka ki` "two books"). But a numeral *root* can still take a
+numeral, postposed (`liboka nu` "two books"). But a numeral *root* can still take a
 POS badge like any acategorial root (`0002` §2.1) — and that is exactly the
 **ordinal**: `NUM + -pe` (the modifier badge). Because the counting form is bare,
 the `-pe` form is free to carry the ordinal/qualifying sense unambiguously, so the
@@ -33,7 +33,7 @@ form, so each still needs a **marker word** — a grammar change, hence governan
 
 | Need | Today | Status |
 |---|---|---|
-| **Cardinal** ("three books") | `liboka ki` (numeral postposed, `0005` §3) | ✅ done |
+| **Cardinal** ("three books") | `liboka mo` (numeral postposed, `0005` §3) | ✅ done |
 | **Ordinal** ("the third book") | `liboka mope` (`NUM + -pe`) | ✅ ratified (§2.1) |
 | **Multiplicative** ("three times / threefold") | — | ✗ missing |
 | **Fraction** ("a third", "two thirds") | `setenga` = ½ exists; no general form | ◐ partial |
@@ -80,9 +80,9 @@ generic "N-ish" quality) is resolved by the bare-determiner-vs-badge contrast.
 
 ### 2.2 Multiplicative `kai`
 ```
-mi tumito ki kai      I ran three times
-te bolato mo kai      it grew fourfold     (mo = 4)
-ta kai                once   ·   ki kai = three times
+mi tumito mo kai      I ran three times    (mo = 3)
+te bolato hu kai      it grew fourfold     (hu = 4)
+ta kai                once   ·   nu kai = twice
 ```
 Post-verbal adverbial use is natural (it follows the verb phrase like an aspect
 particle, `0002` §5.1) and it can also modify within a noun phrase ("a threefold
@@ -91,13 +91,13 @@ increase") via the modifier badge on a hosting root.
 ### 2.3 Fraction `bagi`
 `bagi` is the **divide** relation, so a fraction is literally "a divided-by b":
 ```
-ta bagi ki            one third   (1 ÷ 3)
-le bagi mo            two quarters / a half   (le = 2, mo = 4)
+ta bagi mo            one third   (1 ÷ 3)
+nu bagi hu            two quarters / a half   (nu = 2, hu = 4)
 ```
 "Half" keeps its dedicated high-frequency word `setenga` (already a quantifier,
 `0005` §3); `bagi` supplies every *other* fraction compositionally, so we add one
 marker, not a table. A fraction can quantify a noun like any numeral phrase:
-`watoka ta bagi ki` "a third of the water".
+`watoka ta bagi mo` "a third of the water".
 
 -----
 

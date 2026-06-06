@@ -35,8 +35,8 @@ toki motoka sodatuto hayaipe i naikito               › Then it grew fast and r
 mosika ingi kunato tatemonoka naka                   › Much smoke was inside the building.
 # gloss: smoke-N much exist-V building-N inside
 
-# --- casualties (killed = matita, causative of die; "21" = ki diko ta) ---
-motoka matitato hitoka ki diko ta                    › The fire killed twenty-one people.
+# --- casualties (killed = matita, causative of die; "21" = nu diko ta) ---
+motoka matitato hitoka nu diko ta                    › The fire killed twenty-one people.
 # gloss: fire-N kill-V person-N two ten one
 hitoka bala matito li                                › Some people died,
 # gloss: person-N some die-V COMPLETIVE
@@ -52,7 +52,7 @@ hitoka datanto hayaipe i lagato motoka               › People came quickly and
 # gloss: person-N come-V fast-MOD and fight-V fire-N
 te lagato motoka yamuka ingi                         › They fought it for many hours.
 # gloss: they fight-V fire-N hour-N many
-te okoato hitoka fu diko lebi                        › They rescued more than forty people,
+te okoato hitoka hu diko lebi                        › They rescued more than forty people,
 # gloss: they rescue-V person-N four ten more
 te kiliato hitoka ugonape asipitalika su             › and carried the hurt to the hospital.
 # gloss: they send-V person-N sick-MOD hospital-N toward

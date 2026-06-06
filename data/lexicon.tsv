@@ -15,13 +15,13 @@ FUN-016	no (answer)	no	INTL	English/Spanish 'no'	function (kept)
 FUN-017	very	sana	INTL	Swahili sana	Bantu (was Spanish muy)
 FUN-018	also / too	ti	COIN	short function word	function (kept)
 FUN-019	only / just	dake	INTL	Japanese dake	Japonic (was Spanish solo)
-QTY-001	zero	so	COIN	systematic coined numeral	coined numeral set
-QTY-002	one	ta	COIN	systematic coined numeral	coined numeral set
-QTY-003	two	ki	COIN	systematic coined numeral	coined numeral set
-QTY-004	three	mo	COIN	systematic coined numeral	coined numeral set
-QTY-005	four	fu	COIN	systematic coined numeral	coined numeral set
-QTY-006	five	le	COIN	systematic coined numeral	coined numeral set
-QTY-011	ten	diko	COIN	systematic coined power-of-ten	coined numeral set
+QTY-001	zero	so	COIN	Major-System mnemonic: digit 0 = s/z → s	coined numeral set (0019)
+QTY-002	one	ta	COIN	Major-System mnemonic: digit 1 = t/d → t	coined numeral set (0019)
+QTY-003	two	nu	COIN	Major-System mnemonic: digit 2 = n	coined numeral set (0019)
+QTY-004	three	mo	COIN	Major-System mnemonic: digit 3 = m	coined numeral set (0019)
+QTY-005	four	hu	COIN	Major-System: digit 4 = r (no Talo rhotic) → h, the one exception	coined numeral set (0019)
+QTY-006	five	le	COIN	Major-System mnemonic: digit 5 = l	coined numeral set (0019)
+QTY-011	ten	diko	COIN	systematic coined power-of-ten	coined numeral set (0019)
 QTY-012	hundred	samu	COIN	systematic coined power-of-ten	coined numeral set
 QTY-018	all	ote	INTL	Swahili -ote	Bantu (was Latin tota)
 QTY-019	many / much	ingi	INTL	Swahili -ingi	Bantu (was Romance)
@@ -228,10 +228,10 @@ FUN-013	so / therefore	sehinga	INTL	blend rubric; src 'sehingga' (simplified)	bl
 FUN-014	although	walau	INTL	blend rubric; src 'walau'	blend
 FUN-020	again	lagia	INTL	blend rubric; src 'lagi' (simplified)	blend (simplified)
 FUN-021	maybe / perhaps	mungi	INTL	blend rubric; src 'mungkin' (simplified)	blend (simplified)
-QTY-007	six	pikae	INTL	blend rubric; src 'pika' (simplified)	blend (simplified)
-QTY-008	seven	haba	INTL	blend rubric; src 'haba'	blend
-QTY-009	eight	cewa	INTL	blend rubric; src 'cewa'	blend
-QTY-010	nine	huba	INTL	blend rubric; src 'huba'	blend
+QTY-007	six	co	COIN	Major-System mnemonic: digit 6 = ch/sh/j → c	coined numeral set (0019)
+QTY-008	seven	ki	COIN	Major-System mnemonic: digit 7 = k/g → k (reuses freed 'ki')	coined numeral set (0019)
+QTY-009	eight	fa	COIN	Major-System mnemonic: digit 8 = f/v → f	coined numeral set (0019)
+QTY-010	nine	po	COIN	Major-System mnemonic: digit 9 = p/b → p	coined numeral set (0019)
 QTY-013	thousand	sebu	INTL	blend rubric; src 'sebu'	blend
 QTY-014	million	milion	INTL	blend rubric; src 'miliong' (simplified)	blend (simplified)
 QTY-023	every / each	kila	INTL	blend rubric; src 'kila'	blend

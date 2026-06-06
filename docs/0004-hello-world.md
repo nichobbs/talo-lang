@@ -100,7 +100,7 @@ part of the stored form (acategorial roots, `0002` §2.1).
 `no` no (answer), `badi` some, `inino` now, `leo` today, `keso` tomorrow; question
 words `sela` who, `seko` what, `selo` where, `sewa` how, `sefu` why; correlatives
 `itula` that-person, `bala` someone, `ola` everyone, `hako` nothing, `hano` never,
-`ono` always; demonstratives `ini` this, `itu` that; numerals `ta` one, `ki` two,
+`ono` always; demonstratives `ini` this, `itu` that; numerals `ta` one, `nu` two,
 `mo` three.
 
 > **Proper names** (`Mila`, `Sato`, `Talo`) are phonotactically legal but are
@@ -250,7 +250,7 @@ Mi mauto panika i cakulaka.       I want.V water.N and food.N
 
 **Possession — verb and genitive (`0002` §4, POS-001):**
 ```
-Mi motuto gouka ki.     I have.V dog.N two   — 'I have two dogs.'   (numeral postposed — see §8.3)
+Mi motuto gouka nu.     I have.V dog.N two   — 'I have two dogs.'   (numeral postposed — see §8.3)
 Mi we tomoka.         I GEN friend.N        — 'my friend'
 ```
 
@@ -326,7 +326,7 @@ a mix of coined and high-transfer borrowings) — a cheap, high-value Phase-5 ba
 Attributive `-pe` modifiers **precede** the head (`gandepe kotaka` "big city",
 `0002` §6.3), but the `0002` §6.6 examples place demonstratives and numerals
 **after** the head (`kanuka itu` "that dog", `kanuka ta` "a/one dog"), which is
-the order this document followed (`gouka ki` "two dogs", `cakulaka itu` "that
+the order this document followed (`gouka nu` "two dogs", `cakulaka itu` "that
 food"). That is a real tension with the locked premise "modifier precedes its
 head." **To resolve:** confirm (in a short `0002` amendment) that
 demonstratives/numerals are a distinct **postposed determiner** class, not
@@ -414,7 +414,7 @@ Yu mauto seko.
 Te ikuto selo.
 Fi yu datanto, mi yato senanpe.
 Mi mauto panika i cakulaka.
-Mi motuto gouka ki.
+Mi motuto gouka nu.
 Mi we tomoka.
 Bala datanto.
 Mi kanto hako.

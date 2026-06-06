@@ -46,7 +46,7 @@ for genuinely agentless statements — `kena` is the *demoted-agent* passive.
 **`N₁ fe N₂`** — the source role marker `fe` read as "out of":
 
 ```
-le   fe   haba(-pu)
+le   fe   ki(-pu)
 five from seven(-PL)
 "five of the seven"
 ```
@@ -76,7 +76,7 @@ all temporal relation. Relative anteriority/posteriority uses the existing
 `mae` "before(hand)" / `ato` "after":
 
 ```
-udala-kelua  mulai ongesa li   mae,  din-ki lo
+udala-kelua  mulai ongesa li   mae,  din-nu lo
 air-leak     begin increase COMPL earlier, day-2 at
 "the leak had begun increasing, on Monday"
 ```

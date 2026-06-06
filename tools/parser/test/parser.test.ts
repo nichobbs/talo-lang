@@ -177,10 +177,10 @@ test("accept + analyze: counterfactual `andai`, ranges `X su Y`, fused numerals 
   // andai is a bare function word (counterfactual conditional), like fi
   assert.equal(analyze("andai").functionRole, "other");
   // fused compound numerals parse as numbers, not bare roots
-  assert.equal(analyze("dikole").functionRole, "number");   // 15
-  assert.equal(analyze("dikoki").functionRole, "number");   // 12
-  assert.equal(analyze("habadiko").functionRole, "number"); // 70
-  assert.equal(analyze("kisebu").functionRole, "number");   // 2000
+  assert.equal(analyze("dikole").functionRole, "number");   // 15 (10+5)
+  assert.equal(analyze("dikonu").functionRole, "number");   // 12 (10+2)
+  assert.equal(analyze("kidiko").functionRole, "number");   // 70 (7×10)
+  assert.equal(analyze("nusebu").functionRole, "number");   // 2000 (2×1000)
   // single numerals are recognised function words (listed in .other); a
   // badged content word is never classed as a number
   assert.equal(analyze("diko").kind, "function");

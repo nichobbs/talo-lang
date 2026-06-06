@@ -139,7 +139,7 @@ two distinct relations in most L1s. A dedicated verb is the transparent choice.
 ## 3. Determiners are a postposed class (distinct from `-pe` modifiers)
 
 **Decision.** Talo has a closed **determiner** class — **demonstratives** (`ini`
-this, `itu` that), **numerals** (`ta`, `ki`, …) and **quantifiers** (`ingi`
+this, `itu` that), **numerals** (`ta`, `nu`, …) and **quantifiers** (`ingi`
 many, `ote` all, `badi` some, `kidogo` few, `kila` each, …) — that **follows the
 head noun**. Determiners are **not** `-pe` modifiers: descriptive modifiers
 **precede** the head (`gande kotaka` "big city", `0002` §6.3), determiners
@@ -148,8 +148,8 @@ the plural particle `pu` outermost:
 
 ```
 gouka itu        dog.N that          'that dog'
-gouka ki         dog.N two           'two dogs'
-gouka itu ki     dog.N that two      'those two dogs'
+gouka nu         dog.N two           'two dogs'
+gouka itu nu     dog.N that two      'those two dogs'
 nenoka ingi      word.N many         'many words'
 gouka ote pu     dog.N all PL        'all the dogs'
 ```
@@ -165,7 +165,7 @@ mis-imply they could be `-pe`-marked.
 
 > **Correction of `0004`.** The slice's first draft wrote `ingi nenoka` "many
 > words" with the quantifier **pre**-posed — an inconsistency with its own
-> `gouka ki` (numeral postposed). This was exactly the kind of latent ambiguity
+> `gouka nu` (numeral postposed). This was exactly the kind of latent ambiguity
 > the *use-it-early* phase exists to catch (`0000` §8). The correct form under
 > this rule is **`nenoka ingi`**, and `0004` has since been aligned to it. (`0004`
 > is descriptive; this ADR is the norm.)

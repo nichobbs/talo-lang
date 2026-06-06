@@ -191,10 +191,10 @@ no borrowed month names. The unit is an ordinary content noun, so it takes the
 |---|---|---|
 | month | `sukiaka` + cardinal | `sukiaka mo` = month-3 = March |
 | weekday | `dinka` + cardinal | `dinka ta` = day-1 = **Sunday** |
-| year | `taunka` + spelled number | `taunka ki-sebu ki-diko-le` etc. |
+| year | `taunka` + spelled number | `taunka nu-sebu nu-diko-le` etc. |
 
-**The week starts on Sunday** (ratified): `dinka ta` = Sunday, `dinka ki` = Monday,
-…, `dinka pikae` = Friday, `dinka haba` = Saturday. The calendar **epoch** (which
+**The week starts on Sunday** (ratified): `dinka ta` = Sunday, `dinka nu` = Monday,
+…, `dinka co` = Friday, `dinka ki` = Saturday. The calendar **epoch** (which
 year is counted from) stays **out of scope** — that is *culture*, a `0000` non-goal,
 and is not baked into the grammar.
 
