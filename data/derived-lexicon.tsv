@@ -11643,3 +11643,330 @@ PHY-091.to	alanto	to use/apply 'charcoal'; to act as 'charcoal'	verb	alan	charco
 PHY-091.cika	alancika	little 'charcoal'; small/dear 'charcoal'	noun	alan	charcoal	diminutive	alan+ci+ka
 PHY-091.goka	alangoka	big 'charcoal'; great 'charcoal'	noun	alan	charcoal	augmentative	alan+go+ka
 PHY-091.deka	alandeka	place of/for 'charcoal'	noun	alan	charcoal	place	alan+de+ka
+FOO-078.ka	mewaka	nut	noun	mewa	nut	noun	mewa+ka
+FOO-078.pe	mewape	of/like 'nut'; 'nut'-related	modifier	mewa	nut	modifier	mewa+pe
+FOO-078.to	mewato	to use/apply 'nut'; to act as 'nut'	verb	mewa	nut	verb	mewa+to
+FOO-078.cika	mewacika	little 'nut'; small/dear 'nut'	noun	mewa	nut	diminutive	mewa+ci+ka
+FOO-078.goka	mewagoka	big 'nut'; great 'nut'	noun	mewa	nut	augmentative	mewa+go+ka
+FOO-078.deka	mewadeka	place of/for 'nut'	noun	mewa	nut	place	mewa+de+ka
+FOO-079.ka	tinaka	fig	noun	tina	fig	noun	tina+ka
+FOO-079.pe	tinape	of/like 'fig'; 'fig'-related	modifier	tina	fig	modifier	tina+pe
+FOO-079.to	tinato	to use/apply 'fig'; to act as 'fig'	verb	tina	fig	verb	tina+to
+FOO-079.cika	tinacika	little 'fig'; small/dear 'fig'	noun	tina	fig	diminutive	tina+ci+ka
+FOO-079.goka	tinagoka	big 'fig'; great 'fig'	noun	tina	fig	augmentative	tina+go+ka
+FOO-079.deka	tinadeka	place of/for 'fig'	noun	tina	fig	place	tina+de+ka
+FOO-080.ka	calika	fat / grease	noun	cali	fat / grease	noun	cali+ka
+FOO-080.pe	calipe	of/like 'fat / grease'; 'fat / grease'-related	modifier	cali	fat / grease	modifier	cali+pe
+FOO-080.to	calito	to use/apply 'fat / grease'; to act as 'fat / grease'	verb	cali	fat / grease	verb	cali+to
+FOO-080.cika	calicika	little 'fat / grease'; small/dear 'fat / grease'	noun	cali	fat / grease	diminutive	cali+ci+ka
+FOO-080.goka	caligoka	big 'fat / grease'; great 'fat / grease'	noun	cali	fat / grease	augmentative	cali+go+ka
+FOO-080.deka	calideka	place of/for 'fat / grease'	noun	cali	fat / grease	place	cali+de+ka
+FOO-081.ka	wanka	bowl	noun	wan	bowl	noun	wan+ka
+FOO-081.pe	wanpe	of/like 'bowl'; 'bowl'-related	modifier	wan	bowl	modifier	wan+pe
+FOO-081.to	wanto	to use/apply 'bowl'; to act as 'bowl'	verb	wan	bowl	verb	wan+to
+FOO-081.cika	wancika	little 'bowl'; small/dear 'bowl'	noun	wan	bowl	diminutive	wan+ci+ka
+FOO-081.goka	wangoka	big 'bowl'; great 'bowl'	noun	wan	bowl	augmentative	wan+go+ka
+FOO-081.deka	wandeka	place of/for 'bowl'	noun	wan	bowl	place	wan+de+ka
+FOO-082.ka	guoka	pot / cauldron	noun	guo	pot / cauldron	noun	guo+ka
+FOO-082.pe	guope	of/like 'pot / cauldron'; 'pot / cauldron'-related	modifier	guo	pot / cauldron	modifier	guo+pe
+FOO-082.to	guoto	to use/apply 'pot / cauldron'; to act as 'pot / cauldron'	verb	guo	pot / cauldron	verb	guo+to
+FOO-082.cika	guocika	little 'pot / cauldron'; small/dear 'pot / cauldron'	noun	guo	pot / cauldron	diminutive	guo+ci+ka
+FOO-082.goka	guogoka	big 'pot / cauldron'; great 'pot / cauldron'	noun	guo	pot / cauldron	augmentative	guo+go+ka
+FOO-082.deka	guodeka	place of/for 'pot / cauldron'	noun	guo	pot / cauldron	place	guo+de+ka
+FOO-083.ka	kudaka	jug / pitcher	noun	kuda	jug / pitcher	noun	kuda+ka
+FOO-083.pe	kudape	of/like 'jug / pitcher'; 'jug / pitcher'-related	modifier	kuda	jug / pitcher	modifier	kuda+pe
+FOO-083.to	kudato	to use/apply 'jug / pitcher'; to act as 'jug / pitcher'	verb	kuda	jug / pitcher	verb	kuda+to
+FOO-083.cika	kudacika	little 'jug / pitcher'; small/dear 'jug / pitcher'	noun	kuda	jug / pitcher	diminutive	kuda+ci+ka
+FOO-083.goka	kudagoka	big 'jug / pitcher'; great 'jug / pitcher'	noun	kuda	jug / pitcher	augmentative	kuda+go+ka
+FOO-083.deka	kudadeka	place of/for 'jug / pitcher'	noun	kuda	jug / pitcher	place	kuda+de+ka
+FOO-084.ka	tandoka	oven	noun	tando	oven	noun	tando+ka
+FOO-084.pe	tandope	of/like 'oven'; 'oven'-related	modifier	tando	oven	modifier	tando+pe
+FOO-084.to	tandoto	to use/apply 'oven'; to act as 'oven'	verb	tando	oven	verb	tando+to
+FOO-084.cika	tandocika	little 'oven'; small/dear 'oven'	noun	tando	oven	diminutive	tando+ci+ka
+FOO-084.goka	tandogoka	big 'oven'; great 'oven'	noun	tando	oven	augmentative	tando+go+ka
+FOO-084.deka	tandodeka	place of/for 'oven'	noun	tando	oven	place	tando+de+ka
+FOO-085.ka	hauaka	thirst	noun	haua	thirst	noun	haua+ka
+FOO-085.pe	hauape	of/like 'thirst'; 'thirst'-related	modifier	haua	thirst	modifier	haua+pe
+FOO-085.to	hauato	to use/apply 'thirst'; to act as 'thirst'	verb	haua	thirst	verb	haua+to
+FOO-085.cika	hauacika	little 'thirst'; small/dear 'thirst'	noun	haua	thirst	diminutive	haua+ci+ka
+FOO-085.goka	hauagoka	big 'thirst'; great 'thirst'	noun	haua	thirst	augmentative	haua+go+ka
+FOO-085.deka	hauadeka	place of/for 'thirst'	noun	haua	thirst	place	haua+de+ka
+FOO-086.to	muntato	to 'vomit (v)'	verb	munta	vomit (v)	verb	munta+to
+FOO-086.ka	muntaka	act of 'vomit (v)'; a 'vomit (v)'	noun	munta	vomit (v)	noun	munta+ka
+FOO-086.pe	muntape	'vomit (v)'-ing	modifier	munta	vomit (v)	modifier	munta+pe
+FOO-086.kika	muntakika	one who 'vomit (v)'s; 'vomit (v)'-er	noun	munta	vomit (v)	agent	munta+ki+ka
+FOO-086.tuka	muntatuka	tool/means for 'vomit (v)'	noun	munta	vomit (v)	instrument	munta+tu+ka
+FOO-086.boka	muntaboka	thing 'vomit (v)'-ed; result of 'vomit (v)'	noun	munta	vomit (v)	patient/result	munta+bo+ka
+FOO-086.deka	muntadeka	place for 'vomit (v)'	noun	munta	vomit (v)	place	munta+de+ka
+FOO-086.tato	muntatato	to make/cause to 'vomit (v)'	verb	munta	vomit (v)	causative	munta+ta+to
+FOO-086.pito	muntapito	to begin to 'vomit (v)'	verb	munta	vomit (v)	inchoative	munta+pi+to
+FOO-086.takika	muntatakika	one who makes/causes 'vomit (v)'; instigator of 'vomit (v)'	noun	munta	vomit (v)	causative-agent	munta+ta+ki+ka
+FOO-086.taboka	muntataboka	what is brought about by 'vomit (v)'	noun	munta	vomit (v)	causative-result	munta+ta+bo+ka
+FOO-086.kideka	muntakideka	place of the one who 'vomit (v)'s	noun	munta	vomit (v)	agent-place	munta+ki+de+ka
+FOO-087.to	ubato	to 'boil (cook in water)'	verb	uba	boil (cook in water)	verb	uba+to
+FOO-087.ka	ubaka	act of 'boil (cook in water)'; a 'boil (cook in water)'	noun	uba	boil (cook in water)	noun	uba+ka
+FOO-087.pe	ubape	'boil (cook in water)'-ing	modifier	uba	boil (cook in water)	modifier	uba+pe
+FOO-087.kika	ubakika	one who 'boil (cook in water)'s; 'boil (cook in water)'-er	noun	uba	boil (cook in water)	agent	uba+ki+ka
+FOO-087.tuka	ubatuka	tool/means for 'boil (cook in water)'	noun	uba	boil (cook in water)	instrument	uba+tu+ka
+FOO-087.boka	ubaboka	thing 'boil (cook in water)'-ed; result of 'boil (cook in water)'	noun	uba	boil (cook in water)	patient/result	uba+bo+ka
+FOO-087.deka	ubadeka	place for 'boil (cook in water)'	noun	uba	boil (cook in water)	place	uba+de+ka
+FOO-087.tato	ubatato	to make/cause to 'boil (cook in water)'	verb	uba	boil (cook in water)	causative	uba+ta+to
+FOO-087.pito	ubapito	to begin to 'boil (cook in water)'	verb	uba	boil (cook in water)	inchoative	uba+pi+to
+FOO-087.takika	ubatakika	one who makes/causes 'boil (cook in water)'; instigator of 'boil (cook in water)'	noun	uba	boil (cook in water)	causative-agent	uba+ta+ki+ka
+FOO-087.taboka	ubataboka	what is brought about by 'boil (cook in water)'	noun	uba	boil (cook in water)	causative-result	uba+ta+bo+ka
+FOO-087.kideka	ubakideka	place of the one who 'boil (cook in water)'s	noun	uba	boil (cook in water)	agent-place	uba+ki+de+ka
+FOO-088.to	ayato	to 'sieve / strain'	verb	aya	sieve / strain	verb	aya+to
+FOO-088.ka	ayaka	act of 'sieve / strain'; a 'sieve / strain'	noun	aya	sieve / strain	noun	aya+ka
+FOO-088.pe	ayape	'sieve / strain'-ing	modifier	aya	sieve / strain	modifier	aya+pe
+FOO-088.kika	ayakika	one who 'sieve / strain's; 'sieve / strain'-er	noun	aya	sieve / strain	agent	aya+ki+ka
+FOO-088.tuka	ayatuka	tool/means for 'sieve / strain'	noun	aya	sieve / strain	instrument	aya+tu+ka
+FOO-088.boka	ayaboka	thing 'sieve / strain'-ed; result of 'sieve / strain'	noun	aya	sieve / strain	patient/result	aya+bo+ka
+FOO-088.deka	ayadeka	place for 'sieve / strain'	noun	aya	sieve / strain	place	aya+de+ka
+FOO-088.tato	ayatato	to make/cause to 'sieve / strain'	verb	aya	sieve / strain	causative	aya+ta+to
+FOO-088.pito	ayapito	to begin to 'sieve / strain'	verb	aya	sieve / strain	inchoative	aya+pi+to
+FOO-088.takika	ayatakika	one who makes/causes 'sieve / strain'; instigator of 'sieve / strain'	noun	aya	sieve / strain	causative-agent	aya+ta+ki+ka
+FOO-088.taboka	ayataboka	what is brought about by 'sieve / strain'	noun	aya	sieve / strain	causative-result	aya+ta+bo+ka
+FOO-088.kideka	ayakideka	place of the one who 'sieve / strain's	noun	aya	sieve / strain	agent-place	aya+ki+de+ka
+FOO-089.ka	maduka	mead	noun	madu	mead	noun	madu+ka
+FOO-089.pe	madupe	of/like 'mead'; 'mead'-related	modifier	madu	mead	modifier	madu+pe
+FOO-089.to	maduto	to use/apply 'mead'; to act as 'mead'	verb	madu	mead	verb	madu+to
+FOO-089.cika	maducika	little 'mead'; small/dear 'mead'	noun	madu	mead	diminutive	madu+ci+ka
+FOO-089.goka	madugoka	big 'mead'; great 'mead'	noun	madu	mead	augmentative	madu+go+ka
+FOO-089.deka	madudeka	place of/for 'mead'	noun	madu	mead	place	madu+de+ka
+BOD-083.ka	mulaiaka	breast (of woman)	noun	mulaia	breast (of woman)	noun	mulaia+ka
+BOD-083.pe	mulaiape	of/like 'breast (of woman)'; 'breast (of woman)'-related	modifier	mulaia	breast (of woman)	modifier	mulaia+pe
+BOD-083.to	mulaiato	to use/apply 'breast (of woman)'; to act as 'breast (of woman)'	verb	mulaia	breast (of woman)	verb	mulaia+to
+BOD-083.cika	mulaiacika	little 'breast (of woman)'; small/dear 'breast (of woman)'	noun	mulaia	breast (of woman)	diminutive	mulaia+ci+ka
+BOD-083.goka	mulaiagoka	big 'breast (of woman)'; great 'breast (of woman)'	noun	mulaia	breast (of woman)	augmentative	mulaia+go+ka
+BOD-083.deka	mulaiadeka	place of/for 'breast (of woman)'	noun	mulaia	breast (of woman)	place	mulaia+de+ka
+BOD-084.ka	pahaoka	thigh	noun	pahao	thigh	noun	pahao+ka
+BOD-084.pe	pahaope	of/like 'thigh'; 'thigh'-related	modifier	pahao	thigh	modifier	pahao+pe
+BOD-084.to	pahaoto	to use/apply 'thigh'; to act as 'thigh'	verb	pahao	thigh	verb	pahao+to
+BOD-084.cika	pahaocika	little 'thigh'; small/dear 'thigh'	noun	pahao	thigh	diminutive	pahao+ci+ka
+BOD-084.goka	pahaogoka	big 'thigh'; great 'thigh'	noun	pahao	thigh	augmentative	pahao+go+ka
+BOD-084.deka	pahaodeka	place of/for 'thigh'	noun	pahao	thigh	place	pahao+de+ka
+BOD-085.ka	pasiaka	rib	noun	pasia	rib	noun	pasia+ka
+BOD-085.pe	pasiape	of/like 'rib'; 'rib'-related	modifier	pasia	rib	modifier	pasia+pe
+BOD-085.to	pasiato	to use/apply 'rib'; to act as 'rib'	verb	pasia	rib	verb	pasia+to
+BOD-085.cika	pasiacika	little 'rib'; small/dear 'rib'	noun	pasia	rib	diminutive	pasia+ci+ka
+BOD-085.goka	pasiagoka	big 'rib'; great 'rib'	noun	pasia	rib	augmentative	pasia+go+ka
+BOD-085.deka	pasiadeka	place of/for 'rib'	noun	pasia	rib	place	pasia+de+ka
+BOD-086.ka	usuka	intestines / guts	noun	usu	intestines / guts	noun	usu+ka
+BOD-086.pe	usupe	of/like 'intestines / guts'; 'intestines / guts'-related	modifier	usu	intestines / guts	modifier	usu+pe
+BOD-086.to	usuto	to use/apply 'intestines / guts'; to act as 'intestines / guts'	verb	usu	intestines / guts	verb	usu+to
+BOD-086.cika	usucika	little 'intestines / guts'; small/dear 'intestines / guts'	noun	usu	intestines / guts	diminutive	usu+ci+ka
+BOD-086.goka	usugoka	big 'intestines / guts'; great 'intestines / guts'	noun	usu	intestines / guts	augmentative	usu+go+ka
+BOD-086.deka	usudeka	place of/for 'intestines / guts'	noun	usu	intestines / guts	place	usu+de+ka
+BOD-087.ka	dahika	forehead	noun	dahi	forehead	noun	dahi+ka
+BOD-087.pe	dahipe	of/like 'forehead'; 'forehead'-related	modifier	dahi	forehead	modifier	dahi+pe
+BOD-087.to	dahito	to use/apply 'forehead'; to act as 'forehead'	verb	dahi	forehead	verb	dahi+to
+BOD-087.cika	dahicika	little 'forehead'; small/dear 'forehead'	noun	dahi	forehead	diminutive	dahi+ci+ka
+BOD-087.goka	dahigoka	big 'forehead'; great 'forehead'	noun	dahi	forehead	augmentative	dahi+go+ka
+BOD-087.deka	dahideka	place of/for 'forehead'	noun	dahi	forehead	place	dahi+de+ka
+BOD-088.to	mandito	to 'bathe'	verb	mandi	bathe	verb	mandi+to
+BOD-088.ka	mandika	act of 'bathe'; a 'bathe'	noun	mandi	bathe	noun	mandi+ka
+BOD-088.pe	mandipe	'bathe'-ing	modifier	mandi	bathe	modifier	mandi+pe
+BOD-088.kika	mandikika	one who 'bathe's; 'bathe'-er	noun	mandi	bathe	agent	mandi+ki+ka
+BOD-088.tuka	mandituka	tool/means for 'bathe'	noun	mandi	bathe	instrument	mandi+tu+ka
+BOD-088.boka	mandiboka	thing 'bathe'-ed; result of 'bathe'	noun	mandi	bathe	patient/result	mandi+bo+ka
+BOD-088.deka	mandideka	place for 'bathe'	noun	mandi	bathe	place	mandi+de+ka
+BOD-088.tato	manditato	to make/cause to 'bathe'	verb	mandi	bathe	causative	mandi+ta+to
+BOD-088.pito	mandipito	to begin to 'bathe'	verb	mandi	bathe	inchoative	mandi+pi+to
+BOD-088.takika	manditakika	one who makes/causes 'bathe'; instigator of 'bathe'	noun	mandi	bathe	causative-agent	mandi+ta+ki+ka
+BOD-088.taboka	manditaboka	what is brought about by 'bathe'	noun	mandi	bathe	causative-result	mandi+ta+bo+ka
+BOD-088.kideka	mandikideka	place of the one who 'bathe's	noun	mandi	bathe	agent-place	mandi+ki+de+ka
+BOD-089.to	getaeto	to 'shiver / tremble'	verb	getae	shiver / tremble	verb	getae+to
+BOD-089.ka	getaeka	act of 'shiver / tremble'; a 'shiver / tremble'	noun	getae	shiver / tremble	noun	getae+ka
+BOD-089.pe	getaepe	'shiver / tremble'-ing	modifier	getae	shiver / tremble	modifier	getae+pe
+BOD-089.kika	getaekika	one who 'shiver / tremble's; 'shiver / tremble'-er	noun	getae	shiver / tremble	agent	getae+ki+ka
+BOD-089.tuka	getaetuka	tool/means for 'shiver / tremble'	noun	getae	shiver / tremble	instrument	getae+tu+ka
+BOD-089.boka	getaeboka	thing 'shiver / tremble'-ed; result of 'shiver / tremble'	noun	getae	shiver / tremble	patient/result	getae+bo+ka
+BOD-089.deka	getaedeka	place for 'shiver / tremble'	noun	getae	shiver / tremble	place	getae+de+ka
+BOD-089.tato	getaetato	to make/cause to 'shiver / tremble'	verb	getae	shiver / tremble	causative	getae+ta+to
+BOD-089.pito	getaepito	to begin to 'shiver / tremble'	verb	getae	shiver / tremble	inchoative	getae+pi+to
+BOD-089.takika	getaetakika	one who makes/causes 'shiver / tremble'; instigator of 'shiver / tremble'	noun	getae	shiver / tremble	causative-agent	getae+ta+ki+ka
+BOD-089.taboka	getaetaboka	what is brought about by 'shiver / tremble'	noun	getae	shiver / tremble	causative-result	getae+ta+bo+ka
+BOD-089.kideka	getaekideka	place of the one who 'shiver / tremble's	noun	getae	shiver / tremble	agent-place	getae+ki+de+ka
+BOD-090.ka	mayaka	corpse	noun	maya	corpse	noun	maya+ka
+BOD-090.pe	mayape	of/like 'corpse'; 'corpse'-related	modifier	maya	corpse	modifier	maya+pe
+BOD-090.to	mayato	to use/apply 'corpse'; to act as 'corpse'	verb	maya	corpse	verb	maya+to
+BOD-090.cika	mayacika	little 'corpse'; small/dear 'corpse'	noun	maya	corpse	diminutive	maya+ci+ka
+BOD-090.goka	mayagoka	big 'corpse'; great 'corpse'	noun	maya	corpse	augmentative	maya+go+ka
+BOD-090.deka	mayadeka	place of/for 'corpse'	noun	maya	corpse	place	maya+de+ka
+BOD-091.ka	kubuka	grave / tomb	noun	kubu	grave / tomb	noun	kubu+ka
+BOD-091.pe	kubupe	of/like 'grave / tomb'; 'grave / tomb'-related	modifier	kubu	grave / tomb	modifier	kubu+pe
+BOD-091.to	kubuto	to use/apply 'grave / tomb'; to act as 'grave / tomb'	verb	kubu	grave / tomb	verb	kubu+to
+BOD-091.cika	kubucika	little 'grave / tomb'; small/dear 'grave / tomb'	noun	kubu	grave / tomb	diminutive	kubu+ci+ka
+BOD-091.goka	kubugoka	big 'grave / tomb'; great 'grave / tomb'	noun	kubu	grave / tomb	augmentative	kubu+go+ka
+BOD-091.deka	kubudeka	place of/for 'grave / tomb'	noun	kubu	grave / tomb	place	kubu+de+ka
+BOD-092.to	tanaeto	to 'bury (the dead)'	verb	tanae	bury (the dead)	verb	tanae+to
+BOD-092.ka	tanaeka	act of 'bury (the dead)'; a 'bury (the dead)'	noun	tanae	bury (the dead)	noun	tanae+ka
+BOD-092.pe	tanaepe	'bury (the dead)'-ing	modifier	tanae	bury (the dead)	modifier	tanae+pe
+BOD-092.kika	tanaekika	one who 'bury (the dead)'s; 'bury (the dead)'-er	noun	tanae	bury (the dead)	agent	tanae+ki+ka
+BOD-092.tuka	tanaetuka	tool/means for 'bury (the dead)'	noun	tanae	bury (the dead)	instrument	tanae+tu+ka
+BOD-092.boka	tanaeboka	thing 'bury (the dead)'-ed; result of 'bury (the dead)'	noun	tanae	bury (the dead)	patient/result	tanae+bo+ka
+BOD-092.deka	tanaedeka	place for 'bury (the dead)'	noun	tanae	bury (the dead)	place	tanae+de+ka
+BOD-092.tato	tanaetato	to make/cause to 'bury (the dead)'	verb	tanae	bury (the dead)	causative	tanae+ta+to
+BOD-092.pito	tanaepito	to begin to 'bury (the dead)'	verb	tanae	bury (the dead)	inchoative	tanae+pi+to
+BOD-092.takika	tanaetakika	one who makes/causes 'bury (the dead)'; instigator of 'bury (the dead)'	noun	tanae	bury (the dead)	causative-agent	tanae+ta+ki+ka
+BOD-092.taboka	tanaetaboka	what is brought about by 'bury (the dead)'	noun	tanae	bury (the dead)	causative-result	tanae+ta+bo+ka
+BOD-092.kideka	tanaekideka	place of the one who 'bury (the dead)'s	noun	tanae	bury (the dead)	agent-place	tanae+ki+de+ka
+ANI-069.ka	ayaeka	fowl / chicken	noun	ayae	fowl / chicken	noun	ayae+ka
+ANI-069.pe	ayaepe	of/like 'fowl / chicken'; 'fowl / chicken'-related	modifier	ayae	fowl / chicken	modifier	ayae+pe
+ANI-069.to	ayaeto	to use/apply 'fowl / chicken'; to act as 'fowl / chicken'	verb	ayae	fowl / chicken	verb	ayae+to
+ANI-069.cika	ayaecika	little 'fowl / chicken'; small/dear 'fowl / chicken'	noun	ayae	fowl / chicken	diminutive	ayae+ci+ka
+ANI-069.goka	ayaegoka	big 'fowl / chicken'; great 'fowl / chicken'	noun	ayae	fowl / chicken	augmentative	ayae+go+ka
+ANI-069.deka	ayaedeka	place of/for 'fowl / chicken'	noun	ayae	fowl / chicken	place	ayae+de+ka
+ANI-070.pe	sanpe	of/like 'bull'; 'bull'-related	modifier	san	bull	modifier	san+pe
+ANI-070.to	santo	to use/apply 'bull'; to act as 'bull'	verb	san	bull	verb	san+to
+ANI-070.cika	sancika	little 'bull'; small/dear 'bull'	noun	san	bull	diminutive	san+ci+ka
+ANI-070.goka	sangoka	big 'bull'; great 'bull'	noun	san	bull	augmentative	san+go+ka
+ANI-070.deka	sandeka	place of/for 'bull'	noun	san	bull	place	san+de+ka
+ANI-071.ka	hanaeka	goose / swan	noun	hanae	goose / swan	noun	hanae+ka
+ANI-071.pe	hanaepe	of/like 'goose / swan'; 'goose / swan'-related	modifier	hanae	goose / swan	modifier	hanae+pe
+ANI-071.to	hanaeto	to use/apply 'goose / swan'; to act as 'goose / swan'	verb	hanae	goose / swan	verb	hanae+to
+ANI-071.cika	hanaecika	little 'goose / swan'; small/dear 'goose / swan'	noun	hanae	goose / swan	diminutive	hanae+ci+ka
+ANI-071.goka	hanaegoka	big 'goose / swan'; great 'goose / swan'	noun	hanae	goose / swan	augmentative	hanae+go+ka
+ANI-071.deka	hanaedeka	place of/for 'goose / swan'	noun	hanae	goose / swan	place	hanae+de+ka
+ANI-072.ka	pisuaka	flea	noun	pisua	flea	noun	pisua+ka
+ANI-072.pe	pisuape	of/like 'flea'; 'flea'-related	modifier	pisua	flea	modifier	pisua+pe
+ANI-072.to	pisuato	to use/apply 'flea'; to act as 'flea'	verb	pisua	flea	verb	pisua+to
+ANI-072.cika	pisuacika	little 'flea'; small/dear 'flea'	noun	pisua	flea	diminutive	pisua+ci+ka
+ANI-072.goka	pisuagoka	big 'flea'; great 'flea'	noun	pisua	flea	augmentative	pisua+go+ka
+ANI-072.deka	pisuadeka	place of/for 'flea'	noun	pisua	flea	place	pisua+de+ka
+ANI-073.ka	kutuaka	louse	noun	kutua	louse	noun	kutua+ka
+ANI-073.pe	kutuape	of/like 'louse'; 'louse'-related	modifier	kutua	louse	modifier	kutua+pe
+ANI-073.to	kutuato	to use/apply 'louse'; to act as 'louse'	verb	kutua	louse	verb	kutua+to
+ANI-073.cika	kutuacika	little 'louse'; small/dear 'louse'	noun	kutua	louse	diminutive	kutua+ci+ka
+ANI-073.goka	kutuagoka	big 'louse'; great 'louse'	noun	kutua	louse	augmentative	kutua+go+ka
+ANI-073.deka	kutuadeka	place of/for 'louse'	noun	kutua	louse	place	kutua+de+ka
+ANI-074.ka	beluaka	eel	noun	belua	eel	noun	belua+ka
+ANI-074.pe	beluape	of/like 'eel'; 'eel'-related	modifier	belua	eel	modifier	belua+pe
+ANI-074.to	beluato	to use/apply 'eel'; to act as 'eel'	verb	belua	eel	verb	belua+to
+ANI-074.cika	beluacika	little 'eel'; small/dear 'eel'	noun	belua	eel	diminutive	belua+ci+ka
+ANI-074.goka	beluagoka	big 'eel'; great 'eel'	noun	belua	eel	augmentative	belua+go+ka
+ANI-074.deka	beluadeka	place of/for 'eel'	noun	belua	eel	place	belua+de+ka
+ANI-075.ka	sipika	shell	noun	sipi	shell	noun	sipi+ka
+ANI-075.pe	sipipe	of/like 'shell'; 'shell'-related	modifier	sipi	shell	modifier	sipi+pe
+ANI-075.to	sipito	to use/apply 'shell'; to act as 'shell'	verb	sipi	shell	verb	sipi+to
+ANI-075.cika	sipicika	little 'shell'; small/dear 'shell'	noun	sipi	shell	diminutive	sipi+ci+ka
+ANI-075.goka	sipigoka	big 'shell'; great 'shell'	noun	sipi	shell	augmentative	sipi+go+ka
+ANI-075.deka	sipideka	place of/for 'shell'	noun	sipi	shell	place	sipi+de+ka
+ANI-076.ka	lumaka	dolphin / porpoise	noun	luma	dolphin / porpoise	noun	luma+ka
+ANI-076.pe	lumape	of/like 'dolphin / porpoise'; 'dolphin / porpoise'-related	modifier	luma	dolphin / porpoise	modifier	luma+pe
+ANI-076.to	lumato	to use/apply 'dolphin / porpoise'; to act as 'dolphin / porpoise'	verb	luma	dolphin / porpoise	verb	luma+to
+ANI-076.cika	lumacika	little 'dolphin / porpoise'; small/dear 'dolphin / porpoise'	noun	luma	dolphin / porpoise	diminutive	luma+ci+ka
+ANI-076.goka	lumagoka	big 'dolphin / porpoise'; great 'dolphin / porpoise'	noun	luma	dolphin / porpoise	augmentative	luma+go+ka
+ANI-076.deka	lumadeka	place of/for 'dolphin / porpoise'	noun	luma	dolphin / porpoise	place	luma+de+ka
+AGR-059.ka	yemeka	hoe	noun	yeme	hoe	noun	yeme+ka
+AGR-059.pe	yemepe	of/like 'hoe'; 'hoe'-related	modifier	yeme	hoe	modifier	yeme+pe
+AGR-059.to	yemeto	to use/apply 'hoe'; to act as 'hoe'	verb	yeme	hoe	verb	yeme+to
+AGR-059.cika	yemecika	little 'hoe'; small/dear 'hoe'	noun	yeme	hoe	diminutive	yeme+ci+ka
+AGR-059.goka	yemegoka	big 'hoe'; great 'hoe'	noun	yeme	hoe	augmentative	yeme+go+ka
+AGR-059.deka	yemedeka	place of/for 'hoe'	noun	yeme	hoe	place	yeme+de+ka
+AGR-060.ka	kalapaika	plough	noun	kalapai	plough	noun	kalapai+ka
+AGR-060.pe	kalapaipe	of/like 'plough'; 'plough'-related	modifier	kalapai	plough	modifier	kalapai+pe
+AGR-060.to	kalapaito	to use/apply 'plough'; to act as 'plough'	verb	kalapai	plough	verb	kalapai+to
+AGR-060.cika	kalapaicika	little 'plough'; small/dear 'plough'	noun	kalapai	plough	diminutive	kalapai+ci+ka
+AGR-060.goka	kalapaigoka	big 'plough'; great 'plough'	noun	kalapai	plough	augmentative	kalapai+go+ka
+AGR-060.deka	kalapaideka	place of/for 'plough'	noun	kalapai	plough	place	kalapai+de+ka
+AGR-061.ka	sabika	sickle	noun	sabi	sickle	noun	sabi+ka
+AGR-061.pe	sabipe	of/like 'sickle'; 'sickle'-related	modifier	sabi	sickle	modifier	sabi+pe
+AGR-061.to	sabito	to use/apply 'sickle'; to act as 'sickle'	verb	sabi	sickle	verb	sabi+to
+AGR-061.cika	sabicika	little 'sickle'; small/dear 'sickle'	noun	sabi	sickle	diminutive	sabi+ci+ka
+AGR-061.goka	sabigoka	big 'sickle'; great 'sickle'	noun	sabi	sickle	augmentative	sabi+go+ka
+AGR-061.deka	sabideka	place of/for 'sickle'	noun	sabi	sickle	place	sabi+de+ka
+AGR-062.ka	fawaka	spade / shovel	noun	fawa	spade / shovel	noun	fawa+ka
+AGR-062.pe	fawape	of/like 'spade / shovel'; 'spade / shovel'-related	modifier	fawa	spade / shovel	modifier	fawa+pe
+AGR-062.to	fawato	to use/apply 'spade / shovel'; to act as 'spade / shovel'	verb	fawa	spade / shovel	verb	fawa+to
+AGR-062.cika	fawacika	little 'spade / shovel'; small/dear 'spade / shovel'	noun	fawa	spade / shovel	diminutive	fawa+ci+ka
+AGR-062.goka	fawagoka	big 'spade / shovel'; great 'spade / shovel'	noun	fawa	spade / shovel	augmentative	fawa+go+ka
+AGR-062.deka	fawadeka	place of/for 'spade / shovel'	noun	fawa	spade / shovel	place	fawa+de+ka
+AGR-063.pe	galupe	of/like 'rake'; 'rake'-related	modifier	galu	rake	modifier	galu+pe
+AGR-063.cika	galucika	little 'rake'; small/dear 'rake'	noun	galu	rake	diminutive	galu+ci+ka
+AGR-063.goka	galugoka	big 'rake'; great 'rake'	noun	galu	rake	augmentative	galu+go+ka
+AGR-063.deka	galudeka	place of/for 'rake'	noun	galu	rake	place	galu+de+ka
+AGR-064.ka	sonka	pine (tree)	noun	son	pine (tree)	noun	son+ka
+AGR-064.pe	sonpe	of/like 'pine (tree)'; 'pine (tree)'-related	modifier	son	pine (tree)	modifier	son+pe
+AGR-064.to	sonto	to use/apply 'pine (tree)'; to act as 'pine (tree)'	verb	son	pine (tree)	verb	son+to
+AGR-064.cika	soncika	little 'pine (tree)'; small/dear 'pine (tree)'	noun	son	pine (tree)	diminutive	son+ci+ka
+AGR-064.goka	songoka	big 'pine (tree)'; great 'pine (tree)'	noun	son	pine (tree)	augmentative	son+go+ka
+AGR-064.deka	sondeka	place of/for 'pine (tree)'	noun	son	pine (tree)	place	son+de+ka
+AGR-065.ka	yelamika	hay / straw	noun	yelami	hay / straw	noun	yelami+ka
+AGR-065.pe	yelamipe	of/like 'hay / straw'; 'hay / straw'-related	modifier	yelami	hay / straw	modifier	yelami+pe
+AGR-065.to	yelamito	to use/apply 'hay / straw'; to act as 'hay / straw'	verb	yelami	hay / straw	verb	yelami+to
+AGR-065.cika	yelamicika	little 'hay / straw'; small/dear 'hay / straw'	noun	yelami	hay / straw	diminutive	yelami+ci+ka
+AGR-065.goka	yelamigoka	big 'hay / straw'; great 'hay / straw'	noun	yelami	hay / straw	augmentative	yelami+go+ka
+AGR-065.deka	yelamideka	place of/for 'hay / straw'	noun	yelami	hay / straw	place	yelami+de+ka
+DWE-087.ka	papanka	board / plank	noun	papan	board / plank	noun	papan+ka
+DWE-087.pe	papanpe	of/like 'board / plank'; 'board / plank'-related	modifier	papan	board / plank	modifier	papan+pe
+DWE-087.to	papanto	to use/apply 'board / plank'; to act as 'board / plank'	verb	papan	board / plank	verb	papan+to
+DWE-087.cika	papancika	little 'board / plank'; small/dear 'board / plank'	noun	papan	board / plank	diminutive	papan+ci+ka
+DWE-087.goka	papangoka	big 'board / plank'; great 'board / plank'	noun	papan	board / plank	augmentative	papan+go+ka
+DWE-087.deka	papandeka	place of/for 'board / plank'	noun	papan	board / plank	place	papan+de+ka
+DWE-088.ka	lianka	beam	noun	lian	beam	noun	lian+ka
+DWE-088.pe	lianpe	of/like 'beam'; 'beam'-related	modifier	lian	beam	modifier	lian+pe
+DWE-088.to	lianto	to use/apply 'beam'; to act as 'beam'	verb	lian	beam	verb	lian+to
+DWE-088.cika	liancika	little 'beam'; small/dear 'beam'	noun	lian	beam	diminutive	lian+ci+ka
+DWE-088.goka	liangoka	big 'beam'; great 'beam'	noun	lian	beam	augmentative	lian+go+ka
+DWE-088.deka	liandeka	place of/for 'beam'	noun	lian	beam	place	lian+de+ka
+DWE-089.ka	tianka	post / pole	noun	tian	post / pole	noun	tian+ka
+DWE-089.pe	tianpe	of/like 'post / pole'; 'post / pole'-related	modifier	tian	post / pole	modifier	tian+pe
+DWE-089.to	tianto	to use/apply 'post / pole'; to act as 'post / pole'	verb	tian	post / pole	verb	tian+to
+DWE-089.cika	tiancika	little 'post / pole'; small/dear 'post / pole'	noun	tian	post / pole	diminutive	tian+ci+ka
+DWE-089.goka	tiangoka	big 'post / pole'; great 'post / pole'	noun	tian	post / pole	augmentative	tian+go+ka
+DWE-089.deka	tiandeka	place of/for 'post / pole'	noun	tian	post / pole	place	tian+de+ka
+DWE-090.ka	lesunka	mortar (vessel)	noun	lesun	mortar (vessel)	noun	lesun+ka
+DWE-090.pe	lesunpe	of/like 'mortar (vessel)'; 'mortar (vessel)'-related	modifier	lesun	mortar (vessel)	modifier	lesun+pe
+DWE-090.to	lesunto	to use/apply 'mortar (vessel)'; to act as 'mortar (vessel)'	verb	lesun	mortar (vessel)	verb	lesun+to
+DWE-090.cika	lesuncika	little 'mortar (vessel)'; small/dear 'mortar (vessel)'	noun	lesun	mortar (vessel)	diminutive	lesun+ci+ka
+DWE-090.goka	lesungoka	big 'mortar (vessel)'; great 'mortar (vessel)'	noun	lesun	mortar (vessel)	augmentative	lesun+go+ka
+DWE-090.deka	lesundeka	place of/for 'mortar (vessel)'	noun	lesun	mortar (vessel)	place	lesun+de+ka
+DWE-091.ka	aluka	pestle	noun	alu	pestle	noun	alu+ka
+DWE-091.pe	alupe	of/like 'pestle'; 'pestle'-related	modifier	alu	pestle	modifier	alu+pe
+DWE-091.to	aluto	to use/apply 'pestle'; to act as 'pestle'	verb	alu	pestle	verb	alu+to
+DWE-091.cika	alucika	little 'pestle'; small/dear 'pestle'	noun	alu	pestle	diminutive	alu+ci+ka
+DWE-091.goka	alugoka	big 'pestle'; great 'pestle'	noun	alu	pestle	augmentative	alu+go+ka
+DWE-091.deka	aludeka	place of/for 'pestle'	noun	alu	pestle	place	alu+de+ka
+TIM-050.ka	petanaka	afternoon / evening	noun	petana	afternoon / evening	noun	petana+ka
+TIM-050.pe	petanape	of/like 'afternoon / evening'; 'afternoon / evening'-related	modifier	petana	afternoon / evening	modifier	petana+pe
+TIM-050.to	petanato	to use/apply 'afternoon / evening'; to act as 'afternoon / evening'	verb	petana	afternoon / evening	verb	petana+to
+TIM-050.cika	petanacika	little 'afternoon / evening'; small/dear 'afternoon / evening'	noun	petana	afternoon / evening	diminutive	petana+ci+ka
+TIM-050.goka	petanagoka	big 'afternoon / evening'; great 'afternoon / evening'	noun	petana	afternoon / evening	augmentative	petana+go+ka
+TIM-050.deka	petanadeka	place of/for 'afternoon / evening'	noun	petana	afternoon / evening	place	petana+de+ka
+PER-027.to	sungato	to 'sniff / smell (v)'	verb	sunga	sniff / smell (v)	verb	sunga+to
+PER-027.ka	sungaka	act of 'sniff / smell (v)'; a 'sniff / smell (v)'	noun	sunga	sniff / smell (v)	noun	sunga+ka
+PER-027.pe	sungape	'sniff / smell (v)'-ing	modifier	sunga	sniff / smell (v)	modifier	sunga+pe
+PER-027.kika	sungakika	one who 'sniff / smell (v)'s; 'sniff / smell (v)'-er	noun	sunga	sniff / smell (v)	agent	sunga+ki+ka
+PER-027.tuka	sungatuka	tool/means for 'sniff / smell (v)'	noun	sunga	sniff / smell (v)	instrument	sunga+tu+ka
+PER-027.boka	sungaboka	thing 'sniff / smell (v)'-ed; result of 'sniff / smell (v)'	noun	sunga	sniff / smell (v)	patient/result	sunga+bo+ka
+PER-027.deka	sungadeka	place for 'sniff / smell (v)'	noun	sunga	sniff / smell (v)	place	sunga+de+ka
+PER-027.tato	sungatato	to make/cause to 'sniff / smell (v)'	verb	sunga	sniff / smell (v)	causative	sunga+ta+to
+PER-027.pito	sungapito	to begin to 'sniff / smell (v)'	verb	sunga	sniff / smell (v)	inchoative	sunga+pi+to
+PER-027.takika	sungatakika	one who makes/causes 'sniff / smell (v)'; instigator of 'sniff / smell (v)'	noun	sunga	sniff / smell (v)	causative-agent	sunga+ta+ki+ka
+PER-027.taboka	sungataboka	what is brought about by 'sniff / smell (v)'	noun	sunga	sniff / smell (v)	causative-result	sunga+ta+bo+ka
+PER-027.kideka	sungakideka	place of the one who 'sniff / smell (v)'s	noun	sunga	sniff / smell (v)	agent-place	sunga+ki+de+ka
+PER-028.to	sinato	to 'shine / glow'	verb	sina	shine / glow	verb	sina+to
+PER-028.ka	sinaka	act of 'shine / glow'; a 'shine / glow'	noun	sina	shine / glow	noun	sina+ka
+PER-028.pe	sinape	'shine / glow'-ing	modifier	sina	shine / glow	modifier	sina+pe
+PER-028.kika	sinakika	one who 'shine / glow's; 'shine / glow'-er	noun	sina	shine / glow	agent	sina+ki+ka
+PER-028.tuka	sinatuka	tool/means for 'shine / glow'	noun	sina	shine / glow	instrument	sina+tu+ka
+PER-028.boka	sinaboka	thing 'shine / glow'-ed; result of 'shine / glow'	noun	sina	shine / glow	patient/result	sina+bo+ka
+PER-028.deka	sinadeka	place for 'shine / glow'	noun	sina	shine / glow	place	sina+de+ka
+PER-028.tato	sinatato	to make/cause to 'shine / glow'	verb	sina	shine / glow	causative	sina+ta+to
+PER-028.pito	sinapito	to begin to 'shine / glow'	verb	sina	shine / glow	inchoative	sina+pi+to
+PER-028.takika	sinatakika	one who makes/causes 'shine / glow'; instigator of 'shine / glow'	noun	sina	shine / glow	causative-agent	sina+ta+ki+ka
+PER-028.taboka	sinataboka	what is brought about by 'shine / glow'	noun	sina	shine / glow	causative-result	sina+ta+bo+ka
+PER-028.kideka	sinakideka	place of the one who 'shine / glow's	noun	sina	shine / glow	agent-place	sina+ki+de+ka
+PER-029.to	cubito	to 'pinch (v)'	verb	cubi	pinch (v)	verb	cubi+to
+PER-029.ka	cubika	act of 'pinch (v)'; a 'pinch (v)'	noun	cubi	pinch (v)	noun	cubi+ka
+PER-029.pe	cubipe	'pinch (v)'-ing	modifier	cubi	pinch (v)	modifier	cubi+pe
+PER-029.kika	cubikika	one who 'pinch (v)'s; 'pinch (v)'-er	noun	cubi	pinch (v)	agent	cubi+ki+ka
+PER-029.tuka	cubituka	tool/means for 'pinch (v)'	noun	cubi	pinch (v)	instrument	cubi+tu+ka
+PER-029.boka	cubiboka	thing 'pinch (v)'-ed; result of 'pinch (v)'	noun	cubi	pinch (v)	patient/result	cubi+bo+ka
+PER-029.deka	cubideka	place for 'pinch (v)'	noun	cubi	pinch (v)	place	cubi+de+ka
+PER-029.tato	cubitato	to make/cause to 'pinch (v)'	verb	cubi	pinch (v)	causative	cubi+ta+to
+PER-029.pito	cubipito	to begin to 'pinch (v)'	verb	cubi	pinch (v)	inchoative	cubi+pi+to
+PER-029.takika	cubitakika	one who makes/causes 'pinch (v)'; instigator of 'pinch (v)'	noun	cubi	pinch (v)	causative-agent	cubi+ta+ki+ka
+PER-029.taboka	cubitaboka	what is brought about by 'pinch (v)'	noun	cubi	pinch (v)	causative-result	cubi+ta+bo+ka
+PER-029.kideka	cubikideka	place of the one who 'pinch (v)'s	noun	cubi	pinch (v)	agent-place	cubi+ki+de+ka
