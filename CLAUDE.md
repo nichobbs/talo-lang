@@ -94,9 +94,11 @@ Requires Node ≥ 22.6 (uses `--experimental-strip-types`, zero dependencies).
 
 - Develop on a `claude/talo-<topic>` branch off `main`; push with
   `git push -u origin <branch>`; open a PR (ready, not draft).
-- CI (`.github/workflows/ci.yml`) runs both tool test suites. A **docs-only** PR
-  (only `docs/`, `*.md`, `LICENSE*`) auto-merges on green; anything touching
-  `data/`, `tools/`, or `scripts/` waits for human review.
+- CI (`.github/workflows/ci.yml`) runs every tool test suite + the data gates.
+  The `auto-merge` job squash-merges a PR on green when it is **either** docs-only
+  **or** from an assistant **`claude/*`** branch — the maintainer has authorised
+  merging the assistant's own PRs once checks pass (so they don't sit waiting).
+  External / non-`claude/*` code PRs still fall through to human review.
 - End commit messages and PR bodies with the session URL footer (see existing
   history for the format).
 - Commit messages: state what was verified (exit codes, counts), not just what

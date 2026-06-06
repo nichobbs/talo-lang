@@ -311,11 +311,13 @@ jobs:
       - name: Fail if the committed artifacts drifted
         run: git diff --exit-code -- data/derived-lexicon.tsv data/compounds.tsv dictionary/dist/dictionary.json
 
-  # Auto-merge a PR only when (a) the builds above passed AND (b) every changed
-  # file is documentation. Code changes (anything outside docs / *.md / LICENSE)
-  # are never auto-merged — they fall through to human review.
-  auto-merge-docs:
-    name: Auto-merge docs-only PRs
+  # Auto-merge a PR once every build job above has passed, when EITHER
+  #   (a) it comes from an assistant `claude/*` branch — the maintainer has
+  #       authorised merging these on green (CLAUDE.md "Git / PR workflow"), OR
+  #   (b) it is docs-only.
+  # Anything else (e.g. an external contributor's code PR) still waits for a human.
+  auto-merge:
+    name: Auto-merge green PRs
     needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, srs-tests, glosser-tests, translator-tests, coverage-tests, deprecation-tests, reading-coverage-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check, data-freshness]
     if: >-
       github.event_name == 'pull_request' &&
@@ -326,35 +328,37 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Classify changed files
-        id: classify
+      - name: Decide whether to auto-merge
+        id: decide
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          HEAD_REF: ${{ github.event.pull_request.head.ref }}
         run: |
           files="$(git diff --name-only "$BASE_SHA" "$HEAD_SHA")"
-          echo "Changed files:"
-          echo "$files"
+          echo "Changed files:"; echo "$files"
           docs_only=true
-          if [ -z "$files" ]; then
-            # No file changes -> nothing to merge automatically.
-            docs_only=false
-          fi
+          [ -z "$files" ] && docs_only=false
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             case "$f" in
               docs/*|*.md|LICENSE|LICENSE.*) ;;          # documentation -> ok
-              *) docs_only=false ;;                       # any code -> needs review
+              *) docs_only=false ;;                       # any code
             esac
           done <<< "$files"
-          echo "docs_only=$docs_only" >> "$GITHUB_OUTPUT"
-          echo "Result: docs_only=$docs_only"
+          merge=false
+          case "$HEAD_REF" in
+            claude/*) merge=true ;;                       # authorised assistant branch
+          esac
+          [ "$docs_only" = "true" ] && merge=true
+          echo "merge=$merge" >> "$GITHUB_OUTPUT"
+          echo "Result: head=$HEAD_REF docs_only=$docs_only merge=$merge"
 
       - name: Merge
-        if: steps.classify.outputs.docs_only == 'true'
+        if: steps.decide.outputs.merge == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR: ${{ github.event.pull_request.number }}
         run: |
-          echo "All changed files are documentation and the build passed — merging PR #$PR."
+          echo "Build passed and PR #$PR is eligible — merging."
           gh pr merge "$PR" --squash --delete-branch
