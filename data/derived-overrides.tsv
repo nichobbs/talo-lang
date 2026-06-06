@@ -74,6 +74,7 @@ PROP-051	quality	yellowness
 PROP-052	quality	blueness
 PROP-053	quality	life
 PROP-054	quality	death
+BOD-027	agent	sleeper
 BOD-027	place	bedroom
 BOD-028	place	dining hall
 BOD-028	causative	feed
@@ -98,26 +99,42 @@ FOO-005	agent	cook
 FOO-005	place	kitchen
 FOO-005	patient/result	dish / cooked food
 FOO-006	quality	sweetness
+CLO-003	agent	wearer
+ACT-001	agent	maker / doer
 ACT-002	agent	(suppress)
 ACT-003	agent	(suppress)
 ACT-004	agent	walker
 ACT-005	agent	runner
+ACT-007	agent	sitter
 ACT-007	causative	seat
+ACT-008	agent	(suppress)
 ACT-009	agent	giver
 ACT-009	patient/result	gift
 ACT-011	agent	holder
+ACT-013	agent	carrier
 ACT-015	agent	thrower
 ACT-016	agent	(suppress)
 ACT-016	causative	drop / fell
+ACT-017	agent	turner
+ACT-018	agent	mover
+ACT-021	agent	breaker
+ACT-022	agent	cutter
 ACT-022	instrument	knife / cutter
+ACT-023	agent	hitter
+ACT-024	agent	pusher
+ACT-028	agent	(suppress)
+ACT-029	agent	digger
 ACT-029	instrument	spade / shovel
+ACT-031	agent	(suppress)
 ACT-032	agent	swimmer
 ACT-033	agent	pilot / flyer
 ACT-034	agent	worker
 ACT-034	place	workplace
 ACT-035	agent	player
 ACT-035	place	playground
+ACT-036	agent	user
 ACT-037	agent	helper
+ACT-038	agent	beginner
 ACT-042	agent	(suppress)
 MOT-003	agent	(suppress)
 MOT-004	agent	follower
@@ -126,18 +143,26 @@ MOT-006	agent	sender
 SPA-012	quality	leftness
 SPA-013	quality	rightness
 PER-001	causative	show
+PER-004	agent	taster
+PER-006	agent	watcher / observer
+PER-007	agent	listener
 EMO-001	agent	lover
+EMO-003	agent	(suppress)
 EMO-005	quality	happiness
 EMO-006	quality	sadness
 EMO-007	quality	anger
+COG-001	agent	(suppress)
 COG-001	causative	inform / tell
+COG-002	agent	thinker
 COG-004	agent	learner / student
 COG-004	place	school
 COG-004	causative	teach
 COG-005	agent	teacher
 COG-006	causative	remind
+COG-008	agent	believer
 SPE-001	agent	speaker
 SPE-001	patient/result	statement
+SPE-005	agent	questioner
 SPE-005	patient/result	question
 SPE-006	patient/result	answer
 SPE-007	agent	reader
@@ -145,6 +170,7 @@ SPE-007	place	library
 SPE-008	agent	writer / author
 SPE-008	instrument	pen
 SPE-008	patient/result	writing / document
+POS-001	agent	(suppress)
 POS-003	agent	buyer
 POS-003	place	market / shop
 POS-003	patient/result	purchase / goods
@@ -155,6 +181,7 @@ SOC-004	place	battlefield
 SOC-007	agent	leader
 POS-006	agent	(suppress)
 EMO-014	quality	pride
+EMO-015	agent	hater
 EMO-016	quality	calmness
 EMO-017	quality	tiredness
 EMO-019	quality	braveness
@@ -163,6 +190,7 @@ COG-010	quality	wisdom
 COG-019	agent	(suppress)
 COG-020	agent	(suppress)
 SPE-014	patient/result	promise
+SPE-016	agent	caller
 SPE-017	agent	singer
 FOO-024	quality	hungriness
 FOO-025	quality	thirstiness
@@ -177,6 +205,7 @@ ANI-016	diminutive	hatchling
 ANI-018	diminutive	lion cub
 ANI-019	diminutive	elephant calf
 CLO-013	agent	tailor / sewer
+AGR-017	agent	sower
 BOD-062	quality	pregnantness
 BOD-064	quality	baldness
 BOD-065	agent	(suppress)
@@ -192,9 +221,15 @@ PER-021	agent	observer
 PER-025	quality	stickiness
 PER-026	quality	slipperiness
 MOT-008	agent	jumper
+MOT-009	agent	fugitive
+MOT-010	agent	pursuer
 MOT-013	agent	(suppress)
+MOT-015	agent	wanderer
 MOT-016	agent	(suppress)
+MOT-017	agent	spinner
+MOT-021	agent	gatherer
 MOT-027	agent	(suppress)
+MOT-031	agent	navigator
 MOT-033	agent	(suppress)
 MOD-047	quality	sickness
 MOD-051	agent	(suppress)
@@ -252,11 +287,15 @@ PROP-101	quality	rigidness
 PROP-102	quality	steadiness
 PROP-103	quality	suddenness
 PROP-104	quality	gradualness
+COG-024	agent	planner
 COG-026	agent	judge
+COG-034	agent	examiner
+COG-038	agent	interpreter
 QTY-035	instrument	measure / gauge
 TIM-027	quality	presentness
 TIM-043	quality	recentliness
 TIM-044	quality	constantliness
+AGR-051	agent	ploughman
 ANI-021	diminutive	tiger cub
 ANI-023	diminutive	bear cub
 ANI-024	diminutive	wolf pup
@@ -274,28 +313,43 @@ ANI-042	diminutive	eaglet
 ANI-043	diminutive	owlet
 ANI-052	diminutive	caterpillar
 ANI-053	diminutive	spiderling
+ACT-057	agent	lifter
 ACT-059	agent	catcher
 ACT-068	agent	kicker
+ACT-069	agent	sweeper
 ACT-069	instrument	broom
 ACT-071	agent	builder
 ACT-071	patient/result	building
 ACT-073	agent	repairer / mechanic
+ACT-077	agent	searcher / seeker
+ACT-078	agent	finder
+ACT-080	agent	collector
+ACT-083	agent	arranger
+ACT-089	agent	waiter
 SOC-036	quality	wealth
 SOC-037	quality	poverty
+EMO-054	agent	sufferer
 EMO-055	quality	cheerfulness
 EMO-056	quality	gloominess
 EMO-057	quality	anxiousness
 EMO-058	quality	eagerness
+COG-071	agent	suspect
+COG-072	agent	analyst
 COG-074	quality	awareness
 COG-075	quality	rationalness
 SPE-043	agent	adviser / counsellor
 SPE-045	agent	complainer
 SPE-046	agent	joker
 SPE-052	agent	boaster
+SPE-053	agent	negotiator
 SPE-054	quality	fluentness
 SPE-055	quality	politeness
 POS-019	agent	owner
+POS-020	agent	lender
+POS-021	agent	borrower
 POS-022	agent	debtor
+POS-023	agent	spender
+POS-025	agent	earner
 POS-026	agent	(suppress)
 POS-027	agent	investor
 POS-028	quality	cheapness
@@ -303,6 +357,9 @@ POS-029	quality	expensiveness
 POS-030	quality	freedom
 POS-031	quality	valuableness
 SOC-084	agent	competitor
+SOC-085	agent	(suppress)
+SOC-086	agent	rebel
+MOD-092	agent	broadcaster
 FOO-041	agent	baker
 FOO-041	place	bakery
 FOO-056	quality	ripeness
@@ -313,7 +370,16 @@ FOO-071	quality	spiciness
 FOO-072	quality	crunchiness
 FOO-073	quality	fattiness
 ACT-091	agent	servant
+ACT-093	agent	storekeeper
+ACT-094	agent	packer
+ACT-096	agent	decorator
+ACT-097	agent	polisher
 ACT-107	agent	printer
+ACT-109	agent	typist
+ACT-113	agent	installer
+ACT-114	agent	(suppress)
+ACT-120	agent	welder
+ACT-121	agent	driller
 ACT-122	agent	painter
 ACT-122	patient/result	painting
 MOT-052	agent	sailor
@@ -321,11 +387,14 @@ ACT-127	agent	rescuer
 BOD-079	agent	(suppress)
 ACT-128	agent	(suppress)
 MOT-064	agent	(suppress)
+COG-076	agent	student / scholar
 COG-076	place	school
 ACT-130	agent	attacker
 SOC-096	quality	independentness
 COG-077	agent	(suppress)
 PROP-106	quality	foreignness
+ACT-133	agent	investigator
+BOD-080	agent	survivor
 PROP-107	quality	artificialness
 ANI-065	diminutive	tadpole
 SOC-108	agent	worshipper
@@ -342,6 +411,7 @@ PROP-113	quality	tallness
 PROP-114	quality	shallowness
 BOD-082	agent	(suppress)
 CLO-033	agent	weaver
+CLO-036	agent	dyer
 ACT-139	agent	carver / sculptor
 POS-033	quality	poverty
 POS-035	quality	stinginess
@@ -349,11 +419,14 @@ SPA-046	quality	crookedness
 EMO-062	quality	jealousness
 EMO-064	quality	startledness
 SPE-060	quality	boastfulness
+BOD-088	agent	bather
 BOD-088	place	bathroom
 BOD-089	agent	(suppress)
+BOD-092	agent	undertaker
 BOD-092	place	cemetery
 ANI-069	diminutive	chick
 ANI-071	diminutive	gosling
+COG-079	agent	imitator
 COG-080	agent	(suppress)
 COG-081	quality	craziness
 COG-084	quality	wisdom
@@ -365,6 +438,7 @@ EMO-066	quality	braveness
 EMO-067	quality	gratefulness
 EMO-069	quality	loyalness
 SOC-125	agent	ruler / governor
+SPE-063	agent	translator
 PROP-115	quality	clearness
 ANI-077	diminutive	kit / young rabbit
 BOD-093	quality	lameness

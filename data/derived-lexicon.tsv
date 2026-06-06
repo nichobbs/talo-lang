@@ -391,7 +391,7 @@ BOD-024.deka	nikudeka	place of/for 'flesh / meat'	noun	niku	flesh / meat	place	n
 BOD-027.to	tiduto	to 'sleep'	verb	tidu	sleep	verb	tidu+to
 BOD-027.ka	tiduka	act of 'sleep'; a 'sleep'	noun	tidu	sleep	noun	tidu+ka
 BOD-027.pe	tidupe	'sleep'-ing	modifier	tidu	sleep	modifier	tidu+pe
-BOD-027.kika	tidukika	one who 'sleep's; 'sleep'-er	noun	tidu	sleep	agent	tidu+ki+ka
+BOD-027.kika	tidukika	sleeper	noun	tidu	sleep	agent	tidu+ki+ka
 BOD-027.tuka	tidutuka	tool/means for 'sleep'	noun	tidu	sleep	instrument	tidu+tu+ka
 BOD-027.boka	tiduboka	thing 'sleep'-ed; result of 'sleep'	noun	tidu	sleep	patient/result	tidu+bo+ka
 BOD-027.deka	tidudeka	bedroom	noun	tidu	sleep	place	tidu+de+ka
@@ -542,7 +542,7 @@ DWE-008.deka	monodeka	place of/for 'thing / object'	noun	mono	thing / object	pla
 ACT-001.to	tendato	to 'do / make'	verb	tenda	do / make	verb	tenda+to
 ACT-001.ka	tendaka	act of 'do / make'; a 'do / make'	noun	tenda	do / make	noun	tenda+ka
 ACT-001.pe	tendape	'do / make'-ing	modifier	tenda	do / make	modifier	tenda+pe
-ACT-001.kika	tendakika	one who 'do / make's; 'do / make'-er	noun	tenda	do / make	agent	tenda+ki+ka
+ACT-001.kika	tendakika	maker / doer	noun	tenda	do / make	agent	tenda+ki+ka
 ACT-001.tuka	tendatuka	tool/means for 'do / make'	noun	tenda	do / make	instrument	tenda+tu+ka
 ACT-001.boka	tendaboka	thing 'do / make'-ed; result of 'do / make'	noun	tenda	do / make	patient/result	tenda+bo+ka
 ACT-001.deka	tendadeka	place for 'do / make'	noun	tenda	do / make	place	tenda+de+ka
@@ -600,7 +600,7 @@ ACT-006.kideka	simamakideka	place of the one who 'stand's	noun	simama	stand	agen
 ACT-007.to	duduto	to 'sit'	verb	dudu	sit	verb	dudu+to
 ACT-007.ka	duduka	act of 'sit'; a 'sit'	noun	dudu	sit	noun	dudu+ka
 ACT-007.pe	dudupe	'sit'-ing	modifier	dudu	sit	modifier	dudu+pe
-ACT-007.kika	dudukika	one who 'sit's; 'sit'-er	noun	dudu	sit	agent	dudu+ki+ka
+ACT-007.kika	dudukika	sitter	noun	dudu	sit	agent	dudu+ki+ka
 ACT-007.tuka	dudutuka	tool/means for 'sit'	noun	dudu	sit	instrument	dudu+tu+ka
 ACT-007.boka	duduboka	thing 'sit'-ed; result of 'sit'	noun	dudu	sit	patient/result	dudu+bo+ka
 ACT-007.deka	dududeka	place for 'sit'	noun	dudu	sit	place	dudu+de+ka
@@ -646,7 +646,7 @@ ACT-016.kideka	angukakideka	place of the one who 'fall's	noun	anguka	fall	agent-
 ACT-021.to	pecato	to 'break'	verb	peca	break	verb	peca+to
 ACT-021.ka	pecaka	act of 'break'; a 'break'	noun	peca	break	noun	peca+ka
 ACT-021.pe	pecape	'break'-ing	modifier	peca	break	modifier	peca+pe
-ACT-021.kika	pecakika	one who 'break's; 'break'-er	noun	peca	break	agent	peca+ki+ka
+ACT-021.kika	pecakika	breaker	noun	peca	break	agent	peca+ki+ka
 ACT-021.tuka	pecatuka	tool/means for 'break'	noun	peca	break	instrument	peca+tu+ka
 ACT-021.boka	pecaboka	thing 'break'-ed; result of 'break'	noun	peca	break	patient/result	peca+bo+ka
 ACT-021.deka	pecadeka	place for 'break'	noun	peca	break	place	peca+de+ka
@@ -658,7 +658,7 @@ ACT-021.kideka	pecakideka	place of the one who 'break's	noun	peca	break	agent-pl
 ACT-022.to	katato	to 'cut'	verb	kata	cut	verb	kata+to
 ACT-022.ka	kataka	act of 'cut'; a 'cut'	noun	kata	cut	noun	kata+ka
 ACT-022.pe	katape	'cut'-ing	modifier	kata	cut	modifier	kata+pe
-ACT-022.kika	katakika	one who 'cut's; 'cut'-er	noun	kata	cut	agent	kata+ki+ka
+ACT-022.kika	katakika	cutter	noun	kata	cut	agent	kata+ki+ka
 ACT-022.tuka	katatuka	knife / cutter	noun	kata	cut	instrument	kata+tu+ka
 ACT-022.boka	kataboka	thing 'cut'-ed; result of 'cut'	noun	kata	cut	patient/result	kata+bo+ka
 ACT-022.deka	katadeka	place for 'cut'	noun	kata	cut	place	kata+de+ka
@@ -718,7 +718,6 @@ PER-002.kideka	kikukideka	place of the one who 'hear's	noun	kiku	hear	agent-plac
 EMO-003.to	mauto	to 'want'	verb	mau	want	verb	mau+to
 EMO-003.ka	mauka	act of 'want'; a 'want'	noun	mau	want	noun	mau+ka
 EMO-003.pe	maupe	'want'-ing	modifier	mau	want	modifier	mau+pe
-EMO-003.kika	maukika	one who 'want's; 'want'-er	noun	mau	want	agent	mau+ki+ka
 EMO-003.tuka	mautuka	tool/means for 'want'	noun	mau	want	instrument	mau+tu+ka
 EMO-003.boka	mauboka	thing 'want'-ed; result of 'want'	noun	mau	want	patient/result	mau+bo+ka
 EMO-003.deka	maudeka	place for 'want'	noun	mau	want	place	mau+de+ka
@@ -742,7 +741,6 @@ EMO-004.kideka	takukideka	place of the one who 'fear's	noun	taku	fear	agent-plac
 COG-001.to	tauto	to 'know'	verb	tau	know	verb	tau+to
 COG-001.ka	tauka	act of 'know'; a 'know'	noun	tau	know	noun	tau+ka
 COG-001.pe	taupe	'know'-ing	modifier	tau	know	modifier	tau+pe
-COG-001.kika	taukika	one who 'know's; 'know'-er	noun	tau	know	agent	tau+ki+ka
 COG-001.tuka	tautuka	tool/means for 'know'	noun	tau	know	instrument	tau+tu+ka
 COG-001.boka	tauboka	thing 'know'-ed; result of 'know'	noun	tau	know	patient/result	tau+bo+ka
 COG-001.deka	taudeka	place for 'know'	noun	tau	know	place	tau+de+ka
@@ -754,7 +752,7 @@ COG-001.kideka	taukideka	place of the one who 'know's	noun	tau	know	agent-place	
 COG-002.to	omouto	to 'think'	verb	omou	think	verb	omou+to
 COG-002.ka	omouka	act of 'think'; a 'think'	noun	omou	think	noun	omou+ka
 COG-002.pe	omoupe	'think'-ing	modifier	omou	think	modifier	omou+pe
-COG-002.kika	omoukika	one who 'think's; 'think'-er	noun	omou	think	agent	omou+ki+ka
+COG-002.kika	omoukika	thinker	noun	omou	think	agent	omou+ki+ka
 COG-002.tuka	omoutuka	tool/means for 'think'	noun	omou	think	instrument	omou+tu+ka
 COG-002.boka	omouboka	thing 'think'-ed; result of 'think'	noun	omou	think	patient/result	omou+bo+ka
 COG-002.deka	omoudeka	place for 'think'	noun	omou	think	place	omou+de+ka
@@ -790,7 +788,6 @@ SPE-003.deka	namadeka	place of/for 'name'	noun	nama	name	place	nama+de+ka
 POS-001.to	motuto	to 'have'	verb	motu	have	verb	motu+to
 POS-001.ka	motuka	act of 'have'; a 'have'	noun	motu	have	noun	motu+ka
 POS-001.pe	motupe	'have'-ing	modifier	motu	have	modifier	motu+pe
-POS-001.kika	motukika	one who 'have's; 'have'-er	noun	motu	have	agent	motu+ki+ka
 POS-001.tuka	motutuka	tool/means for 'have'	noun	motu	have	instrument	motu+tu+ka
 POS-001.boka	motuboka	thing 'have'-ed; result of 'have'	noun	motu	have	patient/result	motu+bo+ka
 POS-001.deka	motudeka	place for 'have'	noun	motu	have	place	motu+de+ka
@@ -1577,7 +1574,7 @@ CLO-002.deka	sepatudeka	place of/for 'shoe'	noun	sepatu	shoe	place	sepatu+de+ka
 CLO-003.to	pakaluto	to 'wear'	verb	pakalu	wear	verb	pakalu+to
 CLO-003.ka	pakaluka	act of 'wear'; a 'wear'	noun	pakalu	wear	noun	pakalu+ka
 CLO-003.pe	pakalupe	'wear'-ing	modifier	pakalu	wear	modifier	pakalu+pe
-CLO-003.kika	pakalukika	one who 'wear's; 'wear'-er	noun	pakalu	wear	agent	pakalu+ki+ka
+CLO-003.kika	pakalukika	wearer	noun	pakalu	wear	agent	pakalu+ki+ka
 CLO-003.tuka	pakalutuka	tool/means for 'wear'	noun	pakalu	wear	instrument	pakalu+tu+ka
 CLO-003.boka	pakaluboka	thing 'wear'-ed; result of 'wear'	noun	pakalu	wear	patient/result	pakalu+bo+ka
 CLO-003.deka	pakaludeka	place for 'wear'	noun	pakalu	wear	place	pakalu+de+ka
@@ -1637,7 +1634,6 @@ ACT-005.kideka	hasilukideka	place of the one who 'run's	noun	hasilu	run	agent-pl
 ACT-008.to	lebato	to 'lie down'	verb	leba	lie down	verb	leba+to
 ACT-008.ka	lebaka	act of 'lie down'; a 'lie down'	noun	leba	lie down	noun	leba+ka
 ACT-008.pe	lebape	'lie down'-ing	modifier	leba	lie down	modifier	leba+pe
-ACT-008.kika	lebakika	one who 'lie down's; 'lie down'-er	noun	leba	lie down	agent	leba+ki+ka
 ACT-008.tuka	lebatuka	tool/means for 'lie down'	noun	leba	lie down	instrument	leba+tu+ka
 ACT-008.boka	lebaboka	thing 'lie down'-ed; result of 'lie down'	noun	leba	lie down	patient/result	leba+bo+ka
 ACT-008.deka	lebadeka	place for 'lie down'	noun	leba	lie down	place	leba+de+ka
@@ -1661,7 +1657,7 @@ ACT-011.kideka	pegankideka	place of the one who 'hold's	noun	pegan	hold	agent-pl
 ACT-013.to	bebato	to 'carry'	verb	beba	carry	verb	beba+to
 ACT-013.ka	bebaka	act of 'carry'; a 'carry'	noun	beba	carry	noun	beba+ka
 ACT-013.pe	bebape	'carry'-ing	modifier	beba	carry	modifier	beba+pe
-ACT-013.kika	bebakika	one who 'carry's; 'carry'-er	noun	beba	carry	agent	beba+ki+ka
+ACT-013.kika	bebakika	carrier	noun	beba	carry	agent	beba+ki+ka
 ACT-013.tuka	bebatuka	tool/means for 'carry'	noun	beba	carry	instrument	beba+tu+ka
 ACT-013.boka	bebaboka	thing 'carry'-ed; result of 'carry'	noun	beba	carry	patient/result	beba+bo+ka
 ACT-013.deka	bebadeka	place for 'carry'	noun	beba	carry	place	beba+de+ka
@@ -1697,7 +1693,7 @@ ACT-015.kideka	nagelukideka	place of the one who 'throw's	noun	nagelu	throw	agen
 ACT-017.to	mawaluto	to 'turn'	verb	mawalu	turn	verb	mawalu+to
 ACT-017.ka	mawaluka	act of 'turn'; a 'turn'	noun	mawalu	turn	noun	mawalu+ka
 ACT-017.pe	mawalupe	'turn'-ing	modifier	mawalu	turn	modifier	mawalu+pe
-ACT-017.kika	mawalukika	one who 'turn's; 'turn'-er	noun	mawalu	turn	agent	mawalu+ki+ka
+ACT-017.kika	mawalukika	turner	noun	mawalu	turn	agent	mawalu+ki+ka
 ACT-017.tuka	mawalutuka	tool/means for 'turn'	noun	mawalu	turn	instrument	mawalu+tu+ka
 ACT-017.boka	mawaluboka	thing 'turn'-ed; result of 'turn'	noun	mawalu	turn	patient/result	mawalu+bo+ka
 ACT-017.deka	mawaludeka	place for 'turn'	noun	mawalu	turn	place	mawalu+de+ka
@@ -1709,7 +1705,7 @@ ACT-017.kideka	mawalukideka	place of the one who 'turn's	noun	mawalu	turn	agent-
 ACT-018.to	gelato	to 'move'	verb	gela	move	verb	gela+to
 ACT-018.ka	gelaka	act of 'move'; a 'move'	noun	gela	move	noun	gela+ka
 ACT-018.pe	gelape	'move'-ing	modifier	gela	move	modifier	gela+pe
-ACT-018.kika	gelakika	one who 'move's; 'move'-er	noun	gela	move	agent	gela+ki+ka
+ACT-018.kika	gelakika	mover	noun	gela	move	agent	gela+ki+ka
 ACT-018.tuka	gelatuka	tool/means for 'move'	noun	gela	move	instrument	gela+tu+ka
 ACT-018.boka	gelaboka	thing 'move'-ed; result of 'move'	noun	gela	move	patient/result	gela+bo+ka
 ACT-018.deka	geladeka	place for 'move'	noun	gela	move	place	gela+de+ka
@@ -1732,7 +1728,7 @@ ACT-019.kideka	bukakideka	place of the one who 'open's	noun	buka	open	agent-plac
 ACT-023.to	tatakuto	to 'hit / strike'	verb	tataku	hit / strike	verb	tataku+to
 ACT-023.ka	tatakuka	act of 'hit / strike'; a 'hit / strike'	noun	tataku	hit / strike	noun	tataku+ka
 ACT-023.pe	tatakupe	'hit / strike'-ing	modifier	tataku	hit / strike	modifier	tataku+pe
-ACT-023.kika	tatakukika	one who 'hit / strike's; 'hit / strike'-er	noun	tataku	hit / strike	agent	tataku+ki+ka
+ACT-023.kika	tatakukika	hitter	noun	tataku	hit / strike	agent	tataku+ki+ka
 ACT-023.tuka	tatakutuka	tool/means for 'hit / strike'	noun	tataku	hit / strike	instrument	tataku+tu+ka
 ACT-023.boka	tatakuboka	thing 'hit / strike'-ed; result of 'hit / strike'	noun	tataku	hit / strike	patient/result	tataku+bo+ka
 ACT-023.deka	tatakudeka	place for 'hit / strike'	noun	tataku	hit / strike	place	tataku+de+ka
@@ -1744,7 +1740,7 @@ ACT-023.kideka	tatakukideka	place of the one who 'hit / strike's	noun	tataku	hit
 ACT-024.to	dolonto	to 'push'	verb	dolon	push	verb	dolon+to
 ACT-024.ka	dolonka	act of 'push'; a 'push'	noun	dolon	push	noun	dolon+ka
 ACT-024.pe	dolonpe	'push'-ing	modifier	dolon	push	modifier	dolon+pe
-ACT-024.kika	dolonkika	one who 'push's; 'push'-er	noun	dolon	push	agent	dolon+ki+ka
+ACT-024.kika	dolonkika	pusher	noun	dolon	push	agent	dolon+ki+ka
 ACT-024.tuka	dolontuka	tool/means for 'push'	noun	dolon	push	instrument	dolon+tu+ka
 ACT-024.boka	dolonboka	thing 'push'-ed; result of 'push'	noun	dolon	push	patient/result	dolon+bo+ka
 ACT-024.deka	dolondeka	place for 'push'	noun	dolon	push	place	dolon+de+ka
@@ -1792,7 +1788,6 @@ ACT-027.kideka	ohakideka	place of the one who 'wash's	noun	oha	wash	agent-place	
 ACT-028.to	gosoto	to 'rub'	verb	goso	rub	verb	goso+to
 ACT-028.ka	gosoka	act of 'rub'; a 'rub'	noun	goso	rub	noun	goso+ka
 ACT-028.pe	gosope	'rub'-ing	modifier	goso	rub	modifier	goso+pe
-ACT-028.kika	gosokika	one who 'rub's; 'rub'-er	noun	goso	rub	agent	goso+ki+ka
 ACT-028.tuka	gosotuka	tool/means for 'rub'	noun	goso	rub	instrument	goso+tu+ka
 ACT-028.boka	gosoboka	thing 'rub'-ed; result of 'rub'	noun	goso	rub	patient/result	goso+bo+ka
 ACT-028.deka	gosodeka	place for 'rub'	noun	goso	rub	place	goso+de+ka
@@ -1804,7 +1799,7 @@ ACT-028.kideka	gosokideka	place of the one who 'rub's	noun	goso	rub	agent-place	
 ACT-029.to	holuto	to 'dig'	verb	holu	dig	verb	holu+to
 ACT-029.ka	holuka	act of 'dig'; a 'dig'	noun	holu	dig	noun	holu+ka
 ACT-029.pe	holupe	'dig'-ing	modifier	holu	dig	modifier	holu+pe
-ACT-029.kika	holukika	one who 'dig's; 'dig'-er	noun	holu	dig	agent	holu+ki+ka
+ACT-029.kika	holukika	digger	noun	holu	dig	agent	holu+ki+ka
 ACT-029.tuka	holutuka	spade / shovel	noun	holu	dig	instrument	holu+tu+ka
 ACT-029.boka	holuboka	thing 'dig'-ed; result of 'dig'	noun	holu	dig	patient/result	holu+bo+ka
 ACT-029.deka	holudeka	place for 'dig'	noun	holu	dig	place	holu+de+ka
@@ -1816,7 +1811,6 @@ ACT-029.kideka	holukideka	place of the one who 'dig's	noun	holu	dig	agent-place	
 ACT-031.to	nagaleto	to 'flow'	verb	nagale	flow	verb	nagale+to
 ACT-031.ka	nagaleka	act of 'flow'; a 'flow'	noun	nagale	flow	noun	nagale+ka
 ACT-031.pe	nagalepe	'flow'-ing	modifier	nagale	flow	modifier	nagale+pe
-ACT-031.kika	nagalekika	one who 'flow's; 'flow'-er	noun	nagale	flow	agent	nagale+ki+ka
 ACT-031.tuka	nagaletuka	tool/means for 'flow'	noun	nagale	flow	instrument	nagale+tu+ka
 ACT-031.boka	nagaleboka	thing 'flow'-ed; result of 'flow'	noun	nagale	flow	patient/result	nagale+bo+ka
 ACT-031.deka	nagaledeka	place for 'flow'	noun	nagale	flow	place	nagale+de+ka
@@ -1864,7 +1858,7 @@ ACT-035.kideka	asobukideka	place of the one who 'play's	noun	asobu	play	agent-pl
 ACT-036.to	pakaito	to 'use'	verb	pakai	use	verb	pakai+to
 ACT-036.ka	pakaika	act of 'use'; a 'use'	noun	pakai	use	noun	pakai+ka
 ACT-036.pe	pakaipe	'use'-ing	modifier	pakai	use	modifier	pakai+pe
-ACT-036.kika	pakaikika	one who 'use's; 'use'-er	noun	pakai	use	agent	pakai+ki+ka
+ACT-036.kika	pakaikika	user	noun	pakai	use	agent	pakai+ki+ka
 ACT-036.tuka	pakaituka	tool/means for 'use'	noun	pakai	use	instrument	pakai+tu+ka
 ACT-036.boka	pakaiboka	thing 'use'-ed; result of 'use'	noun	pakai	use	patient/result	pakai+bo+ka
 ACT-036.deka	pakaideka	place for 'use'	noun	pakai	use	place	pakai+de+ka
@@ -1888,7 +1882,7 @@ ACT-037.kideka	tolonakideka	place of the one who 'help's	noun	tolona	help	agent-
 ACT-038.to	mulaito	to 'begin / start'	verb	mulai	begin / start	verb	mulai+to
 ACT-038.ka	mulaika	act of 'begin / start'; a 'begin / start'	noun	mulai	begin / start	noun	mulai+ka
 ACT-038.pe	mulaipe	'begin / start'-ing	modifier	mulai	begin / start	modifier	mulai+pe
-ACT-038.kika	mulaikika	one who 'begin / start's; 'begin / start'-er	noun	mulai	begin / start	agent	mulai+ki+ka
+ACT-038.kika	mulaikika	beginner	noun	mulai	begin / start	agent	mulai+ki+ka
 ACT-038.tuka	mulaituka	tool/means for 'begin / start'	noun	mulai	begin / start	instrument	mulai+tu+ka
 ACT-038.boka	mulaiboka	thing 'begin / start'-ed; result of 'begin / start'	noun	mulai	begin / start	patient/result	mulai+bo+ka
 ACT-038.deka	mulaideka	place for 'begin / start'	noun	mulai	begin / start	place	mulai+de+ka
@@ -2062,7 +2056,7 @@ PER-003.kideka	nioikideka	place of the one who 'smell's	noun	nioi	smell	agent-pl
 PER-004.to	lasato	to 'taste'	verb	lasa	taste	verb	lasa+to
 PER-004.ka	lasaka	act of 'taste'; a 'taste'	noun	lasa	taste	noun	lasa+ka
 PER-004.pe	lasape	'taste'-ing	modifier	lasa	taste	modifier	lasa+pe
-PER-004.kika	lasakika	one who 'taste's; 'taste'-er	noun	lasa	taste	agent	lasa+ki+ka
+PER-004.kika	lasakika	taster	noun	lasa	taste	agent	lasa+ki+ka
 PER-004.tuka	lasatuka	tool/means for 'taste'	noun	lasa	taste	instrument	lasa+tu+ka
 PER-004.boka	lasaboka	thing 'taste'-ed; result of 'taste'	noun	lasa	taste	patient/result	lasa+bo+ka
 PER-004.deka	lasadeka	place for 'taste'	noun	lasa	taste	place	lasa+de+ka
@@ -2086,7 +2080,7 @@ PER-005.kideka	sentukideka	place of the one who 'touch's	noun	sentu	touch	agent-
 PER-006.to	miluto	to 'look at / watch'	verb	milu	look at / watch	verb	milu+to
 PER-006.ka	miluka	act of 'look at / watch'; a 'look at / watch'	noun	milu	look at / watch	noun	milu+ka
 PER-006.pe	milupe	'look at / watch'-ing	modifier	milu	look at / watch	modifier	milu+pe
-PER-006.kika	milukika	one who 'look at / watch's; 'look at / watch'-er	noun	milu	look at / watch	agent	milu+ki+ka
+PER-006.kika	milukika	watcher / observer	noun	milu	look at / watch	agent	milu+ki+ka
 PER-006.tuka	milutuka	tool/means for 'look at / watch'	noun	milu	look at / watch	instrument	milu+tu+ka
 PER-006.boka	miluboka	thing 'look at / watch'-ed; result of 'look at / watch'	noun	milu	look at / watch	patient/result	milu+bo+ka
 PER-006.deka	miludeka	place for 'look at / watch'	noun	milu	look at / watch	place	milu+de+ka
@@ -2098,7 +2092,7 @@ PER-006.kideka	milukideka	place of the one who 'look at / watch's	noun	milu	look
 PER-007.to	dengaeto	to 'listen'	verb	dengae	listen	verb	dengae+to
 PER-007.ka	dengaeka	act of 'listen'; a 'listen'	noun	dengae	listen	noun	dengae+ka
 PER-007.pe	dengaepe	'listen'-ing	modifier	dengae	listen	modifier	dengae+pe
-PER-007.kika	dengaekika	one who 'listen's; 'listen'-er	noun	dengae	listen	agent	dengae+ki+ka
+PER-007.kika	dengaekika	listener	noun	dengae	listen	agent	dengae+ki+ka
 PER-007.tuka	dengaetuka	tool/means for 'listen'	noun	dengae	listen	instrument	dengae+tu+ka
 PER-007.boka	dengaeboka	thing 'listen'-ed; result of 'listen'	noun	dengae	listen	patient/result	dengae+bo+ka
 PER-007.deka	dengaedeka	place for 'listen'	noun	dengae	listen	place	dengae+de+ka
@@ -2243,7 +2237,7 @@ COG-006.kideka	ingakideka	place of the one who 'remember's	noun	inga	remember	ag
 COG-008.to	pecayato	to 'believe'	verb	pecaya	believe	verb	pecaya+to
 COG-008.ka	pecayaka	act of 'believe'; a 'believe'	noun	pecaya	believe	noun	pecaya+ka
 COG-008.pe	pecayape	'believe'-ing	modifier	pecaya	believe	modifier	pecaya+pe
-COG-008.kika	pecayakika	one who 'believe's; 'believe'-er	noun	pecaya	believe	agent	pecaya+ki+ka
+COG-008.kika	pecayakika	believer	noun	pecaya	believe	agent	pecaya+ki+ka
 COG-008.tuka	pecayatuka	tool/means for 'believe'	noun	pecaya	believe	instrument	pecaya+tu+ka
 COG-008.boka	pecayaboka	thing 'believe'-ed; result of 'believe'	noun	pecaya	believe	patient/result	pecaya+bo+ka
 COG-008.deka	pecayadeka	place for 'believe'	noun	pecaya	believe	place	pecaya+de+ka
@@ -2266,7 +2260,7 @@ SPE-004.deka	bahaedeka	place of/for 'language'	noun	bahae	language	place	bahae+d
 SPE-005.to	tayaeto	to 'ask'	verb	tayae	ask	verb	tayae+to
 SPE-005.ka	tayaeka	act of 'ask'; a 'ask'	noun	tayae	ask	noun	tayae+ka
 SPE-005.pe	tayaepe	'ask'-ing	modifier	tayae	ask	modifier	tayae+pe
-SPE-005.kika	tayaekika	one who 'ask's; 'ask'-er	noun	tayae	ask	agent	tayae+ki+ka
+SPE-005.kika	tayaekika	questioner	noun	tayae	ask	agent	tayae+ki+ka
 SPE-005.tuka	tayaetuka	tool/means for 'ask'	noun	tayae	ask	instrument	tayae+tu+ka
 SPE-005.boka	tayaeboka	question	noun	tayae	ask	patient/result	tayae+bo+ka
 SPE-005.deka	tayaedeka	place for 'ask'	noun	tayae	ask	place	tayae+de+ka
@@ -2754,7 +2748,7 @@ EMO-014.takika	bangatakika	one who makes things 'proud / pride'	noun	banga	proud
 EMO-015.to	nikumuto	to 'hate'	verb	nikumu	hate	verb	nikumu+to
 EMO-015.ka	nikumuka	act of 'hate'; a 'hate'	noun	nikumu	hate	noun	nikumu+ka
 EMO-015.pe	nikumupe	'hate'-ing	modifier	nikumu	hate	modifier	nikumu+pe
-EMO-015.kika	nikumukika	one who 'hate's; 'hate'-er	noun	nikumu	hate	agent	nikumu+ki+ka
+EMO-015.kika	nikumukika	hater	noun	nikumu	hate	agent	nikumu+ki+ka
 EMO-015.tuka	nikumutuka	tool/means for 'hate'	noun	nikumu	hate	instrument	nikumu+tu+ka
 EMO-015.boka	nikumuboka	thing 'hate'-ed; result of 'hate'	noun	nikumu	hate	patient/result	nikumu+bo+ka
 EMO-015.deka	nikumudeka	place for 'hate'	noun	nikumu	hate	place	nikumu+de+ka
@@ -2972,7 +2966,7 @@ SPE-015.deka	usodeka	place of/for 'lie / falsehood'	noun	uso	lie / falsehood	pla
 SPE-016.to	yobuto	to 'call / shout'	verb	yobu	call / shout	verb	yobu+to
 SPE-016.ka	yobuka	act of 'call / shout'; a 'call / shout'	noun	yobu	call / shout	noun	yobu+ka
 SPE-016.pe	yobupe	'call / shout'-ing	modifier	yobu	call / shout	modifier	yobu+pe
-SPE-016.kika	yobukika	one who 'call / shout's; 'call / shout'-er	noun	yobu	call / shout	agent	yobu+ki+ka
+SPE-016.kika	yobukika	caller	noun	yobu	call / shout	agent	yobu+ki+ka
 SPE-016.tuka	yobutuka	tool/means for 'call / shout'	noun	yobu	call / shout	instrument	yobu+tu+ka
 SPE-016.boka	yobuboka	thing 'call / shout'-ed; result of 'call / shout'	noun	yobu	call / shout	patient/result	yobu+bo+ka
 SPE-016.deka	yobudeka	place for 'call / shout'	noun	yobu	call / shout	place	yobu+de+ka
@@ -3463,7 +3457,7 @@ AGR-016.deka	kinokodeka	place of/for 'mushroom'	noun	kinoko	mushroom	place	kinok
 AGR-017.to	pandato	to 'sow / plant (v)'	verb	panda	sow / plant (v)	verb	panda+to
 AGR-017.ka	pandaka	act of 'sow / plant (v)'; a 'sow / plant (v)'	noun	panda	sow / plant (v)	noun	panda+ka
 AGR-017.pe	pandape	'sow / plant (v)'-ing	modifier	panda	sow / plant (v)	modifier	panda+pe
-AGR-017.kika	pandakika	one who 'sow / plant (v)'s; 'sow / plant (v)'-er	noun	panda	sow / plant (v)	agent	panda+ki+ka
+AGR-017.kika	pandakika	sower	noun	panda	sow / plant (v)	agent	panda+ki+ka
 AGR-017.tuka	pandatuka	tool/means for 'sow / plant (v)'	noun	panda	sow / plant (v)	instrument	panda+tu+ka
 AGR-017.boka	pandaboka	thing 'sow / plant (v)'-ed; result of 'sow / plant (v)'	noun	panda	sow / plant (v)	patient/result	panda+bo+ka
 AGR-017.deka	pandadeka	place for 'sow / plant (v)'	noun	panda	sow / plant (v)	place	panda+de+ka
@@ -4155,7 +4149,7 @@ MOT-008.kideka	lukakideka	place of the one who 'jump / leap's	noun	luka	jump / l
 MOT-009.to	kimiato	to 'flee / escape'	verb	kimia	flee / escape	verb	kimia+to
 MOT-009.ka	kimiaka	act of 'flee / escape'; a 'flee / escape'	noun	kimia	flee / escape	noun	kimia+ka
 MOT-009.pe	kimiape	'flee / escape'-ing	modifier	kimia	flee / escape	modifier	kimia+pe
-MOT-009.kika	kimiakika	one who 'flee / escape's; 'flee / escape'-er	noun	kimia	flee / escape	agent	kimia+ki+ka
+MOT-009.kika	kimiakika	fugitive	noun	kimia	flee / escape	agent	kimia+ki+ka
 MOT-009.tuka	kimiatuka	tool/means for 'flee / escape'	noun	kimia	flee / escape	instrument	kimia+tu+ka
 MOT-009.boka	kimiaboka	thing 'flee / escape'-ed; result of 'flee / escape'	noun	kimia	flee / escape	patient/result	kimia+bo+ka
 MOT-009.deka	kimiadeka	place for 'flee / escape'	noun	kimia	flee / escape	place	kimia+de+ka
@@ -4167,7 +4161,7 @@ MOT-009.kideka	kimiakideka	place of the one who 'flee / escape's	noun	kimia	flee
 MOT-010.to	fukusato	to 'chase / pursue'	verb	fukusa	chase / pursue	verb	fukusa+to
 MOT-010.ka	fukusaka	act of 'chase / pursue'; a 'chase / pursue'	noun	fukusa	chase / pursue	noun	fukusa+ka
 MOT-010.pe	fukusape	'chase / pursue'-ing	modifier	fukusa	chase / pursue	modifier	fukusa+pe
-MOT-010.kika	fukusakika	one who 'chase / pursue's; 'chase / pursue'-er	noun	fukusa	chase / pursue	agent	fukusa+ki+ka
+MOT-010.kika	fukusakika	pursuer	noun	fukusa	chase / pursue	agent	fukusa+ki+ka
 MOT-010.tuka	fukusatuka	tool/means for 'chase / pursue'	noun	fukusa	chase / pursue	instrument	fukusa+tu+ka
 MOT-010.boka	fukusaboka	thing 'chase / pursue'-ed; result of 'chase / pursue'	noun	fukusa	chase / pursue	patient/result	fukusa+bo+ka
 MOT-010.deka	fukusadeka	place for 'chase / pursue'	noun	fukusa	chase / pursue	place	fukusa+de+ka
@@ -4225,7 +4219,7 @@ MOT-014.kideka	telesakideka	place of the one who 'slide / slip's	noun	telesa	sli
 MOT-015.to	tangatangato	to 'wander / roam'	verb	tangatanga	wander / roam	verb	tangatanga+to
 MOT-015.ka	tangatangaka	act of 'wander / roam'; a 'wander / roam'	noun	tangatanga	wander / roam	noun	tangatanga+ka
 MOT-015.pe	tangatangape	'wander / roam'-ing	modifier	tangatanga	wander / roam	modifier	tangatanga+pe
-MOT-015.kika	tangatangakika	one who 'wander / roam's; 'wander / roam'-er	noun	tangatanga	wander / roam	agent	tangatanga+ki+ka
+MOT-015.kika	tangatangakika	wanderer	noun	tangatanga	wander / roam	agent	tangatanga+ki+ka
 MOT-015.tuka	tangatangatuka	tool/means for 'wander / roam'	noun	tangatanga	wander / roam	instrument	tangatanga+tu+ka
 MOT-015.boka	tangatangaboka	thing 'wander / roam'-ed; result of 'wander / roam'	noun	tangatanga	wander / roam	patient/result	tangatanga+bo+ka
 MOT-015.deka	tangatangadeka	place for 'wander / roam'	noun	tangatanga	wander / roam	place	tangatanga+de+ka
@@ -4246,7 +4240,7 @@ MOT-016.taboka	tetemekataboka	what is brought about by 'tremble / shake'	noun	te
 MOT-016.kideka	tetemekakideka	place of the one who 'tremble / shake's	noun	tetemeka	tremble / shake	agent-place	tetemeka+ki+de+ka
 MOT-017.to	sungulukato	to 'spin / rotate'	verb	sunguluka	spin / rotate	verb	sunguluka+to
 MOT-017.pe	sungulukape	'spin / rotate'-ing	modifier	sunguluka	spin / rotate	modifier	sunguluka+pe
-MOT-017.kika	sungulukakika	one who 'spin / rotate's; 'spin / rotate'-er	noun	sunguluka	spin / rotate	agent	sunguluka+ki+ka
+MOT-017.kika	sungulukakika	spinner	noun	sunguluka	spin / rotate	agent	sunguluka+ki+ka
 MOT-017.tuka	sungulukatuka	tool/means for 'spin / rotate'	noun	sunguluka	spin / rotate	instrument	sunguluka+tu+ka
 MOT-017.boka	sungulukaboka	thing 'spin / rotate'-ed; result of 'spin / rotate'	noun	sunguluka	spin / rotate	patient/result	sunguluka+bo+ka
 MOT-017.deka	sungulukadeka	place for 'spin / rotate'	noun	sunguluka	spin / rotate	place	sunguluka+de+ka
@@ -4294,7 +4288,7 @@ MOT-020.kideka	picehakideka	place of the one who 'retreat / withdraw's	noun	pice
 MOT-021.to	ikatato	to 'gather / assemble'	verb	ikata	gather / assemble	verb	ikata+to
 MOT-021.ka	ikataka	act of 'gather / assemble'; a 'gather / assemble'	noun	ikata	gather / assemble	noun	ikata+ka
 MOT-021.pe	ikatape	'gather / assemble'-ing	modifier	ikata	gather / assemble	modifier	ikata+pe
-MOT-021.kika	ikatakika	one who 'gather / assemble's; 'gather / assemble'-er	noun	ikata	gather / assemble	agent	ikata+ki+ka
+MOT-021.kika	ikatakika	gatherer	noun	ikata	gather / assemble	agent	ikata+ki+ka
 MOT-021.tuka	ikatatuka	tool/means for 'gather / assemble'	noun	ikata	gather / assemble	instrument	ikata+tu+ka
 MOT-021.boka	ikataboka	thing 'gather / assemble'-ed; result of 'gather / assemble'	noun	ikata	gather / assemble	patient/result	ikata+bo+ka
 MOT-021.deka	ikatadeka	place for 'gather / assemble'	noun	ikata	gather / assemble	place	ikata+de+ka
@@ -4408,7 +4402,7 @@ MOT-030.kideka	silulakideka	place of the one who 'circulate's	noun	silula	circul
 MOT-031.to	nawigato	to 'navigate / steer'	verb	nawiga	navigate / steer	verb	nawiga+to
 MOT-031.ka	nawigaka	act of 'navigate / steer'; a 'navigate / steer'	noun	nawiga	navigate / steer	noun	nawiga+ka
 MOT-031.pe	nawigape	'navigate / steer'-ing	modifier	nawiga	navigate / steer	modifier	nawiga+pe
-MOT-031.kika	nawigakika	one who 'navigate / steer's; 'navigate / steer'-er	noun	nawiga	navigate / steer	agent	nawiga+ki+ka
+MOT-031.kika	nawigakika	navigator	noun	nawiga	navigate / steer	agent	nawiga+ki+ka
 MOT-031.tuka	nawigatuka	tool/means for 'navigate / steer'	noun	nawiga	navigate / steer	instrument	nawiga+tu+ka
 MOT-031.boka	nawigaboka	thing 'navigate / steer'-ed; result of 'navigate / steer'	noun	nawiga	navigate / steer	patient/result	nawiga+bo+ka
 MOT-031.deka	nawigadeka	place for 'navigate / steer'	noun	nawiga	navigate / steer	place	nawiga+de+ka
@@ -5199,7 +5193,7 @@ COG-023.kideka	andasakideka	place of the one who 'guess / estimate's	noun	andasa
 COG-024.to	yoyanato	to 'plan / arrange'	verb	yoyana	plan / arrange	verb	yoyana+to
 COG-024.ka	yoyanaka	act of 'plan / arrange'; a 'plan / arrange'	noun	yoyana	plan / arrange	noun	yoyana+ka
 COG-024.pe	yoyanape	'plan / arrange'-ing	modifier	yoyana	plan / arrange	modifier	yoyana+pe
-COG-024.kika	yoyanakika	one who 'plan / arrange's; 'plan / arrange'-er	noun	yoyana	plan / arrange	agent	yoyana+ki+ka
+COG-024.kika	yoyanakika	planner	noun	yoyana	plan / arrange	agent	yoyana+ki+ka
 COG-024.tuka	yoyanatuka	tool/means for 'plan / arrange'	noun	yoyana	plan / arrange	instrument	yoyana+tu+ka
 COG-024.boka	yoyanaboka	thing 'plan / arrange'-ed; result of 'plan / arrange'	noun	yoyana	plan / arrange	patient/result	yoyana+bo+ka
 COG-024.deka	yoyanadeka	place for 'plan / arrange'	noun	yoyana	plan / arrange	place	yoyana+de+ka
@@ -5319,7 +5313,7 @@ COG-033.kideka	conidelakideka	place of the one who 'consider / ponder's	noun	con
 COG-034.to	cungusato	to 'examine / analyze'	verb	cungusa	examine / analyze	verb	cungusa+to
 COG-034.ka	cungusaka	act of 'examine / analyze'; a 'examine / analyze'	noun	cungusa	examine / analyze	noun	cungusa+ka
 COG-034.pe	cungusape	'examine / analyze'-ing	modifier	cungusa	examine / analyze	modifier	cungusa+pe
-COG-034.kika	cungusakika	one who 'examine / analyze's; 'examine / analyze'-er	noun	cungusa	examine / analyze	agent	cungusa+ki+ka
+COG-034.kika	cungusakika	examiner	noun	cungusa	examine / analyze	agent	cungusa+ki+ka
 COG-034.tuka	cungusatuka	tool/means for 'examine / analyze'	noun	cungusa	examine / analyze	instrument	cungusa+tu+ka
 COG-034.boka	cungusaboka	thing 'examine / analyze'-ed; result of 'examine / analyze'	noun	cungusa	examine / analyze	patient/result	cungusa+bo+ka
 COG-034.deka	cungusadeka	place for 'examine / analyze'	noun	cungusa	examine / analyze	place	cungusa+de+ka
@@ -5365,7 +5359,7 @@ COG-037.kideka	sulisakideka	place of the one who 'solve / resolve's	noun	sulisa	
 COG-038.to	fasilito	to 'interpret / explain'	verb	fasili	interpret / explain	verb	fasili+to
 COG-038.ka	fasilika	act of 'interpret / explain'; a 'interpret / explain'	noun	fasili	interpret / explain	noun	fasili+ka
 COG-038.pe	fasilipe	'interpret / explain'-ing	modifier	fasili	interpret / explain	modifier	fasili+pe
-COG-038.kika	fasilikika	one who 'interpret / explain's; 'interpret / explain'-er	noun	fasili	interpret / explain	agent	fasili+ki+ka
+COG-038.kika	fasilikika	interpreter	noun	fasili	interpret / explain	agent	fasili+ki+ka
 COG-038.tuka	fasilituka	tool/means for 'interpret / explain'	noun	fasili	interpret / explain	instrument	fasili+tu+ka
 COG-038.boka	fasiliboka	thing 'interpret / explain'-ed; result of 'interpret / explain'	noun	fasili	interpret / explain	patient/result	fasili+bo+ka
 COG-038.deka	fasilideka	place for 'interpret / explain'	noun	fasili	interpret / explain	place	fasili+de+ka
@@ -6431,7 +6425,7 @@ AGR-050.deka	hetadeka	place of/for 'field / cropland'	noun	heta	field / cropland
 AGR-051.to	yotanato	to 'plough (v)'	verb	yotana	plough (v)	verb	yotana+to
 AGR-051.ka	yotanaka	act of 'plough (v)'; a 'plough (v)'	noun	yotana	plough (v)	noun	yotana+ka
 AGR-051.pe	yotanape	'plough (v)'-ing	modifier	yotana	plough (v)	modifier	yotana+pe
-AGR-051.kika	yotanakika	one who 'plough (v)'s; 'plough (v)'-er	noun	yotana	plough (v)	agent	yotana+ki+ka
+AGR-051.kika	yotanakika	ploughman	noun	yotana	plough (v)	agent	yotana+ki+ka
 AGR-051.tuka	yotanatuka	tool/means for 'plough (v)'	noun	yotana	plough (v)	instrument	yotana+tu+ka
 AGR-051.boka	yotanaboka	thing 'plough (v)'-ed; result of 'plough (v)'	noun	yotana	plough (v)	patient/result	yotana+bo+ka
 AGR-051.deka	yotanadeka	place for 'plough (v)'	noun	yotana	plough (v)	place	yotana+de+ka
@@ -6858,7 +6852,7 @@ ACT-056.kideka	gilanakideka	place of the one who 'drop / let fall's	noun	gilana	
 ACT-057.to	utanato	to 'lift / raise'	verb	utana	lift / raise	verb	utana+to
 ACT-057.ka	utanaka	act of 'lift / raise'; a 'lift / raise'	noun	utana	lift / raise	noun	utana+ka
 ACT-057.pe	utanape	'lift / raise'-ing	modifier	utana	lift / raise	modifier	utana+pe
-ACT-057.kika	utanakika	one who 'lift / raise's; 'lift / raise'-er	noun	utana	lift / raise	agent	utana+ki+ka
+ACT-057.kika	utanakika	lifter	noun	utana	lift / raise	agent	utana+ki+ka
 ACT-057.tuka	utanatuka	tool/means for 'lift / raise'	noun	utana	lift / raise	instrument	utana+tu+ka
 ACT-057.boka	utanaboka	thing 'lift / raise'-ed; result of 'lift / raise'	noun	utana	lift / raise	patient/result	utana+bo+ka
 ACT-057.deka	utanadeka	place for 'lift / raise'	noun	utana	lift / raise	place	utana+de+ka
@@ -7001,7 +6995,7 @@ ACT-068.kideka	tekakideka	place of the one who 'kick's	noun	teka	kick	agent-plac
 ACT-069.to	fagiato	to 'sweep'	verb	fagia	sweep	verb	fagia+to
 ACT-069.ka	fagiaka	act of 'sweep'; a 'sweep'	noun	fagia	sweep	noun	fagia+ka
 ACT-069.pe	fagiape	'sweep'-ing	modifier	fagia	sweep	modifier	fagia+pe
-ACT-069.kika	fagiakika	one who 'sweep's; 'sweep'-er	noun	fagia	sweep	agent	fagia+ki+ka
+ACT-069.kika	fagiakika	sweeper	noun	fagia	sweep	agent	fagia+ki+ka
 ACT-069.tuka	fagiatuka	broom	noun	fagia	sweep	instrument	fagia+tu+ka
 ACT-069.boka	fagiaboka	thing 'sweep'-ed; result of 'sweep'	noun	fagia	sweep	patient/result	fagia+bo+ka
 ACT-069.deka	fagiadeka	place for 'sweep'	noun	fagia	sweep	place	fagia+de+ka
@@ -7097,7 +7091,7 @@ ACT-076.kideka	cupaikideka	place of the one who 'hide / conceal's	noun	cupai	hid
 ACT-077.to	tafutato	to 'search / seek'	verb	tafuta	search / seek	verb	tafuta+to
 ACT-077.ka	tafutaka	act of 'search / seek'; a 'search / seek'	noun	tafuta	search / seek	noun	tafuta+ka
 ACT-077.pe	tafutape	'search / seek'-ing	modifier	tafuta	search / seek	modifier	tafuta+pe
-ACT-077.kika	tafutakika	one who 'search / seek's; 'search / seek'-er	noun	tafuta	search / seek	agent	tafuta+ki+ka
+ACT-077.kika	tafutakika	searcher / seeker	noun	tafuta	search / seek	agent	tafuta+ki+ka
 ACT-077.tuka	tafutatuka	tool/means for 'search / seek'	noun	tafuta	search / seek	instrument	tafuta+tu+ka
 ACT-077.boka	tafutaboka	thing 'search / seek'-ed; result of 'search / seek'	noun	tafuta	search / seek	patient/result	tafuta+bo+ka
 ACT-077.deka	tafutadeka	place for 'search / seek'	noun	tafuta	search / seek	place	tafuta+de+ka
@@ -7109,7 +7103,7 @@ ACT-077.kideka	tafutakideka	place of the one who 'search / seek's	noun	tafuta	se
 ACT-078.to	pataito	to 'find / discover'	verb	patai	find / discover	verb	patai+to
 ACT-078.ka	pataika	act of 'find / discover'; a 'find / discover'	noun	patai	find / discover	noun	patai+ka
 ACT-078.pe	pataipe	'find / discover'-ing	modifier	patai	find / discover	modifier	patai+pe
-ACT-078.kika	pataikika	one who 'find / discover's; 'find / discover'-er	noun	patai	find / discover	agent	patai+ki+ka
+ACT-078.kika	pataikika	finder	noun	patai	find / discover	agent	patai+ki+ka
 ACT-078.tuka	pataituka	tool/means for 'find / discover'	noun	patai	find / discover	instrument	patai+tu+ka
 ACT-078.boka	pataiboka	thing 'find / discover'-ed; result of 'find / discover'	noun	patai	find / discover	patient/result	patai+bo+ka
 ACT-078.deka	pataideka	place for 'find / discover'	noun	patai	find / discover	place	patai+de+ka
@@ -7133,7 +7127,7 @@ ACT-079.kideka	caguakideka	place of the one who 'choose-pick's	noun	cagua	choose
 ACT-080.to	kusanato	to 'collect / gather up'	verb	kusana	collect / gather up	verb	kusana+to
 ACT-080.ka	kusanaka	act of 'collect / gather up'; a 'collect / gather up'	noun	kusana	collect / gather up	noun	kusana+ka
 ACT-080.pe	kusanape	'collect / gather up'-ing	modifier	kusana	collect / gather up	modifier	kusana+pe
-ACT-080.kika	kusanakika	one who 'collect / gather up's; 'collect / gather up'-er	noun	kusana	collect / gather up	agent	kusana+ki+ka
+ACT-080.kika	kusanakika	collector	noun	kusana	collect / gather up	agent	kusana+ki+ka
 ACT-080.tuka	kusanatuka	tool/means for 'collect / gather up'	noun	kusana	collect / gather up	instrument	kusana+tu+ka
 ACT-080.boka	kusanaboka	thing 'collect / gather up'-ed; result of 'collect / gather up'	noun	kusana	collect / gather up	patient/result	kusana+bo+ka
 ACT-080.deka	kusanadeka	place for 'collect / gather up'	noun	kusana	collect / gather up	place	kusana+de+ka
@@ -7169,7 +7163,7 @@ ACT-082.kideka	tayalisakideka	place of the one who 'prepare / get ready's	noun	t
 ACT-083.to	pangaito	to 'arrange / order'	verb	pangai	arrange / order	verb	pangai+to
 ACT-083.ka	pangaika	act of 'arrange / order'; a 'arrange / order'	noun	pangai	arrange / order	noun	pangai+ka
 ACT-083.pe	pangaipe	'arrange / order'-ing	modifier	pangai	arrange / order	modifier	pangai+pe
-ACT-083.kika	pangaikika	one who 'arrange / order's; 'arrange / order'-er	noun	pangai	arrange / order	agent	pangai+ki+ka
+ACT-083.kika	pangaikika	arranger	noun	pangai	arrange / order	agent	pangai+ki+ka
 ACT-083.tuka	pangaituka	tool/means for 'arrange / order'	noun	pangai	arrange / order	instrument	pangai+tu+ka
 ACT-083.boka	pangaiboka	thing 'arrange / order'-ed; result of 'arrange / order'	noun	pangai	arrange / order	patient/result	pangai+bo+ka
 ACT-083.deka	pangaideka	place for 'arrange / order'	noun	pangai	arrange / order	place	pangai+de+ka
@@ -7239,7 +7233,7 @@ ACT-088.kideka	ludiaikideka	place of the one who 'repeat / do again's	noun	ludia
 ACT-089.to	subilito	to 'wait'	verb	subili	wait	verb	subili+to
 ACT-089.ka	subilika	act of 'wait'; a 'wait'	noun	subili	wait	noun	subili+ka
 ACT-089.pe	subilipe	'wait'-ing	modifier	subili	wait	modifier	subili+pe
-ACT-089.kika	subilikika	one who 'wait's; 'wait'-er	noun	subili	wait	agent	subili+ki+ka
+ACT-089.kika	subilikika	waiter	noun	subili	wait	agent	subili+ki+ka
 ACT-089.tuka	subilituka	tool/means for 'wait'	noun	subili	wait	instrument	subili+tu+ka
 ACT-089.boka	subiliboka	thing 'wait'-ed; result of 'wait'	noun	subili	wait	patient/result	subili+bo+ka
 ACT-089.deka	subilideka	place for 'wait'	noun	subili	wait	place	subili+de+ka
@@ -7849,7 +7843,7 @@ EMO-053.kideka	godelekideka	place of the one who 'enjoy's	noun	godele	enjoy	agen
 EMO-054.to	sufileto	to 'suffer'	verb	sufile	suffer	verb	sufile+to
 EMO-054.ka	sufileka	act of 'suffer'; a 'suffer'	noun	sufile	suffer	noun	sufile+ka
 EMO-054.pe	sufilepe	'suffer'-ing	modifier	sufile	suffer	modifier	sufile+pe
-EMO-054.kika	sufilekika	one who 'suffer's; 'suffer'-er	noun	sufile	suffer	agent	sufile+ki+ka
+EMO-054.kika	sufilekika	sufferer	noun	sufile	suffer	agent	sufile+ki+ka
 EMO-054.tuka	sufiletuka	tool/means for 'suffer'	noun	sufile	suffer	instrument	sufile+tu+ka
 EMO-054.boka	sufileboka	thing 'suffer'-ed; result of 'suffer'	noun	sufile	suffer	patient/result	sufile+bo+ka
 EMO-054.deka	sufiledeka	place for 'suffer'	noun	sufile	suffer	place	sufile+de+ka
@@ -8013,7 +8007,7 @@ COG-070.kideka	leconosekideka	place of the one who 'recognize's	noun	leconose	re
 COG-071.to	sosetato	to 'suspect'	verb	soseta	suspect	verb	soseta+to
 COG-071.ka	sosetaka	act of 'suspect'; a 'suspect'	noun	soseta	suspect	noun	soseta+ka
 COG-071.pe	sosetape	'suspect'-ing	modifier	soseta	suspect	modifier	soseta+pe
-COG-071.kika	sosetakika	one who 'suspect's; 'suspect'-er	noun	soseta	suspect	agent	soseta+ki+ka
+COG-071.kika	sosetakika	suspect	noun	soseta	suspect	agent	soseta+ki+ka
 COG-071.tuka	sosetatuka	tool/means for 'suspect'	noun	soseta	suspect	instrument	soseta+tu+ka
 COG-071.boka	sosetaboka	thing 'suspect'-ed; result of 'suspect'	noun	soseta	suspect	patient/result	soseta+bo+ka
 COG-071.deka	sosetadeka	place for 'suspect'	noun	soseta	suspect	place	soseta+de+ka
@@ -8025,7 +8019,7 @@ COG-071.kideka	sosetakideka	place of the one who 'suspect's	noun	soseta	suspect	
 COG-072.to	bunekito	to 'analyze / break-down'	verb	buneki	analyze / break-down	verb	buneki+to
 COG-072.ka	bunekika	act of 'analyze / break-down'; a 'analyze / break-down'	noun	buneki	analyze / break-down	noun	buneki+ka
 COG-072.pe	bunekipe	'analyze / break-down'-ing	modifier	buneki	analyze / break-down	modifier	buneki+pe
-COG-072.kika	bunekikika	one who 'analyze / break-down's; 'analyze / break-down'-er	noun	buneki	analyze / break-down	agent	buneki+ki+ka
+COG-072.kika	bunekikika	analyst	noun	buneki	analyze / break-down	agent	buneki+ki+ka
 COG-072.tuka	bunekituka	tool/means for 'analyze / break-down'	noun	buneki	analyze / break-down	instrument	buneki+tu+ka
 COG-072.boka	bunekiboka	thing 'analyze / break-down'-ed; result of 'analyze / break-down'	noun	buneki	analyze / break-down	patient/result	buneki+bo+ka
 COG-072.deka	bunekideka	place for 'analyze / break-down'	noun	buneki	analyze / break-down	place	buneki+de+ka
@@ -8343,7 +8337,7 @@ SPE-052.kideka	yimankideka	place of the one who 'boast / brag's	noun	yiman	boast
 SPE-053.to	kosoato	to 'negotiate'	verb	kosoa	negotiate	verb	kosoa+to
 SPE-053.ka	kosoaka	act of 'negotiate'; a 'negotiate'	noun	kosoa	negotiate	noun	kosoa+ka
 SPE-053.pe	kosoape	'negotiate'-ing	modifier	kosoa	negotiate	modifier	kosoa+pe
-SPE-053.kika	kosoakika	one who 'negotiate's; 'negotiate'-er	noun	kosoa	negotiate	agent	kosoa+ki+ka
+SPE-053.kika	kosoakika	negotiator	noun	kosoa	negotiate	agent	kosoa+ki+ka
 SPE-053.tuka	kosoatuka	tool/means for 'negotiate'	noun	kosoa	negotiate	instrument	kosoa+tu+ka
 SPE-053.boka	kosoaboka	thing 'negotiate'-ed; result of 'negotiate'	noun	kosoa	negotiate	patient/result	kosoa+bo+ka
 SPE-053.deka	kosoadeka	place for 'negotiate'	noun	kosoa	negotiate	place	kosoa+de+ka
@@ -8457,7 +8451,7 @@ POS-019.kideka	posidekideka	place of the one who 'own / possess's	noun	poside	ow
 POS-020.to	kasuato	to 'lend'	verb	kasua	lend	verb	kasua+to
 POS-020.ka	kasuaka	act of 'lend'; a 'lend'	noun	kasua	lend	noun	kasua+ka
 POS-020.pe	kasuape	'lend'-ing	modifier	kasua	lend	modifier	kasua+pe
-POS-020.kika	kasuakika	one who 'lend's; 'lend'-er	noun	kasua	lend	agent	kasua+ki+ka
+POS-020.kika	kasuakika	lender	noun	kasua	lend	agent	kasua+ki+ka
 POS-020.tuka	kasuatuka	tool/means for 'lend'	noun	kasua	lend	instrument	kasua+tu+ka
 POS-020.boka	kasuaboka	thing 'lend'-ed; result of 'lend'	noun	kasua	lend	patient/result	kasua+bo+ka
 POS-020.deka	kasuadeka	place for 'lend'	noun	kasua	lend	place	kasua+de+ka
@@ -8469,7 +8463,7 @@ POS-020.kideka	kasuakideka	place of the one who 'lend's	noun	kasua	lend	agent-pl
 POS-021.to	kalileto	to 'borrow'	verb	kalile	borrow	verb	kalile+to
 POS-021.ka	kalileka	act of 'borrow'; a 'borrow'	noun	kalile	borrow	noun	kalile+ka
 POS-021.pe	kalilepe	'borrow'-ing	modifier	kalile	borrow	modifier	kalile+pe
-POS-021.kika	kalilekika	one who 'borrow's; 'borrow'-er	noun	kalile	borrow	agent	kalile+ki+ka
+POS-021.kika	kalilekika	borrower	noun	kalile	borrow	agent	kalile+ki+ka
 POS-021.tuka	kaliletuka	tool/means for 'borrow'	noun	kalile	borrow	instrument	kalile+tu+ka
 POS-021.boka	kalileboka	thing 'borrow'-ed; result of 'borrow'	noun	kalile	borrow	patient/result	kalile+bo+ka
 POS-021.deka	kaliledeka	place for 'borrow'	noun	kalile	borrow	place	kalile+de+ka
@@ -8493,7 +8487,7 @@ POS-022.kideka	debekideka	place of the one who 'owe's	noun	debe	owe	agent-place	
 POS-023.to	gasato	to 'spend'	verb	gasa	spend	verb	gasa+to
 POS-023.ka	gasaka	act of 'spend'; a 'spend'	noun	gasa	spend	noun	gasa+ka
 POS-023.pe	gasape	'spend'-ing	modifier	gasa	spend	modifier	gasa+pe
-POS-023.kika	gasakika	one who 'spend's; 'spend'-er	noun	gasa	spend	agent	gasa+ki+ka
+POS-023.kika	gasakika	spender	noun	gasa	spend	agent	gasa+ki+ka
 POS-023.tuka	gasatuka	tool/means for 'spend'	noun	gasa	spend	instrument	gasa+tu+ka
 POS-023.boka	gasaboka	thing 'spend'-ed; result of 'spend'	noun	gasa	spend	patient/result	gasa+bo+ka
 POS-023.deka	gasadeka	place for 'spend'	noun	gasa	spend	place	gasa+de+ka
@@ -8517,7 +8511,7 @@ POS-024.kideka	sekaikideka	place of the one who 'waste / squander's	noun	sekai	w
 POS-025.to	kaseguto	to 'earn'	verb	kasegu	earn	verb	kasegu+to
 POS-025.ka	kaseguka	act of 'earn'; a 'earn'	noun	kasegu	earn	noun	kasegu+ka
 POS-025.pe	kasegupe	'earn'-ing	modifier	kasegu	earn	modifier	kasegu+pe
-POS-025.kika	kasegukika	one who 'earn's; 'earn'-er	noun	kasegu	earn	agent	kasegu+ki+ka
+POS-025.kika	kasegukika	earner	noun	kasegu	earn	agent	kasegu+ki+ka
 POS-025.tuka	kasegutuka	tool/means for 'earn'	noun	kasegu	earn	instrument	kasegu+tu+ka
 POS-025.boka	kaseguboka	thing 'earn'-ed; result of 'earn'	noun	kasegu	earn	patient/result	kasegu+bo+ka
 POS-025.deka	kasegudeka	place for 'earn'	noun	kasegu	earn	place	kasegu+de+ka
@@ -8906,7 +8900,6 @@ SOC-084.kideka	kosoikideka	place of the one who 'compete / contend's	noun	kosoi	
 SOC-085.to	sitagauto	to 'obey / comply'	verb	sitagau	obey / comply	verb	sitagau+to
 SOC-085.ka	sitagauka	act of 'obey / comply'; a 'obey / comply'	noun	sitagau	obey / comply	noun	sitagau+ka
 SOC-085.pe	sitagaupe	'obey / comply'-ing	modifier	sitagau	obey / comply	modifier	sitagau+pe
-SOC-085.kika	sitagaukika	one who 'obey / comply's; 'obey / comply'-er	noun	sitagau	obey / comply	agent	sitagau+ki+ka
 SOC-085.tuka	sitagautuka	tool/means for 'obey / comply'	noun	sitagau	obey / comply	instrument	sitagau+tu+ka
 SOC-085.boka	sitagauboka	thing 'obey / comply'-ed; result of 'obey / comply'	noun	sitagau	obey / comply	patient/result	sitagau+bo+ka
 SOC-085.deka	sitagaudeka	place for 'obey / comply'	noun	sitagau	obey / comply	place	sitagau+de+ka
@@ -8918,7 +8911,7 @@ SOC-085.kideka	sitagaukideka	place of the one who 'obey / comply's	noun	sitagau	
 SOC-086.to	hankoto	to 'rebel / resist'	verb	hanko	rebel / resist	verb	hanko+to
 SOC-086.ka	hankoka	act of 'rebel / resist'; a 'rebel / resist'	noun	hanko	rebel / resist	noun	hanko+ka
 SOC-086.pe	hankope	'rebel / resist'-ing	modifier	hanko	rebel / resist	modifier	hanko+pe
-SOC-086.kika	hankokika	one who 'rebel / resist's; 'rebel / resist'-er	noun	hanko	rebel / resist	agent	hanko+ki+ka
+SOC-086.kika	hankokika	rebel	noun	hanko	rebel / resist	agent	hanko+ki+ka
 SOC-086.tuka	hankotuka	tool/means for 'rebel / resist'	noun	hanko	rebel / resist	instrument	hanko+tu+ka
 SOC-086.boka	hankoboka	thing 'rebel / resist'-ed; result of 'rebel / resist'	noun	hanko	rebel / resist	patient/result	hanko+bo+ka
 SOC-086.deka	hankodeka	place for 'rebel / resist'	noun	hanko	rebel / resist	place	hanko+de+ka
@@ -9049,7 +9042,7 @@ MOD-091.kideka	gulabakideka	place of the one who 'record (v)'s	noun	gulaba	recor
 MOD-092.to	hosoto	to 'broadcast'	verb	hoso	broadcast	verb	hoso+to
 MOD-092.ka	hosoka	act of 'broadcast'; a 'broadcast'	noun	hoso	broadcast	noun	hoso+ka
 MOD-092.pe	hosope	'broadcast'-ing	modifier	hoso	broadcast	modifier	hoso+pe
-MOD-092.kika	hosokika	one who 'broadcast's; 'broadcast'-er	noun	hoso	broadcast	agent	hoso+ki+ka
+MOD-092.kika	hosokika	broadcaster	noun	hoso	broadcast	agent	hoso+ki+ka
 MOD-092.tuka	hosotuka	tool/means for 'broadcast'	noun	hoso	broadcast	instrument	hoso+tu+ka
 MOD-092.boka	hosoboka	thing 'broadcast'-ed; result of 'broadcast'	noun	hoso	broadcast	patient/result	hoso+bo+ka
 MOD-092.deka	hosodeka	place for 'broadcast'	noun	hoso	broadcast	place	hoso+de+ka
@@ -9613,7 +9606,7 @@ ACT-092.kideka	kicimikideka	place of the one who 'taste-test's	noun	kicimi	taste
 ACT-093.to	gudantoto	to 'store / stow'	verb	gudanto	store / stow	verb	gudanto+to
 ACT-093.ka	gudantoka	act of 'store / stow'; a 'store / stow'	noun	gudanto	store / stow	noun	gudanto+ka
 ACT-093.pe	gudantope	'store / stow'-ing	modifier	gudanto	store / stow	modifier	gudanto+pe
-ACT-093.kika	gudantokika	one who 'store / stow's; 'store / stow'-er	noun	gudanto	store / stow	agent	gudanto+ki+ka
+ACT-093.kika	gudantokika	storekeeper	noun	gudanto	store / stow	agent	gudanto+ki+ka
 ACT-093.tuka	gudantotuka	tool/means for 'store / stow'	noun	gudanto	store / stow	instrument	gudanto+tu+ka
 ACT-093.boka	gudantoboka	thing 'store / stow'-ed; result of 'store / stow'	noun	gudanto	store / stow	patient/result	gudanto+bo+ka
 ACT-093.deka	gudantodeka	place for 'store / stow'	noun	gudanto	store / stow	place	gudanto+de+ka
@@ -9625,7 +9618,7 @@ ACT-093.kideka	gudantokideka	place of the one who 'store / stow's	noun	gudanto	s
 ACT-094.to	tunagato	to 'pack'	verb	tunaga	pack	verb	tunaga+to
 ACT-094.ka	tunagaka	act of 'pack'; a 'pack'	noun	tunaga	pack	noun	tunaga+ka
 ACT-094.pe	tunagape	'pack'-ing	modifier	tunaga	pack	modifier	tunaga+pe
-ACT-094.kika	tunagakika	one who 'pack's; 'pack'-er	noun	tunaga	pack	agent	tunaga+ki+ka
+ACT-094.kika	tunagakika	packer	noun	tunaga	pack	agent	tunaga+ki+ka
 ACT-094.tuka	tunagatuka	tool/means for 'pack'	noun	tunaga	pack	instrument	tunaga+tu+ka
 ACT-094.boka	tunagaboka	thing 'pack'-ed; result of 'pack'	noun	tunaga	pack	patient/result	tunaga+bo+ka
 ACT-094.deka	tunagadeka	place for 'pack'	noun	tunaga	pack	place	tunaga+de+ka
@@ -9649,7 +9642,7 @@ ACT-095.kideka	katadukekideka	place of the one who 'tidy up's	noun	kataduke	tidy
 ACT-096.to	kasalitoto	to 'decorate'	verb	kasalito	decorate	verb	kasalito+to
 ACT-096.ka	kasalitoka	act of 'decorate'; a 'decorate'	noun	kasalito	decorate	noun	kasalito+ka
 ACT-096.pe	kasalitope	'decorate'-ing	modifier	kasalito	decorate	modifier	kasalito+pe
-ACT-096.kika	kasalitokika	one who 'decorate's; 'decorate'-er	noun	kasalito	decorate	agent	kasalito+ki+ka
+ACT-096.kika	kasalitokika	decorator	noun	kasalito	decorate	agent	kasalito+ki+ka
 ACT-096.tuka	kasalitotuka	tool/means for 'decorate'	noun	kasalito	decorate	instrument	kasalito+tu+ka
 ACT-096.boka	kasalitoboka	thing 'decorate'-ed; result of 'decorate'	noun	kasalito	decorate	patient/result	kasalito+bo+ka
 ACT-096.deka	kasalitodeka	place for 'decorate'	noun	kasalito	decorate	place	kasalito+de+ka
@@ -9661,7 +9654,7 @@ ACT-096.kideka	kasalitokideka	place of the one who 'decorate's	noun	kasalito	dec
 ACT-097.to	migakitoto	to 'polish'	verb	migakito	polish	verb	migakito+to
 ACT-097.ka	migakitoka	act of 'polish'; a 'polish'	noun	migakito	polish	noun	migakito+ka
 ACT-097.pe	migakitope	'polish'-ing	modifier	migakito	polish	modifier	migakito+pe
-ACT-097.kika	migakitokika	one who 'polish's; 'polish'-er	noun	migakito	polish	agent	migakito+ki+ka
+ACT-097.kika	migakitokika	polisher	noun	migakito	polish	agent	migakito+ki+ka
 ACT-097.tuka	migakitotuka	tool/means for 'polish'	noun	migakito	polish	instrument	migakito+tu+ka
 ACT-097.boka	migakitoboka	thing 'polish'-ed; result of 'polish'	noun	migakito	polish	patient/result	migakito+bo+ka
 ACT-097.deka	migakitodeka	place for 'polish'	noun	migakito	polish	place	migakito+de+ka
@@ -9805,7 +9798,7 @@ ACT-108.kideka	sukanakideka	place of the one who 'scan's	noun	sukana	scan	agent-
 ACT-109.to	tipetoto	to 'type (v)'	verb	tipeto	type (v)	verb	tipeto+to
 ACT-109.ka	tipetoka	act of 'type (v)'; a 'type (v)'	noun	tipeto	type (v)	noun	tipeto+ka
 ACT-109.pe	tipetope	'type (v)'-ing	modifier	tipeto	type (v)	modifier	tipeto+pe
-ACT-109.kika	tipetokika	one who 'type (v)'s; 'type (v)'-er	noun	tipeto	type (v)	agent	tipeto+ki+ka
+ACT-109.kika	tipetokika	typist	noun	tipeto	type (v)	agent	tipeto+ki+ka
 ACT-109.tuka	tipetotuka	tool/means for 'type (v)'	noun	tipeto	type (v)	instrument	tipeto+tu+ka
 ACT-109.boka	tipetoboka	thing 'type (v)'-ed; result of 'type (v)'	noun	tipeto	type (v)	patient/result	tipeto+bo+ka
 ACT-109.deka	tipetodeka	place for 'type (v)'	noun	tipeto	type (v)	place	tipeto+de+ka
@@ -9853,7 +9846,7 @@ ACT-112.kideka	kumitalokideka	place of the one who 'assemble / put together's	no
 ACT-113.to	setudateto	to 'install'	verb	setudate	install	verb	setudate+to
 ACT-113.ka	setudateka	act of 'install'; a 'install'	noun	setudate	install	noun	setudate+ka
 ACT-113.pe	setudatepe	'install'-ing	modifier	setudate	install	modifier	setudate+pe
-ACT-113.kika	setudatekika	one who 'install's; 'install'-er	noun	setudate	install	agent	setudate+ki+ka
+ACT-113.kika	setudatekika	installer	noun	setudate	install	agent	setudate+ki+ka
 ACT-113.tuka	setudatetuka	tool/means for 'install'	noun	setudate	install	instrument	setudate+tu+ka
 ACT-113.boka	setudateboka	thing 'install'-ed; result of 'install'	noun	setudate	install	patient/result	setudate+bo+ka
 ACT-113.deka	setudatedeka	place for 'install'	noun	setudate	install	place	setudate+de+ka
@@ -9865,7 +9858,6 @@ ACT-113.kideka	setudatekideka	place of the one who 'install's	noun	setudate	inst
 ACT-114.to	cucumito	to 'wrap'	verb	cucumi	wrap	verb	cucumi+to
 ACT-114.ka	cucumika	act of 'wrap'; a 'wrap'	noun	cucumi	wrap	noun	cucumi+ka
 ACT-114.pe	cucumipe	'wrap'-ing	modifier	cucumi	wrap	modifier	cucumi+pe
-ACT-114.kika	cucumikika	one who 'wrap's; 'wrap'-er	noun	cucumi	wrap	agent	cucumi+ki+ka
 ACT-114.tuka	cucumituka	tool/means for 'wrap'	noun	cucumi	wrap	instrument	cucumi+tu+ka
 ACT-114.boka	cucumiboka	thing 'wrap'-ed; result of 'wrap'	noun	cucumi	wrap	patient/result	cucumi+bo+ka
 ACT-114.deka	cucumideka	place for 'wrap'	noun	cucumi	wrap	place	cucumi+de+ka
@@ -9937,7 +9929,7 @@ ACT-119.kideka	labelokideka	place of the one who 'label / tag's	noun	labelo	labe
 ACT-120.to	sugitoto	to 'weld / solder'	verb	sugito	weld / solder	verb	sugito+to
 ACT-120.ka	sugitoka	act of 'weld / solder'; a 'weld / solder'	noun	sugito	weld / solder	noun	sugito+ka
 ACT-120.pe	sugitope	'weld / solder'-ing	modifier	sugito	weld / solder	modifier	sugito+pe
-ACT-120.kika	sugitokika	one who 'weld / solder's; 'weld / solder'-er	noun	sugito	weld / solder	agent	sugito+ki+ka
+ACT-120.kika	sugitokika	welder	noun	sugito	weld / solder	agent	sugito+ki+ka
 ACT-120.tuka	sugitotuka	tool/means for 'weld / solder'	noun	sugito	weld / solder	instrument	sugito+tu+ka
 ACT-120.boka	sugitoboka	thing 'weld / solder'-ed; result of 'weld / solder'	noun	sugito	weld / solder	patient/result	sugito+bo+ka
 ACT-120.deka	sugitodeka	place for 'weld / solder'	noun	sugito	weld / solder	place	sugito+de+ka
@@ -9949,7 +9941,7 @@ ACT-120.kideka	sugitokideka	place of the one who 'weld / solder's	noun	sugito	we
 ACT-121.to	beletoto	to 'drill (v)'	verb	beleto	drill (v)	verb	beleto+to
 ACT-121.ka	beletoka	act of 'drill (v)'; a 'drill (v)'	noun	beleto	drill (v)	noun	beleto+ka
 ACT-121.pe	beletope	'drill (v)'-ing	modifier	beleto	drill (v)	modifier	beleto+pe
-ACT-121.kika	beletokika	one who 'drill (v)'s; 'drill (v)'-er	noun	beleto	drill (v)	agent	beleto+ki+ka
+ACT-121.kika	beletokika	driller	noun	beleto	drill (v)	agent	beleto+ki+ka
 ACT-121.tuka	beletotuka	tool/means for 'drill (v)'	noun	beleto	drill (v)	instrument	beleto+tu+ka
 ACT-121.boka	beletoboka	thing 'drill (v)'-ed; result of 'drill (v)'	noun	beleto	drill (v)	patient/result	beleto+bo+ka
 ACT-121.deka	beletodeka	place for 'drill (v)'	noun	beleto	drill (v)	place	beleto+de+ka
@@ -10616,7 +10608,7 @@ MOT-064.kideka	tomalukideka	place of the one who 'stay / remain's	noun	tomalu	st
 COG-076.to	somato	to 'study'	verb	soma	study	verb	soma+to
 COG-076.ka	somaka	act of 'study'; a 'study'	noun	soma	study	noun	soma+ka
 COG-076.pe	somape	'study'-ing	modifier	soma	study	modifier	soma+pe
-COG-076.kika	somakika	one who 'study's; 'study'-er	noun	soma	study	agent	soma+ki+ka
+COG-076.kika	somakika	student / scholar	noun	soma	study	agent	soma+ki+ka
 COG-076.tuka	somatuka	tool/means for 'study'	noun	soma	study	instrument	soma+tu+ka
 COG-076.boka	somaboka	thing 'study'-ed; result of 'study'	noun	soma	study	patient/result	soma+bo+ka
 COG-076.deka	somadeka	school	noun	soma	study	place	soma+de+ka
@@ -10718,7 +10710,7 @@ PROP-106.takika	asintakika	one who makes things 'foreign'	noun	asin	foreign	caus
 ACT-133.to	silabeto	to 'investigate'	verb	silabe	investigate	verb	silabe+to
 ACT-133.ka	silabeka	act of 'investigate'; a 'investigate'	noun	silabe	investigate	noun	silabe+ka
 ACT-133.pe	silabepe	'investigate'-ing	modifier	silabe	investigate	modifier	silabe+pe
-ACT-133.kika	silabekika	one who 'investigate's; 'investigate'-er	noun	silabe	investigate	agent	silabe+ki+ka
+ACT-133.kika	silabekika	investigator	noun	silabe	investigate	agent	silabe+ki+ka
 ACT-133.tuka	silabetuka	tool/means for 'investigate'	noun	silabe	investigate	instrument	silabe+tu+ka
 ACT-133.boka	silabeboka	thing 'investigate'-ed; result of 'investigate'	noun	silabe	investigate	patient/result	silabe+bo+ka
 ACT-133.deka	silabedeka	place for 'investigate'	noun	silabe	investigate	place	silabe+de+ka
@@ -10741,7 +10733,7 @@ ACT-134.taboka	eneataboka	what is brought about by 'spread'	noun	enea	spread	cau
 ACT-134.kideka	eneakideka	place of the one who 'spread's	noun	enea	spread	agent-place	enea+ki+de+ka
 BOD-080.to	okokato	to 'survive'	verb	okoka	survive	verb	okoka+to
 BOD-080.pe	okokape	'survive'-ing	modifier	okoka	survive	modifier	okoka+pe
-BOD-080.kika	okokakika	one who 'survive's; 'survive'-er	noun	okoka	survive	agent	okoka+ki+ka
+BOD-080.kika	okokakika	survivor	noun	okoka	survive	agent	okoka+ki+ka
 BOD-080.tuka	okokatuka	tool/means for 'survive'	noun	okoka	survive	instrument	okoka+tu+ka
 BOD-080.boka	okokaboka	thing 'survive'-ed; result of 'survive'	noun	okoka	survive	patient/result	okoka+bo+ka
 BOD-080.deka	okokadeka	place for 'survive'	noun	okoka	survive	place	okoka+de+ka
@@ -11204,7 +11196,7 @@ CLO-035.deka	suteladeka	place of/for 'silk'	noun	sutela	silk	place	sutela+de+ka
 CLO-036.to	celuto	to 'dye (v)'	verb	celu	dye (v)	verb	celu+to
 CLO-036.ka	celuka	act of 'dye (v)'; a 'dye (v)'	noun	celu	dye (v)	noun	celu+ka
 CLO-036.pe	celupe	'dye (v)'-ing	modifier	celu	dye (v)	modifier	celu+pe
-CLO-036.kika	celukika	one who 'dye (v)'s; 'dye (v)'-er	noun	celu	dye (v)	agent	celu+ki+ka
+CLO-036.kika	celukika	dyer	noun	celu	dye (v)	agent	celu+ki+ka
 CLO-036.tuka	celutuka	tool/means for 'dye (v)'	noun	celu	dye (v)	instrument	celu+tu+ka
 CLO-036.boka	celuboka	thing 'dye (v)'-ed; result of 'dye (v)'	noun	celu	dye (v)	patient/result	celu+bo+ka
 CLO-036.deka	celudeka	place for 'dye (v)'	noun	celu	dye (v)	place	celu+de+ka
@@ -11657,7 +11649,7 @@ BOD-087.deka	dahideka	place of/for 'forehead'	noun	dahi	forehead	place	dahi+de+k
 BOD-088.to	mandito	to 'bathe'	verb	mandi	bathe	verb	mandi+to
 BOD-088.ka	mandika	act of 'bathe'; a 'bathe'	noun	mandi	bathe	noun	mandi+ka
 BOD-088.pe	mandipe	'bathe'-ing	modifier	mandi	bathe	modifier	mandi+pe
-BOD-088.kika	mandikika	one who 'bathe's; 'bathe'-er	noun	mandi	bathe	agent	mandi+ki+ka
+BOD-088.kika	mandikika	bather	noun	mandi	bathe	agent	mandi+ki+ka
 BOD-088.tuka	mandituka	tool/means for 'bathe'	noun	mandi	bathe	instrument	mandi+tu+ka
 BOD-088.boka	mandiboka	thing 'bathe'-ed; result of 'bathe'	noun	mandi	bathe	patient/result	mandi+bo+ka
 BOD-088.deka	mandideka	bathroom	noun	mandi	bathe	place	mandi+de+ka
@@ -11692,7 +11684,7 @@ BOD-091.deka	kubudeka	place of/for 'grave / tomb'	noun	kubu	grave / tomb	place	k
 BOD-092.to	tanaeto	to 'bury (the dead)'	verb	tanae	bury (the dead)	verb	tanae+to
 BOD-092.ka	tanaeka	act of 'bury (the dead)'; a 'bury (the dead)'	noun	tanae	bury (the dead)	noun	tanae+ka
 BOD-092.pe	tanaepe	'bury (the dead)'-ing	modifier	tanae	bury (the dead)	modifier	tanae+pe
-BOD-092.kika	tanaekika	one who 'bury (the dead)'s; 'bury (the dead)'-er	noun	tanae	bury (the dead)	agent	tanae+ki+ka
+BOD-092.kika	tanaekika	undertaker	noun	tanae	bury (the dead)	agent	tanae+ki+ka
 BOD-092.tuka	tanaetuka	tool/means for 'bury (the dead)'	noun	tanae	bury (the dead)	instrument	tanae+tu+ka
 BOD-092.boka	tanaeboka	thing 'bury (the dead)'-ed; result of 'bury (the dead)'	noun	tanae	bury (the dead)	patient/result	tanae+bo+ka
 BOD-092.deka	tanaedeka	cemetery	noun	tanae	bury (the dead)	place	tanae+de+ka
@@ -11863,7 +11855,7 @@ PER-029.kideka	cubikideka	place of the one who 'pinch (v)'s	noun	cubi	pinch (v)	
 COG-079.to	tiluto	to 'imitate / copy'	verb	tilu	imitate / copy	verb	tilu+to
 COG-079.ka	tiluka	act of 'imitate / copy'; a 'imitate / copy'	noun	tilu	imitate / copy	noun	tilu+ka
 COG-079.pe	tilupe	'imitate / copy'-ing	modifier	tilu	imitate / copy	modifier	tilu+pe
-COG-079.kika	tilukika	one who 'imitate / copy's; 'imitate / copy'-er	noun	tilu	imitate / copy	agent	tilu+ki+ka
+COG-079.kika	tilukika	imitator	noun	tilu	imitate / copy	agent	tilu+ki+ka
 COG-079.tuka	tilutuka	tool/means for 'imitate / copy'	noun	tilu	imitate / copy	instrument	tilu+tu+ka
 COG-079.boka	tiluboka	thing 'imitate / copy'-ed; result of 'imitate / copy'	noun	tilu	imitate / copy	patient/result	tilu+bo+ka
 COG-079.deka	tiludeka	place for 'imitate / copy'	noun	tilu	imitate / copy	place	tilu+de+ka
@@ -12022,7 +12014,7 @@ SOC-125.kideka	sasankideka	place of the one who 'govern / rule's	noun	sasan	gove
 SPE-063.to	telemato	to 'translate'	verb	telema	translate	verb	telema+to
 SPE-063.ka	telemaka	act of 'translate'; a 'translate'	noun	telema	translate	noun	telema+ka
 SPE-063.pe	telemape	'translate'-ing	modifier	telema	translate	modifier	telema+pe
-SPE-063.kika	telemakika	one who 'translate's; 'translate'-er	noun	telema	translate	agent	telema+ki+ka
+SPE-063.kika	telemakika	translator	noun	telema	translate	agent	telema+ki+ka
 SPE-063.tuka	telematuka	tool/means for 'translate'	noun	telema	translate	instrument	telema+tu+ka
 SPE-063.boka	telemaboka	thing 'translate'-ed; result of 'translate'	noun	telema	translate	patient/result	telema+bo+ka
 SPE-063.deka	telemadeka	place for 'translate'	noun	telema	translate	place	telema+de+ka
