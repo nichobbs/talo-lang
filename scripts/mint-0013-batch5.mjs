@@ -49,6 +49,7 @@ const NEW = [
   ["MOT","launch / set off",3,"v","luncur","Austronesian"],
   ["PHY","oxygen",3,"n","oksigen","international"],
   ["MOD","mission / assignment",2,"n","misi","international"],
+  ["SPA","orbit",3,"n","olibita","international"],
   ["ACT","shelter / take refuge",2,"v","lindung","Austronesian"],
 ];
 

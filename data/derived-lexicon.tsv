@@ -12185,3 +12185,9 @@ ACT-144.pito	lindunpito	to begin to 'shelter / take refuge'	verb	lindun	shelter 
 ACT-144.takika	linduntakika	one who makes/causes 'shelter / take refuge'; instigator of 'shelter / take refuge'	noun	lindun	shelter / take refuge	causative-agent	lindun+ta+ki+ka
 ACT-144.taboka	linduntaboka	what is brought about by 'shelter / take refuge'	noun	lindun	shelter / take refuge	causative-result	lindun+ta+bo+ka
 ACT-144.kideka	lindunkideka	place of the one who 'shelter / take refuge's	noun	lindun	shelter / take refuge	agent-place	lindun+ki+de+ka
+SPA-048.ka	olibitaka	orbit	noun	olibita	orbit	noun	olibita+ka
+SPA-048.pe	olibitape	of/like 'orbit'; 'orbit'-related	modifier	olibita	orbit	modifier	olibita+pe
+SPA-048.to	olibitato	to use/apply 'orbit'; to act as 'orbit'	verb	olibita	orbit	verb	olibita+to
+SPA-048.cika	olibitacika	little 'orbit'; small/dear 'orbit'	noun	olibita	orbit	diminutive	olibita+ci+ka
+SPA-048.goka	olibitagoka	big 'orbit'; great 'orbit'	noun	olibita	orbit	augmentative	olibita+go+ka
+SPA-048.deka	olibitadeka	place of/for 'orbit'	noun	olibita	orbit	place	olibita+de+ka
