@@ -23,6 +23,7 @@ const CONCEPTS = "data/concepts.tsv";
 const LEXICON = "data/lexicon.tsv";
 const BLOCKLIST = "data/collision-blocklist.txt";
 const FALSE_FRIENDS = "data/false-friends.tsv";
+const OVERRIDES = "data/derived-overrides.tsv";
 const OUT = "data/derived-lexicon.tsv";
 
 // ---- loaders (mirror tools/collision-checker/src/cli.ts) -------------------
@@ -53,6 +54,32 @@ function loadFalseFriends(path) {
     const arr = map.get(key) ?? [];
     arr.push({ lang: (lang ?? "").trim(), meaning: (meaning ?? "").trim(), severity: severity.trim() });
     map.set(key, arr);
+  }
+  return map;
+}
+
+/**
+ * Curated per-derivation overrides (data/derived-overrides.tsv). The Talo FORMS
+ * stay rule-generated and collision-checked; only the English GLOSS is
+ * hand-updatable here, because a real lexicalisation (dog+dim → "puppy") is not
+ * rule-derivable. A row may also SUPPRESS a derivation that doesn't lexicalise
+ * sensibly (diminutive of "opinion"): the form stays grammatically derivable
+ * (0002 §3.2) — we just don't list a useless dictionary entry.
+ *
+ * Columns: key <TAB> deriv-label <TAB> gloss   ('#' = comment; empty gloss or
+ * the token "(suppress)" = drop the entry). `key` is a root id (e.g. ANI-002,
+ * the precise per-definition update) OR a domain code (e.g. COG, a class rule).
+ * A root-id row beats a domain row beats the template.
+ */
+function loadOverrides(path) {
+  const map = new Map();
+  if (!existsSync(path)) return map;
+  for (const raw of readFileSync(path, "utf8").split(/\r?\n/)) {
+    const line = raw.trim();
+    if (!line || line.startsWith("#") || line.startsWith("key\t")) continue;
+    const [key, deriv, gloss] = line.split("\t").map((c) => (c ?? "").trim());
+    if (!key || !deriv) continue;
+    map.set(`${key}|${deriv}`, gloss || "(suppress)");
   }
   return map;
 }
@@ -132,6 +159,7 @@ function main() {
   const lexicon = readTsv(LEXICON); // canonical order — preserved in the output
   const blocklist = loadBlocklist(BLOCKLIST);
   const falseFriends = loadFalseFriends(FALSE_FRIENDS);
+  const overrides = loadOverrides(OVERRIDES);
 
   // occupied = reserved/closed class + every root + every derived form so far.
   const occupied = [...reserved].map((form) => ({ form, label: "reserved" }));
@@ -140,6 +168,7 @@ function main() {
   const rows = [];
   const dropped = [];
   let considered = 0;
+  let overridden = 0, suppressed = 0;
 
   for (const lex of lexicon) {
     if (!lex.form) continue;
@@ -156,18 +185,23 @@ function main() {
       const form = root + affixes.join("") + slot.badge;
       const res = checkForm(form, occupied, blocklist, falseFriends);
       if (!res.ok) { dropped.push({ form, id: lex.id, why: res.conflict.kind, msg: res.conflict.message }); continue; }
+      // Reserve the spelling regardless (the form stays grammatically derivable),
+      // then consult the curated overrides: per-root id beats per-domain class.
+      occupied.push({ form, label: lex.id });
+      const override = overrides.get(`${lex.id}|${slot.label}`) ?? overrides.get(`${concept.domain}|${slot.label}`);
+      if (override === "(suppress)") { suppressed++; continue; } // valid, just not listed
+      if (override) overridden++;
       const morphemes = [root, ...affixes, slot.badge].join("+");
       rows.push({
         id: `${lex.id}.${affixes.join("") + slot.badge}`,
         form,
-        gloss: slot.gloss(rootGloss),
+        gloss: override ?? slot.gloss(rootGloss),
         pos: BADGE[slot.badge],
         root,
         root_gloss: rootGloss,
         deriv: slot.label,
         morphemes,
       });
-      occupied.push({ form, label: lex.id }); // feed back so later forms collide-check against it
     }
   }
 
@@ -198,6 +232,7 @@ function main() {
   console.log(`roots processed:   ${lexicon.filter((r) => r.form && PARADIGM[concepts.get(r.id)?.pos_hint]).length}`);
   console.log(`forms considered:  ${considered}`);
   console.log(`forms written:     ${rows.length}  -> ${OUT}`);
+  console.log(`curated overrides: ${overridden} real-word gloss(es), ${suppressed} suppressed (data/derived-overrides.tsv)`);
   const byKind = {};
   for (const d of dropped) byKind[d.why] = (byKind[d.why] ?? 0) + 1;
   console.log(`forms dropped:     ${dropped.length} (${Object.entries(byKind).map(([k, v]) => `${k}=${v}`).join("  ")})`);

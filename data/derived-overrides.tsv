@@ -1,0 +1,95 @@
+# Talo derived-form GLOSS overrides — the curated layer over the generated
+# derivation paradigm (scripts/derive-lexicon.mjs, docs/0002 §3.2, 0007).
+#
+# The Talo FORMS stay rule-generated and collision-checked; this file only
+# replaces the templated English GLOSS where a real lexicalisation exists
+# (dog + diminutive → "puppy", not "little 'dog'"), because such words are not
+# rule-derivable — they are curated one definition at a time. A row may also
+# SUPPRESS a derivation that doesn't lexicalise sensibly (diminutive of
+# "opinion"): the form stays grammatically derivable, we just don't list a
+# useless dictionary entry.
+#
+# Columns: key <TAB> deriv-label <TAB> gloss      ('#' = comment)
+#   key   = a root id (ANI-002 — precise, per-definition) OR a domain code
+#           (COG — a class rule). A root-id row beats a domain row beats the
+#           template.
+#   deriv = the derivation label exactly as in the paradigm: diminutive,
+#           augmentative, agent, instrument, patient/result, place, quality,
+#           causative, inchoative, opposite, ordinal, …
+#   gloss = the real English word; LEAVE EMPTY (or write "(suppress)") to drop.
+#
+# This is an OPEN, growing curation surface — add a row to fix any definition.
+key	deriv	gloss
+
+# ---- young animals (diminutive of an animal) -------------------------------
+ANI-002	diminutive	puppy
+ANI-005	diminutive	kitten
+ANI-007	diminutive	calf
+ANI-006	diminutive	foal
+ANI-014	diminutive	piglet
+ANI-029	diminutive	lamb
+ANI-015	diminutive	kid (young goat)
+ANI-013	diminutive	chick
+ANI-069	diminutive	chick
+ANI-041	diminutive	duckling
+ANI-018	diminutive	lion cub
+ANI-021	diminutive	tiger cub
+ANI-023	diminutive	bear cub
+ANI-026	diminutive	fawn
+ANI-003	diminutive	fry (young fish)
+ANI-004	diminutive	nestling / chick
+ANI-019	diminutive	elephant calf
+ANI-031	diminutive	camel calf
+ANI-030	diminutive	foal (young donkey)
+ANI-016	diminutive	hatchling
+ANI-034	diminutive	hatchling
+ANI-036	diminutive	tadpole
+ANI-065	diminutive	tadpole
+
+# ---- people (diminutive of man / woman) ------------------------------------
+KIN-002	diminutive	boy
+KIN-003	diminutive	girl
+
+# ---- quality nouns (irregular nominalisations the -ness template misses) ----
+PROP-003	quality	length
+PROP-005	quality	width
+PROP-009	quality	weight
+PROP-011	quality	heat
+PROP-013	quality	warmth
+PROP-033	quality	depth
+PROP-034	quality	height
+PROP-040	quality	strength
+PROP-044	quality	truth
+PROP-038	quality	speed
+PROP-001	quality	size
+
+# ---- agent nouns (clean word, not "one who X-s") ---------------------------
+COG-005	agent	teacher
+COG-004	agent	student / learner
+SPE-017	agent	singer
+SPE-008	agent	writer / author
+SPE-007	agent	reader
+SOC-007	agent	leader
+ACT-071	agent	builder
+SOC-004	agent	fighter / warrior
+BOD-032	agent	healer / doctor
+ACT-033	agent	pilot / flyer
+ACT-005	agent	runner
+ACT-032	agent	swimmer
+ACT-139	agent	carver / sculptor
+COG-026	agent	judge
+ACT-034	agent	worker
+ACT-035	agent	player
+SPE-001	agent	speaker
+ACT-037	agent	helper
+SOC-125	agent	ruler / governor
+
+# ---- suppress nonsensical derivations (examples; grow per definition) -------
+# A "small opinion" / "big idea-as-size" etc. is grammatical but not a real word.
+COG-041	diminutive	(suppress)
+COG-041	augmentative	(suppress)
+COG-009	diminutive	(suppress)
+SOC-014	diminutive	(suppress)
+SOC-066	diminutive	(suppress)
+SOC-015	diminutive	(suppress)
+SPE-011	diminutive	(suppress)
