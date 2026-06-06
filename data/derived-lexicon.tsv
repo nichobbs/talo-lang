@@ -12191,3 +12191,91 @@ SPA-048.to	olibitato	to use/apply 'orbit'; to act as 'orbit'	verb	olibita	orbit	
 SPA-048.cika	olibitacika	little 'orbit'; small/dear 'orbit'	noun	olibita	orbit	diminutive	olibita+ci+ka
 SPA-048.goka	olibitagoka	big 'orbit'; great 'orbit'	noun	olibita	orbit	augmentative	olibita+go+ka
 SPA-048.deka	olibitadeka	place of/for 'orbit'	noun	olibita	orbit	place	olibita+de+ka
+MOD-140.ka	kitonka	system	noun	kiton	system	noun	kiton+ka
+MOD-140.pe	kitonpe	of/like 'system'; 'system'-related	modifier	kiton	system	modifier	kiton+pe
+MOD-140.to	kitonto	to use/apply 'system'; to act as 'system'	verb	kiton	system	verb	kiton+to
+MOD-140.cika	kitoncika	little 'system'; small/dear 'system'	noun	kiton	system	diminutive	kiton+ci+ka
+MOD-140.goka	kitongoka	big 'system'; great 'system'	noun	kiton	system	augmentative	kiton+go+ka
+MOD-140.deka	kitondeka	place of/for 'system'	noun	kiton	system	place	kiton+de+ka
+MOD-141.ka	colaka	pattern	noun	cola	pattern	noun	cola+ka
+MOD-141.pe	colape	of/like 'pattern'; 'pattern'-related	modifier	cola	pattern	modifier	cola+pe
+MOD-141.to	colato	to use/apply 'pattern'; to act as 'pattern'	verb	cola	pattern	verb	cola+to
+MOD-141.cika	colacika	little 'pattern'; small/dear 'pattern'	noun	cola	pattern	diminutive	cola+ci+ka
+MOD-141.goka	colagoka	big 'pattern'; great 'pattern'	noun	cola	pattern	augmentative	cola+go+ka
+MOD-141.deka	coladeka	place of/for 'pattern'	noun	cola	pattern	place	cola+de+ka
+MOD-142.ka	cacaka	fault / defect	noun	caca	fault / defect	noun	caca+ka
+MOD-142.pe	cacape	of/like 'fault / defect'; 'fault / defect'-related	modifier	caca	fault / defect	modifier	caca+pe
+MOD-142.to	cacato	to use/apply 'fault / defect'; to act as 'fault / defect'	verb	caca	fault / defect	verb	caca+to
+MOD-142.cika	cacacika	little 'fault / defect'; small/dear 'fault / defect'	noun	caca	fault / defect	diminutive	caca+ci+ka
+MOD-142.goka	cacagoka	big 'fault / defect'; great 'fault / defect'	noun	caca	fault / defect	augmentative	caca+go+ka
+MOD-142.deka	cacadeka	place of/for 'fault / defect'	noun	caca	fault / defect	place	caca+de+ka
+ACT-145.to	kendalito	to 'control / manage'	verb	kendali	control / manage	verb	kendali+to
+ACT-145.ka	kendalika	act of 'control / manage'; a 'control / manage'	noun	kendali	control / manage	noun	kendali+ka
+ACT-145.pe	kendalipe	'control / manage'-ing	modifier	kendali	control / manage	modifier	kendali+pe
+ACT-145.kika	kendalikika	controller / manager	noun	kendali	control / manage	agent	kendali+ki+ka
+ACT-145.tuka	kendalituka	tool/means for 'control / manage'	noun	kendali	control / manage	instrument	kendali+tu+ka
+ACT-145.boka	kendaliboka	thing 'control / manage'-ed; result of 'control / manage'	noun	kendali	control / manage	patient/result	kendali+bo+ka
+ACT-145.deka	kendalideka	place for 'control / manage'	noun	kendali	control / manage	place	kendali+de+ka
+ACT-145.tato	kendalitato	to make/cause to 'control / manage'	verb	kendali	control / manage	causative	kendali+ta+to
+ACT-145.pito	kendalipito	to begin to 'control / manage'	verb	kendali	control / manage	inchoative	kendali+pi+to
+ACT-145.takika	kendalitakika	one who makes/causes 'control / manage'; instigator of 'control / manage'	noun	kendali	control / manage	causative-agent	kendali+ta+ki+ka
+ACT-145.taboka	kendalitaboka	what is brought about by 'control / manage'	noun	kendali	control / manage	causative-result	kendali+ta+bo+ka
+ACT-145.kideka	kendalikideka	place of the one who 'control / manage's	noun	kendali	control / manage	agent-place	kendali+ki+de+ka
+ACT-146.to	cegato	to 'prevent'	verb	cega	prevent	verb	cega+to
+ACT-146.ka	cegaka	act of 'prevent'; a 'prevent'	noun	cega	prevent	noun	cega+ka
+ACT-146.pe	cegape	'prevent'-ing	modifier	cega	prevent	modifier	cega+pe
+ACT-146.kika	cegakika	one who 'prevent's; 'prevent'-er	noun	cega	prevent	agent	cega+ki+ka
+ACT-146.tuka	cegatuka	tool/means for 'prevent'	noun	cega	prevent	instrument	cega+tu+ka
+ACT-146.boka	cegaboka	thing 'prevent'-ed; result of 'prevent'	noun	cega	prevent	patient/result	cega+bo+ka
+ACT-146.deka	cegadeka	place for 'prevent'	noun	cega	prevent	place	cega+de+ka
+ACT-146.tato	cegatato	to make/cause to 'prevent'	verb	cega	prevent	causative	cega+ta+to
+ACT-146.pito	cegapito	to begin to 'prevent'	verb	cega	prevent	inchoative	cega+pi+to
+ACT-146.takika	cegatakika	one who makes/causes 'prevent'; instigator of 'prevent'	noun	cega	prevent	causative-agent	cega+ta+ki+ka
+ACT-146.taboka	cegataboka	what is brought about by 'prevent'	noun	cega	prevent	causative-result	cega+ta+bo+ka
+ACT-146.kideka	cegakideka	place of the one who 'prevent's	noun	cega	prevent	agent-place	cega+ki+de+ka
+ACT-147.to	ganguto	to 'disrupt / disturb'	verb	gangu	disrupt / disturb	verb	gangu+to
+ACT-147.ka	ganguka	act of 'disrupt / disturb'; a 'disrupt / disturb'	noun	gangu	disrupt / disturb	noun	gangu+ka
+ACT-147.pe	gangupe	'disrupt / disturb'-ing	modifier	gangu	disrupt / disturb	modifier	gangu+pe
+ACT-147.kika	gangukika	one who 'disrupt / disturb's; 'disrupt / disturb'-er	noun	gangu	disrupt / disturb	agent	gangu+ki+ka
+ACT-147.tuka	gangutuka	tool/means for 'disrupt / disturb'	noun	gangu	disrupt / disturb	instrument	gangu+tu+ka
+ACT-147.boka	ganguboka	thing 'disrupt / disturb'-ed; result of 'disrupt / disturb'	noun	gangu	disrupt / disturb	patient/result	gangu+bo+ka
+ACT-147.deka	gangudeka	place for 'disrupt / disturb'	noun	gangu	disrupt / disturb	place	gangu+de+ka
+ACT-147.tato	gangutato	to make/cause to 'disrupt / disturb'	verb	gangu	disrupt / disturb	causative	gangu+ta+to
+ACT-147.pito	gangupito	to begin to 'disrupt / disturb'	verb	gangu	disrupt / disturb	inchoative	gangu+pi+to
+ACT-147.takika	gangutakika	one who makes/causes 'disrupt / disturb'; instigator of 'disrupt / disturb'	noun	gangu	disrupt / disturb	causative-agent	gangu+ta+ki+ka
+ACT-147.taboka	gangutaboka	what is brought about by 'disrupt / disturb'	noun	gangu	disrupt / disturb	causative-result	gangu+ta+bo+ka
+ACT-147.kideka	gangukideka	place of the one who 'disrupt / disturb's	noun	gangu	disrupt / disturb	agent-place	gangu+ki+de+ka
+ACT-148.to	gagaeto	to 'fail / failure'	verb	gagae	fail / failure	verb	gagae+to
+ACT-148.ka	gagaeka	act of 'fail / failure'; a 'fail / failure'	noun	gagae	fail / failure	noun	gagae+ka
+ACT-148.pe	gagaepe	'fail / failure'-ing	modifier	gagae	fail / failure	modifier	gagae+pe
+ACT-148.kika	gagaekika	one who 'fail / failure's; 'fail / failure'-er	noun	gagae	fail / failure	agent	gagae+ki+ka
+ACT-148.tuka	gagaetuka	tool/means for 'fail / failure'	noun	gagae	fail / failure	instrument	gagae+tu+ka
+ACT-148.boka	gagaeboka	thing 'fail / failure'-ed; result of 'fail / failure'	noun	gagae	fail / failure	patient/result	gagae+bo+ka
+ACT-148.deka	gagaedeka	place for 'fail / failure'	noun	gagae	fail / failure	place	gagae+de+ka
+ACT-148.tato	gagaetato	to make/cause to 'fail / failure'	verb	gagae	fail / failure	causative	gagae+ta+to
+ACT-148.pito	gagaepito	to begin to 'fail / failure'	verb	gagae	fail / failure	inchoative	gagae+pi+to
+ACT-148.takika	gagaetakika	one who makes/causes 'fail / failure'; instigator of 'fail / failure'	noun	gagae	fail / failure	causative-agent	gagae+ta+ki+ka
+ACT-148.taboka	gagaetaboka	what is brought about by 'fail / failure'	noun	gagae	fail / failure	causative-result	gagae+ta+bo+ka
+ACT-148.kideka	gagaekideka	place of the one who 'fail / failure's	noun	gagae	fail / failure	agent-place	gagae+ki+de+ka
+SOC-127.ka	yukumuka	responsibility / accountability	noun	yukumu	responsibility / accountability	noun	yukumu+ka
+SOC-127.pe	yukumupe	of/like 'responsibility / accountability'; 'responsibility / accountability'-related	modifier	yukumu	responsibility / accountability	modifier	yukumu+pe
+SOC-127.to	yukumuto	to use/apply 'responsibility / accountability'; to act as 'responsibility / accountability'	verb	yukumu	responsibility / accountability	verb	yukumu+to
+SOC-127.cika	yukumucika	little 'responsibility / accountability'; small/dear 'responsibility / accountability'	noun	yukumu	responsibility / accountability	diminutive	yukumu+ci+ka
+SOC-127.goka	yukumugoka	big 'responsibility / accountability'; great 'responsibility / accountability'	noun	yukumu	responsibility / accountability	augmentative	yukumu+go+ka
+SOC-127.deka	yukumudeka	place of/for 'responsibility / accountability'	noun	yukumu	responsibility / accountability	place	yukumu+de+ka
+SOC-128.ka	layananka	service (provided)	noun	layanan	service (provided)	noun	layanan+ka
+SOC-128.pe	layananpe	of/like 'service (provided)'; 'service (provided)'-related	modifier	layanan	service (provided)	modifier	layanan+pe
+SOC-128.to	layananto	to use/apply 'service (provided)'; to act as 'service (provided)'	verb	layanan	service (provided)	verb	layanan+to
+SOC-128.cika	layanancika	little 'service (provided)'; small/dear 'service (provided)'	noun	layanan	service (provided)	diminutive	layanan+ci+ka
+SOC-128.goka	layanangoka	big 'service (provided)'; great 'service (provided)'	noun	layanan	service (provided)	augmentative	layanan+go+ka
+SOC-128.deka	layanandeka	place of/for 'service (provided)'	noun	layanan	service (provided)	place	layanan+de+ka
+COG-089.ka	contoka	model / example	noun	conto	model / example	noun	conto+ka
+COG-089.pe	contope	of/like 'model / example'; 'model / example'-related	modifier	conto	model / example	modifier	conto+pe
+COG-089.to	contoto	to use/apply 'model / example'; to act as 'model / example'	verb	conto	model / example	verb	conto+to
+COG-089.goka	contogoka	big 'model / example'; great 'model / example'	noun	conto	model / example	augmentative	conto+go+ka
+COG-089.deka	contodeka	place of/for 'model / example'	noun	conto	model / example	place	conto+de+ka
+COG-090.ka	lisikoka	risk	noun	lisiko	risk	noun	lisiko+ka
+COG-090.pe	lisikope	of/like 'risk'; 'risk'-related	modifier	lisiko	risk	modifier	lisiko+pe
+COG-090.to	lisikoto	to use/apply 'risk'; to act as 'risk'	verb	lisiko	risk	verb	lisiko+to
+COG-090.goka	lisikogoka	big 'risk'; great 'risk'	noun	lisiko	risk	augmentative	lisiko+go+ka
+COG-090.deka	lisikodeka	place of/for 'risk'	noun	lisiko	risk	place	lisiko+de+ka
