@@ -127,7 +127,7 @@ PHY-023.goka	awangoka	big 'cloud'; great 'cloud'	noun	awan	cloud	augmentative	aw
 PHY-023.deka	awandeka	place of/for 'cloud'	noun	awan	cloud	place	awan+de+ka
 PROP-001.pe	gandepe	big	modifier	gande	big	modifier	gande+pe
 PROP-001.ka	gandeka	'big'-ness; the quality 'big'	noun	gande	big	noun	gande+ka
-PROP-001.paka	gandepaka	'big'-ness; state of being 'big'	noun	gande	big	quality	gande+pa+ka
+PROP-001.paka	gandepaka	size	noun	gande	big	quality	gande+pa+ka
 PROP-001.kupe	gandekupe	opposite of 'big'; un-'big'	modifier	gande	big	opposite	gande+ku+pe
 PROP-001.tato	gandetato	to make 'big'	verb	gande	big	causative	gande+ta+to
 PROP-001.pito	gandepito	to become 'big'	verb	gande	big	inchoative	gande+pi+to
@@ -147,7 +147,7 @@ PROP-002.kupaka	pikokupaka	un-'small'-ness; the quality of being not 'small'	nou
 PROP-002.takika	pikotakika	one who makes things 'small'	noun	piko	small	causative-agent	piko+ta+ki+ka
 PROP-003.pe	nagaipe	long	modifier	nagai	long	modifier	nagai+pe
 PROP-003.ka	nagaika	'long'-ness; the quality 'long'	noun	nagai	long	noun	nagai+ka
-PROP-003.paka	nagaipaka	'long'-ness; state of being 'long'	noun	nagai	long	quality	nagai+pa+ka
+PROP-003.paka	nagaipaka	length	noun	nagai	long	quality	nagai+pa+ka
 PROP-003.kupe	nagaikupe	opposite of 'long'; un-'long'	modifier	nagai	long	opposite	nagai+ku+pe
 PROP-003.tato	nagaitato	to make 'long'	verb	nagai	long	causative	nagai+ta+to
 PROP-003.pito	nagaipito	to become 'long'	verb	nagai	long	inchoative	nagai+pi+to
@@ -157,7 +157,7 @@ PROP-003.kupaka	nagaikupaka	un-'long'-ness; the quality of being not 'long'	noun
 PROP-003.takika	nagaitakika	one who makes things 'long'	noun	nagai	long	causative-agent	nagai+ta+ki+ka
 PROP-011.pe	panape	hot	modifier	pana	hot	modifier	pana+pe
 PROP-011.ka	panaka	'hot'-ness; the quality 'hot'	noun	pana	hot	noun	pana+ka
-PROP-011.paka	panapaka	'hot'-ness; state of being 'hot'	noun	pana	hot	quality	pana+pa+ka
+PROP-011.paka	panapaka	heat	noun	pana	hot	quality	pana+pa+ka
 PROP-011.kupe	panakupe	opposite of 'hot'; un-'hot'	modifier	pana	hot	opposite	pana+ku+pe
 PROP-011.tato	panatato	to make 'hot'	verb	pana	hot	causative	pana+ta+to
 PROP-011.pito	panapito	to become 'hot'	verb	pana	hot	inchoative	pana+pi+to
@@ -442,13 +442,13 @@ KIN-001.deka	hitodeka	place of/for 'person / human'	noun	hito	person / human	pla
 KIN-002.ka	adamika	man / male person	noun	adami	man / male person	noun	adami+ka
 KIN-002.pe	adamipe	of/like 'man / male person'; 'man / male person'-related	modifier	adami	man / male person	modifier	adami+pe
 KIN-002.to	adamito	to use/apply 'man / male person'; to act as 'man / male person'	verb	adami	man / male person	verb	adami+to
-KIN-002.cika	adamicika	little 'man / male person'; small/dear 'man / male person'	noun	adami	man / male person	diminutive	adami+ci+ka
+KIN-002.cika	adamicika	boy	noun	adami	man / male person	diminutive	adami+ci+ka
 KIN-002.goka	adamigoka	big 'man / male person'; great 'man / male person'	noun	adami	man / male person	augmentative	adami+go+ka
 KIN-002.deka	adamideka	place of/for 'man / male person'	noun	adami	man / male person	place	adami+de+ka
 KIN-003.ka	wanitaka	woman	noun	wanita	woman	noun	wanita+ka
 KIN-003.pe	wanitape	of/like 'woman'; 'woman'-related	modifier	wanita	woman	modifier	wanita+pe
 KIN-003.to	wanitato	to use/apply 'woman'; to act as 'woman'	verb	wanita	woman	verb	wanita+to
-KIN-003.cika	wanitacika	little 'woman'; small/dear 'woman'	noun	wanita	woman	diminutive	wanita+ci+ka
+KIN-003.cika	wanitacika	girl	noun	wanita	woman	diminutive	wanita+ci+ka
 KIN-003.goka	wanitagoka	big 'woman'; great 'woman'	noun	wanita	woman	augmentative	wanita+go+ka
 KIN-003.deka	wanitadeka	place of/for 'woman'	noun	wanita	woman	place	wanita+de+ka
 KIN-004.ka	totoka	child	noun	toto	child	noun	toto+ka
@@ -472,19 +472,19 @@ KIN-006.deka	babadeka	place of/for 'father'	noun	baba	father	place	baba+de+ka
 ANI-002.ka	gouka	dog	noun	gou	dog	noun	gou+ka
 ANI-002.pe	goupe	of/like 'dog'; 'dog'-related	modifier	gou	dog	modifier	gou+pe
 ANI-002.to	gouto	to use/apply 'dog'; to act as 'dog'	verb	gou	dog	verb	gou+to
-ANI-002.cika	goucika	little 'dog'; small/dear 'dog'	noun	gou	dog	diminutive	gou+ci+ka
+ANI-002.cika	goucika	puppy	noun	gou	dog	diminutive	gou+ci+ka
 ANI-002.goka	gougoka	big 'dog'; great 'dog'	noun	gou	dog	augmentative	gou+go+ka
 ANI-002.deka	goudeka	place of/for 'dog'	noun	gou	dog	place	gou+de+ka
 ANI-003.ka	ikanka	fish	noun	ikan	fish	noun	ikan+ka
 ANI-003.pe	ikanpe	of/like 'fish'; 'fish'-related	modifier	ikan	fish	modifier	ikan+pe
 ANI-003.to	ikanto	to use/apply 'fish'; to act as 'fish'	verb	ikan	fish	verb	ikan+to
-ANI-003.cika	ikancika	little 'fish'; small/dear 'fish'	noun	ikan	fish	diminutive	ikan+ci+ka
+ANI-003.cika	ikancika	fry (young fish)	noun	ikan	fish	diminutive	ikan+ci+ka
 ANI-003.goka	ikangoka	big 'fish'; great 'fish'	noun	ikan	fish	augmentative	ikan+go+ka
 ANI-003.deka	ikandeka	place of/for 'fish'	noun	ikan	fish	place	ikan+de+ka
 ANI-004.ka	tolika	bird	noun	toli	bird	noun	toli+ka
 ANI-004.pe	tolipe	of/like 'bird'; 'bird'-related	modifier	toli	bird	modifier	toli+pe
 ANI-004.to	tolito	to use/apply 'bird'; to act as 'bird'	verb	toli	bird	verb	toli+to
-ANI-004.cika	tolicika	little 'bird'; small/dear 'bird'	noun	toli	bird	diminutive	toli+ci+ka
+ANI-004.cika	tolicika	nestling / chick	noun	toli	bird	diminutive	toli+ci+ka
 ANI-004.goka	toligoka	big 'bird'; great 'bird'	noun	toli	bird	augmentative	toli+go+ka
 ANI-004.deka	tolideka	place of/for 'bird'	noun	toli	bird	place	toli+de+ka
 ANI-008.ka	teluka	egg	noun	telu	egg	noun	telu+ka
@@ -686,7 +686,7 @@ ACT-030.kideka	yakukideka	place of the one who 'burn's	noun	yaku	burn	agent-plac
 ACT-034.to	kasito	to 'work'	verb	kasi	work	verb	kasi+to
 ACT-034.ka	kasika	act of 'work'; a 'work'	noun	kasi	work	noun	kasi+ka
 ACT-034.pe	kasipe	'work'-ing	modifier	kasi	work	modifier	kasi+pe
-ACT-034.kika	kasikika	one who 'work's; 'work'-er	noun	kasi	work	agent	kasi+ki+ka
+ACT-034.kika	kasikika	worker	noun	kasi	work	agent	kasi+ki+ka
 ACT-034.tuka	kasituka	tool/means for 'work'	noun	kasi	work	instrument	kasi+tu+ka
 ACT-034.boka	kasiboka	thing 'work'-ed; result of 'work'	noun	kasi	work	patient/result	kasi+bo+ka
 ACT-034.deka	kasideka	place for 'work'	noun	kasi	work	place	kasi+de+ka
@@ -770,7 +770,7 @@ COG-002.kideka	omoukideka	place of the one who 'think's	noun	omou	think	agent-pl
 SPE-001.to	semato	to 'say / speak'	verb	sema	say / speak	verb	sema+to
 SPE-001.ka	semaka	act of 'say / speak'; a 'say / speak'	noun	sema	say / speak	noun	sema+ka
 SPE-001.pe	semape	'say / speak'-ing	modifier	sema	say / speak	modifier	sema+pe
-SPE-001.kika	semakika	one who 'say / speak's; 'say / speak'-er	noun	sema	say / speak	agent	sema+ki+ka
+SPE-001.kika	semakika	speaker	noun	sema	say / speak	agent	sema+ki+ka
 SPE-001.tuka	sematuka	tool/means for 'say / speak'	noun	sema	say / speak	instrument	sema+tu+ka
 SPE-001.boka	semaboka	thing 'say / speak'-ed; result of 'say / speak'	noun	sema	say / speak	patient/result	sema+bo+ka
 SPE-001.deka	semadeka	place for 'say / speak'	noun	sema	say / speak	place	sema+de+ka
@@ -972,7 +972,7 @@ BOD-031.kideka	hidukideka	place of the one who 'live's	noun	hidu	live	agent-plac
 BOD-032.to	poniato	to 'heal'	verb	ponia	heal	verb	ponia+to
 BOD-032.ka	poniaka	act of 'heal'; a 'heal'	noun	ponia	heal	noun	ponia+ka
 BOD-032.pe	poniape	'heal'-ing	modifier	ponia	heal	modifier	ponia+pe
-BOD-032.kika	poniakika	one who 'heal's; 'heal'-er	noun	ponia	heal	agent	ponia+ki+ka
+BOD-032.kika	poniakika	healer / doctor	noun	ponia	heal	agent	ponia+ki+ka
 BOD-032.tuka	poniatuka	tool/means for 'heal'	noun	ponia	heal	instrument	ponia+tu+ka
 BOD-032.boka	poniaboka	thing 'heal'-ed; result of 'heal'	noun	ponia	heal	patient/result	ponia+bo+ka
 BOD-032.deka	poniadeka	place for 'heal'	noun	ponia	heal	place	ponia+de+ka
@@ -1034,18 +1034,18 @@ ANI-001.deka	dobudeka	place of/for 'animal'	noun	dobu	animal	place	dobu+de+ka
 ANI-005.ka	nekoka	cat	noun	neko	cat	noun	neko+ka
 ANI-005.pe	nekope	of/like 'cat'; 'cat'-related	modifier	neko	cat	modifier	neko+pe
 ANI-005.to	nekoto	to use/apply 'cat'; to act as 'cat'	verb	neko	cat	verb	neko+to
-ANI-005.cika	nekocika	little 'cat'; small/dear 'cat'	noun	neko	cat	diminutive	neko+ci+ka
+ANI-005.cika	nekocika	kitten	noun	neko	cat	diminutive	neko+ci+ka
 ANI-005.goka	nekogoka	big 'cat'; great 'cat'	noun	neko	cat	augmentative	neko+go+ka
 ANI-005.deka	nekodeka	place of/for 'cat'	noun	neko	cat	place	neko+de+ka
 ANI-006.ka	umaka	horse	noun	uma	horse	noun	uma+ka
 ANI-006.pe	umape	of/like 'horse'; 'horse'-related	modifier	uma	horse	modifier	uma+pe
 ANI-006.to	umato	to use/apply 'horse'; to act as 'horse'	verb	uma	horse	verb	uma+to
-ANI-006.cika	umacika	little 'horse'; small/dear 'horse'	noun	uma	horse	diminutive	uma+ci+ka
+ANI-006.cika	umacika	foal	noun	uma	horse	diminutive	uma+ci+ka
 ANI-006.goka	umagoka	big 'horse'; great 'horse'	noun	uma	horse	augmentative	uma+go+ka
 ANI-006.deka	umadeka	place of/for 'horse'	noun	uma	horse	place	uma+de+ka
 ANI-007.ka	usika	cow	noun	usi	cow	noun	usi+ka
 ANI-007.pe	usipe	of/like 'cow'; 'cow'-related	modifier	usi	cow	modifier	usi+pe
-ANI-007.cika	usicika	little 'cow'; small/dear 'cow'	noun	usi	cow	diminutive	usi+ci+ka
+ANI-007.cika	usicika	calf	noun	usi	cow	diminutive	usi+ci+ka
 ANI-007.goka	usigoka	big 'cow'; great 'cow'	noun	usi	cow	augmentative	usi+go+ka
 ANI-007.deka	usideka	place of/for 'cow'	noun	usi	cow	place	usi+de+ka
 ANI-009.ka	sipoka	tail	noun	sipo	tail	noun	sipo+ka
@@ -1242,7 +1242,7 @@ PROP-004.kupaka	misikakupaka	un-'short'-ness; the quality of being not 'short'	n
 PROP-004.takika	misikatakika	one who makes things 'short'	noun	misika	short	causative-agent	misika+ta+ki+ka
 PROP-005.pe	hiloipe	wide	modifier	hiloi	wide	modifier	hiloi+pe
 PROP-005.ka	hiloika	'wide'-ness; the quality 'wide'	noun	hiloi	wide	noun	hiloi+ka
-PROP-005.paka	hiloipaka	'wide'-ness; state of being 'wide'	noun	hiloi	wide	quality	hiloi+pa+ka
+PROP-005.paka	hiloipaka	width	noun	hiloi	wide	quality	hiloi+pa+ka
 PROP-005.kupe	hiloikupe	opposite of 'wide'; un-'wide'	modifier	hiloi	wide	opposite	hiloi+ku+pe
 PROP-005.tato	hiloitato	to make 'wide'	verb	hiloi	wide	causative	hiloi+ta+to
 PROP-005.pito	hiloipito	to become 'wide'	verb	hiloi	wide	inchoative	hiloi+pi+to
@@ -1282,7 +1282,7 @@ PROP-008.kupaka	tipikupaka	un-'thin'-ness; the quality of being not 'thin'	noun	
 PROP-008.takika	tipitakika	one who makes things 'thin'	noun	tipi	thin	causative-agent	tipi+ta+ki+ka
 PROP-009.pe	belape	heavy	modifier	bela	heavy	modifier	bela+pe
 PROP-009.ka	belaka	'heavy'-ness; the quality 'heavy'	noun	bela	heavy	noun	bela+ka
-PROP-009.paka	belapaka	'heavy'-ness; state of being 'heavy'	noun	bela	heavy	quality	bela+pa+ka
+PROP-009.paka	belapaka	weight	noun	bela	heavy	quality	bela+pa+ka
 PROP-009.kupe	belakupe	opposite of 'heavy'; un-'heavy'	modifier	bela	heavy	opposite	bela+ku+pe
 PROP-009.tato	belatato	to make 'heavy'	verb	bela	heavy	causative	bela+ta+to
 PROP-009.pito	belapito	to become 'heavy'	verb	bela	heavy	inchoative	bela+pi+to
@@ -1301,7 +1301,7 @@ PROP-010.cipe	lingancipe	'light (in weight)'-ish; somewhat 'light (in weight)'	m
 PROP-010.kupaka	lingankupaka	un-'light (in weight)'-ness; the quality of being not 'light (in weight)'	noun	lingan	light (in weight)	opposite-quality	lingan+ku+pa+ka
 PROP-010.takika	lingantakika	one who makes things 'light (in weight)'	noun	lingan	light (in weight)	causative-agent	lingan+ta+ki+ka
 PROP-013.pe	atatakape	warm	modifier	atataka	warm	modifier	atataka+pe
-PROP-013.paka	atatakapaka	'warm'-ness; state of being 'warm'	noun	atataka	warm	quality	atataka+pa+ka
+PROP-013.paka	atatakapaka	warmth	noun	atataka	warm	quality	atataka+pa+ka
 PROP-013.kupe	atatakakupe	opposite of 'warm'; un-'warm'	modifier	atataka	warm	opposite	atataka+ku+pe
 PROP-013.tato	atatakatato	to make 'warm'	verb	atataka	warm	causative	atataka+ta+to
 PROP-013.pito	atatakapito	to become 'warm'	verb	atataka	warm	inchoative	atataka+pi+to
@@ -1419,7 +1419,7 @@ PROP-032.cipe	halucipe	'smooth'-ish; somewhat 'smooth'	modifier	halu	smooth	dimi
 PROP-032.kupaka	halukupaka	un-'smooth'-ness; the quality of being not 'smooth'	noun	halu	smooth	opposite-quality	halu+ku+pa+ka
 PROP-032.takika	halutakika	one who makes things 'smooth'	noun	halu	smooth	causative-agent	halu+ta+ki+ka
 PROP-033.pe	fukape	deep	modifier	fuka	deep	modifier	fuka+pe
-PROP-033.paka	fukapaka	'deep'-ness; state of being 'deep'	noun	fuka	deep	quality	fuka+pa+ka
+PROP-033.paka	fukapaka	depth	noun	fuka	deep	quality	fuka+pa+ka
 PROP-033.kupe	fukakupe	opposite of 'deep'; un-'deep'	modifier	fuka	deep	opposite	fuka+ku+pe
 PROP-033.tato	fukatato	to make 'deep'	verb	fuka	deep	causative	fuka+ta+to
 PROP-033.pito	fukapito	to become 'deep'	verb	fuka	deep	inchoative	fuka+pi+to
@@ -1429,7 +1429,7 @@ PROP-033.kupaka	fukakupaka	un-'deep'-ness; the quality of being not 'deep'	noun	
 PROP-033.takika	fukatakika	one who makes things 'deep'	noun	fuka	deep	causative-agent	fuka+ta+ki+ka
 PROP-034.pe	takaipe	high	modifier	takai	high	modifier	takai+pe
 PROP-034.ka	takaika	'high'-ness; the quality 'high'	noun	takai	high	noun	takai+ka
-PROP-034.paka	takaipaka	'high'-ness; state of being 'high'	noun	takai	high	quality	takai+pa+ka
+PROP-034.paka	takaipaka	height	noun	takai	high	quality	takai+pa+ka
 PROP-034.kupe	takaikupe	opposite of 'high'; un-'high'	modifier	takai	high	opposite	takai+ku+pe
 PROP-034.tato	takaitato	to make 'high'	verb	takai	high	causative	takai+ta+to
 PROP-034.pito	takaipito	to become 'high'	verb	takai	high	inchoative	takai+pi+to
@@ -1449,7 +1449,7 @@ PROP-035.kupaka	hikuikupaka	un-'low'-ness; the quality of being not 'low'	noun	h
 PROP-035.takika	hikuitakika	one who makes things 'low'	noun	hikui	low	causative-agent	hikui+ta+ki+ka
 PROP-038.pe	hayaipe	fast / quick	modifier	hayai	fast / quick	modifier	hayai+pe
 PROP-038.ka	hayaika	'fast / quick'-ness; the quality 'fast / quick'	noun	hayai	fast / quick	noun	hayai+ka
-PROP-038.paka	hayaipaka	'fast / quick'-ness; state of being 'fast / quick'	noun	hayai	fast / quick	quality	hayai+pa+ka
+PROP-038.paka	hayaipaka	speed	noun	hayai	fast / quick	quality	hayai+pa+ka
 PROP-038.kupe	hayaikupe	opposite of 'fast / quick'; un-'fast / quick'	modifier	hayai	fast / quick	opposite	hayai+ku+pe
 PROP-038.tato	hayaitato	to make 'fast / quick'	verb	hayai	fast / quick	causative	hayai+ta+to
 PROP-038.pito	hayaipito	to become 'fast / quick'	verb	hayai	fast / quick	inchoative	hayai+pi+to
@@ -1469,7 +1469,7 @@ PROP-039.kupaka	osoikupaka	un-'slow'-ness; the quality of being not 'slow'	noun	
 PROP-039.takika	osoitakika	one who makes things 'slow'	noun	osoi	slow	causative-agent	osoi+ta+ki+ka
 PROP-040.pe	tuyoipe	strong	modifier	tuyoi	strong	modifier	tuyoi+pe
 PROP-040.ka	tuyoika	'strong'-ness; the quality 'strong'	noun	tuyoi	strong	noun	tuyoi+ka
-PROP-040.paka	tuyoipaka	'strong'-ness; state of being 'strong'	noun	tuyoi	strong	quality	tuyoi+pa+ka
+PROP-040.paka	tuyoipaka	strength	noun	tuyoi	strong	quality	tuyoi+pa+ka
 PROP-040.kupe	tuyoikupe	opposite of 'strong'; un-'strong'	modifier	tuyoi	strong	opposite	tuyoi+ku+pe
 PROP-040.tato	tuyoitato	to make 'strong'	verb	tuyoi	strong	causative	tuyoi+ta+to
 PROP-040.pito	tuyoipito	to become 'strong'	verb	tuyoi	strong	inchoative	tuyoi+pi+to
@@ -1509,7 +1509,7 @@ PROP-043.kupaka	salakupaka	un-'wrong'-ness; the quality of being not 'wrong'	nou
 PROP-043.takika	salatakika	one who makes things 'wrong'	noun	sala	wrong	causative-agent	sala+ta+ki+ka
 PROP-044.pe	benape	true	modifier	bena	true	modifier	bena+pe
 PROP-044.ka	benaka	'true'-ness; the quality 'true'	noun	bena	true	noun	bena+ka
-PROP-044.paka	benapaka	'true'-ness; state of being 'true'	noun	bena	true	quality	bena+pa+ka
+PROP-044.paka	benapaka	truth	noun	bena	true	quality	bena+pa+ka
 PROP-044.kupe	benakupe	opposite of 'true'; un-'true'	modifier	bena	true	opposite	bena+ku+pe
 PROP-044.tato	benatato	to make 'true'	verb	bena	true	causative	bena+ta+to
 PROP-044.pito	benapito	to become 'true'	verb	bena	true	inchoative	bena+pi+to
@@ -1630,7 +1630,7 @@ DWE-009.deka	dogudeka	place of/for 'tool'	noun	dogu	tool	place	dogu+de+ka
 ACT-005.to	hasiluto	to 'run'	verb	hasilu	run	verb	hasilu+to
 ACT-005.ka	hasiluka	act of 'run'; a 'run'	noun	hasilu	run	noun	hasilu+ka
 ACT-005.pe	hasilupe	'run'-ing	modifier	hasilu	run	modifier	hasilu+pe
-ACT-005.kika	hasilukika	one who 'run's; 'run'-er	noun	hasilu	run	agent	hasilu+ki+ka
+ACT-005.kika	hasilukika	runner	noun	hasilu	run	agent	hasilu+ki+ka
 ACT-005.tuka	hasilutuka	tool/means for 'run'	noun	hasilu	run	instrument	hasilu+tu+ka
 ACT-005.boka	hasiluboka	thing 'run'-ed; result of 'run'	noun	hasilu	run	patient/result	hasilu+bo+ka
 ACT-005.deka	hasiludeka	place for 'run'	noun	hasilu	run	place	hasilu+de+ka
@@ -1833,7 +1833,7 @@ ACT-031.kideka	nagalekideka	place of the one who 'flow's	noun	nagale	flow	agent-
 ACT-032.to	ogeleato	to 'swim'	verb	ogelea	swim	verb	ogelea+to
 ACT-032.ka	ogeleaka	act of 'swim'; a 'swim'	noun	ogelea	swim	noun	ogelea+ka
 ACT-032.pe	ogeleape	'swim'-ing	modifier	ogelea	swim	modifier	ogelea+pe
-ACT-032.kika	ogeleakika	one who 'swim's; 'swim'-er	noun	ogelea	swim	agent	ogelea+ki+ka
+ACT-032.kika	ogeleakika	swimmer	noun	ogelea	swim	agent	ogelea+ki+ka
 ACT-032.tuka	ogeleatuka	tool/means for 'swim'	noun	ogelea	swim	instrument	ogelea+tu+ka
 ACT-032.boka	ogeleaboka	thing 'swim'-ed; result of 'swim'	noun	ogelea	swim	patient/result	ogelea+bo+ka
 ACT-032.deka	ogeleadeka	place for 'swim'	noun	ogelea	swim	place	ogelea+de+ka
@@ -1845,7 +1845,7 @@ ACT-032.kideka	ogeleakideka	place of the one who 'swim's	noun	ogelea	swim	agent-
 ACT-033.to	wolato	to 'fly'	verb	wola	fly	verb	wola+to
 ACT-033.ka	wolaka	act of 'fly'; a 'fly'	noun	wola	fly	noun	wola+ka
 ACT-033.pe	wolape	'fly'-ing	modifier	wola	fly	modifier	wola+pe
-ACT-033.kika	wolakika	one who 'fly's; 'fly'-er	noun	wola	fly	agent	wola+ki+ka
+ACT-033.kika	wolakika	pilot / flyer	noun	wola	fly	agent	wola+ki+ka
 ACT-033.tuka	wolatuka	tool/means for 'fly'	noun	wola	fly	instrument	wola+tu+ka
 ACT-033.boka	wolaboka	thing 'fly'-ed; result of 'fly'	noun	wola	fly	patient/result	wola+bo+ka
 ACT-033.deka	woladeka	place for 'fly'	noun	wola	fly	place	wola+de+ka
@@ -1857,7 +1857,7 @@ ACT-033.kideka	wolakideka	place of the one who 'fly's	noun	wola	fly	agent-place	
 ACT-035.to	asobuto	to 'play'	verb	asobu	play	verb	asobu+to
 ACT-035.ka	asobuka	act of 'play'; a 'play'	noun	asobu	play	noun	asobu+ka
 ACT-035.pe	asobupe	'play'-ing	modifier	asobu	play	modifier	asobu+pe
-ACT-035.kika	asobukika	one who 'play's; 'play'-er	noun	asobu	play	agent	asobu+ki+ka
+ACT-035.kika	asobukika	player	noun	asobu	play	agent	asobu+ki+ka
 ACT-035.tuka	asobutuka	tool/means for 'play'	noun	asobu	play	instrument	asobu+tu+ka
 ACT-035.boka	asobuboka	thing 'play'-ed; result of 'play'	noun	asobu	play	patient/result	asobu+bo+ka
 ACT-035.deka	asobudeka	place for 'play'	noun	asobu	play	place	asobu+de+ka
@@ -1881,7 +1881,7 @@ ACT-036.kideka	pakaikideka	place of the one who 'use's	noun	pakai	use	agent-plac
 ACT-037.to	tolonato	to 'help'	verb	tolona	help	verb	tolona+to
 ACT-037.ka	tolonaka	act of 'help'; a 'help'	noun	tolona	help	noun	tolona+ka
 ACT-037.pe	tolonape	'help'-ing	modifier	tolona	help	modifier	tolona+pe
-ACT-037.kika	tolonakika	one who 'help's; 'help'-er	noun	tolona	help	agent	tolona+ki+ka
+ACT-037.kika	tolonakika	helper	noun	tolona	help	agent	tolona+ki+ka
 ACT-037.tuka	tolonatuka	tool/means for 'help'	noun	tolona	help	instrument	tolona+tu+ka
 ACT-037.boka	tolonaboka	thing 'help'-ed; result of 'help'	noun	tolona	help	patient/result	tolona+bo+ka
 ACT-037.deka	tolonadeka	place for 'help'	noun	tolona	help	place	tolona+de+ka
@@ -2217,7 +2217,7 @@ COG-003.kideka	pahakideka	place of the one who 'understand's	noun	paha	understan
 COG-004.to	belayato	to 'learn'	verb	belaya	learn	verb	belaya+to
 COG-004.ka	belayaka	act of 'learn'; a 'learn'	noun	belaya	learn	noun	belaya+ka
 COG-004.pe	belayape	'learn'-ing	modifier	belaya	learn	modifier	belaya+pe
-COG-004.kika	belayakika	one who 'learn's; 'learn'-er	noun	belaya	learn	agent	belaya+ki+ka
+COG-004.kika	belayakika	student / learner	noun	belaya	learn	agent	belaya+ki+ka
 COG-004.tuka	belayatuka	tool/means for 'learn'	noun	belaya	learn	instrument	belaya+tu+ka
 COG-004.boka	belayaboka	thing 'learn'-ed; result of 'learn'	noun	belaya	learn	patient/result	belaya+bo+ka
 COG-004.deka	belayadeka	place for 'learn'	noun	belaya	learn	place	belaya+de+ka
@@ -2229,7 +2229,7 @@ COG-004.kideka	belayakideka	place of the one who 'learn's	noun	belaya	learn	agen
 COG-005.to	ayalito	to 'teach'	verb	ayali	teach	verb	ayali+to
 COG-005.ka	ayalika	act of 'teach'; a 'teach'	noun	ayali	teach	noun	ayali+ka
 COG-005.pe	ayalipe	'teach'-ing	modifier	ayali	teach	modifier	ayali+pe
-COG-005.kika	ayalikika	one who 'teach's; 'teach'-er	noun	ayali	teach	agent	ayali+ki+ka
+COG-005.kika	ayalikika	teacher	noun	ayali	teach	agent	ayali+ki+ka
 COG-005.tuka	ayalituka	tool/means for 'teach'	noun	ayali	teach	instrument	ayali+tu+ka
 COG-005.boka	ayaliboka	thing 'teach'-ed; result of 'teach'	noun	ayali	teach	patient/result	ayali+bo+ka
 COG-005.deka	ayalideka	place for 'teach'	noun	ayali	teach	place	ayali+de+ka
@@ -2265,7 +2265,6 @@ COG-008.kideka	pecayakideka	place of the one who 'believe's	noun	pecaya	believe	
 COG-009.ka	akalika	mind / idea	noun	akali	mind / idea	noun	akali+ka
 COG-009.pe	akalipe	of/like 'mind / idea'; 'mind / idea'-related	modifier	akali	mind / idea	modifier	akali+pe
 COG-009.to	akalito	to use/apply 'mind / idea'; to act as 'mind / idea'	verb	akali	mind / idea	verb	akali+to
-COG-009.cika	akalicika	little 'mind / idea'; small/dear 'mind / idea'	noun	akali	mind / idea	diminutive	akali+ci+ka
 COG-009.goka	akaligoka	big 'mind / idea'; great 'mind / idea'	noun	akali	mind / idea	augmentative	akali+go+ka
 COG-009.deka	akalideka	place of/for 'mind / idea'	noun	akali	mind / idea	place	akali+de+ka
 SPE-004.ka	bahaeka	language	noun	bahae	language	noun	bahae+ka
@@ -2301,7 +2300,7 @@ SPE-006.kideka	yawakideka	place of the one who 'answer's	noun	yawa	answer	agent-
 SPE-007.to	bacato	to 'read'	verb	baca	read	verb	baca+to
 SPE-007.ka	bacaka	act of 'read'; a 'read'	noun	baca	read	noun	baca+ka
 SPE-007.pe	bacape	'read'-ing	modifier	baca	read	modifier	baca+pe
-SPE-007.kika	bacakika	one who 'read's; 'read'-er	noun	baca	read	agent	baca+ki+ka
+SPE-007.kika	bacakika	reader	noun	baca	read	agent	baca+ki+ka
 SPE-007.tuka	bacatuka	tool/means for 'read'	noun	baca	read	instrument	baca+tu+ka
 SPE-007.boka	bacaboka	thing 'read'-ed; result of 'read'	noun	baca	read	patient/result	baca+bo+ka
 SPE-007.deka	bacadeka	place for 'read'	noun	baca	read	place	baca+de+ka
@@ -2313,7 +2312,7 @@ SPE-007.kideka	bacakideka	place of the one who 'read's	noun	baca	read	agent-plac
 SPE-008.to	tulito	to 'write'	verb	tuli	write	verb	tuli+to
 SPE-008.ka	tulika	act of 'write'; a 'write'	noun	tuli	write	noun	tuli+ka
 SPE-008.pe	tulipe	'write'-ing	modifier	tuli	write	modifier	tuli+pe
-SPE-008.kika	tulikika	one who 'write's; 'write'-er	noun	tuli	write	agent	tuli+ki+ka
+SPE-008.kika	tulikika	writer / author	noun	tuli	write	agent	tuli+ki+ka
 SPE-008.tuka	tulituka	tool/means for 'write'	noun	tuli	write	instrument	tuli+tu+ka
 SPE-008.boka	tuliboka	thing 'write'-ed; result of 'write'	noun	tuli	write	patient/result	tuli+bo+ka
 SPE-008.deka	tulideka	place for 'write'	noun	tuli	write	place	tuli+de+ka
@@ -2378,7 +2377,7 @@ SOC-003.deka	pelandeka	place of/for 'war'	noun	pelan	war	place	pelan+de+ka
 SOC-004.to	lagato	to 'fight'	verb	laga	fight	verb	laga+to
 SOC-004.ka	lagaka	act of 'fight'; a 'fight'	noun	laga	fight	noun	laga+ka
 SOC-004.pe	lagape	'fight'-ing	modifier	laga	fight	modifier	laga+pe
-SOC-004.kika	lagakika	one who 'fight's; 'fight'-er	noun	laga	fight	agent	laga+ki+ka
+SOC-004.kika	lagakika	fighter / warrior	noun	laga	fight	agent	laga+ki+ka
 SOC-004.tuka	lagatuka	tool/means for 'fight'	noun	laga	fight	instrument	laga+tu+ka
 SOC-004.boka	lagaboka	thing 'fight'-ed; result of 'fight'	noun	laga	fight	patient/result	laga+bo+ka
 SOC-004.deka	lagadeka	place for 'fight'	noun	laga	fight	place	laga+de+ka
@@ -2402,7 +2401,7 @@ SOC-006.deka	negaladeka	place of/for 'country'	noun	negala	country	place	negala+
 SOC-007.to	pipito	to 'lead'	verb	pipi	lead	verb	pipi+to
 SOC-007.ka	pipika	act of 'lead'; a 'lead'	noun	pipi	lead	noun	pipi+ka
 SOC-007.pe	pipipe	'lead'-ing	modifier	pipi	lead	modifier	pipi+pe
-SOC-007.kika	pipikika	one who 'lead's; 'lead'-er	noun	pipi	lead	agent	pipi+ki+ka
+SOC-007.kika	pipikika	leader	noun	pipi	lead	agent	pipi+ki+ka
 SOC-007.tuka	pipituka	tool/means for 'lead'	noun	pipi	lead	instrument	pipi+tu+ka
 SOC-007.boka	pipiboka	thing 'lead'-ed; result of 'lead'	noun	pipi	lead	patient/result	pipi+bo+ka
 SOC-007.deka	pipideka	place for 'lead'	noun	pipi	lead	place	pipi+de+ka
@@ -2627,12 +2626,10 @@ SOC-013.goka	hakigoka	big 'right / entitlement'; great 'right / entitlement'	nou
 SOC-013.deka	hakideka	place of/for 'right / entitlement'	noun	haki	right / entitlement	place	haki+de+ka
 SOC-014.pe	melekape	of/like 'freedom'; 'freedom'-related	modifier	meleka	freedom	modifier	meleka+pe
 SOC-014.to	melekato	to use/apply 'freedom'; to act as 'freedom'	verb	meleka	freedom	verb	meleka+to
-SOC-014.cika	melekacika	little 'freedom'; small/dear 'freedom'	noun	meleka	freedom	diminutive	meleka+ci+ka
 SOC-014.goka	melekagoka	big 'freedom'; great 'freedom'	noun	meleka	freedom	augmentative	meleka+go+ka
 SOC-014.deka	melekadeka	place of/for 'freedom'	noun	meleka	freedom	place	meleka+de+ka
 SOC-015.pe	amanipe	of/like 'peace'; 'peace'-related	modifier	amani	peace	modifier	amani+pe
 SOC-015.to	amanito	to use/apply 'peace'; to act as 'peace'	verb	amani	peace	verb	amani+to
-SOC-015.cika	amanicika	little 'peace'; small/dear 'peace'	noun	amani	peace	diminutive	amani+ci+ka
 SOC-015.goka	amanigoka	big 'peace'; great 'peace'	noun	amani	peace	augmentative	amani+go+ka
 SOC-015.deka	amanideka	place of/for 'peace'	noun	amani	peace	place	amani+de+ka
 SOC-016.ka	sumika	crime	noun	sumi	crime	noun	sumi+ka
@@ -2965,7 +2962,6 @@ SPE-010.goka	celitagoka	big 'story'; great 'story'	noun	celita	story	augmentativ
 SPE-010.deka	celitadeka	place of/for 'story'	noun	celita	story	place	celita+de+ka
 SPE-011.ka	belitaka	news	noun	belita	news	noun	belita+ka
 SPE-011.pe	belitape	of/like 'news'; 'news'-related	modifier	belita	news	modifier	belita+pe
-SPE-011.cika	belitacika	little 'news'; small/dear 'news'	noun	belita	news	diminutive	belita+ci+ka
 SPE-011.goka	belitagoka	big 'news'; great 'news'	noun	belita	news	augmentative	belita+go+ka
 SPE-011.deka	belitadeka	place of/for 'news'	noun	belita	news	place	belita+de+ka
 SPE-012.ka	koeka	voice	noun	koe	voice	noun	koe+ka
@@ -3013,7 +3009,7 @@ SPE-016.kideka	yobukideka	place of the one who 'call / shout's	noun	yobu	call / 
 SPE-017.to	utauto	to 'sing'	verb	utau	sing	verb	utau+to
 SPE-017.ka	utauka	act of 'sing'; a 'sing'	noun	utau	sing	noun	utau+ka
 SPE-017.pe	utaupe	'sing'-ing	modifier	utau	sing	modifier	utau+pe
-SPE-017.kika	utaukika	one who 'sing's; 'sing'-er	noun	utau	sing	agent	utau+ki+ka
+SPE-017.kika	utaukika	singer	noun	utau	sing	agent	utau+ki+ka
 SPE-017.tuka	utautuka	tool/means for 'sing'	noun	utau	sing	instrument	utau+tu+ka
 SPE-017.boka	utauboka	thing 'sing'-ed; result of 'sing'	noun	utau	sing	patient/result	utau+bo+ka
 SPE-017.deka	utaudeka	place for 'sing'	noun	utau	sing	place	utau+de+ka
@@ -3221,25 +3217,25 @@ FOO-029.takika	segatakika	one who makes things 'fresh'	noun	sega	fresh	causative
 ANI-013.ka	niwatolika	chicken	noun	niwatoli	chicken	noun	niwatoli+ka
 ANI-013.pe	niwatolipe	of/like 'chicken'; 'chicken'-related	modifier	niwatoli	chicken	modifier	niwatoli+pe
 ANI-013.to	niwatolito	to use/apply 'chicken'; to act as 'chicken'	verb	niwatoli	chicken	verb	niwatoli+to
-ANI-013.cika	niwatolicika	little 'chicken'; small/dear 'chicken'	noun	niwatoli	chicken	diminutive	niwatoli+ci+ka
+ANI-013.cika	niwatolicika	chick	noun	niwatoli	chicken	diminutive	niwatoli+ci+ka
 ANI-013.goka	niwatoligoka	big 'chicken'; great 'chicken'	noun	niwatoli	chicken	augmentative	niwatoli+go+ka
 ANI-013.deka	niwatolideka	place of/for 'chicken'	noun	niwatoli	chicken	place	niwatoli+de+ka
 ANI-014.ka	butaka	pig	noun	buta	pig	noun	buta+ka
 ANI-014.pe	butape	of/like 'pig'; 'pig'-related	modifier	buta	pig	modifier	buta+pe
 ANI-014.to	butato	to use/apply 'pig'; to act as 'pig'	verb	buta	pig	verb	buta+to
-ANI-014.cika	butacika	little 'pig'; small/dear 'pig'	noun	buta	pig	diminutive	buta+ci+ka
+ANI-014.cika	butacika	piglet	noun	buta	pig	diminutive	buta+ci+ka
 ANI-014.goka	butagoka	big 'pig'; great 'pig'	noun	buta	pig	augmentative	buta+go+ka
 ANI-014.deka	butadeka	place of/for 'pig'	noun	buta	pig	place	buta+de+ka
 ANI-015.ka	busika	goat	noun	busi	goat	noun	busi+ka
 ANI-015.pe	busipe	of/like 'goat'; 'goat'-related	modifier	busi	goat	modifier	busi+pe
 ANI-015.to	busito	to use/apply 'goat'; to act as 'goat'	verb	busi	goat	verb	busi+to
-ANI-015.cika	busicika	little 'goat'; small/dear 'goat'	noun	busi	goat	diminutive	busi+ci+ka
+ANI-015.cika	busicika	kid (young goat)	noun	busi	goat	diminutive	busi+ci+ka
 ANI-015.goka	busigoka	big 'goat'; great 'goat'	noun	busi	goat	augmentative	busi+go+ka
 ANI-015.deka	busideka	place of/for 'goat'	noun	busi	goat	place	busi+de+ka
 ANI-016.ka	ulaka	snake	noun	ula	snake	noun	ula+ka
 ANI-016.pe	ulape	of/like 'snake'; 'snake'-related	modifier	ula	snake	modifier	ula+pe
 ANI-016.to	ulato	to use/apply 'snake'; to act as 'snake'	verb	ula	snake	verb	ula+to
-ANI-016.cika	ulacika	little 'snake'; small/dear 'snake'	noun	ula	snake	diminutive	ula+ci+ka
+ANI-016.cika	ulacika	hatchling	noun	ula	snake	diminutive	ula+ci+ka
 ANI-016.goka	ulagoka	big 'snake'; great 'snake'	noun	ula	snake	augmentative	ula+go+ka
 ANI-016.deka	uladeka	place of/for 'snake'	noun	ula	snake	place	ula+de+ka
 ANI-017.ka	musika	insect / bug	noun	musi	insect / bug	noun	musi+ka
@@ -3251,13 +3247,13 @@ ANI-017.deka	musideka	place of/for 'insect / bug'	noun	musi	insect / bug	place	m
 ANI-018.ka	singaka	lion	noun	singa	lion	noun	singa+ka
 ANI-018.pe	singape	of/like 'lion'; 'lion'-related	modifier	singa	lion	modifier	singa+pe
 ANI-018.to	singato	to use/apply 'lion'; to act as 'lion'	verb	singa	lion	verb	singa+to
-ANI-018.cika	singacika	little 'lion'; small/dear 'lion'	noun	singa	lion	diminutive	singa+ci+ka
+ANI-018.cika	singacika	lion cub	noun	singa	lion	diminutive	singa+ci+ka
 ANI-018.goka	singagoka	big 'lion'; great 'lion'	noun	singa	lion	augmentative	singa+go+ka
 ANI-018.deka	singadeka	place of/for 'lion'	noun	singa	lion	place	singa+de+ka
 ANI-019.ka	gayaka	elephant	noun	gaya	elephant	noun	gaya+ka
 ANI-019.pe	gayape	of/like 'elephant'; 'elephant'-related	modifier	gaya	elephant	modifier	gaya+pe
 ANI-019.to	gayato	to use/apply 'elephant'; to act as 'elephant'	verb	gaya	elephant	verb	gaya+to
-ANI-019.cika	gayacika	little 'elephant'; small/dear 'elephant'	noun	gaya	elephant	diminutive	gaya+ci+ka
+ANI-019.cika	gayacika	elephant calf	noun	gaya	elephant	diminutive	gaya+ci+ka
 ANI-019.goka	gayagoka	big 'elephant'; great 'elephant'	noun	gaya	elephant	augmentative	gaya+go+ka
 ANI-019.deka	gayadeka	place of/for 'elephant'	noun	gaya	elephant	place	gaya+de+ka
 ANI-020.ka	saluka	monkey	noun	salu	monkey	noun	salu+ka
@@ -5264,7 +5260,7 @@ COG-025.kideka	komalakideka	place of the one who 'compare's	noun	komala	compare	
 COG-026.to	hukumuto	to 'judge / weigh'	verb	hukumu	judge / weigh	verb	hukumu+to
 COG-026.ka	hukumuka	act of 'judge / weigh'; a 'judge / weigh'	noun	hukumu	judge / weigh	noun	hukumu+ka
 COG-026.pe	hukumupe	'judge / weigh'-ing	modifier	hukumu	judge / weigh	modifier	hukumu+pe
-COG-026.kika	hukumukika	one who 'judge / weigh's; 'judge / weigh'-er	noun	hukumu	judge / weigh	agent	hukumu+ki+ka
+COG-026.kika	hukumukika	judge	noun	hukumu	judge / weigh	agent	hukumu+ki+ka
 COG-026.tuka	hukumutuka	tool/means for 'judge / weigh'	noun	hukumu	judge / weigh	instrument	hukumu+tu+ka
 COG-026.boka	hukumuboka	thing 'judge / weigh'-ed; result of 'judge / weigh'	noun	hukumu	judge / weigh	patient/result	hukumu+bo+ka
 COG-026.deka	hukumudeka	place for 'judge / weigh'	noun	hukumu	judge / weigh	place	hukumu+de+ka
@@ -5436,8 +5432,6 @@ COG-040.deka	widadeka	place of/for 'knowledge'	noun	wida	knowledge	place	wida+de
 COG-041.ka	abipayaka	opinion / view	noun	abipaya	opinion / view	noun	abipaya+ka
 COG-041.pe	abipayape	of/like 'opinion / view'; 'opinion / view'-related	modifier	abipaya	opinion / view	modifier	abipaya+pe
 COG-041.to	abipayato	to use/apply 'opinion / view'; to act as 'opinion / view'	verb	abipaya	opinion / view	verb	abipaya+to
-COG-041.cika	abipayacika	little 'opinion / view'; small/dear 'opinion / view'	noun	abipaya	opinion / view	diminutive	abipaya+ci+ka
-COG-041.goka	abipayagoka	big 'opinion / view'; great 'opinion / view'	noun	abipaya	opinion / view	augmentative	abipaya+go+ka
 COG-041.deka	abipayadeka	place of/for 'opinion / view'	noun	abipaya	opinion / view	place	abipaya+de+ka
 COG-042.ka	lengoka	purpose / goal	noun	lengo	purpose / goal	noun	lengo+ka
 COG-042.pe	lengope	of/like 'purpose / goal'; 'purpose / goal'-related	modifier	lengo	purpose / goal	modifier	lengo+pe
@@ -6512,7 +6506,7 @@ AGR-053.deka	upayadeka	place of/for 'crop-harvest (n)'	noun	upaya	crop-harvest (
 ANI-021.ka	halimauka	tiger	noun	halimau	tiger	noun	halimau+ka
 ANI-021.pe	halimaupe	of/like 'tiger'; 'tiger'-related	modifier	halimau	tiger	modifier	halimau+pe
 ANI-021.to	halimauto	to use/apply 'tiger'; to act as 'tiger'	verb	halimau	tiger	verb	halimau+to
-ANI-021.cika	halimaucika	little 'tiger'; small/dear 'tiger'	noun	halimau	tiger	diminutive	halimau+ci+ka
+ANI-021.cika	halimaucika	tiger cub	noun	halimau	tiger	diminutive	halimau+ci+ka
 ANI-021.goka	halimaugoka	big 'tiger'; great 'tiger'	noun	halimau	tiger	augmentative	halimau+go+ka
 ANI-021.deka	halimaudeka	place of/for 'tiger'	noun	halimau	tiger	place	halimau+de+ka
 ANI-022.ka	dumaka	leopard	noun	duma	leopard	noun	duma+ka
@@ -6524,7 +6518,7 @@ ANI-022.deka	dumadeka	place of/for 'leopard'	noun	duma	leopard	place	duma+de+ka
 ANI-023.ka	kiongaoka	bear	noun	kiongao	bear	noun	kiongao+ka
 ANI-023.pe	kiongaope	of/like 'bear'; 'bear'-related	modifier	kiongao	bear	modifier	kiongao+pe
 ANI-023.to	kiongaoto	to use/apply 'bear'; to act as 'bear'	verb	kiongao	bear	verb	kiongao+to
-ANI-023.cika	kiongaocika	little 'bear'; small/dear 'bear'	noun	kiongao	bear	diminutive	kiongao+ci+ka
+ANI-023.cika	kiongaocika	bear cub	noun	kiongao	bear	diminutive	kiongao+ci+ka
 ANI-023.goka	kiongaogoka	big 'bear'; great 'bear'	noun	kiongao	bear	augmentative	kiongao+go+ka
 ANI-023.deka	kiongaodeka	place of/for 'bear'	noun	kiongao	bear	place	kiongao+de+ka
 ANI-024.ka	bediyaka	wolf	noun	bediya	wolf	noun	bediya+ka
@@ -6542,7 +6536,7 @@ ANI-025.deka	musandeka	place of/for 'fox'	noun	musan	fox	place	musan+de+ka
 ANI-026.ka	mawalaka	deer	noun	mawala	deer	noun	mawala+ka
 ANI-026.pe	mawalape	of/like 'deer'; 'deer'-related	modifier	mawala	deer	modifier	mawala+pe
 ANI-026.to	mawalato	to use/apply 'deer'; to act as 'deer'	verb	mawala	deer	verb	mawala+to
-ANI-026.cika	mawalacika	little 'deer'; small/dear 'deer'	noun	mawala	deer	diminutive	mawala+ci+ka
+ANI-026.cika	mawalacika	fawn	noun	mawala	deer	diminutive	mawala+ci+ka
 ANI-026.goka	mawalagoka	big 'deer'; great 'deer'	noun	mawala	deer	augmentative	mawala+go+ka
 ANI-026.deka	mawaladeka	place of/for 'deer'	noun	mawala	deer	place	mawala+de+ka
 ANI-027.ka	halagosaka	rabbit / hare	noun	halagosa	rabbit / hare	noun	halagosa+ka
@@ -6560,19 +6554,19 @@ ANI-028.deka	cucadeka	place of/for 'mouse / rat'	noun	cuca	mouse / rat	place	cuc
 ANI-029.ka	mendaka	sheep	noun	menda	sheep	noun	menda+ka
 ANI-029.pe	mendape	of/like 'sheep'; 'sheep'-related	modifier	menda	sheep	modifier	menda+pe
 ANI-029.to	mendato	to use/apply 'sheep'; to act as 'sheep'	verb	menda	sheep	verb	menda+to
-ANI-029.cika	mendacika	little 'sheep'; small/dear 'sheep'	noun	menda	sheep	diminutive	menda+ci+ka
+ANI-029.cika	mendacika	lamb	noun	menda	sheep	diminutive	menda+ci+ka
 ANI-029.goka	mendagoka	big 'sheep'; great 'sheep'	noun	menda	sheep	augmentative	menda+go+ka
 ANI-029.deka	mendadeka	place of/for 'sheep'	noun	menda	sheep	place	menda+de+ka
 ANI-030.ka	gadahaka	donkey	noun	gadaha	donkey	noun	gadaha+ka
 ANI-030.pe	gadahape	of/like 'donkey'; 'donkey'-related	modifier	gadaha	donkey	modifier	gadaha+pe
 ANI-030.to	gadahato	to use/apply 'donkey'; to act as 'donkey'	verb	gadaha	donkey	verb	gadaha+to
-ANI-030.cika	gadahacika	little 'donkey'; small/dear 'donkey'	noun	gadaha	donkey	diminutive	gadaha+ci+ka
+ANI-030.cika	gadahacika	foal (young donkey)	noun	gadaha	donkey	diminutive	gadaha+ci+ka
 ANI-030.goka	gadahagoka	big 'donkey'; great 'donkey'	noun	gadaha	donkey	augmentative	gadaha+go+ka
 ANI-030.deka	gadahadeka	place of/for 'donkey'	noun	gadaha	donkey	place	gadaha+de+ka
 ANI-031.ka	untaka	camel	noun	unta	camel	noun	unta+ka
 ANI-031.pe	untape	of/like 'camel'; 'camel'-related	modifier	unta	camel	modifier	unta+pe
 ANI-031.to	untato	to use/apply 'camel'; to act as 'camel'	verb	unta	camel	verb	unta+to
-ANI-031.cika	untacika	little 'camel'; small/dear 'camel'	noun	unta	camel	diminutive	unta+ci+ka
+ANI-031.cika	untacika	camel calf	noun	unta	camel	diminutive	unta+ci+ka
 ANI-031.goka	untagoka	big 'camel'; great 'camel'	noun	unta	camel	augmentative	unta+go+ka
 ANI-031.deka	untadeka	place of/for 'camel'	noun	unta	camel	place	unta+de+ka
 ANI-032.ka	baisaka	buffalo	noun	baisa	buffalo	noun	baisa+ka
@@ -6590,7 +6584,7 @@ ANI-033.deka	tigadeka	place of/for 'giraffe'	noun	tiga	giraffe	place	tiga+de+ka
 ANI-034.ka	magalaka	crocodile	noun	magala	crocodile	noun	magala+ka
 ANI-034.pe	magalape	of/like 'crocodile'; 'crocodile'-related	modifier	magala	crocodile	modifier	magala+pe
 ANI-034.to	magalato	to use/apply 'crocodile'; to act as 'crocodile'	verb	magala	crocodile	verb	magala+to
-ANI-034.cika	magalacika	little 'crocodile'; small/dear 'crocodile'	noun	magala	crocodile	diminutive	magala+ci+ka
+ANI-034.cika	magalacika	hatchling	noun	magala	crocodile	diminutive	magala+ci+ka
 ANI-034.goka	magalagoka	big 'crocodile'; great 'crocodile'	noun	magala	crocodile	augmentative	magala+go+ka
 ANI-034.deka	magaladeka	place of/for 'crocodile'	noun	magala	crocodile	place	magala+de+ka
 ANI-035.ka	kilikitika	lizard	noun	kilikiti	lizard	noun	kilikiti+ka
@@ -6601,7 +6595,7 @@ ANI-035.goka	kilikitigoka	big 'lizard'; great 'lizard'	noun	kilikiti	lizard	augm
 ANI-035.deka	kilikitideka	place of/for 'lizard'	noun	kilikiti	lizard	place	kilikiti+de+ka
 ANI-036.pe	mendukape	of/like 'frog / toad'; 'frog / toad'-related	modifier	menduka	frog / toad	modifier	menduka+pe
 ANI-036.to	mendukato	to use/apply 'frog / toad'; to act as 'frog / toad'	verb	menduka	frog / toad	verb	menduka+to
-ANI-036.cika	mendukacika	little 'frog / toad'; small/dear 'frog / toad'	noun	menduka	frog / toad	diminutive	menduka+ci+ka
+ANI-036.cika	mendukacika	tadpole	noun	menduka	frog / toad	diminutive	menduka+ci+ka
 ANI-036.goka	mendukagoka	big 'frog / toad'; great 'frog / toad'	noun	menduka	frog / toad	augmentative	menduka+go+ka
 ANI-036.deka	mendukadeka	place of/for 'frog / toad'	noun	menduka	frog / toad	place	menduka+de+ka
 ANI-037.ka	kobeka	turtle / tortoise	noun	kobe	turtle / tortoise	noun	kobe+ka
@@ -6628,7 +6622,7 @@ ANI-040.goka	kankagoka	big 'crab'; great 'crab'	noun	kanka	crab	augmentative	kan
 ANI-040.deka	kankadeka	place of/for 'crab'	noun	kanka	crab	place	kanka+de+ka
 ANI-041.pe	batukape	of/like 'duck'; 'duck'-related	modifier	batuka	duck	modifier	batuka+pe
 ANI-041.to	batukato	to use/apply 'duck'; to act as 'duck'	verb	batuka	duck	verb	batuka+to
-ANI-041.cika	batukacika	little 'duck'; small/dear 'duck'	noun	batuka	duck	diminutive	batuka+ci+ka
+ANI-041.cika	batukacika	duckling	noun	batuka	duck	diminutive	batuka+ci+ka
 ANI-041.goka	batukagoka	big 'duck'; great 'duck'	noun	batuka	duck	augmentative	batuka+go+ka
 ANI-041.deka	batukadeka	place of/for 'duck'	noun	batuka	duck	place	batuka+de+ka
 ANI-042.ka	ukabaka	eagle / hawk	noun	ukaba	eagle / hawk	noun	ukaba+ka
@@ -7082,7 +7076,7 @@ ACT-070.kideka	pondakideka	place of the one who 'wipe / clean off's	noun	ponda	w
 ACT-071.to	yengato	to 'build / construct'	verb	yenga	build / construct	verb	yenga+to
 ACT-071.ka	yengaka	act of 'build / construct'; a 'build / construct'	noun	yenga	build / construct	noun	yenga+ka
 ACT-071.pe	yengape	'build / construct'-ing	modifier	yenga	build / construct	modifier	yenga+pe
-ACT-071.kika	yengakika	one who 'build / construct's; 'build / construct'-er	noun	yenga	build / construct	agent	yenga+ki+ka
+ACT-071.kika	yengakika	builder	noun	yenga	build / construct	agent	yenga+ki+ka
 ACT-071.tuka	yengatuka	tool/means for 'build / construct'	noun	yenga	build / construct	instrument	yenga+tu+ka
 ACT-071.boka	yengaboka	thing 'build / construct'-ed; result of 'build / construct'	noun	yenga	build / construct	patient/result	yenga+bo+ka
 ACT-071.deka	yengadeka	place for 'build / construct'	noun	yenga	build / construct	place	yenga+de+ka
@@ -8882,7 +8876,6 @@ SOC-065.deka	lahadeka	place of/for 'mercy / clemency'	noun	laha	mercy / clemency
 SOC-066.ka	yutisiaka	justice	noun	yutisia	justice	noun	yutisia+ka
 SOC-066.pe	yutisiape	of/like 'justice'; 'justice'-related	modifier	yutisia	justice	modifier	yutisia+pe
 SOC-066.to	yutisiato	to use/apply 'justice'; to act as 'justice'	verb	yutisia	justice	verb	yutisia+to
-SOC-066.cika	yutisiacika	little 'justice'; small/dear 'justice'	noun	yutisia	justice	diminutive	yutisia+ci+ka
 SOC-066.goka	yutisiagoka	big 'justice'; great 'justice'	noun	yutisia	justice	augmentative	yutisia+go+ka
 SOC-066.deka	yutisiadeka	place of/for 'justice'	noun	yutisia	justice	place	yutisia+de+ka
 SOC-067.ka	cuneika	loyalty / fidelity	noun	cunei	loyalty / fidelity	noun	cunei+ka
@@ -10909,7 +10902,7 @@ ANI-064.deka	tawondeka	place of/for 'wasp'	noun	tawon	wasp	place	tawon+de+ka
 ANI-065.ka	kodoka	frog	noun	kodo	frog	noun	kodo+ka
 ANI-065.pe	kodope	of/like 'frog'; 'frog'-related	modifier	kodo	frog	modifier	kodo+pe
 ANI-065.to	kodoto	to use/apply 'frog'; to act as 'frog'	verb	kodo	frog	verb	kodo+to
-ANI-065.cika	kodocika	little 'frog'; small/dear 'frog'	noun	kodo	frog	diminutive	kodo+ci+ka
+ANI-065.cika	kodocika	tadpole	noun	kodo	frog	diminutive	kodo+ci+ka
 ANI-065.goka	kodogoka	big 'frog'; great 'frog'	noun	kodo	frog	augmentative	kodo+go+ka
 ANI-065.deka	kododeka	place of/for 'frog'	noun	kodo	frog	place	kodo+de+ka
 ANI-066.ka	kasaeka	turtle	noun	kasae	turtle	noun	kasae+ka
@@ -11345,7 +11338,7 @@ ACT-138.deka	pahaideka	place of/for 'chisel'	noun	pahai	chisel	place	pahai+de+ka
 ACT-139.to	ukito	to 'carve'	verb	uki	carve	verb	uki+to
 ACT-139.ka	ukika	act of 'carve'; a 'carve'	noun	uki	carve	noun	uki+ka
 ACT-139.pe	ukipe	'carve'-ing	modifier	uki	carve	modifier	uki+pe
-ACT-139.kika	ukikika	one who 'carve's; 'carve'-er	noun	uki	carve	agent	uki+ki+ka
+ACT-139.kika	ukikika	carver / sculptor	noun	uki	carve	agent	uki+ki+ka
 ACT-139.tuka	ukituka	tool/means for 'carve'	noun	uki	carve	instrument	uki+tu+ka
 ACT-139.boka	ukiboka	thing 'carve'-ed; result of 'carve'	noun	uki	carve	patient/result	uki+bo+ka
 ACT-139.deka	ukideka	place for 'carve'	noun	uki	carve	place	uki+de+ka
@@ -11813,7 +11806,7 @@ BOD-092.kideka	tanaekideka	place of the one who 'bury (the dead)'s	noun	tanae	bu
 ANI-069.ka	ayaeka	fowl / chicken	noun	ayae	fowl / chicken	noun	ayae+ka
 ANI-069.pe	ayaepe	of/like 'fowl / chicken'; 'fowl / chicken'-related	modifier	ayae	fowl / chicken	modifier	ayae+pe
 ANI-069.to	ayaeto	to use/apply 'fowl / chicken'; to act as 'fowl / chicken'	verb	ayae	fowl / chicken	verb	ayae+to
-ANI-069.cika	ayaecika	little 'fowl / chicken'; small/dear 'fowl / chicken'	noun	ayae	fowl / chicken	diminutive	ayae+ci+ka
+ANI-069.cika	ayaecika	chick	noun	ayae	fowl / chicken	diminutive	ayae+ci+ka
 ANI-069.goka	ayaegoka	big 'fowl / chicken'; great 'fowl / chicken'	noun	ayae	fowl / chicken	augmentative	ayae+go+ka
 ANI-069.deka	ayaedeka	place of/for 'fowl / chicken'	noun	ayae	fowl / chicken	place	ayae+de+ka
 ANI-070.pe	sanpe	of/like 'bull'; 'bull'-related	modifier	san	bull	modifier	san+pe
@@ -12130,7 +12123,7 @@ SOC-124.deka	uhuludeka	place of/for 'freedom / liberty'	noun	uhulu	freedom / lib
 SOC-125.to	sasanto	to 'govern / rule'	verb	sasan	govern / rule	verb	sasan+to
 SOC-125.ka	sasanka	act of 'govern / rule'; a 'govern / rule'	noun	sasan	govern / rule	noun	sasan+ka
 SOC-125.pe	sasanpe	'govern / rule'-ing	modifier	sasan	govern / rule	modifier	sasan+pe
-SOC-125.kika	sasankika	one who 'govern / rule's; 'govern / rule'-er	noun	sasan	govern / rule	agent	sasan+ki+ka
+SOC-125.kika	sasankika	ruler / governor	noun	sasan	govern / rule	agent	sasan+ki+ka
 SOC-125.tuka	sasantuka	tool/means for 'govern / rule'	noun	sasan	govern / rule	instrument	sasan+tu+ka
 SOC-125.boka	sasanboka	thing 'govern / rule'-ed; result of 'govern / rule'	noun	sasan	govern / rule	patient/result	sasan+bo+ka
 SOC-125.deka	sasandeka	place for 'govern / rule'	noun	sasan	govern / rule	place	sasan+de+ka
