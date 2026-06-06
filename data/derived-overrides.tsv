@@ -20,76 +20,429 @@
 #
 # This is an OPEN, growing curation surface — add a row to fix any definition.
 key	deriv	gloss
-
-# ---- young animals (diminutive of an animal) -------------------------------
-ANI-002	diminutive	puppy
-ANI-005	diminutive	kitten
-ANI-007	diminutive	calf
-ANI-006	diminutive	foal
-ANI-014	diminutive	piglet
-ANI-029	diminutive	lamb
-ANI-015	diminutive	kid (young goat)
-ANI-013	diminutive	chick
-ANI-069	diminutive	chick
-ANI-041	diminutive	duckling
-ANI-018	diminutive	lion cub
-ANI-021	diminutive	tiger cub
-ANI-023	diminutive	bear cub
-ANI-026	diminutive	fawn
-ANI-003	diminutive	fry (young fish)
-ANI-004	diminutive	nestling / chick
-ANI-019	diminutive	elephant calf
-ANI-031	diminutive	camel calf
-ANI-030	diminutive	foal (young donkey)
-ANI-016	diminutive	hatchling
-ANI-034	diminutive	hatchling
-ANI-036	diminutive	tadpole
-ANI-065	diminutive	tadpole
-
-# ---- people (diminutive of man / woman) ------------------------------------
-KIN-002	diminutive	boy
-KIN-003	diminutive	girl
-
-# ---- quality nouns (irregular nominalisations the -ness template misses) ----
+TIM-021	quality	earliness
+TIM-022	quality	lateness
+PROP-001	quality	size
+PROP-002	quality	smallness
 PROP-003	quality	length
+PROP-004	quality	shortness
 PROP-005	quality	width
+PROP-006	quality	narrowness
+PROP-007	quality	thickness
+PROP-008	quality	thinness
 PROP-009	quality	weight
+PROP-010	quality	lightness
 PROP-011	quality	heat
+PROP-012	quality	coldness
 PROP-013	quality	warmth
+PROP-014	quality	newness
+PROP-015	quality	age
+PROP-016	quality	youth
+PROP-017	quality	goodness
+PROP-018	quality	badness
+PROP-019	quality	fullness
+PROP-021	quality	dirtiness
+PROP-022	quality	cleanness
+PROP-023	quality	wetness
+PROP-024	quality	dryness
+PROP-025	quality	hardness
+PROP-026	quality	softness
+PROP-027	quality	sharpness
+PROP-029	quality	straightness
+PROP-030	quality	roundness
+PROP-031	quality	flatness
+PROP-032	quality	smoothness
 PROP-033	quality	depth
 PROP-034	quality	height
-PROP-040	quality	strength
-PROP-044	quality	truth
+PROP-035	quality	lowness / depth
+PROP-036	quality	farness
+PROP-037	quality	nearness
 PROP-038	quality	speed
-PROP-001	quality	size
-
-# ---- agent nouns (clean word, not "one who X-s") ---------------------------
-COG-005	agent	teacher
-COG-004	agent	student / learner
-SPE-017	agent	singer
-SPE-008	agent	writer / author
-SPE-007	agent	reader
-SOC-007	agent	leader
-ACT-071	agent	builder
-SOC-004	agent	fighter / warrior
+PROP-039	quality	slowness
+PROP-040	quality	strength
+PROP-041	quality	weakness
+PROP-042	quality	correctness
+PROP-043	quality	wrongness
+PROP-044	quality	truth
+PROP-045	quality	sameness
+PROP-046	quality	differentness
+PROP-047	quality	blackness
+PROP-048	quality	whiteness
+PROP-049	quality	redness
+PROP-050	quality	greenness
+PROP-051	quality	yellowness
+PROP-052	quality	blueness
+PROP-053	quality	life
+PROP-054	quality	death
+BOD-027	agent	sleeper
+BOD-027	place	bedroom
+BOD-028	place	dining hall
+BOD-028	causative	feed
+BOD-029	agent	drinker
+BOD-029	causative	give to drink
+BOD-030	agent	(suppress)
+BOD-030	causative	kill
+BOD-031	agent	(suppress)
 BOD-032	agent	healer / doctor
-ACT-033	agent	pilot / flyer
+BOD-032	place	hospital / clinic
+KIN-002	diminutive	boy
+KIN-003	diminutive	girl
+KIN-008	quality	maleness
+KIN-009	quality	femaleness
+ANI-002	diminutive	puppy
+ANI-003	diminutive	fry (young fish)
+ANI-004	diminutive	nestling / chick
+ANI-005	diminutive	kitten
+ANI-006	diminutive	foal
+ANI-007	diminutive	calf
+FOO-005	agent	cook
+FOO-005	place	kitchen
+FOO-005	patient/result	dish / cooked food
+FOO-006	quality	sweetness
+CLO-003	agent	wearer
+ACT-001	agent	maker / doer
+ACT-002	agent	(suppress)
+ACT-003	agent	(suppress)
+ACT-004	agent	walker
 ACT-005	agent	runner
+ACT-007	agent	sitter
+ACT-007	causative	seat
+ACT-008	agent	(suppress)
+ACT-009	agent	giver
+ACT-009	patient/result	gift
+ACT-011	agent	holder
+ACT-013	agent	carrier
+ACT-015	agent	thrower
+ACT-016	agent	(suppress)
+ACT-016	causative	drop / fell
+ACT-017	agent	turner
+ACT-018	agent	mover
+ACT-021	agent	breaker
+ACT-022	agent	cutter
+ACT-022	instrument	knife / cutter
+ACT-023	agent	hitter
+ACT-024	agent	pusher
+ACT-028	agent	(suppress)
+ACT-029	agent	digger
+ACT-029	instrument	spade / shovel
+ACT-031	agent	(suppress)
 ACT-032	agent	swimmer
-ACT-139	agent	carver / sculptor
-COG-026	agent	judge
+ACT-033	agent	pilot / flyer
 ACT-034	agent	worker
+ACT-034	place	workplace
 ACT-035	agent	player
-SPE-001	agent	speaker
+ACT-035	place	playground
+ACT-036	agent	user
 ACT-037	agent	helper
+ACT-038	agent	beginner
+ACT-042	agent	(suppress)
+MOT-003	agent	(suppress)
+MOT-004	agent	follower
+MOT-005	causative	raise / lift
+MOT-006	agent	sender
+SPA-012	quality	leftness
+SPA-013	quality	rightness
+PER-001	causative	show
+PER-004	agent	taster
+PER-006	agent	watcher / observer
+PER-007	agent	listener
+EMO-001	agent	lover
+EMO-003	agent	(suppress)
+EMO-005	quality	happiness
+EMO-006	quality	sadness
+EMO-007	quality	anger
+COG-001	agent	(suppress)
+COG-001	causative	inform / tell
+COG-002	agent	thinker
+COG-004	agent	learner / student
+COG-004	place	school
+COG-004	causative	teach
+COG-005	agent	teacher
+COG-006	causative	remind
+COG-008	agent	believer
+SPE-001	agent	speaker
+SPE-001	patient/result	statement
+SPE-005	agent	questioner
+SPE-005	patient/result	question
+SPE-006	patient/result	answer
+SPE-007	agent	reader
+SPE-007	place	library
+SPE-008	agent	writer / author
+SPE-008	instrument	pen
+SPE-008	patient/result	writing / document
+POS-001	agent	(suppress)
+POS-003	agent	buyer
+POS-003	place	market / shop
+POS-003	patient/result	purchase / goods
+POS-005	agent	payer
+POS-005	patient/result	payment
+SOC-004	agent	fighter / warrior
+SOC-004	place	battlefield
+SOC-007	agent	leader
+POS-006	agent	(suppress)
+EMO-014	quality	pride
+EMO-015	agent	hater
+EMO-016	quality	calmness
+EMO-017	quality	tiredness
+EMO-019	quality	braveness
+EMO-021	quality	loneliness
+COG-010	quality	wisdom
+COG-019	agent	(suppress)
+COG-020	agent	(suppress)
+SPE-014	patient/result	promise
+SPE-016	agent	caller
+SPE-017	agent	singer
+FOO-024	quality	hungriness
+FOO-025	quality	thirstiness
+FOO-026	quality	deliciousness
+FOO-027	quality	bitterness
+FOO-028	quality	sourness
+FOO-029	quality	freshness
+ANI-013	diminutive	chick
+ANI-014	diminutive	piglet
+ANI-015	diminutive	kid (young goat)
+ANI-016	diminutive	hatchling
+ANI-018	diminutive	lion cub
+ANI-019	diminutive	elephant calf
+CLO-013	agent	tailor / sewer
+AGR-017	agent	sower
+BOD-062	quality	pregnantness
+BOD-064	quality	baldness
+BOD-065	agent	(suppress)
+BOD-066	agent	(suppress)
+BOD-067	agent	(suppress)
+BOD-068	agent	(suppress)
+BOD-071	agent	(suppress)
+BOD-074	agent	(suppress)
+BOD-077	agent	(suppress)
+PER-016	quality	loudness
+PER-017	quality	silentness
+PER-021	agent	observer
+PER-025	quality	stickiness
+PER-026	quality	slipperiness
+MOT-008	agent	jumper
+MOT-009	agent	fugitive
+MOT-010	agent	pursuer
+MOT-013	agent	(suppress)
+MOT-015	agent	wanderer
+MOT-016	agent	(suppress)
+MOT-017	agent	spinner
+MOT-021	agent	gatherer
+MOT-027	agent	(suppress)
+MOT-031	agent	navigator
+MOT-033	agent	(suppress)
+MOD-047	quality	sickness
+MOD-051	agent	(suppress)
+MOD-054	quality	blindness
+MOD-055	quality	deafness
+MOD-061	quality	lameness
+MOD-075	quality	dizziness
+PROP-055	quality	importantness
+PROP-056	quality	necessariness
+PROP-057	quality	possibleness
+PROP-058	quality	usefulness
+PROP-059	quality	difficultness
+PROP-060	quality	simpleness
+PROP-061	quality	dangerousness
+PROP-062	quality	safeness
+PROP-063	quality	strangeness
+PROP-064	quality	commonness
+PROP-065	quality	normalness
+PROP-066	quality	realness
+PROP-067	quality	certainness
+PROP-068	quality	mainness
+PROP-069	quality	wholeness
+PROP-070	quality	doubleness
+PROP-071	quality	business
+PROP-072	quality	readiness
+PROP-073	quality	seriousness
+PROP-074	quality	clearness
+PROP-075	quality	secretness
+PROP-076	quality	publicness
+PROP-077	quality	generalness
+PROP-078	quality	specialness
+PROP-079	quality	basicness
+PROP-080	quality	totalness
+PROP-081	quality	extraness
+PROP-082	quality	ordinariness
+PROP-083	quality	similarness
+PROP-084	quality	oppositeness
+PROP-085	quality	equalness
+PROP-086	quality	fairness
+PROP-087	quality	honestness
+PROP-088	quality	rareness
+PROP-089	quality	modernness
+PROP-090	quality	ancientness
+PROP-091	quality	naturalness
+PROP-092	quality	uselessness
+PROP-093	quality	preciousness
+PROP-094	quality	famousness
+PROP-095	quality	completeness
+PROP-096	quality	sharp-wittedness
+PROP-097	quality	stupidness
+PROP-098	quality	briefness
+PROP-099	quality	main-realness
+PROP-100	quality	flexibleness
+PROP-101	quality	rigidness
+PROP-102	quality	steadiness
+PROP-103	quality	suddenness
+PROP-104	quality	gradualness
+COG-024	agent	planner
+COG-026	agent	judge
+COG-034	agent	examiner
+COG-038	agent	interpreter
+QTY-035	instrument	measure / gauge
+TIM-027	quality	presentness
+TIM-043	quality	recentliness
+TIM-044	quality	constantliness
+AGR-051	agent	ploughman
+ANI-021	diminutive	tiger cub
+ANI-023	diminutive	bear cub
+ANI-024	diminutive	wolf pup
+ANI-025	diminutive	fox kit
+ANI-026	diminutive	fawn
+ANI-027	diminutive	kit / young rabbit
+ANI-029	diminutive	lamb
+ANI-030	diminutive	foal (young donkey)
+ANI-031	diminutive	camel calf
+ANI-032	diminutive	buffalo calf
+ANI-034	diminutive	hatchling
+ANI-036	diminutive	tadpole
+ANI-041	diminutive	duckling
+ANI-042	diminutive	eaglet
+ANI-043	diminutive	owlet
+ANI-052	diminutive	caterpillar
+ANI-053	diminutive	spiderling
+ACT-057	agent	lifter
+ACT-059	agent	catcher
+ACT-068	agent	kicker
+ACT-069	agent	sweeper
+ACT-069	instrument	broom
+ACT-071	agent	builder
+ACT-071	patient/result	building
+ACT-073	agent	repairer / mechanic
+ACT-077	agent	searcher / seeker
+ACT-078	agent	finder
+ACT-080	agent	collector
+ACT-083	agent	arranger
+ACT-089	agent	waiter
+SOC-036	quality	wealth
+SOC-037	quality	poverty
+EMO-054	agent	sufferer
+EMO-055	quality	cheerfulness
+EMO-056	quality	gloominess
+EMO-057	quality	anxiousness
+EMO-058	quality	eagerness
+COG-071	agent	suspect
+COG-072	agent	analyst
+COG-074	quality	awareness
+COG-075	quality	rationalness
+SPE-043	agent	adviser / counsellor
+SPE-045	agent	complainer
+SPE-046	agent	joker
+SPE-052	agent	boaster
+SPE-053	agent	negotiator
+SPE-054	quality	fluentness
+SPE-055	quality	politeness
+POS-019	agent	owner
+POS-020	agent	lender
+POS-021	agent	borrower
+POS-022	agent	debtor
+POS-023	agent	spender
+POS-025	agent	earner
+POS-026	agent	(suppress)
+POS-027	agent	investor
+POS-028	quality	cheapness
+POS-029	quality	expensiveness
+POS-030	quality	freedom
+POS-031	quality	valuableness
+SOC-084	agent	competitor
+SOC-085	agent	(suppress)
+SOC-086	agent	rebel
+MOD-092	agent	broadcaster
+FOO-041	agent	baker
+FOO-041	place	bakery
+FOO-056	quality	ripeness
+FOO-057	quality	rawness
+FOO-058	quality	staleness
+FOO-059	quality	rottenness
+FOO-071	quality	spiciness
+FOO-072	quality	crunchiness
+FOO-073	quality	fattiness
+ACT-091	agent	servant
+ACT-093	agent	storekeeper
+ACT-094	agent	packer
+ACT-096	agent	decorator
+ACT-097	agent	polisher
+ACT-107	agent	printer
+ACT-109	agent	typist
+ACT-113	agent	installer
+ACT-114	agent	(suppress)
+ACT-120	agent	welder
+ACT-121	agent	driller
+ACT-122	agent	painter
+ACT-122	patient/result	painting
+MOT-052	agent	sailor
+ACT-127	agent	rescuer
+BOD-079	agent	(suppress)
+ACT-128	agent	(suppress)
+MOT-064	agent	(suppress)
+COG-076	agent	student / scholar
+COG-076	place	school
+ACT-130	agent	attacker
+SOC-096	quality	independentness
+COG-077	agent	(suppress)
+PROP-106	quality	foreignness
+ACT-133	agent	investigator
+BOD-080	agent	survivor
+PROP-107	quality	artificialness
+ANI-065	diminutive	tadpole
+SOC-108	agent	worshipper
+SOC-108	place	temple
+SOC-109	agent	worshipper
+SOC-109	place	temple / place of worship
+SOC-110	quality	sacredness
+PROP-108	quality	nakedness
+PROP-109	quality	muteness
+PROP-110	quality	laziness
+PROP-111	quality	saltiness
+PROP-112	quality	roughness
+PROP-113	quality	tallness
+PROP-114	quality	shallowness
+BOD-082	agent	(suppress)
+CLO-033	agent	weaver
+CLO-036	agent	dyer
+ACT-139	agent	carver / sculptor
+POS-033	quality	poverty
+POS-035	quality	stinginess
+SPA-046	quality	crookedness
+EMO-062	quality	jealousness
+EMO-064	quality	startledness
+SPE-060	quality	boastfulness
+BOD-088	agent	bather
+BOD-088	place	bathroom
+BOD-089	agent	(suppress)
+BOD-092	agent	undertaker
+BOD-092	place	cemetery
+ANI-069	diminutive	chick
+ANI-071	diminutive	gosling
+COG-079	agent	imitator
+COG-080	agent	(suppress)
+COG-081	quality	craziness
+COG-084	quality	wisdom
+COG-085	quality	foolishness
+COG-086	agent	betrayer / traitor
+COG-087	quality	cleverness
+EMO-065	quality	worriness
+EMO-066	quality	braveness
+EMO-067	quality	gratefulness
+EMO-069	quality	loyalness
 SOC-125	agent	ruler / governor
+SPE-063	agent	translator
+PROP-115	quality	clearness
+ANI-077	diminutive	kit / young rabbit
+BOD-093	quality	lameness
 
-# ---- suppress nonsensical derivations (examples; grow per definition) -------
-# A "small opinion" / "big idea-as-size" etc. is grammatical but not a real word.
-COG-041	diminutive	(suppress)
-COG-041	augmentative	(suppress)
-COG-009	diminutive	(suppress)
-SOC-014	diminutive	(suppress)
-SOC-066	diminutive	(suppress)
-SOC-015	diminutive	(suppress)
-SPE-011	diminutive	(suppress)
+# class suppressions (abstract diminutives — overridable per-root above)
+COG	diminutive	(suppress)
+EMO	diminutive	(suppress)

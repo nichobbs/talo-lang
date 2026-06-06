@@ -18,6 +18,10 @@ This file orients a Claude session quickly. For full status see `summary.md`.
     - `lexicon.tsv` — forms: `id gloss form source rationale notes`
     - `collision-blocklist.txt` — obscenity screen seed
     - `false-friends.tsv` — false-friend screen: `form lang meaning severity`
+    - `derived-overrides.tsv` — curated **real-word glosses + suppressions** over
+      the generated derivation layer: `key(root-id|domain) deriv-label gloss`
+      (empty/`(suppress)` = drop). The Talo forms stay rule-generated; only the
+      English gloss is hand-curated, per definition (dog+dim → "puppy")
   - `tools/phonotactic-linter/` — validates a word is legal Talo (R1–R6).
   - `tools/collision-checker/` — the second lexicon gate (depends on the linter).
   - `scripts/` — one-off minting/polish scripts (`*.mjs`).
@@ -77,6 +81,14 @@ Requires Node ≥ 22.6 (uses `--experimental-strip-types`, zero dependencies).
   (Indonesian/Malay, Swahili, Japanese; others where a toneless CV stays
   recognisable), **cap any one family ≤ ~25%**, Romance allowed but capped.
   Adapt to phonotactics: `r→l`, `j→y`, `v→w`, `z→s`, simplify clusters/codas.
+- **Defining new words includes their derivations.** Minting a root also creates
+  its generated derived forms (`scripts/derive-lexicon.mjs`), which gloss by a
+  blind template ("little 'X'", "one who 'X's"). As part of each mint batch,
+  curate the new roots' notable derived glosses in `data/derived-overrides.tsv` —
+  supply the **real word** where one exists (rabbit+dim → "kit", heal+place →
+  "hospital") and **suppress** derivations that don't lexicalise (diminutive of an
+  abstract). The reading-coverage program (`docs/0013`) is *not* done until the
+  new words are correctly defined, derivations included.
 
 ## Git / PR workflow
 
