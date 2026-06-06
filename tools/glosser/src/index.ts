@@ -130,6 +130,15 @@ export function glossToken(token: string, ctx: GlossContext): string {
   // 1. closed-class grammatical word.
   if (Object.prototype.hasOwnProperty.call(FUNCTION_GLOSS, low)) return FUNCTION_GLOSS[low];
 
+  // 1b. kept-verbatim acronym / initialism (hybrid proper-noun policy, 0014 §3):
+  //     an ALL-CAPS core (NASA, ISS, AI, PrK→PRK) is a proper noun kept as-is, not
+  //     a content root — strip a lower-case badge, keep the acronym, don't flag it.
+  const acro = token.replace(/(ka|to|pe)$/, "");
+  if (/^[A-Z][A-Z0-9]{1,}$/.test(acro)) {
+    const tag = badgeTag(low);
+    return tag ? `${acro}-${tag}` : acro;
+  }
+
   const a = analyze(low);
 
   // 2. content word: root gloss + category badge.
