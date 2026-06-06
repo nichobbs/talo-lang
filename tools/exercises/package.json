@@ -1,0 +1,21 @@
+{
+  "name": "talo-exercises",
+  "version": "0.1.0",
+  "description": "Graded Talo translation-exercise bank + grader (both directions, via the translator) + template generator for higher levels. Backs the web Practice tool.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "talo-exercises": "./src/cli.ts"
+  },
+  "scripts": {
+    "check": "node --experimental-strip-types src/cli.ts --check",
+    "build": "node --experimental-strip-types src/cli.ts --build",
+    "test": "node --experimental-strip-types --test test/exercises.test.ts"
+  },
+  "engines": {
+    "node": ">=22.6.0"
+  }
+}

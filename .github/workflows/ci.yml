@@ -156,6 +156,26 @@ jobs:
         working-directory: tools/translator
         run: npm test
 
+  # Translation exercises: the graded bank must parse (every Talo sentence, real
+  # roots) and the grader + generator suite must stay green. Zero dependencies.
+  exercises-tests:
+    name: Translation exercises
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Build the dictionary data
+        working-directory: dictionary
+        run: npm run build
+      - name: Run tests
+        working-directory: tools/exercises
+        run: npm test
+      - name: Validate the bank parses
+        working-directory: tools/exercises
+        run: npm run check
+
   # Coverage stats (docs/0003 §7b, 0006): its suite must stay green AND the data
   # must pass the cap gate — no donor family provably over ≤25%, every root
   # concept has a form. Zero dependencies.
@@ -303,13 +323,14 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "24"
-      - name: Regenerate derived layers + dictionary
+      - name: Regenerate derived layers + dictionary + exercise deck
         run: |
           node --experimental-strip-types scripts/derive-lexicon.mjs
           node --experimental-strip-types scripts/derive-compounds.mjs
           (cd dictionary && npm run build)
+          (cd tools/exercises && npm run build)
       - name: Fail if the committed artifacts drifted
-        run: git diff --exit-code -- data/derived-lexicon.tsv data/compounds.tsv dictionary/dist/dictionary.json
+        run: git diff --exit-code -- data/derived-lexicon.tsv data/compounds.tsv dictionary/dist/dictionary.json data/exercises.json
 
   # Auto-merge a PR once every build job above has passed, when EITHER
   #   (a) it comes from an assistant `claude/*` branch — the maintainer has
@@ -318,7 +339,7 @@ jobs:
   # Anything else (e.g. an external contributor's code PR) still waits for a human.
   auto-merge:
     name: Auto-merge green PRs
-    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, srs-tests, glosser-tests, translator-tests, coverage-tests, deprecation-tests, reading-coverage-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check, data-freshness]
+    needs: [test, collision-tests, morpho-tests, ipa-tests, derivation-tests, srs-tests, glosser-tests, translator-tests, exercises-tests, coverage-tests, deprecation-tests, reading-coverage-tests, parser-tests, book-check, corpus-check, dictionary-tests, site-check, data-freshness]
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.draft == false

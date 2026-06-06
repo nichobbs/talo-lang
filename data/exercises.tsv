@@ -1,0 +1,40 @@
+# Talo translation-exercise bank — a graded progression for the web "Practice"
+# tool (docs/0013 reading program). Hand-authored lower levels; the exercise
+# generator (tools/exercises) adds higher-level items from grammar templates.
+#
+# Every Talo sentence is gated through the parser (tools/exercises --check) and
+# every content root must be a real lexicon entry. The English is a natural
+# reference; grading normalises (articles/case/punctuation) and also accepts the
+# translator's rendering, so learners aren't punished for "a/the".
+#
+# Columns: id <TAB> level <TAB> skills <TAB> talo <TAB> english
+id	level	skills	talo	english
+EX-001	1	SVO	Gouka kanto nekoka.	The dog sees the cat.
+EX-002	1	SVO	Totoka makanto cakulaka.	The child eats food.
+EX-003	1	SVO	Adamika pinato panika.	The man drinks water.
+EX-004	1	SVO	Mi kanto gouka.	I see the dog.
+EX-005	1	SVO	Wanitaka bacato honka.	The woman reads a book.
+EX-006	2	aspect	Totoka makanto li.	The child ate.
+EX-007	2	aspect	Gouka hasiluto wi.	The dog is running.
+EX-008	2	aspect	Mi honka bacato li.	I read the book.
+EX-009	2	aspect	Ihaka datanto wi.	The doctor is coming.
+EX-010	2	aspect	Adamika tiduto li.	The man slept.
+EX-011	3	negation,plural	Mi ne tauto.	I do not know.
+EX-012	3	plural	Totoka pu makanto.	The children eat.
+EX-013	3	negation	Gouka ne kanto nekoka.	The dog does not see the cat.
+EX-014	3	plural	Hitoka pu mauto panika.	The people want water.
+EX-015	3	negation	Wanitaka ne pinato panika.	The woman does not drink water.
+EX-016	4	postposition	Totoka tiduto baitika lo.	The child sleeps in the house.
+EX-017	4	postposition,ditransitive	Mi donato honka totoka na.	I give the book to the child.
+EX-018	4	postposition	Adamika datanto baitika fe.	The man comes from the house.
+EX-019	4	postposition	Gouka makanto cakulaka baitika lo.	The dog eats food in the house.
+EX-020	5	modifier	Mi kanto gouka gandepe.	I see the big dog.
+EX-021	5	numeral	Totoka mauto honka nu.	The child wants two books.
+EX-022	5	modifier	Adamika gandepe hasiluto.	The big man runs.
+EX-023	5	demonstrative	Mi sukito gouka ini.	I love this dog.
+EX-024	5	numeral	Wanitaka kanto tolika mo.	The woman sees three birds.
+EX-025	6	question	Yu mauto seko ke.	What do you want?
+EX-026	6	conjunction	Mi kanto gouka i nekoka.	I see the dog and the cat.
+EX-027	6	conjunction	Totoka makanto i pinato.	The child eats and drinks.
+EX-028	6	question,correlative	Sela datanto ke.	Who comes?
+EX-029	6	question	Yu kanto gouka ke.	Do you see the dog?
