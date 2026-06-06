@@ -97,7 +97,7 @@ export const FUNCTION_WORDS = {
     "hi", "no",                   // yes / no answer
     "sana", "ti", "dake",         // very / also / only
     "tai",                        // too / excessively (0017) — degree adverb, postposed
-    "ma", "fi",                   // but / if
+    "ma", "fi", "andai",          // but / if / if-hypothetical (0018)
     "lagia", "mungi",             // again / maybe
     "sababu", "sehinga", "walau", // because / so / although
     "leo", "keso", "yana", "inino", "masi", // today/tomorrow/yesterday/now/still (time-words)
@@ -147,6 +147,26 @@ function functionRoleOf(token: string): string | null {
   return null;
 }
 
+/** Numeral morphemes, longest-first for greedy segmentation (0003 §5). */
+const NUMERAL_MORPHS = ["milion", "sebu", "samu", "diko", "pikae", "haba", "cewa", "huba", "le", "fu", "mo", "ki", "ta", "so"];
+
+/**
+ * True if a token is a FUSED compound numeral — segments wholly into ≥2 numeral
+ * morphemes (diko+le = 15, diko+ki = 12, haba+diko = 70). Single numerals are
+ * already in FUNCTION_WORDS.other, so this only catches the compounds.
+ */
+function isCompoundNumeral(t: string): boolean {
+  if (FUNCTION_WORDS.other.has(t)) return false;
+  let s = t, count = 0;
+  while (s.length) {
+    const m = NUMERAL_MORPHS.find((n) => s.startsWith(n));
+    if (!m) return false;
+    s = s.slice(m.length);
+    count++;
+  }
+  return count >= 2;
+}
+
 /**
  * Analyse one token into its morphological shape.
  *
@@ -171,6 +191,11 @@ export function analyze(token: string): WordAnalysis {
   if (role) return { ...base, kind: "function", functionRole: role };
 
   if (CORRELATIVES.has(t)) return { ...base, kind: "correlative" };
+
+  // Compound numeral: a bare token that segments entirely into ≥2 numeral
+  // morphemes is itself a numeral (diko+le = 15, diko+ki = 12, haba+diko = 70,
+  // ki+sebu = 2000). Lets percentages, years and ranges parse (0016/0018).
+  if (isCompoundNumeral(t)) return { ...base, kind: "function", functionRole: "number" };
 
   // Content word: must end in a two-letter badge.
   const badgeForm = t.slice(-2);
