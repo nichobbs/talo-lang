@@ -41,7 +41,7 @@ if (argv[0] === "--check") {
   }
   process.stdout.write(`✓ ${bank.length} exercises parse; all roots known\n`);
 } else if (argv[0] === "--build") {
-  const deck = buildDeck(bank, ctx);
+  const deck = buildDeck(bank, ctx, knownRoots);
   writeFileSync(OUT, JSON.stringify(deck, null, 2) + "\n");
   process.stdout.write(`✓ wrote ${OUT}: ${deck.length} exercises (${bank.length} authored + ${deck.length - bank.length} generated)\n`);
 } else if (argv[0] === "--gen") {
