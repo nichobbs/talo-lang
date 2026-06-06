@@ -166,6 +166,19 @@ test("accept + analyze: complementiser `ce` introduces an embedded clause (0012)
   assert.equal(validate("mi tauto ce te datanto li").ok, true);
 });
 
+test("accept: correlative-headed relative clauses (0015)", () => {
+  // subject relative: "the man who arrived"
+  assert.equal(validate("adamika sela datanto li").ok, true);
+  // object relative: "the book which I read"
+  assert.equal(validate("bukuka seko mi tauto li").ok, true);
+  // locative relative: "the house where they live"
+  assert.equal(validate("baitika selo te kunato").ok, true);
+  // embedded in a matrix clause: "the astronauts who arrived returned"
+  assert.equal(validate("antalahitoka pu sela sapaito li ludiato li").ok, true);
+  // reduced -pe participial relative: "the arrived man came"
+  assert.equal(validate("sapaipe adamika datanto li").ok, true);
+});
+
 // ---------- validator: lexicon-aware unknown-root warning ----------
 
 test("unknown-root warning fires only with a lexicon", () => {
