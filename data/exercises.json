@@ -6,7 +6,31 @@
       "SVO"
     ],
     "talo": "Gouka kanto nekoka.",
-    "english": "The dog sees the cat."
+    "english": "The dog sees the cat.",
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "nekoka.",
+        "gloss": "cat",
+        "pos": "noun",
+        "ipa": "/ˈne.ko.ka/"
+      }
+    ],
+    "accept": [
+      "dog sees cat",
+      "dog see cat"
+    ]
   },
   {
     "id": "EX-002",
@@ -15,7 +39,31 @@
       "SVO"
     ],
     "talo": "Totoka makanto cakulaka.",
-    "english": "The child eats food."
+    "english": "The child eats food.",
+    "tokens": [
+      {
+        "s": "Totoka",
+        "gloss": "child",
+        "pos": "noun",
+        "ipa": "/ˈto.to.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "cakulaka.",
+        "gloss": "food",
+        "pos": "noun",
+        "ipa": "/ˈtʃa.ku.la.ka/"
+      }
+    ],
+    "accept": [
+      "child eats food",
+      "child eat food"
+    ]
   },
   {
     "id": "EX-003",
@@ -24,7 +72,31 @@
       "SVO"
     ],
     "talo": "Adamika pinato panika.",
-    "english": "The man drinks water."
+    "english": "The man drinks water.",
+    "tokens": [
+      {
+        "s": "Adamika",
+        "gloss": "man",
+        "pos": "noun",
+        "ipa": "/ˈa.da.mi.ka/"
+      },
+      {
+        "s": "pinato",
+        "gloss": "drink",
+        "pos": "verb",
+        "ipa": "/ˈpi.na.to/"
+      },
+      {
+        "s": "panika.",
+        "gloss": "water",
+        "pos": "noun",
+        "ipa": "/ˈpa.ni.ka/"
+      }
+    ],
+    "accept": [
+      "man drinks water",
+      "man drink water"
+    ]
   },
   {
     "id": "EX-004",
@@ -33,7 +105,30 @@
       "SVO"
     ],
     "talo": "Mi kanto gouka.",
-    "english": "I see the dog."
+    "english": "I see the dog.",
+    "tokens": [
+      {
+        "s": "Mi",
+        "gloss": "I / me",
+        "pos": "particle",
+        "ipa": "/ˈmi/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "gouka.",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      }
+    ],
+    "accept": [
+      "i see dog"
+    ]
   },
   {
     "id": "EX-005",
@@ -42,7 +137,31 @@
       "SVO"
     ],
     "talo": "Wanitaka bacato honka.",
-    "english": "The woman reads a book."
+    "english": "The woman reads a book.",
+    "tokens": [
+      {
+        "s": "Wanitaka",
+        "gloss": "woman",
+        "pos": "noun",
+        "ipa": "/ˈwa.ni.ta.ka/"
+      },
+      {
+        "s": "bacato",
+        "gloss": "read",
+        "pos": "verb",
+        "ipa": "/ˈba.tʃa.to/"
+      },
+      {
+        "s": "honka.",
+        "gloss": "book",
+        "pos": "noun",
+        "ipa": "/ˈhoŋ.ka/"
+      }
+    ],
+    "accept": [
+      "woman reads book",
+      "woman read book"
+    ]
   },
   {
     "id": "EX-006",
@@ -51,7 +170,30 @@
       "aspect"
     ],
     "talo": "Totoka makanto li.",
-    "english": "The child ate."
+    "english": "The child ate.",
+    "tokens": [
+      {
+        "s": "Totoka",
+        "gloss": "child",
+        "pos": "noun",
+        "ipa": "/ˈto.to.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "li.",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      }
+    ],
+    "accept": [
+      "child ate"
+    ]
   },
   {
     "id": "EX-007",
@@ -60,7 +202,31 @@
       "aspect"
     ],
     "talo": "Gouka hasiluto wi.",
-    "english": "The dog is running."
+    "english": "The dog is running.",
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "hasiluto",
+        "gloss": "run",
+        "pos": "verb",
+        "ipa": "/ˈha.si.lu.to/"
+      },
+      {
+        "s": "wi.",
+        "gloss": "(ongoing)",
+        "pos": "particle",
+        "ipa": "/ˈwi/"
+      }
+    ],
+    "accept": [
+      "dog is running",
+      "dog is runing"
+    ]
   },
   {
     "id": "EX-008",
@@ -69,7 +235,36 @@
       "aspect"
     ],
     "talo": "Mi honka bacato li.",
-    "english": "I read the book."
+    "english": "I read the book.",
+    "tokens": [
+      {
+        "s": "Mi",
+        "gloss": "I / me",
+        "pos": "particle",
+        "ipa": "/ˈmi/"
+      },
+      {
+        "s": "honka",
+        "gloss": "book",
+        "pos": "noun",
+        "ipa": "/ˈhoŋ.ka/"
+      },
+      {
+        "s": "bacato",
+        "gloss": "read",
+        "pos": "verb",
+        "ipa": "/ˈba.tʃa.to/"
+      },
+      {
+        "s": "li.",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      }
+    ],
+    "accept": [
+      "i read book"
+    ]
   },
   {
     "id": "EX-009",
@@ -78,7 +273,30 @@
       "aspect"
     ],
     "talo": "Ihaka datanto wi.",
-    "english": "The doctor is coming."
+    "english": "The doctor is coming.",
+    "tokens": [
+      {
+        "s": "Ihaka",
+        "gloss": "doctor",
+        "pos": "noun",
+        "ipa": "/ˈi.ha.ka/"
+      },
+      {
+        "s": "datanto",
+        "gloss": "come",
+        "pos": "verb",
+        "ipa": "/ˈda.tan.to/"
+      },
+      {
+        "s": "wi.",
+        "gloss": "(ongoing)",
+        "pos": "particle",
+        "ipa": "/ˈwi/"
+      }
+    ],
+    "accept": [
+      "doctor is coming"
+    ]
   },
   {
     "id": "EX-010",
@@ -87,7 +305,31 @@
       "aspect"
     ],
     "talo": "Adamika tiduto li.",
-    "english": "The man slept."
+    "english": "The man slept.",
+    "tokens": [
+      {
+        "s": "Adamika",
+        "gloss": "man",
+        "pos": "noun",
+        "ipa": "/ˈa.da.mi.ka/"
+      },
+      {
+        "s": "tiduto",
+        "gloss": "sleep",
+        "pos": "verb",
+        "ipa": "/ˈti.du.to/"
+      },
+      {
+        "s": "li.",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      }
+    ],
+    "accept": [
+      "man slept",
+      "man sleeped"
+    ]
   },
   {
     "id": "EX-011",
@@ -97,7 +339,30 @@
       "plural"
     ],
     "talo": "Mi ne tauto.",
-    "english": "I do not know."
+    "english": "I do not know.",
+    "tokens": [
+      {
+        "s": "Mi",
+        "gloss": "I / me",
+        "pos": "particle",
+        "ipa": "/ˈmi/"
+      },
+      {
+        "s": "ne",
+        "gloss": "not",
+        "pos": "particle",
+        "ipa": "/ˈne/"
+      },
+      {
+        "s": "tauto.",
+        "gloss": "know",
+        "pos": "verb",
+        "ipa": "/ˈta.u.to/"
+      }
+    ],
+    "accept": [
+      "i do not know"
+    ]
   },
   {
     "id": "EX-012",
@@ -106,7 +371,31 @@
       "plural"
     ],
     "talo": "Totoka pu makanto.",
-    "english": "The children eat."
+    "english": "The children eat.",
+    "tokens": [
+      {
+        "s": "Totoka",
+        "gloss": "child",
+        "pos": "noun",
+        "ipa": "/ˈto.to.ka/"
+      },
+      {
+        "s": "pu",
+        "gloss": "(plural)",
+        "pos": "particle",
+        "ipa": "/ˈpu/"
+      },
+      {
+        "s": "makanto.",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      }
+    ],
+    "accept": [
+      "children eat",
+      "childs eat"
+    ]
   },
   {
     "id": "EX-013",
@@ -115,7 +404,37 @@
       "negation"
     ],
     "talo": "Gouka ne kanto nekoka.",
-    "english": "The dog does not see the cat."
+    "english": "The dog does not see the cat.",
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "ne",
+        "gloss": "not",
+        "pos": "particle",
+        "ipa": "/ˈne/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "nekoka.",
+        "gloss": "cat",
+        "pos": "noun",
+        "ipa": "/ˈne.ko.ka/"
+      }
+    ],
+    "accept": [
+      "dog does not see cat",
+      "dog do not see cat"
+    ]
   },
   {
     "id": "EX-014",
@@ -124,7 +443,37 @@
       "plural"
     ],
     "talo": "Hitoka pu mauto panika.",
-    "english": "The people want water."
+    "english": "The people want water.",
+    "tokens": [
+      {
+        "s": "Hitoka",
+        "gloss": "person",
+        "pos": "noun",
+        "ipa": "/ˈhi.to.ka/"
+      },
+      {
+        "s": "pu",
+        "gloss": "(plural)",
+        "pos": "particle",
+        "ipa": "/ˈpu/"
+      },
+      {
+        "s": "mauto",
+        "gloss": "want",
+        "pos": "verb",
+        "ipa": "/ˈma.u.to/"
+      },
+      {
+        "s": "panika.",
+        "gloss": "water",
+        "pos": "noun",
+        "ipa": "/ˈpa.ni.ka/"
+      }
+    ],
+    "accept": [
+      "people want water",
+      "persons want water"
+    ]
   },
   {
     "id": "EX-015",
@@ -133,7 +482,37 @@
       "negation"
     ],
     "talo": "Wanitaka ne pinato panika.",
-    "english": "The woman does not drink water."
+    "english": "The woman does not drink water.",
+    "tokens": [
+      {
+        "s": "Wanitaka",
+        "gloss": "woman",
+        "pos": "noun",
+        "ipa": "/ˈwa.ni.ta.ka/"
+      },
+      {
+        "s": "ne",
+        "gloss": "not",
+        "pos": "particle",
+        "ipa": "/ˈne/"
+      },
+      {
+        "s": "pinato",
+        "gloss": "drink",
+        "pos": "verb",
+        "ipa": "/ˈpi.na.to/"
+      },
+      {
+        "s": "panika.",
+        "gloss": "water",
+        "pos": "noun",
+        "ipa": "/ˈpa.ni.ka/"
+      }
+    ],
+    "accept": [
+      "woman does not drink water",
+      "woman do not drink water"
+    ]
   },
   {
     "id": "EX-016",
@@ -142,7 +521,37 @@
       "postposition"
     ],
     "talo": "Totoka tiduto baitika lo.",
-    "english": "The child sleeps in the house."
+    "english": "The child sleeps in the house.",
+    "tokens": [
+      {
+        "s": "Totoka",
+        "gloss": "child",
+        "pos": "noun",
+        "ipa": "/ˈto.to.ka/"
+      },
+      {
+        "s": "tiduto",
+        "gloss": "sleep",
+        "pos": "verb",
+        "ipa": "/ˈti.du.to/"
+      },
+      {
+        "s": "baitika",
+        "gloss": "house",
+        "pos": "noun",
+        "ipa": "/ˈba.i.ti.ka/"
+      },
+      {
+        "s": "lo.",
+        "gloss": "at / in",
+        "pos": "particle",
+        "ipa": "/ˈlo/"
+      }
+    ],
+    "accept": [
+      "child sleeps in house",
+      "child sleep in house"
+    ]
   },
   {
     "id": "EX-017",
@@ -152,7 +561,42 @@
       "ditransitive"
     ],
     "talo": "Mi donato honka totoka na.",
-    "english": "I give the book to the child."
+    "english": "I give the book to the child.",
+    "tokens": [
+      {
+        "s": "Mi",
+        "gloss": "I / me",
+        "pos": "particle",
+        "ipa": "/ˈmi/"
+      },
+      {
+        "s": "donato",
+        "gloss": "give",
+        "pos": "verb",
+        "ipa": "/ˈdo.na.to/"
+      },
+      {
+        "s": "honka",
+        "gloss": "book",
+        "pos": "noun",
+        "ipa": "/ˈhoŋ.ka/"
+      },
+      {
+        "s": "totoka",
+        "gloss": "child",
+        "pos": "noun",
+        "ipa": "/ˈto.to.ka/"
+      },
+      {
+        "s": "na.",
+        "gloss": "to (recipient)",
+        "pos": "particle",
+        "ipa": "/ˈna/"
+      }
+    ],
+    "accept": [
+      "i give book to child"
+    ]
   },
   {
     "id": "EX-018",
@@ -161,7 +605,37 @@
       "postposition"
     ],
     "talo": "Adamika datanto baitika fe.",
-    "english": "The man comes from the house."
+    "english": "The man comes from the house.",
+    "tokens": [
+      {
+        "s": "Adamika",
+        "gloss": "man",
+        "pos": "noun",
+        "ipa": "/ˈa.da.mi.ka/"
+      },
+      {
+        "s": "datanto",
+        "gloss": "come",
+        "pos": "verb",
+        "ipa": "/ˈda.tan.to/"
+      },
+      {
+        "s": "baitika",
+        "gloss": "house",
+        "pos": "noun",
+        "ipa": "/ˈba.i.ti.ka/"
+      },
+      {
+        "s": "fe.",
+        "gloss": "from",
+        "pos": "particle",
+        "ipa": "/ˈfe/"
+      }
+    ],
+    "accept": [
+      "man comes from house",
+      "man come from house"
+    ]
   },
   {
     "id": "EX-019",
@@ -170,7 +644,43 @@
       "postposition"
     ],
     "talo": "Gouka makanto cakulaka baitika lo.",
-    "english": "The dog eats food in the house."
+    "english": "The dog eats food in the house.",
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "cakulaka",
+        "gloss": "food",
+        "pos": "noun",
+        "ipa": "/ˈtʃa.ku.la.ka/"
+      },
+      {
+        "s": "baitika",
+        "gloss": "house",
+        "pos": "noun",
+        "ipa": "/ˈba.i.ti.ka/"
+      },
+      {
+        "s": "lo.",
+        "gloss": "at / in",
+        "pos": "particle",
+        "ipa": "/ˈlo/"
+      }
+    ],
+    "accept": [
+      "dog eats food in house",
+      "dog eat food in house"
+    ]
   },
   {
     "id": "EX-020",
@@ -179,7 +689,36 @@
       "modifier"
     ],
     "talo": "Mi kanto gouka gandepe.",
-    "english": "I see the big dog."
+    "english": "I see the big dog.",
+    "tokens": [
+      {
+        "s": "Mi",
+        "gloss": "I / me",
+        "pos": "particle",
+        "ipa": "/ˈmi/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "gandepe.",
+        "gloss": "big",
+        "pos": "modifier",
+        "ipa": "/ˈgan.de.pe/"
+      }
+    ],
+    "accept": [
+      "i see big dog"
+    ]
   },
   {
     "id": "EX-021",
@@ -188,7 +727,37 @@
       "numeral"
     ],
     "talo": "Totoka mauto honka nu.",
-    "english": "The child wants two books."
+    "english": "The child wants two books.",
+    "tokens": [
+      {
+        "s": "Totoka",
+        "gloss": "child",
+        "pos": "noun",
+        "ipa": "/ˈto.to.ka/"
+      },
+      {
+        "s": "mauto",
+        "gloss": "want",
+        "pos": "verb",
+        "ipa": "/ˈma.u.to/"
+      },
+      {
+        "s": "honka",
+        "gloss": "book",
+        "pos": "noun",
+        "ipa": "/ˈhoŋ.ka/"
+      },
+      {
+        "s": "nu.",
+        "gloss": "two",
+        "pos": "number",
+        "ipa": "/ˈnu/"
+      }
+    ],
+    "accept": [
+      "child wants two books",
+      "child want 2 books"
+    ]
   },
   {
     "id": "EX-022",
@@ -197,7 +766,31 @@
       "modifier"
     ],
     "talo": "Adamika gandepe hasiluto.",
-    "english": "The big man runs."
+    "english": "The big man runs.",
+    "tokens": [
+      {
+        "s": "Adamika",
+        "gloss": "man",
+        "pos": "noun",
+        "ipa": "/ˈa.da.mi.ka/"
+      },
+      {
+        "s": "gandepe",
+        "gloss": "big",
+        "pos": "modifier",
+        "ipa": "/ˈgan.de.pe/"
+      },
+      {
+        "s": "hasiluto.",
+        "gloss": "run",
+        "pos": "verb",
+        "ipa": "/ˈha.si.lu.to/"
+      }
+    ],
+    "accept": [
+      "big man runs",
+      "big man run"
+    ]
   },
   {
     "id": "EX-023",
@@ -206,7 +799,36 @@
       "demonstrative"
     ],
     "talo": "Mi sukito gouka ini.",
-    "english": "I love this dog."
+    "english": "I love this dog.",
+    "tokens": [
+      {
+        "s": "Mi",
+        "gloss": "I / me",
+        "pos": "particle",
+        "ipa": "/ˈmi/"
+      },
+      {
+        "s": "sukito",
+        "gloss": "love",
+        "pos": "verb",
+        "ipa": "/ˈsu.ki.to/"
+      },
+      {
+        "s": "gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "ini.",
+        "gloss": "this",
+        "pos": "particle",
+        "ipa": "/ˈi.ni/"
+      }
+    ],
+    "accept": [
+      "i love this dog"
+    ]
   },
   {
     "id": "EX-024",
@@ -215,7 +837,37 @@
       "numeral"
     ],
     "talo": "Wanitaka kanto tolika mo.",
-    "english": "The woman sees three birds."
+    "english": "The woman sees three birds.",
+    "tokens": [
+      {
+        "s": "Wanitaka",
+        "gloss": "woman",
+        "pos": "noun",
+        "ipa": "/ˈwa.ni.ta.ka/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "tolika",
+        "gloss": "bird",
+        "pos": "noun",
+        "ipa": "/ˈto.li.ka/"
+      },
+      {
+        "s": "mo.",
+        "gloss": "three",
+        "pos": "number",
+        "ipa": "/ˈmo/"
+      }
+    ],
+    "accept": [
+      "woman sees three birds",
+      "woman see 3 birds"
+    ]
   },
   {
     "id": "EX-025",
@@ -224,7 +876,37 @@
       "question"
     ],
     "talo": "Yu mauto seko ke.",
-    "english": "What do you want?"
+    "english": "What do you want?",
+    "tokens": [
+      {
+        "s": "Yu",
+        "gloss": "you",
+        "pos": "particle",
+        "ipa": "/ˈju/"
+      },
+      {
+        "s": "mauto",
+        "gloss": "want",
+        "pos": "verb",
+        "ipa": "/ˈma.u.to/"
+      },
+      {
+        "s": "seko",
+        "gloss": "what",
+        "pos": "particle",
+        "ipa": "/ˈse.ko/"
+      },
+      {
+        "s": "ke.",
+        "gloss": "(question)",
+        "pos": "particle",
+        "ipa": "/ˈke/"
+      }
+    ],
+    "accept": [
+      "what do you want",
+      "you want what"
+    ]
   },
   {
     "id": "EX-026",
@@ -233,7 +915,42 @@
       "conjunction"
     ],
     "talo": "Mi kanto gouka i nekoka.",
-    "english": "I see the dog and the cat."
+    "english": "I see the dog and the cat.",
+    "tokens": [
+      {
+        "s": "Mi",
+        "gloss": "I / me",
+        "pos": "particle",
+        "ipa": "/ˈmi/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "i",
+        "gloss": "and",
+        "pos": "particle",
+        "ipa": "/ˈi/"
+      },
+      {
+        "s": "nekoka.",
+        "gloss": "cat",
+        "pos": "noun",
+        "ipa": "/ˈne.ko.ka/"
+      }
+    ],
+    "accept": [
+      "i see dog and cat"
+    ]
   },
   {
     "id": "EX-027",
@@ -242,7 +959,37 @@
       "conjunction"
     ],
     "talo": "Totoka makanto i pinato.",
-    "english": "The child eats and drinks."
+    "english": "The child eats and drinks.",
+    "tokens": [
+      {
+        "s": "Totoka",
+        "gloss": "child",
+        "pos": "noun",
+        "ipa": "/ˈto.to.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "i",
+        "gloss": "and",
+        "pos": "particle",
+        "ipa": "/ˈi/"
+      },
+      {
+        "s": "pinato.",
+        "gloss": "drink",
+        "pos": "verb",
+        "ipa": "/ˈpi.na.to/"
+      }
+    ],
+    "accept": [
+      "child eats and drinks",
+      "child eat and to drink"
+    ]
   },
   {
     "id": "EX-028",
@@ -252,7 +999,31 @@
       "correlative"
     ],
     "talo": "Sela datanto ke.",
-    "english": "Who comes?"
+    "english": "Who comes?",
+    "tokens": [
+      {
+        "s": "Sela",
+        "gloss": "who",
+        "pos": "particle",
+        "ipa": "/ˈse.la/"
+      },
+      {
+        "s": "datanto",
+        "gloss": "come",
+        "pos": "verb",
+        "ipa": "/ˈda.tan.to/"
+      },
+      {
+        "s": "ke.",
+        "gloss": "(question)",
+        "pos": "particle",
+        "ipa": "/ˈke/"
+      }
+    ],
+    "accept": [
+      "who comes",
+      "who come"
+    ]
   },
   {
     "id": "EX-029",
@@ -261,7 +1032,37 @@
       "question"
     ],
     "talo": "Yu kanto gouka ke.",
-    "english": "Do you see the dog?"
+    "english": "Do you see the dog?",
+    "tokens": [
+      {
+        "s": "Yu",
+        "gloss": "you",
+        "pos": "particle",
+        "ipa": "/ˈju/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "ke.",
+        "gloss": "(question)",
+        "pos": "particle",
+        "ipa": "/ˈke/"
+      }
+    ],
+    "accept": [
+      "do you see dog",
+      "you see dog"
+    ]
   },
   {
     "id": "GEN-7-001",
@@ -271,7 +1072,30 @@
     ],
     "talo": "Gouka kanto panika.",
     "english": "Dog see water.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "panika.",
+        "gloss": "water",
+        "pos": "noun",
+        "ipa": "/ˈpa.ni.ka/"
+      }
+    ],
+    "accept": [
+      "dog see water"
+    ]
   },
   {
     "id": "GEN-7-002",
@@ -281,7 +1105,30 @@
     ],
     "talo": "Gouka kanto cakulaka.",
     "english": "Dog see food.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "cakulaka.",
+        "gloss": "food",
+        "pos": "noun",
+        "ipa": "/ˈtʃa.ku.la.ka/"
+      }
+    ],
+    "accept": [
+      "dog see food"
+    ]
   },
   {
     "id": "GEN-7-003",
@@ -291,7 +1138,30 @@
     ],
     "talo": "Gouka kanto honka.",
     "english": "Dog see book.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "honka.",
+        "gloss": "book",
+        "pos": "noun",
+        "ipa": "/ˈhoŋ.ka/"
+      }
+    ],
+    "accept": [
+      "dog see book"
+    ]
   },
   {
     "id": "GEN-7-004",
@@ -301,7 +1171,30 @@
     ],
     "talo": "Gouka kanto nekoka.",
     "english": "Dog see cat.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "nekoka.",
+        "gloss": "cat",
+        "pos": "noun",
+        "ipa": "/ˈne.ko.ka/"
+      }
+    ],
+    "accept": [
+      "dog see cat"
+    ]
   },
   {
     "id": "GEN-7-005",
@@ -311,7 +1204,30 @@
     ],
     "talo": "Gouka makanto panika.",
     "english": "Dog eat water.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "panika.",
+        "gloss": "water",
+        "pos": "noun",
+        "ipa": "/ˈpa.ni.ka/"
+      }
+    ],
+    "accept": [
+      "dog eat water"
+    ]
   },
   {
     "id": "GEN-7-006",
@@ -321,7 +1237,30 @@
     ],
     "talo": "Gouka makanto cakulaka.",
     "english": "Dog eat food.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "cakulaka.",
+        "gloss": "food",
+        "pos": "noun",
+        "ipa": "/ˈtʃa.ku.la.ka/"
+      }
+    ],
+    "accept": [
+      "dog eat food"
+    ]
   },
   {
     "id": "GEN-7-007",
@@ -331,7 +1270,30 @@
     ],
     "talo": "Gouka makanto honka.",
     "english": "Dog eat book.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "honka.",
+        "gloss": "book",
+        "pos": "noun",
+        "ipa": "/ˈhoŋ.ka/"
+      }
+    ],
+    "accept": [
+      "dog eat book"
+    ]
   },
   {
     "id": "GEN-7-008",
@@ -341,7 +1303,30 @@
     ],
     "talo": "Gouka makanto nekoka.",
     "english": "Dog eat cat.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "nekoka.",
+        "gloss": "cat",
+        "pos": "noun",
+        "ipa": "/ˈne.ko.ka/"
+      }
+    ],
+    "accept": [
+      "dog eat cat"
+    ]
   },
   {
     "id": "GEN-8-001",
@@ -352,7 +1337,36 @@
     ],
     "talo": "Gouka kanto li panika.",
     "english": "Dog saw water.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "li",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      },
+      {
+        "s": "panika.",
+        "gloss": "water",
+        "pos": "noun",
+        "ipa": "/ˈpa.ni.ka/"
+      }
+    ],
+    "accept": [
+      "dog saw water"
+    ]
   },
   {
     "id": "GEN-8-002",
@@ -363,7 +1377,36 @@
     ],
     "talo": "Gouka kanto li cakulaka.",
     "english": "Dog saw food.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "li",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      },
+      {
+        "s": "cakulaka.",
+        "gloss": "food",
+        "pos": "noun",
+        "ipa": "/ˈtʃa.ku.la.ka/"
+      }
+    ],
+    "accept": [
+      "dog saw food"
+    ]
   },
   {
     "id": "GEN-8-003",
@@ -374,7 +1417,36 @@
     ],
     "talo": "Gouka kanto li honka.",
     "english": "Dog saw book.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "li",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      },
+      {
+        "s": "honka.",
+        "gloss": "book",
+        "pos": "noun",
+        "ipa": "/ˈhoŋ.ka/"
+      }
+    ],
+    "accept": [
+      "dog saw book"
+    ]
   },
   {
     "id": "GEN-8-004",
@@ -385,7 +1457,36 @@
     ],
     "talo": "Gouka kanto li nekoka.",
     "english": "Dog saw cat.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "kanto",
+        "gloss": "see",
+        "pos": "verb",
+        "ipa": "/ˈkan.to/"
+      },
+      {
+        "s": "li",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      },
+      {
+        "s": "nekoka.",
+        "gloss": "cat",
+        "pos": "noun",
+        "ipa": "/ˈne.ko.ka/"
+      }
+    ],
+    "accept": [
+      "dog saw cat"
+    ]
   },
   {
     "id": "GEN-8-005",
@@ -396,7 +1497,36 @@
     ],
     "talo": "Gouka makanto li panika.",
     "english": "Dog ate water.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "li",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      },
+      {
+        "s": "panika.",
+        "gloss": "water",
+        "pos": "noun",
+        "ipa": "/ˈpa.ni.ka/"
+      }
+    ],
+    "accept": [
+      "dog ate water"
+    ]
   },
   {
     "id": "GEN-8-006",
@@ -407,7 +1537,36 @@
     ],
     "talo": "Gouka makanto li cakulaka.",
     "english": "Dog ate food.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "li",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      },
+      {
+        "s": "cakulaka.",
+        "gloss": "food",
+        "pos": "noun",
+        "ipa": "/ˈtʃa.ku.la.ka/"
+      }
+    ],
+    "accept": [
+      "dog ate food"
+    ]
   },
   {
     "id": "GEN-8-007",
@@ -418,7 +1577,36 @@
     ],
     "talo": "Gouka makanto li honka.",
     "english": "Dog ate book.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "li",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      },
+      {
+        "s": "honka.",
+        "gloss": "book",
+        "pos": "noun",
+        "ipa": "/ˈhoŋ.ka/"
+      }
+    ],
+    "accept": [
+      "dog ate book"
+    ]
   },
   {
     "id": "GEN-8-008",
@@ -429,6 +1617,35 @@
     ],
     "talo": "Gouka makanto li nekoka.",
     "english": "Dog ate cat.",
-    "generated": true
+    "generated": true,
+    "tokens": [
+      {
+        "s": "Gouka",
+        "gloss": "dog",
+        "pos": "noun",
+        "ipa": "/ˈgo.u.ka/"
+      },
+      {
+        "s": "makanto",
+        "gloss": "eat",
+        "pos": "verb",
+        "ipa": "/ˈma.kan.to/"
+      },
+      {
+        "s": "li",
+        "gloss": "(completed / past)",
+        "pos": "particle",
+        "ipa": "/ˈli/"
+      },
+      {
+        "s": "nekoka.",
+        "gloss": "cat",
+        "pos": "noun",
+        "ipa": "/ˈne.ko.ka/"
+      }
+    ],
+    "accept": [
+      "dog ate cat"
+    ]
   }
 ]
