@@ -51,6 +51,9 @@ const PLACE = {learn:"school",cook:"kitchen",sleep:"bedroom",bathe:"bathroom",pr
 const INSTRUMENT = {cut:"knife / cutter",sweep:"broom",write:"pen",dig:"spade / shovel",measure:"measure / gauge",weigh:"scales"};
 const CAUSATIVE = {fall:"drop / fell",rise:"raise / lift",sit:"seat",eat:"feed",see:"show",know:"inform / tell",remember:"remind",learn:"teach",die:"kill",wake:"wake / rouse",drink:"give to drink",lie:"lay"};
 const RESULT = {build:"building",write:"writing / document",give:"gift",ask:"question",cook:"dish / cooked food",buy:"purchase / goods",draw:"drawing",paint:"painting",say:"statement",answer:"answer",pay:"payment",promise:"promise"};
+// verb → its real nominalisation (the plain noun-badge slot), where a distinct
+// English word exists rather than the template "act of X".
+const NOUN = {fly:"flight", decide:"decision", fail:"failure"};
 const DIM_SUPPRESS_DOMAINS = new Set(["COG","EMO"]);
 
 function quality(k){
@@ -71,6 +74,7 @@ for (const r of roots){
     if (INSTRUMENT[k]) push(r.id,"instrument",INSTRUMENT[k]);
     if (CAUSATIVE[k]) push(r.id,"causative",CAUSATIVE[k]);
     if (RESULT[k]) push(r.id,"patient/result",RESULT[k]);
+    if (NOUN[k]) push(r.id,"noun",NOUN[k]);
   }
 }
 const classSup = [...DIM_SUPPRESS_DOMAINS].map(d=>`${d}\tdiminutive\t(suppress)`);

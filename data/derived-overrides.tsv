@@ -128,6 +128,7 @@ ACT-029	instrument	spade / shovel
 ACT-031	agent	(suppress)
 ACT-032	agent	swimmer
 ACT-033	agent	pilot / flyer
+ACT-033	noun	flight
 ACT-034	agent	worker
 ACT-034	place	workplace
 ACT-035	agent	player
@@ -187,6 +188,7 @@ EMO-017	quality	tiredness
 EMO-019	quality	braveness
 EMO-021	quality	loneliness
 COG-010	quality	wisdom
+COG-012	noun	decision
 COG-019	agent	(suppress)
 COG-020	agent	(suppress)
 SPE-014	patient/result	promise
@@ -446,6 +448,7 @@ MOT-071	place	launchpad
 ACT-144	agent	protector
 ACT-144	place	shelter / refuge
 ACT-145	agent	controller / manager
+ACT-148	noun	failure
 
 # class suppressions (abstract diminutives — overridable per-root above)
 COG	diminutive	(suppress)
