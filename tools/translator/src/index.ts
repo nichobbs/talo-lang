@@ -285,6 +285,17 @@ function unitize(tokens: string[], ctx: GlossContext): Unit[] {
       continue;
     }
 
+    // predicate / stray content modifier (e.g. after the copula `yato`): realise
+    // as an adjective, pulling a following degree word in front ("very hot").
+    if (a.category === "modifier") {
+      let w = contentEnglish(low, ctx);
+      i += 1;
+      const nxt = tokens[i] ? tokens[i].toLowerCase() : "";
+      if (nxt === "sana" || nxt === "tai" || nxt === "lebi") { w = `${FW[nxt]} ${w}`; i += 1; }
+      units.push({ t: "conn", word: w });
+      continue;
+    }
+
     // standalone function word / connective / time-word
     if (FW[low]) { units.push({ t: "conn", word: FW[low] }); i += 1; continue; }
 

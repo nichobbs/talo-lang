@@ -38,6 +38,11 @@ test("negation and copula", () => {
   assert.equal(tr("mausaka yato gandepe").startsWith("Weather is "), true); // copula yato → is
 });
 
+test("predicate adjective after the copula (degree word fronted)", () => {
+  assert.equal(tr("mausaka yato panape sana leo"), "Weather is very hot today.");
+  assert.equal(tr("taioka yato gandepe"), "Sun is big.");
+});
+
 test("numerals: multi-token place groups", () => {
   assert.equal(tr("kelopoka okoato hitoka nu diko"), "Group rescue 20 persons."); // nu diko = 20
   assert.equal(tr("taunka nu sebu nu diko le"), "2025 years.");                   // 2000+20+5
