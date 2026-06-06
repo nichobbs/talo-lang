@@ -166,6 +166,13 @@ test("accept + analyze: complementiser `ce` introduces an embedded clause (0012)
   assert.equal(validate("mi tauto ce te datanto li").ok, true);
 });
 
+test("accept: excessive degree `tai` and the 'too X to Y' construction (0017)", () => {
+  assert.equal(analyze("tai").functionRole, "other");          // degree adverb, postposed
+  assert.equal(validate("sistemka gantipe tai").ok, true);     // "the system is too hard"
+  // "too X to Y" = X tai + result clause
+  assert.equal(validate("sistemka gantipe tai, sehinga maniaka ne bekito kanto te").ok, true);
+});
+
 test("accept: correlative-headed relative clauses (0015)", () => {
   // subject relative: "the man who arrived"
   assert.equal(validate("adamika sela datanto li").ok, true);
