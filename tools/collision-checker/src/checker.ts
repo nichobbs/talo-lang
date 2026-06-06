@@ -57,6 +57,9 @@ export const RESERVED_FORMS: ReadonlySet<string> = new Set([
   "kai", "bagi",
   // complementiser / quotative (0012): introduces an embedded/reported clause
   "ce",
+  // passive/voice particle (0014): patient-subject + `kena` + verb, agent via `wa`
+  // (transfer: Malay/Indonesian adversative passive "kena").
+  "kena",
 ]);
 
 /** A false-friend entry: `form` is a common word meaning something else in `lang`. */

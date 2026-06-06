@@ -50,6 +50,8 @@ export const FUNCTION_GLOSS: Readonly<Record<string, string>> = {
   kai: "TIMES", bagi: "FRACTION",
   // question (§6.4), coordinators (§6.5), complementiser (0012), copula (§6.3)
   ke: "Q", i: "and", o: "or", ce: "that", ya: "COP",
+  // voice particle (0014): passive
+  kena: "PASS",
 };
 
 /** The badge a content token wears → its interlinear category tag. */

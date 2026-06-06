@@ -75,6 +75,9 @@ export const FUNCTION_WORDS = {
    *  clause as a complement (0012). Transfer: a "say"-type quotative, like
    *  Japanese `to`, Hindi `ki`, many West-African languages. */
   complementizer: new Set(["ce"]),
+  /** voice particle `kena` (0014) — marks the passive: patient-subject + `kena` +
+   *  verb, agent optional with `wa`. Transfer: Malay/Indonesian passive "kena". */
+  voice: new Set(["kena"]),
   /**
    * Other closed-class words that are lexicon entries but take no badge:
    * demonstratives, numerals, quantifiers (the postposed determiner class of
@@ -136,6 +139,7 @@ function functionRoleOf(token: string): string | null {
   if (FUNCTION_WORDS.question.has(token)) return "question";
   if (FUNCTION_WORDS.conjunction.has(token)) return "conjunction";
   if (FUNCTION_WORDS.complementizer.has(token)) return "complementizer";
+  if (FUNCTION_WORDS.voice.has(token)) return "voice";
   if (FUNCTION_WORDS.other.has(token)) return "other";
   return null;
 }
