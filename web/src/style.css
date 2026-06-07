@@ -144,3 +144,19 @@ a.flink:hover{text-decoration:underline}
 @media(max-width:520px){
   .pop{position:fixed;left:.5rem!important;right:.5rem;top:auto!important;bottom:.5rem;max-width:none}
 }
+
+/* reader: extra controls (polish) */
+.reader-toggles{display:flex;gap:1.4rem;margin:-0.8rem 0 1.4rem;color:var(--mut);font-size:.9rem;flex-wrap:wrap}
+.reader-toggles label{display:flex;gap:.4rem;align-items:center}
+.rbtn{font:inherit;font-size:.85rem;padding:.45rem .75rem;border:2px solid var(--line);border-radius:8px;background:var(--card);color:var(--accent);cursor:pointer;font-weight:600}
+.rbtn:hover{border-color:var(--accent)}
+.readcount{color:var(--mut);font-size:.85rem;font-variant-numeric:tabular-nums;margin-left:auto;white-space:nowrap}
+/* inline ruby word-glosses: hidden until "Word glosses" is on */
+.clause ruby rt{display:none}
+body.gloss-on .clause ruby rt{display:revert;font-size:.6em;color:var(--mut);font-weight:400;line-height:1}
+body.gloss-on .clause .talo{line-height:2.7}
+/* attested examples inside the pop-up */
+.pop-row.ex ul{margin:.2rem 0 0;padding:0;list-style:none}
+.pop-row.ex li{margin:.35rem 0;font-size:.85rem;line-height:1.4}
+.pop-row.ex .ex-t{color:var(--accent);display:block}
+.pop-row.ex .ex-e{color:var(--mut);display:block}

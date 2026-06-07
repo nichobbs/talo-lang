@@ -15,13 +15,18 @@
 <main class="reader">
   <h1>Read</h1>
   <p class="lede">Real Talo texts across many registers. <strong>Tap any word</strong> for its dictionary
-    entry and word-family; <strong>tap a line</strong> to reveal the English translation.</p>
+    entry, word-family and examples; <strong>tap a line</strong> to reveal the English.</p>
 
   <div class="reader-bar">
     <label class="pick">Text
       <select id="article" title="choose a text"></select>
     </label>
-    <label class="revealall"><input type="checkbox" id="revealAll"> Show all translations</label>
+    <button id="randomBtn" class="rbtn" type="button" title="jump to a random text">Random ↻</button>
+    <span id="readcount" class="readcount"></span>
+  </div>
+  <div class="reader-toggles">
+    <label><input type="checkbox" id="glossToggle"> Word glosses</label>
+    <label><input type="checkbox" id="revealAll"> All translations</label>
   </div>
 
   <article>
@@ -30,8 +35,9 @@
     <div id="body" class="article-body" aria-live="polite"></div>
   </article>
 
-  <p class="reader-tip">Tip: a faint underline marks a word you can tap. The pop-up links through to the
-    word's root and the rest of its family — tap those to keep exploring, or open the full entry in the dictionary.</p>
+  <p class="reader-tip">A faint underline marks a tappable word. The pop-up links to the word's root and
+    family — keep tapping to explore, or open the full entry in the dictionary. Texts you've opened are
+    ticked ✓; your progress is kept in this browser only.</p>
 </main>
 
 <div id="pop" class="pop" hidden role="dialog" aria-label="word entry"></div>
