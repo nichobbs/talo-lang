@@ -1760,3 +1760,7 @@ AGR-067	pollen	AGR	3	n	yes		IDS	expository batch (0024)
 BOD-098	wake / wake up	BOD	2	v	yes		IDS	narrative batch (0027)
 COG-093	forget	COG	2	v	yes		IDS	narrative batch (0027); opposite of inga
 ACT-155	hunt	ACT	2	v	yes		IDS	fable batch (0030); hunter = winda+ki
+SOC-131	team	SOC	2	n	yes		IDS	sport domain (0031)
+ACT-156	win / be victorious	ACT	2	v	yes		IDS	sport domain (0031); lose = +opposite (sindaku)
+SOC-132	goal / point (score)	SOC	3	n	yes		IDS	sport domain (0031)
+TIM-051	last / final / the end	TIM	2	mod	yes		MOD	sport domain (0031)
