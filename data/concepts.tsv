@@ -1748,3 +1748,7 @@ POS-044	won (currency)	POS	3	n	yes		MOD	currency (0020)
 POS-045	peso (currency)	POS	3	n	yes		MOD	currency (0020)
 POS-046	lira (currency)	POS	3	n	yes		MOD	currency (0020)
 POS-047	ruble (currency)	POS	3	n	yes		MOD	currency (0020)
+SOC-130	marry / wed	SOC	2	v	yes		IDS	fiction batch (0017 corpus); marriage = +result
+KIN-053	spouse / partner	KIN	2	n	yes		IDS	fiction batch; wife = pasanga wanitape, husband = pasanga adamipe
+ACT-154	meet / encounter	ACT	2	v	yes		IDS	fiction batch
+PROP-118	beautiful / handsome	PROP	2	mod	yes		MOD	fiction batch

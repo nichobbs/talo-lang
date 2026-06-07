@@ -1725,3 +1725,7 @@ POS-044	won (currency)	won	INTL	Korean 'won'	internationalism
 POS-045	peso (currency)	peso	INTL	Spanish 'peso'	internationalism
 POS-046	lira (currency)	lila	INTL	'lira' (r→l)	internationalism
 POS-047	ruble (currency)	lubeli	INTL	'ruble/rubel' (r→l, legal coda)	internationalism
+SOC-130	marry / wed	kawini	INTL	Malay/Indonesian 'kawin' "marry"	Austronesian
+KIN-053	spouse / partner	pasanga	INTL	Malay 'pasangan' "partner/spouse"	Austronesian
+ACT-154	meet / encounter	temu	INTL	Malay 'temu / bertemu' "meet"	Austronesian
+PROP-118	beautiful / handsome	cantika	INTL	Malay 'cantik' "beautiful"	Austronesian
