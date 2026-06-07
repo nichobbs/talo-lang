@@ -97,6 +97,9 @@ export const FUNCTION_WORDS = {
     "hi", "no",                   // yes / no answer
     "ahoi", "cao", "doso", "tanku", "oke", "kalibu", // phatic interjections (0005 §5)
     "sana", "ti", "dake",         // very / also / only
+    "selin", "kadan",             // often / sometimes — frequency adverbs (lexicon FUN words)
+    "ata", "sita", "lua",         // up·above / down·below / outside — spatial FUN words (cf. naka)
+    "dole",                       // which (relative/determiner) — lexicon FUN word
     "tai",                        // too / excessively (0017) — degree adverb, postposed
     "ma", "fi", "andai",          // but / if / if-hypothetical (0018)
     "hata",                       // until — temporal subordinator (procedural register)
