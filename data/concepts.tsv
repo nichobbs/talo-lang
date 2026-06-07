@@ -1765,3 +1765,4 @@ ACT-156	win / be victorious	ACT	2	v	yes		IDS	sport domain (0031); lose = +opposi
 SOC-132	goal / point (score)	SOC	3	n	yes		IDS	sport domain (0031)
 TIM-051	last / final / the end	TIM	2	mod	yes		MOD	sport domain (0031)
 COG-094	meaning / significance	COG	2	n	yes		IDS	philosophy domain (0033)
+ACT-157	steal	ACT	2	v	yes		IDS	law domain (0034); theft=ibaboka, thief=ibakika
