@@ -46,6 +46,31 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
 
+/* --------------------------------------------------------------- audio (TTS) */
+// Talo is phonemic, 5-vowel, with c=/tʃ/ and y=/j/ — Indonesian orthography reads
+// it almost correctly, so we drive the browser's speech engine in Indonesian
+// (falling back through other 5-vowel languages, then the default voice).
+const SPEAK_OK = typeof window !== "undefined" && "speechSynthesis" in window;
+let VOICE = null;
+function pickVoice() {
+  if (!SPEAK_OK) return;
+  const vs = speechSynthesis.getVoices();
+  for (const pref of ["id", "ms", "it", "es", "sw"]) {
+    const v = vs.find((x) => (x.lang || "").toLowerCase().startsWith(pref));
+    if (v) { VOICE = v; return; }
+  }
+}
+function speak(text) {
+  if (!SPEAK_OK || !text) return;
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = (VOICE && VOICE.lang) || "id-ID";
+  if (VOICE) u.voice = VOICE;
+  u.rate = 0.92;
+  speechSynthesis.cancel();
+  speechSynthesis.speak(u);
+}
+const sayBtn = (text) => (SPEAK_OK ? `<button class="say" data-say="${escapeHtml(text)}" title="play aloud" aria-label="play aloud">🔊</button>` : "");
+
 function buildIndices() {
   for (const e of ENTRIES) if (!BY_FORM.has(e.form)) BY_FORM.set(e.form, e);
   const add = (root, e) => { (FAMILY.get(root) || FAMILY.set(root, []).get(root)).push(e); };
@@ -101,7 +126,7 @@ function renderArticle(a) {
   els.body.innerHTML = a.clauses
     .map((c) => {
       const words = c.talo.split(/(\s+)/).map((t) => (/\s/.test(t) ? t : wordSpan(t))).join("");
-      return `<div class="clause"><p class="talo">${words}</p><p class="en" hidden>${escapeHtml(c.en)}</p></div>`;
+      return `<div class="clause"><p class="talo">${sayBtn(c.talo)}${words}</p><p class="en" hidden>${escapeHtml(c.en)}</p></div>`;
     })
     .join("");
 }
@@ -157,7 +182,7 @@ function popHtml(k) {
       ? `<div class="pop-gloss">${escapeHtml(fn)}</div><div class="pop-build">grammatical word — takes no badge</div>`
       : `<div class="pop-gloss">no dictionary entry</div><div class="pop-build">a name, or a fused numeral — see the line's translation</div>`;
     return `<div class="pop-card"><button class="pop-x" aria-label="close">×</button>
-      <div class="pop-head"><span class="form">${escapeHtml(k)}</span></div>${body}</div>`;
+      <div class="pop-head"><span class="form">${escapeHtml(k)}</span>${sayBtn(k)}</div>${body}</div>`;
   }
   let build = "";
   if (e.kind === "derived" || e.kind === "compound") {
@@ -169,7 +194,7 @@ function popHtml(k) {
   }
   const ipa = e.ipa ? `<span class="ipa">${escapeHtml(e.ipa)}</span>` : "";
   return `<div class="pop-card"><button class="pop-x" aria-label="close">×</button>
-    <div class="pop-head"><span class="form">${escapeHtml(e.form)}</span>${ipa}</div>
+    <div class="pop-head"><span class="form">${escapeHtml(e.form)}</span>${ipa}${sayBtn(e.form)}</div>
     <div class="pop-gloss">${escapeHtml(e.gloss)}</div>
     ${build}
     ${relatedLinks(e)}
@@ -194,6 +219,8 @@ function hidePop() { els.pop.hidden = true; els.pop.innerHTML = ""; }
 
 let lastAnchor = null;
 document.addEventListener("click", (ev) => {
+  const sb = ev.target.closest(".say");
+  if (sb) { ev.preventDefault(); ev.stopPropagation(); speak(sb.dataset.say); return; }
   const w = ev.target.closest(".w");
   if (w) { lastAnchor = w; showPop(w.dataset.k, w); ev.stopPropagation(); return; }
   const fl = ev.target.closest(".flink");
@@ -217,6 +244,7 @@ async function init() {
     return;
   }
   buildIndices();
+  if (SPEAK_OK) { pickVoice(); speechSynthesis.addEventListener("voiceschanged", pickVoice); }
   renderArticleList();
   els.article.addEventListener("change", () => selectArticle(els.article.value));
   els.randomBtn.addEventListener("click", () => {
