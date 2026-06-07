@@ -1753,3 +1753,4 @@ KIN-053	spouse / partner	KIN	2	n	yes		IDS	fiction batch; wife = pasanga wanitape
 ACT-154	meet / encounter	ACT	2	v	yes		IDS	fiction batch
 PROP-118	beautiful / handsome	PROP	2	mod	yes		MOD	fiction batch
 AGR-066	pear	AGR	3	n	yes		IDS	everyday/dialogue batch
+FUN-032	until	FUN	1	fun	yes		FUN	temporal subordinator (procedural register); "pika hata te pika li"

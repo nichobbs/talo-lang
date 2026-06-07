@@ -99,6 +99,7 @@ export const FUNCTION_WORDS = {
     "sana", "ti", "dake",         // very / also / only
     "tai",                        // too / excessively (0017) — degree adverb, postposed
     "ma", "fi", "andai",          // but / if / if-hypothetical (0018)
+    "hata",                       // until — temporal subordinator (procedural register)
     "tanpa",                        // without — caritive postposition (0020)
     "lagia", "mungi",             // again / maybe
     "sababu", "sehinga", "walau", // because / so / although
