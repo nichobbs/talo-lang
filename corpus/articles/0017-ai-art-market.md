@@ -121,12 +121,12 @@ i senideka pu ne tauto ce hitoka o kikaika tendato senika ke   › and galleries
 ini badilito nedanka tendakika nayape pu fe, i ancamato kasika pu › This affects prices for emerging artists and threatens careers.
 # gloss: this change-V price-N artist-N new-MOD PL of, and threaten-V work-N PL
 
-# --- the gallery curator (sewa "the way that"; ponka "£"; bafu "why") ---
+# --- the gallery curator (sewa "the way that"; ponka "£"; sefu "why") ---
 hitoka senideka fe semato                                      › A gallery curator said:
 # gloss: person-N gallery-N of say-V
 mi pu kanto kotaiaka gandepe sewa hitoka waloleto senika       › "We are witnessing a fundamental shift in how art is valued.
 # gloss: we PL see-V shift-N big-MOD the-way person-N value-V art-N
-fi hitoka tendato picaka haope le diko ponka, bafu belikika belito senika tendakika fe le sebu ponka ke › If a good picture can be made for £50, why would a collector pay £5,000 for an unknown artist's work?"
+fi hitoka tendato picaka haope le diko ponka, sefu belikika belito senika tendakika fe le sebu ponka ke › If a good picture can be made for £50, why would a collector pay £5,000 for an unknown artist's work?"
 # gloss: if person-N make-V picture-N good-MOD 50 £-N, why buyer-N buy-V art-N artist-N of 5000 £-N Q
 
 # --- the technology accelerates (tanpa "without"; pasento "per cent") ---

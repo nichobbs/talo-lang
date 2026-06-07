@@ -140,7 +140,7 @@ ma mi ne mauto kawinito te wa                                   › But I have n
 # gloss: but I NEG want-V marry-V him with
 
 # --- the mother on money (ponka "£"; lasima "ought / must") ---
-mamaka malape semato: bafu mauka dake                          › Her mother cried angrily: "What has wish to do with anything?
+mamaka malape semato: sefu mauka dake                          › Her mother cried angrily: "What has wish to do with anything?
 # gloss: mother-N angry-MOD say-V: why want-N only
 te motuto tocika gandepe, baitika naka kotaka, i fa sebu ponka kila taunka › He has an estate, a townhouse, and eight thousand pounds a year.
 # gloss: he have-V land-N big-MOD, house-N in city-N, and 8 1000 £-N every year-N
@@ -234,7 +234,7 @@ mamaka, sa te tauto, yato sedipe sana                          › Her mother, o
 # gloss: mother-N, when she know-V, COP sad-MOD very
 adamika nayape motuto uanka pikope, i te mauto hiduto naka tocika te, ne naka kotaka › Fairfax had little money, and meant to stay on his estate, not in town.
 # gloss: man-N new-MOD have-V money-N small-MOD, and he want-V live-V in land-N his, NEG in city-N
-mamaka tayaeto: bafu yu bekito kawinito adamika malika tanpa ke › "How can you marry a man of such limited prospects?" she demanded.
+mamaka tayaeto: sefu yu bekito kawinito adamika malika tanpa ke › "How can you marry a man of such limited prospects?" she demanded.
 # gloss: mother-N ask-V: why you can marry-V man-N without wealth-N Q
 
 # --- Catherine's answer (akali "mind"; pakai "use") ---
@@ -256,7 +256,7 @@ te tegemeato mae ce toto te keso pilito haope, i te sukito piliboka te › He ha
 # gloss: he expect-V before that child his later choose-V good-MOD, and he like-V choice-N her
 
 # --- Mr Harrington baffled (macigai "mistake"; sala "wrong") ---
-adamika tayilipe, sa te tauto, ne bekito tauto bafu           › Mr Harrington, when he heard, could not understand why.
+adamika tayilipe, sa te tauto, ne bekito tauto sefu           › Mr Harrington, when he heard, could not understand why.
 # gloss: man-N rich-MOD, when he know-V, NEG can know-V why
 tomoka semato: mungi te dake ne mauto kawinito yu wa          › "Perhaps," his friend suggested, "she simply did not wish to marry you."
 # gloss: friend-N say-V: maybe she only NEG want-V marry-V you with
