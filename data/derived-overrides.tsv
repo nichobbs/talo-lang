@@ -469,6 +469,7 @@ SOC-130	patient/result	marriage
 ACT-154	patient/result	meeting
 PROP-118	quality	beautifulness
 BOD-098	causative	wake / rouse
+ACT-155	agent	hunter
 
 # class suppressions (abstract diminutives — overridable per-root above)
 COG	diminutive	(suppress)
