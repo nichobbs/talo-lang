@@ -39,6 +39,29 @@ function skeleton(form) {
   return out;
 }
 
+/* Audio: speak a Talo form. Talo is phonemic/5-vowel with c=/tʃ/, y=/j/, so an
+ * Indonesian voice reads it almost correctly (fallback: other 5-vowel langs). */
+const SPEAK_OK = typeof window !== "undefined" && "speechSynthesis" in window;
+let VOICE = null;
+function pickVoice() {
+  if (!SPEAK_OK) return;
+  const vs = speechSynthesis.getVoices();
+  for (const pref of ["id", "ms", "it", "es", "sw"]) {
+    const v = vs.find((x) => (x.lang || "").toLowerCase().startsWith(pref));
+    if (v) { VOICE = v; return; }
+  }
+}
+function speak(text) {
+  if (!SPEAK_OK || !text) return;
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = (VOICE && VOICE.lang) || "id-ID";
+  if (VOICE) u.voice = VOICE;
+  u.rate = 0.92;
+  speechSynthesis.cancel();
+  speechSynthesis.speak(u);
+}
+const sayBtn = (t) => (SPEAK_OK ? `<button class="say" data-say="${escapeHtml(t)}" title="play aloud" aria-label="play aloud">🔊</button>` : "");
+
 const BADGE_TAG = { ka: "N", to: "V", pe: "MOD" };
 const isContentRoot = (e) => !!e && e.kind === "root" && ["n", "v", "mod"].includes(e.pos);
 
@@ -145,7 +168,7 @@ function render(list) {
       }
       const ipa = e.ipa ? `<span class="ipa">${escapeHtml(e.ipa)}</span>` : "";
       return `<li class="entry ${escapeHtml(e.kind || "root")}">
-        <div class="head"><span class="form">${escapeHtml(e.form)}</span>${ipa}
+        <div class="head"><span class="form">${escapeHtml(e.form)}</span>${sayBtn(e.form)}${ipa}
           <span class="gloss">${escapeHtml(e.gloss)}</span></div>
         <div class="meta"><span class="domain">${escapeHtml(e.domainName)}</span> ${tier}${deriv}</div>
         ${chips ? `<div class="chips">${chips}</div>` : ""}
@@ -279,7 +302,10 @@ async function init() {
     el.addEventListener("input", update);
   }
   // delegated: clicking a cross-reference re-runs the search on that form.
+  if (SPEAK_OK) { pickVoice(); speechSynthesis.addEventListener("voiceschanged", pickVoice); }
   els.results.addEventListener("click", (ev) => {
+    const sb = ev.target.closest(".say");
+    if (sb) { ev.preventDefault(); speak(sb.dataset.say); return; }
     const a = ev.target.closest(".flink");
     if (!a) return;
     ev.preventDefault();

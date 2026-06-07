@@ -160,3 +160,10 @@ body.gloss-on .clause .talo{line-height:2.7}
 .pop-row.ex li{margin:.35rem 0;font-size:.85rem;line-height:1.4}
 .pop-row.ex .ex-t{color:var(--accent);display:block}
 .pop-row.ex .ex-e{color:var(--mut);display:block}
+
+/* audio play buttons (reader clauses, pop-up, dictionary entries) */
+.say{font:inherit;border:0;background:none;cursor:pointer;padding:0 .2em;font-size:.85em;line-height:1;opacity:.5;vertical-align:baseline}
+.say:hover,.say:focus{opacity:1;outline:none}
+.clause .talo .say{margin-right:.3em}
+.pop-head .say{margin-left:.15em}
+.entry .head .say{font-size:.8em}
