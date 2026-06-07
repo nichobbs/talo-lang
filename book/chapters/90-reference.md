@@ -23,13 +23,13 @@ compound:  describing-root + main-root + ONE badge
 |---|---|
 | pronouns | `mi` I · `yu` you · `te` he/she/it/they (plural with `pu`) |
 | be | `yato` X is Y / X is (quality) · `kunato` there is / is located |
-| role markers (after noun) | `na` to · `lo` at · `su` toward · `fe` from · `wa` with · `we` of |
+| role markers (after noun) | `na` to · `lo` at · `su` toward · `fe` from · `wa` with · `we` of · `tanpa` without |
 | aspect (after verb) | `li` done · `wi` ongoing |
 | number | `pu` plural · numbers after the noun |
 | negation | `ne` before what it negates |
 | questions | `ke` (yes/no, at end) · question words in place |
-| joining | `i` and · `o` or · `ma` but · `fi` if · `toki` then |
-| reporting | `ce` "that" (puts a clause inside another: `mi tauto ce …`) |
+| joining | `i` and · `o` or · `ma` but · `fi` if · `andai` if (unreal) · `toki` then |
+| reporting | `ce` "that" (clause inside another: `mi tauto ce …`) · `ce … ke` whether |
 | helping verbs (before the verb) | `lasima` must · `beki` should · `bisa` can |
 | self / each other | `sendi` -self · `salin` each other |
 | politeness | `ahoi` hi · `cao` bye · `doso` please · `tanku` thanks · `pole` sorry · `oke` okay |
@@ -50,11 +50,15 @@ compound:  describing-root + main-root + ONE badge
 ```
 comparison:   X … lebi  Y fe       more X than Y     (lebi … fe; "than" = fe "from")
               X … lebi  ote fe      the most          ("more than all")
+similar:      X sadisape / samape  like / same as     (Nekoka yato sadisape kanuka wa)
+as / manner:  sewa + clause        as / the way that  (Te tendato sewa mi semato)
 describing:   noun + VERB-pe        the noun that V-s (kanuka hasilupe = "running dog")
+relative:     head + seko/sela …   the X which/who …  (honka seko mi bacato li)
               two clauses + te      the noun (that) I V-ed   (Mi kanto X. Te …)
 ordinal:      number + -pe          first, second …   (honka mope = "third book")
 times:        number + kai          twice, 3 times    (nu kai = "twice")
 fraction:     number bagi number    a ÷ b             (ta bagi mo = "one third")
+degree:       mod + sana/tai/dake   very / too / only  (osoipe tai = "too slow")
 ```
 
 ## The correlatives grid
@@ -67,3 +71,7 @@ times endings `-la` person · `-ko` thing · `-lo` place · `-no` time · `-fu` 
 
 `so` 0 · `ta` 1 · `nu` 2 · `mo` 3 · `hu` 4 · `le` 5 · `co` 6 · `ki` 7 ·
 `fa` 8 · `po` 9 · `diko` 10 · `samu` 100. (Onset = Major-System mnemonic digit; 0019.)
+
+**Money:** amount + currency word — `le diko ponka` = £50. (`pon` £ · `dolan` $ · `eulo` €.)
+**Range:** noun + low `su` high — `dinka mo su le` = "3 to 5 days".
+**Dates:** weekday/month = number + `din`/`lun` + `ka` (`nudinka` Mon · `colunka` Jun); day `dinka N`; year `taunka N`; order year → month → day.
