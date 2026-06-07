@@ -470,6 +470,7 @@ ACT-154	patient/result	meeting
 PROP-118	quality	beautifulness
 BOD-098	causative	wake / rouse
 ACT-155	agent	hunter
+TIM-051	quality	lastness
 
 # class suppressions (abstract diminutives — overridable per-root above)
 COG	diminutive	(suppress)

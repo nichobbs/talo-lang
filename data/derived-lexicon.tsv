@@ -12589,3 +12589,37 @@ ACT-155.pito	windapito	to begin to 'hunt'	verb	winda	hunt	inchoative	winda+pi+to
 ACT-155.takika	windatakika	one who makes/causes 'hunt'; instigator of 'hunt'	noun	winda	hunt	causative-agent	winda+ta+ki+ka
 ACT-155.taboka	windataboka	what is brought about by 'hunt'	noun	winda	hunt	causative-result	winda+ta+bo+ka
 ACT-155.kideka	windakideka	place of the one who 'hunt's	noun	winda	hunt	agent-place	winda+ki+de+ka
+SOC-131.ka	timuka	team	noun	timu	team	noun	timu+ka
+SOC-131.pe	timupe	of/like 'team'; 'team'-related	modifier	timu	team	modifier	timu+pe
+SOC-131.to	timuto	to use/apply 'team'; to act as 'team'	verb	timu	team	verb	timu+to
+SOC-131.cika	timucika	little 'team'; small/dear 'team'	noun	timu	team	diminutive	timu+ci+ka
+SOC-131.goka	timugoka	big 'team'; great 'team'	noun	timu	team	augmentative	timu+go+ka
+SOC-131.deka	timudeka	place of/for 'team'	noun	timu	team	place	timu+de+ka
+ACT-156.to	sindato	to 'win / be victorious'	verb	sinda	win / be victorious	verb	sinda+to
+ACT-156.ka	sindaka	act of 'win / be victorious'; a 'win / be victorious'	noun	sinda	win / be victorious	noun	sinda+ka
+ACT-156.pe	sindape	'win / be victorious'-ing	modifier	sinda	win / be victorious	modifier	sinda+pe
+ACT-156.kika	sindakika	one who 'win / be victorious's; 'win / be victorious'-er	noun	sinda	win / be victorious	agent	sinda+ki+ka
+ACT-156.tuka	sindatuka	tool/means for 'win / be victorious'	noun	sinda	win / be victorious	instrument	sinda+tu+ka
+ACT-156.boka	sindaboka	thing 'win / be victorious'-ed; result of 'win / be victorious'	noun	sinda	win / be victorious	patient/result	sinda+bo+ka
+ACT-156.deka	sindadeka	place for 'win / be victorious'	noun	sinda	win / be victorious	place	sinda+de+ka
+ACT-156.tato	sindatato	to make/cause to 'win / be victorious'	verb	sinda	win / be victorious	causative	sinda+ta+to
+ACT-156.pito	sindapito	to begin to 'win / be victorious'	verb	sinda	win / be victorious	inchoative	sinda+pi+to
+ACT-156.takika	sindatakika	one who makes/causes 'win / be victorious'; instigator of 'win / be victorious'	noun	sinda	win / be victorious	causative-agent	sinda+ta+ki+ka
+ACT-156.taboka	sindataboka	what is brought about by 'win / be victorious'	noun	sinda	win / be victorious	causative-result	sinda+ta+bo+ka
+ACT-156.kideka	sindakideka	place of the one who 'win / be victorious's	noun	sinda	win / be victorious	agent-place	sinda+ki+de+ka
+SOC-132.ka	goluka	goal / point (score)	noun	golu	goal / point (score)	noun	golu+ka
+SOC-132.pe	golupe	of/like 'goal / point (score)'; 'goal / point (score)'-related	modifier	golu	goal / point (score)	modifier	golu+pe
+SOC-132.to	goluto	to use/apply 'goal / point (score)'; to act as 'goal / point (score)'	verb	golu	goal / point (score)	verb	golu+to
+SOC-132.cika	golucika	little 'goal / point (score)'; small/dear 'goal / point (score)'	noun	golu	goal / point (score)	diminutive	golu+ci+ka
+SOC-132.goka	golugoka	big 'goal / point (score)'; great 'goal / point (score)'	noun	golu	goal / point (score)	augmentative	golu+go+ka
+SOC-132.deka	goludeka	place of/for 'goal / point (score)'	noun	golu	goal / point (score)	place	golu+de+ka
+TIM-051.pe	ahilipe	last / final / the end	modifier	ahili	last / final / the end	modifier	ahili+pe
+TIM-051.ka	ahilika	'last / final / the end'-ness; the quality 'last / final / the end'	noun	ahili	last / final / the end	noun	ahili+ka
+TIM-051.paka	ahilipaka	lastness	noun	ahili	last / final / the end	quality	ahili+pa+ka
+TIM-051.kupe	ahilikupe	opposite of 'last / final / the end'; un-'last / final / the end'	modifier	ahili	last / final / the end	opposite	ahili+ku+pe
+TIM-051.tato	ahilitato	to make 'last / final / the end'	verb	ahili	last / final / the end	causative	ahili+ta+to
+TIM-051.pito	ahilipito	to become 'last / final / the end'	verb	ahili	last / final / the end	inchoative	ahili+pi+to
+TIM-051.gope	ahiligope	very 'last / final / the end'; intensely 'last / final / the end'	modifier	ahili	last / final / the end	augmentative	ahili+go+pe
+TIM-051.cipe	ahilicipe	'last / final / the end'-ish; somewhat 'last / final / the end'	modifier	ahili	last / final / the end	diminutive	ahili+ci+pe
+TIM-051.kupaka	ahilikupaka	un-'last / final / the end'-ness; the quality of being not 'last / final / the end'	noun	ahili	last / final / the end	opposite-quality	ahili+ku+pa+ka
+TIM-051.takika	ahilitakika	one who makes things 'last / final / the end'	noun	ahili	last / final / the end	causative-agent	ahili+ta+ki+ka
