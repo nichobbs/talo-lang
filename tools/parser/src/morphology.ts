@@ -95,6 +95,7 @@ export const FUNCTION_WORDS = {
     "ote", "ingi", "kidogo", "badi", "hakuna", "lebi", "sukuna",
     "kila", "cuku", "setenga", "hoka", // every/each/.../other (postposed determiners)
     "hi", "no",                   // yes / no answer
+    "ahoi", "cao", "doso", "tanku", "oke", "kalibu", // phatic interjections (0005 §5)
     "sana", "ti", "dake",         // very / also / only
     "tai",                        // too / excessively (0017) — degree adverb, postposed
     "ma", "fi", "andai",          // but / if / if-hypothetical (0018)
