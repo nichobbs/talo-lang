@@ -12541,3 +12541,15 @@ EMO-070.pito	lindupito	to begin to 'miss / long for'	verb	lindu	miss / long for	
 EMO-070.takika	lindutakika	one who makes/causes 'miss / long for'; instigator of 'miss / long for'	noun	lindu	miss / long for	causative-agent	lindu+ta+ki+ka
 EMO-070.taboka	lindutaboka	what is brought about by 'miss / long for'	noun	lindu	miss / long for	causative-result	lindu+ta+bo+ka
 EMO-070.kideka	lindukideka	place of the one who 'miss / long for's	noun	lindu	miss / long for	agent-place	lindu+ki+de+ka
+PHY-094.ka	alamika	nature / the natural world	noun	alami	nature / the natural world	noun	alami+ka
+PHY-094.pe	alamipe	of/like 'nature / the natural world'; 'nature / the natural world'-related	modifier	alami	nature / the natural world	modifier	alami+pe
+PHY-094.to	alamito	to use/apply 'nature / the natural world'; to act as 'nature / the natural world'	verb	alami	nature / the natural world	verb	alami+to
+PHY-094.cika	alamicika	little 'nature / the natural world'; small/dear 'nature / the natural world'	noun	alami	nature / the natural world	diminutive	alami+ci+ka
+PHY-094.goka	alamigoka	big 'nature / the natural world'; great 'nature / the natural world'	noun	alami	nature / the natural world	augmentative	alami+go+ka
+PHY-094.deka	alamideka	place of/for 'nature / the natural world'	noun	alami	nature / the natural world	place	alami+de+ka
+AGR-067.ka	polenika	pollen	noun	poleni	pollen	noun	poleni+ka
+AGR-067.pe	polenipe	of/like 'pollen'; 'pollen'-related	modifier	poleni	pollen	modifier	poleni+pe
+AGR-067.to	polenito	to use/apply 'pollen'; to act as 'pollen'	verb	poleni	pollen	verb	poleni+to
+AGR-067.cika	polenicika	little 'pollen'; small/dear 'pollen'	noun	poleni	pollen	diminutive	poleni+ci+ka
+AGR-067.goka	polenigoka	big 'pollen'; great 'pollen'	noun	poleni	pollen	augmentative	poleni+go+ka
+AGR-067.deka	polenideka	place of/for 'pollen'	noun	poleni	pollen	place	poleni+de+ka

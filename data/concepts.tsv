@@ -1755,3 +1755,5 @@ PROP-118	beautiful / handsome	PROP	2	mod	yes		MOD	fiction batch
 AGR-066	pear	AGR	3	n	yes		IDS	everyday/dialogue batch
 FUN-032	until	FUN	1	fun	yes		FUN	temporal subordinator (procedural register); "pika hata te pika li"
 EMO-070	miss / long for	EMO	2	v	yes		IDS	correspondence batch (0023); "mi lindu yu"
+PHY-094	nature / the natural world	PHY	2	n	yes		MOD	expository batch (0024)
+AGR-067	pollen	AGR	3	n	yes		IDS	expository batch (0024)
