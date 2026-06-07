@@ -1757,3 +1757,5 @@ FUN-032	until	FUN	1	fun	yes		FUN	temporal subordinator (procedural register); "p
 EMO-070	miss / long for	EMO	2	v	yes		IDS	correspondence batch (0023); "mi lindu yu"
 PHY-094	nature / the natural world	PHY	2	n	yes		MOD	expository batch (0024)
 AGR-067	pollen	AGR	3	n	yes		IDS	expository batch (0024)
+BOD-098	wake / wake up	BOD	2	v	yes		IDS	narrative batch (0027)
+COG-093	forget	COG	2	v	yes		IDS	narrative batch (0027); opposite of inga

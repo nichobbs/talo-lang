@@ -12553,3 +12553,27 @@ AGR-067.to	polenito	to use/apply 'pollen'; to act as 'pollen'	verb	poleni	pollen
 AGR-067.cika	polenicika	little 'pollen'; small/dear 'pollen'	noun	poleni	pollen	diminutive	poleni+ci+ka
 AGR-067.goka	polenigoka	big 'pollen'; great 'pollen'	noun	poleni	pollen	augmentative	poleni+go+ka
 AGR-067.deka	polenideka	place of/for 'pollen'	noun	poleni	pollen	place	poleni+de+ka
+BOD-098.to	banguto	to 'wake / wake up'	verb	bangu	wake / wake up	verb	bangu+to
+BOD-098.ka	banguka	act of 'wake / wake up'; a 'wake / wake up'	noun	bangu	wake / wake up	noun	bangu+ka
+BOD-098.pe	bangupe	'wake / wake up'-ing	modifier	bangu	wake / wake up	modifier	bangu+pe
+BOD-098.kika	bangukika	one who 'wake / wake up's; 'wake / wake up'-er	noun	bangu	wake / wake up	agent	bangu+ki+ka
+BOD-098.tuka	bangutuka	tool/means for 'wake / wake up'	noun	bangu	wake / wake up	instrument	bangu+tu+ka
+BOD-098.boka	banguboka	thing 'wake / wake up'-ed; result of 'wake / wake up'	noun	bangu	wake / wake up	patient/result	bangu+bo+ka
+BOD-098.deka	bangudeka	place for 'wake / wake up'	noun	bangu	wake / wake up	place	bangu+de+ka
+BOD-098.tato	bangutato	wake / rouse	verb	bangu	wake / wake up	causative	bangu+ta+to
+BOD-098.pito	bangupito	to begin to 'wake / wake up'	verb	bangu	wake / wake up	inchoative	bangu+pi+to
+BOD-098.takika	bangutakika	one who makes/causes 'wake / wake up'; instigator of 'wake / wake up'	noun	bangu	wake / wake up	causative-agent	bangu+ta+ki+ka
+BOD-098.taboka	bangutaboka	what is brought about by 'wake / wake up'	noun	bangu	wake / wake up	causative-result	bangu+ta+bo+ka
+BOD-098.kideka	bangukideka	place of the one who 'wake / wake up's	noun	bangu	wake / wake up	agent-place	bangu+ki+de+ka
+COG-093.to	lupato	to 'forget'	verb	lupa	forget	verb	lupa+to
+COG-093.ka	lupaka	act of 'forget'; a 'forget'	noun	lupa	forget	noun	lupa+ka
+COG-093.pe	lupape	'forget'-ing	modifier	lupa	forget	modifier	lupa+pe
+COG-093.kika	lupakika	one who 'forget's; 'forget'-er	noun	lupa	forget	agent	lupa+ki+ka
+COG-093.tuka	lupatuka	tool/means for 'forget'	noun	lupa	forget	instrument	lupa+tu+ka
+COG-093.boka	lupaboka	thing 'forget'-ed; result of 'forget'	noun	lupa	forget	patient/result	lupa+bo+ka
+COG-093.deka	lupadeka	place for 'forget'	noun	lupa	forget	place	lupa+de+ka
+COG-093.tato	lupatato	to make/cause to 'forget'	verb	lupa	forget	causative	lupa+ta+to
+COG-093.pito	lupapito	to begin to 'forget'	verb	lupa	forget	inchoative	lupa+pi+to
+COG-093.takika	lupatakika	one who makes/causes 'forget'; instigator of 'forget'	noun	lupa	forget	causative-agent	lupa+ta+ki+ka
+COG-093.taboka	lupataboka	what is brought about by 'forget'	noun	lupa	forget	causative-result	lupa+ta+bo+ka
+COG-093.kideka	lupakideka	place of the one who 'forget's	noun	lupa	forget	agent-place	lupa+ki+de+ka
