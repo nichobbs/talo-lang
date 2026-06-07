@@ -1754,3 +1754,4 @@ ACT-154	meet / encounter	ACT	2	v	yes		IDS	fiction batch
 PROP-118	beautiful / handsome	PROP	2	mod	yes		MOD	fiction batch
 AGR-066	pear	AGR	3	n	yes		IDS	everyday/dialogue batch
 FUN-032	until	FUN	1	fun	yes		FUN	temporal subordinator (procedural register); "pika hata te pika li"
+EMO-070	miss / long for	EMO	2	v	yes		IDS	correspondence batch (0023); "mi lindu yu"
