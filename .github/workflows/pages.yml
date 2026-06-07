@@ -14,6 +14,14 @@ on:
       - "data/**"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
+  # Auto-merged PRs reach main via `gh pr merge` using GITHUB_TOKEN; by GitHub's
+  # recursion guard, that push does NOT fire the `push` trigger above — so the
+  # site would never redeploy for bot-merged PRs. Also deploy whenever the CI
+  # workflow completes successfully: by then the squash-merge is on main, and a
+  # workflow_run build checks out the default branch (main) at its latest commit.
+  workflow_run:
+    workflows: ["CI"]
+    types: [completed]
 
 permissions:
   contents: read
@@ -29,6 +37,8 @@ jobs:
   build:
     name: Build site
     runs-on: ubuntu-latest
+    # On a workflow_run trigger, only deploy if that CI run actually passed.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
