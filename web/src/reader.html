@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Talo Reader — read real Talo with vocabulary help</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site">
+  <a class="brand" href="index.html">Talo</a>
+  <nav><a href="index.html">Home</a><a href="book.html">Learn</a><a class="active" href="reader.html">Read</a><a href="practice.html">Practice</a><a href="lookup.html">Dictionary</a></nav>
+</header>
+
+<main class="reader">
+  <h1>Read</h1>
+  <p class="lede">Real Talo texts across many registers. <strong>Tap any word</strong> for its dictionary
+    entry and word-family; <strong>tap a line</strong> to reveal the English translation.</p>
+
+  <div class="reader-bar">
+    <label class="pick">Text
+      <select id="article" title="choose a text"></select>
+    </label>
+    <label class="revealall"><input type="checkbox" id="revealAll"> Show all translations</label>
+  </div>
+
+  <article>
+    <h2 id="artTitle"></h2>
+    <p id="artNote" class="art-note"></p>
+    <div id="body" class="article-body" aria-live="polite"></div>
+  </article>
+
+  <p class="reader-tip">Tip: a faint underline marks a word you can tap. The pop-up links through to the
+    word's root and the rest of its family — tap those to keep exploring, or open the full entry in the dictionary.</p>
+</main>
+
+<div id="pop" class="pop" hidden role="dialog" aria-label="word entry"></div>
+
+<footer class="site-foot">
+  <p>Texts from the Talo corpus; entries from the Talo dictionary.
+    <a href="https://github.com/nichobbs/talo-lang">Source &amp; data on GitHub</a>.</p>
+</footer>
+
+<script src="reader.js"></script>
+</body>
+</html>
