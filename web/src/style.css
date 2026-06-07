@@ -102,3 +102,45 @@ main.practice { max-width: 50rem; margin: 0 auto; padding: 1.5rem 1rem 4rem; }
 .tip-pos { color: #9ad; font-size: .75rem; }
 .tip-gloss { font-weight: 600; }
 .tip-ipa { color: #bcd; font-style: italic; }
+
+/* ---------------------------------------------------------------- reader */
+.reader-bar{display:flex;align-items:center;gap:1.2rem;flex-wrap:wrap;margin-bottom:1.6rem}
+.reader-bar .pick{display:flex;gap:.5rem;align-items:center;color:var(--mut);font-size:.9rem;flex:1;min-width:220px}
+.reader-bar select{flex:1;font-size:.95rem;padding:.55rem .6rem;border:2px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink)}
+.reader-bar .revealall{display:flex;gap:.4rem;align-items:center;color:var(--mut);font-size:.9rem;white-space:nowrap}
+#artTitle{font-size:1.5rem;color:var(--accent);margin:.2rem 0 .2rem}
+.art-note{color:var(--mut);font-size:.9rem;margin:0 0 1.4rem;font-style:italic}
+.article-body{display:grid;gap:.5rem}
+.clause{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:.7rem .9rem;cursor:pointer}
+.clause .talo{margin:0;font-size:1.15rem;line-height:1.9}
+.clause .en{margin:.5rem 0 0;color:var(--mut);font-size:1rem;border-top:1px dashed var(--line);padding-top:.45rem}
+.clause.revealed .en,body.reveal-all .clause .en{display:block!important}
+button.w{font:inherit;color:var(--ink);background:none;border:0;padding:0 .02em;margin:0;cursor:pointer;
+  border-bottom:1px dotted #c9bfa8;border-radius:2px}
+button.w:hover,button.w:focus{background:var(--chip);outline:none;border-bottom-color:var(--accent)}
+button.w.unknown{border-bottom-style:none;color:var(--mut)}
+.reader-tip{margin-top:1.8rem;color:var(--mut);font-size:.85rem;border-top:1px solid var(--line);padding-top:1rem}
+
+/* word pop-up */
+.pop{position:absolute;z-index:50;max-width:min(94vw,360px)}
+.pop-card{background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 8px 30px rgba(40,30,10,.18);
+  padding:.8rem 1rem 1rem;position:relative}
+.pop-x{position:absolute;top:.3rem;right:.45rem;border:0;background:none;font-size:1.3rem;line-height:1;color:var(--mut);cursor:pointer}
+.pop-x:hover{color:var(--accent)}
+.pop-head{display:flex;align-items:baseline;gap:.5rem}
+.pop-head .form{font-size:1.3rem;font-weight:700;color:var(--accent)}
+.pop-head .ipa{font-size:.9rem;color:var(--mut)}
+.pop-gloss{font-size:1.05rem;margin-top:.15rem}
+.pop-build{font-size:.82rem;color:var(--mut);margin-top:.2rem}
+.pop-build .morph{font-family:'SF Mono',Menlo,Consolas,monospace}
+.pop-row{margin-top:.5rem;font-size:.9rem;line-height:1.7}
+.pop-row .lbl{display:inline-block;min-width:3.6em;color:var(--mut);font-size:.78rem;text-transform:uppercase;letter-spacing:.04em}
+.pop-row .g{color:var(--mut);font-size:.85rem}
+.pop-row .more{color:var(--mut);font-size:.8rem}
+a.flink{color:var(--accent);text-decoration:none;font-weight:600}
+a.flink:hover{text-decoration:underline}
+.pop-dict{display:inline-block;margin-top:.7rem;font-size:.85rem;color:var(--accent2);text-decoration:none;font-weight:600}
+.pop-dict:hover{text-decoration:underline}
+@media(max-width:520px){
+  .pop{position:fixed;left:.5rem!important;right:.5rem;top:auto!important;bottom:.5rem;max-width:none}
+}

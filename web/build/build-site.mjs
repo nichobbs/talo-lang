@@ -45,6 +45,40 @@ if (!existsSync(EXERCISES_JSON)) fail(`missing ${EXERCISES_JSON} — build it fi
 const exercises = JSON.parse(readFileSync(EXERCISES_JSON, "utf8"));
 if (!Array.isArray(exercises) || !exercises.length) fail("exercises.json looks wrong (empty)");
 
+// 1c. Parse the corpus articles into a compact feed for the interactive reader:
+// per article, the title + register note + the clause pairs (Talo › English) from
+// its ```talo block. The reader resolves each Talo token against dictionary.json
+// in the browser, so this stays data-only.
+const ARTICLES = join(ROOT, "corpus", "articles");
+function buildCorpus() {
+  if (!existsSync(ARTICLES)) fail(`missing ${ARTICLES} — the corpus is required for the reader`);
+  const out = [];
+  for (const f of readdirSync(ARTICLES).filter((x) => x.endsWith(".md")).sort()) {
+    const md = readFileSync(join(ARTICLES, f), "utf8");
+    const lines = md.split(/\r?\n/);
+    const title = (lines.find((l) => l.startsWith("# ")) || `# ${f}`).slice(2).trim();
+    const id = (f.match(/^(\d+)/) || [, f])[1];
+    const noteLine = lines.find((l) => /\*\*(Register|Domain):\*\*/.test(l)) || "";
+    const note = noteLine.replace(/^[-*\s]*\*\*(Register|Domain):\*\*/, "").split(/[—.]/)[0].trim();
+    const block = (md.match(/```talo\n([\s\S]*?)```/) || [, ""])[1];
+    const clauses = [];
+    for (const raw of block.split(/\n/)) {
+      const line = raw.trim();
+      if (!line || line.startsWith("#")) continue;
+      const i = line.indexOf("›"); // the › separator used in corpus glosses
+      if (i < 0) continue;
+      const talo = line.slice(0, i).trim();
+      const en = line.slice(i + 1).trim();
+      if (talo && /[a-z]/.test(talo)) clauses.push({ talo, en });
+    }
+    if (clauses.length) out.push({ id, file: f, title, note, clauses });
+  }
+  if (!out.length) fail("no corpus articles parsed for the reader");
+  return out;
+}
+const corpus = buildCorpus();
+process.stdout.write(`✓ corpus: ${corpus.length} articles, ${corpus.reduce((n, a) => n + a.clauses.length, 0)} clauses\n`);
+
 // 2. Build the book HTML (its own build validates every example).
 let bookHtml = "";
 try {
@@ -68,7 +102,7 @@ function wrapBook(html) {
 ${head}
 </head><body>
 <header class="site"><a class="brand" href="index.html">Talo</a>
-<nav><a href="index.html">Home</a><a class="active" href="book.html">Learn</a><a href="practice.html">Practice</a><a href="lookup.html">Dictionary</a></nav></header>
+<nav><a href="index.html">Home</a><a class="active" href="book.html">Learn</a><a href="reader.html">Read</a><a href="practice.html">Practice</a><a href="lookup.html">Dictionary</a></nav></header>
 ${body}
 </body></html>`;
 }
@@ -117,7 +151,7 @@ await smokeTestEngine();
 
 if (checkOnly) {
   // verify the static src files are all present
-  for (const f of ["index.html", "lookup.html", "practice.html", "practice.js", "app.js", "style.css"]) {
+  for (const f of ["index.html", "lookup.html", "practice.html", "practice.js", "app.js", "style.css", "reader.html", "reader.js"]) {
     if (!existsSync(join(SRC, f))) fail(`missing web/src/${f}`);
   }
   process.stdout.write("✓ all site inputs present\n");
@@ -129,6 +163,7 @@ mkdirSync(DIST, { recursive: true });
 for (const f of readdirSync(SRC)) copyFileSync(join(SRC, f), join(DIST, f));
 copyFileSync(DICT_JSON, join(DIST, "dictionary.json"));
 copyFileSync(EXERCISES_JSON, join(DIST, "exercises.json"));
+writeFileSync(join(DIST, "corpus.json"), JSON.stringify(corpus));
 writeFileSync(join(DIST, "book.html"), wrapBook(bookHtml));
 // a .nojekyll so Pages serves files as-is
 writeFileSync(join(DIST, ".nojekyll"), "");
