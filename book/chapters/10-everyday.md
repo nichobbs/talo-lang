@@ -45,6 +45,24 @@ B:  Itu kunato itulo.         › It is over there.
 A:  Mi ikuto itulo.           › I go there.
 ```
 
+## Saying "without", and prices
+
+`tanpa` "without" behaves like the role markers (`lo`, `wa`, …): it comes **after**
+the noun it applies to:
+
+```talo
+Mi datanto tomoka tanpa.      › I came without a friend.
+```
+
+For money, say the **amount, then the currency word** — and you may write the
+symbol instead:
+
+```talo
+Te kosato le diko ponka.      › It costs fifty pounds (£50).
+```
+
+(`pon` pound · `dolan` dollar · `eulo` euro.)
+
 ## A tiny story
 
 ```talo

@@ -29,6 +29,22 @@ Mi tumito keso.      › I will run tomorrow.
 
 The verb never changes. You just add the when-word.
 
+## Grammar: dates
+
+Talo **numbers** the calendar — strong positive transfer, and no new words to learn:
+
+- **Weekday** (Sunday = 1): number + `din` + `ka` → `nudinka` Monday, `kidinka` Saturday.
+- **Month** (January = 1): number + `lun` + `ka` → `talunka` January, `colunka` June.
+- **Day of the month**: `dinka` + a number → `dinka le` "the 5th".
+- **Year**: `taunka` + the number → `taunka nu sebu nu diko co` "2026".
+
+```talo
+Leo yato nudinka.              › Today is Monday.
+Mi datanto colunka, dinka le.  › I came in June, on the 5th.
+```
+
+A full date runs **big-endian** — year, then month, then day.
+
 ## Grammar: two optional aspect markers
 
 If you want to stress whether an action is **finished** or **ongoing**, add a small

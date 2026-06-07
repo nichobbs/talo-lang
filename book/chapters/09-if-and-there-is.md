@@ -25,8 +25,30 @@ Fi yu belayato, toki yu tauto lebi.   › If you learn, then you know more.
 ```
 
 Because Talo has no tenses, the same `fi` covers "if you come" and "if you came" —
-context (or a time-word) tells which. There is no special form for imaginary or
-unreal conditions; you may add `mungi` "maybe" if you want to stress unreality.
+context (or a time-word) tells which.
+
+## Grammar: unreal conditions with `andai`
+
+For an **imaginary or contrary-to-fact** condition — "supposing…", "if only…", "if
+it *had* happened…" — begin with `andai` instead of `fi`. The "unreal" sense lives
+in `andai` itself; you do not need any other marker:
+
+```talo
+Andai mi motuto uanka, mi belito baitika.   › If I had money, I would buy a house.
+```
+
+Add `li` or a time-word if you need to place the supposed event firmly in the past.
+
+## Grammar: ranges ("from X to Y")
+
+For a range of numbers, put the two bounds around `su` "to", **after** the noun:
+
+```talo
+Mi subilito dinka mo su le.   › I waited three to five days.
+```
+
+The noun comes first: `dinka mo su le` = "days, 3 to 5". (Putting the numbers before
+the noun is not allowed — determiners always follow.)
 
 ## Grammar: "there is" / "to be located" with kuna
 
