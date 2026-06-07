@@ -2,16 +2,19 @@
  * Talo Reader — read real corpus texts with vocabulary help.
  *
  * Loads the corpus feed (corpus.json, built from corpus/articles/) and the
- * dictionary (dictionary.json). Each Talo word becomes a tap target: tapping it
- * resolves the surface form against the dictionary and shows a pop-up with the
- * entry, how the word is built, its root, and the rest of its word-family —
- * each a link that re-opens the pop-up so you can wander the lexicon. Tapping a
- * line reveals the English translation. Dependency-free; runs as a static file.
+ * dictionary (dictionary.json). Each Talo word is a tap target: the pop-up shows
+ * its entry, how it's built, its root, its word-family, and attested examples —
+ * each a link that re-opens the pop-up. Optional inline word-glosses (ruby) and
+ * line-by-line translation reveal. Read texts are remembered in localStorage.
+ * Dependency-free; runs as a static file.
  */
 "use strict";
 
 const els = {
   article: document.getElementById("article"),
+  randomBtn: document.getElementById("randomBtn"),
+  readcount: document.getElementById("readcount"),
+  glossToggle: document.getElementById("glossToggle"),
   revealAll: document.getElementById("revealAll"),
   title: document.getElementById("artTitle"),
   note: document.getElementById("artNote"),
@@ -21,60 +24,75 @@ const els = {
 
 let ENTRIES = [];
 let CORPUS = [];
-const BY_FORM = new Map();      // form → entry
-const FAMILY = new Map();       // root form → its affixed derivations + compounds
+const BY_FORM = new Map();   // form → entry
+const FAMILY = new Map();    // root form → affixed derivations + compounds
 
-const BADGE_TAG = { ka: "N", to: "V", pe: "MOD" };
+const READ_KEY = "talo-read";
+const READ = new Set(loadRead());
+function loadRead() { try { return JSON.parse(localStorage.getItem(READ_KEY) || "[]"); } catch { return []; } }
+function saveRead() { try { localStorage.setItem(READ_KEY, JSON.stringify([...READ])); } catch { /* ignore */ } }
+
 const FUNCTION_GLOSS = {
-  na: "to", lo: "at", su: "toward", fe: "from", wa: "with", we: "of", tanpa: "without",
-  li: "completive (done)", wi: "progressive (-ing)", ne: "not", ke: "(yes/no question)",
-  pu: "(plural)", i: "and", o: "or", ma: "but", fi: "if", andai: "if (unreal)",
-  hata: "until", toki: "then", ce: "that / whether", sewa: "as / how",
-  mi: "I / we", yu: "you", te: "he/she/it/they",
+  na: "to", lo: "at", su: "toward", fe: "from/of", wa: "with", we: "of", tanpa: "without",
+  li: "done", wi: "-ing", ne: "not", ke: "?", pu: "(plural)", i: "and", o: "or",
+  ma: "but", fi: "if", andai: "if (unreal)", hata: "until", toki: "then",
+  ce: "that/whether", sewa: "as/how", kena: "(passive)", sa: "when",
+  mi: "I/we", yu: "you", te: "he/she/it/they",
+  ata: "up", sita: "down", lua: "outside", naka: "in", dole: "which",
+  kadan: "sometimes", selin: "often",
 };
 
 function escapeHtml(s) {
   return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 }
 
-/** Build form→entry and root→family indices (mirrors the dictionary tool). */
 function buildIndices() {
   for (const e of ENTRIES) if (!BY_FORM.has(e.form)) BY_FORM.set(e.form, e);
   const add = (root, e) => { (FAMILY.get(root) || FAMILY.set(root, []).get(root)).push(e); };
   for (const e of ENTRIES) {
     if (e.kind === "derived" && e.base) {
-      if ((e.morphemes || "").split("+").length >= 3) add(e.base, e); // skip bare root+badge
+      if ((e.morphemes || "").split("+").length >= 3) add(e.base, e);
     } else if (e.kind === "compound" && e.morphemes) {
-      const segs = e.morphemes.split("+").filter((s) => !["ka", "to", "pe"].includes(s));
-      for (const s of new Set(segs)) if (BY_FORM.has(s)) add(s, e);
+      for (const s of new Set(e.morphemes.split("+").filter((x) => !["ka", "to", "pe"].includes(x)))) {
+        if (BY_FORM.has(s)) add(s, e);
+      }
     }
   }
 }
 
-/** Clean a surface token to a dictionary-lookup key (Talo is a–z, lowercase). */
 const keyOf = (raw) => raw.toLowerCase().replace(/[^a-z]/g, "");
 
-/** Resolve a surface token to its best dictionary entry, or null. */
-function resolve(raw) {
-  const k = keyOf(raw);
-  if (!k) return null;
-  return BY_FORM.get(k) || null;
+/** A short hint gloss for the inline ruby line. */
+function shortGloss(g) {
+  let s = String(g).replace(/^(to|act of|a|an|the|one who|thing)\s+/i, "").replace(/['"]/g, "");
+  s = s.split(/[;,/(]/)[0].trim();
+  return s.length > 18 ? s.slice(0, 17) + "…" : s;
+}
+function hintGloss(k) {
+  const e = BY_FORM.get(k);
+  if (e) return shortGloss(e.gloss);
+  if (FUNCTION_GLOSS[k]) return FUNCTION_GLOSS[k];
+  return "";
 }
 
 /* ----------------------------------------------------------------- rendering */
 
 function renderArticleList() {
   els.article.innerHTML = CORPUS.map(
-    (a) => `<option value="${escapeHtml(a.id)}">${escapeHtml(a.id)} · ${escapeHtml(a.title)}</option>`
+    (a) => `<option value="${escapeHtml(a.id)}">${READ.has(a.id) ? "✓ " : ""}${escapeHtml(a.id)} · ${escapeHtml(a.title)}</option>`
   ).join("");
+  els.readcount.textContent = `${READ.size} / ${CORPUS.length} read`;
 }
 
 function wordSpan(raw) {
+  if (!/[a-z]/i.test(raw)) return escapeHtml(raw); // pure punctuation
   const k = keyOf(raw);
-  // a token is tappable iff it has letters; punctuation rides along in the label
-  if (!/[a-z]/i.test(raw)) return escapeHtml(raw);
   const known = BY_FORM.has(k) || FUNCTION_GLOSS[k];
-  return `<button class="w${known ? "" : " unknown"}" data-k="${escapeHtml(k)}">${escapeHtml(raw)}</button>`;
+  const g = hintGloss(k);
+  const inner = g
+    ? `<ruby>${escapeHtml(raw)}<rt>${escapeHtml(g)}</rt></ruby>`
+    : escapeHtml(raw);
+  return `<button class="w${known ? "" : " unknown"}" data-k="${escapeHtml(k)}">${inner}</button>`;
 }
 
 function renderArticle(a) {
@@ -82,7 +100,7 @@ function renderArticle(a) {
   els.note.textContent = a.note || "";
   els.body.innerHTML = a.clauses
     .map((c) => {
-      const words = c.talo.split(/(\s+)/).map((tok) => (/\s/.test(tok) ? tok : wordSpan(tok))).join("");
+      const words = c.talo.split(/(\s+)/).map((t) => (/\s/.test(t) ? t : wordSpan(t))).join("");
       return `<div class="clause"><p class="talo">${words}</p><p class="en" hidden>${escapeHtml(c.en)}</p></div>`;
     })
     .join("");
@@ -93,12 +111,16 @@ function selectArticle(id) {
   if (!a) return;
   els.article.value = a.id;
   renderArticle(a);
+  if (!READ.has(a.id)) { READ.add(a.id); saveRead(); renderArticleList(); els.article.value = a.id; }
   const url = new URL(location.href);
   url.searchParams.set("a", a.id);
   history.replaceState(null, "", url);
+  hidePop();
 }
 
 /* -------------------------------------------------------------------- pop-up */
+
+const flink = (e) => `<a class="flink" data-k="${escapeHtml(e.form)}" href="#" title="${escapeHtml(e.gloss)}">${escapeHtml(e.form)}</a>`;
 
 function relatedLinks(e) {
   const out = [];
@@ -111,18 +133,21 @@ function relatedLinks(e) {
       .map((s) => BY_FORM.get(s)).filter(Boolean);
     if (parts.length) out.push(`<div class="pop-row"><span class="lbl">parts</span> ${parts.map(flink).join(" + ")}</div>`);
   }
-  // word family = derivations/compounds of this word's root (or of itself if root)
   const famRoot = e.kind === "root" ? e.form : e.base;
   const fam = (FAMILY.get(famRoot) || []).filter((x) => x.form !== e.form);
   if (fam.length) {
-    const items = fam.slice(0, 16).map(flink).join(" · ");
-    const more = fam.length > 16 ? ` <span class="more">+${fam.length - 16}</span>` : "";
+    const items = fam.slice(0, 14).map(flink).join(" · ");
+    const more = fam.length > 14 ? ` <span class="more">+${fam.length - 14}</span>` : "";
     out.push(`<div class="pop-row"><span class="lbl">family</span> ${items}${more}</div>`);
+  }
+  if (e.examples && e.examples.length) {
+    const items = e.examples.slice(0, 2)
+      .map((x) => `<li><span class="ex-t">${escapeHtml(x.talo)}</span><span class="ex-e">${escapeHtml(x.en)}</span></li>`)
+      .join("");
+    out.push(`<div class="pop-row ex"><span class="lbl">examples</span><ul>${items}</ul></div>`);
   }
   return out.join("");
 }
-
-const flink = (e) => `<a class="flink" data-k="${escapeHtml(e.form)}" href="#" title="${escapeHtml(e.gloss)}">${escapeHtml(e.form)}</a>`;
 
 function popHtml(k) {
   const e = BY_FORM.get(k);
@@ -154,7 +179,6 @@ function popHtml(k) {
 function showPop(k, anchor) {
   els.pop.innerHTML = popHtml(k);
   els.pop.hidden = false;
-  // position under the anchor, clamped to the viewport (a bottom card on phones)
   const card = els.pop.firstElementChild;
   const r = anchor.getBoundingClientRect();
   const pad = 8;
@@ -164,22 +188,20 @@ function showPop(k, anchor) {
   els.pop.style.left = `${left}px`;
   els.pop.style.top = `${window.scrollY + r.bottom + 6}px`;
 }
-
 function hidePop() { els.pop.hidden = true; els.pop.innerHTML = ""; }
 
 /* ---------------------------------------------------------------- behaviour */
 
 let lastAnchor = null;
-
 document.addEventListener("click", (ev) => {
   const w = ev.target.closest(".w");
   if (w) { lastAnchor = w; showPop(w.dataset.k, w); ev.stopPropagation(); return; }
   const fl = ev.target.closest(".flink");
   if (fl) { ev.preventDefault(); showPop(fl.dataset.k, lastAnchor || fl); return; }
   if (ev.target.closest(".pop-x")) { hidePop(); return; }
-  if (els.pop.contains(ev.target)) return;       // clicks inside the card: ignore
+  if (els.pop.contains(ev.target)) return;
   hidePop();
-  const clause = ev.target.closest(".clause");   // tapping a line reveals its translation
+  const clause = ev.target.closest(".clause");
   if (clause) clause.classList.toggle("revealed");
 });
 document.addEventListener("keydown", (ev) => { if (ev.key === "Escape") hidePop(); });
@@ -197,9 +219,14 @@ async function init() {
   buildIndices();
   renderArticleList();
   els.article.addEventListener("change", () => selectArticle(els.article.value));
+  els.randomBtn.addEventListener("click", () => {
+    const pick = CORPUS[Math.floor(Math.random() * CORPUS.length)];
+    if (pick) { selectArticle(pick.id); window.scrollTo({ top: 0, behavior: "smooth" }); }
+  });
+  els.glossToggle.addEventListener("change", () =>
+    document.body.classList.toggle("gloss-on", els.glossToggle.checked));
   els.revealAll.addEventListener("change", () =>
-    document.body.classList.toggle("reveal-all", els.revealAll.checked)
-  );
+    document.body.classList.toggle("reveal-all", els.revealAll.checked));
   const want = new URLSearchParams(location.search).get("a");
   selectArticle(want || (CORPUS[0] && CORPUS[0].id));
 }
