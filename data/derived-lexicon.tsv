@@ -5976,7 +5976,6 @@ PHY-045.to	sonalito	to use/apply 'gold'; to act as 'gold'	verb	sonali	gold	verb	
 PHY-045.cika	sonalicika	little 'gold'; small/dear 'gold'	noun	sonali	gold	diminutive	sonali+ci+ka
 PHY-045.goka	sonaligoka	big 'gold'; great 'gold'	noun	sonali	gold	augmentative	sonali+go+ka
 PHY-045.deka	sonalideka	place of/for 'gold'	noun	sonali	gold	place	sonali+de+ka
-PHY-046.ka	candika	silver	noun	candi	silver	noun	candi+ka
 PHY-046.pe	candipe	of/like 'silver'; 'silver'-related	modifier	candi	silver	modifier	candi+pe
 PHY-046.to	candito	to use/apply 'silver'; to act as 'silver'	verb	candi	silver	verb	candi+to
 PHY-046.cika	candicika	little 'silver'; small/dear 'silver'	noun	candi	silver	diminutive	candi+ci+ka
@@ -12485,3 +12484,42 @@ POS-047.to	lubelito	to use/apply 'ruble (currency)'; to act as 'ruble (currency)
 POS-047.cika	lubelicika	little 'ruble (currency)'; small/dear 'ruble (currency)'	noun	lubeli	ruble (currency)	diminutive	lubeli+ci+ka
 POS-047.goka	lubeligoka	big 'ruble (currency)'; great 'ruble (currency)'	noun	lubeli	ruble (currency)	augmentative	lubeli+go+ka
 POS-047.deka	lubelideka	place of/for 'ruble (currency)'	noun	lubeli	ruble (currency)	place	lubeli+de+ka
+SOC-130.to	kawinito	to 'marry / wed'	verb	kawini	marry / wed	verb	kawini+to
+SOC-130.ka	kawinika	act of 'marry / wed'; a 'marry / wed'	noun	kawini	marry / wed	noun	kawini+ka
+SOC-130.pe	kawinipe	'marry / wed'-ing	modifier	kawini	marry / wed	modifier	kawini+pe
+SOC-130.kika	kawinikika	one who 'marry / wed's; 'marry / wed'-er	noun	kawini	marry / wed	agent	kawini+ki+ka
+SOC-130.tuka	kawinituka	tool/means for 'marry / wed'	noun	kawini	marry / wed	instrument	kawini+tu+ka
+SOC-130.boka	kawiniboka	marriage	noun	kawini	marry / wed	patient/result	kawini+bo+ka
+SOC-130.deka	kawinideka	place for 'marry / wed'	noun	kawini	marry / wed	place	kawini+de+ka
+SOC-130.tato	kawinitato	to make/cause to 'marry / wed'	verb	kawini	marry / wed	causative	kawini+ta+to
+SOC-130.pito	kawinipito	to begin to 'marry / wed'	verb	kawini	marry / wed	inchoative	kawini+pi+to
+SOC-130.takika	kawinitakika	one who makes/causes 'marry / wed'; instigator of 'marry / wed'	noun	kawini	marry / wed	causative-agent	kawini+ta+ki+ka
+SOC-130.taboka	kawinitaboka	what is brought about by 'marry / wed'	noun	kawini	marry / wed	causative-result	kawini+ta+bo+ka
+SOC-130.kideka	kawinikideka	place of the one who 'marry / wed's	noun	kawini	marry / wed	agent-place	kawini+ki+de+ka
+KIN-053.ka	pasangaka	spouse / partner	noun	pasanga	spouse / partner	noun	pasanga+ka
+KIN-053.pe	pasangape	of/like 'spouse / partner'; 'spouse / partner'-related	modifier	pasanga	spouse / partner	modifier	pasanga+pe
+KIN-053.to	pasangato	to use/apply 'spouse / partner'; to act as 'spouse / partner'	verb	pasanga	spouse / partner	verb	pasanga+to
+KIN-053.cika	pasangacika	little 'spouse / partner'; small/dear 'spouse / partner'	noun	pasanga	spouse / partner	diminutive	pasanga+ci+ka
+KIN-053.goka	pasangagoka	big 'spouse / partner'; great 'spouse / partner'	noun	pasanga	spouse / partner	augmentative	pasanga+go+ka
+KIN-053.deka	pasangadeka	place of/for 'spouse / partner'	noun	pasanga	spouse / partner	place	pasanga+de+ka
+ACT-154.to	temuto	to 'meet / encounter'	verb	temu	meet / encounter	verb	temu+to
+ACT-154.ka	temuka	act of 'meet / encounter'; a 'meet / encounter'	noun	temu	meet / encounter	noun	temu+ka
+ACT-154.pe	temupe	'meet / encounter'-ing	modifier	temu	meet / encounter	modifier	temu+pe
+ACT-154.kika	temukika	one who 'meet / encounter's; 'meet / encounter'-er	noun	temu	meet / encounter	agent	temu+ki+ka
+ACT-154.tuka	temutuka	tool/means for 'meet / encounter'	noun	temu	meet / encounter	instrument	temu+tu+ka
+ACT-154.boka	temuboka	meeting	noun	temu	meet / encounter	patient/result	temu+bo+ka
+ACT-154.deka	temudeka	place for 'meet / encounter'	noun	temu	meet / encounter	place	temu+de+ka
+ACT-154.tato	temutato	to make/cause to 'meet / encounter'	verb	temu	meet / encounter	causative	temu+ta+to
+ACT-154.pito	temupito	to begin to 'meet / encounter'	verb	temu	meet / encounter	inchoative	temu+pi+to
+ACT-154.takika	temutakika	one who makes/causes 'meet / encounter'; instigator of 'meet / encounter'	noun	temu	meet / encounter	causative-agent	temu+ta+ki+ka
+ACT-154.taboka	temutaboka	what is brought about by 'meet / encounter'	noun	temu	meet / encounter	causative-result	temu+ta+bo+ka
+ACT-154.kideka	temukideka	place of the one who 'meet / encounter's	noun	temu	meet / encounter	agent-place	temu+ki+de+ka
+PROP-118.pe	cantikape	beautiful / handsome	modifier	cantika	beautiful / handsome	modifier	cantika+pe
+PROP-118.paka	cantikapaka	beautifulness	noun	cantika	beautiful / handsome	quality	cantika+pa+ka
+PROP-118.kupe	cantikakupe	opposite of 'beautiful / handsome'; un-'beautiful / handsome'	modifier	cantika	beautiful / handsome	opposite	cantika+ku+pe
+PROP-118.tato	cantikatato	to make 'beautiful / handsome'	verb	cantika	beautiful / handsome	causative	cantika+ta+to
+PROP-118.pito	cantikapito	to become 'beautiful / handsome'	verb	cantika	beautiful / handsome	inchoative	cantika+pi+to
+PROP-118.gope	cantikagope	very 'beautiful / handsome'; intensely 'beautiful / handsome'	modifier	cantika	beautiful / handsome	augmentative	cantika+go+pe
+PROP-118.cipe	cantikacipe	'beautiful / handsome'-ish; somewhat 'beautiful / handsome'	modifier	cantika	beautiful / handsome	diminutive	cantika+ci+pe
+PROP-118.kupaka	cantikakupaka	un-'beautiful / handsome'-ness; the quality of being not 'beautiful / handsome'	noun	cantika	beautiful / handsome	opposite-quality	cantika+ku+pa+ka
+PROP-118.takika	cantikatakika	one who makes things 'beautiful / handsome'	noun	cantika	beautiful / handsome	causative-agent	cantika+ta+ki+ka

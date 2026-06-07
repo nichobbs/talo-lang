@@ -465,6 +465,9 @@ ACT-152	patient/result	threat
 ACT-153	agent	(suppress)
 ACT-153	patient/result	permission
 PROP-117	quality	originalness
+SOC-130	patient/result	marriage
+ACT-154	patient/result	meeting
+PROP-118	quality	beautifulness
 
 # class suppressions (abstract diminutives — overridable per-root above)
 COG	diminutive	(suppress)
