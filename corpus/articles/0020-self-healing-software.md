@@ -79,7 +79,7 @@ i ini cedelato banka, kaisaka wolaka fe, i poniadeka naka taunka mae › which d
 # --- what it does (kikaiakalika "AI"; tanpa "without"; cega "prevent") ---
 gulamuka ini pakaito kikaiakalika fo kanto kasika te › This "self-healing" software uses AI to monitor its own performance,
 # gloss: software-N this use-V AI for watch-V work-N its
-te pataito masalaka i malaito te, tanpa tolonaka hitope › identifying problems and applying corrections without human help.
+te pataito masalaka i malaito te, tolonaka hitope tanpa › identifying problems and applying corrections without human help.
 # gloss: it find-V problem-N and repair-V it, without help-N human of
 hitoka seko sukito ini semato ce gulamuka bekito cegato gagaeboka gandepe › Supporters say the technology could prevent big cascading failures
 # gloss: person-N who like-V this say-V that software-N can prevent-V failure-N big-MOD
@@ -103,7 +103,7 @@ fi te pataito masalaka — konpuka yawato osoipe, o sitika balaito — te bekito
 # --- mixed results (yalibio "trial"; pungusa "reduce"; pasento "%") ---
 yalibioka hayakupe donato hasiaka, ma hasiaka ne samape › Early trials have produced mixed results.
 # gloss: trial-N early-MOD give-V result-N, but result-N NEG same
-banka ta semato ce malaiboka tanpa hitoka pungusato wakatika hentipe ki diko pasento, naka co lunka › One European bank reported that automated recovery cut system downtime by almost 70% over six months.
+banka ta semato ce malaiboka hitoka tanpa pungusato wakatika hentipe ki diko pasento, naka co lunka › One European bank reported that automated recovery cut system downtime by almost 70% over six months.
 # gloss: bank-N one say-V that repair-N without human reduce-V time-N stop 70 percent, in 6 month-N
 ma hitoka bala semato ce ini bahayape: hitoka donato kendalika kikaika su › But critics warn that handing control to automated systems carries its own risks.
 # gloss: but person-N some say-V that this dangerous-MOD: person-N give-V control-N machine-N toward

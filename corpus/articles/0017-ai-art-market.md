@@ -132,7 +132,7 @@ fi hitoka tendato picaka haope le diko ponka, bafu belikika belito senika tendak
 # --- the technology accelerates (tanpa "without"; pasento "per cent") ---
 naka diko fa lunka mae, kikaika yato lebi haope, i hitoka ingi bekito pakaito te › Over the past eighteen months the technology has grown more capable, and many can use it.
 # gloss: in 10 8 month-N before, machine-N COP more good-MOD, and person-N many can use-V it
-tendakika bekito tendato kasika haope tanpa kihaka            › Artists can now produce portfolio-quality work without training,
+tendakika bekito tendato kasika haope kihaka tanpa            › Artists can now produce portfolio-quality work without training,
 # gloss: artist-N can make-V work-N good-MOD without training-N
 i kaisaka pu tendato picaka sebu kila dinka                    › and companies generate thousands of images every day.
 # gloss: and company-N PL make-V picture-N 1000 every day-N
@@ -170,15 +170,15 @@ seliaka ti ne yato kelipe                                      › Lawyers are e
 # gloss: law-N also NEG COP real-MOD
 naka negalaka hoka, seliaka masi tayaeto ce hitoka bekito motuto senika seko kikaiakalika tendato ke › In some countries the law is still deciding whether AI works can be owned at all;
 # gloss: in country-N other, law-N still ask-V whether person-N can have-V art-N which AI make-V Q
-naka Amelikaka, seliaka semato ce senika ini ne motuto kananka, sababu te kena tendato tanpa hitoka, ma hitoka bala lagato kimeluka ini › in America the law ruled such works lack rights, as they are made without a human — but some are challenging the decision.
+naka Amelikaka, seliaka semato ce senika ini ne motuto kananka, sababu te kena tendato hitoka tanpa, ma hitoka bala lagato kimeluka ini › in America the law ruled such works lack rights, as they are made without a human — but some are challenging the decision.
 # gloss: in America-N, law-N say-V that art-N this NEG have-V right-N, because it PASS make-V without human-N, but person-N some fight-V decision-N this
-tendakika pu lagato kaisaka pu naka mahakamaka, sababu te kihato kitonka te wa picaka ingi sana tanpa isiniboka › Artists are taking the companies to court, for training their models on millions of pictures without permission.
+tendakika pu lagato kaisaka pu naka mahakamaka, sababu te kihato kitonka te wa picaka ingi sana isiniboka tanpa › Artists are taking the companies to court, for training their models on millions of pictures without permission.
 # gloss: artist-N PL fight-V company-N PL in court-N, because they train-V system-N their with picture-N many very without permission-N
 sela tauto ce ini yato pakaika haope o pakaika salape ke       › Whether that is fair use or theft, no one yet knows.
 # gloss: who know-V whether this COP use-N good-MOD or use-N wrong-MOD Q
 
 # --- resistance and adaptation (asili "authentic"; yuala "sell"; sewa) ---
-tendakika bala semato ce kasika te kena tendato tanpa kikaiakalika, i yualato te nedanka takaiape wa › Some painters label their work "made without AI", and sell it at a higher price.
+tendakika bala semato ce kasika te kena tendato kikaiakalika tanpa, i yualato te nedanka takaiape wa › Some painters label their work "made without AI", and sell it at a higher price.
 # gloss: artist-N some say-V that work-N their PASS make-V without AI-N, and sell-V it price-N expensive-MOD with
 senideka bala tayaeto nedanka takaiape senika asilipe fe, sababu belikika sukito senika hitope › Some galleries ask higher prices for authentic work, trusting that collectors prefer genuine human art.
 # gloss: gallery-N some ask-V price-N expensive-MOD art-N authentic-MOD of, because buyer-N like-V art-N human-MOD

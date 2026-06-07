@@ -120,7 +120,7 @@ mamaka te yato sedipe, ma babaka te senuto sisukape             › Her mother i
 # gloss: mother-N her COP sad-MOD, but father-N her smile-V calm-MOD
 babaka motuto malika te, daganka fe, i familika tayilipe bala ne sukito ini › Her father made his wealth in trade, which some elevated families dislike.
 # gloss: father-N have-V wealth-N his, trade-N of, and family-N rich-MOD some NEG like-V this
-mamaka omouto ce toto te tanpa pasangaka yato macigaika gandepe   › Her mother thinks her unmarried daughter a great failure.
+mamaka omouto ce toto te pasangaka tanpa yato macigaika gandepe   › Her mother thinks her unmarried daughter a great failure.
 # gloss: mother-N think-V that child her without spouse COP failure-N big-MOD
 
 # --- the mother's protest (tola "refuse"; setuyuboka "understanding") ---
@@ -192,7 +192,7 @@ mamaka nakuto nu minguka                                       › Her mother we
 # gloss: mother-N weep-V two week-N
 te tulito tegamika familika te ingi su                           › She wrote letters to her many relations,
 # gloss: she write-V letter-N family-N her many toward
-i te semato ce wanitaka tolato kawiniboka haope tanpa akiluka  › saying the girl had thrown away a fine marriage for no reason.
+i te semato ce wanitaka tolato kawiniboka haope akiluka tanpa  › saying the girl had thrown away a fine marriage for no reason.
 # gloss: and she say-V that woman-N refuse-V marriage-N good-MOD without reason-N
 
 # --- Catherine unmoved (lisiko "risk"; baca "read") ---
@@ -234,7 +234,7 @@ mamaka, sa te tauto, yato sedipe sana                          › Her mother, o
 # gloss: mother-N, when she know-V, COP sad-MOD very
 adamika nayape motuto uanka pikope, i te mauto hiduto naka tocika te, ne naka kotaka › Fairfax had little money, and meant to stay on his estate, not in town.
 # gloss: man-N new-MOD have-V money-N small-MOD, and he want-V live-V in land-N his, NEG in city-N
-mamaka tayaeto: bafu yu bekito kawinito adamika tanpa malika ke › "How can you marry a man of such limited prospects?" she demanded.
+mamaka tayaeto: bafu yu bekito kawinito adamika malika tanpa ke › "How can you marry a man of such limited prospects?" she demanded.
 # gloss: mother-N ask-V: why you can marry-V man-N without wealth-N Q
 
 # --- Catherine's answer (akali "mind"; pakai "use") ---
