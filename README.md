@@ -4,6 +4,11 @@ A constructed auxiliary language optimised for **adoption via positive transfer
 and low barrier to entry**, with the **first-ever-second-language learner** as
 the primary persona.
 
+**▶ Try it live: <https://nichobbs.github.io/talo-lang/>** — [learn](https://nichobbs.github.io/talo-lang/book.html)
+the language, [read](https://nichobbs.github.io/talo-lang/reader.html) real texts
+with tap-for-vocabulary and reveal-the-translation, [practice](https://nichobbs.github.io/talo-lang/practice.html),
+and [search the dictionary](https://nichobbs.github.io/talo-lang/lookup.html).
+
 This repo is a **spec-plus-dataset** project:
 
 - the design constitution and decision log live in `docs/`
